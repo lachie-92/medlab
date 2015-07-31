@@ -1,0 +1,96 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Login navigation bar
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_navbar_login_wrapper {
+  background-color: $navi-login-background;
+}
+
+.medlab_navbar_login_container {
+  height: auto;
+}
+
+.medlab_navbar_login_item {
+  padding: 7px 10px 5px 10px !important;
+  color: $navi-login-text-colour;
+  display: inline-block !important;
+}
+
+.medlab_navbar_login_item:hover {
+  color: $navi-text-colour-focus;
+}
+
+.medlab_navbar_login_glyphcon {
+  top: 3px;
+}
+
+.medlab_navbar_login_shopping {
+  border-left: 1px solid $navi-shopping-border-colour;
+  border-right: 1px solid $navi-shopping-border-colour;
+  display: inline-block !important;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////
+//
+// Main navigation bar
+//
+////////////////////////////////////////////////////////////////////////////////
+
+.medlab_navbar_wrapper {
+  background: $navi-background;
+  border-bottom: 10px solid $navi-border-colour;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.medlab_navbar_container {
+  padding: 5px 15px 0px 15px;
+}
+
+.medlab_navbar_brand {
+  padding-top: 0px;
+}
+
+.medlab_navbar_logo {
+  width: 340px;
+  display: block;
+}
+
+.medlab_navbar_dropdown {
+  line-height: 60px !important;
+  margin-top: -5px;
+  text-align: center;
+  font-size: 22px;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: $navi-text-colour !important;
+}
+
+.medlab_navbar_dropdown:focus {
+  background: $navi-active-colour !important;
+  color: $navi-text-colour-focus !important;
+}
+
+.medlab_navbar_dropdown:hover {
+  background: $navi-active-colour !important;
+  color: $navi-text-colour-focus !important;
+}
+
+.medlab_navbar_dropdown_menu {
+  padding: 0px;
+  background-color: $navi-submenu-background-colour;
+  font-size: 20px;
+  color: $navi-submenu-text-colour;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.medlab_navbar_dropdown_menu_item {
+  text-align: left;
+}
+
+.medlab_navbar_dropdown_menu_item:hover {
+  background: $navi-submenu-background-colour-focus !important;
+  color: $navi-submenu-text-colour-focus !important;
+}

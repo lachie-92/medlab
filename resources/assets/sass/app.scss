@@ -1,2 +1,9 @@
-// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
+@import "layout/media.scss";
+@import "layout/font.scss";
+@import "layout/colour.scss";
+@import "layout/body.scss";
+@import "layout/navigation.scss";
+@import "layout/carousel.scss";
+@import "layout/footer.scss";

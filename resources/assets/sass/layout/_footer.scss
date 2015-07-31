@@ -1,0 +1,112 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Footer Top
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_footer_top_wrapper {
+  background-color: $footer-top-background;
+  border-top: 3px solid $footer-top-border-colour;
+  margin-top: 20px;
+}
+
+.medlab_footer_top_container {
+  padding: 20px 15px 30px 15px;
+}
+
+.medlab_footer_top_site_map_box {
+  color: $medlab_footer_top_site_map_box_text;
+}
+
+.medlab_footer_top_site_map_box_header {
+  margin-top: 0px;
+}
+
+.medlab_footer_top_site_map_box_header_link {
+  font-size: 14px;
+  color: $medlab_footer_top_site_map_box_text;
+  font-family: "PT Sans",sans-serif;
+}
+
+.medlab_footer_top_site_map_box_header_link:hover {
+  color: $medlab_footer_top_site_map_box_text-hover;
+}
+
+.medlab_footer_top_site_map_box_list {
+  margin: 0px;
+  padding: 0px 0px 10px 0px;
+  list-style: outside none none;
+}
+
+.medlab_footer_top_site_map_box_link {
+  font-size: 14px;
+  color: $medlab_footer_top_site_map_box_text;
+  font-family: "Open Sans",sans-serif;
+}
+
+.medlab_footer_top_site_map_box_link:hover {
+  color: $medlab_footer_top_site_map_box_text-hover;
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Footer Bottom
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_footer_bottom_wrapper {
+  background-color: $footer-bottom-background;
+}
+
+.medlab_footer_bottom_container {
+  padding: 20px 15px 30px 15px;
+}
+
+.medlab_footer_bottom_contact_info_box {
+  padding-bottom: 20px;
+  color: $footer-bottom-contact-info-box-text;
+  font-size: 12px;
+  font-family: "Open Sans",sans-serif;
+}
+
+.medlab_footer_bottom_contact_info_box_header {
+  color: $footer-bottom-contact-info-box-header-text;
+  font-size: 16px;
+  font-family: "PT Sans",sans-serif;
+}
+
+.medlab_footer_bottom_contact_info_box_link {
+  color: $footer-bottom-contact-info-box-text;
+}
+
+.medlab_footer_bottom_contact_info_box_link:hover {
+  color: $footer-bottom-contact-info-box-text-hover;
+}
+
+.medlab_footer_bottom_contact_info_box_icon {
+  background-color: $footer-bottom-contact-info-box-text;
+  color: $footer-bottom-background;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 3px;
+  line-height: 30px;
+}
+
+.medlab_footer_bottom_copyright_box {
+  border-top: 1px solid $footer-bottom-copyright-box-border-colour;
+  padding-top: 20px;
+  color: $footer-bottom-copyright-box-text;
+  font-size: 12px;
+}
+
+.medlab_footer_bottom_copyright_box_link {
+  color: $footer-bottom-copyright-box-text;
+  font-size: 12px;
+}
+
+.medlab_footer_bottom_copyright_box_link:hover {
+  color: $footer-bottom-copyright-box-text-hover;
+}

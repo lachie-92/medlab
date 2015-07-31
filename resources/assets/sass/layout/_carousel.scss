@@ -1,0 +1,55 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Carousel
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_carousel_image {
+  width: 100%;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Carousel Bottom Panel
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_carousel_bottom_panel_table {
+  width: 100%;
+  font-size: 26px;
+  font-family: "PT Sans",Helvetica,"Trebuchet MS",Arial,sans-serif;
+}
+
+.medlab_carousel_bottom_panel_column1 {
+  width: 33%;
+  background-color: $carousel-bottom-panel-column1-background;
+  color: $carousel-bottom-panel-text;
+  padding: 30px 0px 25px 0px;
+  text-align: center;
+}
+
+.medlab_carousel_bottom_panel_column2 {
+  width: 33%;
+  background-color: $carousel-bottom-panel-column2-background;
+  color: $carousel-bottom-panel-text;
+  padding: 30px 0px 25px 0px;
+  text-align: center;
+}
+
+.medlab_carousel_bottom_panel_column3 {
+  width: 33%;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.medlab_carousel_bottom_panel_column3_link {
+  background-color: $carousel-bottom-panel-column3-background;
+  color: $carousel-bottom-panel-text;
+  padding: 30px 0px 25px 0px;
+}
+
+.medlab_carousel_bottom_panel_column3_link:hover {
+  color: $carousel-bottom-panel-column3-background;
+  background-color: $carousel-bottom-panel-text;
+}
