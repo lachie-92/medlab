@@ -1,0 +1,111 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// News Main
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_news_container {
+  padding: 20px 0px 0px 0px;
+}
+
+.medlab_news_item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+
+.medlab_news_item_title {
+  padding: 5px 20px 5px 20px;
+  background-color: $news-title-background;
+  opacity: 0.8;
+  font-family: "PT Sans",sans-serif;
+  font-size: 20px;
+  color: $news-title-text;
+}
+
+.medlab_news_item_body {
+  padding: 20px 15px 20px 15px;
+  color: $news-body-text;
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif;
+  display: inline-block;
+}
+
+.medlab_news_item_content_wrapper {
+  background-color: $news-body-background;
+}
+
+.medlab_news_content_title {
+  margin-top: 0px;
+  color: $news-content-title-text;
+  font-size: 28px;
+  font-family: "PT Sans Bold",sans-serif;
+}
+
+.medlab_news_content_paragraph {
+  padding-bottom: 20px;
+}
+
+.medlab_news_content_link {
+  color: $news-content-link-text;
+}
+
+.medlab_news_content_link:hover {
+  color: $news-content-link-text-hover;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// News Sidebar
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_news_sidebar_item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+
+.medlab_news_sidebar_item_title {
+  padding: 5px 20px 5px 20px;
+  background-color: $news-title-background;
+  opacity: 0.8;
+  font-family: "PT Sans",sans-serif;
+  font-size: 20px;
+  color: $news-title-text;
+}
+
+.medlab_news_sidebar_item_body {
+  padding: 20px 10px 20px 10px;
+  color: $news-body-text;
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif;
+}
+
+.medlab_news_sidebar_list {
+  padding: 0px 0px 0px 0px;
+}
+
+.medlab_news_sidebar_list_item {
+  list-style: outside none none;
+  padding-bottom: 15px;
+}
+
+.medlab_news_sidebar_list_item_title {
+  color: $news-sidebar-list-item-title-text;
+  font-family: "PT Sans Bold",sans-serif;
+  font-size: 16px;
+}
+
+.medlab_news_sidebar_list_item_body {
+  color: $news-sidebar-list-item-body-text;
+  font-family: "Open Sans",sans-serif;
+  font-size: 13px;
+  border-top: 1px solid $news-sidebar-list-item-body-border;
+  border-bottom: 1px solid $news-sidebar-list-item-body-border;
+}
+
+.medlab_news_sidebar_list_item_image {
+  height: 75px;
+}

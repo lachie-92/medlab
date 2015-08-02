@@ -6,6 +6,12 @@
   .medlab_carousel_bottom_panel_table {
     font-size: 16px !important; } }
 
+@media (min-width: 1000px) and (max-width: 1920px) {
+  .medlab_news_item {
+    padding-right: 5px !important; }
+  .medlab_news_sidebar_item {
+    padding-left: 5px !important; } }
+
 @font-face {
   font-family: "PT Sans Narrow";
   font-style: normal;
@@ -13,10 +19,16 @@
   src: local("PT Sans Narrow"), local("PTSans-Narrow"), url("http://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4UU-p1xzoRgkupcXIqgYFBc.woff2") format("woff2"), url("http://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff") format("woff"); }
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "PT Sans Bold";
   font-style: normal;
   font-weight: 700;
   src: local("PT Sans Bold"), local("PTSans-Bold"), url("http://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNPk_vArhqVIZ0nv9q090hN8.woff2") format("woff2"), url("http://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff") format("woff"); }
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("PT Sans"), local("PTSans-Regular"), url("http://fonts.gstatic.com/s/ptsans/v8/ATKpv8nLYAKUYexo8iqqrg.woff2") format("woff2"), url("http://fonts.gstatic.com/s/ptsans/v8/LKf8nhXsWg5ybwEGXk8UBQ.woff") format("woff"); }
 
 @font-face {
   font-family: "Open Sans";
@@ -101,7 +113,7 @@ body {
 .medlab_carousel_bottom_panel_table {
   width: 100%;
   font-size: 26px;
-  font-family: "PT Sans",Helvetica,"Trebuchet MS",Arial,sans-serif; }
+  font-family: "PT Sans Bold",Helvetica,"Trebuchet MS",Arial,sans-serif; }
 
 .medlab_carousel_bottom_panel_column1 {
   width: 33%;
@@ -131,6 +143,88 @@ body {
   color: #1E5494;
   background-color: #FFF; }
 
+.medlab_news_container {
+  padding: 20px 0px 0px 0px; }
+
+.medlab_news_item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px; }
+
+.medlab_news_item_title {
+  padding: 5px 20px 5px 20px;
+  background-color: #1E5494;
+  opacity: 0.8;
+  font-family: "PT Sans",sans-serif;
+  font-size: 20px;
+  color: #FFF; }
+
+.medlab_news_item_body {
+  padding: 20px 15px 20px 15px;
+  color: #333;
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif;
+  display: inline-block; }
+
+.medlab_news_item_content_wrapper {
+  background-color: #FFF; }
+
+.medlab_news_content_title {
+  margin-top: 0px;
+  color: #7AA43F;
+  font-size: 28px;
+  font-family: "PT Sans Bold",sans-serif; }
+
+.medlab_news_content_paragraph {
+  padding-bottom: 20px; }
+
+.medlab_news_content_link {
+  color: #7AA43F; }
+
+.medlab_news_content_link:hover {
+  color: #7AA43F; }
+
+.medlab_news_sidebar_item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px; }
+
+.medlab_news_sidebar_item_title {
+  padding: 5px 20px 5px 20px;
+  background-color: #1E5494;
+  opacity: 0.8;
+  font-family: "PT Sans",sans-serif;
+  font-size: 20px;
+  color: #FFF; }
+
+.medlab_news_sidebar_item_body {
+  padding: 20px 10px 20px 10px;
+  color: #333;
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif; }
+
+.medlab_news_sidebar_list {
+  padding: 0px 0px 0px 0px; }
+
+.medlab_news_sidebar_list_item {
+  list-style: outside none none;
+  padding-bottom: 15px; }
+
+.medlab_news_sidebar_list_item_title {
+  color: #1E5494;
+  font-family: "PT Sans Bold",sans-serif;
+  font-size: 16px; }
+
+.medlab_news_sidebar_list_item_body {
+  color: #232323;
+  font-family: "Open Sans",sans-serif;
+  font-size: 13px;
+  border-top: 1px solid #F7F7F7;
+  border-bottom: 1px solid #F7F7F7; }
+
+.medlab_news_sidebar_list_item_image {
+  height: 75px; }
+
 .medlab_footer_top_wrapper {
   background-color: #1E5494;
   border-top: 3px solid #7AA43F;
@@ -148,7 +242,7 @@ body {
 .medlab_footer_top_site_map_box_header_link {
   font-size: 14px;
   color: #EAEAEA;
-  font-family: "PT Sans",sans-serif; }
+  font-family: "PT Sans Bold",sans-serif; }
 
 .medlab_footer_top_site_map_box_header_link:hover {
   color: #FFFFFF; }
@@ -181,7 +275,7 @@ body {
 .medlab_footer_bottom_contact_info_box_header {
   color: #FFF;
   font-size: 16px;
-  font-family: "PT Sans",sans-serif; }
+  font-family: "PT Sans Bold",sans-serif; }
 
 .medlab_footer_bottom_contact_info_box_link {
   color: #C0C0C0; }
