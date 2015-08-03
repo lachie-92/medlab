@@ -1,0 +1,20 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Breadcrumbs
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_breadcrumbs_wrapper {
+  background-color: $breadcrumbs-background;
+}
+
+.medlab_breadcrumbs {
+  margin-bottom: 0px;
+  background-color: $breadcrumbs-background;
+  font-family: "Open Sans",sans-serif;
+  font-size: 13px;
+}
+
+.medlab_breadcrumbs_link {
+  color: $breadcrumb-link;
+}

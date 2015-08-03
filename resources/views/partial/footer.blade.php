@@ -125,36 +125,42 @@
                 <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/about/about-us">
                             ABOUT US
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Our Company</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/our-company">Our Company</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Scientific Team</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/scientific-team">Scientific Team</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Management Team</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/management-team">Management Team</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Consultant Team</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/consultant-team">Consultant Team</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Company Culture</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/board-of-directors">Board of Directors</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Letter From THE CEO</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/company-culture">Company Culture</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">InMed Technology</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/letter-from-ceo">Letter From THE CEO</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="https://www.inmedtech.co/">InMed Technology</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/privacy-policy">Privacy Policy</a>
                         </li>
                     </ul>
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/contact">
                             CONTACT US
                         </a>
                     </h3>
@@ -195,20 +201,20 @@
                         <label>Toll Free: </label> 1300 369 570 <br>
                         <label>Phone: </label> 02 8188 0311 <br>
                         <label>Fax: </label> 02 8007 05580 <br>
-                        <label>Email: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="#">hello@medlab.co</a> <br>
+                        <label>Email: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="mailto:hello@medlab.co">hello@medlab.co</a> <br>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <h4 class="medlab_footer_bottom_contact_info_box_header">
                         Follow Us
                     </h4>
-                    <a href="#" class="medlab_footer_bottom_contact_info_box_icon">
+                    <a href="https://www.facebook.com/medlabAUS" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a href="#" class="medlab_footer_bottom_contact_info_box_icon">
+                    <a href="http://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-vimeo-square"></i>
                     </a>
-                    <a href="#" class="medlab_footer_bottom_contact_info_box_icon">
+                    <a href="https://vimeo.com/user30326229" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-linkedin"></i>
                     </a>
                 </div>
@@ -227,9 +233,9 @@
                     All Contents Copyright &copy; 2014 Medlab Clinical&reg; All rights reserved
                 </div>
                 <div class="col-md-6" style="text-align: right">
-                    <a class="medlab_footer_bottom_copyright_box_link" href="#">Contact Us</a>
+                    <a class="medlab_footer_bottom_copyright_box_link" href="/contact">Contact Us</a>
                     &nbsp &nbsp &nbsp &nbsp
-                    <a class="medlab_footer_bottom_copyright_box_link" href="#">Privacy Policy</a>
+                    <a class="medlab_footer_bottom_copyright_box_link" href="/about/privacy-policy">Privacy Policy</a>
                 </div>
             </div>
 

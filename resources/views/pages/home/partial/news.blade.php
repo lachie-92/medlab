@@ -5,7 +5,9 @@
 ------------------------------------------------------------------------------------->
 <div class="container medlab_news_container">
     <div class="row">
-        <!-- News Main -->
+        <!--
+        -- News Main
+        -->
         <div class="col-md-8 col-sm-12 col-xs-12">
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
@@ -42,7 +44,9 @@
                 </div>
             </div>
         </div>
-        <!-- News Sidebar -->
+        <!--
+        -- News Sidebar
+        -->
         <div class="col-md-4 col-sm-12 col-xs-12">
             <div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
