@@ -66,17 +66,17 @@
         <div class="collapse navbar-collapse" id="medlab-main-navbar">
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="/about" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
                         About Us
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Our Company</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Management Team</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Scientific Team</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Consultant Team</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Board of Director</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Company Culture</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Letter From CEO</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/our-company">Our Company</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/management-team">Management Team</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/scientific-team">Scientific Team</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/consulting-team">Consulting Team</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/board-of-directors">Board of Director</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/company-culture">Company Culture</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/letter-from-ceo">Letter From CEO</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

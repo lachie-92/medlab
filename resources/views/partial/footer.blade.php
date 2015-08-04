@@ -125,7 +125,7 @@
                 <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="/about/about-us">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/about">
                             ABOUT US
                         </a>
                     </h3>
@@ -140,7 +140,7 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/about/management-team">Management Team</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/about/consultant-team">Consultant Team</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/consulting-team">Consulting Team</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/about/board-of-directors">Board of Directors</a>

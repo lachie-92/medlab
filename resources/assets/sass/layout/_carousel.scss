@@ -47,9 +47,8 @@
   background-color: $carousel-bottom-panel-column3-background;
   color: $carousel-bottom-panel-text;
   padding: 30px 0px 25px 0px;
-}
-
-.medlab_carousel_bottom_panel_column3_link:hover {
-  color: $carousel-bottom-panel-column3-background;
-  background-color: $carousel-bottom-panel-text;
+  &:hover, &:active, &:focus {
+    color: $carousel-bottom-panel-column3-background;
+    background-color: $carousel-bottom-panel-text;
+  }
 }

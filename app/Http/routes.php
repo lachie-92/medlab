@@ -21,7 +21,7 @@ Route::get('/', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('about/about-us', function () {
+Route::get('about', function () {
     return view('pages.about.about-us.index');
 });
 

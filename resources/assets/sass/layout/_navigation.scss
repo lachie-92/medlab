@@ -66,16 +66,10 @@
   font-size: 22px;
   font-family: "PT Sans Narrow", sans-serif;
   color: $navi-text-colour !important;
-}
-
-.medlab_navbar_dropdown:focus {
-  background: $navi-active-colour !important;
-  color: $navi-text-colour-focus !important;
-}
-
-.medlab_navbar_dropdown:hover {
-  background: $navi-active-colour !important;
-  color: $navi-text-colour-focus !important;
+  &:hover, &:active, &:focus {
+    background: $navi-active-colour !important;
+    color: $navi-text-colour-focus !important;
+  }
 }
 
 .medlab_navbar_dropdown_menu {
@@ -88,9 +82,8 @@
 
 .medlab_navbar_dropdown_menu_item {
   text-align: left;
-}
-
-.medlab_navbar_dropdown_menu_item:hover {
-  background: $navi-submenu-background-colour-focus !important;
-  color: $navi-submenu-text-colour-focus !important;
+  &:hover, &:active, &:focus {
+    background: $navi-submenu-background-colour-focus !important;
+    color: $navi-submenu-text-colour-focus !important;
+  }
 }
