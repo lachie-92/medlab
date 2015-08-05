@@ -15,6 +15,57 @@ Route::get('/', function () {
     return view('pages.home.index');
 });
 
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Policies
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('policies', function () {
+    return view('pages.policies.privacy-policy.index');
+});
+
+Route::get('policies/privacy-policy', function () {
+    return view('pages.policies.privacy-policy.index');
+});
+
+Route::get('policies/terms-and-conditions', function () {
+    return view('pages.policies.terms-and-conditions.index');
+});
+
+Route::get('policies/medlab-sales-policy', function () {
+    return view('pages.policies.medlab-sales-policy.index');
+});
+
+Route::get('policies/faq', function () {
+    return view('pages.policies.faq.index');
+});
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Research
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('research', function () {
+    return view('pages.research.research.index');
+});
+
+Route::get('research/why-medlab', function () {
+    return view('pages.research.why-medlab.index');
+});
+
+Route::get('research/registration', function () {
+    return view('pages.research.research-registration.index');
+});
+
+Route::get('research/patents', function () {
+    return view('pages.research.patents.index');
+});
+
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // About pages
@@ -47,10 +98,6 @@ Route::get('about/management-team', function () {
 
 Route::get('about/our-company', function () {
     return view('pages.about.our-company.index');
-});
-
-Route::get('about/privacy-policy', function () {
-    return view('pages.about.privacy-policy.index');
 });
 
 Route::get('about/scientific-team', function () {

@@ -85,39 +85,39 @@
                 <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/policies">
                             POLICIES
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Privacy Policy</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/policies/privacy-policy">Privacy Policy</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Terms & Conditions</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/policies/terms-and-conditions">Terms & Conditions</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Medlab Sales Policy</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/policies/medlab-sales-policy">Medlab Sales Policy</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">FAQ</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/policies/faq">FAQ</a>
                         </li>
                     </ul>
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/research">
                             RESEARCH
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Why Medlab</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/why-medlab">Why Medlab</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Research Registration</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/registration">Research Registration</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Patents</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/patents">Patents</a>
                         </li>
                     </ul>
 
@@ -153,9 +153,6 @@
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="https://www.inmedtech.co/">InMed Technology</a>
-                        </li>
-                        <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/about/privacy-policy">Privacy Policy</a>
                         </li>
                     </ul>
 
