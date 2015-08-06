@@ -50,28 +50,28 @@
                 <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/order">
                             ORDERING
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Shipping & Delivery</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/shipping-and-delivery">Shipping & Delivery</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Website Access & Registration Benefits</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/website-access-and-registration-benefits">Website Access & Registration Benefits</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Returns</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/returns">Returns</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Payment, Pricing & Discounts</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/payment-pricing-and-discounts">Payment, Pricing & Discounts</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Patient Management Tool</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/patient-management-tool">Patient Management Tool</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Order & Stocking</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/order-and-stocking">Order & Stocking</a>
                         </li>
                     </ul>
 
@@ -114,10 +114,19 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/research/why-medlab">Why Medlab</a>
                         </li>
                         <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/medlab-delivery-platform">Medlab Delivery Platform</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/the-medlab-solution">The Medlab Solution</a>
+                        </li>
+                        <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/research/registration">Research Registration</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/research/patents">Patents</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/clinical-trails">Clinical Trails</a>
                         </li>
                     </ul>
 

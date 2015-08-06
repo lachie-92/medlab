@@ -18,6 +18,41 @@ Route::get('/', function () {
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
+// Order
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('order', function () {
+    return view('pages.order.order.index');
+});
+
+Route::get('order/order-and-stocking', function () {
+    return view('pages.order.order-and-stocking.index');
+});
+
+Route::get('order/patient-management-tool', function () {
+    return view('pages.order.patient-management-tool.index');
+});
+
+Route::get('order/payment-pricing-and-discounts', function () {
+    return view('pages.order.payment-pricing-and-discounts.index');
+});
+
+Route::get('order/returns', function () {
+    return view('pages.order.returns.index');
+});
+
+Route::get('order/shipping-and-delivery', function () {
+    return view('pages.order.shipping-and-delivery.index');
+});
+
+Route::get('order/website-access-and-registration-benefits', function () {
+    return view('pages.order.website-access-and-registration-benefits.index');
+});
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
 // Policies
 //
 ///////////////////////////////////////////////////////////////////////////////////
@@ -57,12 +92,24 @@ Route::get('research/why-medlab', function () {
     return view('pages.research.why-medlab.index');
 });
 
+Route::get('research/the-medlab-solution', function () {
+    return view('pages.research.the-medlab-solution.index');
+});
+
+Route::get('research/medlab-delivery-platform', function () {
+    return view('pages.research.medlab-delivery-platform.index');
+});
+
 Route::get('research/registration', function () {
     return view('pages.research.research-registration.index');
 });
 
 Route::get('research/patents', function () {
     return view('pages.research.patents.index');
+});
+
+Route::get('research/clinical-trails', function () {
+    return view('pages.research.clinical-trails.index');
 });
 
 

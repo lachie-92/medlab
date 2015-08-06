@@ -2,8 +2,6 @@
 --
 -- FAQ
 --
--- Note - the two links at the bottom for return and delivery go to InMed Technology
---
 ------------------------------------------------------------------------------------->
 <div class="container medlab_panel_container">
     <div class="row">
@@ -222,7 +220,7 @@
                     </p>
 
                     <p>
-                        Please view all our shipping options <a class="medlab_panel_content_link" href="http://www.inmedtech.co/order-information/shipping-delivery">here</a>.
+                        Please view all our shipping options <a class="medlab_panel_content_link" href="/order/shipping-and-delivery">here</a>.
                     </p>
 
                     <p>
@@ -240,7 +238,7 @@
 
                     <p>
                         Items returned must be unopened, re-sealable merchandise that is in its original condition. This means you have not used or damaged
-                        any of the items. Please refer to our <a class="medlab_panel_content_link" href="http://www.inmedtech.co/order-information/returns">Returns Policy</a>
+                        any of the items. Please refer to our <a class="medlab_panel_content_link" href="/order/returns">Returns Policy</a>
                         for more information.
                         <br/>
                     </p>

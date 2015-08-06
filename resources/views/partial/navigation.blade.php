@@ -80,16 +80,17 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="/research" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
                         Research
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Research</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Medlab Delivery Platform</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Why Medlab</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Patents</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Research Registration</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Clinical Trail</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research">Research</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/medlab-delivery-platform">Medlab Delivery Platform</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/why-medlab">Why Medlab</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/the-medlab-solution">The Medlab Solution</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/patents">Patents</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/registration">Research Registration</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trails">Clinical Trails</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

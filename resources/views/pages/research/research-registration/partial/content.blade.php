@@ -2,8 +2,6 @@
 --
 -- Research Registration
 --
--- External form cloud storage
---
 ------------------------------------------------------------------------------------->
 <div class="container medlab_panel_container">
     <div class="row">
