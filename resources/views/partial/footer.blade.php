@@ -24,25 +24,30 @@
                     </ul>
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/education">
                             EDUCATION
                         </a>
+                        <ul class="medlab_footer_top_site_map_box_list">
+                            <li>
+                                <a class="medlab_footer_top_site_map_box_link" href="/education/publications">Publications</a>
+                            </li>
+                        </ul>
                     </h3>
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/newsletter">
                             NEWSLETTER
                         </a>
                     </h3>
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/help">
                             HELP
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">Website Registration</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/help/website-registration">Website Registration</a>
                         </li>
                     </ul>
 
@@ -75,9 +80,24 @@
                         </li>
                     </ul>
 
+                    <h3 class="medlab_footer_top_site_map_box_header">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/investor">
+                            INVESTOR
+                        </a>
+                    </h3>
+                    <ul class="medlab_footer_top_site_map_box_list">
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/investor/corporate-governance">Corporate Governance</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/investor/asx-announcements">ASX Announcements</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/investor/share-price">Share Price</a>
+                        </li>
+                    </ul>
+
                     <!-- Make the 2nd column's height greater than the 1st column for responsive view -->
-                    <br>
-                    <br>
                     <br>
                     <br>
 

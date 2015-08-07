@@ -108,13 +108,19 @@
                     <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
                         Investors
                     </a>
+                    <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor">Investor Center</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/asx-announcements">Asx Announcements</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/corporate-governance">Corporate Governance</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/share-price">Share Price</a></li>
+                    </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
                         Education
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Paper</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/education/publications">Publications</a></li>
                     </ul>
                 </li>
             </ul>

@@ -43,6 +43,23 @@
                     </div>
                 </div>
             </div>
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_body">
+                        <h2 class="medlab_news_content_title">
+                            <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/0012_GPCE_ConferenceBroc_Brisbane_low%20res.pdf?v=635683895431768507" class="medlab_news_content_link">
+                                Dr Samantha Coulson contributes to the scientific program
+                            </a>
+                        </h2>
+                        <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/0012_GPCE_ConferenceBroc_Brisbane_low%20res.pdf?v=635683895431768507">
+                            <div class="container-fluid" >
+                                <img src="/img/news/Feature_BrisbaneGPCEv2.png" width="100%" alt="GPCE"/>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--
         -- News Sidebar

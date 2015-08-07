@@ -15,6 +15,46 @@ Route::get('/', function () {
     return view('pages.home.index');
 });
 
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Educations
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('education', function () {
+    return view('pages.education.education.index');
+});
+
+Route::get('education/publications', function () {
+    return view('pages.education.publications.index');
+});
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Newsletter
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('newsletter', function () {
+    return view('pages.newsletter.index');
+});
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Help
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('help', function () {
+    return view('pages.help.website-registration.index');
+});
+
+Route::get('help/website-registration', function () {
+    return view('pages.help.website-registration.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
@@ -49,6 +89,34 @@ Route::get('order/shipping-and-delivery', function () {
 Route::get('order/website-access-and-registration-benefits', function () {
     return view('pages.order.website-access-and-registration-benefits.index');
 });
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Investor
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('investor', function () {
+    return view('pages.investor.investor.index');
+});
+
+Route::get('investor/corporate-governance', function () {
+    return view('pages.investor.corporate-governance.index');
+});
+
+Route::get('investor/prospectus', function () {
+    return view('pages.investor.prospectus.index');
+});
+
+Route::get('investor/asx-announcements', function () {
+    return view('pages.investor.asx-announcements.index');
+});
+
+Route::get('investor/share-price', function () {
+    return view('pages.investor.share-price.index');
+});
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////
