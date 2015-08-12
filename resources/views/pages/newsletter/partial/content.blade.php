@@ -19,7 +19,7 @@
                         this is the newsletter page
                     </p>
 
-                    <form action="" method="post" id="newsletter-validate-detail">
+                    <form action="" method="post">
 
                         <label for="newsletter">Sign up if you would like to receive occasional news from us.</label>
                         <div class="input-group">

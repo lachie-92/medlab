@@ -30,8 +30,7 @@
 
 .medlab_panel_content_link {
   color: $panel-content-link;
-}
-
-.medlab_panel_content_link:hover {
-  color: $panel-content-link;
+  &:hover, &:active, &:focus {
+    color: $panel-content-link;
+  }
 }

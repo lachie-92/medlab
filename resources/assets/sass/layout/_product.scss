@@ -1,0 +1,78 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Product
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_product_main_column {
+
+}
+
+.medlab_product_side_column {
+
+}
+
+.medlab_product_content_title {
+  color: $product-content-title;
+  font-family: "Open Sans Condensed",sans-serif;
+}
+
+.medlab_product_content_sub_title {
+  color: $product-content-title;
+  font-family: "Open Sans Bold",sans-serif;
+}
+
+.medlab_product_info_title {
+  margin-top: 0px;
+  background: $product-info-title;
+  color: $product-info-title-text;
+  padding: 0px 10px 0px 20px;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: "Open Sans Condensed",sans-serif;
+}
+
+.medlab_product_info_in_stock {
+  color: $product-info-in-stock;
+  font-family: "Open Sans Bold",sans-serif;
+}
+
+.medlab_product_info_price_box {
+  font-size: 22px;
+  font-weight: 700;
+  border: medium none;
+  background-color: transparent;
+}
+
+.medlab_product_info_price_box_label {
+  color: $product-info-label;
+  font-size: 12px;
+  display: block;
+  text-align: left;
+}
+
+.medlab_product_info_price_box_price {
+  color: $product-info-price;
+}
+
+.medlab_product_info_shop_box {
+  margin: 10px 5px 20px 5px;
+}
+
+.medlab_product_info_shop_box_button {
+  color: $product-info-shop-button-text;
+  background: $product-info-shop-button-background;
+  &:hover, &:active, &:focus {
+    color: $product-info-shop-button-text;
+    background: $product-info-shop-button-background-focus;
+  }
+}
+
+.medlab_product_reference_list {
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.medlab_product_ingredients_table {
+  font-size: 12px;
+}

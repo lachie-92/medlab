@@ -10,7 +10,11 @@
   .medlab_news_item {
     padding-right: 5px !important; }
   .medlab_news_sidebar_item {
-    padding-left: 5px !important; } }
+    padding-left: 5px !important; }
+  .medlab_product_main_column {
+    padding-right: 0px !important; }
+  .medlab_product_side_column {
+    padding-left: 0px !important; } }
 
 @font-face {
   font-family: "PT Sans Narrow";
@@ -41,6 +45,12 @@
   font-style: normal;
   font-weight: 700;
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url("https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff") format("woff"); }
+
+@font-face {
+  font-family: "Open Sans Condensed";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Condensed Bold"), local("OpenSans-CondensedBold"), url("https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIF8zhZCJ7x9Pr62cRgaVUA.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff") format("woff"); }
 
 body {
   background-color: #F2F3F9; }
@@ -258,9 +268,8 @@ body {
 
 .medlab_panel_content_link {
   color: #7AA43F; }
-
-.medlab_panel_content_link:hover {
-  color: #7AA43F; }
+  .medlab_panel_content_link:hover, .medlab_panel_content_link:active, .medlab_panel_content_link:focus {
+    color: #7AA43F; }
 
 .medlab_footer_top_wrapper {
   background-color: #1E5494;
@@ -340,5 +349,58 @@ body {
   font-size: 12px; }
   .medlab_footer_bottom_copyright_box_link:hover, .medlab_footer_bottom_copyright_box_link:active, .medlab_footer_bottom_copyright_box_link:focus {
     color: #FFFFFF; }
+
+.medlab_product_content_title {
+  color: #1E5494;
+  font-family: "Open Sans Condensed",sans-serif; }
+
+.medlab_product_content_sub_title {
+  color: #1E5494;
+  font-family: "Open Sans Bold",sans-serif; }
+
+.medlab_product_info_title {
+  margin-top: 0px;
+  background: #009ECD;
+  color: #FFF;
+  padding: 0px 10px 0px 20px;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: "Open Sans Condensed",sans-serif; }
+
+.medlab_product_info_in_stock {
+  color: #3C763D;
+  font-family: "Open Sans Bold",sans-serif; }
+
+.medlab_product_info_price_box {
+  font-size: 22px;
+  font-weight: 700;
+  border: medium none;
+  background-color: transparent; }
+
+.medlab_product_info_price_box_label {
+  color: #555;
+  font-size: 12px;
+  display: block;
+  text-align: left; }
+
+.medlab_product_info_price_box_price {
+  color: #F15C22; }
+
+.medlab_product_info_shop_box {
+  margin: 10px 5px 20px 5px; }
+
+.medlab_product_info_shop_box_button {
+  color: #FFF;
+  background: #F15C22; }
+  .medlab_product_info_shop_box_button:hover, .medlab_product_info_shop_box_button:active, .medlab_product_info_shop_box_button:focus {
+    color: #FFF;
+    background: #EB4C0F; }
+
+.medlab_product_reference_list {
+  font-size: 12px;
+  line-height: 22px; }
+
+.medlab_product_ingredients_table {
+  font-size: 12px; }
 
 /*# sourceMappingURL=app.css.map */
