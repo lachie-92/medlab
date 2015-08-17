@@ -33,6 +33,7 @@ class CreateProductsTable extends Migration
             $table->decimal('price_retail', 8, 2);
             $table->decimal('price_wholesale', 8, 2);
             $table->string('image_path', 255);
+            $table->string('thumb_image_path', 255);
             $table->timestamps();
         });
     }

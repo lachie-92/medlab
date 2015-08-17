@@ -5,6 +5,9 @@ namespace App\Providers;
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
+use App\Product;
+use App\Ingredient;
+
 class RouteServiceProvider extends ServiceProvider
 {
     /**
@@ -24,7 +27,15 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        //
+        $router->bind('productId', function($id){
+
+            return Product::where('idProduct', '=', $id)->firstOrFail();
+        });
+
+        $router->bind('ingredientId', function($id){
+
+            return Ingredient::where('idIngredient', '=', $id)->firstOrFail();
+        });
 
         parent::boot($router);
     }

@@ -1,0 +1,54 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Product List
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_product_list_sorting_bar_container {
+  padding: 0px 0px 0px 0px;
+  margin: 10px auto 10px auto;
+}
+
+.medlab_product_list_sorting_bar {
+  margin: 0px 0px 0px 0px;
+  font-family: "Open Sans",sans-serif;
+}
+
+.medlab_product_list_sorting_bar li a {
+  padding: 8px 9px 8px 9px;
+}
+
+.medlab_product_list_side_bar_panel {
+  background-color: transparent;
+}
+
+.medlab_product_list_main_shopping_box {
+  text-align: center;
+}
+
+.medlab_product_list_main_shopping_box_button_info {
+  margin: 5px 10px 5px 10px;
+  width: 80%;
+}
+
+.medlab_product_list_main_shopping_box_button_add {
+  color: $product-info-shop-button-text;
+  background-color: $product-info-shop-button-background;
+  border-color: $product-info-shop-button-background-focus;
+  margin: 5px 10px 5px 10px;
+  width: 80%;
+  &:hover, &:active, &:focus {
+    color: $product-info-shop-button-text;
+    background: $product-info-shop-button-background-focus;
+  }
+}
+
+.medlab_product_list_side_bar_panel_content {
+  background-color: transparent;
+}
+
+.medlab_product_list_side_bar_content_title {
+  text-align: center;
+  font-family: "Open Sans Condensed",sans-serif;
+}
+

@@ -10,13 +10,16 @@
                 <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="#">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/nutraceuticals/products">
                             NUTRACEUTICALS
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">View by Ingredients</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/products">View by Names</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/ingredients">View by Ingredients</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="#">View by Categories</a>

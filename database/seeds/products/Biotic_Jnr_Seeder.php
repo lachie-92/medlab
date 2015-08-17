@@ -14,6 +14,7 @@ class Biotic_Jnr_Seeder extends Seeder
     {
         Product::create([
 
+            'xero_item_id' => 1,
             'product_name_index' => 'Biotic Jnr.',
             'product_name' => 'Biotic Jnr.&trade;',
             'short_description' =>
@@ -377,12 +378,12 @@ class Biotic_Jnr_Seeder extends Seeder
                     <tbody>
                         <tr>
                             <td width="273" valign="top">
-                                <p align="center">
+                                <p>
                                     <strong>ACTIVE INGREDIENTS</strong>
                                 </p>
                             </td>
                             <td width="136" valign="top">
-                                <p align="center">
+                                <p>
                                     <strong>EACH SCOOP CONTAINS</strong>
                                 </p>
                             </td>
@@ -525,7 +526,8 @@ class Biotic_Jnr_Seeder extends Seeder
                 ',
             'price_retail' => 62.83,
             'price_wholesale' => 38.08,
-            'image_path' => '/img/products/boitic_jnr/bioticjnr.png'
+            'image_path' => '/img/products/boitic_jnr/bioticjnr.png',
+            'thumb_image_path' => '/img/products/boitic_jnr/thumb_bioticjnr.png'
 
         ]);
     }

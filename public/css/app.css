@@ -271,6 +271,12 @@ body {
   .medlab_panel_content_link:hover, .medlab_panel_content_link:active, .medlab_panel_content_link:focus {
     color: #7AA43F; }
 
+.medlab_panel_collapse:after {
+  font-family: 'Glyphicons Halflings';
+  content: "\e114";
+  float: right;
+  color: #FFF; }
+
 .medlab_footer_top_wrapper {
   background-color: #1E5494;
   border-top: 3px solid #7AA43F;
@@ -356,7 +362,8 @@ body {
 
 .medlab_product_content_sub_title {
   color: #1E5494;
-  font-family: "Open Sans Bold",sans-serif; }
+  font-family: "Open Sans Bold",sans-serif;
+  text-align: center; }
 
 .medlab_product_info_title {
   margin-top: 0px;
@@ -372,10 +379,14 @@ body {
   font-family: "Open Sans Bold",sans-serif; }
 
 .medlab_product_info_price_box {
+  display: inline-block;
+  padding: 6px 12px 6px 12px;
   font-size: 22px;
   font-weight: 700;
   border: medium none;
   background-color: transparent; }
+  .medlab_product_info_price_box:hover, .medlab_product_info_price_box:active, .medlab_product_info_price_box:focus {
+    background-color: transparent; }
 
 .medlab_product_info_price_box_label {
   color: #555;
@@ -402,5 +413,43 @@ body {
 
 .medlab_product_ingredients_table {
   font-size: 12px; }
+
+.medlab_product_list_sorting_bar_container {
+  padding: 0px 0px 0px 0px;
+  margin: 10px auto 10px auto; }
+
+.medlab_product_list_sorting_bar {
+  margin: 0px 0px 0px 0px;
+  font-family: "Open Sans",sans-serif; }
+
+.medlab_product_list_sorting_bar li a {
+  padding: 8px 9px 8px 9px; }
+
+.medlab_product_list_side_bar_panel {
+  background-color: transparent; }
+
+.medlab_product_list_main_shopping_box {
+  text-align: center; }
+
+.medlab_product_list_main_shopping_box_button_info {
+  margin: 5px 10px 5px 10px;
+  width: 80%; }
+
+.medlab_product_list_main_shopping_box_button_add {
+  color: #FFF;
+  background-color: #F15C22;
+  border-color: #EB4C0F;
+  margin: 5px 10px 5px 10px;
+  width: 80%; }
+  .medlab_product_list_main_shopping_box_button_add:hover, .medlab_product_list_main_shopping_box_button_add:active, .medlab_product_list_main_shopping_box_button_add:focus {
+    color: #FFF;
+    background: #EB4C0F; }
+
+.medlab_product_list_side_bar_panel_content {
+  background-color: transparent; }
+
+.medlab_product_list_side_bar_content_title {
+  text-align: center;
+  font-family: "Open Sans Condensed",sans-serif; }
 
 /*# sourceMappingURL=app.css.map */

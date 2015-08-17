@@ -94,13 +94,13 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="/nutraceuticals/products" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
                         Nutraceuticals
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Name</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/products">Name</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="#">Categories</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Ingredients</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/ingredients">Ingredients</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="#">Product FAQ</a></li>
                     </ul>
                 </li>

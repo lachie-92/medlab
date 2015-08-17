@@ -17,11 +17,21 @@ Route::get('/', function () {
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
-// Products
+// Nutraceuticals
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('/product', 'ProductController@index');
+Route::get('/nutraceuticals', 'NutraceuticalsController@product');
+
+Route::get('/nutraceuticals/products', 'NutraceuticalsController@product');
+
+Route::get('/nutraceuticals/products/{productId}', 'NutraceuticalsController@show');
+
+Route::get('/nutraceuticals/ingredients', 'NutraceuticalsController@ingredients');
+
+Route::get('/nutraceuticals/ingredients/{ingredientId}', 'NutraceuticalsController@ingredients');
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////

@@ -18,7 +18,7 @@
                 <div class="panel panel-primary medlab_panel">
                     <div class="panel-body medlab_panel_content">
                         <a id="product_modal_link" href="#">
-                            <img id="product_image" alt="Biotic Jnr.&trade;" src="/img/products/boitic_jnr/bioticjnr.png" width="100%"/>
+                            <img id="product_image" alt="{!! $product->product_name !!}" src="{!! $product->image_path !!}" width="100%"/>
                         </a>
                     </div>
                 </div>
@@ -37,7 +37,7 @@
                             Availability: <span class="medlab_product_info_in_stock">In stock</span>
                         </p>
 
-                        <div class="btn btn-default medlab_product_info_price_box">
+                        <div class="medlab_product_info_price_box">
                             <span class="medlab_product_info_price_box_label">
                                 Price:
                             </span>
