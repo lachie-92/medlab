@@ -41,7 +41,7 @@
                                 @foreach($ingredient->products as $product)
                                     <div class="row">
                                         <div class="col-md-3 col-sm-3 col-xs-3">
-                                            <a>
+                                            <a href="/nutraceuticals/products/{{ $product->idProduct }}">
                                                 <img alt="missing picture" src="{{ $product->thumb_image_path }}">
                                             </a>
                                         </div>

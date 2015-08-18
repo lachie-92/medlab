@@ -31,6 +31,7 @@ class DatabaseSeeder extends Seeder
         $this->call(MultiBiotic_30s_Seeder::class);
         $this->call(NRGBiotic_120s_Seeder::class);
         $this->call(NRGBiotic_60s_Seeder::class);
+        $this->call(NanoCelle_B12_Seeder::class);
 
         $this->call(IngredientsTableSeeder::class);
         $this->call(IngredientProductSeeder::class);

@@ -55,6 +55,9 @@
 body {
   background-color: #F2F3F9; }
 
+.wrap {
+  min-height: 600px; }
+
 .medlab_navbar_login_wrapper {
   background-color: #F2F3F9; }
 

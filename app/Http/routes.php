@@ -31,6 +31,8 @@ Route::get('/nutraceuticals/ingredients', 'NutraceuticalsController@ingredients'
 
 Route::get('/nutraceuticals/ingredients/{ingredientId}', 'NutraceuticalsController@ingredients');
 
+Route::get('/nutraceuticals/faq', 'NutraceuticalsController@faq');
+
 
 
 

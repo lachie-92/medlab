@@ -22,11 +22,18 @@
 
 <body>
 
+
+
 @include('partial.navigation')
+
+<div class="wrap">
 
 @yield('content')
 
+</div>
+
 @include('partial.footer')
+
 
 
 <!-- JQuery -->

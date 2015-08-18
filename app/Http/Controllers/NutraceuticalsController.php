@@ -72,6 +72,10 @@ class NutraceuticalsController extends Controller
         return view('pages.nutraceuticals.sortbyingredient.index', compact('ingredients', 'ingredientList'));
     }
 
+    public function faq()
+    {
+        return view('pages.nutraceuticals.faq.index');
+    }
 
     private function createSortList($enableList)
     {

@@ -21,9 +21,6 @@ class Biotic_Jnr_Seeder extends Seeder
                 '
                 <h4 class="medlab_product_content_title">Biotic Jnr.&trade;</h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
-                <p>
                     Biotic Jnr.&trade; is a multi-species probiotic preparation to promote gastrointestinal and immune
                     maturation.
                 </p>
