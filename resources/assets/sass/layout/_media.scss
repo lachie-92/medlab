@@ -14,6 +14,20 @@
 
 }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+
+  .medlab_panel_image_title {
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 571px) {
+
+  .medlab_panel_image_title {
+    font-size: 8px !important;
+  }
+}
+
 @media (min-width: 1000px) and (max-width: 1920px) {
 
   .medlab_news_item {

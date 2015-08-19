@@ -19,4 +19,9 @@ class Product extends Model
     {
         return $this->belongsToMany('App\Ingredient', 'ingredient_product', 'idProduct', 'idIngredient')->withTimestamps();
     }
+
+    public function categories()
+    {
+        return $this->belongsToMany('App\Category', 'category_product', 'idProduct', 'idCategory')->withTimestamps();
+    }
 }

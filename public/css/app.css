@@ -6,6 +6,14 @@
   .medlab_carousel_bottom_panel_table {
     font-size: 16px !important; } }
 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .medlab_panel_image_title {
+    font-size: 12px !important; } }
+
+@media (min-width: 0px) and (max-width: 571px) {
+  .medlab_panel_image_title {
+    font-size: 8px !important; } }
+
 @media (min-width: 1000px) and (max-width: 1920px) {
   .medlab_news_item {
     padding-right: 5px !important; }
@@ -273,6 +281,18 @@ body {
   color: #7AA43F; }
   .medlab_panel_content_link:hover, .medlab_panel_content_link:active, .medlab_panel_content_link:focus {
     color: #7AA43F; }
+
+.medlab_panel_image_title {
+  padding: 5px 20px 5px 20px;
+  background-color: #1E5494 !important;
+  color: #FFF !important;
+  opacity: 0.8;
+  text-align: center;
+  font-size: 16px;
+  font-family: "PT Sans",sans-serif; }
+
+.medlab_panel_image {
+  padding: 0px 0px 0px 0px; }
 
 .medlab_panel_collapse:after {
   font-family: 'Glyphicons Halflings';

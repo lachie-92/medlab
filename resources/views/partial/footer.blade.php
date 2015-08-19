@@ -19,7 +19,7 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/products">View by Names</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="#">View by Categories</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/categories">View by Categories</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/ingredients">View by Ingredients</a>

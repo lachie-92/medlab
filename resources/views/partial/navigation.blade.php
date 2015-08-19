@@ -99,7 +99,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/products">Name</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="#">Categories</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/categories">Categories</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/ingredients">Ingredients</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/faq">Product FAQ</a></li>
                     </ul>

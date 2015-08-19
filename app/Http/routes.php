@@ -21,15 +21,17 @@ Route::get('/', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('/nutraceuticals', 'NutraceuticalsController@product');
+Route::get('/nutraceuticals', 'NutraceuticalsController@products');
 
-Route::get('/nutraceuticals/products', 'NutraceuticalsController@product');
+Route::get('/nutraceuticals/products', 'NutraceuticalsController@products');
 
-Route::get('/nutraceuticals/products/{productId}', 'NutraceuticalsController@show');
+Route::get('/nutraceuticals/products/{productId}', 'NutraceuticalsController@showProduct');
+
+Route::get('/nutraceuticals/categories', 'NutraceuticalsController@categories');
+
+Route::get('/nutraceuticals/categories/{categoryId}', 'NutraceuticalsController@showCategory');
 
 Route::get('/nutraceuticals/ingredients', 'NutraceuticalsController@ingredients');
-
-Route::get('/nutraceuticals/ingredients/{ingredientId}', 'NutraceuticalsController@ingredients');
 
 Route::get('/nutraceuticals/faq', 'NutraceuticalsController@faq');
 

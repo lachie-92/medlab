@@ -7,6 +7,7 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 
 use App\Product;
 use App\Ingredient;
+use App\Category;
 
 class RouteServiceProvider extends ServiceProvider
 {
@@ -32,9 +33,9 @@ class RouteServiceProvider extends ServiceProvider
             return Product::where('idProduct', '=', $id)->firstOrFail();
         });
 
-        $router->bind('ingredientId', function($id){
+        $router->bind('categoryId', function($id){
 
-            return Ingredient::where('idIngredient', '=', $id)->firstOrFail();
+            return Category::where('idCategory', '=', $id)->firstOrFail();
         });
 
         parent::boot($router);

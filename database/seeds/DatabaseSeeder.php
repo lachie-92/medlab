@@ -1,11 +1,11 @@
 <?php
 
-
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
 use App\Product;
 use App\Ingredient;
+use App\Category;
 
 class DatabaseSeeder extends Seeder
 {
@@ -20,6 +20,7 @@ class DatabaseSeeder extends Seeder
 
         DB::statement("SET foreign_key_checks = 0");
         Ingredient::truncate();
+        Category::truncate();
         Product::truncate();
         DB::statement("SET foreign_key_checks = 1");
 
@@ -36,6 +37,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call(IngredientsTableSeeder::class);
         $this->call(IngredientProductSeeder::class);
+        $this->call(CategoriesTableSeeder::class);
+        $this->call(CategoryProductSeeder::class);
 
         Model::reguard();
     }
