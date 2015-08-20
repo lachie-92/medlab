@@ -14,6 +14,13 @@ use App\Category;
 
 class NutraceuticalsController extends Controller
 {
+    /**
+     * Display the product listing page
+     *
+     * @param ProductListRequest $request
+     *
+     * @return \Illuminate\View\View
+     */
     public function products(ProductListRequest $request)
     {
         $productList = $this->createSortList(
@@ -41,11 +48,23 @@ class NutraceuticalsController extends Controller
         return view('pages.nutraceuticals.sortbyname.index', compact('products', 'productList'));
     }
 
+    /**
+     * Display the product information page
+     *
+     * @param Product $product
+     *
+     * @return \Illuminate\View\View
+     */
     public function showProduct(Product $product)
     {
         return view('pages.nutraceuticals.product.index', compact('product'));
     }
 
+    /**
+     * Display the category listing page
+     *
+     * @return \Illuminate\View\View
+     */
     public function categories()
     {
         $categories = Category::all();
@@ -53,6 +72,14 @@ class NutraceuticalsController extends Controller
         return view('pages.nutraceuticals.sortbycategory.index', compact('categories'));
     }
 
+    /**
+     * Display the category information page
+     *
+     * @param Category $category
+     * @param Request $request
+     *
+     * @return \Illuminate\View\View
+     */
     public function showCategory(Category $category, Request $request)
     {
         $productList = $this->createSortList([
@@ -84,6 +111,13 @@ class NutraceuticalsController extends Controller
         return view('pages.nutraceuticals.category.index', compact('category', 'products', 'productList'));
     }
 
+    /**
+     * Display the ingredient listing page
+     *
+     * @param Request $request
+     *
+     * @return \Illuminate\View\View
+     */
     public function ingredients(Request $request)
     {
         $ingredientList = $this->createSortList(
@@ -111,11 +145,24 @@ class NutraceuticalsController extends Controller
         return view('pages.nutraceuticals.sortbyingredient.index', compact('ingredients', 'ingredientList'));
     }
 
+    /**
+     * Display the faq page
+     *
+     * @return \Illuminate\View\View
+     */
     public function faq()
     {
         return view('pages.nutraceuticals.faq.index');
     }
 
+    /**
+     * Create an array contains the configurations for the sorting bar.
+     * EnableList is an array which contains the letter/letters to enable for the sorting bar.
+     *
+     * @param $enableList
+     *
+     * @return array
+     */
     private function createSortList($enableList)
     {
         $sortList = [

@@ -325,7 +325,7 @@ class Biotic_Jnr_Seeder extends Seeder
                     <ul>
                         <li>Skin rash</li>
                         <li>Swelling of face and/or throat</li>
-                        <li>Difficulty breath</li>
+                        <li>Difficulty breathing</li>
                         <li>Itching of the skin</li>
                     </ul>
                 </p>

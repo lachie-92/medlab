@@ -19,9 +19,9 @@ class DatabaseSeeder extends Seeder
         Model::unguard();
 
         DB::statement("SET foreign_key_checks = 0");
+        Product::truncate();
         Ingredient::truncate();
         Category::truncate();
-        Product::truncate();
         DB::statement("SET foreign_key_checks = 1");
 
         $this->call(Biotic_Jnr_Seeder::class);
@@ -34,6 +34,9 @@ class DatabaseSeeder extends Seeder
         $this->call(NRGBiotic_60s_Seeder::class);
         $this->call(NanoCelle_B12_Seeder::class);
         $this->call(NanoCelle_D3_Seeder::class);
+        $this->call(W8Biotic_Seeder::class);
+        $this->call(ORSBiotic_Seeder::class);
+        $this->call(GastroDaily_Seeder::class);
 
         $this->call(IngredientsTableSeeder::class);
         $this->call(IngredientProductSeeder::class);
