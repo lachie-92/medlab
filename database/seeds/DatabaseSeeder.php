@@ -1,5 +1,6 @@
 <?php
 
+use App\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Database\Eloquent\Model;
 
@@ -19,10 +20,13 @@ class DatabaseSeeder extends Seeder
         Model::unguard();
 
         DB::statement("SET foreign_key_checks = 0");
+        User::truncate();
         Product::truncate();
         Ingredient::truncate();
         Category::truncate();
         DB::statement("SET foreign_key_checks = 1");
+
+        $this->call(UserTableSeeder::class);
 
         $this->call(Biotic_Jnr_Seeder::class);
         $this->call(Enbiotic_120s_Seeder::class);

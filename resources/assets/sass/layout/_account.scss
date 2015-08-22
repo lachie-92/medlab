@@ -1,0 +1,27 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Registration
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_registration_account_box {
+  border: 3px solid $registration-account-box-border;
+  background-color: $registration-account-box-background;
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+}
+
+.medlab_registration_account_box_focus {
+  background: $registration-account-box-background url("/img/account/registration/tick.png") no-repeat 99% 5px;
+  border: 3px solid $registration-account-box-border-focus;
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+}
+
+.medlab_registration_account_box_title {
+  text-decoration: underline;
+  color: $registration-account-box-title;
+  font-size: large;
+  font-weight: bold;
+  font-size: 16px;
+}

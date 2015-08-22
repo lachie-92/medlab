@@ -17,13 +17,13 @@
                 </a>
             </li>
             <li>
-                <a href="#" class="medlab_navbar_login_item">
+                <a href="https://www.facebook.com/medlabAUS" class="medlab_navbar_login_item">
                     <i class="fa fa-facebook"></i>
                 </a>
-                <a href="#" class="medlab_navbar_login_item">
+                <a href="https://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" class="medlab_navbar_login_item">
                     <i class="fa fa-linkedin"></i>
                 </a>
-                <a href="#" class="medlab_navbar_login_item">
+                <a href="https://vimeo.com/user30326229" class="medlab_navbar_login_item">
                     <i class="fa fa-vimeo-square"></i>
                 </a>
             </li>
@@ -31,9 +31,21 @@
 
         <ul class="nav navbar-nav col-md-3 col-sm-4 col-xs-4">
             <li>
-                <a href="#" class="medlab_navbar_login_item">
-                    Login | Register
-                </a>
+                @if (Auth::guest())
+                    <a href="/account/login" class="medlab_navbar_login_item">
+                        Login | Register
+                    </a>
+                @else
+                    <li class="dropdown">
+                        <a href="#" class="medlab_navbar_login_item dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                            {{ Auth::user()->name }} <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/account/logout">Logout</a></li>
+                        </ul>
+                    </li>
+                @endif
+
                 <a href="#" class="medlab_navbar_login_item medlab_navbar_login_shopping">
                     <span class="glyphicon glyphicon-shopping-cart medlab_navbar_login_glyphcon" aria-hidden="true"></span>
                     $0.00

@@ -17,6 +17,27 @@ Route::get('/', function () {
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
+// Account
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/account/login', 'AccountController@getLogin');
+
+Route::post('/account/login', 'AccountController@postLogin');
+
+Route::get('/account/register/clinician', 'AccountController@getRegisterClinician');
+
+Route::post('/account/register/clinician', 'AccountController@postRegisterClinician');
+
+Route::get('/account/register/patient', 'AccountController@getRegisterPatient');
+
+Route::post('/account/register/patient', 'AccountController@postRegisterPatient');
+
+Route::get('/account/logout', 'AccountController@getLogout');
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
 // Nutraceuticals
 //
 ///////////////////////////////////////////////////////////////////////////////////
