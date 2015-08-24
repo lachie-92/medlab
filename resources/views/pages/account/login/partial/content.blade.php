@@ -114,7 +114,7 @@
                                 <br>
                                 Please select appropriate box to for Practitioner or Patient.
                             </p>
-                            <a id='registerLink' class="btn btn-primary" href="/account/register/practitioner">
+                            <a id='registerLink' class="btn btn-primary" href="/account/register/patient">
                                 Create Patient Account
                             </a>
                         </div>
