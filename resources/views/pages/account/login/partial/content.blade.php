@@ -80,7 +80,7 @@
                     </p>
                     <div>
                         <div class="row">
-                            <div class="col-md-6 col-sm-12 col-xm-12">
+                            <div class="col-md-6 col-sm-12 col-xm-12" >
                                 <div id='patientBox' class="medlab_registration_account_box_focus">
                                     <p>
                                         <span class="medlab_registration_account_box_title">
@@ -94,11 +94,11 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-12 col-xm-12">
+                            <div class="col-md-6 col-sm-12 col-xm-12" >
                                 <div id='clinicianBox' class="medlab_registration_account_box">
                                     <p>
                                         <span class="medlab_registration_account_box_title">
-                                            REGISTER AS A CLINICIAN
+                                            REGISTER AS A PRACTITIONER
                                         </span>
                                     </p>
                                     <p>
@@ -114,7 +114,7 @@
                                 <br>
                                 Please select appropriate box to for Practitioner or Patient.
                             </p>
-                            <a id='registerLink' class="btn btn-primary" href="/account/register/clinician">
+                            <a id='registerLink' class="btn btn-primary" href="/account/register/practitioner">
                                 Create Patient Account
                             </a>
                         </div>

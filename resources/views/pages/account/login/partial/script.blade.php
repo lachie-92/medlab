@@ -2,22 +2,22 @@
 
     (function(){
 
-        var $clinicianBox = $("#clinicianBox");
+        var $practitionerBox = $("#clinicianBox");
         var $patientBox = $("#patientBox");
         var $registerLink = $('#registerLink');
 
-        $clinicianBox.on("click", function() {
+        $practitionerBox.on("click", function() {
 
             unfocusOnBox($patientBox);
-            focusOnBox($clinicianBox);
+            focusOnBox($practitionerBox);
 
-            $registerLink.html('Create Clinician Account');
-            $registerLink.attr("href", "/account/register/clinician")
+            $registerLink.html('Create Practitioner Account');
+            $registerLink.attr("href", "/account/register/practitioner")
         });
 
         $patientBox.on("click", function() {
 
-            unfocusOnBox($clinicianBox);
+            unfocusOnBox($practitionerBox);
             focusOnBox($patientBox);
 
             $registerLink.html('Create Patient Account');

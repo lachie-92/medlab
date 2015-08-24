@@ -25,9 +25,9 @@ Route::get('/account/login', 'AccountController@getLogin');
 
 Route::post('/account/login', 'AccountController@postLogin');
 
-Route::get('/account/register/clinician', 'AccountController@getRegisterClinician');
+Route::get('/account/register/practitioner', 'AccountController@getRegisterPractitioner');
 
-Route::post('/account/register/clinician', 'AccountController@postRegisterClinician');
+Route::post('/account/register/practitioner', 'AccountController@postRegisterPractitioner');
 
 Route::get('/account/register/patient', 'AccountController@getRegisterPatient');
 

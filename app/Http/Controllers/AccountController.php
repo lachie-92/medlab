@@ -49,14 +49,14 @@ class AccountController extends Controller
             ]);
     }
 
-    public function getRegisterClinician()
+    public function getRegisterPractitioner()
     {
-        return view('pages.account.register.clinician.index');
+        return view('pages.account.register.practitioner.index');
     }
 
-    public function postRegisterClinician(Request $request)
+    public function postRegisterPractitioner(Request $request)
     {
-        return view('pages.account.register.clinician.index');
+        return view('pages.account.register.practitioner.index');
     }
 
     public function getRegisterPatient()

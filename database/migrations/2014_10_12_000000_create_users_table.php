@@ -14,12 +14,25 @@ class CreateUsersTable extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
+            $table->integer('xero_contact_id')->nullable()->unique();
             $table->string('email')->unique();
-            $table->string('account_type');
+            $table->string('group');
             $table->string('password', 60);
             $table->rememberToken();
+            $table->tinyInteger('tier')->unsigned();
+            $table->boolean('newsletter_subscription');
+            $table->dateTime('date_approved');
+            $table->string('approval_status');
+            $table->boolean('activated');
+            $table->boolean('account_credit');
+            $table->string('timezone');
+
+            //set customer_since as created_at
             $table->timestamps();
+            $table->softDeletes();
+
+            $table->integer('customer_id')->unsigned()->unique();
+            $table->foreign('customer_id')->references('id')->on('customers')->onDelete('cascade');
         });
     }
 

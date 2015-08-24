@@ -21,7 +21,30 @@
 .medlab_registration_account_box_title {
   text-decoration: underline;
   color: $registration-account-box-title;
-  font-size: large;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.medlab_registration_form_section_title {
+  color: $registration-form-section-title;
+  font-family: "Open Sans Condensed",sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.medlab_registration_form_section_subtitle {
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+.medlab_registration_search_result_well {
+  background-color: $registration-form-search-well;
+}
+
+.medlab_registration_search_result {
+  color: $registration-form-search-well-title;
+  text-align: center;
+  border-bottom: 1px solid;
+  font-weight: 700;
+  background-color: $registration-form-search-well;
 }

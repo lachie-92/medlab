@@ -9,7 +9,7 @@
             <li><a class="medlab_breadcrumbs_link" href="/">Home</a></li>
             <li><a class="medlab_breadcrumbs_link" href="/account">Account</a></li>
             <li><a class="medlab_breadcrumbs_link" href="/account/register">Register</a></li>
-            <li class="active medlab_breadcrumbs_text">Clinician</li>
+            <li class="active medlab_breadcrumbs_text">practitioner</li>
         </ol>
     </div>
 </div>

@@ -490,8 +490,27 @@ body {
 .medlab_registration_account_box_title {
   text-decoration: underline;
   color: #ff0000;
-  font-size: large;
   font-weight: bold;
-  font-size: 16px; }
+  font-size: 14px; }
+
+.medlab_registration_form_section_title {
+  color: #1E5494;
+  font-family: "Open Sans Condensed",sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.medlab_registration_form_section_subtitle {
+  padding-top: 10px;
+  font-size: 10px; }
+
+.medlab_registration_search_result_well {
+  background-color: #D9EDF7; }
+
+.medlab_registration_search_result {
+  color: #31708F;
+  text-align: center;
+  border-bottom: 1px solid;
+  font-weight: 700;
+  background-color: #D9EDF7; }
 
 /*# sourceMappingURL=app.css.map */
