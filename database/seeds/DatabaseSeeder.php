@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
         Category::truncate();
         DB::statement("SET foreign_key_checks = 1");
 
-        $this->call(UserTableSeeder::class);
+        //$this->call(UserTableSeeder::class);
 
         $this->call(Biotic_Jnr_Seeder::class);
         $this->call(Enbiotic_120s_Seeder::class);

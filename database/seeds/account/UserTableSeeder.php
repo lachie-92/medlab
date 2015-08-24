@@ -17,7 +17,6 @@ class UserTableSeeder extends Seeder
             [
                 'name' => 'test guy',
                 'email' => 'test@testemail.com',
-                'account_type' => 'clinician',
                 'password' => 'testtest',
             ]
         ];
@@ -27,7 +26,6 @@ class UserTableSeeder extends Seeder
             User::create([
                 'name' => $user['name'],
                 'email' => $user['email'],
-                'account_type' => $user['account_type'],
                 'password' => bcrypt($user['password']),
             ]);
         }
