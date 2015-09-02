@@ -7,16 +7,15 @@
 <div class="container medlab_panel_container">
     <div class="row">
         <!--
-        -- Login form
+        -- Practitioner Registration form
         -->
-        <div class="col-md-5 col-sm-5 col-xm-12">
+        <div class="col-md-12 col-sm-12 col-xm-12">
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Medlab Customer Login
+                    PRACTITIONER REGISTRATION FORM
                 </div>
                 <div class="panel-body">
 
-                    <br>
                     @if (count($errors) > 0)
                         <div class="alert alert-danger">
                             <ul>
@@ -27,102 +26,280 @@
                         </div>
                     @endif
 
-                    <form class="form-horizontal" role="form" method="POST" action="/account/login">
+                    <form class="form-horizontal" role="form" method="POST" action="/account/register/practitioner">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">E-Mail Address</label>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" name="email" value="{{ old('email') }}">
+                        <div class="row">
+                            <div class="container-fluid">
+
+                                <!--
+                                -- User Name
+                                -->
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="well" style="background-color: transparent">
+                                        <h4 class="medlab_registration_form_section_title">Your Detail</h4>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Title<span style="color: red;">*</span></th></tr>
+                                                    <tr>
+                                                        <td>
+                                                            <select class="form-control" name="title">
+                                                                <option value="Mr">Mr</option>
+                                                                <option value="Ms">Ms</option>
+                                                                <option value="Miss">Miss</option>
+                                                                <option value="Dr.">Dr.</option>
+                                                                <option value="Prof.">Prof.</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Email Address<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">First Name<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Last Name<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--
+                                -- User Password
+                                -->
+                                <div class="col-md-6 col-sm-6">
+                                    <div class="well" style="background-color: transparent">
+                                        <h4 class="medlab_registration_form_section_title">Password</h4>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Password<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="password" class="form-control" name="password" placeholder="Password" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Confirm Password<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="password_confirmation" placeholder="Repeat Password" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <label class="col-md-4 control-label">Password</label>
-                            <div class="col-md-6">
-                                <input type="password" class="form-control" name="password">
+                        <div class="row">
+                            <div class="container-fluid">
+
+                                <!--
+                                -- Business information
+                                -->
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="well" style="background-color: transparent">
+                                        <h4 class="medlab_registration_form_section_title">Clinic/Business Information</h4>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Name of the Clinic/Business<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="clinic_name" placeholder="Clinic/Business Name" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Business Type<span style="color: red;">*</span></th></tr>
+                                                    <tr>
+                                                        <td>
+                                                            <select class="form-control" name="business_type">
+                                                                <option selected="selected" value="company">Company</option>
+                                                                <option value="partnership">Partnership</option>
+                                                                <option value="sol_enterprise_or_trade">Sole Enterprise/Trade</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">ABN<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="abn" placeholder="ABN Num." value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Provider/Association Number<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider/Association Num." value=""></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <div class="col-md-6 col-md-offset-4">
-                                <div class="checkbox">
-                                    <label>
-                                        <input type="checkbox" name="remember"> Remember Me
-                                    </label>
+                        <div class="row">
+                            <div class="container-fluid">
+
+                                <!--
+                                -- Business Address
+                                -->
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="well" style="background-color: transparent">
+                                        <h4 class="medlab_registration_form_section_title">Business Address</h4>
+
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value=""></td></tr>
+                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
+                                                    <tr>
+                                                        <td>
+                                                            <select class="form-control" id="state_select" name="state">
+                                                                <option value="ACT">ACT</option>
+                                                                <option value="NSW">NSW</option>
+                                                                <option value="NT">NT</option>
+                                                                <option value="QLD">QLD</option>
+                                                                <option value="SA">SA</option>
+                                                                <option value="TAS">TAS</option>
+                                                                <option value="VIC">VIC</option>
+                                                                <option value="WA">WA</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Country<span style="color: red;">*</span></th></tr>
+                                                    <tr>
+                                                        <td>
+                                                            <select class="form-control" id="country_select" name="country">
+                                                                <option selected="selected" value="AU">Australia</option>
+                                                                <option value="NZ">New Zealand</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Post Code<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Telephone<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value=""></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="form-group">
-                            <div class="col-md-9 col-md-offset-3">
-                                <button type="submit" class="btn btn-primary">Login</button>
-                                <a class="btn btn-link" href="/account/recovery">Forgot Your Password?</a>
+
+                        <div class="row">
+                            <div class="container-fluid">
+
+                                <!--
+                                -- Terms and Conditions
+                                -->
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="well" style="background-color: transparent">
+                                        <h4 class="medlab_registration_form_section_title">Terms For Use of Website</h4>
+                                        <br>
+                                        <div class="well">
+                                            <p>
+                                                I / We have read and agree to the <a class="medlab_panel_content_link" href="/policies/terms-and-conditions">Terms and Conditions</a>,
+                                                <a class="medlab_panel_content_link" href="/policies/medlab-sales-policy"> Terms of Sale</a>
+                                                and the <a class="medlab_panel_content_link" href="/policies/privacy-policy">Medlab Privacy Policy</a>
+                                                displayed on the Medlab website. I / We agree to comply with and be bound by
+                                                these policy documents (which may be amended or updated from time to time).
+                                            </p>
+
+                                            <p>
+                                                Should you have any enquires on Medlab Clinical Pty Ltd Terms and Conditions,
+                                                Terms of Sale or Privacy Policy please contact:
+                                                <a class="medlab_panel_content_link" href="mailto:hello@medlab.co">hello@medlab.co</a> or call 1300 369 570.
+                                            </p>
+
+                                            <p>
+                                                By clicking on the the submit, you Agree to the
+                                                <a class="medlab_panel_content_link" href="/policies/terms-and-conditions">Terms and Conditions</a>,
+                                                <a class="medlab_panel_content_link" href="/policies/medlab-sales-policy">Terms of Sale</a> &amp;
+                                                <a class="medlab_panel_content_link" href="/policies/privacy-policy">Medlab's Privacy Policy</a>.
+                                            </p>
+                                        </div>
+
+                                        <p>
+                                            <input type="checkbox" name="agree"> Please check to agree to our Terms & Conditions.
+                                        </p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
+
+                        <div>
+                            <button type="submit" title="Register" class="btn btn-primary btn-block">Submit</button>
+                        </div>
+
                     </form>
 
-                </div>
-            </div>
-        </div>
-        <!--
-        -- Register Links
-        -->
-        <div class="col-md-7 col-sm-7 col-xm-12">
-            <div class="panel panel-primary medlab_panel">
-                <div class="panel-heading medlab_panel_title">
-                    New Customer?
-                </div>
-                <div class="panel-body">
-                    <p>
-                        By creating an account with our store, you will be able to move through the checkout process
-                        faster, store multiple shipping addresses, view and track your orders in your account and more.
+                    <p style="text-align: center">
+                        <br>
+                        <br>
+                        <a class="btn btn-default" href="/account/login">Back to Login</a>
                     </p>
-                    <div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12 col-xm-12">
-                                <div id='patientBox' class="medlab_registration_account_box_focus">
-                                    <p>
-                                        <span class="medlab_registration_account_box_title">
-                                            REGISTER AS A PATIENT
-                                        </span>
-                                    </p>
-                                    <p>
-                                        This account is open to all consumers wishing to purchase Medlab Clinical
-                                        products. It allows full website access, newsletter updates and access to
-                                        current deals on products.
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12 col-xm-12">
-                                <div id='clinicianBox' class="medlab_registration_account_box">
-                                    <p>
-                                        <span class="medlab_registration_account_box_title">
-                                            REGISTER AS A CLINICIAN
-                                        </span>
-                                    </p>
-                                    <p>
-                                        This account is only open to qualified healthcare practitioners.
-                                        A practitioner account provides access to the technical product information
-                                        and resources available on our website.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div style="text-align: center">
-                            <p>
-                                <br>
-                                Please select appropriate box to for Practitioner or Patient.
-                            </p>
-                            <a id='registerLink' class="btn btn-primary" href="/account/register/clinician">
-                                Create Patient Account
-                            </a>
-                        </div>
-
-                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 </div>
 

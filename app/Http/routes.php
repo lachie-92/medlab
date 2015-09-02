@@ -17,23 +17,44 @@ Route::get('/', function () {
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
+// Login
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/account/login', 'LoginController@getLogin');
+
+Route::post('/account/login', 'LoginController@postLogin');
+
+Route::get('/account/logout', 'LoginController@getLogout');
+
+Route::get('/account/register/practitioner', 'LoginController@getRegisterPractitioner');
+
+Route::post('/account/register/practitioner', 'LoginController@postRegisterPractitioner');
+
+Route::get('/account/register/patient', 'LoginController@getRegisterPatient');
+
+Route::post('/account/register/patient', 'LoginController@postRegisterPatient');
+
+Route::get('/account/recovery', 'LoginController@getRecovery');
+
+Route::post('/account/recovery', 'LoginController@postRecovery');
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
 // Account
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('/account/login', 'AccountController@getLogin');
+Route::get('/account', 'AccountController@dashboard');
 
-Route::post('/account/login', 'AccountController@postLogin');
+Route::get('/account/edit', 'AccountController@getEdit');
 
-Route::get('/account/register/practitioner', 'AccountController@getRegisterPractitioner');
+Route::post('/account/edit/email', 'AccountController@postEmail');
 
-Route::post('/account/register/practitioner', 'AccountController@postRegisterPractitioner');
+Route::post('/account/edit/newsletter', 'AccountController@postNewsletter');
 
-Route::get('/account/register/patient', 'AccountController@getRegisterPatient');
-
-Route::post('/account/register/patient', 'AccountController@postRegisterPatient');
-
-Route::get('/account/logout', 'AccountController@getLogout');
+Route::post('/account/edit/address', 'AccountController@postAddress');
 
 
 ///////////////////////////////////////////////////////////////////////////////////

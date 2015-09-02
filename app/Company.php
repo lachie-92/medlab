@@ -40,4 +40,14 @@ class Company extends Model {
     {
         return $this->hasMany('App\Related_To', 'this_company_id');
     }
+
+    public function practitioners()
+    {
+        return $this->hasMany('App\Practitioner');
+    }
+
+    public function company_addresses()
+    {
+        return $this->hasMany('App\Company_Address');
+    }
 }

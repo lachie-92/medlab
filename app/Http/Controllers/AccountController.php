@@ -2,164 +2,222 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\UserLoginRequest;
-use Illuminate\Foundation\Auth\ThrottlesLogins;
+use App\Http\Requests\AddressUpdateRequest;
+use App\Http\Requests\EmailUpdateRequest;
+use App\Http\Requests\NewsletterUpdateRequest;
+use Illuminate\Auth\Guard;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Auth;
 
 class AccountController extends Controller
 {
-    use ThrottlesLogins;
-
+    /**
+     * Controller constructor - defines the middleware configurations.
+     *
+     */
     public function __construct()
     {
-        $this->middleware('guest', ['except' => 'getLogout']);
-    }
-
-    public function getLogin()
-    {
-        return view('pages.account.login.index');
-    }
-
-    public function postLogin(UserLoginRequest $request)
-    {
-        $throttles = $this->isUsingThrottlesLoginsTrait();
-
-        if ($throttles && $this->hasTooManyLoginAttempts($request)) {
-            return $this->sendLockoutResponse($request);
-        }
-
-        $credentials = $this->getCredentials($request);
-
-        if (Auth::attempt($credentials, $request->has('remember'))) {
-            return $this->handleUserWasAuthenticated($request, $throttles);
-        }
-
-        if ($throttles) {
-            $this->incrementLoginAttempts($request);
-        }
-
-        return redirect($this->loginPath())
-            ->withInput($request->only($this->loginUsername(), 'remember'))
-            ->withErrors([
-                $this->loginUsername() => $this->getFailedLoginMessage(),
-            ]);
-    }
-
-    public function getRegisterPractitioner()
-    {
-        return view('pages.account.register.practitioner.index');
-    }
-
-    public function postRegisterPractitioner(Request $request)
-    {
-        return view('pages.account.register.practitioner.index');
-    }
-
-    public function getRegisterPatient()
-    {
-        return view('pages.account.register.patient.index');
-    }
-
-    public function postRegisterPatient(Request $request)
-    {
-        return view('pages.account.register.patient.index');
+        $this->middleware('auth', [
+            'only' => [
+                'dashboard',
+                'getEdit',
+                'postEdit',
+                'getLogout'
+            ]
+        ]);
     }
 
     /**
-     * Log the user out of the application.
+     * Display the Dashboard page
+     *
+     * @param Guard $auth
      *
      * @return \Illuminate\Http\Response
      */
-    public function getLogout()
+    public function dashboard(Guard $auth)
     {
-        Auth::logout();
+        $user = $auth->user();
 
-        return redirect('/');
+        $mainPhone = $user->customer->customer_numbers->where('type', 'Main Number')->first();
+        $mainMobile = $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first();
+        $mainAddress = $user->customer->customer_addresses->where('type', 'Main Address')->first();
+
+        switch ($user->group) {
+
+            case 'Patient':
+
+                $practitioner = $user->patient->practitioner;
+                $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
+                $companyMainPhone = $practitioner->company->company_numbers->where('type', 'Main Number')->first();
+
+                return view('pages.account.dashboard.patient.main.index', compact(
+                    'user', 'mainPhone', 'mainMobile',
+                    'mainAddress', 'practitioner', 'companyMainAddress',
+                    'companyMainPhone'
+                ));
+                break;
+
+            case 'Practitioner':
+
+                $company = $user->practitioner->company;
+                $companyMainAddress = $company->company_addresses->where('type', 'Main Address')->first();
+                $companyMainPhone = $company->company_numbers->where('type', 'Main Number')->first();
+
+                return view('pages.account.dashboard.practitioner.main.index', compact(
+                    'user', 'mainPhone', 'mainMobile',
+                    'mainAddress', 'company', 'companyMainAddress',
+                    'companyMainPhone'
+                ));
+                break;
+        }
     }
 
     /**
-     * Get the needed authorization credentials from the request.
+     * Display the edit user account information page
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return array
-     */
-    protected function getCredentials(Request $request)
-    {
-        return $request->only($this->loginUsername(), 'password');
-    }
-
-    /**
-     * Send the response after the user was authenticated.
+     * @param Request $request
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  bool  $throttles
+     * @param Guard $auth
+     *
      * @return \Illuminate\Http\Response
      */
-    protected function handleUserWasAuthenticated(Request $request, $throttles)
+    public function getEdit(Request $request, Guard $auth)
     {
-        if ($throttles) {
-            $this->clearLoginAttempts($request);
+        $user = $auth->user();
+
+        $auState = $this->createAuStateList();
+        $nzRegion = $this->createNzRegionList();
+
+        $mainPhone = $user->customer->customer_numbers->where('type', 'Main Number')->first();
+        $mainMobile = $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first();
+        $mainAddress = $user->customer->customer_addresses->where('type', 'Main Address')->first();
+
+        switch ($user->group) {
+
+            case 'Patient':
+
+                $practitioner = $user->patient->practitioner;
+                $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
+                $companyMainPhone = $practitioner->company->company_numbers->where('type', 'Main Number')->first();
+
+                return view('pages.account.dashboard.patient.edit.index', compact(
+                    'user', 'mainPhone', 'mainMobile',
+                    'mainAddress', 'practitioner', 'companyMainAddress',
+                    'auState', 'nzRegion', 'companyMainPhone'
+                ));
+                break;
+
+            case 'Practitioner':
+
+                $company = $user->practitioner->company;
+                $companyMainAddress = $company->company_addresses->where('type', 'Main Address')->first();
+                $companyMainPhone = $company->company_numbers->where('type', 'Main Number')->first();
+
+                return view('pages.account.dashboard.practitioner.edit.index', compact(
+                    'user', 'mainPhone', 'mainMobile',
+                    'mainAddress', 'company', 'companyMainAddress',
+                    'auState', 'nzRegion', 'companyMainPhone'
+                ));
+                break;
         }
-
-        if (method_exists($this, 'authenticated')) {
-            return $this->authenticated($request, Auth::user());
-        }
-
-        return redirect()->intended($this->redirectPath());
     }
 
     /**
-     * Get the post register / login redirect path.
+     * Edit the user email
      *
-     * @return string
+     * @param EmailUpdateRequest $request
+     * @param Guard $auth
+     *
+     * @return \Illuminate\Http\Response
      */
-    public function redirectPath()
+    public function postEmail(EmailUpdateRequest $request, Guard $auth)
     {
+        $user = $auth->user();
 
-        return '/';
+        $user->email = $request->email;
+        $user->save();
+
+        $mainEmail = $user->customer->customer_emails->where('type', 'Main Email')->first();
+        $mainEmail->email_address = $request->email;
+        $mainEmail->save();
+
+        return redirect('/account/edit')->with(['message' => 'Email has been updated']);
     }
 
-    /**
-     * Get the failed login message.
-     *
-     * @return string
-     */
-    protected function getFailedLoginMessage()
+    public function postNewsletter(NewsletterUpdateRequest $request, Guard $auth)
     {
-        return 'These credentials do not match our records.';
+        $user = $auth->user();
+
+        $user->newsletter_subscription = $request->newsletter;
+        $user->save();
+
+        return redirect('/account/edit')->with(['message' => 'Newsletter has been updated']);
     }
 
-    /**
-     * Get the path to the login route.
-     *
-     * @return string
-     */
-    public function loginPath()
+    public function postAddress(AddressUpdateRequest $request, Guard $auth)
     {
-        return '/account/login';
+        $user = $auth->user();
+
+        $mainAddress = $user->customer->customer_addresses->where('type', "Main Address")->first();
+        $mainAddress->postcode = $request->postcode;
+        $mainAddress->state = $request->state;
+        $mainAddress->suburb = $request->street_address_two;
+        $mainAddress->street = $request->street_address_one;
+        $mainAddress->address = $request->street_address_one . ' ' . $request->street_address_two;
+        $mainAddress->city = $request->city;
+        $mainAddress->country = $request->country;
+        $mainAddress->save();
+
+        $mainPhone = $user->customer->customer_numbers->where('type', 'Main Number')->first();
+        $mainPhone->number = $request->telephone;
+        $mainPhone->save();
+
+        $mainMobile = $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first();
+        $mainMobile->number = $request->mobile_phone;
+        $mainMobile->save();
+
+        return redirect('/account/edit')->with(['message' => 'Address has been updated']);
     }
 
-    /**
-     * Get the login username to be used by the controller.
-     *
-     * @return string
-     */
-    public function loginUsername()
+    private function createAuStateList()
     {
-        return 'email';
+        $auState = [
+            'ACT' => 'ACT',
+            'NSW' => 'NSW',
+            'NT' => 'NT',
+            'QLD' => 'QLD',
+            'SA' => 'SA',
+            'TAS' => 'TAS',
+            'VIC' => 'VIC',
+            'WA' => 'WA'
+        ];
+
+        return $auState;
     }
 
-    /**
-     * Determine if the class is using the ThrottlesLogins trait.
-     *
-     * @return bool
-     */
-    protected function isUsingThrottlesLoginsTrait()
+    private function createNzRegionList()
     {
-        return true;
+        $nzRegion = [
+            'Northland' => 'Northland',
+            'Auckland' => 'Auckland',
+            'Waikato' => 'Waikato',
+            'Bay of Plenty' => 'Bay of Plenty',
+            'Gisborne' => 'Gisborne',
+            "Hawke's Bay" => "Hawke's Bay",
+            'Taranaki' => 'Taranaki',
+            'Manawatu-Wanganui' => 'Manawatu-Wanganui',
+            'Wellington' => 'Wellington',
+            'Tasman' => 'Tasman',
+            'Nelson' => 'Nelson',
+            'Marlborough' => 'Marlborough',
+            'West Coast' => 'West Coast',
+            'Canterbury' => 'Canterbury',
+            'Otago' => 'Otago',
+            'Southland' => 'Southland'
+        ];
+
+        return $nzRegion;
     }
 }

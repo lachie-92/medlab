@@ -42,6 +42,28 @@
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Title<span style="color: red;">*</span></th></tr>
+                                                    <tr>
+                                                        <td>
+                                                            <select class="form-control" name="title">
+                                                                <option value="Mr">Mr</option>
+                                                                <option value="Ms">Ms</option>
+                                                                <option value="Miss">Miss</option>
+                                                                <option value="Dr.">Dr.</option>
+                                                                <option value="Prof.">Prof.</option>
+                                                            </select>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Email Address<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">First Name<span style="color: red;">*</span></th></tr>
                                                     <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value=""></td></tr>
                                                 </table>
@@ -50,12 +72,6 @@
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Last Name<span style="color: red;">*</span></th></tr>
                                                     <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value=""></td></tr>
-                                                </table>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Email Address<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value=""></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -267,7 +283,7 @@
                                         <p>
                                             <input type="checkbox" name="agree">
                                             If you are unable to find your practitioner, please select this checkbox, and
-                                            we will contact the practitioner, in order to sign-up.
+                                            we will contact your practitioner, in order to sign-up.
                                         </p>
                                     </div>
                                 </div>
@@ -323,6 +339,11 @@
 
                     </form>
 
+                    <p style="text-align: center">
+                        <br>
+                        <br>
+                        <a class="btn btn-default" href="/account/login">Back to Login</a>
+                    </p>
                 </div>
             </div>
         </div>

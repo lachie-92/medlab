@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +15,11 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        Validator::extend('validState', 'App\Http\Requests\validator\AddressValidator@validState');
+        Validator::replacer('validState', 'App\Http\Requests\validator\AddressValidator@validStateError');
+
+        Validator::extend('validCountry', 'App\Http\Requests\validator\AddressValidator@validCountry');
+        Validator::replacer('validCountry', 'App\Http\Requests\validator\AddressValidator@validCountryError');
     }
 
     /**
@@ -25,4 +31,5 @@ class AppServiceProvider extends ServiceProvider
     {
         //
     }
+
 }

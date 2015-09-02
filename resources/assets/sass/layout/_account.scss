@@ -48,3 +48,57 @@
   font-weight: 700;
   background-color: $registration-form-search-well;
 }
+
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Dashboard
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_dashboard_info_section_title {
+  color: $registration-form-section-title;
+  font-family: "Open Sans Condensed",sans-serif;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.medlab_dashboard_info_item_box_top {
+  font-size: 14px;
+  padding: 7px 0px 7px 0px;
+  border-top: 1px solid lavender;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.medlab_dashboard_info_item_box_middle {
+  font-size: 14px;
+  padding: 7px 0px 7px 0px;
+  border-bottom: 1px solid lavender;
+  border-top: 1px solid lavender;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.medlab_dashboard_info_item_box_bottom {
+  font-size: 14px;
+  padding: 7px 0px 7px 0px;
+  border-bottom: 1px solid lavender;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Edit Account Details
+//
+/////////////////////////////////////////////////////////////////////////////////
+
+.medlab_account_detail_edit_input_group {
+  padding: 5px 15px 5px 15px;
+}
+
+.medlab_account_detail_edit_input_group_label {
+  background-color: $edit-account-label-background;
+  color: $edit-account-label-text;
+}
