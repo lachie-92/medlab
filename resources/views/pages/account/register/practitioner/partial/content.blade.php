@@ -45,13 +45,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Title<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            <select class="form-control" name="title">
-                                                                <option value="Mr">Mr</option>
-                                                                <option value="Ms">Ms</option>
-                                                                <option value="Miss">Miss</option>
-                                                                <option value="Dr.">Dr.</option>
-                                                                <option value="Prof.">Prof.</option>
-                                                            </select>
+                                                            {!! Form::select('title', $titleList, old('title'), ['class' => 'form-control']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -59,19 +53,19 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Email Address<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value="{{ old('email') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">First Name<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value="{{ old('first_name') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Last Name<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ old('last_name') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -95,7 +89,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Confirm Password<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="password_confirmation" placeholder="Repeat Password" value=""></td></tr>
+                                                    <tr><td><input type="password" class="form-control" name="password_confirmation" placeholder="Repeat Password" value=""></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -119,7 +113,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Name of the Clinic/Business<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="clinic_name" placeholder="Clinic/Business Name" value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="clinic_name" placeholder="Clinic/Business Name" value="{{ old('clinic_name') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
@@ -127,11 +121,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Business Type<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            <select class="form-control" name="business_type">
-                                                                <option selected="selected" value="company">Company</option>
-                                                                <option value="partnership">Partnership</option>
-                                                                <option value="sol_enterprise_or_trade">Sole Enterprise/Trade</option>
-                                                            </select>
+                                                            {!! Form::select('business_type', $businessTypeList, old('business_type'), ['class' => 'form-control']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -141,13 +131,13 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">ABN<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="abn" placeholder="ABN Num." value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="abn" placeholder="ABN Num." value="{{ old('abn') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Provider/Association Number<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider/Association Num." value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider/Association Num." value="{{ old('provider_number') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -172,14 +162,14 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value=""></td></tr>
-                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ old('street_address_one') }}"></td></tr>
+                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ old('city') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -189,16 +179,11 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            <select class="form-control" id="state_select" name="state">
-                                                                <option value="ACT">ACT</option>
-                                                                <option value="NSW">NSW</option>
-                                                                <option value="NT">NT</option>
-                                                                <option value="QLD">QLD</option>
-                                                                <option value="SA">SA</option>
-                                                                <option value="TAS">TAS</option>
-                                                                <option value="VIC">VIC</option>
-                                                                <option value="WA">WA</option>
-                                                            </select>
+                                                            @if(old('country') == "NZ")
+                                                                {!! Form::select('state', $nzRegion, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                            @else
+                                                                {!! Form::select('state', $auState, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                            @endif
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -208,10 +193,17 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            <select class="form-control" id="country_select" name="country">
-                                                                <option selected="selected" value="AU">Australia</option>
-                                                                <option value="NZ">New Zealand</option>
-                                                            </select>
+                                                            @if(old('country') == 'NZ')
+                                                                <select class="form-control" id="country_select" name="country">
+                                                                    <option value="AU">Australia</option>
+                                                                    <option selected="selected" value="NZ">New Zealand</option>
+                                                                </select>
+                                                            @else
+                                                                <select class="form-control" id="country_select" name="country">
+                                                                    <option selected="selected" value="AU">Australia</option>
+                                                                    <option value="NZ">New Zealand</option>
+                                                                </select>
+                                                            @endif
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -219,7 +211,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Post Code<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ old('postcode') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -227,13 +219,13 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Telephone<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ old('telephone') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value=""></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -277,7 +269,8 @@
                                         </div>
 
                                         <p>
-                                            <input type="checkbox" name="agree"> Please check to agree to our Terms & Conditions.
+                                            <input type="hidden" name="agree" value="0">
+                                            <input type="checkbox" name="agree" value="1"> Please check to agree to our Terms & Conditions.
                                         </p>
                                     </div>
                                 </div>

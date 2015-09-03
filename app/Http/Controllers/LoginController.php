@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Traits\DefineAccountParameters;
+use App\Http\Controllers\Traits\UsefulViewFunctions;
+use App\Http\Requests\PatientRegisterRequest;
+use App\Http\Requests\PractitionerRegisterRequest;
 use App\Http\Requests\UserLoginRequest;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Http\Request;
@@ -15,6 +18,7 @@ class LoginController extends Controller
 {
     use ThrottlesLogins;
     use DefineAccountParameters;
+    use UsefulViewFunctions;
 
     /**
      * Controller constructor - defines the middleware configurations.
@@ -91,17 +95,22 @@ class LoginController extends Controller
      */
     public function getRegisterPractitioner()
     {
-        return view('pages.account.register.practitioner.index');
+        $auState = $this->createAuStateList();
+        $nzRegion = $this->createNzRegionList();
+        $titleList = $this->createTitleList();
+        $businessTypeList = $this->createBusinessTypeList();
+
+        return view('pages.account.register.practitioner.index', compact('auState', 'nzRegion', 'titleList', 'businessTypeList'));
     }
 
     /**
      * Process the practitioner register.
      *
-     * @param Request $request
+     * @param PractitionerRegisterRequest $request
      *
      * @return \Illuminate\Http\Response
      */
-    public function postRegisterPractitioner(Request $request)
+    public function postRegisterPractitioner(PractitionerRegisterRequest $request)
     {
         return view('pages.account.register.practitioner.index');
     }
@@ -113,19 +122,41 @@ class LoginController extends Controller
      */
     public function getRegisterPatient()
     {
-        return view('pages.account.register.patient.index');
+        $auState = $this->createAuStateList();
+        $nzRegion = $this->createNzRegionList();
+        $titleList = $this->createTitleList();
+
+        return view('pages.account.register.patient.index', compact('auState', 'nzRegion', 'titleList'));
     }
 
     /**
      * Process the patient register.
      *
-     * @param Request $request
+     * @param PatientRegisterRequest $request
      *
      * @return \Illuminate\Http\Response
      */
-    public function postRegisterPatient(Request $request)
+    public function postRegisterPatient(PatientRegisterRequest $request)
     {
+
+
         return view('pages.account.register.patient.index');
+    }
+
+    public function postGetPractitionerList(Request $request)
+    {
+        // practitioner_country practitioner_state practitioner_city practitioner_postcode practitioner_clinic
+        // country
+        // state
+        // postcode
+        // company name
+
+
+
+
+        $practitioner = null;
+
+        return view('pages.account.register.patient.partial.findpractitionerlist', compact('practitioner'));
     }
 
     /**

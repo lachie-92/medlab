@@ -169,10 +169,10 @@
                             <div class="col-md-6 col-sm-12">
                                 <div class="well" style="background-color: transparent">
                                     <!--
-                                    -- User Company info
+                                    -- User Business info
                                     -->
                                     <div class="row">
-                                        <h4 class="medlab_dashboard_info_section_title">Company Information</h4>
+                                        <h4 class="medlab_dashboard_info_section_title">Business Information</h4>
                                         <div class="medlab_dashboard_info_item_box_top">
                                             <div class="row">
                                                 <div class="col-md-4 col-sm-4">
@@ -220,7 +220,7 @@
                                             <div class="row">
                                                 <div class="col-md-4 col-sm-4">
                                                     <strong>
-                                                        Association<br>
+                                                        Provider<br>
                                                         Number:
                                                     </strong>
                                                 </div>
@@ -233,7 +233,7 @@
                                         </div>
                                     </div>
                                     <div class="alert alert-info" style="text-align: center; margin-bottom: 0px; margin-top: 10px;">
-                                        If you would like to change or update your Company information. Please
+                                        If you would like to change or update your Business information. Please
                                         contact our staff at 1300 369 570.
                                     </div>
                                 </div>

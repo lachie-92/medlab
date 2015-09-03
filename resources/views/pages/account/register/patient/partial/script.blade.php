@@ -6,6 +6,8 @@
         var $stateSelector = $('#state_select');
         var $practitionerCountrySelector = $('#practitioner_country_select');
         var $practitionerStateSelector = $('#practitioner_state_select');
+        var $practitionerNotFoundCountrySelector = $('#practitioner_not_found_country_select');
+        var $practitionerNotFoundStateSelector = $('#practitioner_not_found_state_select');
 
         var australiaOptions = {
             'ACT': 'ACT',
@@ -71,6 +73,63 @@
                     $practitionerStateSelector.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
+        });
+
+        $practitionerNotFoundCountrySelector.on('change', function(e) {
+
+            var countrySelected = $(this).val();
+
+            if (countrySelected == 'AU') {
+                $practitionerNotFoundStateSelector.empty();
+                $.each(australiaOptions, function(value,key) {
+                    $practitionerNotFoundStateSelector.append('<option value="' + value + '">' + key + '</option>');
+                });
+            }
+            if (countrySelected == 'NZ') {
+                $practitionerNotFoundStateSelector.empty();
+                $.each(newzealandOptions, function(value,key) {
+                    $practitionerNotFoundStateSelector.append('<option value="' + value + '">' + key + '</option>');
+                });
+            }
+        });
+
+        $('#practitioner_not_found').change(function() {
+
+            if($(this).is(':checked')){
+                $("#practitioner_manual_handling").collapse("show");
+            } else {
+                $("#practitioner_manual_handling").collapse("hide");
+            }
+        });
+
+        $('#find_practitioner_btn').click(function(e) {
+
+            e.preventDefault();
+
+            $.ajax({
+
+                url: "/account/register/patient/getpractitionerlist",
+                data: {
+                    _token: "{{ csrf_token() }}",
+                    practitioner_country: $('#practitioner_country_select').val(),
+                    practitioner_state: $('#practitioner_state_select').val(),
+                    practitioner_city: $('#practitioner_city').val(),
+                    practitioner_postcode: $('#practitioner_postcode').val(),
+                    practitioner_clinic: $('practitioner_clinic').val()
+                },
+                type: "POST",
+                dataType : "html",
+
+                success: function( html ) {
+                    var display = $('#find_practitioner_display_box');
+                    display.empty();
+                    display.append(html);
+                },
+
+                error: function( xhr, status, errorThrown ) {
+                    alert('Failed to find any practitioner');
+                }
+            });
         });
 
     })();

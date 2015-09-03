@@ -93,12 +93,12 @@
                             </div>
 
                             <!--
-                            -- Company Information Box
+                            -- Business Information Box
                             -->
                             <div class="col-md-6 col-sm-12">
                                 <div class="well" style="background-color: transparent">
                                     <div class="row">
-                                        <h4 class="medlab_dashboard_info_section_title">Company Information</h4>
+                                        <h4 class="medlab_dashboard_info_section_title">Business Information</h4>
                                         <div class="medlab_dashboard_info_item_box_top">
                                             <div class="row">
                                                 <div class="col-md-4 col-sm-4">
@@ -146,7 +146,7 @@
                                             <div class="row">
                                                 <div class="col-md-4 col-sm-4">
                                                     <strong>
-                                                        Association<br>
+                                                        Provider<br>
                                                         Number:
                                                     </strong>
                                                 </div>

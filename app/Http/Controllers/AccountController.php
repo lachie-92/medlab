@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Traits\UsefulViewFunctions;
 use App\Http\Requests\AddressUpdateRequest;
 use App\Http\Requests\EmailUpdateRequest;
 use App\Http\Requests\NewsletterUpdateRequest;
@@ -13,6 +14,8 @@ use App\Http\Controllers\Controller;
 
 class AccountController extends Controller
 {
+    use UsefulViewFunctions;
+
     /**
      * Controller constructor - defines the middleware configurations.
      *
@@ -179,45 +182,5 @@ class AccountController extends Controller
         $mainMobile->save();
 
         return redirect('/account/edit')->with(['message' => 'Address has been updated']);
-    }
-
-    private function createAuStateList()
-    {
-        $auState = [
-            'ACT' => 'ACT',
-            'NSW' => 'NSW',
-            'NT' => 'NT',
-            'QLD' => 'QLD',
-            'SA' => 'SA',
-            'TAS' => 'TAS',
-            'VIC' => 'VIC',
-            'WA' => 'WA'
-        ];
-
-        return $auState;
-    }
-
-    private function createNzRegionList()
-    {
-        $nzRegion = [
-            'Northland' => 'Northland',
-            'Auckland' => 'Auckland',
-            'Waikato' => 'Waikato',
-            'Bay of Plenty' => 'Bay of Plenty',
-            'Gisborne' => 'Gisborne',
-            "Hawke's Bay" => "Hawke's Bay",
-            'Taranaki' => 'Taranaki',
-            'Manawatu-Wanganui' => 'Manawatu-Wanganui',
-            'Wellington' => 'Wellington',
-            'Tasman' => 'Tasman',
-            'Nelson' => 'Nelson',
-            'Marlborough' => 'Marlborough',
-            'West Coast' => 'West Coast',
-            'Canterbury' => 'Canterbury',
-            'Otago' => 'Otago',
-            'Southland' => 'Southland'
-        ];
-
-        return $nzRegion;
     }
 }

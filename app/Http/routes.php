@@ -27,6 +27,10 @@ Route::post('/account/login', 'LoginController@postLogin');
 
 Route::get('/account/logout', 'LoginController@getLogout');
 
+Route::get('/account/register', function() {
+    return redirect('/account/login');
+});
+
 Route::get('/account/register/practitioner', 'LoginController@getRegisterPractitioner');
 
 Route::post('/account/register/practitioner', 'LoginController@postRegisterPractitioner');
@@ -34,6 +38,8 @@ Route::post('/account/register/practitioner', 'LoginController@postRegisterPract
 Route::get('/account/register/patient', 'LoginController@getRegisterPatient');
 
 Route::post('/account/register/patient', 'LoginController@postRegisterPatient');
+
+Route::post('/account/register/patient/getpractitionerlist', 'LoginController@postGetPractitionerList');
 
 Route::get('/account/recovery', 'LoginController@getRecovery');
 
