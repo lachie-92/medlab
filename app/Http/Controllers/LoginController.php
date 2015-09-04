@@ -7,6 +7,8 @@ use App\Http\Controllers\Traits\UsefulViewFunctions;
 use App\Http\Requests\PatientRegisterRequest;
 use App\Http\Requests\PractitionerRegisterRequest;
 use App\Http\Requests\UserLoginRequest;
+use App\Patient_Registration;
+use App\Practitioner_Registration;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Http\Request;
 
@@ -29,7 +31,19 @@ class LoginController extends Controller
         $this->middleware('guest', [
             'only' => [
                 'getLogin',
-                'postLogin'
+                'postLogin',
+                'getRegisterPractitioner',
+                'postRegisterPractitioner',
+                'getRegisterPatient',
+                'postRegisterPatient',
+                'getRecovery',
+                'postRecovery'
+            ]
+        ]);
+
+        $this->middleware('auth', [
+            'only' => [
+                'getLogout'
             ]
         ]);
     }
@@ -88,6 +102,11 @@ class LoginController extends Controller
         return redirect('/');
     }
 
+    public function getRegister()
+    {
+        return redirect('/account/login');
+    }
+
     /**
      * Display the register practitioner page.
      *
@@ -112,7 +131,27 @@ class LoginController extends Controller
      */
     public function postRegisterPractitioner(PractitionerRegisterRequest $request)
     {
-        return view('pages.account.register.practitioner.index');
+        Practitioner_Registration::create([
+            'title' => $request->title,
+            'email' => $request->email,
+            'first_name' => $request->first_name,
+            'last_name' => $request->last_name,
+            'password' => bcrypt($request->password),
+            'clinic_name' => $request->clinic_name,
+            'business_type' => $request->business_type,
+            'abn' => $request->abn,
+            'provider_number' => $request->provider_number,
+            'street' => $request->street_address_one,
+            'suburb' => $request->street_address_two,
+            'city' => $request->city,
+            'state' => $request->state,
+            'country' => $request->country,
+            'postcode' => $request->postcode,
+            'telephone' => $request->telephone,
+            'mobile_phone' => $request->mobile_phone
+        ]);
+
+        return view('pages.account.register.approval.index');
     }
 
     /**
@@ -138,18 +177,57 @@ class LoginController extends Controller
      */
     public function postRegisterPatient(PatientRegisterRequest $request)
     {
+        if ($request->practitioner_not_found) {
+            Patient_Registration::create([
+                'title' => $request->title,
+                'email' => $request->email,
+                'first_name' => $request->first_name,
+                'last_name' => $request->last_name,
+                'password' => bcrypt($request->password),
+                'street' => $request->street_address_one,
+                'suburb' => $request->street_address_two,
+                'city' => $request->city,
+                'state' => $request->state,
+                'country' => $request->country,
+                'postcode' => $request->postcode,
+                'telephone' => $request->telephone,
+                'mobile_phone' => $request->mobile_phone,
+                'practitioner_not_found' => $request->practitioner_not_found,
+                'practitioner_not_found_practitioner_name' => $request->practitioner_not_found_practitioner_name,
+                'practitioner_not_found_clinic' => $request->practitioner_not_found_clinic,
+                'practitioner_not_found_city' => $request->practitioner_not_found_city,
+                'practitioner_not_found_state' => $request->practitioner_not_found_state,
+                'practitioner_not_found_country' => $request->practitioner_not_found_country,
+                'practitioner_not_found_postcode' => $request->practitioner_not_found_postcode,
+            ]);
+        }
+        else {
+            Patient_Registration::create([
+                'title' => $request->title,
+                'email' => $request->email,
+                'first_name' => $request->first_name,
+                'last_name' => $request->last_name,
+                'password' => bcrypt($request->password),
+                'street' => $request->street_address_one,
+                'suburb' => $request->street_address_two,
+                'city' => $request->city,
+                'state' => $request->state,
+                'country' => $request->country,
+                'postcode' => $request->postcode,
+                'telephone' => $request->telephone,
+                'mobile_phone' => $request->mobile_phone,
+                'practitioner_id' => $request->practitioner_id,
+                'practitioner_not_found' => $request->practitioner_not_found,
+            ]);
+        }
 
-
-        return view('pages.account.register.patient.index');
+        return view('pages.account.register.approval.index');
     }
 
     public function postGetPractitionerList(Request $request)
     {
         // practitioner_country practitioner_state practitioner_city practitioner_postcode practitioner_clinic
-        // country
-        // state
-        // postcode
-        // company name
+
 
 
 

@@ -27,9 +27,7 @@ Route::post('/account/login', 'LoginController@postLogin');
 
 Route::get('/account/logout', 'LoginController@getLogout');
 
-Route::get('/account/register', function() {
-    return redirect('/account/login');
-});
+Route::get('/account/register', 'LoginController@getRegister');
 
 Route::get('/account/register/practitioner', 'LoginController@getRegisterPractitioner');
 

@@ -26,8 +26,9 @@ class AccountController extends Controller
             'only' => [
                 'dashboard',
                 'getEdit',
-                'postEdit',
-                'getLogout'
+                'postEmail',
+                'postNewsletter',
+                'postAddress'
             ]
         ]);
     }

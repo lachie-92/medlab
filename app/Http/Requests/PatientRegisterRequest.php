@@ -38,6 +38,7 @@ class PatientRegisterRequest extends Request
             'postcode' => 'required|digits:4',
             'telephone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
             'mobile_phone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
+            'practitioner_id' => 'integer',
             'practitioner_not_found' => 'boolean',
             'agree' => 'boolean|accepted'
         ];
@@ -47,6 +48,7 @@ class PatientRegisterRequest extends Request
         if ($practitioner_not_found) {
 
             $addition = [
+                'practitioner_not_found_practitioner_name' => 'required|max:30',
                 'practitioner_not_found_city' => 'required|max:30',
                 'practitioner_not_found_state' => 'required|validState|max:30',
                 'practitioner_not_found_country' => 'required|validCountry|max:2',
@@ -63,7 +65,7 @@ class PatientRegisterRequest extends Request
     public function messages()
     {
         return [
-            'agree.accepted' => 'Please accept the terms for use',
+            'agree.accepted' => 'Please accept the terms of use'
         ];
     }
 }

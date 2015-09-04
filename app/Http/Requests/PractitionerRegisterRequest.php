@@ -49,7 +49,7 @@ class PractitionerRegisterRequest extends Request
     public function messages()
     {
         return [
-            'agree.accepted' => 'Please accept the terms for use',
+            'agree.accepted' => 'Please accept the terms of use',
         ];
     }
 }

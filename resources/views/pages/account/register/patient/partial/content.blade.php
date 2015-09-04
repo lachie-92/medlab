@@ -344,10 +344,16 @@
                                                         <tr><td><input type="text" class="form-control" name="practitioner_not_found_postcode" placeholder="Post Code" value="{{ old('practitioner_not_found_postcode') }}"></td></tr>
                                                     </table>
                                                 </div>
-                                                <div class="col-md-12 col-sm-12">
+                                                <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
-                                                        <tr><th class="medlab_registration_form_section_subtitle">Name of the Practitioner Clinic</th></tr>
-                                                        <tr><td><input type="text" id="practitioner_clinic" class="form-control" name="practitioner_not_found_clinic" placeholder="Practitioner Clinic Name" value="{{ old('practitioner_not_found_clinic') }}"></td></tr>
+                                                        <tr><th class="medlab_registration_form_section_subtitle">Practitioner Name</th></tr>
+                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_practitioner_name" placeholder="Title First Name Last Name" value="{{ old('practitioner_not_found_practitioner_name') }}"></td></tr>
+                                                    </table>
+                                                </div>
+                                                <div class="col-md-6 col-sm-6">
+                                                    <table style="width:100%;">
+                                                        <tr><th class="medlab_registration_form_section_subtitle">Practitioner Clinic</th></tr>
+                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_clinic" placeholder="Practitioner Clinic" value="{{ old('practitioner_not_found_clinic') }}"></td></tr>
                                                     </table>
                                                 </div>
                                             </div>
