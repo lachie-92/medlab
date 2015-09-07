@@ -31,13 +31,13 @@ class CreatePatientRegistrationsTable extends Migration
             $table->string('mobile_phone');
 
             $table->string('practitioner_id')->nullable();
-            $table->boolean('practitioner_not_found')->nullable();
-            $table->string('practitioner_not_found_practitioner_name')->nullable();
-            $table->string('practitioner_not_found_clinic')->nullable();
-            $table->string('practitioner_not_found_city')->nullable();
-            $table->string('practitioner_not_found_state')->nullable();
-            $table->string('practitioner_not_found_country')->nullable();
-            $table->string('practitioner_not_found_postcode')->nullable();
+            $table->boolean('practitioner_not_found');
+            $table->string('practitioner_name');
+            $table->string('practitioner_clinic');
+            $table->string('practitioner_city');
+            $table->string('practitioner_state');
+            $table->string('practitioner_country');
+            $table->string('practitioner_postcode');
 
             $table->timestamps();
             $table->softDeletes();

@@ -13,7 +13,7 @@ class Patient_Registration extends Model
         'suburb', 'city', 'state',
         'country', 'postcode', 'telephone',
         'mobile_phone', 'practitioner_id', 'practitioner_not_found',
-        'practitioner_not_found_practitioner_name', 'practitioner_not_found_clinic', 'practitioner_not_found_city',
-        'practitioner_not_found_state', 'practitioner_not_found_country', 'practitioner_not_found_postcode',
+        'practitioner_name', 'practitioner_clinic', 'practitioner_city',
+        'practitioner_state', 'practitioner_country', 'practitioner_postcode',
     ];
 }

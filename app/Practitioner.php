@@ -20,4 +20,72 @@ class Practitioner extends Model {
     {
         return $this->belongsTo('App\Company');
     }
+
+    /**
+     *  Query Scopes
+     */
+
+    public function scopeFilterCountry($query, $country_code) {
+        $query
+            ->whereHas('company', function($q) use ($country_code) {
+               $q
+                    ->whereHas('company_addresses', function($q) use ($country_code) {
+                        $q
+                            ->where('country', '=', $country_code);
+                    });
+            });
+    }
+
+    public function scopeFilterState($query, $state) {
+        $query
+            ->whereHas('company', function($q) use ($state) {
+                $q
+                    ->whereHas('company_addresses', function($q) use ($state) {
+                        $q
+                            ->where('state', '=', $state);
+                    });
+            });
+    }
+
+    public function scopeFilterCity($query, $city) {
+        $query
+            ->whereHas('company', function($q) use ($city) {
+                $q
+                    ->whereHas('company_addresses', function($q) use ($city) {
+                        $q
+                            ->where('city', '=', $city);
+                    });
+            });
+    }
+
+    public function scopeFilterSuburb($query, $suburb) {
+        $query
+            ->whereHas('company', function($q) use ($suburb) {
+                $q
+                    ->whereHas('company_addresses', function($q) use ($suburb) {
+                        $q
+                            ->where('suburb', '=', $suburb);
+                    });
+            });
+    }
+
+    public function scopeFilterPostcode($query, $postcode) {
+        $query
+            ->whereHas('company', function($q) use ($postcode) {
+                $q
+                    ->whereHas('company_addresses', function($q) use ($postcode) {
+                        $q
+                            ->where('postcode', '=', $postcode);
+                    });
+            });
+    }
+
+    public function scopeFilterClinic($query, $company_name) {
+        $query
+            ->whereHas('company', function($q) use ($company_name) {
+                $q
+                    ->where('name', 'like', '%' . $company_name . '%');
+            });
+    }
+
 }

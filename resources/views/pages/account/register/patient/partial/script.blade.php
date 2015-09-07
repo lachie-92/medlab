@@ -115,7 +115,7 @@
                     practitioner_state: $('#practitioner_state_select').val(),
                     practitioner_city: $('#practitioner_city').val(),
                     practitioner_postcode: $('#practitioner_postcode').val(),
-                    practitioner_clinic: $('practitioner_clinic').val()
+                    practitioner_suburb: $('#practitioner_suburb').val()
                 },
                 type: "POST",
                 dataType : "html",

@@ -6,6 +6,8 @@ use App\Http\Controllers\Traits\UsefulViewFunctions;
 use App\Http\Requests\AddressUpdateRequest;
 use App\Http\Requests\EmailUpdateRequest;
 use App\Http\Requests\NewsletterUpdateRequest;
+use App\Patient_Registration;
+use App\Practitioner_Registration;
 use Illuminate\Auth\Guard;
 use Illuminate\Http\Request;
 
@@ -74,6 +76,14 @@ class AccountController extends Controller
                     'mainAddress', 'company', 'companyMainAddress',
                     'companyMainPhone'
                 ));
+                break;
+
+            case 'Admin':
+
+                $patientRegistrationList = Patient_Registration::all();
+                $practitionerRegistrationList = Practitioner_Registration::all();
+
+                return view('pages.account.dashboard.admin.main.index', compact('user', 'patientRegistrationList', 'practitionerRegistrationList'));
                 break;
         }
     }

@@ -23,6 +23,17 @@ class UserTableSeeder extends Seeder
      */
     public function run()
     {
+        $admin = Customer::create([
+            'name' => 'admin'
+        ]);
+
+        User::create([
+            'email' => 'admin@testemail.com',
+            'password' => bcrypt('admin2d42#4baeo43@'),
+            'group' => 'Admin',
+            'customer_id' => $admin->id
+        ]);
+
         $patientList = [
             [
                 // Patient Detail

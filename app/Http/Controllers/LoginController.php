@@ -8,6 +8,7 @@ use App\Http\Requests\PatientRegisterRequest;
 use App\Http\Requests\PractitionerRegisterRequest;
 use App\Http\Requests\UserLoginRequest;
 use App\Patient_Registration;
+use App\Practitioner;
 use App\Practitioner_Registration;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Http\Request;
@@ -36,6 +37,7 @@ class LoginController extends Controller
                 'postRegisterPractitioner',
                 'getRegisterPatient',
                 'postRegisterPatient',
+                'postGetPractitionerList',
                 'getRecovery',
                 'postRecovery'
             ]
@@ -193,15 +195,18 @@ class LoginController extends Controller
                 'telephone' => $request->telephone,
                 'mobile_phone' => $request->mobile_phone,
                 'practitioner_not_found' => $request->practitioner_not_found,
-                'practitioner_not_found_practitioner_name' => $request->practitioner_not_found_practitioner_name,
-                'practitioner_not_found_clinic' => $request->practitioner_not_found_clinic,
-                'practitioner_not_found_city' => $request->practitioner_not_found_city,
-                'practitioner_not_found_state' => $request->practitioner_not_found_state,
-                'practitioner_not_found_country' => $request->practitioner_not_found_country,
-                'practitioner_not_found_postcode' => $request->practitioner_not_found_postcode,
+                'practitioner_name' => $request->practitioner_not_found_practitioner_name,
+                'practitioner_clinic' => $request->practitioner_not_found_clinic,
+                'practitioner_city' => $request->practitioner_not_found_city,
+                'practitioner_state' => $request->practitioner_not_found_state,
+                'practitioner_country' => $request->practitioner_not_found_country,
+                'practitioner_postcode' => $request->practitioner_not_found_postcode,
             ]);
         }
         else {
+            $practitioner = Practitioner::findOrFail($request->practitioner_id);
+            $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
+
             Patient_Registration::create([
                 'title' => $request->title,
                 'email' => $request->email,
@@ -218,6 +223,12 @@ class LoginController extends Controller
                 'mobile_phone' => $request->mobile_phone,
                 'practitioner_id' => $request->practitioner_id,
                 'practitioner_not_found' => $request->practitioner_not_found,
+                'practitioner_name' => $practitioner->user->customer->name,
+                'practitioner_clinic' => $practitioner->company->name,
+                'practitioner_city' => $companyMainAddress->city,
+                'practitioner_state' => $companyMainAddress->state,
+                'practitioner_country' => $companyMainAddress->country,
+                'practitioner_postcode' => $companyMainAddress->postcode,
             ]);
         }
 
@@ -226,15 +237,32 @@ class LoginController extends Controller
 
     public function postGetPractitionerList(Request $request)
     {
-        // practitioner_country practitioner_state practitioner_city practitioner_postcode practitioner_clinic
+        //get all practitioner
+        $all_practitioners = Practitioner::orderBy('id');
 
+        if(!empty($request['practitioner_country'])) {
+            $all_practitioners = $all_practitioners->filterCountry($request['practitioner_country']);
+        }
 
+        if(!empty($request['practitioner_state'])) {
+            $all_practitioners = $all_practitioners->filterState($request['practitioner_state']);
+        }
 
+        if(!empty($request['practitioner_suburb'])) {
+            $all_practitioners = $all_practitioners->filterSuburb($request['practitioner_suburb']);
+        }
 
+        if(!empty($request['practitioner_postcode'])) {
+            $all_practitioners = $all_practitioners->filterPostcode($request['practitioner_postcode']);
+        }
 
-        $practitioner = null;
+        if(!empty($request['practitioner_clinic'])) {
+            $all_practitioners = $all_practitioners->filterClinic($request['practitioner_clinic']);
+        }
 
-        return view('pages.account.register.patient.partial.findpractitionerlist', compact('practitioner'));
+        $filtered_practitioners = $all_practitioners->get();
+
+        return view('pages.account.register.patient.partial.findpractitionerlist', compact('filtered_practitioners'));
     }
 
     /**

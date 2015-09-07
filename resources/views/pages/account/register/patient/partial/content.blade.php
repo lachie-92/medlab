@@ -230,8 +230,8 @@
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">City</th></tr>
-                                                    <tr><td><input type="text" id="practitioner_city" class="form-control" name="practitioner_city" placeholder="City" value=""></td></tr>
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Suburb</th></tr>
+                                                    <tr><td><input type="text" id="practitioner_suburb" class="form-control" name="practitioner_suburb" placeholder="Suburb" value=""></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
@@ -317,7 +317,7 @@
                                                         <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
                                                         <tr>
                                                             <td>
-                                                                @if(old('practitioner_not_found_country') == 'AU')
+                                                                @if(old('practitioner_not_found_country') == 'NZ')
                                                                     <select class="form-control" id="practitioner_not_found_country_select" name="practitioner_not_found_country">
                                                                         <option value="AU">Australia</option>
                                                                         <option selected="selected" value="NZ">New Zealand</option>
