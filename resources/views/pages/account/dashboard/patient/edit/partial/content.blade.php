@@ -64,7 +64,7 @@
                             -- Edit Personal Detail Box
                             -->
                             <div class="col-md-6 col-sm-12">
-                                <div class="well" style="background-color: transparent">
+                                <div class="well" style="background-color: transparent; background-image: none">
                                     <form class="form-horizontal" role="form" method="POST" action="/account/edit/email">
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                         <div class="row">
@@ -96,7 +96,7 @@
                             -- Practitioner Information Box
                             -->
                             <div class="col-md-6 col-sm-12">
-                                <div class="well" style="background-color: transparent">
+                                <div class="well" style="background-color: transparent; background-image: none">
                                     <div class="row">
                                         <h4 class="medlab_dashboard_info_section_title">Practitioner Information</h4>
                                         <div class="medlab_dashboard_info_item_box_top">
@@ -105,7 +105,7 @@
                                                     <strong>Practitioner:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $practitioner->user->customer->title }} {{ $practitioner->user->customer->name }}
+                                                    {{ $user->patient->practitioner->user->customer->title }} {{ $user->patient->practitioner->user->customer->name }}
                                                 </div>
                                             </div>
                                         </div>
@@ -115,7 +115,7 @@
                                                     <strong>Clinic:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $practitioner->company->name }}
+                                                    {{ $user->patient->practitioner->company->name }}
                                                 </div>
                                             </div>
                                         </div>
@@ -125,10 +125,10 @@
                                                     <strong>Address:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $companyMainAddress->street }} <br>
-                                                    {{ $companyMainAddress->suburb }} {{ $companyMainAddress->postcode }}<br>
-                                                    {{ $companyMainAddress->city }} <br>
-                                                    {{ $companyMainAddress->state }} {{ $companyMainAddress->country }}<br>
+                                                    {{ $user->patient->practitioner->company->company_addresses->where('type', 'Main Address')->first()->street }} <br>
+                                                    {{ $user->patient->practitioner->company->company_addresses->where('type', 'Main Address')->first()->suburb }} {{ $user->patient->practitioner->company->company_addresses->where('type', 'Main Address')->first()->postcode }}<br>
+                                                    {{ $user->patient->practitioner->company->company_addresses->where('type', 'Main Address')->first()->city }} <br>
+                                                    {{ $user->patient->practitioner->company->company_addresses->where('type', 'Main Address')->first()->state }} {{ $user->patient->practitioner->company->company_addresses->where('type', 'Main Address')->first()->country }}<br>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,7 +138,7 @@
                                                     <strong>Phone:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $companyMainPhone->number }}
+                                                    {{ $user->patient->practitioner->company->company_numbers->where('type', 'Main Number')->first()->number }}
                                                 </div>
                                             </div>
                                         </div>
@@ -150,7 +150,7 @@
                             -- Newsletter Box
                             -->
                             <div class="col-md-12 col-sm-12">
-                                <div class="well" style="background-color: transparent">
+                                <div class="well" style="background-color: transparent; background-image: none">
                                     <form class="form-horizontal" role="form" method="POST" action="/account/edit/newsletter">
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                         <div class="row">
@@ -175,7 +175,7 @@
                             -- Edit Address Box
                             -->
                             <div class="col-md-12 col-sm-12">
-                                <div class="well" style="background-color: transparent">
+                                <div class="well" style="background-color: transparent; background-image: none">
                                     <form class="form-horizontal" role="form" method="POST" action="/account/edit/address">
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                         <h4 class="medlab_registration_form_section_title">Address</h4>
@@ -183,14 +183,14 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ $mainAddress->street }}"></td></tr>
-                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ $mainAddress->suburb }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->street }}"></td></tr>
+                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->suburb }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">City</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ $mainAddress->city }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->city }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -200,10 +200,10 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region</th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if($mainAddress->country == "AU")
-                                                                {!! Form::select('state', $auState, $mainAddress->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                            @if($user->customer->customer_addresses->where('type', 'Main Address')->first()->country == "AU")
+                                                                {!! Form::select('state', $auState, $user->customer->customer_addresses->where('type', 'Main Address')->first()->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @else
-                                                                {!! Form::select('state', $nzRegion, $mainAddress->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                {!! Form::select('state', $nzRegion, $user->customer->customer_addresses->where('type', 'Main Address')->first()->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @endif
                                                         </td>
                                                     </tr>
@@ -214,7 +214,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if($mainAddress->country == "AU")
+                                                            @if($user->customer->customer_addresses->where('type', 'Main Address')->first()->country == "AU")
                                                                 <select class="form-control" id="country_select" name="country">
                                                                     <option selected="selected" value="AU">Australia</option>
                                                                     <option value="NZ">New Zealand</option>
@@ -232,7 +232,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Post Code</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ $mainAddress->postcode }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->postcode }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -240,13 +240,13 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Telephone</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ $mainPhone->number }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ $user->customer->customer_numbers->where('type', 'Main Number')->first()->number }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ $mainMobile->number }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first()->number }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>

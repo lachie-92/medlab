@@ -15,4 +15,5 @@ class Practitioner_Registration extends Model
         'state', 'country', 'postcode',
         'telephone', 'mobile_phone'
     ];
+    protected $dates = ['approval', 'deleted_at'];
 }

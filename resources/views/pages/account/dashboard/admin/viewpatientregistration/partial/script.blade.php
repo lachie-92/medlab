@@ -93,6 +93,26 @@
             }
         });
 
+        $('#change_password_btn').click(function() {
+
+            var $changePassword = $('#change_password');
+
+            if($changePassword.is(':checked')){
+                $('#password_change_box input').each(function() {
+                    $(this).prop('disabled', true);
+                });
+                $changePassword.prop('checked', false);
+                $(this).html('Change Password: No');
+            } else {
+                $('#password_change_box input').each(function() {
+                    $(this).prop('disabled', false);
+                });
+                $changePassword.prop('checked', true);
+                $(this).html("Change Password: Yes");
+            }
+        });
+
+
         $('#practitioner_not_found').change(function() {
 
             if($(this).is(':checked')){

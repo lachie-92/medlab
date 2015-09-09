@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Patient_Registration;
+use App\Practitioner_Registration;
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
@@ -36,6 +38,16 @@ class RouteServiceProvider extends ServiceProvider
         $router->bind('categoryId', function($id){
 
             return Category::where('idCategory', '=', $id)->firstOrFail();
+        });
+
+        $router->bind('patientRegistrationId', function($id){
+
+            return Patient_Registration::where('id', '=', $id)->firstOrFail();
+        });
+
+        $router->bind('practitionerRegistrationId', function($id){
+
+            return Practitioner_Registration::where('id', '=', $id)->firstOrFail();
         });
 
         parent::boot($router);

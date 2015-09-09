@@ -75,7 +75,7 @@
                             -- Left hand side box
                             -->
                             <div class="col-md-6 col-sm-12">
-                                <div class="well" style="background-color: transparent">
+                                <div class="well" style="background-color: transparent; background-image: none">
                                     <!--
                                     -- User Account
                                     -->
@@ -132,10 +132,10 @@
                                                     <strong>Address:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $mainAddress->street }} <br>
-                                                    {{ $mainAddress->suburb }} {{ $mainAddress->postcode }}<br>
-                                                    {{ $mainAddress->city }} <br>
-                                                    {{ $mainAddress->state }} {{ $mainAddress->country }}<br>
+                                                    {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->street }} <br>
+                                                    {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->suburb }} {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->postcode }}<br>
+                                                    {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->city }} <br>
+                                                    {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->state }} {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->country }}<br>
                                                 </div>
                                             </div>
                                         </div>
@@ -145,7 +145,7 @@
                                                     <strong>Phone:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $mainPhone->number }}
+                                                    {{$user->customer->customer_numbers->where('type', 'Main Number')->first()->number }}
                                                 </div>
                                             </div>
                                         </div>
@@ -155,7 +155,7 @@
                                                     <strong>Mobile:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $mainMobile->number }}
+                                                    {{ $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first()->number }}
                                                 </div>
                                             </div>
                                         </div>
@@ -167,7 +167,7 @@
                             -- Right hand side box
                             -->
                             <div class="col-md-6 col-sm-12">
-                                <div class="well" style="background-color: transparent">
+                                <div class="well" style="background-color: transparent; background-image: none">
                                     <!--
                                     -- User Business info
                                     -->
@@ -179,7 +179,7 @@
                                                     <strong>ABN:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $company->registration_number }}
+                                                    {{ $user->practitioner->company->registration_number }}
                                                 </div>
                                             </div>
                                         </div>
@@ -189,7 +189,7 @@
                                                     <strong>Clinic:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $company->name }}
+                                                    {{ $user->practitioner->company->name }}
                                                 </div>
                                             </div>
                                         </div>
@@ -199,10 +199,10 @@
                                                     <strong>Address:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $companyMainAddress->street }} <br>
-                                                    {{ $companyMainAddress->suburb }} {{ $companyMainAddress->postcode }}<br>
-                                                    {{ $companyMainAddress->city }} <br>
-                                                    {{ $companyMainAddress->state }} {{ $companyMainAddress->country }}<br>
+                                                    {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->street }} <br>
+                                                    {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->suburb }} {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->postcode }}<br>
+                                                    {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->city }} <br>
+                                                    {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->state }} {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->country }}<br>
                                                 </div>
                                             </div>
                                         </div>
@@ -212,7 +212,7 @@
                                                     <strong>Phone:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $companyMainPhone->number }}
+                                                    {{ $user->practitioner->company->company_numbers->where('type', 'Main Number')->first()->number }}
                                                 </div>
                                             </div>
                                         </div>

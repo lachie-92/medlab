@@ -35,6 +35,7 @@ class CreatePractitionerRegistrationsTable extends Migration
             $table->string('telephone');
             $table->string('mobile_phone');
 
+            $table->timestamp('approval')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });

@@ -36,7 +36,7 @@
                                 -- User Name
                                 -->
                                 <div class="col-md-6 col-sm-6">
-                                    <div class="well" style="background-color: transparent">
+                                    <div class="well" style="background-color: transparent; background-image: none">
                                         <h4 class="medlab_registration_form_section_title">Your Detail</h4>
 
                                         <div class="row">
@@ -76,7 +76,7 @@
                                 -- User Password
                                 -->
                                 <div class="col-md-6 col-sm-6">
-                                    <div class="well" style="background-color: transparent">
+                                    <div class="well" style="background-color: transparent; background-image: none">
                                         <h4 class="medlab_registration_form_section_title">Password</h4>
 
                                         <div class="row">
@@ -106,7 +106,7 @@
                                 -- Business information
                                 -->
                                 <div class="col-md-12 col-sm-12">
-                                    <div class="well" style="background-color: transparent">
+                                    <div class="well" style="background-color: transparent; background-image: none">
                                         <h4 class="medlab_registration_form_section_title">Clinic/Business Information</h4>
 
                                         <div class="row">
@@ -155,7 +155,7 @@
                                 -- Business Address
                                 -->
                                 <div class="col-md-12 col-sm-12">
-                                    <div class="well" style="background-color: transparent">
+                                    <div class="well" style="background-color: transparent; background-image: none">
                                         <h4 class="medlab_registration_form_section_title">Business Address</h4>
 
                                         <div class="row">
@@ -242,7 +242,7 @@
                                 -- Terms and Conditions
                                 -->
                                 <div class="col-md-12 col-sm-12">
-                                    <div class="well" style="background-color: transparent">
+                                    <div class="well" style="background-color: transparent; background-image: none">
                                         <h4 class="medlab_registration_form_section_title">Terms For Use of Website</h4>
                                         <br>
                                         <div class="well">

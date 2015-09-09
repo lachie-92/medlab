@@ -2,12 +2,21 @@
 
 namespace App\Http\Controllers;
 
+use App\Customer;
+use App\Customer_Address;
+use App\Customer_Email;
+use App\Customer_Number;
 use App\Http\Controllers\Traits\UsefulViewFunctions;
 use App\Http\Requests\AddressUpdateRequest;
 use App\Http\Requests\EmailUpdateRequest;
 use App\Http\Requests\NewsletterUpdateRequest;
+use App\Http\Requests\PatientAccountRequest;
+use App\Patient;
 use App\Patient_Registration;
+use App\Practitioner;
 use App\Practitioner_Registration;
+use App\User;
+use Carbon\Carbon;
 use Illuminate\Auth\Guard;
 use Illuminate\Http\Request;
 
@@ -33,6 +42,15 @@ class AccountController extends Controller
                 'postAddress'
             ]
         ]);
+
+        $this->middleware('adminAuth', [
+            'only' => [
+                'getPatientRegistration',
+                'getPractitionerRegistration',
+                'getViewPatientRegistration',
+                'getViewPractitionerRegistration'
+            ]
+        ]);
     }
 
     /**
@@ -46,44 +64,21 @@ class AccountController extends Controller
     {
         $user = $auth->user();
 
-        $mainPhone = $user->customer->customer_numbers->where('type', 'Main Number')->first();
-        $mainMobile = $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first();
-        $mainAddress = $user->customer->customer_addresses->where('type', 'Main Address')->first();
-
         switch ($user->group) {
 
             case 'Patient':
 
-                $practitioner = $user->patient->practitioner;
-                $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
-                $companyMainPhone = $practitioner->company->company_numbers->where('type', 'Main Number')->first();
-
-                return view('pages.account.dashboard.patient.main.index', compact(
-                    'user', 'mainPhone', 'mainMobile',
-                    'mainAddress', 'practitioner', 'companyMainAddress',
-                    'companyMainPhone'
-                ));
+                return view('pages.account.dashboard.patient.main.index', compact('user'));
                 break;
 
             case 'Practitioner':
 
-                $company = $user->practitioner->company;
-                $companyMainAddress = $company->company_addresses->where('type', 'Main Address')->first();
-                $companyMainPhone = $company->company_numbers->where('type', 'Main Number')->first();
-
-                return view('pages.account.dashboard.practitioner.main.index', compact(
-                    'user', 'mainPhone', 'mainMobile',
-                    'mainAddress', 'company', 'companyMainAddress',
-                    'companyMainPhone'
-                ));
+                return view('pages.account.dashboard.practitioner.main.index', compact('user'));
                 break;
 
             case 'Admin':
 
-                $patientRegistrationList = Patient_Registration::all();
-                $practitionerRegistrationList = Practitioner_Registration::all();
-
-                return view('pages.account.dashboard.admin.main.index', compact('user', 'patientRegistrationList', 'practitionerRegistrationList'));
+                return redirect('/account/patient-registration');
                 break;
         }
     }
@@ -100,39 +95,22 @@ class AccountController extends Controller
     public function getEdit(Request $request, Guard $auth)
     {
         $user = $auth->user();
-
         $auState = $this->createAuStateList();
         $nzRegion = $this->createNzRegionList();
-
-        $mainPhone = $user->customer->customer_numbers->where('type', 'Main Number')->first();
-        $mainMobile = $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first();
-        $mainAddress = $user->customer->customer_addresses->where('type', 'Main Address')->first();
 
         switch ($user->group) {
 
             case 'Patient':
 
-                $practitioner = $user->patient->practitioner;
-                $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
-                $companyMainPhone = $practitioner->company->company_numbers->where('type', 'Main Number')->first();
-
                 return view('pages.account.dashboard.patient.edit.index', compact(
-                    'user', 'mainPhone', 'mainMobile',
-                    'mainAddress', 'practitioner', 'companyMainAddress',
-                    'auState', 'nzRegion', 'companyMainPhone'
+                    'user', 'auState', 'nzRegion'
                 ));
                 break;
 
             case 'Practitioner':
 
-                $company = $user->practitioner->company;
-                $companyMainAddress = $company->company_addresses->where('type', 'Main Address')->first();
-                $companyMainPhone = $company->company_numbers->where('type', 'Main Number')->first();
-
                 return view('pages.account.dashboard.practitioner.edit.index', compact(
-                    'user', 'mainPhone', 'mainMobile',
-                    'mainAddress', 'company', 'companyMainAddress',
-                    'auState', 'nzRegion', 'companyMainPhone'
+                    'user', 'auState', 'nzRegion'
                 ));
                 break;
         }
@@ -193,5 +171,137 @@ class AccountController extends Controller
         $mainMobile->save();
 
         return redirect('/account/edit')->with(['message' => 'Address has been updated']);
+    }
+
+    public function getPatientRegistration()
+    {
+        $patientRegistrationList = Patient_Registration::whereNull('approval')->get();
+        $patientRegistrationApprovedList = Patient_Registration::whereNotNull('approval')->get();
+        $patientRegistrationDeletedList = Patient_Registration::onlyTrashed()->get();
+
+        $practitionerRegistrationList = Practitioner_Registration::whereNull('approval')->get();
+
+        return view('pages.account.dashboard.admin.patientregistration.index', compact(
+            'user', 'patientRegistrationList', 'practitionerRegistrationList',
+            'patientRegistrationApprovedList', 'patientRegistrationDeletedList'
+        ));
+    }
+
+    public function getViewPatientRegistration(Patient_Registration $registration)
+    {
+        $auState = $this->createAuStateList();
+        $nzRegion = $this->createNzRegionList();
+        $titleList = $this->createTitleList();
+
+        $practitioner = Practitioner::find($registration->practitioner_id);
+
+        return view('pages.account.dashboard.admin.viewpatientregistration.index', compact(
+            'registration', 'auState', 'nzRegion', 'titleList', 'practitioner'
+        ));
+    }
+
+    public function postCreatePatientAccount(PatientAccountRequest $request, Patient_Registration $registration)
+    {
+        $practitioner = Practitioner::findOrFail($request->practitioner_id);
+        $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
+
+        $registration->title = $request->title;
+        $registration->email = $request->email;
+        $registration->first_name = $request->first_name;
+        $registration->last_name = $request->last_name;
+        $registration->street = $request->street_address_one;
+        $registration->suburb = $request->street_address_two;
+        $registration->city = $request->city;
+        $registration->state = $request->state;
+        $registration->country = $request->country;
+        $registration->postcode = $request->postcode;
+        $registration->telephone = $request->telephone;
+        $registration->mobile_phone = $request->mobile_phone;
+        $registration->practitioner_id = $request->practitioner_id;
+        $registration->practitioner_not_found = false;
+        $registration->practitioner_name = $practitioner->user->customer->name;
+        $registration->practitioner_clinic = $practitioner->company->name;
+        $registration->practitioner_city = $companyMainAddress->city;
+        $registration->practitioner_state = $companyMainAddress->state;
+        $registration->practitioner_country = $companyMainAddress->country;
+        $registration->practitioner_postcode = $companyMainAddress->postcode;
+        $registration->approval = Carbon::now();
+
+        if ($request->change_password) {
+            $registration->password = bcrypt($request->password);
+        }
+
+        $registration->save();
+
+        $customer = new Customer();
+        $customer->title = $registration->title;
+        $customer->name = $registration->first_name . " " . $registration->last_name;
+        $customer->first_name = $registration->first_name;
+        $customer->last_name = $registration->last_name;
+        $customer->country = $registration->country;
+        $customer->save();
+
+        $customerAddress = new Customer_Address();
+        $customerAddress->type = 'Main Address';
+        $customerAddress->address = $registration->street . " " . $registration->suburb;
+        $customerAddress->street = $registration->street;
+        $customerAddress->suburb = $registration->suburb;
+        $customerAddress->postcode = $registration->postcode;
+        $customerAddress->city = $registration->city;
+        $customerAddress->state = $registration->state;
+        $customerAddress->country = $registration->country;
+        $customerAddress->customer_id = $customer->id;
+        $customerAddress->save();
+
+        $customerEmail = new Customer_Email();
+        $customerEmail->type = 'Main Email';
+        $customerEmail->email_address = $registration->email;
+        $customerEmail->customer_id = $customer->id;
+        $customerEmail->save();
+
+        $customerTelephone = new Customer_Number();
+        $customerTelephone->type = 'Main Number';
+        $customerTelephone->number = $registration->telephone;
+        $customerTelephone->customer_id = $customer->id;
+        $customerTelephone->save();
+
+        $customerMobile = new Customer_Number();
+        $customerMobile->type = 'Main Mobile Number';
+        $customerMobile->number = $registration->mobile_phone;
+        $customerMobile->customer_id = $customer->id;
+        $customerMobile->save();
+
+        $newUser = new User();
+        $newUser->email = $registration->email;
+        $newUser->password = $registration->password;
+        $newUser->newsletter_subscription = false;
+        $newUser->group = 'Patient';
+        $newUser->approval_status = 'approved';
+        $newUser->activated = true;
+        $newUser->timezone = $registration->country;
+        $newUser->customer_id = $customer->id;
+        $newUser->save();
+
+        $newPatient = new Patient();
+        $newPatient->user_id = $newUser->id;
+        $newPatient->practitioner_id = $registration->practitioner_id;
+        $newPatient->save();
+
+        return redirect('/account/patient-registration')->with(['message' => 'Account has been created']);
+    }
+
+    public function getPractitionerRegistration()
+    {
+        $patientRegistrationList = Patient_Registration::all();
+        $practitionerRegistrationList = Practitioner_Registration::all();
+
+        return view('pages.account.dashboard.admin.practitionerregistration.index', compact(
+            'user', 'patientRegistrationList', 'practitionerRegistrationList'
+        ));
+    }
+
+    public function getViewPractitionerRegistration()
+    {
+
     }
 }

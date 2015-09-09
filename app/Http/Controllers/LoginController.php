@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Traits\DefineAccountParameters;
 use App\Http\Controllers\Traits\UsefulViewFunctions;
+use App\Http\Requests\PatientRegisterPractitionerSearchRequest;
 use App\Http\Requests\PatientRegisterRequest;
 use App\Http\Requests\PractitionerRegisterRequest;
 use App\Http\Requests\UserLoginRequest;
@@ -37,7 +38,6 @@ class LoginController extends Controller
                 'postRegisterPractitioner',
                 'getRegisterPatient',
                 'postRegisterPatient',
-                'postGetPractitionerList',
                 'getRecovery',
                 'postRecovery'
             ]
@@ -150,7 +150,8 @@ class LoginController extends Controller
             'country' => $request->country,
             'postcode' => $request->postcode,
             'telephone' => $request->telephone,
-            'mobile_phone' => $request->mobile_phone
+            'mobile_phone' => $request->mobile_phone,
+            'approval' => null
         ]);
 
         return view('pages.account.register.approval.index');
@@ -201,6 +202,7 @@ class LoginController extends Controller
                 'practitioner_state' => $request->practitioner_not_found_state,
                 'practitioner_country' => $request->practitioner_not_found_country,
                 'practitioner_postcode' => $request->practitioner_not_found_postcode,
+                'approval' => null
             ]);
         }
         else {
@@ -229,13 +231,14 @@ class LoginController extends Controller
                 'practitioner_state' => $companyMainAddress->state,
                 'practitioner_country' => $companyMainAddress->country,
                 'practitioner_postcode' => $companyMainAddress->postcode,
+                'approval' => null
             ]);
         }
 
         return view('pages.account.register.approval.index');
     }
 
-    public function postGetPractitionerList(Request $request)
+    public function postGetPractitionerList(PatientRegisterPractitionerSearchRequest $request)
     {
         //get all practitioner
         $all_practitioners = Practitioner::orderBy('id');

@@ -63,6 +63,23 @@ Route::post('/account/edit/address', 'AccountController@postAddress');
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
+// Admin
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/account/patient-registration', 'AccountController@getPatientRegistration');
+
+Route::get('/account/patient-registration/{patientRegistrationId}', 'AccountController@getViewPatientRegistration');
+
+Route::post('/account/patient-registration/{patientRegistrationId}/create', 'AccountController@postCreatePatientAccount');
+
+Route::get('/account/practitioner-registration', 'AccountController@getPractitionerRegistration');
+
+Route::get('/account/practitioner-registration/{practitionerRegistrationId}', 'AccountController@getViewPractitionerRegistration');
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
 // Nutraceuticals
 //
 ///////////////////////////////////////////////////////////////////////////////////
@@ -80,8 +97,6 @@ Route::get('/nutraceuticals/categories/{categoryId}', 'NutraceuticalsController@
 Route::get('/nutraceuticals/ingredients', 'NutraceuticalsController@ingredients');
 
 Route::get('/nutraceuticals/faq', 'NutraceuticalsController@faq');
-
-
 
 
 ///////////////////////////////////////////////////////////////////////////////////

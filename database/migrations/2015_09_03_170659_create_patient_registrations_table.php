@@ -39,6 +39,7 @@ class CreatePatientRegistrationsTable extends Migration
             $table->string('practitioner_country');
             $table->string('practitioner_postcode');
 
+            $table->timestamp('approval')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
