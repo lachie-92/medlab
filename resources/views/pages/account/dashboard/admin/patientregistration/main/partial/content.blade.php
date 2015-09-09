@@ -53,7 +53,7 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Patient Registration
+                    New Patient Registration
                 </div>
                 <div class="panel-body">
                     @if (count($patientRegistrationList->where('approval', null)))
@@ -63,7 +63,7 @@
                                 <th>Patient Name</th>
                                 <th>Clinic</th>
                                 <th>Practitioner Name</th>
-                                <th>Registration Received</th>
+                                <th>Received</th>
                                 <th>Details</th>
                             </tr>
                             </thead>
@@ -112,7 +112,7 @@
                                     <td>{{ $patient->practitioner_clinic }}</td>
                                     <td>{{ $patient->practitioner_name }}</td>
                                     <td>{{ $patient->approval->diffForHumans() }}</td>
-                                    <td><a class="btn btn-default" target="_blank">View</a></td>
+                                    <td><a class="btn btn-default" href="/account/patient-registration/{{ $patient->id }}">View</a></td>
                                 </tr>
                             @endforeach
                             </tbody>
@@ -139,7 +139,7 @@
                                 <th>Patient Name</th>
                                 <th>Clinic</th>
                                 <th>Practitioner Name</th>
-                                <th>Registration Deleted</th>
+                                <th>Deleted</th>
                                 <th>Details</th>
                             </tr>
                             </thead>
@@ -150,7 +150,7 @@
                                     <td>{{ $patient->practitioner_clinic }}</td>
                                     <td>{{ $patient->practitioner_name }}</td>
                                     <td>{{ $patient->deleted_at->diffForHumans() }}</td>
-                                    <td><a class="btn btn-default" target="_blank">View</a></td>
+                                    <td><a class="btn btn-default" href="/account/patient-registration/{{ $patient->id }}">View</a></td>
                                 </tr>
                             @endforeach
                             </tbody>

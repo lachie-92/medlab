@@ -45,10 +45,13 @@ class AccountController extends Controller
 
         $this->middleware('adminAuth', [
             'only' => [
+                'getShowPatientRegistrations',
                 'getPatientRegistration',
-                'getPractitionerRegistration',
-                'getViewPatientRegistration',
-                'getViewPractitionerRegistration'
+                'postDeletePatientRegistration',
+                'postRestoreDeletedPatientRegistration',
+                'postCreatePatientAccount',
+                'getShowPractitionerRegistrations',
+                'getNewPractitionerRegistration'
             ]
         ]);
     }
@@ -173,7 +176,7 @@ class AccountController extends Controller
         return redirect('/account/edit')->with(['message' => 'Address has been updated']);
     }
 
-    public function getPatientRegistration()
+    public function getShowPatientRegistrations()
     {
         $patientRegistrationList = Patient_Registration::whereNull('approval')->get();
         $patientRegistrationApprovedList = Patient_Registration::whereNotNull('approval')->get();
@@ -181,13 +184,13 @@ class AccountController extends Controller
 
         $practitionerRegistrationList = Practitioner_Registration::whereNull('approval')->get();
 
-        return view('pages.account.dashboard.admin.patientregistration.index', compact(
+        return view('pages.account.dashboard.admin.patientregistration.main.index', compact(
             'user', 'patientRegistrationList', 'practitionerRegistrationList',
             'patientRegistrationApprovedList', 'patientRegistrationDeletedList'
         ));
     }
 
-    public function getViewPatientRegistration(Patient_Registration $registration)
+    public function getPatientRegistration(Patient_Registration $registration)
     {
         $auState = $this->createAuStateList();
         $nzRegion = $this->createNzRegionList();
@@ -195,9 +198,46 @@ class AccountController extends Controller
 
         $practitioner = Practitioner::find($registration->practitioner_id);
 
-        return view('pages.account.dashboard.admin.viewpatientregistration.index', compact(
-            'registration', 'auState', 'nzRegion', 'titleList', 'practitioner'
-        ));
+        // Deleted Registration
+        if ($registration->deleted_at != null) {
+            return view('pages.account.dashboard.admin.patientregistration.deleted.index', compact(
+                'registration', 'auState', 'nzRegion', 'titleList', 'practitioner'
+            ));
+        }
+
+        // Unapproved Registration
+        if ($registration->approval == null) {
+
+            return view('pages.account.dashboard.admin.patientregistration.new.index', compact(
+                'registration', 'auState', 'nzRegion', 'titleList', 'practitioner'
+            ));
+        }
+        // Approved Registration
+        else {
+            return view('pages.account.dashboard.admin.patientregistration.approved.index', compact(
+                'registration', 'auState', 'nzRegion', 'titleList', 'practitioner'
+            ));
+        }
+    }
+
+    public function postDeletePatientRegistration(Patient_Registration $registration)
+    {
+        if ($registration->approval == null && $registration->deleted_at == null) {
+            $registration->delete();
+            return redirect('/account/patient-registration')->with(['message' => 'Registration has been deleted']);
+        }
+
+        return redirect('/account/patient-registration')->with(['message' => 'Cannot delete the Registration']);
+    }
+
+    public function postRestoreDeletedPatientRegistration(Patient_Registration $registration)
+    {
+        if ($registration->deleted_at != null) {
+            $registration->restore();
+            return redirect('/account/patient-registration')->with(['message' => 'Registration has been restored']);
+        }
+
+        return redirect('/account/patient-registration')->with(['message' => 'Cannot Restore the Deleted Registration']);
     }
 
     public function postCreatePatientAccount(PatientAccountRequest $request, Patient_Registration $registration)
@@ -290,7 +330,7 @@ class AccountController extends Controller
         return redirect('/account/patient-registration')->with(['message' => 'Account has been created']);
     }
 
-    public function getPractitionerRegistration()
+    public function getShowPractitionerRegistrations()
     {
         $patientRegistrationList = Patient_Registration::all();
         $practitionerRegistrationList = Practitioner_Registration::all();
@@ -300,7 +340,7 @@ class AccountController extends Controller
         ));
     }
 
-    public function getViewPractitionerRegistration()
+    public function getPractitionerRegistration()
     {
 
     }

@@ -9,7 +9,7 @@
             <li><a class="medlab_breadcrumbs_link" href="/">Home</a></li>
             <li><a class="medlab_breadcrumbs_link" href="/account">Account</a></li>
             <li><a class="medlab_breadcrumbs_link" href="/account/patient-registration">Patient Registration</a></li>
-            <li class="active medlab_breadcrumbs_text">View</li>
+            <li class="active medlab_breadcrumbs_text">Approved Registration</li>
         </ol>
     </div>
 </div>

@@ -42,12 +42,12 @@ class RouteServiceProvider extends ServiceProvider
 
         $router->bind('patientRegistrationId', function($id){
 
-            return Patient_Registration::where('id', '=', $id)->firstOrFail();
+            return Patient_Registration::withTrashed()->where('id', '=', $id)->firstOrFail();
         });
 
         $router->bind('practitionerRegistrationId', function($id){
 
-            return Practitioner_Registration::where('id', '=', $id)->firstOrFail();
+            return Practitioner_Registration::withTrashed()->where('id', '=', $id)->firstOrFail();
         });
 
         parent::boot($router);

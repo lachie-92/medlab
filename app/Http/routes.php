@@ -67,15 +67,19 @@ Route::post('/account/edit/address', 'AccountController@postAddress');
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('/account/patient-registration', 'AccountController@getPatientRegistration');
+Route::get('/account/patient-registration', 'AccountController@getShowPatientRegistrations');
 
-Route::get('/account/patient-registration/{patientRegistrationId}', 'AccountController@getViewPatientRegistration');
+Route::get('/account/patient-registration/{patientRegistrationId}', 'AccountController@getPatientRegistration');
+
+Route::post('/account/patient-registration/{patientRegistrationId}/delete', 'AccountController@postDeletePatientRegistration');
+
+Route::post('/account/patient-registration/{patientRegistrationId}/restore', 'AccountController@postRestoreDeletedPatientRegistration');
 
 Route::post('/account/patient-registration/{patientRegistrationId}/create', 'AccountController@postCreatePatientAccount');
 
-Route::get('/account/practitioner-registration', 'AccountController@getPractitionerRegistration');
+Route::get('/account/practitioner-registration', 'AccountController@getShowPractitionerRegistrations');
 
-Route::get('/account/practitioner-registration/{practitionerRegistrationId}', 'AccountController@getViewPractitionerRegistration');
+Route::get('/account/practitioner-registration/{practitionerRegistrationId}', 'AccountController@getPractitionerRegistration');
 
 
 ///////////////////////////////////////////////////////////////////////////////////

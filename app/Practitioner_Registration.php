@@ -3,9 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Practitioner_Registration extends Model
 {
+    use SoftDeletes;
+
     protected $table = 'practitioner_registrations';
     protected $fillable = [
         'title', 'email', 'first_name',

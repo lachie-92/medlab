@@ -23,6 +23,11 @@ class PatientAccountRequest extends Request
             return false;
         }
 
+        // Stop account creation if the registration is deleted
+        if ($registration->deleted_at) {
+            return false;
+        }
+
         if (Auth::user()->group != 'Admin') {
             return false;
         }
