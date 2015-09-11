@@ -133,9 +133,9 @@
                     _token: "{{ csrf_token() }}",
                     practitioner_country: $('#practitioner_country_select').val(),
                     practitioner_state: $('#practitioner_state_select').val(),
-                    practitioner_city: $('#practitioner_city').val(),
                     practitioner_postcode: $('#practitioner_postcode').val(),
-                    practitioner_suburb: $('#practitioner_suburb').val()
+                    practitioner_suburb: $('#practitioner_suburb').val(),
+                    practitioner_clinic: $('#practitioner_clinic').val()
                 },
                 type: "POST",
                 dataType : "html",

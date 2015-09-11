@@ -4,9 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Traits\DefineAccountParameters;
 use App\Http\Controllers\Traits\UsefulViewFunctions;
-use App\Http\Requests\PatientRegisterPractitionerSearchRequest;
 use App\Http\Requests\PatientRegisterRequest;
 use App\Http\Requests\PractitionerRegisterRequest;
+use App\Http\Requests\PractitionerSearchRequest;
 use App\Http\Requests\UserLoginRequest;
 use App\Patient_Registration;
 use App\Practitioner;
@@ -141,7 +141,7 @@ class LoginController extends Controller
             'password' => bcrypt($request->password),
             'clinic_name' => $request->clinic_name,
             'business_type' => $request->business_type,
-            'abn' => $request->abn,
+            'business_number' => $request->business_number,
             'provider_number' => $request->provider_number,
             'street' => $request->street_address_one,
             'suburb' => $request->street_address_two,
@@ -238,7 +238,7 @@ class LoginController extends Controller
         return view('pages.account.register.approval.index');
     }
 
-    public function postGetPractitionerList(PatientRegisterPractitionerSearchRequest $request)
+    public function postGetPractitionerList(PractitionerSearchRequest $request)
     {
         //get all practitioner
         $all_practitioners = Practitioner::orderBy('id');

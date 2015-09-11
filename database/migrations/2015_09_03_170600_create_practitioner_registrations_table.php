@@ -23,8 +23,9 @@ class CreatePractitionerRegistrationsTable extends Migration
 
             $table->string('clinic_name');
             $table->string('business_type');
-            $table->string('abn');
+            $table->string('business_number');
             $table->string('provider_number');
+            $table->integer('company_id')->nullable();
 
             $table->string('street');
             $table->string('suburb');

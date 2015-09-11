@@ -30,7 +30,7 @@ class CreatePatientRegistrationsTable extends Migration
             $table->string('telephone');
             $table->string('mobile_phone');
 
-            $table->string('practitioner_id')->nullable();
+            $table->integer('practitioner_id')->nullable();
             $table->boolean('practitioner_not_found');
             $table->string('practitioner_name');
             $table->string('practitioner_clinic');

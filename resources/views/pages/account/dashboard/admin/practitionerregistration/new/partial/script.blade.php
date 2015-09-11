@@ -4,10 +4,8 @@
 
         var $countrySelector = $('#country_select');
         var $stateSelector = $('#state_select');
-        var $practitionerCountrySelector = $('#practitioner_country_select');
-        var $practitionerStateSelector = $('#practitioner_state_select');
-        var $practitionerNotFoundCountrySelector = $('#practitioner_not_found_country_select');
-        var $practitionerNotFoundStateSelector = $('#practitioner_not_found_state_select');
+        var $companyCountrySelector = $('#company_country_select');
+        var $companyStateSelector = $('#company_state_select');
 
         var australiaOptions = {
             'ACT': 'ACT',
@@ -57,71 +55,65 @@
             }
         });
 
-        $practitionerCountrySelector.on('change', function(e) {
+        $companyCountrySelector.on('change', function(e) {
 
             var countrySelected = $(this).val();
 
             if (countrySelected == 'AU') {
-                $practitionerStateSelector.empty();
+                $companyStateSelector.empty();
                 $.each(australiaOptions, function(value,key) {
-                    $practitionerStateSelector.append('<option value="' + value + '">' + key + '</option>');
+                    $companyStateSelector.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
             if (countrySelected == 'NZ') {
-                $practitionerStateSelector.empty();
+                $companyStateSelector.empty();
                 $.each(newzealandOptions, function(value,key) {
-                    $practitionerStateSelector.append('<option value="' + value + '">' + key + '</option>');
+                    $companyStateSelector.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
         });
 
-        $practitionerNotFoundCountrySelector.on('change', function(e) {
+        $('#change_password_btn').click(function() {
 
-            var countrySelected = $(this).val();
+            var $changePassword = $('#change_password');
 
-            if (countrySelected == 'AU') {
-                $practitionerNotFoundStateSelector.empty();
-                $.each(australiaOptions, function(value,key) {
-                    $practitionerNotFoundStateSelector.append('<option value="' + value + '">' + key + '</option>');
+            if($changePassword.is(':checked')){
+                $('#password_change_box input').each(function() {
+                    $(this).prop('disabled', true);
                 });
-            }
-            if (countrySelected == 'NZ') {
-                $practitionerNotFoundStateSelector.empty();
-                $.each(newzealandOptions, function(value,key) {
-                    $practitionerNotFoundStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-        });
-
-        $('#practitioner_not_found').change(function() {
-
-            if($(this).is(':checked')){
-                $("#practitioner_manual_handling").collapse("show");
+                $changePassword.prop('checked', false);
+                $(this).html('Change Password: No');
             } else {
-                $("#practitioner_manual_handling").collapse("hide");
+                $('#password_change_box input').each(function() {
+                    $(this).prop('disabled', false);
+                });
+                $changePassword.prop('checked', true);
+                $(this).html("Change Password: Yes");
             }
         });
 
-        $('#find_practitioner_btn').click(function(e) {
+        $('#find_company_btn').click(function(e) {
 
             e.preventDefault();
 
             $.ajax({
 
-                url: "/account/register/patient/getpractitionerlist",
+                url: "/account/practitioner-registration/getcompanylist",
                 data: {
                     _token: "{{ csrf_token() }}",
-                    practitioner_country: $('#practitioner_country_select').val(),
-                    practitioner_state: $('#practitioner_state_select').val(),
-                    practitioner_postcode: $('#practitioner_postcode').val(),
-                    practitioner_suburb: $('#practitioner_suburb').val(),
-                    practitioner_clinic: $('#practitioner_clinic').val()
+                    company_country: $('#company_country_select').val(),
+                    company_state: $('#company_state_select').val(),
+                    company_postcode: $('#company_postcode').val(),
+                    company_suburb: $('#company_suburb').val(),
+                    company_name: $('#company_name').val(),
+                    company_type: $('#company_type').val(),
+                    company_business_number: $('#company_business_number').val(),
                 },
                 type: "POST",
                 dataType : "html",
 
                 success: function( html ) {
-                    var display = $('#find_practitioner_display_box');
+                    var display = $('#find_company_display_box');
                     display.empty();
                     display.append(html);
                 },

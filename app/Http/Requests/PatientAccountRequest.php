@@ -60,4 +60,11 @@ class PatientAccountRequest extends Request
             'practitioner_id' => 'required|integer|exists:practitioners,id',
         ];
     }
+
+    public function messages()
+    {
+        return [
+            'practitioner_id.required' => 'You must select a Practitioner for the Patient',
+        ];
+    }
 }

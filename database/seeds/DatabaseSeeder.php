@@ -9,7 +9,9 @@ use App\Customer_Address;
 use App\Customer_Email;
 use App\Customer_Number;
 use App\Patient;
+use App\Patient_Registration;
 use App\Practitioner;
+use App\Practitioner_Registration;
 use App\Related_To;
 use App\User;
 use Illuminate\Database\Seeder;
@@ -44,6 +46,8 @@ class DatabaseSeeder extends Seeder
         Customer_Address::truncate();
         Customer_Email::truncate();
         Customer_Number::truncate();
+        Patient_Registration::truncate();
+        Practitioner_Registration::truncate();
 
         Product::truncate();
         Ingredient::truncate();
@@ -52,6 +56,7 @@ class DatabaseSeeder extends Seeder
         DB::statement("SET foreign_key_checks = 1");
 
         $this->call(UserTableSeeder::class);
+        $this->call(RegistrationTableSeeder::class);
 
         $this->call(Biotic_Jnr_Seeder::class);
         $this->call(Enbiotic_120s_Seeder::class);

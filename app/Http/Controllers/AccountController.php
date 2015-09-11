@@ -2,15 +2,18 @@
 
 namespace App\Http\Controllers;
 
+use App\Company;
 use App\Customer;
 use App\Customer_Address;
 use App\Customer_Email;
 use App\Customer_Number;
 use App\Http\Controllers\Traits\UsefulViewFunctions;
 use App\Http\Requests\AddressUpdateRequest;
+use App\Http\Requests\CompanySearchRequest;
 use App\Http\Requests\EmailUpdateRequest;
 use App\Http\Requests\NewsletterUpdateRequest;
 use App\Http\Requests\PatientAccountRequest;
+use App\Http\Requests\PractitionerAccountRequest;
 use App\Patient;
 use App\Patient_Registration;
 use App\Practitioner;
@@ -51,7 +54,11 @@ class AccountController extends Controller
                 'postRestoreDeletedPatientRegistration',
                 'postCreatePatientAccount',
                 'getShowPractitionerRegistrations',
-                'getNewPractitionerRegistration'
+                'postGetCompanyList',
+                'getPractitionerRegistration',
+                'postCreatePractitionerAccount',
+                'postDeletePractitionerRegistration',
+                'postRestoreDeletedPractitionerRegistration'
             ]
         ]);
     }
@@ -299,6 +306,10 @@ class AccountController extends Controller
         $customerEmail->customer_id = $customer->id;
         $customerEmail->save();
 
+        $customer->main_address_id = $customerAddress->id;
+        $customer->registration_email_id = $customerEmail->id;
+        $customer->save();
+
         $customerTelephone = new Customer_Number();
         $customerTelephone->type = 'Main Number';
         $customerTelephone->number = $registration->telephone;
@@ -332,16 +343,197 @@ class AccountController extends Controller
 
     public function getShowPractitionerRegistrations()
     {
-        $patientRegistrationList = Patient_Registration::all();
-        $practitionerRegistrationList = Practitioner_Registration::all();
+        $practitionerRegistrationList = Practitioner_Registration::whereNull('approval')->get();
+        $practitionerRegistrationApprovedList = Practitioner_Registration::whereNotNull('approval')->get();
+        $practitionerRegistrationDeletedList = Practitioner_Registration::onlyTrashed()->get();
 
-        return view('pages.account.dashboard.admin.practitionerregistration.index', compact(
-            'user', 'patientRegistrationList', 'practitionerRegistrationList'
+        $patientRegistrationList = Patient_Registration::whereNull('approval')->get();
+
+
+        return view('pages.account.dashboard.admin.practitionerregistration.main.index', compact(
+            'user', 'patientRegistrationList', 'practitionerRegistrationList',
+            'practitionerRegistrationApprovedList', 'practitionerRegistrationDeletedList'
         ));
     }
 
-    public function getPractitionerRegistration()
+    public function getPractitionerRegistration(Practitioner_Registration $registration)
     {
+        $auState = $this->createAuStateList();
+        $nzRegion = $this->createNzRegionList();
+        $titleList = $this->createTitleList();
+        $businessTypeList = $this->createBusinessTypeList();
 
+        $company = Company::find($registration->company_id);
+
+        // Deleted Registration
+        if ($registration->deleted_at != null) {
+            return view('pages.account.dashboard.admin.practitionerregistration.deleted.index', compact(
+                'registration', 'auState', 'nzRegion', 'titleList', 'businessTypeList', 'company'
+            ));
+        }
+
+        // Unapproved Registration
+        if ($registration->approval == null) {
+
+            return view('pages.account.dashboard.admin.practitionerregistration.new.index', compact(
+                'registration', 'auState', 'nzRegion', 'titleList', 'businessTypeList', 'company'
+            ));
+        }
+        // Approved Registration
+        else {
+            return view('pages.account.dashboard.admin.practitionerregistration.approved.index', compact(
+                'registration', 'auState', 'nzRegion', 'titleList', 'businessTypeList', 'company'
+            ));
+        }
+    }
+
+    public function postGetCompanyList(CompanySearchRequest $request)
+    {
+        $all_companies = Company::orderBy('id');
+
+        if(!empty($request['company_country'])) {
+            $all_companies = $all_companies->filterCountry($request['company_country']);
+        }
+
+        if(!empty($request['company_state'])) {
+            $all_companies = $all_companies->filterState($request['company_state']);
+        }
+
+        if(!empty($request['company_suburb'])) {
+            $all_companies = $all_companies->filterSuburb($request['company_suburb']);
+        }
+
+        if(!empty($request['company_postcode'])) {
+            $all_companies = $all_companies->filterPostcode($request['company_postcode']);
+        }
+
+        if(!empty($request['company_name'])) {
+            $all_companies = $all_companies->filterName($request['company_name']);
+        }
+
+        if(!empty($request['company_type'])) {
+            $all_companies = $all_companies->filterType($request['company_type']);
+        }
+
+        if(!empty($request['company_business_number'])) {
+            $all_companies = $all_companies->filterBusinessNumber($request['company_business_number']);
+        }
+
+        $filtered_companies = $all_companies->get();
+
+        return view('pages.account.dashboard.admin.practitionerregistration.new.partial.findcompanylist', compact('filtered_companies'));
+    }
+
+    public function postCreatePractitionerAccount(PractitionerAccountRequest $request, Practitioner_Registration $registration)
+    {
+        $company = Company::findOrFail($request->company_id);
+        $companyMainAddress = $company->company_addresses->where('type', 'Main Address')->first();
+
+        $registration->title = $request->title;
+        $registration->email = $request->email;
+        $registration->first_name = $request->first_name;
+        $registration->last_name = $request->last_name;
+        $registration->company_id = $request->company_id;
+        $registration->provider_number = $request->provider_number;
+        $registration->street = $companyMainAddress->street;
+        $registration->suburb = $companyMainAddress->suburb;
+        $registration->city = $companyMainAddress->city;
+        $registration->state = $companyMainAddress->state;
+        $registration->country = $companyMainAddress->country;
+        $registration->postcode = $companyMainAddress->postcode;
+        $registration->telephone = $request->telephone;
+        $registration->mobile_phone = $request->mobile_phone;
+        $registration->clinic_name = $company->name;
+        $registration->business_type = $company->business_type;
+        $registration->business_number = $company->business_number;
+
+        $registration->approval = Carbon::now();
+
+        if ($request->change_password) {
+            $registration->password = bcrypt($request->password);
+        }
+
+        $registration->save();
+
+        $customer = new Customer();
+        $customer->title = $registration->title;
+        $customer->name = $registration->first_name . " " . $registration->last_name;
+        $customer->first_name = $registration->first_name;
+        $customer->last_name = $registration->last_name;
+        $customer->country = $registration->country;
+        $customer->save();
+
+        $customerAddress = new Customer_Address();
+        $customerAddress->type = 'Main Address';
+        $customerAddress->address = $registration->street . " " . $registration->suburb;
+        $customerAddress->street = $registration->street;
+        $customerAddress->suburb = $registration->suburb;
+        $customerAddress->postcode = $registration->postcode;
+        $customerAddress->city = $registration->city;
+        $customerAddress->state = $registration->state;
+        $customerAddress->country = $registration->country;
+        $customerAddress->customer_id = $customer->id;
+        $customerAddress->save();
+
+        $customerEmail = new Customer_Email();
+        $customerEmail->type = 'Main Email';
+        $customerEmail->email_address = $registration->email;
+        $customerEmail->customer_id = $customer->id;
+        $customerEmail->save();
+
+        $customer->main_address_id = $customerAddress->id;
+        $customer->registration_email_id = $customerEmail->id;
+        $customer->save();
+
+        $customerTelephone = new Customer_Number();
+        $customerTelephone->type = 'Main Number';
+        $customerTelephone->number = $registration->telephone;
+        $customerTelephone->customer_id = $customer->id;
+        $customerTelephone->save();
+
+        $customerMobile = new Customer_Number();
+        $customerMobile->type = 'Main Mobile Number';
+        $customerMobile->number = $registration->mobile_phone;
+        $customerMobile->customer_id = $customer->id;
+        $customerMobile->save();
+
+        $newUser = new User();
+        $newUser->email = $registration->email;
+        $newUser->password = $registration->password;
+        $newUser->newsletter_subscription = false;
+        $newUser->group = 'Practitioner';
+        $newUser->approval_status = 'approved';
+        $newUser->activated = true;
+        $newUser->timezone = $registration->country;
+        $newUser->customer_id = $customer->id;
+        $newUser->save();
+
+        $newPractitioner = new Practitioner();
+        $newPractitioner->user_id = $newUser->id;
+        $newPractitioner->practitioner_license = $registration->provider_number;
+        $newPractitioner->company_id = $registration->company_id;
+        $newPractitioner->save();
+
+        return redirect('/account/practitioner-registration')->with(['message' => 'Account has been created']);
+    }
+
+    public function postDeletePractitionerRegistration(Practitioner_Registration $registration)
+    {
+        if ($registration->approval == null && $registration->deleted_at == null) {
+            $registration->delete();
+            return redirect('/account/practitioner-registration')->with(['message' => 'Registration has been deleted']);
+        }
+
+        return redirect('/account/practitioner-registration')->with(['message' => 'Cannot delete the Registration']);
+    }
+
+    public function postRestoreDeletedPractitionerRegistration(Practitioner_Registration $registration)
+    {
+        if ($registration->deleted_at != null) {
+            $registration->restore();
+            return redirect('/account/practitioner-registration')->with(['message' => 'Registration has been restored']);
+        }
+
+        return redirect('/account/practitioner-registration')->with(['message' => 'Cannot Restore the Deleted Registration']);
     }
 }

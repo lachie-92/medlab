@@ -1,6 +1,6 @@
 <!-----------------------------------------------------------------------------------
 --
--- Patient Registration
+-- Practitioner Registration
 --
 ------------------------------------------------------------------------------------->
 
@@ -17,20 +17,20 @@
 
                 <div class="list-group">
                     <a href="/account/patient-registration" class="list-group-item">
-                        <strong>
-                            @if (count($patientRegistrationList))
-                                Patient Registration ({{ count($patientRegistrationList) }})
-                            @else
-                                Patient Registration
-                            @endif
-                        </strong>
+                        @if (count($patientRegistrationList))
+                            Patient Registration ({{ count($patientRegistrationList) }})
+                        @else
+                            Patient Registration
+                        @endif
                     </a>
                     <a href="/account/practitioner-registration" class="list-group-item">
-                        @if (count($practitionerRegistrationList))
-                            Practitioner Registration ({{ count($practitionerRegistrationList) }})
-                        @else
-                            Practitioner Registration
-                        @endif
+                        <strong>
+                            @if (count($practitionerRegistrationList))
+                                Practitioner Registration ({{ count($practitionerRegistrationList) }})
+                            @else
+                                Practitioner Registration
+                            @endif
+                        </strong>
                     </a>
                     <a href="/account/logout" class="list-group-item">Logout</a>
                 </div>
@@ -49,32 +49,32 @@
                 </div>
             @endif
             <!--
-            -- Patient Registration
+            -- Practitioner Registration
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    New Patient Registration
+                    New Practitioner Registration
                 </div>
                 <div class="panel-body">
-                    @if (count($patientRegistrationList))
+                    @if (count($practitionerRegistrationList))
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th>Patient Name</th>
-                                <th>Clinic</th>
                                 <th>Practitioner Name</th>
+                                <th>Provider Number</th>
+                                <th>Clinic</th>
                                 <th>Received</th>
                                 <th>Details</th>
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach ($patientRegistrationList as $patient)
+                            @foreach ($practitionerRegistrationList as $practitioner)
                                 <tr>
-                                    <td>{{ $patient->first_name }} {{ $patient->last_name }}</td>
-                                    <td>{{ $patient->practitioner_clinic }}</td>
-                                    <td>{{ $patient->practitioner_name }}</td>
-                                    <td>{{ $patient->created_at->diffForHumans() }}</td>
-                                    <td><a class="btn btn-default" href="/account/patient-registration/{{ $patient->id }}">View</a></td>
+                                    <td>{{ $practitioner->first_name }} {{ $practitioner->last_name }}</td>
+                                    <td>{{ $practitioner->provider_number }}</td>
+                                    <td>{{ $practitioner->clinic_name }}</td>
+                                    <td>{{ $practitioner->created_at->diffForHumans() }}</td>
+                                    <td><a class="btn btn-default" href="/account/practitioner-registration/{{ $practitioner->id }}">View</a></td>
                                 </tr>
                             @endforeach
                             </tbody>
@@ -87,32 +87,32 @@
                 </div>
             </div>
             <!--
-             -- Approved Patient Registration
+             -- Approved Practitioner Registration
              -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Approved Patient Registration
+                    Approved Practitioner Registration
                 </div>
                 <div class="panel-body">
-                    @if (count($patientRegistrationApprovedList))
+                    @if (count($practitionerRegistrationApprovedList))
                         <table class="table table-striped">
                             <thead>
                             <tr>
                                 <th>Patient Name</th>
+                                <th>Provider Number</th>
                                 <th>Clinic</th>
-                                <th>Practitioner Name</th>
                                 <th>Approved</th>
                                 <th>Details</th>
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach ($patientRegistrationApprovedList as $patient)
+                            @foreach ($practitionerRegistrationApprovedList as $practitioner)
                                 <tr>
-                                    <td>{{ $patient->first_name }} {{ $patient->last_name }}</td>
-                                    <td>{{ $patient->practitioner_clinic }}</td>
-                                    <td>{{ $patient->practitioner_name }}</td>
-                                    <td>{{ $patient->approval->diffForHumans() }}</td>
-                                    <td><a class="btn btn-default" href="/account/patient-registration/{{ $patient->id }}">View</a></td>
+                                    <td>{{ $practitioner->first_name }} {{ $practitioner->last_name }}</td>
+                                    <td>{{ $practitioner->provider_number }}</td>
+                                    <td>{{ $practitioner->clinic_name }}</td>
+                                    <td>{{ $practitioner->approval->diffForHumans() }}</td>
+                                    <td><a class="btn btn-default" href="/account/practitioner-registration/{{ $practitioner->id }}">View</a></td>
                                 </tr>
                             @endforeach
                             </tbody>
@@ -125,32 +125,32 @@
                 </div>
             </div>
             <!--
-             -- Deleted Patient Registration
+             -- Deleted Practitioner Registration
              -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Deleted Patient Registration
+                    Deleted Practitioner Registration
                 </div>
                 <div class="panel-body">
-                    @if (count($patientRegistrationDeletedList))
+                    @if (count($practitionerRegistrationDeletedList))
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th>Patient Name</th>
-                                <th>Clinic</th>
                                 <th>Practitioner Name</th>
+                                <th>Provider Number</th>
+                                <th>Clinic</th>
                                 <th>Deleted</th>
                                 <th>Details</th>
                             </tr>
                             </thead>
                             <tbody>
-                            @foreach ($patientRegistrationDeletedList as $patient)
+                            @foreach ($practitionerRegistrationDeletedList as $practitioner)
                                 <tr>
-                                    <td>{{ $patient->first_name }} {{ $patient->last_name }}</td>
-                                    <td>{{ $patient->practitioner_clinic }}</td>
-                                    <td>{{ $patient->practitioner_name }}</td>
-                                    <td>{{ $patient->deleted_at->diffForHumans() }}</td>
-                                    <td><a class="btn btn-default" href="/account/patient-registration/{{ $patient->id }}">View</a></td>
+                                    <td>{{ $practitioner->first_name }} {{ $practitioner->last_name }}</td>
+                                    <td>{{ $practitioner->provider_number }}</td>
+                                    <td>{{ $practitioner->clinic_name }}</td>
+                                    <td>{{ $practitioner->deleted_at->diffForHumans() }}</td>
+                                    <td><a class="btn btn-default" href="/account/practitioner-registration/{{ $practitioner->id }}">View</a></td>
                                 </tr>
                             @endforeach
                             </tbody>

@@ -18,11 +18,9 @@ class CreateCompaniesTable extends Migration {
 			$table->string('solve_id')->unique()->nullable();
 			$table->string('name');
             $table->boolean('starred');
-            $table->string('practitioner_type');
-            $table->string('clinic_speciality');
+            $table->string('business_type');
             $table->string('modality');
-            $table->string('registration_number');
-            $table->string('registration_type');
+            $table->string('business_number');
             $table->string('country');
             $table->string('main_address_id');
 			$table->dateTime('viewed_at');

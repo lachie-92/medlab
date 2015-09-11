@@ -95,8 +95,8 @@ class UserTableSeeder extends Seeder
 
                 // Practitioner Company
                 'company_name' => 'company one',
-                'company_registration_type' => 'Company',
-                'company_registration_number' => '01234',
+                'business_type' => 'Company',
+                'business_number' => '01234',
 
                 // Practitioner Company Phone
                 'company_main_number' => '123456789',
@@ -124,7 +124,7 @@ class UserTableSeeder extends Seeder
                 'country' => $user['country']
             ]);
 
-            Customer_Address::create([
+            $mainAddress =Customer_Address::create([
                 'type' => 'Main Address',
                 'address' => $user['address'],
                 'street' => $user['street'],
@@ -136,11 +136,15 @@ class UserTableSeeder extends Seeder
                 'customer_id' => $customer->id
             ]);
 
-            Customer_Email::create([
+            $mainEmail = Customer_Email::create([
                 'type' => 'Main Email',
                 'email_address' => $user['email'],
                 'customer_id' => $customer->id
             ]);
+
+            $customer->main_address_id = $mainAddress->id;
+            $customer->registration_email_id = $mainEmail->id;
+            $customer->save();
 
             Customer_Number::create([
                 'type' => 'Main Number',
@@ -156,8 +160,8 @@ class UserTableSeeder extends Seeder
 
             $company = Company::create([
                 'name' => $user['company_name'],
-                'registration_number' => $user['company_registration_number'],
-                'registration_type' => $user['company_registration_type'],
+                'business_number' => $user['business_number'],
+                'business_type' => $user['business_type'],
                 'country' => $user['company_country']
 
             ]);
@@ -228,7 +232,7 @@ class UserTableSeeder extends Seeder
                 'country' => $user['country']
             ]);
 
-            Customer_Address::create([
+            $mainAddress =Customer_Address::create([
                 'type' => 'Main Address',
                 'address' => $user['address'],
                 'street' => $user['street'],
@@ -240,11 +244,15 @@ class UserTableSeeder extends Seeder
                 'customer_id' => $customer->id
             ]);
 
-            Customer_Email::create([
+            $mainEmail =Customer_Email::create([
                 'type' => 'Main Email',
                 'email_address' => $user['email'],
                 'customer_id' => $customer->id
             ]);
+
+            $customer->main_address_id = $mainAddress->id;
+            $customer->registration_email_id = $mainEmail->id;
+            $customer->save();
 
             Customer_Number::create([
                 'type' => 'Main Number',

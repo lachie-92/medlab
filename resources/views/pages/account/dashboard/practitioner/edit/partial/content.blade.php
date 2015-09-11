@@ -102,10 +102,15 @@
                                         <div class="medlab_dashboard_info_item_box_top">
                                             <div class="row">
                                                 <div class="col-md-4 col-sm-4">
-                                                    <strong>ABN:</strong>
+                                                    <strong>
+                                                        Business<br>
+                                                        Number:
+                                                    </strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $user->practitioner->company->registration_number }}
+                                                    <span style="line-height: 40px">
+                                                        {{ $user->practitioner->company->business_number }}
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>

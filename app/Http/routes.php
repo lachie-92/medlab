@@ -79,7 +79,17 @@ Route::post('/account/patient-registration/{patientRegistrationId}/create', 'Acc
 
 Route::get('/account/practitioner-registration', 'AccountController@getShowPractitionerRegistrations');
 
+Route::post('/account/practitioner-registration/getcompanylist', 'AccountController@postGetCompanyList');
+
 Route::get('/account/practitioner-registration/{practitionerRegistrationId}', 'AccountController@getPractitionerRegistration');
+
+Route::post('/account/practitioner-registration/{practitionerRegistrationId}/delete', 'AccountController@postDeletePractitionerRegistration');
+
+Route::post('/account/practitioner-registration/{practitionerRegistrationId}/restore', 'AccountController@postRestoreDeletedPractitionerRegistration');
+
+Route::post('/account/practitioner-registration/{practitionerRegistrationId}/create', 'AccountController@postCreatePractitionerAccount');
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////
