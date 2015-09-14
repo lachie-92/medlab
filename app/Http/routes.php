@@ -289,32 +289,40 @@ Route::get('about', function () {
     return view('pages.about.about-us.index');
 });
 
-Route::get('about/board-of-directors', function () {
-    return view('pages.about.board-of-directors.index');
+Route::get('about/about-medlab', function () {
+    return view('pages.about.about-medlab.index');
 });
 
-Route::get('about/company-culture', function () {
-    return view('pages.about.company-culture.index');
+Route::get('about/who-we-are', function () {
+    return view('pages.about.who-we-are.index');
+});
+
+Route::get('about/our-past', function () {
+    return view('pages.about.our-past.index');
+});
+
+Route::get('about/a-new-era', function () {
+    return view('pages.about.a-new-era.index');
+});
+
+Route::get('about/executive-team', function () {
+    return view('pages.about.executive-team.index');
 });
 
 Route::get('about/consulting-team', function () {
     return view('pages.about.consulting-team.index');
 });
 
-Route::get('about/letter-from-ceo', function () {
-    return view('pages.about.letter-from-ceo.index');
-});
-
-Route::get('about/management-team', function () {
-    return view('pages.about.management-team.index');
-});
-
-Route::get('about/our-company', function () {
-    return view('pages.about.our-company.index');
-});
-
 Route::get('about/scientific-team', function () {
     return view('pages.about.scientific-team.index');
+});
+
+Route::get('about/board-of-directors', function () {
+    return view('pages.about.board-of-directors.index');
+});
+
+Route::get('about/letter-from-ceo', function () {
+    return view('pages.about.letter-from-ceo.index');
 });
 
 

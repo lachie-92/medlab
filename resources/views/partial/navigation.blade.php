@@ -82,12 +82,14 @@
                         About Us
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/our-company">Our Company</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/management-team">Management Team</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/scientific-team">Scientific Team</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/about-medlab">About Medlab</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/who-we-are">Who we are</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/our-past">Our Past</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/a-new-era">A New Era...</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/executive-team">Executive Team</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/consulting-team">Consulting Team</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/scientific-team">Scientific Team</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/board-of-directors">Board of Director</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/company-culture">Company Culture</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/letter-from-ceo">Letter From CEO</a></li>
                     </ul>
                 </li>

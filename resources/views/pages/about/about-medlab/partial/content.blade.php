@@ -1,6 +1,6 @@
 <!-----------------------------------------------------------------------------------
 --
--- About Us
+-- About Medlab
 --
 ------------------------------------------------------------------------------------->
 <div class="container medlab_panel_container">
@@ -50,10 +50,10 @@
                     <p>
                         Understanding the impact of chronic diseases is vital; the
                         <a class="medlab_panel_content_link" href="http://www.aihw.gov.au/chronic-diseases/">
-                        Australian Institute of Health Welfare (AIHW) claims chronic diseases</a>
+                            Australian Institute of Health Welfare (AIHW) claims chronic diseases</a>
                         (in Australia) accounted for 90% of all deaths in 2011. (extracted
                         <a class="medlab_panel_content_link" href="http://www.aihw.gov.au/chronic-diseases/">
-                        http://www.aihw.gov.au/chronic-diseases/</a>)
+                            http://www.aihw.gov.au/chronic-diseases/</a>)
                     </p>
 
                     <br>
@@ -95,7 +95,7 @@
                         <li>
                             <p>
                                 We <a class="medlab_panel_content_link" href="/research">
-                                focus on delivering new medicines</a> for:
+                                    focus on delivering new medicines</a> for:
                             </p>
                             <ul>
                                 <li>
@@ -150,52 +150,6 @@
                     <p>
                         Collaborative partners are used when appropriate in order to access larger patient numbers and
                         offer multi-centre perspectives on trial outcomes when needed.
-                    </p>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-sm-12 col-xs-12">
-            <!--
-            -- Board of directors
-            -->
-            <div class="panel panel-primary medlab_panel">
-                <div class="panel-heading medlab_panel_title">
-                    BOARD OF DIRECTORS
-                </div>
-                <div class="panel-body medlab_panel_content">
-                    <p>
-                        Sean Hall (CEO) and Michael Hall (Ch) were behind
-                        <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">FIT-BioCeuticals (FBC)</a>, a private nutraceutical
-                        business that sold to <a class="medlab_panel_content_link" href="https://www.blackmores.com.au/">Blackmores</a> in 2012, which
-                        now generates ~20% of Blackmore's EBIT. Michael was also behind the Bioglan sale to AusPharm,
-                        VitaPlex's sale to Health Minders and other similar businesses. Medlab's (MDC) management also
-                        includes two other executives that helped build these previous businesses. (extracted from Shaw
-                        and Partners 9.9.15)
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-6 col-sm-12 col-xs-12">
-            <!--
-            -- A new era...
-            -->
-            <div class="panel panel-primary medlab_panel">
-                <div class="panel-heading medlab_panel_title">
-                    A NEW ERA...
-                </div>
-                <div class="panel-body medlab_panel_content">
-                    <p>
-                        The accelerating rate of chronic disease has become a global health crisis. As millions of
-                        people move from early to advanced stages of chronic diseases, the cost of treatment becomes
-                        unsustainable.
-                    </p>
-                    <p>
-                        In the last few decades beneficial bacteria have been prescribed for gastrointestinal health.
-                    </p>
-                    <p>
-                        The new era of beneficial bacteria is focused on the production of new medicines from the
-                        bacterial metabolites.
                     </p>
                 </div>
             </div>

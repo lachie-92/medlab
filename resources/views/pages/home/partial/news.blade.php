@@ -15,12 +15,14 @@
                         FEATURED PRODUCT
                     </div>
                     <div class="medlab_news_item_body">
-                        <img src="/img/news/w8biotic.png" alt="W8Biotic Featured Product" height="244" width="auto" style="float: right;"/>
+                        <img src="/img/news/w8biotic.png" alt="W8Biotic Featured Product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             W8Biotic&trade;
                         </h2>
                         <p class="medlab_news_content_paragraph">
-                            W8Biotic&trade; is scientifically formulated to support lean body mass, weight management and maintain healthy blood glucose levels in healthy individuals when taken in conjunction with a calorie controlled eating plan.
+                            W8Biotic&trade; is scientifically formulated to support lean body mass, weight management
+                            and maintain healthy blood glucose levels in healthy individuals when taken in conjunction
+                            with a calorie controlled eating plan.
                         </p>
                         <p class="medlab_news_content_paragraph">
                             <a href="#" class="medlab_news_content_link">More Information</a>
@@ -33,13 +35,21 @@
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
-                            <a href="http://www.a5m.net/events/category/annual-conference" class="medlab_news_content_link">
-                                Professor Luis Vitetta contributes to the scientific program
+                            <a href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" class="medlab_news_content_link">
+                                Medlab's research featured on Channel 9 news
                             </a>
                         </h2>
-                        <a href="http://www.a5m.net/events/category/annual-conference">
-                            <img src="/img/news/Screen_Shot_2015-07-29_at_8.54.24_am.png" alt="GPCE" width="100%" height="224px"/>
-                        </a>
+                        <p>
+                            Medlab Clinical is at the forefront of research into obesity and the prevention of diabetes.
+                            Medlab's probiotic formulation is currently undergoing clinical trial evaluation in
+                            collaboration with the University of Sydney's Boden Institute as featured in a recent Channel
+                            9 news item.
+                        </p>
+                        <p>
+                            <a class="medlab_panel_content_link" href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20">
+                                Watch Interview
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -48,18 +58,54 @@
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
-                            <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/0012_GPCE_ConferenceBroc_Brisbane_low%20res.pdf?v=635683895431768507" class="medlab_news_content_link">
-                                Dr Samantha Coulson contributes to the scientific program
+                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" class="medlab_news_content_link">
+                                Professor Luis Vitetta contributes to the scientific program
                             </a>
                         </h2>
-                        <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/0012_GPCE_ConferenceBroc_Brisbane_low%20res.pdf?v=635683895431768507">
-                            <div class="container-fluid" >
-                                <img src="/img/news/Feature_BrisbaneGPCEv2.png" width="100%" alt="GPCE"/>
-                            </div>
-                        </a>
+                        <br>
+                        <p>
+                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf">
+                                <img alt="6th World Congress on Mitochondria Berlin"
+                                     src="/img/news/6th_World_Congress_on_Mitochondria_Berlin.png"
+                                     title="6th World Congress on Mitochondria Berlin"
+                                     style="display: block; margin-left: auto; margin-right: auto;"
+                                     width="100%"
+                                     class="img-responsive">
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_body">
+                        <h2 class="medlab_news_content_title">
+                            <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/GPCE15_MelbRegoBroc_LoRes.pdf?v=635737234559793816" class="medlab_news_content_link">
+                                Professor Luis Vitetta and Dr Samantha Coulson contribute to the scientific program
+                            </a>
+                        </h2>
+                        <br>
+                        <p>
+                            <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/GPCE15_MelbRegoBroc_LoRes.pdf?v=635737234559793816">
+                                <img alt="GPCE Melbourne 2015" src="/img/news/GPCE2015Melbourn.png" title="GPCE Melbourne 2015" width="100%">
+                            </a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="http://www.niim.com.au/sites/default/files/NIIM-2nd-Annual-Symposium-digital.pdf">
+                                <img alt="NIIM Symposium 28 Nov 2015"
+                                     src="/img/news/NIIM_Symposium28Nov2015.jpeg"
+                                     title="NIIM Symposium 28 Nov 2015"
+                                     style="display: block; margin-left: auto; margin-right: auto;"
+                                     class="img-responsive">
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
         <!--
         -- News Sidebar

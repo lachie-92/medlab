@@ -166,22 +166,28 @@
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/about/our-company">Our Company</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/about-medlab">About Medlab</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/about/scientific-team">Scientific Team</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/who-we-are">Who we are</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/about/management-team">Management Team</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/our-past">Our Past</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/a-new-era">A New Era...</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/executive-team">Executive Team</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/about/consulting-team">Consulting Team</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/about/board-of-directors">Board of Directors</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/scientific-team">Scientific Team</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/about/company-culture">Company Culture</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/about/board-of-directors">Board of Directors</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/about/letter-from-ceo">Letter From THE CEO</a>
