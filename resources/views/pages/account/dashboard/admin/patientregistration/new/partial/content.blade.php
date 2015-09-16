@@ -151,7 +151,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if(old('country') == "NZ")
+                                                            @if($registration->country == 'NZ')
                                                                 {!! Form::select('state', $nzRegion, $registration->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @else
                                                                 {!! Form::select('state', $auState, $registration->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
@@ -330,6 +330,7 @@
                                         </div>
 
                                         <div class="well" style="background-color: transparent; background-image: none">
+                                            <h4 class="medlab_registration_form_section_title">Patient's Practitioner Information</h4>
                                             <div class="row">
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
@@ -390,6 +391,8 @@
                                                     </table>
                                                 </div>
                                             </div>
+                                            <br>
+                                            <a class="btn btn-default btn-block" href="/account/practitioner-registration/new/{{ $registration->id }}">Create a New Practitioner</a>
                                         </div>
 
 

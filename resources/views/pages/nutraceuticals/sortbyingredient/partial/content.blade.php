@@ -55,7 +55,11 @@
                                                     Price:
                                                 </span>
                                                 <span class="medlab_product_info_price_box_price">
-                                                    ${!! $product->price_retail !!}
+                                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                                        ${!! $product->price_wholesale !!}
+                                                    @else
+                                                        ${!! $product->price_retail !!}
+                                                    @endif
                                                 </span>
                                                 <span style="font-size: 12px; color: #555;">
                                                     RRP

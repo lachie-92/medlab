@@ -5,7 +5,7 @@ namespace App\Http\Requests;
 use App\Http\Requests\Request;
 use Illuminate\Support\Facades\Auth;
 
-class CompanySearchRequest extends Request
+class CompanyRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -33,13 +33,15 @@ class CompanySearchRequest extends Request
     public function rules()
     {
         return [
+            'company_name' => 'required|max:50',
+            'company_type' => 'required|validBusinessType',
+            'company_business_number' => 'required|numeric|unique:companies,business_number',
+            'company_street' => 'required|max:50',
+            'company_suburb' => 'required|max:30',
+            'company_city' => 'required|max:30',
+            'company_postcode' => 'required|digits:4',
             'company_state' => 'required|validState|max:30',
             'company_country' => 'required|validCountry|max:2',
-            'company_suburb' => 'max:30',
-            'company_postcode' => 'digits:4',
-            'company_name' => 'max:50',
-            'company_type' => 'validBusinessType',
-            'company_business_number' => 'numeric',
         ];
     }
 }

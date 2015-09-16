@@ -17,7 +17,9 @@
                     <div class="medlab_news_item_body">
                         <img src="/img/news/w8biotic.png" alt="W8Biotic Featured Product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                            W8Biotic&trade;
+                            <a href="/nutraceuticals/products/1" class="medlab_news_content_link">
+                                W8Biotic&trade;
+                            </a>
                         </h2>
                         <p class="medlab_news_content_paragraph">
                             W8Biotic&trade; is scientifically formulated to support lean body mass, weight management
@@ -25,7 +27,7 @@
                             with a calorie controlled eating plan.
                         </p>
                         <p class="medlab_news_content_paragraph">
-                            <a href="#" class="medlab_news_content_link">More Information</a>
+                            <a href="/nutraceuticals/products/1" class="medlab_news_content_link">More Information</a>
                         </p>
                     </div>
                 </div>

@@ -2,12 +2,10 @@
 
     (function(){
 
-        var $countrySelector = $('#country_select');
-        var $stateSelector = $('#state_select');
         var $companyCountrySelector = $('#company_country_select');
         var $companyStateSelector = $('#company_state_select');
         var $createNewCountrySelector = $('#create_new_country_select');
-        var $createNewStateSelector = $('#create_new_state_select')
+        var $createNewStateSelector = $('#create_new_state_select');
 
         var australiaOptions = {
             'ACT': 'ACT',
@@ -38,24 +36,6 @@
             'Otago': 'Otago',
             'Southland': 'Southland'
         };
-
-        $countrySelector.on('change', function(e) {
-
-            var countrySelected = $(this).val();
-
-            if (countrySelected == 'AU') {
-                $stateSelector.empty();
-                $.each(australiaOptions, function(value,key) {
-                    $stateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-            if (countrySelected == 'NZ') {
-                $stateSelector.empty();
-                $.each(newzealandOptions, function(value,key) {
-                    $stateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-        });
 
         $companyCountrySelector.on('change', function(e) {
 
@@ -92,26 +72,6 @@
                 });
             }
         });
-
-        $('#change_password_btn').click(function() {
-
-            var $changePassword = $('#change_password');
-
-            if($changePassword.is(':checked')){
-                $('#password_change_box input').each(function() {
-                    $(this).prop('disabled', true);
-                });
-                $changePassword.prop('checked', false);
-                $(this).html('Change Password: No');
-            } else {
-                $('#password_change_box input').each(function() {
-                    $(this).prop('disabled', false);
-                });
-                $changePassword.prop('checked', true);
-                $(this).html("Change Password: Yes");
-            }
-        });
-
 
         $('#find_company_btn').click(function(e) {
 

@@ -16,12 +16,6 @@
                         <div class="col-md-7 col-sm-7 col-xs-7">
                             New Practitioner Registration
                         </div>
-                        <div class="col-md-5 col-sm-5 col-xs-5" style="text-align: right;">
-                            <form class="form-horizontal" role="form" method="POST" action="/account/practitioner-registration/{{ $registration->id }}/delete">
-                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                <button class="btn btn-default" type="submit">Delete Registration</button>
-                            </form>
-                        </div>
                     </div>
                 </div>
                 <div class="panel-body">
@@ -36,8 +30,83 @@
                         </div>
                     @endif
 
-                    <form class="form-horizontal" role="form" method="POST" action="/account/practitioner-registration/{{ $registration->id }}/create">
+                    <form class="form-horizontal" role="form" method="POST" action="/account/practitioner-registration/new/create">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+
+                        <div class="row">
+                            <div class="container-fluid">
+
+                                <!--
+                                -- Patient's Practitioner information
+                                -->
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="well" style="background-color: transparent; background-image: none">
+                                        <h4 class="medlab_registration_form_section_title">Patient's Practitioner Information</h4>
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">State/Region</th></tr>
+                                                    <tr>
+                                                        <td>
+                                                            @if($registration->practitioner_country == "NZ")
+                                                                {!! Form::select('practitioner_not_found_state', $nzRegion, $registration->practitioner_state, ['class' => 'form-control', 'id' => 'practitioner_not_found_state_select', 'disabled']) !!}
+                                                            @else
+                                                                {!! Form::select('practitioner_not_found_state', $auState, $registration->practitioner_state, ['class' => 'form-control', 'id' => 'practitioner_not_found_state_select', 'disabled']) !!}
+                                                            @endif
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
+                                                    <tr>
+                                                        <td>
+                                                            @if($registration->practitioner_country == 'NZ')
+                                                                <select class="form-control" id="practitioner_not_found_country_select" name="practitioner_not_found_country" disabled>
+                                                                    <option value="AU">Australia</option>
+                                                                    <option selected="selected" value="NZ">New Zealand</option>
+                                                                </select>
+                                                            @else
+                                                                <select class="form-control" id="practitioner_not_found_country_select" name="practitioner_not_found_country" disabled>
+                                                                    <option selected="selected" value="AU">Australia</option>
+                                                                    <option value="NZ">New Zealand</option>
+                                                                </select>
+                                                            @endif
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">City</th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="practitioner_not_found_city" placeholder="City" value="{{ $registration->practitioner_city }}" disabled></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Post Code</th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="practitioner_not_found_postcode" placeholder="Post Code" value="{{ $registration->practitioner_postcode }}" disabled></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Practitioner Name</th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="practitioner_not_found_practitioner_name" placeholder="Title First Name Last Name" value="{{  $registration->practitioner_name }}" disabled></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Practitioner Clinic</th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="practitioner_not_found_clinic" placeholder="Practitioner Clinic" value="{{ $registration->practitioner_clinic }}" disabled></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
 
                         <div class="row">
                             <div class="container-fluid">
@@ -55,7 +124,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Title<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            {!! Form::select('title', $titleList, $registration->title, ['class' => 'form-control']) !!}
+                                                            {!! Form::select('title', $titleList, old('title'), ['class' => 'form-control']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -63,177 +132,53 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Email Address<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value="{{ $registration->email }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value="{{ old('email') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">First Name<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value="{{ $registration->first_name }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value="{{ old('first_name') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Last Name<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ $registration->last_name }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ old('last_name') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-12 col-sm-12">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Provider Number<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider Number" value="{{ $registration->provider_number }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider Number" value="{{ old('provider_number') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Telephone<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ $registration->telephone }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ old('telephone') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ $registration->mobile_phone }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone') }}"></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Password<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="password" class="form-control" name="password" placeholder="Password" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Confirm Password<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="password" class="form-control" name="password_confirmation" placeholder="Repeat Password" value=""></td></tr>
                                                 </table>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-
-                                <!--
-                                -- Practitioner Password
-                                -->
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="well" style="background-color: transparent; background-image: none">
-                                        <h4 class="medlab_registration_form_section_title">Password</h4>
-
-                                        <div class="row" style="margin-top: 20px">
-                                            <div class="col-md-12 col-sm-12">
-                                                <button type="button" id="change_password_btn" class="btn btn-default">Change Password: No</button>
-                                                <input type="hidden" name="change_password" value="0">
-                                                <input type="checkbox" id="change_password" name="change_password" class="hidden" value="1">
-                                            </div>
-                                        </div>
-
-                                        <div  id="password_change_box">
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm-6">
-                                                    <table style="width:100%;">
-                                                        <tr><th class="medlab_registration_form_section_subtitle">Password<span style="color: red;">*</span></th></tr>
-                                                        <tr><td><input type="password" class="form-control" name="password" placeholder="Password" value="" disabled></td></tr>
-                                                    </table>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6">
-                                                    <table style="width:100%;">
-                                                        <tr><th class="medlab_registration_form_section_subtitle">Confirm Password<span style="color: red;">*</span></th></tr>
-                                                        <tr><td><input type="password" class="form-control" name="password_confirmation" placeholder="Repeat Password" value="" disabled></td></tr>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="container-fluid">
-
-                                <!--
-                                -- Business Detail
-                                -->
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="well" style="background-color: transparent; background-image: none">
-                                        <h4 class="medlab_registration_form_section_title">Business Detail</h4>
-
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Name of the Clinic/Business<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="clinic_name" placeholder="Clinic/Business Name" value="{{ $registration->clinic_name }}" disabled></td></tr>
-                                                </table>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Business Type<span style="color: red;">*</span></th></tr>
-                                                    <tr>
-                                                        <td>
-                                                            {!! Form::select('business_type', $businessTypeList, $registration->business_type, ['class' => 'form-control', 'disabled']) !!}
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Business Number<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="business_number" placeholder="Business Num." value="{{ $registration->business_number }}" disabled></td></tr>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ $registration->street }}" disabled></td></tr>
-                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ $registration->suburb }}" disabled></td></tr>
-                                                </table>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ $registration->city }}" disabled></td></tr>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
-                                                    <tr>
-                                                        <td>
-                                                            @if($registration->country == 'NZ')
-                                                                {!! Form::select('state', $nzRegion, $registration->state, ['class' => 'form-control', 'id' => 'state_select', 'disabled']) !!}
-                                                            @else
-                                                                {!! Form::select('state', $auState, $registration->state, ['class' => 'form-control', 'id' => 'state_select', 'disabled']) !!}
-                                                            @endif
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Country<span style="color: red;">*</span></th></tr>
-                                                    <tr>
-                                                        <td>
-                                                            @if($registration->country == 'NZ')
-                                                                <select class="form-control" id="country_select" name="country" disabled>
-                                                                    <option value="AU">Australia</option>
-                                                                    <option selected="selected" value="NZ">New Zealand</option>
-                                                                </select>
-                                                            @else
-
-                                                                <select class="form-control" id="country_select" name="country" disabled>
-                                                                    <option selected="selected" value="AU">Australia</option>
-                                                                    <option value="NZ">New Zealand</option>
-                                                                </select>
-                                                            @endif
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Post Code<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ $registration->postcode }}" disabled></td></tr>
-                                                </table>
-                                            </div>
-                                        </div>
-
-
+                                        <div style="margin-top: 48px"></div>
                                     </div>
                                 </div>
 
@@ -241,6 +186,7 @@
                                 -- Clinic Search Box
                                 -->
                                 <div class="col-md-6 col-sm-6">
+
                                     <div class="well" style="background-color: transparent; background-image: none">
                                         <h4 class="medlab_registration_form_section_title">Clinic Information</h4>
 
@@ -385,7 +331,7 @@
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Name of the Clinic/Business<span style="color: red;">*</span></th></tr>
-                                                        <tr><td><input id="create_new_clinic_name" type="text" class="form-control" name="create_new_clinic_name" placeholder="Clinic/Business Name" value="{{ $registration->clinic_name }}"></td></tr>
+                                                        <tr><td><input id="create_new_clinic_name" type="text" class="form-control" name="create_new_clinic_name" placeholder="Clinic/Business Name" value="{{ old('create_new_clinic_name') }}"></td></tr>
                                                     </table>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6">
@@ -393,7 +339,7 @@
                                                         <tr><th class="medlab_registration_form_section_subtitle">Business Type<span style="color: red;">*</span></th></tr>
                                                         <tr>
                                                             <td>
-                                                                {!! Form::select('create_new_business_type', $businessTypeList, $registration->business_type, ['class' => 'form-control', 'id' => 'create_new_business_type']) !!}
+                                                                {!! Form::select('create_new_business_type', $businessTypeList, old('create_new_business_type'), ['class' => 'form-control', 'id' => 'create_new_business_type']) !!}
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -403,7 +349,7 @@
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Business Number<span style="color: red;">*</span></th></tr>
-                                                        <tr><td><input id="create_new_business_number" type="text" class="form-control" name="create_new_business_number" placeholder="Business Num." value="{{ $registration->business_number }}"></td></tr>
+                                                        <tr><td><input id="create_new_business_number" type="text" class="form-control" name="create_new_business_number" placeholder="Business Num." value="{{ old('create_new_business_number') }}"></td></tr>
                                                     </table>
                                                 </div>
                                             </div>
@@ -411,14 +357,14 @@
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
-                                                        <tr><td><input id="create_new_street_address_one" type="text" class="form-control" name="create_new_street_address_one" placeholder="Street" value="{{ $registration->street }}"></td></tr>
-                                                        <tr><td style="padding-top: 10px;"><input id="create_new_street_address_two" type="text" class="form-control" name="create_new_street_address_two" placeholder="Suburb" value="{{ $registration->suburb }}"></td></tr>
+                                                        <tr><td><input id="create_new_street_address_one" type="text" class="form-control" name="create_new_street_address_one" placeholder="Street" value="{{ old('create_new_street_address_one') }}"></td></tr>
+                                                        <tr><td style="padding-top: 10px;"><input id="create_new_street_address_two" type="text" class="form-control" name="create_new_street_address_two" placeholder="Suburb" value="{{ old('create_new_street_address_two') }}"></td></tr>
                                                     </table>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
-                                                        <tr><td><input id="create_new_city" type="text" class="form-control" name="create_new_city" placeholder="City" value="{{ $registration->city }}"></td></tr>
+                                                        <tr><td><input id="create_new_city" type="text" class="form-control" name="create_new_city" placeholder="City" value="{{ old('create_new_city') }}"></td></tr>
                                                     </table>
                                                 </div>
                                             </div>
@@ -428,10 +374,10 @@
                                                         <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                                         <tr>
                                                             <td>
-                                                                @if($registration->country == 'NZ')
-                                                                    {!! Form::select('create_new_state', $nzRegion, $registration->state, ['class' => 'form-control', 'id' => 'create_new_state_select']) !!}
+                                                                @if(old('country') == "NZ")
+                                                                    {!! Form::select('create_new_state', $nzRegion, old('create_new_state'), ['class' => 'form-control', 'id' => 'create_new_state_select']) !!}
                                                                 @else
-                                                                    {!! Form::select('create_new_state', $auState, $registration->state, ['class' => 'form-control', 'id' => 'create_new_state_select']) !!}
+                                                                    {!! Form::select('create_new_state', $auState, old('create_new_state'), ['class' => 'form-control', 'id' => 'create_new_state_select']) !!}
                                                                 @endif
                                                             </td>
                                                         </tr>
@@ -442,7 +388,7 @@
                                                         <tr><th class="medlab_registration_form_section_subtitle">Country<span style="color: red;">*</span></th></tr>
                                                         <tr>
                                                             <td>
-                                                                @if($registration->country == 'NZ')
+                                                                @if(old('country') == "NZ")
                                                                     <select class="form-control" id="create_new_country_select" name="create_new_country">
                                                                         <option value="AU">Australia</option>
                                                                         <option selected="selected" value="NZ">New Zealand</option>
@@ -461,7 +407,7 @@
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Post Code<span style="color: red;">*</span></th></tr>
-                                                        <tr><td><input id="create_new_postcode" type="text" class="form-control" name="create_new_postcode" placeholder="Post Code" value="{{ $registration->postcode }}"></td></tr>
+                                                        <tr><td><input id="create_new_postcode" type="text" class="form-control" name="create_new_postcode" placeholder="Post Code" value="{{ old('create_new_postcode') }}"></td></tr>
                                                     </table>
                                                 </div>
                                             </div>
@@ -484,7 +430,7 @@
                     <p style="text-align: center">
                         <br>
                         <br>
-                        <a class="btn btn-default" href="/account/practitioner-registration">Back to Practitioner Registration</a>
+                        <a class="btn btn-default" href="/account/patient-registration/{{ $registration->id }}">Back to Patient Registration</a>
                     </p>
                 </div>
             </div>

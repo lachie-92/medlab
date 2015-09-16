@@ -20,7 +20,7 @@ class CreateCompaniesTable extends Migration {
             $table->boolean('starred');
             $table->string('business_type');
             $table->string('modality');
-            $table->string('business_number');
+            $table->string('business_number')->unique();
             $table->string('country');
             $table->string('main_address_id');
 			$table->dateTime('viewed_at');

@@ -120,6 +120,11 @@
                 type: "POST",
                 dataType : "html",
 
+                beforeSend: function(  ) {
+                    var display = $('#find_practitioner_display_box');
+                    display.empty();
+                },
+
                 success: function( html ) {
                     var display = $('#find_practitioner_display_box');
                     display.empty();

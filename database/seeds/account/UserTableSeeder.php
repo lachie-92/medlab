@@ -166,7 +166,7 @@ class UserTableSeeder extends Seeder
 
             ]);
 
-            Company_Address::create([
+            $mainCompanyAddress = Company_Address::create([
                 'type' => 'Main Address',
                 'address' => $user['company_address'],
                 'street' => $user['company_street'],
@@ -177,6 +177,9 @@ class UserTableSeeder extends Seeder
                 'country' => $user['company_country'],
                 'company_id' => $company->id
             ]);
+
+            $company->main_address_id = $mainCompanyAddress->id;
+            $company->save();
 
             Company_Number::create([
                 'type' => 'Main Number',

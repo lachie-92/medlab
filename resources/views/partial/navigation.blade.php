@@ -41,6 +41,7 @@
                             {{ Auth::user()->customer->name }} <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu" role="menu">
+                            <li><a href="/account">My Account</a></li>
                             <li><a href="/account/logout">Logout</a></li>
                         </ul>
                     </li>

@@ -14,21 +14,27 @@ class PractitionerAccountRequest extends Request
      */
     public function authorize()
     {
-        // Get the route model binding
-        $registration = $this->route()->parameter('practitionerRegistrationId');
-
-        // Stop account creation if the registration is already approved
-        if ($registration->approval) {
-            return false;
-        }
-
-        // Stop account creation if the registration is deleted
-        if ($registration->deleted_at) {
+        if (Auth::guest()) {
             return false;
         }
 
         if (Auth::user()->group != 'Admin') {
             return false;
+        }
+
+        // Get the route model binding
+        $registration = $this->route()->parameter('practitionerRegistrationId');
+
+        if ($registration) {
+            // Stop account creation if the registration is already approved
+            if ($registration->approval) {
+                return false;
+            }
+
+            // Stop account creation if the registration is deleted
+            if ($registration->deleted_at) {
+                return false;
+            }
         }
 
         return true;
@@ -46,9 +52,9 @@ class PractitionerAccountRequest extends Request
             'email' => 'required|email|max:255|unique:users',
             'first_name' => 'required|max:30',
             'last_name' => 'required|max:30',
-            'change_password' => 'required|boolean',
+            'change_password' => 'boolean',
             'password' => 'confirmed|min:6',
-            'provider_number' => 'required|integer',
+            'provider_number' => 'required|numeric',
             'telephone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
             'mobile_phone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
             'company_id' => 'required|integer|exists:companies,id',

@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Company;
+use App\Company_Address;
 use App\Customer;
 use App\Customer_Address;
 use App\Customer_Email;
 use App\Customer_Number;
 use App\Http\Controllers\Traits\UsefulViewFunctions;
 use App\Http\Requests\AddressUpdateRequest;
+use App\Http\Requests\CompanyRequest;
 use App\Http\Requests\CompanySearchRequest;
 use App\Http\Requests\EmailUpdateRequest;
 use App\Http\Requests\NewsletterUpdateRequest;
@@ -53,8 +55,11 @@ class AccountController extends Controller
                 'postDeletePatientRegistration',
                 'postRestoreDeletedPatientRegistration',
                 'postCreatePatientAccount',
+                'getNewPractitionerRegistration',
+                'postNewPractitionerRegistration',
                 'getShowPractitionerRegistrations',
                 'postGetCompanyList',
+                'postCreateCompany',
                 'getPractitionerRegistration',
                 'postCreatePractitionerAccount',
                 'postDeletePractitionerRegistration',
@@ -274,7 +279,7 @@ class AccountController extends Controller
         $registration->practitioner_postcode = $companyMainAddress->postcode;
         $registration->approval = Carbon::now();
 
-        if ($request->change_password) {
+        if ($request->has('change_password') && $request->change_password) {
             $registration->password = bcrypt($request->password);
         }
 
@@ -356,6 +361,107 @@ class AccountController extends Controller
         ));
     }
 
+    public function getNewPractitionerRegistration(Patient_Registration $registration)
+    {
+        $auState = $this->createAuStateList();
+        $nzRegion = $this->createNzRegionList();
+        $titleList = $this->createTitleList();
+        $businessTypeList = $this->createBusinessTypeList();
+
+        return view('pages.account.dashboard.admin.practitionerregistration.frompatient.index', compact(
+            'registration', 'auState', 'nzRegion', 'titleList', 'businessTypeList'
+        ));
+    }
+
+    public function postNewPractitionerRegistration(PractitionerAccountRequest $request)
+    {
+        $company = Company::findOrFail($request->company_id);
+        $companyMainAddress = $company->company_addresses->where('type', 'Main Address')->first();
+
+        $registration = new Practitioner_Registration();
+        $registration->title = $request->title;
+        $registration->email = $request->email;
+        $registration->first_name = $request->first_name;
+        $registration->last_name = $request->last_name;
+        $registration->company_id = $request->company_id;
+        $registration->provider_number = $request->provider_number;
+        $registration->street = $companyMainAddress->street;
+        $registration->suburb = $companyMainAddress->suburb;
+        $registration->city = $companyMainAddress->city;
+        $registration->state = $companyMainAddress->state;
+        $registration->country = $companyMainAddress->country;
+        $registration->postcode = $companyMainAddress->postcode;
+        $registration->telephone = $request->telephone;
+        $registration->mobile_phone = $request->mobile_phone;
+        $registration->clinic_name = $company->name;
+        $registration->business_type = $company->business_type;
+        $registration->business_number = $company->business_number;
+        $registration->password = bcrypt($request->password);
+        $registration->approval = Carbon::now();
+        $registration->save();
+
+        $customer = new Customer();
+        $customer->title = $registration->title;
+        $customer->name = $registration->first_name . " " . $registration->last_name;
+        $customer->first_name = $registration->first_name;
+        $customer->last_name = $registration->last_name;
+        $customer->country = $registration->country;
+        $customer->save();
+
+        $customerAddress = new Customer_Address();
+        $customerAddress->type = 'Main Address';
+        $customerAddress->address = $registration->street . " " . $registration->suburb;
+        $customerAddress->street = $registration->street;
+        $customerAddress->suburb = $registration->suburb;
+        $customerAddress->postcode = $registration->postcode;
+        $customerAddress->city = $registration->city;
+        $customerAddress->state = $registration->state;
+        $customerAddress->country = $registration->country;
+        $customerAddress->customer_id = $customer->id;
+        $customerAddress->save();
+
+        $customerEmail = new Customer_Email();
+        $customerEmail->type = 'Main Email';
+        $customerEmail->email_address = $registration->email;
+        $customerEmail->customer_id = $customer->id;
+        $customerEmail->save();
+
+        $customer->main_address_id = $customerAddress->id;
+        $customer->registration_email_id = $customerEmail->id;
+        $customer->save();
+
+        $customerTelephone = new Customer_Number();
+        $customerTelephone->type = 'Main Number';
+        $customerTelephone->number = $registration->telephone;
+        $customerTelephone->customer_id = $customer->id;
+        $customerTelephone->save();
+
+        $customerMobile = new Customer_Number();
+        $customerMobile->type = 'Main Mobile Number';
+        $customerMobile->number = $registration->mobile_phone;
+        $customerMobile->customer_id = $customer->id;
+        $customerMobile->save();
+
+        $newUser = new User();
+        $newUser->email = $registration->email;
+        $newUser->password = $registration->password;
+        $newUser->newsletter_subscription = false;
+        $newUser->group = 'Practitioner';
+        $newUser->approval_status = 'approved';
+        $newUser->activated = true;
+        $newUser->timezone = $registration->country;
+        $newUser->customer_id = $customer->id;
+        $newUser->save();
+
+        $newPractitioner = new Practitioner();
+        $newPractitioner->user_id = $newUser->id;
+        $newPractitioner->practitioner_license = $registration->provider_number;
+        $newPractitioner->company_id = $registration->company_id;
+        $newPractitioner->save();
+
+        return redirect('/account/practitioner-registration')->with(['message' => 'Account has been created']);
+    }
+
     public function getPractitionerRegistration(Practitioner_Registration $registration)
     {
         $auState = $this->createAuStateList();
@@ -424,6 +530,34 @@ class AccountController extends Controller
         return view('pages.account.dashboard.admin.practitionerregistration.new.partial.findcompanylist', compact('filtered_companies'));
     }
 
+    public function postCreateCompany(CompanyRequest $request)
+    {
+        $company = new Company();
+
+        $company->name = $request->company_name;
+        $company->business_type = $request->company_type;
+        $company->business_number = $request->company_business_number;
+        $company->country = $request->company_country;
+        $company->save();
+
+        $companyAddress = new Company_Address();
+        $companyAddress->type = 'Main Address';
+        $companyAddress->address = $request->company_street . ' ' . $request->company_suburb;
+        $companyAddress->street = $request->company_street;
+        $companyAddress->suburb = $request->company_suburb;
+        $companyAddress->postcode = $request->company_postcode;
+        $companyAddress->city = $request->company_city;
+        $companyAddress->state = $request->company_state;
+        $companyAddress->country = $request->company_country;
+        $companyAddress->company_id = $company->id;
+        $companyAddress->save();
+
+        $company->main_address_id = $companyAddress->id;
+        $company->save();
+
+        return response()->json(['message' => 'Company has been created']);
+    }
+
     public function postCreatePractitionerAccount(PractitionerAccountRequest $request, Practitioner_Registration $registration)
     {
         $company = Company::findOrFail($request->company_id);
@@ -449,7 +583,7 @@ class AccountController extends Controller
 
         $registration->approval = Carbon::now();
 
-        if ($request->change_password) {
+        if ($request->has('change_password') && $request->change_password) {
             $registration->password = bcrypt($request->password);
         }
 

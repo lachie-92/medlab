@@ -81,6 +81,12 @@ Route::get('/account/practitioner-registration', 'AccountController@getShowPract
 
 Route::post('/account/practitioner-registration/getcompanylist', 'AccountController@postGetCompanyList');
 
+Route::post('/account/practitioner-registration/createclinic', 'AccountController@postCreateCompany');
+
+Route::get('/account/practitioner-registration/new/{patientRegistrationId}', 'AccountController@getNewPractitionerRegistration');
+
+Route::post('/account/practitioner-registration/new/create', 'AccountController@postNewPractitionerRegistration');
+
 Route::get('/account/practitioner-registration/{practitionerRegistrationId}', 'AccountController@getPractitionerRegistration');
 
 Route::post('/account/practitioner-registration/{practitionerRegistrationId}/delete', 'AccountController@postDeletePractitionerRegistration');

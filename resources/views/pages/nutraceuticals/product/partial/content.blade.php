@@ -42,7 +42,11 @@
                                 Price:
                             </span>
                             <span class="medlab_product_info_price_box_price">
-                                ${!! $product->price_wholesale !!}
+                                @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                    ${!! $product->price_wholesale !!}
+                                @else
+                                    ${!! $product->price_retail !!}
+                                @endif
                             </span>
                         </div>
 
@@ -92,11 +96,13 @@
 
                         {!! $product->general_summary !!}
 
-                        <p>
-                            <strong><em>Specific Use:</em></strong>
-                        </p>
+                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                            <p>
+                                <strong><em>Specific Use:</em></strong>
+                            </p>
 
-                        {!! $product->practitioner_summary !!}
+                            {!! $product->practitioner_summary !!}
+                        @endif
 
                     </div>
                 </div>
@@ -105,50 +111,58 @@
             <!--
             --  References
             -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        REFERENCES
-                    </div>
-                    <div class="panel-body medlab_panel_content">
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="panel panel-primary medlab_panel">
+                        <div class="panel-heading medlab_panel_title">
+                            REFERENCES
+                        </div>
+                        <div class="panel-body medlab_panel_content">
 
-                        {!! $product->references !!}
+                            {!! $product->references !!}
 
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endif
 
             <!--
             --  Side effects
             -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        SIDE EFFECTS
-                    </div>
-                    <div class="panel-body medlab_panel_content">
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="panel panel-primary medlab_panel">
+                        <div class="panel-heading medlab_panel_title">
+                            SIDE EFFECTS
+                        </div>
+                        <div class="panel-body medlab_panel_content">
 
-                        {!! $product->side_effects !!}
+                            {!! $product->side_effects !!}
 
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endif
+
 
             <!--
             --  Interactions
             -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        INTERACTIONS
-                    </div>
-                    <div class="panel-body medlab_panel_content">
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="panel panel-primary medlab_panel">
+                        <div class="panel-heading medlab_panel_title">
+                            INTERACTIONS
+                        </div>
+                        <div class="panel-body medlab_panel_content">
 
-                        {!! $product->interactions !!}
+                            {!! $product->interactions !!}
 
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endif
+
 
         </div>
 
