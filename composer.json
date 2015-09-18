@@ -8,7 +8,8 @@
         "php": ">=5.5.9",
         "illuminate/html": "v5.0.0",
         "laravel/framework": "5.1.*",
-        "xero/xerooauth-php": "dev-master"
+        "xero/xerooauth-php": "dev-master",
+        "guzzlehttp/guzzle": "^6.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

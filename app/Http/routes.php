@@ -39,9 +39,17 @@ Route::post('/account/register/patient', 'LoginController@postRegisterPatient');
 
 Route::post('/account/register/patient/getpractitionerlist', 'LoginController@postGetPractitionerList');
 
-Route::get('/account/recovery', 'LoginController@getRecovery');
+Route::get('/account/recovery', 'Auth\PasswordController@getEmail');
 
-Route::post('/account/recovery', 'LoginController@postRecovery');
+Route::post('/account/recovery', 'Auth\PasswordController@postEmail');
+
+Route::get('/account/reset', function() {
+    return redirect('/account/recovery');
+});
+
+Route::get('/account/reset/{token}', 'Auth\PasswordController@getReset');
+
+Route::post('/account/reset', 'Auth\PasswordController@postReset');
 
 
 ///////////////////////////////////////////////////////////////////////////////////

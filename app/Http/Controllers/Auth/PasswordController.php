@@ -28,5 +28,7 @@ class PasswordController extends Controller
     public function __construct()
     {
         $this->middleware('guest');
+        $this->redirectTo = '/account';
+        $this->subject = 'Medlab Password Recovery';
     }
 }

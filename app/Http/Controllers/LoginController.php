@@ -11,12 +11,14 @@ use App\Http\Requests\UserLoginRequest;
 use App\Patient_Registration;
 use App\Practitioner;
 use App\Practitioner_Registration;
+use App\User;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use Mail;
 
 class LoginController extends Controller
 {
@@ -133,7 +135,7 @@ class LoginController extends Controller
      */
     public function postRegisterPractitioner(PractitionerRegisterRequest $request)
     {
-        Practitioner_Registration::create([
+        $registration = Practitioner_Registration::create([
             'title' => $request->title,
             'email' => $request->email,
             'first_name' => $request->first_name,
@@ -153,6 +155,13 @@ class LoginController extends Controller
             'mobile_phone' => $request->mobile_phone,
             'approval' => null
         ]);
+
+        Mail::queue('emails.registration_received', compact('registration'), function($message) use ($registration) {
+
+            $message->from('registration_temp_email@medlab.co')
+                ->to($registration->email)
+                ->subject('Medlab -  Your Registration has been received');
+        });
 
         return view('pages.account.register.approval.index');
     }
@@ -181,7 +190,7 @@ class LoginController extends Controller
     public function postRegisterPatient(PatientRegisterRequest $request)
     {
         if ($request->practitioner_not_found) {
-            Patient_Registration::create([
+            $registration = Patient_Registration::create([
                 'title' => $request->title,
                 'email' => $request->email,
                 'first_name' => $request->first_name,
@@ -209,7 +218,7 @@ class LoginController extends Controller
             $practitioner = Practitioner::findOrFail($request->practitioner_id);
             $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
 
-            Patient_Registration::create([
+            $registration = Patient_Registration::create([
                 'title' => $request->title,
                 'email' => $request->email,
                 'first_name' => $request->first_name,
@@ -234,6 +243,13 @@ class LoginController extends Controller
                 'approval' => null
             ]);
         }
+
+        Mail::queue('emails.registration_received', compact('registration'), function($message) use ($registration) {
+
+            $message->from('registration_temp_email@medlab.co')
+                ->to($registration->email)
+                ->subject('Medlab -  Your Registration has been received');
+        });
 
         return view('pages.account.register.approval.index');
     }
@@ -268,25 +284,4 @@ class LoginController extends Controller
         return view('pages.account.register.patient.partial.findpractitionerlist', compact('filtered_practitioners'));
     }
 
-    /**
-     * Display the password recovery page
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function getRecovery()
-    {
-        return view('pages.account.recovery.index');
-    }
-
-    /**
-     * Process the password recovery request
-     *
-     * @param Request $request
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function postRecovery(Request $request)
-    {
-        return view('pages.account.recovery.index');
-    }
 }

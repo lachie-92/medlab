@@ -27,6 +27,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Mail;
 
 class AccountController extends Controller
 {
@@ -343,6 +344,13 @@ class AccountController extends Controller
         $newPatient->practitioner_id = $registration->practitioner_id;
         $newPatient->save();
 
+        Mail::queue('emails.registration_approved', compact('registration'), function($message) use ($registration) {
+
+            $message->from('registration_temp_email@medlab.co')
+                ->to($registration->email)
+                ->subject('Medlab -  Your Registration has been approved');
+        });
+
         return redirect('/account/patient-registration')->with(['message' => 'Account has been created']);
     }
 
@@ -458,6 +466,13 @@ class AccountController extends Controller
         $newPractitioner->practitioner_license = $registration->provider_number;
         $newPractitioner->company_id = $registration->company_id;
         $newPractitioner->save();
+
+        Mail::queue('emails.registration_approved', compact('registration'), function($message) use ($registration) {
+
+            $message->from('registration_temp_email@medlab.co')
+                ->to($registration->email)
+                ->subject('Medlab -  Your Registration has been approved');
+        });
 
         return redirect('/account/practitioner-registration')->with(['message' => 'Account has been created']);
     }
@@ -647,6 +662,13 @@ class AccountController extends Controller
         $newPractitioner->practitioner_license = $registration->provider_number;
         $newPractitioner->company_id = $registration->company_id;
         $newPractitioner->save();
+
+        Mail::queue('emails.registration_approved', compact('registration'), function($message) use ($registration) {
+
+            $message->from('registration_temp_email@medlab.co')
+                ->to($registration->email)
+                ->subject('Medlab -  Your Registration has been approved');
+        });
 
         return redirect('/account/practitioner-registration')->with(['message' => 'Account has been created']);
     }

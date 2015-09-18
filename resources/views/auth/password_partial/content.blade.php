@@ -27,6 +27,14 @@
                         </div>
                     @endif
 
+                    @if (session('status'))
+                        <div class="container-fluid">
+                            <div class="alert alert-success">
+                                {{ session('status') }}
+                            </div>
+                        </div>
+                    @endif
+
                     <p style="text-align: center">
                         Please enter your email address below. You will receive a link to reset your password.
                     </p>
