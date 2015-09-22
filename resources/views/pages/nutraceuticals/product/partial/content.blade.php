@@ -51,15 +51,17 @@
                         </div>
 
                         <div class="medlab_product_info_shop_box">
-                            <form action="" method="post">
+                            <form action="/shoppingcart/update" method="post">
+                                <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                <input type="hidden" value="{{ $product->idProduct }}" name="product_id">
                                 <div class="input-group">
-                                <span class="input-group-addon">
-                                    Qty:
-                                </span>
-                                    <input id="product_quantity" name="product_quantity" class="form-control" type="text" placeholder="Quantity" title="Quantity" value="1"/>
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default medlab_product_info_shop_box_button" type="button" title="Add to Cart" >Add to Cart</button>
-                                </span>
+                                    <span class="input-group-addon">
+                                        Qty:
+                                    </span>
+                                        <input id="product_quantity" name="product_quantity" class="form-control" type="text" placeholder="Quantity" title="Quantity" value="1"/>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default medlab_product_info_shop_box_button" type="submit" title="Add to Cart" >Add to Cart</button>
+                                    </span>
                                 </div>
                             </form>
                         </div>

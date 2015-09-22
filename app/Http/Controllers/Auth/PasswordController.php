@@ -29,6 +29,6 @@ class PasswordController extends Controller
     {
         $this->middleware('guest');
         $this->redirectTo = '/account';
-        $this->subject = 'Medlab Password Recovery';
+        $this->subject = 'Medlab - Password Recovery';
     }
 }
