@@ -17,13 +17,13 @@ class CreateIngredientProductTable extends Migration
             $table->increments('id');
             $table->timestamps();
 
-            $table->integer('idProduct')->unsigned();
-            $table->foreign('idProduct')->references('idProduct')->on('products')->onDelete('cascade');
-            $table->index('idProduct');
+            $table->integer('product_id')->unsigned();
+            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
+            $table->index('product_id');
 
-            $table->integer('idIngredient')->unsigned();
-            $table->foreign('idIngredient')->references('idIngredient')->on('ingredients')->onDelete('cascade');
-            $table->index('idIngredient');
+            $table->integer('ingredient_id')->unsigned();
+            $table->foreign('ingredient_id')->references('id')->on('ingredients')->onDelete('cascade');
+            $table->index('ingredient_id');
         });
     }
 

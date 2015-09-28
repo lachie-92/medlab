@@ -53,7 +53,7 @@
                         <div class="medlab_product_info_shop_box">
                             <form action="/shoppingcart/update" method="post">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                <input type="hidden" value="{{ $product->idProduct }}" name="product_id">
+                                <input type="hidden" value="{{ $product->id }}" name="product_id">
                                 <div class="input-group">
                                     <span class="input-group-addon">
                                         Qty:

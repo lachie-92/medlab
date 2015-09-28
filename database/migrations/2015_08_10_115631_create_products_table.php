@@ -14,7 +14,7 @@ class CreateProductsTable extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
 
-            $table->increments('idProduct');
+            $table->increments('id');
             $table->integer('xero_item_id')->unique();
             $table->string('product_name_index', 255);
             $table->index('product_name_index');

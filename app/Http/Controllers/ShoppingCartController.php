@@ -2,98 +2,91 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ShoppingCartPaymentOptionRequest;
+use App\Http\Requests\ShoppingCartShippingAddressUpdateRequest;
 use App\Http\Requests\ShoppingCartUpdateRequest;
-use App\Product;
+use App\Library\Repositories\ShoppingCartRepositoryInterface;
+use App\Library\ShoppingCart\ShoppingCart;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Auth;
 
 class ShoppingCartController extends Controller
 {
-    /**
-     * Controller constructor - defines the middleware configurations.
-     *
-     */
-    public function __construct()
+    protected $repository;
+
+    public function __construct(ShoppingCartRepositoryInterface $repository)
     {
-        $this->middleware('auth', [
-            'only' => [
+        $this->middleware('auth');
+        $this->middleware('shoppingCartNotEmpty', [
+            'except' => [
                 'getShoppingCart',
-                'postShoppingCart'
+                'postShoppingCart',
             ]
         ]);
+
+        $this->repository = $repository;
+
+        parent::__construct();
     }
 
-    public function getShoppingCart(Request $request)
+    public function getShoppingCart(ShoppingCart $shoppingCart)
     {
-        $products = $this->getBasket($request);
-        $subtotal = $this->calcuateSubtotal($products);
-
-        return view('pages.shoppingcart.cart.index', compact('products', 'subtotal'));
+        return view('pages.shoppingcart.cart.index', compact('shoppingCart'));
     }
 
-    public function postShoppingCart(ShoppingCartUpdateRequest $request)
+    public function postShoppingCart(ShoppingCartUpdateRequest $request, ShoppingCart $shoppingCart)
     {
-        $this->updateBasket($request);
+        $shoppingCart->updateBasket($request);
 
         return redirect('/shoppingcart/cart');
     }
 
-    private function getBasket($request) {
+    public function getShippingAddress(ShoppingCart $shoppingCart)
+    {
+        $shoppingCart->getShippingAddress($this->user);
 
-        $basket = $request->session()->get('basket', []);
-        $products = [];
-
-        if(count($basket)) {
-
-            $products_in_basket = array_keys($basket);
-            $products_in_basket = Product::whereIn('idProduct', $products_in_basket)->get();
-
-            // Create Product list
-            foreach($products_in_basket as $product) {
-                $qty = $basket[$product->idProduct];
-                $products[] = ['product' => $product, 'quantity' => $qty];
-            }
-        }
-
-        return $products;
+        return view('pages.shoppingcart.address.index', compact('shoppingCart'));
     }
 
-    private function updateBasket($request) {
+    public function postShippingAddress(ShoppingCartShippingAddressUpdateRequest $request, ShoppingCart $shoppingCart)
+    {
+        $shoppingCart->updateShippingAddress($request);
 
-        $update = $request->only([
-            'product_id',
-            'product_quantity'
-        ]);
-
-        $basket = $request->session()->get('basket', []);
-
-        if ($update['product_quantity'] == 0) {
-            unset($basket[$update['product_id']]);
-        }
-        else {
-            $basket[$update['product_id']] = $update['product_quantity'];
-        }
-
-        $request->session()->put('basket', $basket);
+        return redirect('/shoppingcart/payment');
     }
 
-    private function calcuateSubtotal($products) {
+    public function getPayment(ShoppingCart $shoppingCart)
+    {
+        $shoppingCart->getBillingAddress($this->user);
 
-        $subtotal = 0;
+        return view('pages.shoppingcart.payment.index', compact('shoppingCart'));
+    }
 
-        foreach ($products as $product) {
+    public function postPayment(ShoppingCartPaymentOptionRequest $request, ShoppingCart $shoppingCart)
+    {
 
-            if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') ) {
-                $subtotal += $product['product']['price_wholesale'] * $product['quantity'];
-            }
-            else {
-                $subtotal += $product['product']['price_retail'] * $product['quantity'];
-            }
+        $shoppingCart->updatePaymentOption($request);
+
+        if($request['payment_option'] == 'visa') {
+            $shoppingCart->updateBillingAddress($request);
         }
 
-        return $subtotal;
+        return redirect('/shoppingcart/summary');
+    }
+
+    public function getSummary(ShoppingCart $shoppingCart)
+    {
+        $shoppingCart->getSummary($this->user);
+
+        return view('pages.shoppingcart.summary.index', compact('shoppingCart'));
+    }
+
+    public function postSummary(Request $request, ShoppingCart $shoppingCart)
+    {
+
+
+        return redirect('/shoppingcart/summary');
     }
 }

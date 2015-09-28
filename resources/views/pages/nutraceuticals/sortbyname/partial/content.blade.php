@@ -38,7 +38,7 @@
                         @foreach($products as $product)
                             <div class="row">
                                 <div class="col-md-3 col-sm-3 col-xs-3">
-                                    <a href="/nutraceuticals/products/{{ $product->idProduct }}">
+                                    <a href="/nutraceuticals/products/{{ $product->id }}">
                                         <img alt="missing picture" src="{{ $product->thumb_image_path }}">
                                     </a>
                                 </div>
@@ -64,14 +64,14 @@
                                         </div>
                                         <form action="/shoppingcart/update" method="post">
                                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                            <input type="hidden" value="{{ $product->idProduct }}" name="product_id">
+                                            <input type="hidden" value="{{ $product->id }}" name="product_id">
                                             <input type="hidden" value="1" name="product_quantity">
                                             <button class="btn btn-sm medlab_product_list_main_shopping_box_button_add" title="Add to Cart" type="submit">
                                                 <i class="fa fa-plus"></i>
                                                 Add to Cart
                                             </button>
                                         </form>
-                                        <button class="btn btn-info btn-sm medlab_product_list_main_shopping_box_button_info" onClick="location.href='/nutraceuticals/products/{{ $product->idProduct }}'">
+                                        <button class="btn btn-info btn-sm medlab_product_list_main_shopping_box_button_info" onClick="location.href='/nutraceuticals/products/{{ $product->id }}'">
                                             Learn More
                                         </button>
                                     </div>

@@ -32,12 +32,12 @@ class RouteServiceProvider extends ServiceProvider
     {
         $router->bind('productId', function($id){
 
-            return Product::where('idProduct', '=', $id)->firstOrFail();
+            return Product::where('id', '=', $id)->firstOrFail();
         });
 
         $router->bind('categoryId', function($id){
 
-            return Category::where('idCategory', '=', $id)->firstOrFail();
+            return Category::where('id', '=', $id)->firstOrFail();
         });
 
         $router->bind('patientRegistrationId', function($id){

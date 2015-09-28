@@ -25,7 +25,7 @@ class ShoppingCartUpdateRequest extends Request
     public function rules()
     {
         return [
-            'product_id' => 'required|exists:products,idProduct',
+            'product_id' => 'required|exists:products,id',
             'product_quantity' => 'required|digits_between:0,99|'
         ];
     }

@@ -145,7 +145,9 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-        App\Providers\XeroServiceProvider::class
+        App\Providers\XeroServiceProvider::class,
+        App\Providers\ViewServiceProvider::class,
+        App\Providers\ValidatorServiceProvider::class,
 
     ],
 

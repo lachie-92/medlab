@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Controllers\Traits\DefineAccountParameters;
-use App\Http\Controllers\Traits\UsefulViewFunctions;
+use App\Library\Traits\DefineAccountParameters;
+use App\Library\Traits\UsefulViewFunctions;
 use App\Http\Requests\PatientRegisterRequest;
 use App\Http\Requests\PractitionerRegisterRequest;
 use App\Http\Requests\PractitionerSearchRequest;

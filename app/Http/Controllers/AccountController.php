@@ -8,7 +8,7 @@ use App\Customer;
 use App\Customer_Address;
 use App\Customer_Email;
 use App\Customer_Number;
-use App\Http\Controllers\Traits\UsefulViewFunctions;
+use App\Library\Traits\UsefulViewFunctions;
 use App\Http\Requests\AddressUpdateRequest;
 use App\Http\Requests\CompanyRequest;
 use App\Http\Requests\CompanySearchRequest;

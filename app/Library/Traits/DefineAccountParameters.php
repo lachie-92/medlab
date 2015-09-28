@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Traits;
+namespace App\Library\Traits;
 
 use Illuminate\Http\Request;
 
@@ -23,7 +23,10 @@ trait DefineAccountParameters {
             return $this->authenticated($request, Auth::user());
         }
 
-        return redirect()->intended($this->redirectPath());
+        // Doesn't work if the intended path is a POST
+        // e.g. add item to shopping cart
+        //return redirect()->intended($this->redirectPath());
+        return redirect($this->redirectPath());
     }
 
     /**

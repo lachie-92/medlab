@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests\validator;
+namespace App\Library\Validators;
 
 
 class AddressValidator

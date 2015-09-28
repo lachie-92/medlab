@@ -55,7 +55,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Title<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            {!! Form::select('title', $titleList, $registration->title, ['class' => 'form-control']) !!}
+                                                            {!! Form::select('title', $titleList, old('title', $registration->title), ['class' => 'form-control']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -63,19 +63,19 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Email Address<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value="{{ $registration->email }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value="{{ old('email', $registration->email) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">First Name<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value="{{ $registration->first_name }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value="{{ old('first_name', $registration->first_name) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Last Name<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ $registration->last_name }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ old('last_name', $registration->last_name) }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -151,10 +151,10 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if($registration->country == 'NZ')
-                                                                {!! Form::select('state', $nzRegion, $registration->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                            @if( old('country', $registration->country) == 'NZ')
+                                                                {!! Form::select('state', $nzRegion, old('state', $registration->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @else
-                                                                {!! Form::select('state', $auState, $registration->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                {!! Form::select('state', $auState, old('state', $registration->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @endif
                                                         </td>
                                                     </tr>
@@ -165,7 +165,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if($registration->country == 'NZ')
+                                                            @if( old('country', $registration->country) == 'NZ')
                                                                 <select class="form-control" id="country_select" name="country">
                                                                     <option value="AU">Australia</option>
                                                                     <option selected="selected" value="NZ">New Zealand</option>
@@ -184,7 +184,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Post Code<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ $registration->postcode }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ old('postcode', $registration->postcode) }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -192,13 +192,13 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Telephone<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ $registration->telephone }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ old('telephone', $registration->telephone) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ $registration->mobile_phone }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone', $registration->mobile_phone) }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>

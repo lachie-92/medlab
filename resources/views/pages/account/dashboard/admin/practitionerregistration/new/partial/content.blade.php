@@ -55,7 +55,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Title<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            {!! Form::select('title', $titleList, $registration->title, ['class' => 'form-control']) !!}
+                                                            {!! Form::select('title', $titleList, old('title', $registration->title), ['class' => 'form-control']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -63,37 +63,37 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Email Address<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value="{{ $registration->email }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="email" placeholder="Email" value="{{ old('email', $registration->email) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">First Name<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value="{{ $registration->first_name }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="first_name" placeholder="First Name" value="{{ old('first_name', $registration->first_name) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Last Name<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ $registration->last_name }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ old('last_name', $registration->last_name) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-12 col-sm-12">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Provider Number<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider Number" value="{{ $registration->provider_number }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider Number" value="{{ old('provider_number', $registration->provider_number) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Telephone<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ $registration->telephone }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ old('telephone', $registration->telephone) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ $registration->mobile_phone }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone', $registration->mobile_phone) }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>

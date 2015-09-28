@@ -16,7 +16,7 @@
             -->
             @foreach($categories as $category)
                 <div class="col-md-4 col-sm-4 col-xs-6">
-                    <a href="/nutraceuticals/categories/{{ $category->idCategory }}">
+                    <a href="/nutraceuticals/categories/{{ $category->id }}">
                         <div class="panel panel-primary medlab_panel">
                             <div class="panel-heading medlab_panel_image_title">
                                 {{ strtoupper($category->category_name) }}

@@ -137,6 +137,18 @@ Route::get('/shoppingcart/cart', 'ShoppingCartController@getShoppingCart');
 
 Route::post('/shoppingcart/update', 'ShoppingCartController@postShoppingCart');
 
+Route::get('/shoppingcart/address', 'ShoppingCartController@getShippingAddress');
+
+Route::post('/shoppingcart/address', 'ShoppingCartController@postShippingAddress');
+
+Route::get('/shoppingcart/payment', 'ShoppingCartController@getPayment');
+
+Route::post('/shoppingcart/payment', 'ShoppingCartController@postPayment');
+
+Route::get('/shoppingcart/summary', 'ShoppingCartController@getSummary');
+
+Route::post('/shoppingcart/summary', 'ShoppingCartController@postSummary');
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //

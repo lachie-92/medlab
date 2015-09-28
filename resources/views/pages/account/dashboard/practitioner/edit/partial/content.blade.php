@@ -79,7 +79,7 @@
                                                 <span class="input-group-addon medlab_account_detail_edit_input_group_label">
                                                     Email
                                                 </span>
-                                                    <input class="form-control" type="text" name="email" placeholder="Email" value="{{ $user->email }}"/>
+                                                    <input class="form-control" type="text" name="email" placeholder="Email" value="{{ old('email', $user->email) }}"/>
                                                 <span class="input-group-btn">
                                                     <button class="btn btn-default" type="submit">Update</button>
                                                 </span>
@@ -203,14 +203,14 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->street }}"></td></tr>
-                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->suburb }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ old('street_address_one', $user->customer->customer_addresses->where('type', 'Main Address')->first()->street) }}"></td></tr>
+                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two',$user->customer->customer_addresses->where('type', 'Main Address')->first()->suburb) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">City</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->city }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ old('city', $user->customer->customer_addresses->where('type', 'Main Address')->first()->city) }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -220,10 +220,10 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region</th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if($user->customer->customer_addresses->where('type', 'Main Address')->first()->country == "AU")
-                                                                {!! Form::select('state', $auState, $user->customer->customer_addresses->where('type', 'Main Address')->first()->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                            @if( (old('country', $user->customer->customer_addresses->where('type', 'Main Address')->first()->country)) == "AU" )
+                                                                {!! Form::select('state', $auState, old('state', $user->customer->customer_addresses->where('type', 'Main Address')->first()->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @else
-                                                                {!! Form::select('state', $nzRegion, $user->customer->customer_addresses->where('type', 'Main Address')->first()->state, ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                {!! Form::select('state', $nzRegion, old('state', $user->customer->customer_addresses->where('type', 'Main Address')->first()->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @endif
                                                         </td>
                                                     </tr>
@@ -234,7 +234,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if($user->customer->customer_addresses->where('type', 'Main Address')->first()->country == "AU")
+                                                            @if( (old('country', $user->customer->customer_addresses->where('type', 'Main Address')->first()->country)) == "AU" )
                                                                 <select class="form-control" id="country_select" name="country">
                                                                     <option selected="selected" value="AU">Australia</option>
                                                                     <option value="NZ">New Zealand</option>
@@ -252,7 +252,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Post Code</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->postcode }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ old('postcode', $user->customer->customer_addresses->where('type', 'Main Address')->first()->postcode) }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -260,13 +260,13 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Telephone</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ $user->customer->customer_numbers->where('type', 'Main Number')->first()->number }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ old('telephone', $user->customer->customer_numbers->where('type', 'Main Number')->first()->number) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first()->number }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone', $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first()->number) }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>

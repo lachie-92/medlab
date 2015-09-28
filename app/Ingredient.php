@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Ingredient extends Model
 {
     protected $table = 'ingredients';
-    protected $primaryKey = 'idIngredient';
+    protected $primaryKey = 'id';
 
     public function scopeAlphabeticalOrder($query, $letter)
     {
@@ -16,6 +16,6 @@ class Ingredient extends Model
 
     public function products()
     {
-        return $this->belongsToMany('App\Product', 'ingredient_product', 'idIngredient', 'idProduct')->withTimestamps();
+        return $this->belongsToMany('App\Product', 'ingredient_product', 'ingredient_id', 'product_id')->withTimestamps();
     }
 }
