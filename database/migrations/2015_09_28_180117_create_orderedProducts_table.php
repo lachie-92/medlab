@@ -12,11 +12,13 @@ class CreateOrderedProductsTable extends Migration
      */
     public function up()
     {
-        Schema::create('ordered_products', function (Blueprint $table) {
+        Schema::create('orderedProducts', function (Blueprint $table) {
 
             $table->increments('id');
-            $table->foreign('order_id')->references('id')->on('orders');
-            $table->foreign('product_id')->reference('id')->on('products');
+            $table->integer('order_id')->unsigned()->unique();
+            $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
+            $table->integer('product_id')->unsigned()->unique();
+            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
 
             $table->integer('quantity');
             $table->double('discount_percentage');
@@ -33,6 +35,6 @@ class CreateOrderedProductsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('ordered_products');
+        Schema::drop('orderedProducts');
     }
 }

@@ -15,8 +15,10 @@ class CreateProductPromotionTable extends Migration
         Schema::create('product_promotion', function(Blueprint $table) {
 
             $table->increments('id');
-            $table->foreign('product_id')->references('id')->on('products');
-            $table->foreign('promotion_id')->references('id')->on('promotions');
+            $table->integer('product_id')->unsigned()->unique();
+            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
+            $table->integer('promotion_id')->unsigned()->unique();
+            $table->foreign('promotion_id')->references('id')->on('promotions')->onDelete('cascade');
 
             $table->boolean('isActive');
 

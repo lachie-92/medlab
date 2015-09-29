@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateBuyOneGetOneFreeTable extends Migration
+class CreateOrderedProductsPromotionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,14 +12,13 @@ class CreateBuyOneGetOneFreeTable extends Migration
      */
     public function up()
     {
-        Schema::create('buy_one_get_one_free', function(Blueprint $table) {
+        Schema::create('orderedProducts_promotions', function(Blueprint $table) {
 
             $table->increments('id');
+            $table->integer('orderedProduct_id')->unsigned()->unique();
+            $table->foreign('orderedProduct_id')->references('id')->on('orderedProducts')->onDelete('cascade');
             $table->integer('promotion_id')->unsigned()->unique();
             $table->foreign('promotion_id')->references('id')->on('promotions')->onDelete('cascade');
-
-            $table->integer('minimum_qty');
-            $table->integer('free_qty');
 
             $table->timestamps();
         });
@@ -32,6 +31,6 @@ class CreateBuyOneGetOneFreeTable extends Migration
      */
     public function down()
     {
-        Schema::drop('buy_one_get_one_free');
+        Schema::drop('orderedProducts_promotions');
     }
 }

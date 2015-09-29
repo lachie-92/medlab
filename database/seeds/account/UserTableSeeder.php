@@ -48,8 +48,8 @@ class UserTableSeeder extends Seeder
                 'activated' => true,
 
                 // Patient Phone
-                'main_number' => '123456789',
-                'mobile_number' => '123456789',
+                'main_number' => '12345678',
+                'mobile_number' => '12345678',
 
                 // Patient Address
                 'address_type' => 'Main Address',
@@ -81,8 +81,8 @@ class UserTableSeeder extends Seeder
                 'activated' => true,
 
                 // Practitioner Phone
-                'main_number' => '123456789',
-                'mobile_number' => '123456789',
+                'main_number' => '12345678',
+                'mobile_number' => '12345678',
 
                 // Practitioner Address
                 'address' => '123 Fake Street Hornsby',
@@ -99,8 +99,8 @@ class UserTableSeeder extends Seeder
                 'business_number' => '01234',
 
                 // Practitioner Company Phone
-                'company_main_number' => '123456789',
-                'company_mobile_number' => '123456789',
+                'company_main_number' => '12345678',
+                'company_mobile_number' => '12345678',
 
                 // Practitioner Company Address
                 'company_address_type' => 'Main Address',
