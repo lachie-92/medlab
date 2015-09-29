@@ -15,7 +15,7 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <p>
-                        <iframe src="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx"
+                        <iframe src="https://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx"
                                 frameborder="0" scrolling="yes" width="100%" height="1200">
 
                         </iframe>
