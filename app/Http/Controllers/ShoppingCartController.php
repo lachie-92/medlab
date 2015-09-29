@@ -80,13 +80,35 @@ class ShoppingCartController extends Controller
     {
         $shoppingCart->getSummary($this->user);
 
+        //should read from the order table instead
+
         return view('pages.shoppingcart.summary.index', compact('shoppingCart'));
     }
 
     public function postSummary(Request $request, ShoppingCart $shoppingCart)
     {
+        $user = $this->user;
 
+        $isSuccessful = $shoppingCart->checkout($request, $user);
 
-        return redirect('/shoppingcart/summary');
+        if ($isSuccessful) {
+
+            $order = $shoppingCart->order;
+
+            redirect('/shoppingcart/order', compact('order'));
+        }
+        else {
+
+            $errorMessage = $shoppingCart->errorMessage;
+
+            return redirect('/shoppingcart/summary')->with('errors', $errorMessage);
+        }
+    }
+
+    public function getOrder()
+    {
+        $user = $this->user;
+
+        return view('pages.shoppingcart.order.index', compact('user'));
     }
 }

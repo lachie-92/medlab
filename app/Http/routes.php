@@ -149,6 +149,8 @@ Route::get('/shoppingcart/summary', 'ShoppingCartController@getSummary');
 
 Route::post('/shoppingcart/summary', 'ShoppingCartController@postSummary');
 
+Route::get('/shoppingcart/order', 'ShoppingCartController@getOrder');
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //

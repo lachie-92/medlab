@@ -16,6 +16,8 @@ class ShoppingCart {
     public $shippingAddress = [];
     public $billingAddress = [];
     public $paymentOption = [];
+    public $errorMessage = '';
+    public $order = null;
 
     public function __construct()
     {
@@ -206,6 +208,7 @@ class ShoppingCart {
         $this->paymentOption = collect($paymentOption);
     }
 
+    // This should be create order
     public function updatePaymentOption($request)
     {
         $update = $request->only([
@@ -218,6 +221,18 @@ class ShoppingCart {
 
         $this->paymentOption = collect($paymentOption);
         $request->session()->put('paymentOption', $paymentOption);
+
+        // need to redesign to retrieve the credit token for this part
+        // and create an entry in the order table with the order detail
+        // also the token and order detail must validate each other
+    }
+
+    public function createOrder($request)
+    {
+        $update = $request->only([
+            'payment_option',
+            'token'
+        ]);
     }
 
     public function getSummary($user)
@@ -225,5 +240,36 @@ class ShoppingCart {
         $this->getPaymentOption();
         $this->getShippingAddress($user);
         $this->getBillingAddress($user);
+
+        // need to redesign so we read from the order table entry instead of session
+    }
+
+    public function checkout($request, $user)
+    {
+        // need to redesign so we execute checkout from the entry inside order table
+        // need to write a crontab so abandoned orders are deleted from database after an hour
+        // need to setup middle ware so only the owner of the order can checkout his order
+        // and ensure the order that has been checked out cannot be checkout again
+
+        $orderInfo = $request->only('order_number', 'token');
+        $paymentToken = $orderInfo['token'];
+
+        $message = $this->validatePaymentToken($paymentToken);
+
+        if ($message == 'success') {
+
+            $this->getSummary($user);
+            return true;
+        }
+        else {
+
+            $this->errorMessage = $message;
+            return false;
+        }
+    }
+
+    private function validatePaymentToken($paymentToken)
+    {
+        return 'success';
     }
 }

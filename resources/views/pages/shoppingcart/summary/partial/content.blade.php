@@ -21,7 +21,7 @@
 <!--
 -- Process Order Box
 -->
-<form class="form-horizontal" role="form" method="POST" action="/shoppingcart/address">
+<form class="form-horizontal" role="form" method="POST" action="/shoppingcart/summary">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
     <div class="container" style="margin-top: 30px;">
