@@ -96,10 +96,10 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/investor/corporate-governance">Corporate Governance</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/investor/asx-announcements">ASX Announcements</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX Announcements</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/investor/share-price">Share Price</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/charttabs.aspx" target="_blank">Share Price</a>
                         </li>
                     </ul>
 

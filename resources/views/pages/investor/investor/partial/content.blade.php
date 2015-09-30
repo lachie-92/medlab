@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 10px">
                             <div style="text-align: center;">
-                                <a title="ASX Announcements" href="/investor/asx-announcements">
+                                <a title="ASX Announcements" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">
                                     <img src="/img/investor/ASX_A.jpg" width="100%" height="250"/>
                                 </a>
                             </div>
@@ -34,7 +34,7 @@
 
                         <div class="col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 10px">
                             <div style="text-align: center;">
-                                <a title="ASX Announcements" href="/investor/share-price">
+                                <a title="ASX Announcements" href="http://clients3.weblink.com.au/Clients/medlab/charttabs.aspx" target="_blank">
                                     <img src="/img/investor/Shareprice.jpg" width="100%" height="250"/>
                                 </a>
                             </div>
