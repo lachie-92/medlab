@@ -63,7 +63,7 @@ class DealsTableSeeder extends Seeder
                 'name' => "MultiBiotic 60's Sales",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '30% off MultiBiotic 60 for order over $300',
+                'description' => '30% off MultiBiotic 60',
                 'isActive' => true,
                 'starting_date' => Carbon::now(),
                 'end_date' => Carbon::now()->addWeeks(2),
