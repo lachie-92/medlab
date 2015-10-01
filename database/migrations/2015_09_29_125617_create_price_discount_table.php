@@ -18,7 +18,6 @@ class CreatePriceDiscountTable extends Migration
             $table->integer('promotion_id')->unsigned()->unique();
             $table->foreign('promotion_id')->references('id')->on('promotions')->onDelete('cascade');
 
-            $table->double('minimum_subtotal');
             $table->double('discount_percentage');
 
             $table->timestamps();

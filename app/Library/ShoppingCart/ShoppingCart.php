@@ -2,7 +2,9 @@
 
 namespace App\Library\ShoppingCart;
 
+use App\Order;
 use App\Product;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
 class ShoppingCart {
@@ -40,15 +42,54 @@ class ShoppingCart {
                 $index = 0;
                 foreach($products as $product) {
 
-                    $qty = $shoppingCart[$product->id];
+                    $userGroup = Auth::user()->group;
 
-                    if (Auth::user()->group == 'Practitioner') {
+                    if ($userGroup == 'Practitioner') {
                         $price = $product->price_wholesale;
                     }
                     else {
                         $price = $product->price_retail;
                     }
 
+                    $qty = $shoppingCart[$product->id];
+                    $discount_percentage = 0;
+
+                    // Retrieve Promotions on the product
+                    $eligiblePromotions = [];
+                    foreach ($product->promotions as $promotion) {
+
+                        $eligible =
+                            ($promotion->apply_to_group == $userGroup) &
+                            ($promotion->isActive) &
+                            (Carbon::now()->between($promotion->starting_date, $promotion->end_date));
+
+                        if ($eligible) {
+
+                            $eligiblePromotion = [];
+                            $eligiblePromotion['name'] = $promotion->name;
+                            $eligiblePromotion['type'] = $promotion->type;
+                            $eligiblePromotion['description'] = $promotion->description;
+
+                            if ($promotion->type == 'buy_one_get_one_free') {
+
+                                $minimum_qty = $promotion->buy_one_get_one_free->minimum_qty;
+                                $bonus_qty = $promotion->buy_one_get_one_free->bonus_qty;
+                                $free_qty = floor($qty / $minimum_qty) * $bonus_qty;
+
+                                $eligiblePromotion['free_qty'] = $free_qty;
+
+                            }
+                            elseif ($promotion->type == 'price_discount') {
+
+                                $discount_percentage = $promotion->price_discount->discount_percentage;
+                                $eligiblePromotion['original_price'] = $price;
+                            }
+
+                            $eligiblePromotions[] = $eligiblePromotion;
+                        }
+                    }
+
+                    $price = round($price * ( (100 - $discount_percentage) / 100 ), 2);
                     $total = $price * $qty;
                     $this->subtotal += $total;
 
@@ -57,7 +98,8 @@ class ShoppingCart {
                         'product' => $product,
                         'quantity' => $qty,
                         'price' => $price,
-                        'total' => number_format($total, 2)
+                        'total' => number_format($total, 2),
+                        'promotions' => $eligiblePromotions,
                     ];
                 }
             }
@@ -233,6 +275,8 @@ class ShoppingCart {
             'payment_option',
             'token'
         ]);
+
+
     }
 
     public function getSummary($user)

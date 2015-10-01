@@ -35,7 +35,7 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th colspan="2">Product Description</th>
+                    <th colspan="3">Product Description</th>
                     <th>QTY</th>
                     <th>Price</th>
                     <th>Total</th>
@@ -46,12 +46,12 @@
                 @foreach ($shoppingCart->basket as $item)
 
                     <tr>
-                        <td width="10%">
+                        <td width="10%" style="vertical-align: middle">
                             <a href="/nutraceuticals/products/{{ $item['product']->id }}">
                                 <img class="image-responsive" height="60px" title="{{ $item['product']->product_name_index }}" alt="{{ $item['product']->product_name_index }}" src="{{ $item['product']->thumb_image_path }}">
                             </a>
                         </td>
-                        <td width="40%">
+                        <td width="10%" style="vertical-align: middle">
                             <p>
                                 <a href="/nutraceuticals/products/{{ $item['product']->id }}">{{ $item['product']->product_name_index }}</a>
                             </p>
@@ -63,6 +63,11 @@
                                     Remove <span class=" glyphicon glyphicon-remove" aria-hidden="true"></span>
                                 </button>
                             </form>
+                        </td>
+                        <td width="30%">
+                            @foreach ($item['promotions'] as $promotion)
+                                @include('pages.shoppingcart.cart.partial.' . $promotion['type'])
+                            @endforeach
                         </td>
                         <td width="30%" style="vertical-align: middle">
                             <form method="post" action="/shoppingcart/update">

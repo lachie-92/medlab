@@ -17,12 +17,19 @@ class CreateOrderedProductsTable extends Migration
             $table->increments('id');
             $table->integer('order_id')->unsigned()->unique();
             $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
-            $table->integer('product_id')->unsigned()->unique();
-            $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
 
-            $table->integer('quantity');
+            $table->integer('product_xero_item_id')->unique();
+            $table->string('product_name');
+            $table->string('line_price');
+            $table->integer('line_quantity');
             $table->double('discount_percentage');
             $table->double('line_total');
+
+            $table->string('promotion_name')->nullable();
+            $table->string('promotion_description')->nullable();
+            $table->string('promotion_apply_to_group')->nullable();
+            $table->string('promotion_starting_date')->nullable();
+            $table->string('promotion_end_date')->nullable();
 
             $table->timestamps();
         });

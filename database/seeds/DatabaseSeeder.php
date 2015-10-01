@@ -1,5 +1,6 @@
 <?php
 
+use App\Buy_One_Get_One_Free;
 use App\Company;
 use App\Company_Address;
 use App\Company_Email;
@@ -12,6 +13,8 @@ use App\Patient;
 use App\Patient_Registration;
 use App\Practitioner;
 use App\Practitioner_Registration;
+use App\Price_Discount;
+use App\Promotion;
 use App\Related_To;
 use App\User;
 use Illuminate\Database\Seeder;
@@ -49,6 +52,9 @@ class DatabaseSeeder extends Seeder
         Patient_Registration::truncate();
         Practitioner_Registration::truncate();
 
+        Buy_One_Get_One_Free::truncate();
+        Price_Discount::truncate();
+        Promotion::truncate();
         Product::truncate();
         Ingredient::truncate();
         Category::truncate();
@@ -76,6 +82,7 @@ class DatabaseSeeder extends Seeder
         $this->call(IngredientProductSeeder::class);
         $this->call(CategoriesTableSeeder::class);
         $this->call(CategoryProductSeeder::class);
+        $this->call(DealsTableSeeder::class);
 
         Model::reguard();
     }

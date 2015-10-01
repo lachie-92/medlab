@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ShoppingCartPaymentOptionRequest;
 use App\Http\Requests\ShoppingCartShippingAddressUpdateRequest;
 use App\Http\Requests\ShoppingCartUpdateRequest;
-use App\Library\Repositories\ShoppingCartRepositoryInterface;
 use App\Library\ShoppingCart\ShoppingCart;
 use Illuminate\Http\Request;
 
@@ -14,9 +13,9 @@ use App\Http\Controllers\Controller;
 
 class ShoppingCartController extends Controller
 {
-    protected $repository;
+    protected $shoppingCart;
 
-    public function __construct(ShoppingCartRepositoryInterface $repository)
+    public function __construct(ShoppingCart $shoppingCart)
     {
         $this->middleware('auth');
         $this->middleware('shoppingCartNotEmpty', [
@@ -26,46 +25,53 @@ class ShoppingCartController extends Controller
             ]
         ]);
 
-        $this->repository = $repository;
+        $this->shoppingCart = $shoppingCart;
 
         parent::__construct();
     }
 
-    public function getShoppingCart(ShoppingCart $shoppingCart)
+    public function getShoppingCart()
     {
+        $shoppingCart = $this->shoppingCart;
+
         return view('pages.shoppingcart.cart.index', compact('shoppingCart'));
     }
 
-    public function postShoppingCart(ShoppingCartUpdateRequest $request, ShoppingCart $shoppingCart)
+    public function postShoppingCart(ShoppingCartUpdateRequest $request)
     {
+        $shoppingCart = $this->shoppingCart;
         $shoppingCart->updateBasket($request);
 
         return redirect('/shoppingcart/cart');
     }
 
-    public function getShippingAddress(ShoppingCart $shoppingCart)
+    public function getShippingAddress()
     {
+        $shoppingCart = $this->shoppingCart;
         $shoppingCart->getShippingAddress($this->user);
 
         return view('pages.shoppingcart.address.index', compact('shoppingCart'));
     }
 
-    public function postShippingAddress(ShoppingCartShippingAddressUpdateRequest $request, ShoppingCart $shoppingCart)
+    public function postShippingAddress(ShoppingCartShippingAddressUpdateRequest $request)
     {
+        $shoppingCart = $this->shoppingCart;
         $shoppingCart->updateShippingAddress($request);
 
         return redirect('/shoppingcart/payment');
     }
 
-    public function getPayment(ShoppingCart $shoppingCart)
+    public function getPayment()
     {
+        $shoppingCart = $this->shoppingCart;
         $shoppingCart->getBillingAddress($this->user);
 
         return view('pages.shoppingcart.payment.index', compact('shoppingCart'));
     }
 
-    public function postPayment(ShoppingCartPaymentOptionRequest $request, ShoppingCart $shoppingCart)
+    public function postPayment(ShoppingCartPaymentOptionRequest $request)
     {
+        $shoppingCart = $this->shoppingCart;
 
         $shoppingCart->updatePaymentOption($request);
 
@@ -76,8 +82,9 @@ class ShoppingCartController extends Controller
         return redirect('/shoppingcart/summary');
     }
 
-    public function getSummary(ShoppingCart $shoppingCart)
+    public function getSummary()
     {
+        $shoppingCart = $this->shoppingCart;
         $shoppingCart->getSummary($this->user);
 
         //should read from the order table instead
@@ -85,9 +92,10 @@ class ShoppingCartController extends Controller
         return view('pages.shoppingcart.summary.index', compact('shoppingCart'));
     }
 
-    public function postSummary(Request $request, ShoppingCart $shoppingCart)
+    public function postSummary(Request $request)
     {
         $user = $this->user;
+        $shoppingCart = $this->shoppingCart;
 
         $isSuccessful = $shoppingCart->checkout($request, $user);
 

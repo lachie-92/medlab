@@ -24,4 +24,9 @@ class Product extends Model
     {
         return $this->belongsToMany('App\Category', 'category_product', 'product_id', 'category_id')->withTimestamps();
     }
+
+    public function promotions()
+    {
+        return $this->hasMany('App\Promotion');
+    }
 }

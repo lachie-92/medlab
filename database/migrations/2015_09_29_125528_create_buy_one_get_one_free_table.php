@@ -19,7 +19,7 @@ class CreateBuyOneGetOneFreeTable extends Migration
             $table->foreign('promotion_id')->references('id')->on('promotions')->onDelete('cascade');
 
             $table->integer('minimum_qty');
-            $table->integer('free_qty');
+            $table->integer('bonus_qty');
 
             $table->timestamps();
         });

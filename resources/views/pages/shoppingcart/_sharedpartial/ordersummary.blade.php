@@ -24,6 +24,14 @@
                 </td>
             </tr>
 
+            @foreach ($item['promotions'] as $promotion)
+                <tr>
+                    <td colspan="3">
+                        @include('pages.shoppingcart._sharedpartial.' . $promotion['type'])
+                    </td>
+                </tr>
+            @endforeach
+
         @endforeach
         <tr>
             <th colspan="2">
