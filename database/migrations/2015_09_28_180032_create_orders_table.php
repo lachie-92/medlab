@@ -15,7 +15,7 @@ class CreateOrdersTable extends Migration
         Schema::create('orders', function (Blueprint $table) {
 
             $table->increments('id');
-            $table->integer('user_id')->unsigned()->unique();
+            $table->integer('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 
             $table->string('shipping_address_title');
@@ -43,6 +43,9 @@ class CreateOrdersTable extends Migration
             $table->string('payment_token');
 
             $table->string('order_status');
+            $table->double('subtotal');
+            $table->double('GST');
+            $table->double('shipping_cost');
             $table->double('discount');
             $table->double('grand_total');
 

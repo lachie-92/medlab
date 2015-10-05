@@ -11,7 +11,6 @@ use App\Http\Requests\UserLoginRequest;
 use App\Patient_Registration;
 use App\Practitioner;
 use App\Practitioner_Registration;
-use App\User;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Http\Request;
 
@@ -102,6 +101,7 @@ class LoginController extends Controller
     public function getLogout()
     {
         Auth::logout();
+        session()->flush();
 
         return redirect('/');
     }

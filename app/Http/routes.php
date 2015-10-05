@@ -145,11 +145,7 @@ Route::get('/shoppingcart/payment', 'ShoppingCartController@getPayment');
 
 Route::post('/shoppingcart/payment', 'ShoppingCartController@postPayment');
 
-Route::get('/shoppingcart/summary', 'ShoppingCartController@getSummary');
-
-Route::post('/shoppingcart/summary', 'ShoppingCartController@postSummary');
-
-Route::get('/shoppingcart/order', 'ShoppingCartController@getOrder');
+Route::post('/shoppingcart/checkout', 'ShoppingCartController@postCheckout');
 
 
 ///////////////////////////////////////////////////////////////////////////////////

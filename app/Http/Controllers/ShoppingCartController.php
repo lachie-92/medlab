@@ -6,6 +6,7 @@ use App\Http\Requests\ShoppingCartPaymentOptionRequest;
 use App\Http\Requests\ShoppingCartShippingAddressUpdateRequest;
 use App\Http\Requests\ShoppingCartUpdateRequest;
 use App\Library\ShoppingCart\ShoppingCart;
+use App\Order;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -48,7 +49,7 @@ class ShoppingCartController extends Controller
     public function getShippingAddress()
     {
         $shoppingCart = $this->shoppingCart;
-        $shoppingCart->getShippingAddress($this->user);
+        $shoppingCart->getShippingAddress();
 
         return view('pages.shoppingcart.address.index', compact('shoppingCart'));
     }
@@ -64,7 +65,7 @@ class ShoppingCartController extends Controller
     public function getPayment()
     {
         $shoppingCart = $this->shoppingCart;
-        $shoppingCart->getBillingAddress($this->user);
+        $shoppingCart->getBillingAddress();
 
         return view('pages.shoppingcart.payment.index', compact('shoppingCart'));
     }
@@ -72,7 +73,8 @@ class ShoppingCartController extends Controller
     public function postPayment(ShoppingCartPaymentOptionRequest $request)
     {
         $shoppingCart = $this->shoppingCart;
-
+        $order = $shoppingCart->createOrder($request);
+/*
         $shoppingCart->updatePaymentOption($request);
 
         if($request['payment_option'] == 'visa') {
@@ -80,16 +82,22 @@ class ShoppingCartController extends Controller
         }
 
         return redirect('/shoppingcart/summary');
+*/
+        return view('pages.shoppingcart.summary.index', compact('order'));
     }
 
-    public function getSummary()
+    public function getSummary(Request $request)
     {
+
         $shoppingCart = $this->shoppingCart;
-        $shoppingCart->getSummary($this->user);
+        $shoppingCart->getSummary();
 
         //should read from the order table instead
 
         return view('pages.shoppingcart.summary.index', compact('shoppingCart'));
+
+
+        Order::findOrFail($request->order);
     }
 
     public function postSummary(Request $request)

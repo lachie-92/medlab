@@ -19,7 +19,7 @@ class Enbiotic_60s_Seeder extends Seeder
             'product_name' => 'Enbiotic 60&#39;s',
             'short_description' =>
                 '
-                <h4 class="medlab_product_content_title">Enbiotic 120&#39;s</h4>
+                <h4 class="medlab_product_content_title">Enbiotic 60&#39;s</h4>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>

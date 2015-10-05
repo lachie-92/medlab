@@ -15,7 +15,7 @@ class CreateBuyOneGetOneFreeTable extends Migration
         Schema::create('buy_one_get_one_free', function(Blueprint $table) {
 
             $table->increments('id');
-            $table->integer('promotion_id')->unsigned()->unique();
+            $table->integer('promotion_id')->unsigned();
             $table->foreign('promotion_id')->references('id')->on('promotions')->onDelete('cascade');
 
             $table->integer('minimum_qty');

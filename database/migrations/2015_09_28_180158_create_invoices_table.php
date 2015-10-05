@@ -15,7 +15,7 @@ class CreateInvoicesTable extends Migration
         Schema::create('invoices', function (Blueprint $table) {
 
             $table->increments('id');
-            $table->integer('order_id')->unsigned()->unique();
+            $table->integer('order_id')->unsigned();
             $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
 
             $table->string('invoice_info');

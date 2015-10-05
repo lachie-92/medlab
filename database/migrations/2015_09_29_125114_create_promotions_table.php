@@ -15,7 +15,7 @@ class CreatePromotionsTable extends Migration
         Schema::create('promotions', function(Blueprint $table) {
 
             $table->increments('id');
-            $table->integer('product_id')->unsigned()->unique();
+            $table->integer('product_id')->unsigned();
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
 
             $table->string('name');

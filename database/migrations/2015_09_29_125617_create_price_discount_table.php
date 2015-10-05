@@ -15,7 +15,7 @@ class CreatePriceDiscountTable extends Migration
         Schema::create('price_discount', function(Blueprint $table) {
 
             $table->increments('id');
-            $table->integer('promotion_id')->unsigned()->unique();
+            $table->integer('promotion_id')->unsigned();
             $table->foreign('promotion_id')->references('id')->on('promotions')->onDelete('cascade');
 
             $table->double('discount_percentage');

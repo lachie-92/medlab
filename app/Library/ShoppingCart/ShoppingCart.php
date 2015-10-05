@@ -3,6 +3,8 @@
 namespace App\Library\ShoppingCart;
 
 use App\Order;
+use App\OrderedProduct;
+use App\OrderedProducts_Promotion;
 use App\Product;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
@@ -15,14 +17,18 @@ class ShoppingCart {
     public $subtotal = 0;
     public $GST = 0;
     public $total = 0;
+    public $discount = 0;
     public $shippingAddress = [];
     public $billingAddress = [];
     public $paymentOption = [];
     public $errorMessage = '';
-    public $order = null;
+
+    protected $user;
 
     public function __construct()
     {
+        $this->user = Auth::user();
+
         $this->createBasket();
         $this->calculateAndFormatPrice();
     }
@@ -42,7 +48,7 @@ class ShoppingCart {
                 $index = 0;
                 foreach($products as $product) {
 
-                    $userGroup = Auth::user()->group;
+                    $userGroup = $this->user->group;
 
                     if ($userGroup == 'Practitioner') {
                         $price = $product->price_wholesale;
@@ -51,6 +57,7 @@ class ShoppingCart {
                         $price = $product->price_retail;
                     }
 
+                    $originalPrice = $price;
                     $qty = $shoppingCart[$product->id];
                     $discount_percentage = 0;
 
@@ -69,6 +76,9 @@ class ShoppingCart {
                             $eligiblePromotion['name'] = $promotion->name;
                             $eligiblePromotion['type'] = $promotion->type;
                             $eligiblePromotion['description'] = $promotion->description;
+                            $eligiblePromotion['apply_to_group'] = $promotion->apply_to_group;
+                            $eligiblePromotion['starting_date'] = $promotion->starting_date;
+                            $eligiblePromotion['end_date'] = $promotion->end_date;
 
                             if ($promotion->type == 'buy_one_get_one_free') {
 
@@ -77,27 +87,43 @@ class ShoppingCart {
                                 $free_qty = floor($qty / $minimum_qty) * $bonus_qty;
 
                                 $eligiblePromotion['free_qty'] = $free_qty;
+                                $this->discount +=  $originalPrice * $free_qty;
 
                             }
                             elseif ($promotion->type == 'price_discount') {
 
-                                $discount_percentage = $promotion->price_discount->discount_percentage;
-                                $eligiblePromotion['original_price'] = $price;
+                                $discount_percentage = $discount_percentage + $promotion->price_discount->discount_percentage;
+                                $eligiblePromotion['discount_percentage'] = $promotion->price_discount->discount_percentage;
+                                $eligiblePromotion['original_price'] = $originalPrice;
                             }
 
                             $eligiblePromotions[] = $eligiblePromotion;
                         }
                     }
 
-                    $price = round($price * ( (100 - $discount_percentage) / 100 ), 2);
+                    $beforeDiscountTotal = $price * $qty;
+
+                    if ($discount_percentage < 100) {
+
+                        $price = round($price * ( (100 - $discount_percentage) / 100 ), 2);
+                    }
+                    else {
+                        $price = 0;
+                    }
+
                     $total = $price * $qty;
+                    $discount = $beforeDiscountTotal - $total;
                     $this->subtotal += $total;
+                    $this->discount += $discount;
 
                     $this->basket[] = [
                         'index' => $index++,
                         'product' => $product,
                         'quantity' => $qty,
+                        'original_price' => $originalPrice,
                         'price' => $price,
+                        'discount_percentage' => $discount_percentage,
+                        'discount' => $discount,
                         'total' => number_format($total, 2),
                         'promotions' => $eligiblePromotions,
                     ];
@@ -112,6 +138,8 @@ class ShoppingCart {
     {
         $this->GST = number_format(round($this->subtotal * $this->tax, 2), 2);
         $this->total = number_format(round($this->subtotal * ($this->tax + 1), 2) + $this->shippingCost, 2);
+
+        // formatting
         $this->subtotal = number_format($this->subtotal, 2);
         $this->shippingCost = number_format($this->shippingCost, 2);
     }
@@ -135,8 +163,9 @@ class ShoppingCart {
         $request->session()->put('basket', $basket);
     }
 
-    public function getShippingAddress($user)
+    public function getShippingAddress()
     {
+        $user = $this->user;
         $shippingAddress = session()->get('shippingAddress', []);
 
         if (count($shippingAddress) == 0) {
@@ -188,8 +217,9 @@ class ShoppingCart {
         $request->session()->put('shippingAddress', $shippingAddress);
     }
 
-    public function getBillingAddress($user)
+    public function getBillingAddress()
     {
+        $user = $this->user;
         $billingAddress = session()->get('billingAddress', []);
 
         if (count($billingAddress) == 0) {
@@ -276,14 +306,113 @@ class ShoppingCart {
             'token'
         ]);
 
+        $order = new Order();
 
+        $order->user_id = $this->user->id;
+        $order->payment_type = $update['payment_option'];
+        $order->order_status = 'new_order';
+        $order->subtotal = $this->subtotal;
+        $order->GST = $this->GST;
+        $order->shipping_cost = $this->shippingCost;
+        $order->discount = $this->discount;
+        $order->grand_total = $this->total;
+
+        $this->getShippingAddress();
+        $order->shipping_address_title = $this->shippingAddress['title'];
+        $order->shipping_address_first_name = $this->shippingAddress['first_name'];
+        $order->shipping_address_last_name = $this->shippingAddress['last_name'];
+        $order->shipping_address_street = $this->shippingAddress['street'];
+        $order->shipping_address_suburb = $this->shippingAddress['suburb'];
+        $order->shipping_address_city = $this->shippingAddress['city'];
+        $order->shipping_address_postcode = $this->shippingAddress['postcode'];
+        $order->shipping_address_state = $this->shippingAddress['state'];
+        $order->shipping_address_country = $this->shippingAddress['country'];
+        $order->shipping_address_phone = $this->shippingAddress['phone'];
+
+        $this->getBillingAddress();
+        $order->billing_address_title = $this->billingAddress['title'];
+        $order->billing_address_first_name = $this->billingAddress['first_name'];
+        $order->billing_address_last_name = $this->billingAddress['last_name'];
+        $order->billing_address_street = $this->billingAddress['street'];
+        $order->billing_address_suburb = $this->billingAddress['suburb'];
+        $order->billing_address_city = $this->billingAddress['city'];
+        $order->billing_address_postcode = $this->billingAddress['postcode'];
+        $order->billing_address_state = $this->billingAddress['state'];
+        $order->billing_address_country = $this->billingAddress['country'];
+
+        $order->save();
+
+        foreach ($this->basket as $item) {
+
+            $orderedProduct = new OrderedProduct();
+
+            $orderedProduct->order_id = $order->id;
+
+            $orderedProduct->product_name = $item['product']->product_name_index;
+            $orderedProduct->line_price = $item['original_price'];
+            $orderedProduct->line_quantity = $item['quantity'];
+            $orderedProduct->discount_percentage = $item['discount_percentage'];
+            $orderedProduct->discounted_price = $item['price'];
+            $orderedProduct->line_total = $item['total'];
+
+            $orderedProduct->save();
+
+            foreach ($item['promotions'] as $promotion) {
+
+                $orderedProductPromotion = new OrderedProducts_Promotion();
+
+                $orderedProductPromotion->orderedProduct_id = $orderedProduct->id;
+
+                $orderedProductPromotion->promotion_name = $promotion['name'];
+                $orderedProductPromotion->type = $promotion['type'];
+                $orderedProductPromotion->promotion_description = $promotion['description'];
+                $orderedProductPromotion->promotion_apply_to_group = $promotion['apply_to_group'];
+                $orderedProductPromotion->promotion_starting_date = $promotion['starting_date'];
+                $orderedProductPromotion->promotion_end_date = $promotion['end_date'];
+
+                $orderedProductPromotion->save();
+
+                if ($orderedProductPromotion->type == 'buy_one_get_one_free') {
+
+                    if ($promotion['free_qty'] > 0) {
+
+                        $buy_one_get_one_free_Product = new OrderedProduct();
+
+                        $buy_one_get_one_free_Product->order_id = $order->id;
+
+                        $buy_one_get_one_free_Product->product_name = 'FREE - ' . $item['product']->product_name_index;
+                        $buy_one_get_one_free_Product->line_price = $item['original_price'];
+                        $buy_one_get_one_free_Product->line_quantity = $promotion['free_qty'];
+                        $buy_one_get_one_free_Product->discount_percentage = 100;
+                        $buy_one_get_one_free_Product->discounted_price = 0;
+                        $buy_one_get_one_free_Product->line_total = 0;
+
+                        $buy_one_get_one_free_Product->save();
+
+                        $buy_one_get_one_free_Promotion = new OrderedProducts_Promotion();
+
+                        $buy_one_get_one_free_Promotion->orderedProduct_id = $buy_one_get_one_free_Product->id;
+
+                        $buy_one_get_one_free_Promotion->promotion_name = $promotion['name'];
+                        $buy_one_get_one_free_Promotion->promotion_description = $promotion['description'];
+                        $buy_one_get_one_free_Promotion->promotion_apply_to_group = $promotion['apply_to_group'];
+                        $buy_one_get_one_free_Promotion->promotion_starting_date = $promotion['starting_date'];
+                        $buy_one_get_one_free_Promotion->promotion_end_date = $promotion['end_date'];
+
+                        $buy_one_get_one_free_Promotion->save();
+                    }
+                }
+            }
+        }
+
+        return $order;
     }
 
-    public function getSummary($user)
+    public function getSummary()
     {
         $this->getPaymentOption();
-        $this->getShippingAddress($user);
-        $this->getBillingAddress($user);
+        $this->getShippingAddress();
+        $this->getBillingAddress();
 
         // need to redesign so we read from the order table entry instead of session
     }
@@ -302,7 +431,7 @@ class ShoppingCart {
 
         if ($message == 'success') {
 
-            $this->getSummary($user);
+            $this->getSummary();
             return true;
         }
         else {
