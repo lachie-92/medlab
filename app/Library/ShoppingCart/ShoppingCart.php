@@ -110,7 +110,7 @@ class ShoppingCart {
                     'price' => $price,
                     'discount_percentage' => $discount_percentage,
                     'discount' => $discount,
-                    'total' => number_format($total, 2),
+                    'total' => $total,
                     'promotions' => $eligiblePromotions,
                 ];
             }
@@ -118,10 +118,8 @@ class ShoppingCart {
             $this->basket = $basket;
         }
 
-        $this->GST = number_format(round($this->subtotal * $this->tax, 2), 2);
-        $this->total = number_format(round($this->subtotal * ($this->tax + 1), 2) + $this->shippingCost, 2);
-        $this->subtotal = number_format($this->subtotal, 2);
-        $this->shippingCost = number_format($this->shippingCost, 2);
+        $this->GST = round($this->subtotal * $this->tax, 2);
+        $this->total = round($this->subtotal * ($this->tax + 1), 2) + $this->shippingCost;
     }
 
     private function getProductPriceBaseOnUserGroup($product)

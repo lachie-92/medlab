@@ -117,7 +117,7 @@
                                     @if ($product->line_total == 0)
                                         $0.00
                                     @else
-                                        ${{ $product->line_total }}
+                                        ${{ number_format($product->line_total, 2) }}
                                     @endif
                                 </td>
                             </tr>
@@ -128,7 +128,7 @@
                                 Total Discount
                             </th>
                             <td style="text-align: right">
-                                ${{ $order->discount }}
+                                ${{ number_format($order->discount, 2) }}
                             </td>
                         </tr>
                         <tr>
@@ -136,7 +136,7 @@
                                 Subtotal
                             </th>
                             <td style="text-align: right">
-                                ${{ $order->subtotal }}
+                                ${{ number_format($order->subtotal, 2) }}
                             </td>
                         </tr>
                         <tr>
@@ -144,7 +144,7 @@
                                 GST
                             </th>
                             <td style="text-align: right">
-                                ${{ $order->GST }}
+                                ${{ number_format($order->GST, 2) }}
                             </td>
                         </tr>
                         <tr>
@@ -152,7 +152,7 @@
                                 Shipping
                             </th>
                             <td style="text-align: right">
-                                ${{ $order->shipping_cost }}
+                                ${{ number_format($order->shipping_cost, 2) }}
                             </td>
                         </tr>
                         <tr class="success" style="font-size: 24px">
@@ -160,7 +160,7 @@
                                 Total
                             </th>
                             <td style="text-align: right">
-                                ${{ $order->grand_total }}
+                                ${{ number_format($order->grand_total, 2) }}
                             </td>
                         </tr>
                         </tbody>

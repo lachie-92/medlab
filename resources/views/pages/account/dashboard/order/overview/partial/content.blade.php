@@ -72,7 +72,7 @@
                                             {{ $order->shipping_address_title }} {{ $order->shipping_address_first_name }} {{ $order->shipping_address_last_name }}
                                         </td>
                                         <td style="text-align: center">{{ $order->purchase_date->toFormattedDateString() }}</td>
-                                        <td style="text-align: center">${{ $order->grand_total }}</td>
+                                        <td style="text-align: center">${{ number_format($order->grand_total, 2) }}</td>
                                         <td style="text-align: center">{{ $order->order_status }}</td>
                                         <td style="text-align: center">
                                             <form method="POST" action="/account/orders/details">
