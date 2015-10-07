@@ -18,7 +18,7 @@
                 <div class="list-group">
                     <a href="/account" class="list-group-item">Dashboard</a>
                     <a href="/account/edit" class="list-group-item"><strong>Edit Account Details</strong></a>
-                    <a href="/account/order" class="list-group-item">My Orders</a>
+                    <a href="/account/orders" class="list-group-item">My Orders</a>
                     <a href="/account/logout" class="list-group-item">Logout</a>
                 </div>
 

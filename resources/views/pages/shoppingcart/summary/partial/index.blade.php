@@ -23,6 +23,7 @@
 -->
 <form class="form-horizontal" role="form" method="POST" action="/shoppingcart/checkout">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
+    <input type="hidden" name="payment_token" value="{{ $order->id }}">
 
     <div class="container" style="margin-top: 30px;">
         <div class="row">

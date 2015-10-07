@@ -3,7 +3,7 @@
 @section('content')
 
 @include('pages.shoppingcart.summary.partial.breadcrumbs')
-@include('pages.shoppingcart.summary.partial.order')
+@include('pages.shoppingcart.summary.partial.index')
 
 @endsection
 

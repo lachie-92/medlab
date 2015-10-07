@@ -49,7 +49,11 @@
 
                 <a href="/shoppingcart/cart" class="medlab_navbar_login_item medlab_navbar_login_shopping">
                     <span class="glyphicon glyphicon-shopping-cart medlab_navbar_login_glyphcon" aria-hidden="true"></span>
-                    ${{ $shoppingCart->subtotal }}
+                    @if ($shoppingCart->subtotal != 0)
+                        ${{ $shoppingCart->subtotal }}
+                    @else
+                        $0.00
+                    @endif
                 </a>
             </li>
         </ul>

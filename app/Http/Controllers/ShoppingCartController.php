@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ShoppingCartPaymentOptionRequest;
-use App\Http\Requests\ShoppingCartShippingAddressUpdateRequest;
-use App\Http\Requests\ShoppingCartUpdateRequest;
+use App\Http\Requests\ShoppingCartShippingAddressRequest;
 use App\Library\ShoppingCart\ShoppingCart;
 use App\Order;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -38,8 +38,13 @@ class ShoppingCartController extends Controller
         return view('pages.shoppingcart.cart.index', compact('shoppingCart'));
     }
 
-    public function postShoppingCart(ShoppingCartUpdateRequest $request)
+    public function postShoppingCart(Request $request)
     {
+        $this->validate($request, [
+            'product_id' => 'required|exists:products,id',
+            'product_quantity' => 'required|digits_between:0,99|'
+        ]);
+
         $shoppingCart = $this->shoppingCart;
         $shoppingCart->updateBasket($request);
 
@@ -54,7 +59,7 @@ class ShoppingCartController extends Controller
         return view('pages.shoppingcart.address.index', compact('shoppingCart'));
     }
 
-    public function postShippingAddress(ShoppingCartShippingAddressUpdateRequest $request)
+    public function postShippingAddress(ShoppingCartShippingAddressRequest $request)
     {
         $shoppingCart = $this->shoppingCart;
         $shoppingCart->updateShippingAddress($request);
@@ -74,57 +79,22 @@ class ShoppingCartController extends Controller
     {
         $shoppingCart = $this->shoppingCart;
         $order = $shoppingCart->createOrder($request);
-/*
-        $shoppingCart->updatePaymentOption($request);
 
-        if($request['payment_option'] == 'visa') {
-            $shoppingCart->updateBillingAddress($request);
-        }
-
-        return redirect('/shoppingcart/summary');
-*/
         return view('pages.shoppingcart.summary.index', compact('order'));
     }
 
-    public function getSummary(Request $request)
+    public function postCheckout(Request $request)
     {
+        $this->validate($request, [
+            'payment_token' => 'required|exists:orders,id',
+        ]);
 
-        $shoppingCart = $this->shoppingCart;
-        $shoppingCart->getSummary();
+        $order = Order::findOrFail($request->payment_token);
+        $order->order_status = 'Order received';
+        $order->purchase_date = Carbon::now();
+        $order->save();
+        session()->forget('basket');
 
-        //should read from the order table instead
-
-        return view('pages.shoppingcart.summary.index', compact('shoppingCart'));
-
-
-        Order::findOrFail($request->order);
-    }
-
-    public function postSummary(Request $request)
-    {
-        $user = $this->user;
-        $shoppingCart = $this->shoppingCart;
-
-        $isSuccessful = $shoppingCart->checkout($request, $user);
-
-        if ($isSuccessful) {
-
-            $order = $shoppingCart->order;
-
-            redirect('/shoppingcart/order', compact('order'));
-        }
-        else {
-
-            $errorMessage = $shoppingCart->errorMessage;
-
-            return redirect('/shoppingcart/summary')->with('errors', $errorMessage);
-        }
-    }
-
-    public function getOrder()
-    {
-        $user = $this->user;
-
-        return view('pages.shoppingcart.order.index', compact('user'));
+        return redirect('/account/orders')->with('message', 'Your order has been received');
     }
 }

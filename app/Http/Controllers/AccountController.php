@@ -8,6 +8,7 @@ use App\Customer;
 use App\Customer_Address;
 use App\Customer_Email;
 use App\Customer_Number;
+use App\Http\Requests\OrderDetailsRequest;
 use App\Library\Traits\UsefulViewFunctions;
 use App\Http\Requests\AddressUpdateRequest;
 use App\Http\Requests\CompanyRequest;
@@ -16,6 +17,7 @@ use App\Http\Requests\EmailUpdateRequest;
 use App\Http\Requests\NewsletterUpdateRequest;
 use App\Http\Requests\PatientAccountRequest;
 use App\Http\Requests\PractitionerAccountRequest;
+use App\Order;
 use App\Patient;
 use App\Patient_Registration;
 use App\Practitioner;
@@ -45,7 +47,9 @@ class AccountController extends Controller
                 'getEdit',
                 'postEmail',
                 'postNewsletter',
-                'postAddress'
+                'postAddress',
+                'getOrdersOverview',
+                'postOrderDetails'
             ]
         ]);
 
@@ -80,16 +84,18 @@ class AccountController extends Controller
     {
         $user = $auth->user();
 
+        $orders = Order::orderBy('created_at', 'desc')->searchUserOrders()->searchProcessedOrders()->take(3)->get();
+
         switch ($user->group) {
 
             case 'Patient':
 
-                return view('pages.account.dashboard.patient.main.index', compact('user'));
+                return view('pages.account.dashboard.patient.main.index', compact('user', 'orders'));
                 break;
 
             case 'Practitioner':
 
-                return view('pages.account.dashboard.practitioner.main.index', compact('user'));
+                return view('pages.account.dashboard.practitioner.main.index', compact('user', 'orders'));
                 break;
 
             case 'Admin':
@@ -187,6 +193,20 @@ class AccountController extends Controller
         $mainMobile->save();
 
         return redirect('/account/edit')->with(['message' => 'Address has been updated']);
+    }
+
+    public function getOrdersOverview()
+    {
+        $orders = Order::orderBy('created_at', 'desc')->searchUserOrders()->searchProcessedOrders()->get();
+
+        return view('pages.account.dashboard.order.overview.index', compact('orders'));
+    }
+
+    public function postOrderDetails(OrderDetailsRequest $request)
+    {
+        $order = Order::findOrFail($request->order);
+
+        return view('pages.account.dashboard.order.details.index', compact('order'));
     }
 
     public function getShowPatientRegistrations()

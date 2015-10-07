@@ -84,7 +84,7 @@
                                                 <tr><th class="medlab_registration_form_section_subtitle">Name on the Card<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="text" class="form-control" name="credit_name" placeholder="Name" value="{{ old('credit_name') }}">
+                                                        <input type="text" class="form-control" name="credit_name" placeholder="Name" value="{{ old('credit_name') }}" disabled>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -94,7 +94,7 @@
                                                 <tr><th class="medlab_registration_form_section_subtitle">Card Number<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="text" class="form-control" name="credit_number" placeholder="Card Number" value="">
+                                                        <input type="text" class="form-control" name="credit_number" placeholder="Card Number" value="" disabled>
                                                     </td>
                                                 </tr>
                                             </table>
@@ -106,7 +106,7 @@
                                                 <tr><th class="medlab_registration_form_section_subtitle">Expiry Month<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        {!! Form::select('credit_month', $monthList, old('credit_month'), ['class' => 'form-control']) !!}
+                                                        {!! Form::select('credit_month', $monthList, old('credit_month'), ['class' => 'form-control', 'disabled']) !!}
                                                     </td>
                                                 </tr>
                                             </table>
@@ -116,7 +116,7 @@
                                                 <tr><th class="medlab_registration_form_section_subtitle">Expiry Year<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        {!! Form::select('credit_year', $yearList, old('credit_year'), ['class' => 'form-control']) !!}
+                                                        {!! Form::select('credit_year', $yearList, old('credit_year'), ['class' => 'form-control', 'disabled']) !!}
                                                     </td>
                                                 </tr>
                                             </table>
@@ -128,7 +128,7 @@
                                                 <tr><th class="medlab_registration_form_section_subtitle">Security Code<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="text" class="form-control" name="credit_security" placeholder="CVV" value="">
+                                                        <input type="text" class="form-control" name="credit_security" placeholder="CVV" value="" disabled>
                                                     </td>
                                                 </tr>
                                             </table>

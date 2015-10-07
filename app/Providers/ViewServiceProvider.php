@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Library\Traits\UsefulViewFunctions;
 use App\Library\ShoppingCart\ShoppingCart;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
 
 class ViewServiceProvider extends ServiceProvider
@@ -18,6 +19,7 @@ class ViewServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->navigationViewComposer();
+        $this->accountViewComposer();
         $this->shoppingCartViewComposer();
     }
 
@@ -35,7 +37,16 @@ class ViewServiceProvider extends ServiceProvider
     {
         view()->composer('partial.navigation', function($view) {
 
-            $view->with('shoppingCart', new ShoppingCart());
+            $repository = App::make('App\Library\Repositories\ShoppingCartRepositoryInterface');
+            $view->with('shoppingCart', new ShoppingCart($repository));
+        });
+    }
+
+    private function accountViewComposer()
+    {
+        view()->composer('pages.account.dashboard.order.details.index', function($view) {
+
+            $view->with('country', $this->createCountryList());
         });
     }
 

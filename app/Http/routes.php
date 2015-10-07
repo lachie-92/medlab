@@ -68,6 +68,10 @@ Route::post('/account/edit/newsletter', 'AccountController@postNewsletter');
 
 Route::post('/account/edit/address', 'AccountController@postAddress');
 
+Route::get('/account/orders', 'AccountController@getOrdersOverview');
+
+Route::post('/account/orders/details', 'AccountController@postOrderDetails');
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
