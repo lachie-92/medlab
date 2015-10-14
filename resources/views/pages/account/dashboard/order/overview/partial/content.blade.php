@@ -39,7 +39,7 @@
 
                     @if (session('message'))
                         <div class="container-fluid">
-                            <div class="alert alert-success">
+                            <div class="alert alert-success" style="text-align: center">
                                 {{ session('message') }}
                             </div>
                         </div>

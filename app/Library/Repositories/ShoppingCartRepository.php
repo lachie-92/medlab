@@ -49,12 +49,11 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         return $billingAddress;
     }
 
-    public function createOrder($user, $shoppingCart, $paymentOption, $token)
+    public function createOrder($user, $shoppingCart)
     {
         $order = new Order();
 
         $order->user_id = $user->id;
-        $order->payment_type = $paymentOption;
         $order->order_status = 'New order';
         $order->subtotal = $shoppingCart->subtotal;
         $order->GST = $shoppingCart->GST;
@@ -62,7 +61,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $order->discount = $shoppingCart->discount;
         $order->grand_total = $shoppingCart->total;
 
-        $shoppingCart->getShippingAddress();
         $order->shipping_address_title = $shoppingCart->shippingAddress['title'];
         $order->shipping_address_first_name = $shoppingCart->shippingAddress['first_name'];
         $order->shipping_address_last_name = $shoppingCart->shippingAddress['last_name'];
@@ -74,7 +72,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $order->shipping_address_country = $shoppingCart->shippingAddress['country'];
         $order->shipping_address_phone = $shoppingCart->shippingAddress['phone'];
 
-        $shoppingCart->getBillingAddress();
         $order->billing_address_title = $shoppingCart->billingAddress['title'];
         $order->billing_address_first_name = $shoppingCart->billingAddress['first_name'];
         $order->billing_address_last_name = $shoppingCart->billingAddress['last_name'];

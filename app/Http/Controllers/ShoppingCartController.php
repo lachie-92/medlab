@@ -2,11 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ShoppingCartPaymentOptionRequest;
-use App\Http\Requests\ShoppingCartShippingAddressRequest;
+use App\Http\Requests\ShoppingCartAddressRequest;
+use App\Http\Requests\ShoppingCartCheckoutRequest;
+use App\Library\Billing\BillingInterface;
 use App\Library\ShoppingCart\ShoppingCart;
-use App\Order;
-use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -35,7 +34,7 @@ class ShoppingCartController extends Controller
     {
         $shoppingCart = $this->shoppingCart;
 
-        return view('pages.shoppingcart.cart.index', compact('shoppingCart'));
+        return view('pages.shoppingcart.cart.index', compact('shoppingCart', 'clientToken'));
     }
 
     public function postShoppingCart(Request $request)
@@ -51,50 +50,60 @@ class ShoppingCartController extends Controller
         return redirect('/shoppingcart/cart');
     }
 
-    public function getShippingAddress()
+    public function getAddress()
     {
         $shoppingCart = $this->shoppingCart;
         $shoppingCart->getShippingAddress();
+        $shoppingCart->getBillingAddress();
 
         return view('pages.shoppingcart.address.index', compact('shoppingCart'));
     }
 
-    public function postShippingAddress(ShoppingCartShippingAddressRequest $request)
+    public function postAddress(ShoppingCartAddressRequest $request)
     {
         $shoppingCart = $this->shoppingCart;
         $shoppingCart->updateShippingAddress($request);
+        $shoppingCart->updateBillingAddress($request);
+        $order = $shoppingCart->createOrder();
+        session()->put('new_order', $order);
 
-        return redirect('/shoppingcart/payment');
+        return redirect('/shoppingcart/summary');
     }
 
-    public function getPayment()
+    public function getSummary(BillingInterface $billing)
     {
-        $shoppingCart = $this->shoppingCart;
-        $shoppingCart->getBillingAddress();
+        if (!session()->has('new_order')) {
 
-        return view('pages.shoppingcart.payment.index', compact('shoppingCart'));
+            return redirect('/shoppingcart/cart');
+        }
+
+        $order = session()->get('new_order');
+        $clientToken = $billing->getClientToken();
+
+        return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
     }
 
-    public function postPayment(ShoppingCartPaymentOptionRequest $request)
+    public function postCheckout(ShoppingCartCheckoutRequest $request, BillingInterface $billing)
     {
-        $shoppingCart = $this->shoppingCart;
-        $order = $shoppingCart->createOrder($request);
+        $result = $billing->processOrder($request);
 
-        return view('pages.shoppingcart.summary.index', compact('order'));
-    }
+        if ($result->success) {
 
-    public function postCheckout(Request $request)
-    {
-        $this->validate($request, [
-            'payment_token' => 'required|exists:orders,id',
-        ]);
+            session()->forget('basket');
+            session()->forget('new_order');
+            return redirect('/account/orders')->with('message',
+                'Thank You. Your order is currently being processed and you should receive a confirmation soon.'
+            );
+        }
+        else {
 
-        $order = Order::findOrFail($request->payment_token);
-        $order->order_status = 'Order received';
-        $order->purchase_date = Carbon::now();
-        $order->save();
-        session()->forget('basket');
+            $errors = [];
 
-        return redirect('/account/orders')->with('message', 'Your order has been received');
+            foreach ($result->errors->deepAll() as $error) {
+                $errors[] = $error->message;
+            }
+
+            return redirect('/shoppingcart/summary')->with('errors', collect($errors));
+        }
     }
 }

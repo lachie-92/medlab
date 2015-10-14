@@ -189,21 +189,28 @@ class ShoppingCart {
     public function updateShippingAddress($request)
     {
         $update = $request->only([
-            'title',
-            'first_name',
-            'last_name',
-            'street_address_one',
-            'street_address_two',
-            'city',
-            'state',
-            'country',
-            'postcode',
-            'phone'
+            'shipping_title',
+            'shipping_first_name',
+            'shipping_last_name',
+            'shipping_street_address_one',
+            'shipping_street_address_two',
+            'shipping_city',
+            'shipping_state',
+            'shipping_country',
+            'shipping_postcode',
+            'shipping_phone'
         ]);
 
-        $shippingAddress = $update;
-        $shippingAddress['street'] = $update['street_address_one'];
-        $shippingAddress['suburb'] = $update['street_address_two'];
+        $shippingAddress['title'] = $update['shipping_title'];
+        $shippingAddress['first_name'] = $update['shipping_first_name'];
+        $shippingAddress['last_name'] = $update['shipping_last_name'];
+        $shippingAddress['street'] = $update['shipping_street_address_one'];
+        $shippingAddress['suburb'] = $update['shipping_street_address_two'];
+        $shippingAddress['city'] = $update['shipping_city'];
+        $shippingAddress['state'] = $update['shipping_state'];
+        $shippingAddress['country'] = $update['shipping_country'];
+        $shippingAddress['postcode'] = $update['shipping_postcode'];
+        $shippingAddress['phone'] = $update['shipping_phone'];
 
         $this->shippingAddress = $shippingAddress;
         session()->put('shippingAddress', $this->shippingAddress);
@@ -219,39 +226,38 @@ class ShoppingCart {
     public function updateBillingAddress($request)
     {
         $update = $request->only([
-            'title',
-            'first_name',
-            'last_name',
-            'street_address_one',
-            'street_address_two',
-            'city',
-            'state',
-            'country',
-            'postcode',
+            'billing_title',
+            'billing_first_name',
+            'billing_last_name',
+            'billing_street_address_one',
+            'billing_street_address_two',
+            'billing_city',
+            'billing_state',
+            'billing_country',
+            'billing_postcode',
         ]);
 
-        $billingAddress = $update;
-        $billingAddress['street'] = $update['street_address_one'];
-        $billingAddress['suburb'] = $update['street_address_two'];
+        $billingAddress['title'] = $update['billing_title'];
+        $billingAddress['first_name'] = $update['billing_first_name'];
+        $billingAddress['last_name'] = $update['billing_last_name'];
+        $billingAddress['street'] = $update['billing_street_address_one'];
+        $billingAddress['suburb'] = $update['billing_street_address_two'];
+        $billingAddress['city'] = $update['billing_city'];
+        $billingAddress['state'] = $update['billing_state'];
+        $billingAddress['country'] = $update['billing_country'];
+        $billingAddress['postcode'] = $update['billing_postcode'];
 
         $this->billingAddress = $billingAddress;
         session()->put('billingAddress', $this->billingAddress);
     }
 
-    public function createOrder($request)
+    public function createOrder()
     {
-        $update = $request->only([
-            'payment_option',
-            'token'
-        ]);
-
         $shoppingCart = $this;
 
         $order = $this->repository->createOrder(
             $this->user,
-            $shoppingCart,
-            $update['payment_option'],
-            $update['token']
+            $shoppingCart
         );
 
         foreach ($this->basket as $product) {
@@ -269,35 +275,5 @@ class ShoppingCart {
         }
 
         return $order;
-    }
-
-
-    public function checkout($request, $user)
-    {
-        // need to redesign so we execute checkout from the entry inside order table
-        // need to write a crontab so abandoned orders are deleted from database after an hour
-        // need to setup middle ware so only the owner of the order can checkout his order
-        // and ensure the order that has been checked out cannot be checkout again
-
-        $orderInfo = $request->only('order_number', 'token');
-        $paymentToken = $orderInfo['token'];
-
-        $message = $this->validatePaymentToken($paymentToken);
-
-        if ($message == 'success') {
-
-            $this->getSummary();
-            return true;
-        }
-        else {
-
-            $this->errorMessage = $message;
-            return false;
-        }
-    }
-
-    private function validatePaymentToken($paymentToken)
-    {
-        return 'success';
     }
 }

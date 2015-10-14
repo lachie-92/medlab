@@ -8,7 +8,7 @@ class ShoppingCartValidator
 {
     public function validPaymentOption($attribute, $value, $parameters)
     {
-        $paymentOption = ['payal', 'visa'];
+        $paymentOption = ['CreditCard', 'PayPalAccount'];
 
         return in_array($value, $paymentOption);
     }

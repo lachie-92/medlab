@@ -42,6 +42,7 @@ class ShoppingCartPaymentOptionRequest extends Request
                 'state' => 'required|validState|max:30',
                 'country' => 'required|validCountry|max:2',
                 'postcode' => 'required|digits:4',
+                'stripeToken' => 'required|max:30'
             ];
 
             $rule = array_merge($rule, $addition);

@@ -21,9 +21,9 @@
 <!--
 -- Process Order Box
 -->
-<form class="form-horizontal" role="form" method="POST" action="/shoppingcart/checkout">
+<form id="payment-form" class="form-horizontal" role="form" method="POST" action="/shoppingcart/checkout">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
-    <input type="hidden" name="payment_token" value="{{ $order->id }}">
+    <input type="hidden" name="order" value="{{ $order->id }}">
 
     <div class="container" style="margin-top: 30px;">
         <div class="row">
@@ -39,7 +39,7 @@
                             <li class="list-group-item list-group-item-info">
                                 My Delivery Address
                             </li>
-                            <li class="list-group-item" style="background-color: transparent;">
+                            <li class="list-group-item">
                                 {{ $order->shipping_address_title }}
                                 {{ $order->shipping_address_first_name }}
                                 {{ $order->shipping_address_last_name }} <br>
@@ -54,7 +54,7 @@
                             <li class="list-group-item list-group-item-info">
                                 My Billing Address
                             </li>
-                            <li class="list-group-item" style="background-color: transparent;">
+                            <li class="list-group-item">
                                 {{ $order->billing_address_title }}
                                 {{ $order->billing_address_first_name }}
                                 {{ $order->billing_address_last_name }} <br>
@@ -66,13 +66,23 @@
 
                         <ul class="list-group">
                             <li class="list-group-item list-group-item-info">
-                                My Payment Detail
+                                Payment Option
                             </li>
-                            <li class="list-group-item" style="background-color: transparent;">
-                                Payment Type: {{ $order->payment_type }} <br>
-                                Card Number: <br>
-                                Name on Card: <br>
-                                Expiry Date: <br>
+                            <li class="list-group-item">
+                                <div class="alert alert-info">
+                                    This is a Test System. Please don't use real credit card or Paypal account.
+                                    Use these test value instead:
+                                    <br>
+                                    <br>
+                                    <ul style="list-style-type: none;">
+                                        <li>American Express: 378282246310005</li>
+                                        <li>Visa: 4111111111111111</li>
+                                        <li>Mastercard: 5555555555554444</li>
+                                        <li>Paypal: Any valid email address and password</li>
+                                    </ul>
+                                    <br>
+                                </div>
+                                <div id="braintree-container"></div>
                             </li>
                         </ul>
 
@@ -167,7 +177,6 @@
                     </table>
                 </div>
 
-
             </div>
 
         </div>
@@ -177,12 +186,12 @@
         -->
         <div class="row">
             <div class="pull-left">
-                <a href="/shoppingcart/payment">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back to Payment Option
+                <a href="/shoppingcart/address">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> Back to Address
                 </a>
             </div>
             <div class="pull-right">
-                <button class="btn btn-success" type="submit">
+                <button id="button_payment" class="btn btn-success" type="submit">
                     Pay Now <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 </button>
             </div>
@@ -190,3 +199,4 @@
 
     </div>
 </form>
+

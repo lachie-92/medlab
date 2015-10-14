@@ -40,7 +40,6 @@ class CreateOrdersTable extends Migration
             $table->string('billing_address_country');
 
             $table->string('payment_type');
-            $table->string('payment_token');
 
             $table->string('order_status');
             $table->double('subtotal');

@@ -21,7 +21,7 @@
 <!--
 -- Process Order Box
 -->
-<form class="form-horizontal" role="form" method="POST" action="/shoppingcart/payment">
+<form id="payment-form" class="form-horizontal" role="form" method="POST" action="/shoppingcart/payment">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
     <div class="container" style="margin-top: 30px;">
@@ -77,24 +77,25 @@
                                 -- Credit Card Box
                                 -->
                                 <div class="row">
+                                    <div id="payment_error_box" class="alert alert-danger" ></div>
                                     <h4 class="medlab_registration_form_section_title">Enter your Payment Detail</h4>
                                     <div class="row">
-                                        <div class="col-md-6 col-sm-6">
-                                            <table style="width:100%;">
-                                                <tr><th class="medlab_registration_form_section_subtitle">Name on the Card<span style="color: red;">*</span></th></tr>
-                                                <tr>
-                                                    <td>
-                                                        <input type="text" class="form-control" name="credit_name" placeholder="Name" value="{{ old('credit_name') }}" disabled>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
                                         <div class="col-md-6 col-sm-6">
                                             <table style="width:100%;">
                                                 <tr><th class="medlab_registration_form_section_subtitle">Card Number<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        <input type="text" class="form-control" name="credit_number" placeholder="Card Number" value="" disabled>
+                                                        <input type="text" class="form-control" size="20" maxlength="20" data-stripe="number" placeholder="Card Number" value="4242424242424242">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <table style="width:25%;">
+                                                <tr><th class="medlab_registration_form_section_subtitle">Security Code<span style="color: red;">*</span></th></tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="text" class="form-control" size="4" maxlength="4" data-stripe="cvc" placeholder="CVC" value="123">
                                                     </td>
                                                 </tr>
                                             </table>
@@ -106,7 +107,7 @@
                                                 <tr><th class="medlab_registration_form_section_subtitle">Expiry Month<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        {!! Form::select('credit_month', $monthList, old('credit_month'), ['class' => 'form-control', 'disabled']) !!}
+                                                        {!! Form::select(null, $monthList, null, ['class' => 'form-control', 'data-stripe' => 'exp-month']) !!}
                                                     </td>
                                                 </tr>
                                             </table>
@@ -116,19 +117,7 @@
                                                 <tr><th class="medlab_registration_form_section_subtitle">Expiry Year<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        {!! Form::select('credit_year', $yearList, old('credit_year'), ['class' => 'form-control', 'disabled']) !!}
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-sm-6">
-                                            <table style="width:25%;">
-                                                <tr><th class="medlab_registration_form_section_subtitle">Security Code<span style="color: red;">*</span></th></tr>
-                                                <tr>
-                                                    <td>
-                                                        <input type="text" class="form-control" name="credit_security" placeholder="CVV" value="" disabled>
+                                                        {!! Form::select(null, $yearList, null, ['class' => 'form-control', 'data-stripe' => 'exp-year']) !!}
                                                     </td>
                                                 </tr>
                                             </table>
@@ -248,7 +237,7 @@
                 </a>
             </div>
             <div class="pull-right">
-                <button class="btn btn-success" type="submit">
+                <button id="button_payment" class="btn btn-success" type="submit">
                     Proceed to the Summary page<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 </button>
             </div>

@@ -28,5 +28,10 @@ class AppServiceProvider extends ServiceProvider
             'App\Library\Repositories\ShoppingCartRepositoryInterface',
             'App\Library\Repositories\ShoppingCartRepository'
         );
+
+        $this->app->bind(
+            'App\Library\Billing\BillingInterface',
+            'App\Library\Billing\BraintreeBilling'
+        );
     }
 }
