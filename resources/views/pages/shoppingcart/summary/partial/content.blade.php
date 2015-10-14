@@ -71,7 +71,7 @@
                             <li class="list-group-item">
                                 <div class="alert alert-info">
                                     This is a Test System. Please don't use real credit card or Paypal account.
-                                    Use these test value instead:
+                                    Use these test values instead:
                                     <br>
                                     <br>
                                     <ul style="list-style-type: none;">
