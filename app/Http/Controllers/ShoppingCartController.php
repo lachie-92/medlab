@@ -6,10 +6,12 @@ use App\Http\Requests\ShoppingCartAddressRequest;
 use App\Http\Requests\ShoppingCartCheckoutRequest;
 use App\Library\Billing\BillingInterface;
 use App\Library\ShoppingCart\ShoppingCart;
+use App\Order;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Mail;
 
 class ShoppingCartController extends Controller
 {
@@ -91,9 +93,20 @@ class ShoppingCartController extends Controller
 
             session()->forget('basket');
             session()->forget('new_order');
-            return redirect('/account/orders')->with('message',
-                'Thank You. Your order is currently being processed and you should receive a confirmation soon.'
-            );
+
+            $order = Order::findOrFail($request['order']);
+
+            $data = array();
+            $data['order'] = serialize($order);
+
+            Mail::queue('emails.new_order_received', $data, function($message) use ($order) {
+
+                $message->from('order_temp_email@medlab.co')
+                    ->to('13533test@gmail.com')
+                    ->subject('Medlab - A New Order has been received');
+            });
+
+            return view('pages.shoppingcart.order.index', compact('order'));
         }
         else {
 

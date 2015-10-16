@@ -28,7 +28,7 @@ class UserTableSeeder extends Seeder
         ]);
 
         User::create([
-            'email' => 'admin@testemail.com',
+            'email' => '13533test@gmail.com',
             'password' => bcrypt('admin2d42#4baeo43@'),
             'group' => 'Admin',
             'customer_id' => $admin->id
@@ -41,7 +41,7 @@ class UserTableSeeder extends Seeder
                 'name' => 'patient test',
                 'first_name' => 'patient',
                 'last_name' => 'test',
-                'email' => 'patient@testemail.com',
+                'email' => 'patientemailtest321@gmail.com',
                 'password' => 'testtest',
                 'newsletter_subscription' => false,
                 'approval_status' => 'approved',
@@ -74,7 +74,7 @@ class UserTableSeeder extends Seeder
                 'practitioner_license' => '01234',
                 'first_name' => 'practitioner',
                 'last_name' => 'test',
-                'email' => 'practitioner@testemail.com',
+                'email' => 'practitioneremailtest321@gmail.com',
                 'password' => 'testtest',
                 'newsletter_subscription' => false,
                 'approval_status' => 'approved',

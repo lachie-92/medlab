@@ -19,6 +19,26 @@ class Order extends Model
         $query->where('order_status', '!=', 'New order');
     }
 
+    public function scopeSearchCanceledOrders($query)
+    {
+        $query->where('order_status', '=', 'Order Canceled');
+    }
+
+    public function scopeSearchDispatchedOrders($query)
+    {
+        $query->where('order_status', '=', 'Order Dispatched');
+    }
+
+    public function scopeSearchOnHoldOrders($query)
+    {
+        $query->where('order_status', '=', 'Order On-hold');
+    }
+
+    public function scopeSearchReceivedOrders($query)
+    {
+        $query->where('order_status', '=', 'Order Received');
+    }
+
     public function orderedProducts()
     {
         return $this->hasMany('App\OrderedProduct');

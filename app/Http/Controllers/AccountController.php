@@ -9,6 +9,7 @@ use App\Customer_Address;
 use App\Customer_Email;
 use App\Customer_Number;
 use App\Http\Requests\OrderDetailsRequest;
+use App\Http\Requests\OrderStatusUpdateRequest;
 use App\Library\Traits\UsefulViewFunctions;
 use App\Http\Requests\AddressUpdateRequest;
 use App\Http\Requests\CompanyRequest;
@@ -29,6 +30,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use Mail;
 
 class AccountController extends Controller
@@ -217,9 +219,12 @@ class AccountController extends Controller
 
         $practitionerRegistrationList = Practitioner_Registration::whereNull('approval')->get();
 
+        $newOrderList = Order::orderBy('created_at', 'desc')->searchReceivedOrders()->get();
+
         return view('pages.account.dashboard.admin.patientregistration.main.index', compact(
             'user', 'patientRegistrationList', 'practitionerRegistrationList',
-            'patientRegistrationApprovedList', 'patientRegistrationDeletedList'
+            'patientRegistrationApprovedList', 'patientRegistrationDeletedList',
+            'newOrderList'
         ));
     }
 
@@ -382,10 +387,12 @@ class AccountController extends Controller
 
         $patientRegistrationList = Patient_Registration::whereNull('approval')->get();
 
+        $newOrderList = Order::orderBy('created_at', 'desc')->searchReceivedOrders()->get();
 
         return view('pages.account.dashboard.admin.practitionerregistration.main.index', compact(
             'user', 'patientRegistrationList', 'practitionerRegistrationList',
-            'practitionerRegistrationApprovedList', 'practitionerRegistrationDeletedList'
+            'practitionerRegistrationApprovedList', 'practitionerRegistrationDeletedList',
+            'newOrderList'
         ));
     }
 
@@ -711,5 +718,124 @@ class AccountController extends Controller
         }
 
         return redirect('/account/practitioner-registration')->with(['message' => 'Cannot Restore the Deleted Registration']);
+    }
+
+    public function getAdminShowOrders($display)
+    {
+        switch ($display) {
+
+            case 'OrderReceived':
+
+                $display = 'received';
+                break;
+
+            case 'OrderCanceled':
+
+                $display = 'canceled';
+                break;
+
+            case 'OrderDispatched':
+
+                $display = 'dispatched';
+                break;
+
+            case 'OrderOnHold':
+
+                $display = 'on-hold';
+                break;
+
+            default:
+
+                $display = 'received';
+        }
+
+        $practitionerRegistrationList = Practitioner_Registration::whereNull('approval')->get();
+        $patientRegistrationList = Patient_Registration::whereNull('approval')->get();
+        $newOrderList = Order::orderBy('created_at', 'desc')->searchReceivedOrders()->get();
+
+        $orderReceived = Order::orderBy('created_at', 'desc')->searchReceivedOrders()->paginate(5, ['*'], 'received');
+        $orderReceived->setPath('/account/admin-orders/OrderReceived');
+
+        $orderCanceled = Order::orderBy('created_at', 'desc')->searchCanceledOrders()->paginate(5, ['*'], 'canceled');
+        $orderCanceled->setPath('/account/admin-orders/OrderCanceled');
+
+        $orderDispatched = Order::orderBy('created_at', 'desc')->searchDispatchedOrders()->paginate(5, ['*'], 'dispatched');
+        $orderDispatched->setPath('/account/admin-orders/OrderDispatched');
+
+        $orderOnHold = Order::orderBy('created_at', 'desc')->searchOnHoldOrders()->paginate(5, ['*'], 'on-hold');
+        $orderOnHold->setPath('/account/admin-orders/OrderOnHold');
+
+        $orderCollection['received'] = $orderReceived;
+        $orderCollection['canceled'] = $orderCanceled;
+        $orderCollection['dispatched'] = $orderDispatched;
+        $orderCollection['on-hold'] = $orderOnHold;
+
+
+        $orderStatusList = [
+            'Order Received' => 'Order Received',
+            'Order Canceled' => 'Order Canceled',
+            'Order Dispatched' => 'Order Dispatched',
+            'Order On-hold' => 'Order On-hold',
+        ];
+
+        return view('pages.account.dashboard.admin.order.main.index', compact(
+            'patientRegistrationList', 'practitionerRegistrationList', 'newOrderList',
+            'orderCollection', 'display', 'orderStatusList'
+        ));
+    }
+
+    public function postAdminOrderDetails(OrderDetailsRequest $request)
+    {
+        $practitionerRegistrationList = Practitioner_Registration::whereNull('approval')->get();
+        $patientRegistrationList = Patient_Registration::whereNull('approval')->get();
+        $newOrderList = Order::orderBy('created_at', 'desc')->searchReceivedOrders()->get();
+
+        $order = Order::findOrFail($request->order);
+
+        return view('pages.account.dashboard.admin.order.details.index', compact(
+            'order', 'patientRegistrationList', 'practitionerRegistrationList', 'newOrderList',
+            'orderCollection'
+        ));
+    }
+
+    public function postAdminOrderUpdate(OrderStatusUpdateRequest $request)
+    {
+        $orderId = $request['order'];
+        $orderStaus = $request['order_status'];
+
+        $order = Order::findOrFail($request->order);
+        $order->order_status = $orderStaus;
+        $order->save();
+
+        $message = 'Order No. ' . $order->id . ' status updated to ' . $order->order_status;
+
+        switch ($orderStaus) {
+
+            case 'Order Received':
+
+                return redirect('/account/admin-orders/OrderReceived')->with('message', $message);
+                break;
+
+            case 'Order Canceled':
+
+                return redirect('/account/admin-orders/OrderCanceled')->with('message', $message);
+                break;
+
+            case 'Order Dispatched':
+
+                return redirect('/account/admin-orders/OrderDispatched')->with('message', $message);
+                break;
+
+            case 'Order On-hold':
+
+                return redirect('/account/admin-orders/OrderOnHold')->with('message', $message);
+                break;
+
+            default:
+
+                return redirect('/account/admin-orders/OrderReceived')->with('message', $message);
+        }
+
+
     }
 }

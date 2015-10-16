@@ -251,6 +251,13 @@ class LoginController extends Controller
                 ->subject('Medlab -  Your Registration has been received');
         });
 
+        Mail::queue('emails.new_registration_received', compact('registration'), function($message) use ($registration) {
+
+            $message->from('registration_temp_email@medlab.co')
+                ->to('13533test@gmail.com')
+                ->subject('Medlab - A New Registration has been received');
+        });
+
         return view('pages.account.register.approval.index');
     }
 

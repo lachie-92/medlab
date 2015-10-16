@@ -1,6 +1,6 @@
 <!-----------------------------------------------------------------------------------
 --
--- View Single Order Details
+-- Admin Order
 --
 ------------------------------------------------------------------------------------->
 
@@ -12,13 +12,33 @@
         <div class="col-md-3 col-sm-3 col-xm-12">
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    My Account
+                    Administrator
                 </div>
 
                 <div class="list-group">
-                    <a href="/account" class="list-group-item">Dashboard</a>
-                    <a href="/account/edit" class="list-group-item">Edit Account Details</a>
-                    <a href="/account/orders" class="list-group-item"><strong>My Orders</strong></a>
+                    <a href="/account/patient-registration" class="list-group-item">
+                        @if (count($patientRegistrationList))
+                            Patient Registration ({{ count($patientRegistrationList) }})
+                        @else
+                            Patient Registration
+                        @endif
+                    </a>
+                    <a href="/account/practitioner-registration" class="list-group-item">
+                        @if (count($practitionerRegistrationList))
+                            Practitioner Registration ({{ count($practitionerRegistrationList) }})
+                        @else
+                            Practitioner Registration
+                        @endif
+                    </a>
+                    <a href="/account/admin-orders" class="list-group-item">
+                        <strong>
+                            @if (count($newOrderList))
+                                Order Management ({{ count($newOrderList) }})
+                            @else
+                                Order Management
+                            @endif
+                        </strong>
+                    </a>
                     <a href="/account/logout" class="list-group-item">Logout</a>
                 </div>
 
@@ -47,11 +67,11 @@
                                     Order Information
                                 </li>
                                 <li class="list-group-item" style="background-color: transparent;">
+                                    User: {{ $order->user->customer->title }} {{ $order->user->customer->first_name }} {{ $order->user->customer->last_name }} <br>
                                     Order No.: {{ $order->id }} <br>
                                     Order Status: {{ $order->order_status }} <br>
                                     Payment Type: {{ $order->payment_type }} <br>
                                     Purchase Date: {{ $order->purchase_date->toFormattedDateString() }} <br>
-                                    &nbsp; <br>
                                 </li>
                             </ul>
                         </div>
@@ -174,7 +194,7 @@
                                     </tbody>
                                 </table>
                                 <p style="text-align: center">
-                                    <a class="btn btn-default" href="/account/orders">Back to My Orders</a>
+                                    <a class="btn btn-default" href="/account/admin-orders">Back to Manage Orders</a>
                                 </p>
                             </div>
                         </div>
@@ -182,6 +202,7 @@
 
                 </div>
             </div>
+
         </div>
     </div>
 </div>

@@ -107,7 +107,15 @@ Route::post('/account/practitioner-registration/{practitionerRegistrationId}/res
 
 Route::post('/account/practitioner-registration/{practitionerRegistrationId}/create', 'AccountController@postCreatePractitionerAccount');
 
+Route::get('/account/admin-orders', function() {
+    return redirect('/account/admin-orders/OrderReceived');
+});
 
+Route::get('/account/admin-orders/{display}', 'AccountController@getAdminShowOrders');
+
+Route::post('/account/admin-orders/details', 'AccountController@postAdminOrderDetails');
+
+Route::post('/account/admin-orders/update', 'AccountController@postAdminOrderUpdate');
 
 
 ///////////////////////////////////////////////////////////////////////////////////

@@ -32,6 +32,9 @@ class ValidatorServiceProvider extends ServiceProvider
 
         Validator::extend('validPaymentOption', 'App\Library\Validators\ShoppingCartValidator@validPaymentOption');
         Validator::replacer('validPaymentOption', 'App\Library\Validators\ShoppingCartValidator@validPaymentOptionError');
+
+        Validator::extend('ValidOrderStatus', 'App\Library\Validators\OrderValidator@validOrderStatus');
+        Validator::replacer('ValidOrderStatus', 'App\Library\Validators\OrderValidator@validOrderStatusError');
     }
 
     /**

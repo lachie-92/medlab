@@ -51,6 +51,9 @@ class CreateOrdersTable extends Migration
             $table->timestamp('purchase_date');
             $table->timestamps();
         });
+
+        $statement = "ALTER TABLE orders AUTO_INCREMENT = 1000;";
+        DB::unprepared($statement);
     }
 
     /**

@@ -3,10 +3,9 @@
 namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
-use App\Order;
 use Illuminate\Support\Facades\Auth;
 
-class OrderDetailsRequest extends Request
+class OrderStatusUpdateRequest extends Request
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -15,14 +14,9 @@ class OrderDetailsRequest extends Request
      */
     public function authorize()
     {
-        $order = Order::find(Request::get('order'));
         $user = Auth::user();
 
         if($user != null && $user->group == 'Admin') {
-            return true;
-        }
-
-        if($order->user_id == $user->id) {
             return true;
         }
 
@@ -46,6 +40,7 @@ class OrderDetailsRequest extends Request
     {
         return [
             'order' => 'required|integer|exists:orders,id',
+            'order_status' => 'required|ValidOrderStatus|max:20'
         ];
     }
 }

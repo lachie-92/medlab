@@ -21,6 +21,7 @@ class ViewServiceProvider extends ServiceProvider
         $this->navigationViewComposer();
         $this->accountViewComposer();
         $this->shoppingCartViewComposer();
+        $this->adminViewCompoesr();
     }
 
     /**
@@ -71,6 +72,24 @@ class ViewServiceProvider extends ServiceProvider
         });
 
         view()->composer('pages.shoppingcart.summary.index', function($view) {
+
+            $view->with('country', $this->createCountryList());
+        });
+
+        view()->composer('pages.shoppingcart.order.index', function($view) {
+
+            $view->with('country', $this->createCountryList());
+        });
+
+        view()->composer('emails.new_order_received', function($view) {
+
+            $view->with('country', $this->createCountryList());
+        });
+    }
+
+    private function adminViewCompoesr()
+    {
+        view()->composer('pages.account.dashboard.admin.order.details.index', function($view) {
 
             $view->with('country', $this->createCountryList());
         });

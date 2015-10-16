@@ -22,6 +22,9 @@ class CreateInvoicesTable extends Migration
 
             $table->timestamps();
         });
+
+        $statement = "ALTER TABLE invoices AUTO_INCREMENT = 1000;";
+        DB::unprepared($statement);
     }
 
     /**

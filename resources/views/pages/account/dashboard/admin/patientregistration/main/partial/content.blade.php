@@ -32,6 +32,13 @@
                             Practitioner Registration
                         @endif
                     </a>
+                    <a href="/account/admin-orders" class="list-group-item">
+                        @if (count($newOrderList))
+                            Order Management ({{ count($newOrderList) }})
+                        @else
+                            Order Management
+                        @endif
+                    </a>
                     <a href="/account/logout" class="list-group-item">Logout</a>
                 </div>
 

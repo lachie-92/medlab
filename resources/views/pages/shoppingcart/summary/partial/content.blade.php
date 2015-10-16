@@ -46,7 +46,7 @@
                                 {{ $order->shipping_address_street }} <br>
                                 {{ $order->shipping_address_suburb }} {{ $order->shipping_address_state }} {{ $order->shipping_address_postcode }} <br>
                                 {{ $order->shipping_address_city }} {{ $country[$order->shipping_address_country] }} <br>
-                                {{ $order->shipping_address_phone }}
+                                Phone: {{ $order->shipping_address_phone }}
                             </li>
                         </ul>
 
