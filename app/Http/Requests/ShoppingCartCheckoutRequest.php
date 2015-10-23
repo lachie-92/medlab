@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
+use App\Order;
 use Illuminate\Support\Facades\Auth;
 
 class ShoppingCartCheckoutRequest extends Request
@@ -14,12 +15,13 @@ class ShoppingCartCheckoutRequest extends Request
      */
     public function authorize()
     {
-        $user = Auth::user();
-        $orderId = Request::get('order');
-        $order = $user->orders()->where('id', $orderId)->first();
+        $order = Order::find(Request::get('order'));
 
-        if ($order != null && $order->order_status == 'New order') {
-            return true;
+        if ($order != null && $order->user_id == Auth::user()->id) {
+
+            if ($order->order_status == 'New order') {
+                return true;
+            }
         }
 
         return false;

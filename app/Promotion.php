@@ -8,6 +8,9 @@ class Promotion extends Model
 {
     protected $dates = ['starting_date', 'end_date'];
 
+    //
+    // Model Relationships
+    //
     public function product()
     {
         return $this->belongsTo('App\Product');

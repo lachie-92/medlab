@@ -7,9 +7,13 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Company_Number extends Model
 {
-    protected $table='company_numbers';
     use SoftDeletes;
 
+    protected $table='company_numbers';
+
+    //
+    // Model Relationships
+    //
     public function company()
     {
         return $this->belongsTo('App\Company');

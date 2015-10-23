@@ -28,37 +28,37 @@
   font-family: "PT Sans Narrow";
   font-style: normal;
   font-weight: 400;
-  src: local("PT Sans Narrow"), local("PTSans-Narrow"), url("https://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4UU-p1xzoRgkupcXIqgYFBc.woff2") format("woff2"), url("https://fonts.gstatic.com/s/ptsansnarrow/v7/UyYrYy3ltEffJV9QueSi4RdbPw3QSf9R-kE0EsQUn2A.woff") format("woff"); }
+  src: url("/fonts/PTSans-Narrow.woff2"); }
 
 @font-face {
   font-family: "PT Sans Bold";
   font-style: normal;
   font-weight: 700;
-  src: local("PT Sans Bold"), local("PTSans-Bold"), url("https://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNPk_vArhqVIZ0nv9q090hN8.woff2") format("woff2"), url("https://fonts.gstatic.com/s/ptsans/v8/0XxGQsSc1g4rdRdjJKZrNBsxEYwM7FgeyaSgU71cLG0.woff") format("woff"); }
+  src: url("/fonts/PTSans-Bold.woff2"); }
 
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: local("PT Sans"), local("PTSans-Regular"), url("https://fonts.gstatic.com/s/ptsans/v8/ATKpv8nLYAKUYexo8iqqrg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/ptsans/v8/LKf8nhXsWg5ybwEGXk8UBQ.woff") format("woff"); }
+  src: url("/fonts/PTSans-Regular.woff2"); }
 
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url("https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2") format("woff2"), url("http://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff") format("woff"); }
+  src: url("/fonts/OpenSans.woff2"); }
 
 @font-face {
   font-family: "Open Sans Bold";
   font-style: normal;
   font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff") format("woff"); }
+  src: url("/fonts/OpenSans-Bold.woff2"); }
 
 @font-face {
   font-family: "Open Sans Condensed";
   font-style: normal;
   font-weight: 700;
-  src: local("Open Sans Condensed Bold"), local("OpenSans-CondensedBold"), url("https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xIF8zhZCJ7x9Pr62cRgaVUA.woff2") format("woff2"), url("https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff") format("woff"); }
+  src: url("/fonts/OpenSans-CondensedBold.woff2"); }
 
 body {
   background-color: #F2F3F9; }

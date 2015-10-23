@@ -6,25 +6,9 @@ class Practitioner extends Model {
 
     protected $table='practitioners';
 
-    public function patients()
-    {
-        return $this->hasMany('App\Patient');
-    }
-
-    public function user()
-    {
-        return $this->belongsTo('App\User');
-    }
-
-    public function company()
-    {
-        return $this->belongsTo('App\Company');
-    }
-
-    /**
-     *  Query Scopes
-     */
-
+    //
+    // Query Scope
+    //
     public function scopeFilterCountry($query, $country_code) {
         $query
             ->whereHas('company', function($q) use ($country_code) {
@@ -88,4 +72,21 @@ class Practitioner extends Model {
             });
     }
 
+    //
+    // Model Relationships
+    //
+    public function patients()
+    {
+        return $this->hasMany('App\Patient');
+    }
+
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
+
+    public function company()
+    {
+        return $this->belongsTo('App\Company');
+    }
 }

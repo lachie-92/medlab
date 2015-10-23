@@ -6,6 +6,9 @@ class Company extends Model {
 
     protected $table='companies';
 
+    //
+    // Query Scope
+    //
     public function scopeSearchItem($query, $searchItem) {
 
         $query
@@ -20,40 +23,6 @@ class Company extends Model {
                 $q->whereIn('id', $tags);
             }, '=', count($tags));
     }
-
-    public function company_tags()
-    {
-        return $this->belongsToMany('App\Company_Tag', 'attach_company_tag', 'company_id', 'company_tag_id')->withTimestamps();
-    }
-
-    public function company_emails()
-    {
-        return $this->hasMany('App\Company_Email');
-    }
-
-    public function company_numbers()
-    {
-        return $this->hasMany('App\Company_Number');
-    }
-
-    public function related_to()
-    {
-        return $this->hasMany('App\Related_To', 'this_company_id');
-    }
-
-    public function practitioners()
-    {
-        return $this->hasMany('App\Practitioner');
-    }
-
-    public function company_addresses()
-    {
-        return $this->hasMany('App\Company_Address');
-    }
-
-    /**
-     *  Query Scopes
-     */
 
     public function scopeFilterCountry($query, $country_code) {
         $query
@@ -108,5 +77,38 @@ class Company extends Model {
     public function scopeFilterBusinessNumber($query, $businessNumber) {
         $query
             ->where('business_number', '=', $businessNumber);
+    }
+
+    //
+    // Model Relationships
+    //
+    public function company_tags()
+    {
+        return $this->belongsToMany('App\Company_Tag', 'attach_company_tag', 'company_id', 'company_tag_id')->withTimestamps();
+    }
+
+    public function company_emails()
+    {
+        return $this->hasMany('App\Company_Email');
+    }
+
+    public function company_numbers()
+    {
+        return $this->hasMany('App\Company_Number');
+    }
+
+    public function related_to()
+    {
+        return $this->hasMany('App\Related_To', 'this_company_id');
+    }
+
+    public function practitioners()
+    {
+        return $this->hasMany('App\Practitioner');
+    }
+
+    public function company_addresses()
+    {
+        return $this->hasMany('App\Company_Address');
     }
 }

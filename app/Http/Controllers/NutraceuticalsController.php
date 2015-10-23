@@ -2,13 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ProductListRequest;
-use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
-
 use App\Product;
 use App\Ingredient;
 use App\Category;
@@ -18,12 +12,15 @@ class NutraceuticalsController extends Controller
     /**
      * Display the product listing page
      *
-     * @param ProductListRequest $request
-     *
-     * @return \Illuminate\View\View
+     * @param Request $request
+     * @return \Illuminate\Http\Response
      */
-    public function products(ProductListRequest $request)
+    public function products(Request $request)
     {
+        $this->validate($request, [
+            'q' => array('regex:/^([A-Z]|Show All)$/')
+        ]);
+
         $productList = $this->createSortList(
             ['B', 'E', 'M', 'N', 'O', 'W', 'Show All']
         );
@@ -53,8 +50,7 @@ class NutraceuticalsController extends Controller
      * Display the product information page
      *
      * @param Product $product
-     *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
     public function showProduct(Product $product)
     {
@@ -64,7 +60,7 @@ class NutraceuticalsController extends Controller
     /**
      * Display the category listing page
      *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
     public function categories()
     {
@@ -78,11 +74,14 @@ class NutraceuticalsController extends Controller
      *
      * @param Category $category
      * @param Request $request
-     *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
     public function showCategory(Category $category, Request $request)
     {
+        $this->validate($request, [
+            'q' => array('regex:/^([A-Z]|Show All)$/')
+        ]);
+
         $productList = $this->createSortList([
             'A', 'B', 'C', 'D', 'E', 'F',
             'G', 'H', 'I', 'J', 'K', 'L',
@@ -116,11 +115,14 @@ class NutraceuticalsController extends Controller
      * Display the ingredient listing page
      *
      * @param Request $request
-     *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
     public function ingredients(Request $request)
     {
+        $this->validate($request, [
+            'q' => array('regex:/^([A-Z]|Show All)$/')
+        ]);
+
         $ingredientList = $this->createSortList(
             ['A', 'B', 'C', 'L', 'M', 'P', 'S', 'Show All']
         );
@@ -149,7 +151,7 @@ class NutraceuticalsController extends Controller
     /**
      * Display the faq page
      *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Http\Response
      */
     public function faq()
     {
@@ -161,7 +163,6 @@ class NutraceuticalsController extends Controller
      * EnableList is an array which contains the letter/letters to enable for the sorting bar.
      *
      * @param $enableList
-     *
      * @return array
      */
     private function createSortList($enableList)

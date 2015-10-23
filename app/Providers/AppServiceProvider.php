@@ -25,13 +25,13 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(
-            'App\Library\Repositories\ShoppingCartRepositoryInterface',
-            'App\Library\Repositories\ShoppingCartRepository'
+            'App\Medlab\Billing\BillingInterface',
+            'App\Medlab\Billing\BraintreeBilling'
         );
 
         $this->app->bind(
-            'App\Library\Billing\BillingInterface',
-            'App\Library\Billing\BraintreeBilling'
+            'App\Medlab\Repositories\MedlabRepositoryInterface',
+            'App\Medlab\Repositories\MySQLRepository'
         );
     }
 }

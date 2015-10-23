@@ -7,19 +7,9 @@ class Customer extends Model {
 
     protected $table='customers';
 
-    /*allow mass assignment for these column
-    protected $fillable = ['solve_id', 'status', 'subtype', 'starred', 'business_email', 'personal_email',
-        'other_email', 'country', 'title', 'first_name', 'last_name', 'cellular', 'home_phone',
-        'home_address_street', 'home_address_suburb', 'home_address_state', 'home_postcode',
-        'newsletter_subscription', 'tier', 'approved_by'];
-    */
-
-    /**
-     * @param $query
-     * @param $value
-     *
-     * Search Logic
-     */
+    //
+    // Query Scope
+    //
     public function scopeSearchAll($query, $value) {
         if($value == "_empty_") {
             $query
@@ -109,7 +99,6 @@ class Customer extends Model {
         }
 
     }
-
 
     public function scopeSearchModality($query, $value) {
 
@@ -333,10 +322,9 @@ class Customer extends Model {
             ->where('name', 'like', '%' . $value . '%', 'and');
     }
 
-    /**
-     * Below are relationship functions
-     */
-
+    //
+    // Model Relationships
+    //
     public function customer_addresses()
     {
         return $this->hasMany('App\Customer_Address');
@@ -397,9 +385,9 @@ class Customer extends Model {
         return $this->hasMany('App\Customer_Call');
     }
 
-    /**
-     * Useful Functions
-     */
+    //
+    // User Functions
+    //
     public function trashed_addresses()
     {
         $trashed_addresses = Customer_Address::onlyTrashed()->where('customer_id', $this->id)->get();

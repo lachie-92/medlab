@@ -8,6 +8,9 @@ class OrderedProduct extends Model
 {
     protected $table = 'orderedProducts';
 
+    //
+    // Model Relationships
+    //
     public function order()
     {
         return $this->belongsTo('App\Order');

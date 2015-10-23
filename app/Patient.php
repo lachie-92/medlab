@@ -8,6 +8,9 @@ class Patient extends Model
 {
     protected $table='patients';
 
+    //
+    // Model Relationships
+    //
     public function practitioner()
     {
         return $this->belongsTo('App\Practitioner');

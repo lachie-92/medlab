@@ -11,9 +11,22 @@ abstract class Controller extends BaseController
 {
     use DispatchesJobs, ValidatesRequests;
 
+    /**
+     * Current user
+     *
+     * @var
+     */
     protected $user;
+
+    /**
+     * Check for user login
+     * @var
+     */
     protected $userHasLogin;
 
+    /**
+     * Constructor for the Controller
+     */
     public function __construct()
     {
         $this->user = $this->userHasLogin = Auth::user();

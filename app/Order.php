@@ -9,6 +9,9 @@ class Order extends Model
 {
     protected $dates = ['purchase_date'];
 
+    //
+    // Query Scope
+    //
     public function scopeSearchUserOrders($query)
     {
         $query->where('user_id', Auth::user()->id);
@@ -39,6 +42,9 @@ class Order extends Model
         $query->where('order_status', '=', 'Order Received');
     }
 
+    //
+    // Model Relationships
+    //
     public function orderedProducts()
     {
         return $this->hasMany('App\OrderedProduct');

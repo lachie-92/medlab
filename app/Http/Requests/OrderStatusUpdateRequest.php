@@ -14,13 +14,7 @@ class OrderStatusUpdateRequest extends Request
      */
     public function authorize()
     {
-        $user = Auth::user();
-
-        if($user != null && $user->group == 'Admin') {
-            return true;
-        }
-
-        return false;
+        return true;
     }
 
     /**

@@ -27,7 +27,9 @@ Route::post('/account/login', 'LoginController@postLogin');
 
 Route::get('/account/logout', 'LoginController@getLogout');
 
-Route::get('/account/register', 'LoginController@getRegister');
+Route::get('/account/register', function() {
+    return redirect('/account/login');
+});
 
 Route::get('/account/register/practitioner', 'LoginController@getRegisterPractitioner');
 
@@ -79,43 +81,43 @@ Route::post('/account/orders/details', 'AccountController@postOrderDetails');
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('/account/patient-registration', 'AccountController@getShowPatientRegistrations');
+Route::get('/account/patient-registration', 'AdminController@getShowPatientRegistrations');
 
-Route::get('/account/patient-registration/{patientRegistrationId}', 'AccountController@getPatientRegistration');
+Route::get('/account/patient-registration/{patientRegistrationId}', 'AdminController@getPatientRegistration');
 
-Route::post('/account/patient-registration/{patientRegistrationId}/delete', 'AccountController@postDeletePatientRegistration');
+Route::post('/account/patient-registration/{patientRegistrationId}/delete', 'AdminController@postDeletePatientRegistration');
 
-Route::post('/account/patient-registration/{patientRegistrationId}/restore', 'AccountController@postRestoreDeletedPatientRegistration');
+Route::post('/account/patient-registration/{patientRegistrationId}/restore', 'AdminController@postRestoreDeletedPatientRegistration');
 
-Route::post('/account/patient-registration/{patientRegistrationId}/create', 'AccountController@postCreatePatientAccount');
+Route::post('/account/patient-registration/{patientRegistrationId}/create', 'AdminController@postCreatePatientAccount');
 
-Route::get('/account/practitioner-registration', 'AccountController@getShowPractitionerRegistrations');
+Route::get('/account/practitioner-registration', 'AdminController@getShowPractitionerRegistrations');
 
-Route::post('/account/practitioner-registration/getcompanylist', 'AccountController@postGetCompanyList');
+Route::post('/account/practitioner-registration/getcompanylist', 'AdminController@postGetCompanyList');
 
-Route::post('/account/practitioner-registration/createclinic', 'AccountController@postCreateCompany');
+Route::post('/account/practitioner-registration/createclinic', 'AdminController@postCreateCompany');
 
-Route::get('/account/practitioner-registration/new/{patientRegistrationId}', 'AccountController@getNewPractitionerRegistration');
+Route::get('/account/practitioner-registration/new/{patientRegistrationId}', 'AdminController@getNewPractitionerRegistration');
 
-Route::post('/account/practitioner-registration/new/create', 'AccountController@postNewPractitionerRegistration');
+Route::post('/account/practitioner-registration/new/create', 'AdminController@postNewPractitionerRegistration');
 
-Route::get('/account/practitioner-registration/{practitionerRegistrationId}', 'AccountController@getPractitionerRegistration');
+Route::get('/account/practitioner-registration/{practitionerRegistrationId}', 'AdminController@getPractitionerRegistration');
 
-Route::post('/account/practitioner-registration/{practitionerRegistrationId}/delete', 'AccountController@postDeletePractitionerRegistration');
+Route::post('/account/practitioner-registration/{practitionerRegistrationId}/delete', 'AdminController@postDeletePractitionerRegistration');
 
-Route::post('/account/practitioner-registration/{practitionerRegistrationId}/restore', 'AccountController@postRestoreDeletedPractitionerRegistration');
+Route::post('/account/practitioner-registration/{practitionerRegistrationId}/restore', 'AdminController@postRestoreDeletedPractitionerRegistration');
 
-Route::post('/account/practitioner-registration/{practitionerRegistrationId}/create', 'AccountController@postCreatePractitionerAccount');
+Route::post('/account/practitioner-registration/{practitionerRegistrationId}/create', 'AdminController@postCreatePractitionerAccount');
 
 Route::get('/account/admin-orders', function() {
-    return redirect('/account/admin-orders/OrderReceived');
+    return redirect('/account/admin-orders/received');
 });
 
-Route::get('/account/admin-orders/{display}', 'AccountController@getAdminShowOrders');
+Route::get('/account/admin-orders/{display}', 'AdminController@getAdminShowOrders');
 
-Route::post('/account/admin-orders/details', 'AccountController@postAdminOrderDetails');
+Route::post('/account/admin-orders/details', 'AdminController@postAdminOrderDetails');
 
-Route::post('/account/admin-orders/update', 'AccountController@postAdminOrderUpdate');
+Route::post('/account/admin-orders/update', 'AdminController@postAdminOrderUpdate');
 
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -165,10 +167,10 @@ Route::post('/shoppingcart/checkout', 'ShoppingCartController@postCheckout');
 ///////////////////////////////////////////////////////////////////////////////////
 
 Route::get('education', function () {
-    return view('pages.education.education.index');
+    return redirect('/education/publications');
 });
 
-Route::get('education/publications', function () {
+Route::get('/education/publications', function () {
     return view('pages.education.publications.index');
 });
 

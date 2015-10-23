@@ -10,39 +10,8 @@
         -- Account Navigation
         -->
         <div class="col-md-3 col-sm-3 col-xm-12">
-            <div class="panel panel-primary medlab_panel">
-                <div class="panel-heading medlab_panel_title">
-                    Administrator
-                </div>
-
-                <div class="list-group">
-                    <a href="/account/patient-registration" class="list-group-item">
-                        <strong>
-                            @if (count($patientRegistrationList))
-                                Patient Registration ({{ count($patientRegistrationList) }})
-                            @else
-                                Patient Registration
-                            @endif
-                        </strong>
-                    </a>
-                    <a href="/account/practitioner-registration" class="list-group-item">
-                        @if (count($practitionerRegistrationList))
-                            Practitioner Registration ({{ count($practitionerRegistrationList) }})
-                        @else
-                            Practitioner Registration
-                        @endif
-                    </a>
-                    <a href="/account/admin-orders" class="list-group-item">
-                        @if (count($newOrderList))
-                            Order Management ({{ count($newOrderList) }})
-                        @else
-                            Order Management
-                        @endif
-                    </a>
-                    <a href="/account/logout" class="list-group-item">Logout</a>
-                </div>
-
-            </div>
+            @include('pages.account.dashboard.admin._sharedpartial.sidenavigation',
+                ['view_current_page' => 'Patient'])
         </div>
         <!--
         -- Main Content Column

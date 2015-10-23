@@ -1,25 +1,31 @@
 <?php
-
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ShoppingCartAddressRequest;
 use App\Http\Requests\ShoppingCartCheckoutRequest;
-use App\Library\Billing\BillingInterface;
-use App\Library\ShoppingCart\ShoppingCart;
+use App\Http\Requests\ShoppingCartUpdateAddressRequest;
+use App\Medlab\Billing\BillingInterface;
+use App\Medlab\ShoppingCart\ShoppingCart;
 use App\Order;
 use Illuminate\Http\Request;
-
-use App\Http\Requests;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Mail;
 
 class ShoppingCartController extends Controller
 {
+    /**
+     * Shopping Cart
+     *
+     * @var ShoppingCart
+     */
     protected $shoppingCart;
 
+    /**
+     * Constructor for the ShoppingCartController
+     *
+     * @param ShoppingCart $shoppingCart
+     */
     public function __construct(ShoppingCart $shoppingCart)
     {
-        $this->middleware('auth');
+        $this->middleware('authNotAdmin');
         $this->middleware('shoppingCartNotEmpty', [
             'except' => [
                 'getShoppingCart',
@@ -32,13 +38,24 @@ class ShoppingCartController extends Controller
         parent::__construct();
     }
 
+    /**
+     * Display the shopping cart basket
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function getShoppingCart()
     {
         $shoppingCart = $this->shoppingCart;
 
-        return view('pages.shoppingcart.cart.index', compact('shoppingCart', 'clientToken'));
+        return view('pages.shoppingcart.cart.index', compact('shoppingCart'));
     }
 
+    /**
+     * Update the shopping cart basket
+     *
+     * @param Request $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
     public function postShoppingCart(Request $request)
     {
         $this->validate($request, [
@@ -52,6 +69,11 @@ class ShoppingCartController extends Controller
         return redirect('/shoppingcart/cart');
     }
 
+    /**
+     * Display the page for entering Shipping and Billing Addresses
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function getAddress()
     {
         $shoppingCart = $this->shoppingCart;
@@ -61,7 +83,13 @@ class ShoppingCartController extends Controller
         return view('pages.shoppingcart.address.index', compact('shoppingCart'));
     }
 
-    public function postAddress(ShoppingCartAddressRequest $request)
+    /**
+     * Update the Billing and Shipping Addresses
+     *
+     * @param ShoppingCartUpdateAddressRequest $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function postAddress(ShoppingCartUpdateAddressRequest $request)
     {
         $shoppingCart = $this->shoppingCart;
         $shoppingCart->updateShippingAddress($request);
@@ -72,6 +100,12 @@ class ShoppingCartController extends Controller
         return redirect('/shoppingcart/summary');
     }
 
+    /**
+     * Display the checkout summary page
+     *
+     * @param BillingInterface $billing
+     * @return \Illuminate\Http\Response
+     */
     public function getSummary(BillingInterface $billing)
     {
         if (!session()->has('new_order')) {
@@ -85,6 +119,13 @@ class ShoppingCartController extends Controller
         return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
     }
 
+    /**
+     * Process the order and checkout
+     *
+     * @param ShoppingCartCheckoutRequest $request
+     * @param BillingInterface $billing
+     * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
+     */
     public function postCheckout(ShoppingCartCheckoutRequest $request, BillingInterface $billing)
     {
         $result = $billing->processOrder($request);

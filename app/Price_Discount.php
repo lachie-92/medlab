@@ -8,6 +8,9 @@ class Price_Discount extends Model
 {
     protected $table = 'price_discount';
 
+    //
+    // Model Relationships
+    //
     public function promotion()
     {
         return $this->belongsTo('App\Promotion');
