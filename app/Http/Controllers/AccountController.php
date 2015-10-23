@@ -7,6 +7,7 @@ use App\Http\Requests\CustomerAddressUpdateRequest;
 use App\Http\Requests\OrderViewDetailsRequest;
 use App\Medlab\Repositories\MedlabRepositoryInterface;
 use Illuminate\Http\Request;
+use App\Http\Requests;
 
 
 class AccountController extends Controller

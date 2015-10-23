@@ -32,34 +32,55 @@
                     <label>Hours: </label> Monday - Friday. 8:30am to 5pm AEST
                 </div>
             </div>
+
             <!--
             -- Enquires form
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    QUESTIONS, COMMENTS OR ENQUIREIES
+                    QUESTIONS, COMMENTS OR ENQUIRIES
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <p>
                         Have a question, comment or just want to say 'Hello!', use the form below, and will get in contact with you
                     </p>
-                    <form>
+                    <form role="form" method="POST" action="/contact">
+                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
                         <div class="form-group">
-                            <label for="enquiries_name">* Name</label>
-                            <input class="form-control" id="enquiries_name" type="text"  placeholder="Name">
+                            <label for="name">* Name</label>
+                            <input class="form-control" name="name" type="text"  placeholder="Name" value="{{ old('name') }}">
                         </div>
                         <div class="form-group">
-                            <label for="enquiries_email">* Email</label>
-                            <input class="form-control" id="enquiries_email" type="email" placeholder="Email">
+                            <label for="email">* Email</label>
+                            <input class="form-control" name="email" type="email" placeholder="Email" value="{{ old('email') }}">
                         </div>
                         <div class="form-group">
-                            <label for="enquiries_phone">Phone</label>
-                            <input class="form-control" id="enquiries_phone" type="text" placeholder="phone">
+                            <label for="phone">Phone</label>
+                            <input class="form-control" name="phone" type="text" placeholder="phone" value="{{ old('phone') }}">
                         </div>
                         <div class="form-group">
-                            <label for="enquiries_enquiry">* Enquiry</label>
-                            <textarea class="form-control" id="enquiries_enquiry" rows="3"></textarea>
+                            <label for="enquiry">* Enquiry</label>
+                            <textarea class="form-control" id="enquiry" name="enquiry" rows="3" maxlength="200" value="{{ old('enquiry') }}"></textarea>
                         </div>
+
+                        @if (count($errors) > 0)
+                            <div class="container-fluid">
+                                <div class="alert alert-danger">
+                                    <ul>
+                                        @foreach ($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                </div>
+                            </div>
+                        @endif
+                        @if (session('message'))
+                            <div class="container-fluid">
+                                <div class="alert alert-success">
+                                    {{ session('message') }}
+                                </div>
+                            </div>
+                        @endif
 
                         <button type="submit" class="btn btn-default">Submit</button>
                     </form>

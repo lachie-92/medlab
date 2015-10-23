@@ -166,7 +166,7 @@ Route::post('/shoppingcart/checkout', 'ShoppingCartController@postCheckout');
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('education', function () {
+Route::get('/education', function () {
     return redirect('/education/publications');
 });
 
@@ -177,26 +177,15 @@ Route::get('/education/publications', function () {
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
-// Newsletter
-//
-///////////////////////////////////////////////////////////////////////////////////
-
-Route::get('newsletter', function () {
-    return view('pages.newsletter.index');
-});
-
-
-///////////////////////////////////////////////////////////////////////////////////
-//
 // Help
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('help', function () {
+Route::get('/help', function () {
     return view('pages.help.website-registration.index');
 });
 
-Route::get('help/website-registration', function () {
+Route::get('/help/website-registration', function () {
     return view('pages.help.website-registration.index');
 });
 
@@ -207,31 +196,31 @@ Route::get('help/website-registration', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('order', function () {
+Route::get('/order', function () {
     return view('pages.order.order.index');
 });
 
-Route::get('order/order-and-stocking', function () {
+Route::get('/order/order-and-stocking', function () {
     return view('pages.order.order-and-stocking.index');
 });
 
-Route::get('order/patient-management-tool', function () {
+Route::get('/order/patient-management-tool', function () {
     return view('pages.order.patient-management-tool.index');
 });
 
-Route::get('order/payment-pricing-and-discounts', function () {
+Route::get('/order/payment-pricing-and-discounts', function () {
     return view('pages.order.payment-pricing-and-discounts.index');
 });
 
-Route::get('order/returns', function () {
+Route::get('/order/returns', function () {
     return view('pages.order.returns.index');
 });
 
-Route::get('order/shipping-and-delivery', function () {
+Route::get('/order/shipping-and-delivery', function () {
     return view('pages.order.shipping-and-delivery.index');
 });
 
-Route::get('order/website-access-and-registration-benefits', function () {
+Route::get('/order/website-access-and-registration-benefits', function () {
     return view('pages.order.website-access-and-registration-benefits.index');
 });
 
@@ -242,23 +231,23 @@ Route::get('order/website-access-and-registration-benefits', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('investor', function () {
+Route::get('/investor', function () {
     return view('pages.investor.investor.index');
 });
 
-Route::get('investor/corporate-governance', function () {
+Route::get('/investor/corporate-governance', function () {
     return view('pages.investor.corporate-governance.index');
 });
 
-Route::get('investor/prospectus', function () {
+Route::get('/investor/prospectus', function () {
     return view('pages.investor.prospectus.index');
 });
 
-Route::get('investor/asx-announcements', function () {
+Route::get('/investor/asx-announcements', function () {
     return view('pages.investor.asx-announcements.index');
 });
 
-Route::get('investor/share-price', function () {
+Route::get('/investor/share-price', function () {
     return view('pages.investor.share-price.index');
 });
 
@@ -270,23 +259,23 @@ Route::get('investor/share-price', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('policies', function () {
+Route::get('/policies', function () {
     return view('pages.policies.privacy-policy.index');
 });
 
-Route::get('policies/privacy-policy', function () {
+Route::get('/policies/privacy-policy', function () {
     return view('pages.policies.privacy-policy.index');
 });
 
-Route::get('policies/terms-and-conditions', function () {
+Route::get('/policies/terms-and-conditions', function () {
     return view('pages.policies.terms-and-conditions.index');
 });
 
-Route::get('policies/medlab-sales-policy', function () {
+Route::get('/policies/medlab-sales-policy', function () {
     return view('pages.policies.medlab-sales-policy.index');
 });
 
-Route::get('policies/faq', function () {
+Route::get('/policies/faq', function () {
     return view('pages.policies.faq.index');
 });
 
@@ -297,31 +286,31 @@ Route::get('policies/faq', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('research', function () {
+Route::get('/research', function () {
     return view('pages.research.research.index');
 });
 
-Route::get('research/why-medlab', function () {
+Route::get('/research/why-medlab', function () {
     return view('pages.research.why-medlab.index');
 });
 
-Route::get('research/the-medlab-solution', function () {
+Route::get('/research/the-medlab-solution', function () {
     return view('pages.research.the-medlab-solution.index');
 });
 
-Route::get('research/medlab-delivery-platform', function () {
+Route::get('/research/medlab-delivery-platform', function () {
     return view('pages.research.medlab-delivery-platform.index');
 });
 
-Route::get('research/registration', function () {
+Route::get('/research/registration', function () {
     return view('pages.research.research-registration.index');
 });
 
-Route::get('research/patents', function () {
+Route::get('/research/patents', function () {
     return view('pages.research.patents.index');
 });
 
-Route::get('research/clinical-trails', function () {
+Route::get('/research/clinical-trails', function () {
     return view('pages.research.clinical-trails.index');
 });
 
@@ -332,43 +321,43 @@ Route::get('research/clinical-trails', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('about', function () {
+Route::get('/about', function () {
     return view('pages.about.about-us.index');
 });
 
-Route::get('about/about-medlab', function () {
+Route::get('/about/about-medlab', function () {
     return view('pages.about.about-medlab.index');
 });
 
-Route::get('about/who-we-are', function () {
+Route::get('/about/who-we-are', function () {
     return view('pages.about.who-we-are.index');
 });
 
-Route::get('about/our-past', function () {
+Route::get('/about/our-past', function () {
     return view('pages.about.our-past.index');
 });
 
-Route::get('about/a-new-era', function () {
+Route::get('/about/a-new-era', function () {
     return view('pages.about.a-new-era.index');
 });
 
-Route::get('about/executive-team', function () {
+Route::get('/about/executive-team', function () {
     return view('pages.about.executive-team.index');
 });
 
-Route::get('about/consulting-team', function () {
+Route::get('/about/consulting-team', function () {
     return view('pages.about.consulting-team.index');
 });
 
-Route::get('about/scientific-team', function () {
+Route::get('/about/scientific-team', function () {
     return view('pages.about.scientific-team.index');
 });
 
-Route::get('about/board-of-directors', function () {
+Route::get('/about/board-of-directors', function () {
     return view('pages.about.board-of-directors.index');
 });
 
-Route::get('about/letter-from-ceo', function () {
+Route::get('/about/letter-from-ceo', function () {
     return view('pages.about.letter-from-ceo.index');
 });
 
@@ -379,8 +368,6 @@ Route::get('about/letter-from-ceo', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::get('contact', function () {
-    return view('pages.contact.index');
-});
+Route::get('/contact', 'ContactController@getShowContactInformation');
 
-
+Route::post('/contact', 'ContactController@postSendEnquiryEmail');

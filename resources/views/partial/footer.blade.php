@@ -41,12 +41,6 @@
                     </h3>
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="/newsletter">
-                            NEWSLETTER
-                        </a>
-                    </h3>
-
-                    <h3 class="medlab_footer_top_site_map_box_header">
                         <a class="medlab_footer_top_site_map_box_header_link" href="/help">
                             HELP
                         </a>
