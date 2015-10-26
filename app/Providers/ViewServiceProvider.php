@@ -108,7 +108,7 @@ class ViewServiceProvider extends ServiceProvider
         //
         view()->composer('pages.account.dashboard.admin._sharedpartial.sidenavigation', function($view) {
 
-            $repository = App::make('App\Medlab\Repositories\AccountRepositoryInterface');
+            $repository = App::make('App\Medlab\Repositories\MedlabRepositoryInterface');
             $unapprovedPatientRegistrationList = $repository->getUnapprovedPatientRegistrationList();
             $unapprovedPractitionerRegistrationList = $repository->getUnapprovedPractitionerRegistrationList();
             $newOrderList = $repository->getNewOrderList();
