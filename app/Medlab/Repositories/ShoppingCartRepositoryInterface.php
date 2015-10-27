@@ -1,0 +1,16 @@
+<?php
+namespace App\Medlab\Repositories;
+
+
+interface ShoppingCartRepositoryInterface
+{
+    //
+    // Shopping Cart
+    //
+    public function getProductListInBasket($basketArrayInSession);
+    public function createUserShippingAddress($user);
+    public function createUserBillingAddress($user);
+    public function createOrder($user, $shoppingCart);
+    public function createOrderedProduct($order, $item);
+    public function createOrderedProductPromotion($order, $orderedProduct, $promotion);
+}

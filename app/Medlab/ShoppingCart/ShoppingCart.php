@@ -2,7 +2,7 @@
 
 namespace App\Medlab\ShoppingCart;
 
-use App\Medlab\Repositories\MedlabRepositoryInterface;
+use App\Medlab\Repositories\ShoppingCartRepositoryInterface;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Auth;
 
@@ -88,16 +88,16 @@ class ShoppingCart {
     /**
      * The Repository for the shopping cart
      *
-     * @var MedlabRepositoryInterface
+     * @var ShoppingCartRepositoryInterface
      */
     protected $repository;
 
     /**
      * Constructor for the Shopping Cart
      *
-     * @param MedlabRepositoryInterface $repository
+     * @param ShoppingCartRepositoryInterface $repository
      */
-    public function __construct(MedlabRepositoryInterface $repository)
+    public function __construct(ShoppingCartRepositoryInterface $repository)
     {
         // Set the Shipping cost and tax rate
         $this->shippingCost = 11;

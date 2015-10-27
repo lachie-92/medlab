@@ -15,7 +15,7 @@ class AdminCreatePractitionerAccountRequest extends Request
     public function authorize()
     {
         // Get the route model binding
-        $registration = $this->route()->parameter('patientRegistrationId');
+        $registration = $this->route()->parameter('practitionerRegistrationId');
 
         if ($registration == null) {
             return false;

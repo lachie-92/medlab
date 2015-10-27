@@ -30,8 +30,28 @@ class AppServiceProvider extends ServiceProvider
         );
 
         $this->app->bind(
-            'App\Medlab\Repositories\MedlabRepositoryInterface',
-            'App\Medlab\Repositories\MySQLRepository'
+            'App\Medlab\Repositories\AccountRepositoryInterface',
+            'App\Medlab\Repositories\AccountRepository'
+        );
+
+        $this->app->bind(
+            'App\Medlab\Repositories\AdminRepositoryInterface',
+            'App\Medlab\Repositories\AdminRepository'
+        );
+
+        $this->app->bind(
+            'App\Medlab\Repositories\RegistrationRepositoryInterface',
+            'App\Medlab\Repositories\RegistrationRepository'
+        );
+
+        $this->app->bind(
+            'App\Medlab\Repositories\SearchRepositoryInterface',
+            'App\Medlab\Repositories\SearchRepository'
+        );
+
+        $this->app->bind(
+            'App\Medlab\Repositories\ShoppingCartRepositoryInterface',
+            'App\Medlab\Repositories\ShoppingCartRepository'
         );
     }
 }

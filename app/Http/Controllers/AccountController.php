@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\CustomerAddressUpdateRequest;
 use App\Http\Requests\OrderViewDetailsRequest;
-use App\Medlab\Repositories\MedlabRepositoryInterface;
+use App\Medlab\Repositories\AccountRepositoryInterface;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 
@@ -15,16 +15,16 @@ class AccountController extends Controller
     /**
      * Repository for the Controller
      *
-     * @var MedlabRepositoryInterface
+     * @var AccountRepositoryInterface
      */
     protected $repository;
 
     /**
      * Constructor fore the AccountController
      *
-     * @param MedlabRepositoryInterface $repository
+     * @param AccountRepositoryInterface $repository
      */
-    public function __construct(MedlabRepositoryInterface $repository)
+    public function __construct(AccountRepositoryInterface $repository)
     {
         $this->middleware('authNotAdmin',[
             'except' => [

@@ -99,7 +99,7 @@ class ViewServiceProvider extends ServiceProvider
         //
         view()->composer('partial.navigation', function($view) {
 
-            $repository = App::make('App\Medlab\Repositories\MedlabRepositoryInterface');
+            $repository = App::make('App\Medlab\Repositories\ShoppingCartRepositoryInterface');
             $view->with('shoppingCart', new ShoppingCart($repository));
         });
 
@@ -108,7 +108,7 @@ class ViewServiceProvider extends ServiceProvider
         //
         view()->composer('pages.account.dashboard.admin._sharedpartial.sidenavigation', function($view) {
 
-            $repository = App::make('App\Medlab\Repositories\MedlabRepositoryInterface');
+            $repository = App::make('App\Medlab\Repositories\AdminRepositoryInterface');
             $unapprovedPatientRegistrationList = $repository->getUnapprovedPatientRegistrationList();
             $unapprovedPractitionerRegistrationList = $repository->getUnapprovedPractitionerRegistrationList();
             $newOrderList = $repository->getNewOrderList();

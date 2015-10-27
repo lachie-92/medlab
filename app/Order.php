@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
 
@@ -40,6 +41,12 @@ class Order extends Model
     public function scopeSearchReceivedOrders($query)
     {
         $query->where('order_status', '=', 'Order Received');
+    }
+
+    public function scopeSearchDayOldUnprocessedOrders($query)
+    {
+        $query->where('order_status', '=', 'New order')
+            ->where('created_at', '<', Carbon::yesterday());
     }
 
     //

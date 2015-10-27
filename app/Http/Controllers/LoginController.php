@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Requests\GuestCreatePatientRegistrationRequest;
 use App\Http\Requests\GuestCreatePractitionerRegistrationRequest;
 use App\Http\Requests\RegistrationPractitionerSearchRequest;
-use App\Medlab\Repositories\MedlabRepositoryInterface;
+use App\Medlab\Repositories\RegistrationRepositoryInterface;
+use App\Medlab\Repositories\SearchRepositoryInterface;
 use App\Medlab\Traits\DefineAccountParameters;
 use App\Http\Requests\UserLoginRequest;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -20,16 +21,24 @@ class LoginController extends Controller
     /**
      * Repository for the Controller
      *
-     * @var MedlabRepositoryInterface
+     * @var RegistrationRepositoryInterface
      */
     protected $repository;
 
     /**
+     * Search Repository for the Controller
+     *
+     * @var SearchRepositoryInterface
+     */
+    protected $searchRepository;
+
+    /**
      * Constructor for the LoginController
      *
-     * @param MedlabRepositoryInterface $repository
+     * @param RegistrationRepositoryInterface $repository
+     * @param SearchRepositoryInterface $searchRepository
      */
-    public function __construct(MedlabRepositoryInterface $repository)
+    public function __construct(RegistrationRepositoryInterface $repository, SearchRepositoryInterface $searchRepository)
     {
         $this->middleware('guest', [
             'except' => [
@@ -45,6 +54,7 @@ class LoginController extends Controller
         ]);
 
         $this->repository = $repository;
+        $this->searchRepository = $searchRepository;
 
         parent::__construct();
     }
@@ -187,7 +197,7 @@ class LoginController extends Controller
      */
     public function postGetPractitionerList(RegistrationPractitionerSearchRequest $request)
     {
-        $filtered_practitioners = $this->repository->searchPractitioner($request);
+        $filtered_practitioners = $this->searchRepository->searchPractitioner($request);
 
         return view('pages.account.register.patient.partial.findpractitionerlist', compact('filtered_practitioners'));
     }

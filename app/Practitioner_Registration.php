@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -19,4 +20,13 @@ class Practitioner_Registration extends Model
         'telephone', 'mobile_phone'
     ];
     protected $dates = ['approval', 'deleted_at'];
+
+    //
+    // Query Scope
+    //
+    public function scopeSearchMonthOldDeletedRegistrations($query)
+    {
+        $query->onlyTrashed()
+            ->where('created_at', '<', Carbon::now()->subMonth());
+    }
 }

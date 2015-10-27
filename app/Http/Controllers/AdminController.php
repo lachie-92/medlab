@@ -8,7 +8,9 @@ use App\Http\Requests\AdminCreatePractitionerAccountRequest;
 use App\Http\Requests\OrderStatusUpdateRequest;
 use App\Http\Requests\OrderViewDetailsRequest;
 use App\Http\Requests\RegistrationCompanySearchRequest;
-use App\Medlab\Repositories\MedlabRepositoryInterface;
+use App\Medlab\Repositories\AccountRepositoryInterface;
+use App\Medlab\Repositories\AdminRepositoryInterface;
+use App\Medlab\Repositories\SearchRepositoryInterface;
 use App\Patient_Registration;
 use App\Practitioner_Registration;
 use Illuminate\Support\Facades\Mail;
@@ -18,20 +20,38 @@ class AdminController extends Controller
     /**
      * Repository for the Controller
      *
-     * @var MedlabRepositoryInterface
+     * @var AdminRepositoryInterface
      */
     protected $repository;
 
     /**
+     * Account Repository for the Controller
+     *
+     * @var AccountRepositoryInterface
+     */
+    protected $accountRepository;
+
+    /**
+     * Search Repository for the Controller
+     *
+     * @var SearchRepositoryInterface
+     */
+    protected $searchRepository;
+
+    /**
      * Constructor for the AdminController
      *
-     * @param MedlabRepositoryInterface $repository
+     * @param AdminRepositoryInterface $repository
+     * @param AccountRepositoryInterface $accountRepository
+     * @param SearchRepositoryInterface $searchRepository
      */
-    public function __construct(MedlabRepositoryInterface $repository)
+    public function __construct(AdminRepositoryInterface $repository, AccountRepositoryInterface $accountRepository, SearchRepositoryInterface $searchRepository)
     {
         $this->middleware('authAdmin');
 
         $this->repository = $repository;
+        $this->accountRepository = $accountRepository;
+        $this->searchRepository = $searchRepository;
 
         parent::__construct();
     }
@@ -228,7 +248,7 @@ class AdminController extends Controller
      */
     public function postGetCompanyList(RegistrationCompanySearchRequest $request)
     {
-        $filtered_companies = $this->repository->searchCompany($request);
+        $filtered_companies = $this->searchRepository->searchCompany($request);
 
         return view('pages.account.dashboard.admin.practitionerregistration.new.partial.findcompanylist', compact('filtered_companies'));
     }
@@ -329,7 +349,7 @@ class AdminController extends Controller
      */
     public function postAdminOrderDetails(OrderViewDetailsRequest $request)
     {
-        $order = $this->repository->getOrderDetails($request);
+        $order = $this->accountRepository->getOrderDetails($request);
 
         return view('pages.account.dashboard.admin.order.details.index', compact(
             'order'
