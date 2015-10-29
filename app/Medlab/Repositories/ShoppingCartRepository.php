@@ -34,16 +34,18 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
      */
     public function createUserShippingAddress($user)
     {
+        $accountAddress = $user->customer->customer_addresses->where('type', 'Account')->first();
+
         $shippingAddress['title'] = $user->customer->title;
         $shippingAddress['first_name'] = $user->customer->first_name;
         $shippingAddress['last_name'] = $user->customer->last_name;
-        $shippingAddress['street'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->street;
-        $shippingAddress['suburb'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->suburb;
-        $shippingAddress['city'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->city;
-        $shippingAddress['postcode'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->postcode;
-        $shippingAddress['state'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->state;
-        $shippingAddress['country'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->country;
-        $shippingAddress['phone'] = $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first()->number;
+        $shippingAddress['street'] = $accountAddress->street;
+        $shippingAddress['suburb'] = $accountAddress->suburb;
+        $shippingAddress['city'] = $accountAddress->city;
+        $shippingAddress['postcode'] = $accountAddress->postcode;
+        $shippingAddress['state'] = $accountAddress->state;
+        $shippingAddress['country'] = $accountAddress->country;
+        $shippingAddress['phone'] = $accountAddress->number;
 
         return $shippingAddress;
     }
@@ -56,15 +58,17 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
      */
     public function createUserBillingAddress($user)
     {
+        $accountAddress = $user->customer->customer_addresses->where('type', 'Account')->first();
+
         $billingAddress['title'] = $user->customer->title;
         $billingAddress['first_name'] = $user->customer->first_name;
         $billingAddress['last_name'] = $user->customer->last_name;
-        $billingAddress['street'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->street;
-        $billingAddress['suburb'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->suburb;
-        $billingAddress['city'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->city;
-        $billingAddress['postcode'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->postcode;
-        $billingAddress['state'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->state;
-        $billingAddress['country'] = $user->customer->customer_addresses->where('type', 'Main Address')->first()->country;
+        $billingAddress['street'] = $accountAddress->street;
+        $billingAddress['suburb'] = $accountAddress->suburb;
+        $billingAddress['city'] = $accountAddress->city;
+        $billingAddress['postcode'] = $accountAddress->postcode;
+        $billingAddress['state'] = $accountAddress->state;
+        $billingAddress['country'] = $accountAddress->country;
 
         return $billingAddress;
     }
@@ -81,7 +85,7 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $order = new Order();
 
         $order->user_id = $user->id;
-        $order->order_status = 'New order';
+        $order->order_status = 'New Order';
         $order->subtotal = $shoppingCart->subtotal;
         $order->GST = $shoppingCart->GST;
         $order->shipping_cost = $shoppingCart->shippingCost;

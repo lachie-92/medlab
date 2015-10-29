@@ -163,6 +163,9 @@
                                     <!--
                                     -- User Address
                                     -->
+                                    <?php $customer_address = $user->customer->customer_addresses->where('type', 'Account')->first(); ?>
+                                    <?php $customer_phone = $user->customer->customer_numbers->where('type', 'Account Phone')->first(); ?>
+                                    <?php $customer_mobile = $user->customer->customer_numbers->where('type', 'Account Mobile')->first(); ?>
                                     <div class="row">
                                         <h4 class="medlab_dashboard_info_section_title" style="margin-top: 20px">Contact Detail</h4>
                                         <div class="medlab_dashboard_info_item_box_top">
@@ -171,10 +174,10 @@
                                                     <strong>Address:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->street }} <br>
-                                                    {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->suburb }} {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->postcode }}<br>
-                                                    {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->city }} <br>
-                                                    {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->state }} {{ $user->customer->customer_addresses->where('type', 'Main Address')->first()->country }}<br>
+                                                    {{ $customer_address->street }} <br>
+                                                    {{ $customer_address->suburb }} {{ $customer_address->postcode }}<br>
+                                                    {{ $customer_address->city }} <br>
+                                                    {{ $customer_address->state }} {{ $customer_address->country }}<br>
                                                 </div>
                                             </div>
                                         </div>
@@ -184,7 +187,7 @@
                                                     <strong>Phone:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{$user->customer->customer_numbers->where('type', 'Main Number')->first()->number }}
+                                                    {{ $customer_phone->number }}
                                                 </div>
                                             </div>
                                         </div>
@@ -194,7 +197,7 @@
                                                     <strong>Mobile:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first()->number }}
+                                                    {{ $customer_mobile->number }}
                                                 </div>
                                             </div>
                                         </div>
@@ -210,6 +213,9 @@
                                     <!--
                                     -- User Business info
                                     -->
+                                    <?php $company = $user->practitioner->company; ?>
+                                    <?php $company_address = $company->company_addresses->where('type', 'Physical')->first(); ?>
+                                    <?php $company_phone = $company->company_numbers->where('type', 'Main')->first(); ?>
                                     <div class="row">
                                         <h4 class="medlab_dashboard_info_section_title">Business Information</h4>
                                         <div class="medlab_dashboard_info_item_box_top">
@@ -222,7 +228,7 @@
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
                                                     <span style="line-height: 40px">
-                                                        {{ $user->practitioner->company->business_number }}
+                                                        {{ $company->business_number }}
                                                     </span>
                                                 </div>
                                             </div>
@@ -233,7 +239,7 @@
                                                     <strong>Clinic:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $user->practitioner->company->name }}
+                                                    {{ $company->name }}
                                                 </div>
                                             </div>
                                         </div>
@@ -243,10 +249,12 @@
                                                     <strong>Address:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->street }} <br>
-                                                    {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->suburb }} {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->postcode }}<br>
-                                                    {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->city }} <br>
-                                                    {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->state }} {{ $user->practitioner->company->company_addresses->where('type', 'Main Address')->first()->country }}<br>
+                                                    @if ($company_address)
+                                                        {{ $company_address->street }} <br>
+                                                        {{ $company_address->suburb }} {{ $company_address->postcode }}<br>
+                                                        {{ $company_address->city }} <br>
+                                                        {{ $company_address->state }} {{ $company_address->country }}<br>
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -256,7 +264,9 @@
                                                     <strong>Phone:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $user->practitioner->company->company_numbers->where('type', 'Main Number')->first()->number }}
+                                                    @if ($company_phone->number)
+                                                        {{ $company_phone->number }}
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>

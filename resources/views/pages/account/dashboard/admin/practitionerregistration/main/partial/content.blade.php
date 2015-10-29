@@ -74,7 +74,7 @@
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th>Patient Name</th>
+                                <th>Practitioner Name</th>
                                 <th>Provider Number</th>
                                 <th>Clinic</th>
                                 <th>Approved</th>

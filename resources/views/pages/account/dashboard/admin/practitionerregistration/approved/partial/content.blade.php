@@ -203,18 +203,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if($registration->country == 'NZ')
-                                                                <select class="form-control" id="country_select" name="country" disabled>
-                                                                    <option value="AU">Australia</option>
-                                                                    <option selected="selected" value="NZ">New Zealand</option>
-                                                                </select>
-                                                            @else
-
-                                                                <select class="form-control" id="country_select" name="country" disabled>
-                                                                    <option selected="selected" value="AU">Australia</option>
-                                                                    <option value="NZ">New Zealand</option>
-                                                                </select>
-                                                            @endif
+                                                            {!! Form::select('country', $country, old('country', $registration->country), ['class' => 'form-control', 'data-change-state' => 'state_select', 'disabled']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -267,7 +256,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
                                                     <tr>
                                                         <td>
-                                                            <select class="form-control" id="company_country_select" name="company_country" disabled>
+                                                            <select class="form-control" id="company_country_select" data-change-state="company_state_select" name="company_country" disabled>
                                                                 <option selected="selected" value="AU">Australia</option>
                                                                 <option value="NZ">New Zealand</option>
                                                             </select>
@@ -359,8 +348,8 @@
                                                             </td>
                                                             <td>{{ $company->name }}</td>
                                                             <td>{{ $company->business_number }}</td>
-                                                            <td>{{ $company->company_addresses->where('type', 'Main Address')->first()->address }}</td>
-                                                            <td>{{ $company->company_addresses->where('type', 'Main Address')->first()->suburb }}</td>
+                                                            <td>{{ $company->company_addresses->where('type', 'Physical')->first()->address }}</td>
+                                                            <td>{{ $company->company_addresses->where('type', 'Physical')->first()->suburb }}</td>
                                                         </tr>
                                                         </tbody>
                                                     </table>

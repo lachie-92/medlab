@@ -15,7 +15,7 @@ class RegistrationTableSeeder extends Seeder
     {
         Patient_Registration::create([
             'title' => 'Mr.',
-            'email' => 'registrationPatient@testemail.com',
+            'email' => 'regpatientemailtest321@gmail.com',
             'first_name' => 'Patient',
             'last_name' => 'Registration',
             'password' => bcrypt('testtest'),
@@ -40,7 +40,7 @@ class RegistrationTableSeeder extends Seeder
 
         Practitioner_Registration::create([
             'title' => 'Mr.',
-            'email' => 'registrationPractitioner@testemail.com',
+            'email' => 'regpractitioneremailtest321@gmail.com',
             'first_name' => 'Practitioner',
             'last_name' => 'Registration',
             'password' => bcrypt('testtest'),

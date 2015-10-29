@@ -27,8 +27,6 @@ class CreateCustomersTable extends Migration {
 			$table->string('modality');
             $table->string('company_name');
 			$table->string('country');
-            $table->integer('main_address_id');
-            $table->integer('registration_email_id');
 
             //insert created_at and updated_at to timestamp
             $table->timestamps();

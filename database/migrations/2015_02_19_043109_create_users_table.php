@@ -22,8 +22,8 @@ class CreateUsersTable extends Migration
             $table->tinyInteger('tier')->unsigned();
             $table->boolean('newsletter_subscription');
             $table->dateTime('date_approved');
-            $table->string('approval_status');
-            $table->boolean('activated');
+            $table->string('approved_by');
+            $table->string('status');
             $table->boolean('account_credit');
             $table->string('timezone');
 

@@ -62,17 +62,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if($registration->practitioner_country == 'NZ')
-                                                                <select class="form-control" id="practitioner_not_found_country_select" name="practitioner_not_found_country" disabled>
-                                                                    <option value="AU">Australia</option>
-                                                                    <option selected="selected" value="NZ">New Zealand</option>
-                                                                </select>
-                                                            @else
-                                                                <select class="form-control" id="practitioner_not_found_country_select" name="practitioner_not_found_country" disabled>
-                                                                    <option selected="selected" value="AU">Australia</option>
-                                                                    <option value="NZ">New Zealand</option>
-                                                                </select>
-                                                            @endif
+                                                            {!! Form::select('practitioner_not_found_country', $country, old('country', $registration->practitioner_country), ['class' => 'form-control', 'data-change-state' => 'practitioner_not_found_state_select', 'disabled']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -219,7 +209,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
                                                     <tr>
                                                         <td>
-                                                            <select class="form-control" id="company_country_select" name="company_country">
+                                                            <select class="form-control" id="company_country_select" data-change-state="company_state_select" name="company_country">
                                                                 <option selected="selected" value="AU">Australia</option>
                                                                 <option value="NZ">New Zealand</option>
                                                             </select>
@@ -374,7 +364,7 @@
                                                         <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                                         <tr>
                                                             <td>
-                                                                @if(old('country') == "NZ")
+                                                                @if(old('create_new_country') == "NZ")
                                                                     {!! Form::select('create_new_state', $nzRegion, old('create_new_state'), ['class' => 'form-control', 'id' => 'create_new_state_select']) !!}
                                                                 @else
                                                                     {!! Form::select('create_new_state', $auState, old('create_new_state'), ['class' => 'form-control', 'id' => 'create_new_state_select']) !!}
@@ -388,18 +378,7 @@
                                                         <tr><th class="medlab_registration_form_section_subtitle">Country<span style="color: red;">*</span></th></tr>
                                                         <tr>
                                                             <td>
-                                                                @if(old('country') == "NZ")
-                                                                    <select class="form-control" id="create_new_country_select" name="create_new_country">
-                                                                        <option value="AU">Australia</option>
-                                                                        <option selected="selected" value="NZ">New Zealand</option>
-                                                                    </select>
-                                                                @else
-
-                                                                    <select class="form-control" id="create_new_country_select" name="create_new_country">
-                                                                        <option selected="selected" value="AU">Australia</option>
-                                                                        <option value="NZ">New Zealand</option>
-                                                                    </select>
-                                                                @endif
+                                                                {!! Form::select('create_new_country', $country, old('create_new_country'), ['class' => 'form-control', 'id' => 'create_new_country_select', 'data-change-state' => 'create_new_state_select']) !!}
                                                             </td>
                                                         </tr>
                                                     </table>

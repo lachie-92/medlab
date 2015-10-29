@@ -39,8 +39,6 @@ Route::get('/account/register/patient', 'LoginController@getRegisterPatient');
 
 Route::post('/account/register/patient', 'LoginController@postRegisterPatient');
 
-Route::post('/account/register/patient/getpractitionerlist', 'LoginController@postGetPractitionerList');
-
 Route::get('/account/recovery', 'Auth\PasswordController@getEmail');
 
 Route::post('/account/recovery', 'Auth\PasswordController@postEmail');
@@ -52,6 +50,17 @@ Route::get('/account/reset', function() {
 Route::get('/account/reset/{token}', 'Auth\PasswordController@getReset');
 
 Route::post('/account/reset', 'Auth\PasswordController@postReset');
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Search
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::post('/search/getcompanylist', 'SearchController@postGetCompanyList');
+
+Route::post('/search/getpractitionerlist', 'SearchController@postGetPractitionerList');
 
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -92,8 +101,6 @@ Route::post('/account/patient-registration/{patientRegistrationId}/restore', 'Ad
 Route::post('/account/patient-registration/{patientRegistrationId}/create', 'AdminController@postCreatePatientAccount');
 
 Route::get('/account/practitioner-registration', 'AdminController@getShowPractitionerRegistrations');
-
-Route::post('/account/practitioner-registration/getcompanylist', 'AdminController@postGetCompanyList');
 
 Route::post('/account/practitioner-registration/createclinic', 'AdminController@postCreateCompany');
 

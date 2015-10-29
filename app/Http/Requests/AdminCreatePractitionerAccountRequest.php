@@ -49,8 +49,8 @@ class AdminCreatePractitionerAccountRequest extends Request
             'change_password' => 'boolean',
             'password' => 'confirmed|min:6',
             'provider_number' => 'required|numeric',
-            'telephone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
-            'mobile_phone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
+            'telephone' => array('required','numeric'),
+            'mobile_phone' => array('required','numeric'),
             'company_id' => 'required|integer|exists:companies,id',
         ];
     }

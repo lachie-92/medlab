@@ -17,8 +17,8 @@
                     </td>
                     <td>{{ $practitioner->user->customer->name }}</td>
                     <td>{{ $practitioner->company->name }}</td>
-                    <td>{{ $practitioner->company->company_addresses->where('type', 'Main Address')->first()->address }}</td>
-                    <td>{{ $practitioner->company->company_addresses->where('type', 'Main Address')->first()->suburb }}</td>
+                    <td>{{ $practitioner->company->company_addresses->where('type', 'Physical')->first()->address }}</td>
+                    <td>{{ $practitioner->company->company_addresses->where('type', 'Physical')->first()->suburb }}</td>
                 </tr>
             @endforeach
         </tbody>

@@ -22,7 +22,6 @@ class CreateCompaniesTable extends Migration {
             $table->string('modality');
             $table->string('business_number')->unique();
             $table->string('country');
-            $table->string('main_address_id');
 			$table->dateTime('viewed_at');
 
             //insert created_at and updated_at to timestamp

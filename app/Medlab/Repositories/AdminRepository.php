@@ -15,6 +15,7 @@ use App\Practitioner;
 use App\Practitioner_Registration;
 use App\User;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Auth;
 
 class AdminRepository implements AdminRepositoryInterface
 {
@@ -188,13 +189,8 @@ class AdminRepository implements AdminRepositoryInterface
         // Create the customer
         $customer = $this->createCustomer($registration);
         $customerAddress = $this->createCustomerAddress($registration, $customer);
-        $customerEmail = $this->createCustomerEmail($registration, $customer);
         $customerTelephone = $this->createCustomerTelephone($registration, $customer);
         $customerMobile = $this->createCustomerMobile($registration, $customer);
-
-        $customer->main_address_id = $customerAddress->id;
-        $customer->registration_email_id = $customerEmail->id;
-        $customer->save();
 
         // Create the user and patient
         $newUser = $this->createUser($registration, $customer, 'Patient');
@@ -217,13 +213,8 @@ class AdminRepository implements AdminRepositoryInterface
         // Create the customer
         $customer = $this->createCustomer($registration);
         $customerAddress = $this->createCustomerAddress($registration, $customer);
-        $customerEmail = $this->createCustomerEmail($registration, $customer);
         $customerTelephone = $this->createCustomerTelephone($registration, $customer);
         $customerMobile = $this->createCustomerMobile($registration, $customer);
-
-        $customer->main_address_id = $customerAddress->id;
-        $customer->registration_email_id = $customerEmail->id;
-        $customer->save();
 
         // Create the user and practitioner
         $newUser = $this->createUser($registration, $customer, 'Practitioner');
@@ -239,7 +230,7 @@ class AdminRepository implements AdminRepositoryInterface
     public function createPractitionerRegistration($request)
     {
         $company = Company::findOrFail($request->company_id);
-        $companyMainAddress = $company->company_addresses->where('type', 'Main Address')->first();
+        $companyMainAddress = $company->company_addresses->where('type', 'Physical')->first();
 
         $registration = new Practitioner_Registration();
         $registration->title = $request->title;
@@ -282,7 +273,7 @@ class AdminRepository implements AdminRepositoryInterface
         $company->save();
 
         $companyAddress = new Company_Address();
-        $companyAddress->type = 'Main Address';
+        $companyAddress->type = 'Physical';
         $companyAddress->address = $request->company_street . ' ' . $request->company_suburb;
         $companyAddress->street = $request->company_street;
         $companyAddress->suburb = $request->company_suburb;
@@ -292,9 +283,6 @@ class AdminRepository implements AdminRepositoryInterface
         $companyAddress->country = $request->company_country;
         $companyAddress->company_id = $company->id;
         $companyAddress->save();
-
-        $company->main_address_id = $companyAddress->id;
-        $company->save();
     }
 
     /**
@@ -307,7 +295,7 @@ class AdminRepository implements AdminRepositoryInterface
     public function updatePatientRegistration($request, $registration)
     {
         $practitioner = Practitioner::findOrFail($request->practitioner_id);
-        $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
+        $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Physical')->first();
 
         $registration->title = $request->title;
         $registration->email = $request->email;
@@ -350,7 +338,7 @@ class AdminRepository implements AdminRepositoryInterface
     public function updatePractitionerRegistration($request, $registration)
     {
         $company = Company::findOrFail($request->company_id);
-        $companyMainAddress = $company->company_addresses->where('type', 'Main Address')->first();
+        $companyMainAddress = $company->company_addresses->where('type', 'Physical')->first();
 
         $registration->title = $request->title;
         $registration->email = $request->email;
@@ -401,7 +389,7 @@ class AdminRepository implements AdminRepositoryInterface
     }
 
     /**
-     * Create a Main Customer_Address with the given Registration
+     * Create a Account Customer_Address with the given Registration
      *
      * @param $registration
      * @param $customer
@@ -410,7 +398,7 @@ class AdminRepository implements AdminRepositoryInterface
     public function createCustomerAddress($registration, $customer)
     {
         $customerAddress = new Customer_Address();
-        $customerAddress->type = 'Main Address';
+        $customerAddress->type = 'Account';
         $customerAddress->address = $registration->street . " " . $registration->suburb;
         $customerAddress->street = $registration->street;
         $customerAddress->suburb = $registration->suburb;
@@ -425,7 +413,7 @@ class AdminRepository implements AdminRepositoryInterface
     }
 
     /**
-     * Create a Main Customer_Email with the given Registration
+     * Create a Account Customer_Email with the given Registration
      *
      * @param $registration
      * @param $customer
@@ -434,7 +422,7 @@ class AdminRepository implements AdminRepositoryInterface
     public function createCustomerEmail($registration, $customer)
     {
         $customerEmail = new Customer_Email();
-        $customerEmail->type = 'Main Email';
+        $customerEmail->type = 'Account Email';
         $customerEmail->email_address = $registration->email;
         $customerEmail->customer_id = $customer->id;
         $customerEmail->save();
@@ -443,7 +431,7 @@ class AdminRepository implements AdminRepositoryInterface
     }
 
     /**
-     * Create a Main Customer_Number with the given Registration
+     * Create a Account Customer_Number with the given Registration
      *
      * @param $registration
      * @param $customer
@@ -452,7 +440,7 @@ class AdminRepository implements AdminRepositoryInterface
     public function createCustomerTelephone($registration, $customer)
     {
         $customerTelephone = new Customer_Number();
-        $customerTelephone->type = 'Main Number';
+        $customerTelephone->type = 'Account Phone';
         $customerTelephone->number = $registration->telephone;
         $customerTelephone->customer_id = $customer->id;
         $customerTelephone->save();
@@ -461,7 +449,7 @@ class AdminRepository implements AdminRepositoryInterface
     }
 
     /**
-     * Create a Main Mobile Customer_Number with the given Registration
+     * Create a Account Mobile Customer_Number with the given Registration
      *
      * @param $registration
      * @param $customer
@@ -470,7 +458,7 @@ class AdminRepository implements AdminRepositoryInterface
     public function createCustomerMobile($registration, $customer)
     {
         $customerMobile = new Customer_Number();
-        $customerMobile->type = 'Main Mobile Number';
+        $customerMobile->type = 'Account Mobile';
         $customerMobile->number = $registration->mobile_phone;
         $customerMobile->customer_id = $customer->id;
         $customerMobile->save();
@@ -493,8 +481,9 @@ class AdminRepository implements AdminRepositoryInterface
         $newUser->password = $registration->password;
         $newUser->newsletter_subscription = false;
         $newUser->group = $userGroup;
-        $newUser->approval_status = 'approved';
-        $newUser->activated = true;
+        $newUser->date_approved = Carbon::now();
+        $newUser->approved_by = Auth::user()->customer->name;
+        $newUser->status = 'Active';
         $newUser->timezone = $registration->country;
         $newUser->customer_id = $customer->id;
         $newUser->save();

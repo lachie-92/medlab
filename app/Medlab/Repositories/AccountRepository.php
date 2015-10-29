@@ -34,10 +34,6 @@ class AccountRepository implements AccountRepositoryInterface
     {
         $user->email = $request->email;
         $user->save();
-
-        $mainEmail = $user->customer->customer_emails->where('type', 'Main Email')->first();
-        $mainEmail->email_address = $request->email;
-        $mainEmail->save();
     }
 
     /**
@@ -60,7 +56,7 @@ class AccountRepository implements AccountRepositoryInterface
      */
     public function updateUserAddress($request, $user)
     {
-        $mainAddress = $user->customer->customer_addresses->where('type', "Main Address")->first();
+        $mainAddress = $user->customer->customer_addresses->where('type', "Account")->first();
         $mainAddress->postcode = $request->postcode;
         $mainAddress->state = $request->state;
         $mainAddress->suburb = $request->street_address_two;
@@ -70,11 +66,11 @@ class AccountRepository implements AccountRepositoryInterface
         $mainAddress->country = $request->country;
         $mainAddress->save();
 
-        $mainPhone = $user->customer->customer_numbers->where('type', 'Main Number')->first();
+        $mainPhone = $user->customer->customer_numbers->where('type', 'Account Phone')->first();
         $mainPhone->number = $request->telephone;
         $mainPhone->save();
 
-        $mainMobile = $user->customer->customer_numbers->where('type', 'Main Mobile Number')->first();
+        $mainMobile = $user->customer->customer_numbers->where('type', 'Account Mobile')->first();
         $mainMobile->number = $request->mobile_phone;
         $mainMobile->save();
     }
@@ -87,8 +83,8 @@ class AccountRepository implements AccountRepositoryInterface
     public function getOrderListForCurrentUser()
     {
         $orders = Order::orderBy('created_at', 'desc')->
-        searchUserOrders()->
-        searchProcessedOrders()->get();
+            searchUserOrders()->
+            searchProcessedOrders()->get();
 
         return $orders;
     }

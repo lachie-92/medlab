@@ -2,11 +2,6 @@
 
     (function(){
 
-        var $companyCountrySelector = $('#company_country_select');
-        var $companyStateSelector = $('#company_state_select');
-        var $createNewCountrySelector = $('#create_new_country_select');
-        var $createNewStateSelector = $('#create_new_state_select');
-
         var australiaOptions = {
             'ACT': 'ACT',
             'NSW': 'NSW',
@@ -37,41 +32,27 @@
             'Southland': 'Southland'
         };
 
-        $companyCountrySelector.on('change', function(e) {
+        var toggleStateOption = function(e) {
 
-            var countrySelected = $(this).val();
+            var $country_option = $(this);
+            var countrySelected = $country_option.val();
+            var $target = $('#' + $country_option.attr('data-change-state'));
 
             if (countrySelected == 'AU') {
-                $companyStateSelector.empty();
+                $target.empty();
                 $.each(australiaOptions, function(value,key) {
-                    $companyStateSelector.append('<option value="' + value + '">' + key + '</option>');
+                    $target.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
             if (countrySelected == 'NZ') {
-                $companyStateSelector.empty();
+                $target.empty();
                 $.each(newzealandOptions, function(value,key) {
-                    $companyStateSelector.append('<option value="' + value + '">' + key + '</option>');
+                    $target.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
-        });
+        };
 
-        $createNewCountrySelector.on('change', function(e) {
-
-            var countrySelected = $(this).val();
-
-            if (countrySelected == 'AU') {
-                $createNewStateSelector.empty();
-                $.each(australiaOptions, function(value,key) {
-                    $createNewStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-            if (countrySelected == 'NZ') {
-                $createNewStateSelector.empty();
-                $.each(newzealandOptions, function(value,key) {
-                    $createNewStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-        });
+        $('select[data-change-state]').on('change', toggleStateOption);
 
         $('#find_company_btn').click(function(e) {
 
@@ -79,7 +60,7 @@
 
             $.ajax({
 
-                url: "/account/practitioner-registration/getcompanylist",
+                url: "/search/getcompanylist",
                 data: {
                     _token: "{{ csrf_token() }}",
                     company_country: $('#company_country_select').val(),

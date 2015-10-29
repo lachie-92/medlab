@@ -34,7 +34,7 @@ class ShoppingCartUpdateAddressRequest extends Request
             'shipping_state' => 'required|validState|max:30',
             'shipping_country' => 'required|validCountry|max:2',
             'shipping_postcode' => 'required|digits:4',
-            'shipping_phone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
+            'shipping_phone' => array('required','numeric'),
             'billing_title' => 'required|validTitle|max:10',
             'billing_first_name' => 'required|max:30',
             'billing_last_name' => 'required|max:30',

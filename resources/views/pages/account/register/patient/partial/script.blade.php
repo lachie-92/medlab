@@ -2,13 +2,6 @@
 
     (function(){
 
-        var $countrySelector = $('#country_select');
-        var $stateSelector = $('#state_select');
-        var $practitionerCountrySelector = $('#practitioner_country_select');
-        var $practitionerStateSelector = $('#practitioner_state_select');
-        var $practitionerNotFoundCountrySelector = $('#practitioner_not_found_country_select');
-        var $practitionerNotFoundStateSelector = $('#practitioner_not_found_state_select');
-
         var australiaOptions = {
             'ACT': 'ACT',
             'NSW': 'NSW',
@@ -39,59 +32,27 @@
             'Southland': 'Southland'
         };
 
-        $countrySelector.on('change', function(e) {
+        var toggleStateOption = function(e) {
 
-            var countrySelected = $(this).val();
+            var $country_option = $(this);
+            var countrySelected = $country_option.val();
+            var $target = $('#' + $country_option.attr('data-change-state'));
 
             if (countrySelected == 'AU') {
-                $stateSelector.empty();
+                $target.empty();
                 $.each(australiaOptions, function(value,key) {
-                    $stateSelector.append('<option value="' + value + '">' + key + '</option>');
+                    $target.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
             if (countrySelected == 'NZ') {
-                $stateSelector.empty();
+                $target.empty();
                 $.each(newzealandOptions, function(value,key) {
-                    $stateSelector.append('<option value="' + value + '">' + key + '</option>');
+                    $target.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
-        });
+        };
 
-        $practitionerCountrySelector.on('change', function(e) {
-
-            var countrySelected = $(this).val();
-
-            if (countrySelected == 'AU') {
-                $practitionerStateSelector.empty();
-                $.each(australiaOptions, function(value,key) {
-                    $practitionerStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-            if (countrySelected == 'NZ') {
-                $practitionerStateSelector.empty();
-                $.each(newzealandOptions, function(value,key) {
-                    $practitionerStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-        });
-
-        $practitionerNotFoundCountrySelector.on('change', function(e) {
-
-            var countrySelected = $(this).val();
-
-            if (countrySelected == 'AU') {
-                $practitionerNotFoundStateSelector.empty();
-                $.each(australiaOptions, function(value,key) {
-                    $practitionerNotFoundStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-            if (countrySelected == 'NZ') {
-                $practitionerNotFoundStateSelector.empty();
-                $.each(newzealandOptions, function(value,key) {
-                    $practitionerNotFoundStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-        });
+        $('select[data-change-state]').on('change', toggleStateOption);
 
         $('#practitioner_not_found').change(function() {
 
@@ -108,7 +69,7 @@
 
             $.ajax({
 
-                url: "/account/register/patient/getpractitionerlist",
+                url: "/search/getpractitionerlist",
                 data: {
                     _token: "{{ csrf_token() }}",
                     practitioner_country: $('#practitioner_country_select').val(),

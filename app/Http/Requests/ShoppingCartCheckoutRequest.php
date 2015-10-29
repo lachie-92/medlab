@@ -19,7 +19,7 @@ class ShoppingCartCheckoutRequest extends Request
 
         if ($order != null && $order->user_id == Auth::user()->id) {
 
-            if ($order->order_status == 'New order') {
+            if ($order->order_status == 'New Order') {
                 return true;
             }
         }

@@ -12,6 +12,7 @@ use App\Patient;
 use App\Practitioner;
 use App\Related_To;
 use App\User;
+use Carbon\Carbon;
 use Illuminate\Database\Seeder;
 
 class UserTableSeeder extends Seeder
@@ -44,15 +45,12 @@ class UserTableSeeder extends Seeder
                 'email' => 'patientemailtest321@gmail.com',
                 'password' => 'testtest',
                 'newsletter_subscription' => false,
-                'approval_status' => 'approved',
-                'activated' => true,
 
                 // Patient Phone
                 'main_number' => '12345678',
                 'mobile_number' => '12345678',
 
                 // Patient Address
-                'address_type' => 'Main Address',
                 'address' => '123 Fake Street Hornsby',
                 'street' => '123 Fake Street',
                 'suburb' => 'Hornsby',
@@ -77,8 +75,6 @@ class UserTableSeeder extends Seeder
                 'email' => 'practitioneremailtest321@gmail.com',
                 'password' => 'testtest',
                 'newsletter_subscription' => false,
-                'approval_status' => 'approved',
-                'activated' => true,
 
                 // Practitioner Phone
                 'main_number' => '12345678',
@@ -100,10 +96,8 @@ class UserTableSeeder extends Seeder
 
                 // Practitioner Company Phone
                 'company_main_number' => '12345678',
-                'company_mobile_number' => '12345678',
 
                 // Practitioner Company Address
-                'company_address_type' => 'Main Address',
                 'company_address' => '123 Fake Street Hornsby',
                 'company_street' => '123 Fake Street',
                 'company_suburb' => 'Hornsby',
@@ -124,8 +118,8 @@ class UserTableSeeder extends Seeder
                 'country' => $user['country']
             ]);
 
-            $mainAddress =Customer_Address::create([
-                'type' => 'Main Address',
+            $mainAddress = Customer_Address::create([
+                'type' => 'Account',
                 'address' => $user['address'],
                 'street' => $user['street'],
                 'suburb' => $user['suburb'],
@@ -136,24 +130,14 @@ class UserTableSeeder extends Seeder
                 'customer_id' => $customer->id
             ]);
 
-            $mainEmail = Customer_Email::create([
-                'type' => 'Main Email',
-                'email_address' => $user['email'],
-                'customer_id' => $customer->id
-            ]);
-
-            $customer->main_address_id = $mainAddress->id;
-            $customer->registration_email_id = $mainEmail->id;
-            $customer->save();
-
             Customer_Number::create([
-                'type' => 'Main Number',
+                'type' => 'Account Phone',
                 'number' => $user['main_number'],
                 'customer_id' => $customer->id
             ]);
 
             Customer_Number::create([
-                'type' => 'Main Mobile Number',
+                'type' => 'Account Mobile',
                 'number' => $user['mobile_number'],
                 'customer_id' => $customer->id
             ]);
@@ -167,7 +151,7 @@ class UserTableSeeder extends Seeder
             ]);
 
             $mainCompanyAddress = Company_Address::create([
-                'type' => 'Main Address',
+                'type' => 'Physical',
                 'address' => $user['company_address'],
                 'street' => $user['company_street'],
                 'suburb' => $user['company_suburb'],
@@ -178,18 +162,9 @@ class UserTableSeeder extends Seeder
                 'company_id' => $company->id
             ]);
 
-            $company->main_address_id = $mainCompanyAddress->id;
-            $company->save();
-
             Company_Number::create([
-                'type' => 'Main Number',
+                'type' => 'Main',
                 'number' => $user['company_main_number'],
-                'company_id' => $company->id
-            ]);
-
-            Company_Number::create([
-                'type' => 'Main Mobile Number',
-                'number' => $user['company_mobile_number'],
                 'company_id' => $company->id
             ]);
 
@@ -210,8 +185,9 @@ class UserTableSeeder extends Seeder
                 'password' => bcrypt($user['password']),
                 'newsletter_subscription' => $user['newsletter_subscription'],
                 'group' => 'Practitioner',
-                'approval_status' => $user['approval_status'],
-                'activated' => $user['activated'],
+                'date_approved' => Carbon::now(),
+                'status' => 'Active',
+                'approved_by' => 'Seeder',
                 'timezone' => $user['country'],
                 'customer_id' => $customer->id
             ]);
@@ -236,7 +212,7 @@ class UserTableSeeder extends Seeder
             ]);
 
             $mainAddress =Customer_Address::create([
-                'type' => 'Main Address',
+                'type' => 'Account',
                 'address' => $user['address'],
                 'street' => $user['street'],
                 'suburb' => $user['suburb'],
@@ -247,24 +223,14 @@ class UserTableSeeder extends Seeder
                 'customer_id' => $customer->id
             ]);
 
-            $mainEmail =Customer_Email::create([
-                'type' => 'Main Email',
-                'email_address' => $user['email'],
-                'customer_id' => $customer->id
-            ]);
-
-            $customer->main_address_id = $mainAddress->id;
-            $customer->registration_email_id = $mainEmail->id;
-            $customer->save();
-
             Customer_Number::create([
-                'type' => 'Main Number',
+                'type' => 'Account Phone',
                 'number' => $user['main_number'],
                 'customer_id' => $customer->id
             ]);
 
             Customer_Number::create([
-                'type' => 'Main Mobile Number',
+                'type' => 'Account Mobile',
                 'number' => $user['mobile_number'],
                 'customer_id' => $customer->id
             ]);
@@ -274,8 +240,9 @@ class UserTableSeeder extends Seeder
                 'password' => bcrypt($user['password']),
                 'newsletter_subscription' => $user['newsletter_subscription'],
                 'group' => 'Patient',
-                'approval_status' => $user['approval_status'],
-                'activated' => $user['activated'],
+                'date_approved' => Carbon::now(),
+                'status' => 'Active',
+                'approved_by' => 'Seeder',
                 'timezone' => $user['country'],
                 'customer_id' => $customer->id
             ]);

@@ -50,7 +50,7 @@
                     $target.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
-        }
+        };
 
         $('select[data-change-state]').on('change', toggleStateOption);
 

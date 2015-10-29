@@ -2,11 +2,6 @@
 
     (function(){
 
-        var $countrySelector = $('#country_select');
-        var $stateSelector = $('#state_select');
-        var $companyCountrySelector = $('#company_country_select');
-        var $companyStateSelector = $('#company_state_select');
-
         var australiaOptions = {
             'ACT': 'ACT',
             'NSW': 'NSW',
@@ -37,41 +32,27 @@
             'Southland': 'Southland'
         };
 
-        $countrySelector.on('change', function(e) {
+        var toggleStateOption = function(e) {
 
-            var countrySelected = $(this).val();
+            var $country_option = $(this);
+            var countrySelected = $country_option.val();
+            var $target = $('#' + $country_option.attr('data-change-state'));
 
             if (countrySelected == 'AU') {
-                $stateSelector.empty();
+                $target.empty();
                 $.each(australiaOptions, function(value,key) {
-                    $stateSelector.append('<option value="' + value + '">' + key + '</option>');
+                    $target.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
             if (countrySelected == 'NZ') {
-                $stateSelector.empty();
+                $target.empty();
                 $.each(newzealandOptions, function(value,key) {
-                    $stateSelector.append('<option value="' + value + '">' + key + '</option>');
+                    $target.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
-        });
+        };
 
-        $companyCountrySelector.on('change', function(e) {
-
-            var countrySelected = $(this).val();
-
-            if (countrySelected == 'AU') {
-                $companyStateSelector.empty();
-                $.each(australiaOptions, function(value,key) {
-                    $companyStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-            if (countrySelected == 'NZ') {
-                $companyStateSelector.empty();
-                $.each(newzealandOptions, function(value,key) {
-                    $companyStateSelector.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-        });
+        $('select[data-change-state]').on('change', toggleStateOption);
 
         $('#change_password_btn').click(function() {
 
@@ -98,7 +79,7 @@
 
             $.ajax({
 
-                url: "/account/practitioner-registration/getcompanylist",
+                url: "/search/getcompanylist",
                 data: {
                     _token: "{{ csrf_token() }}",
                     company_country: $('#company_country_select').val(),

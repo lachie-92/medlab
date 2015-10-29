@@ -45,7 +45,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
         }
         else {
             $practitioner = Practitioner::findOrFail($request->practitioner_id);
-            $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Main Address')->first();
+            $companyMainAddress = $practitioner->company->company_addresses->where('type', 'Physical')->first();
 
             $registration = Patient_Registration::create([
                 'title' => $request->title,

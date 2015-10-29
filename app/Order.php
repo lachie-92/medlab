@@ -20,7 +20,7 @@ class Order extends Model
 
     public function scopeSearchProcessedOrders($query)
     {
-        $query->where('order_status', '!=', 'New order');
+        $query->where('order_status', '!=', 'New Order');
     }
 
     public function scopeSearchCanceledOrders($query)
@@ -45,7 +45,7 @@ class Order extends Model
 
     public function scopeSearchDayOldUnprocessedOrders($query)
     {
-        $query->where('order_status', '=', 'New order')
+        $query->where('order_status', '=', 'New Order')
             ->where('created_at', '<', Carbon::yesterday());
     }
 

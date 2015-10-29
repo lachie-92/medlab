@@ -36,8 +36,8 @@ class GuestCreatePatientRegistrationRequest extends Request
             'state' => 'required|validState|max:30',
             'country' => 'required|validCountry|max:2',
             'postcode' => 'required|digits:4',
-            'telephone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
-            'mobile_phone' => array('required','regex:/^\({0,1}((0|\+61)(2|4|3|7|8)){0,1}\){0,1}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{2}(\ |-){0,1}[0-9]{1}(\ |-){0,1}[0-9]{3}$/'),
+            'telephone' => array('required','numeric'),
+            'mobile_phone' => array('required','numeric'),
             'practitioner_id' => 'integer|exists:practitioners,id',
             'practitioner_not_found' => 'boolean',
             'agree' => 'boolean|accepted'
