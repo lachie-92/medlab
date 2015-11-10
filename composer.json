@@ -19,7 +19,8 @@
         "phpunit/phpunit": "~4.0",
         "phpspec/phpspec": "~2.1",
         "doctrine/dbal": "2.6.x-dev",
-        "barryvdh/laravel-ide-helper": "2.0.*"
+        "barryvdh/laravel-ide-helper": "2.*.*",
+        "codeception/codeception": "*"
     },
     "autoload": {
         "classmap": [
@@ -43,6 +44,8 @@
             "php artisan clear-compiled"
         ],
         "post-update-cmd": [
+            "php artisan clear-compiled",
+            "php artisan ide-helper:generate",
             "php artisan optimize"
         ],
         "post-root-package-install": [

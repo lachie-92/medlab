@@ -78,7 +78,7 @@
                                             <form method="POST" action="/account/orders/details">
                                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                                 <input type="hidden" name="order" value="{{ $order->id }}">
-                                                <button class="btn btn-default" type="submit">View</button>
+                                                <button class="btn btn-default" type="submit" order="{{ $order->id }}">View</button>
                                             </form>
                                         </td>
                                     </tr>

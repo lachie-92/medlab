@@ -81,7 +81,7 @@
                                                 </span>
                                                     <input class="form-control" type="text" name="email" placeholder="Email" value="{{ old('email', $user->email) }}"/>
                                                 <span class="input-group-btn">
-                                                    <button class="btn btn-default" type="submit">Update</button>
+                                                    <button id="email_update_btn" class="btn btn-default" type="submit">Update</button>
                                                 </span>
                                             </div>
                                         </div>
@@ -171,7 +171,7 @@
                                                 {!! Form::checkbox('newsletter', 1, $user->newsletter_subscription) !!}
                                             </div>
                                             <div class="col-md-2 col-md-offset-1 col-sm-2 col-md-offset-1">
-                                                <button class="btn btn-default" type="submit">Update</button>
+                                                <button id="news_update_btn" class="btn btn-default" type="submit">Update</button>
                                             </div>
                                         </div>
                                     </form>
@@ -250,7 +250,7 @@
                                                 </table>
                                             </div>
                                         </div>
-                                        <button class="btn btn-default btn-block" type="submit" style="margin-top: 20px">
+                                        <button id="address_update_btn" class="btn btn-default btn-block" type="submit" style="margin-top: 20px">
                                             Update
                                         </button>
                                     </form>

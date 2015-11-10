@@ -1,0 +1,39 @@
+<?php
+$I = new AcceptanceTester($scenario);
+$I->wantTo('Change Address as Practitioner');
+$I->login('practitioneremailtest321@gmail.com', 'testtest');
+$I->amonPage('/account/edit');
+
+$I->fillField('street_address_one', 'changed');
+$I->fillField('street_address_two', 'changed');
+$I->fillField('city', 'changed');
+$I->selectOption('country', 'New Zealand');
+$I->selectOption('state', 'Auckland');
+$I->fillField('postcode', '1233');
+$I->fillField('telephone', '3414145');
+$I->fillField('mobile_phone', '134141415');
+$I->click('#address_update_btn');
+
+$I->see('Address has been updated');
+$I->seeInDatabase('customer_addresses', array(
+    'id' => 1,
+    'type' => 'Account',
+    'street' => 'changed',
+    'suburb' => 'changed',
+    'city' => 'changed',
+    'state' => 'Auckland',
+    'country' => 'NZ',
+    'postcode' => '1233'
+));
+
+$I->seeInDatabase('customer_numbers', array(
+    'id' => 1,
+    'type' => 'Account Phone',
+    'number' => '3414145'
+));
+
+$I->seeInDatabase('customer_numbers', array(
+    'id' => 2,
+    'type' => 'Account Mobile',
+    'number' => '134141415',
+));

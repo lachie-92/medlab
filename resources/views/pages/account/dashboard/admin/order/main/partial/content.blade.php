@@ -101,8 +101,8 @@
                                                     <form method="POST" action="/account/admin-orders/update">
                                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                                         <input type="hidden" name="order" value="{{ $order->id }}">
-                                                        {!! Form::select('order_status', $orderStatusList, old('order_status', $order->order_status), ['class' => 'btn btn-default btn-sm', 'style' => 'padding-left: 3px; padding-right: 3px']) !!}
-                                                        &nbsp;<button class="btn btn-default" type="submit">Update</button>
+                                                        {!! Form::select('order_status', $orderStatusList, old('order_status', $order->order_status), ['class' => 'btn btn-default btn-sm', 'order' => $order->id, 'style' => 'padding-left: 3px; padding-right: 3px']) !!}
+                                                        &nbsp;<button class="btn btn-default" type="submit" order="{{ $order->id }}">Update</button>
                                                     </form>
                                                 </td>
                                                 <td style="text-align: center; vertical-align: middle;">

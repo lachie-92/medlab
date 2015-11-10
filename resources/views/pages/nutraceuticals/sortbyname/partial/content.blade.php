@@ -66,12 +66,12 @@
                                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                             <input type="hidden" value="{{ $product->id }}" name="product_id">
                                             <input type="hidden" value="1" name="product_quantity">
-                                            <button class="btn btn-sm medlab_product_list_main_shopping_box_button_add" title="Add to Cart" type="submit">
+                                            <button class="btn btn-sm medlab_product_list_main_shopping_box_button_add" product="{{ $product->id }}" title="Add to Cart" type="submit">
                                                 <i class="fa fa-plus"></i>
                                                 Add to Cart
                                             </button>
                                         </form>
-                                        <button class="btn btn-info btn-sm medlab_product_list_main_shopping_box_button_info" onClick="location.href='/nutraceuticals/products/{{ $product->id }}'">
+                                        <button class="btn btn-info btn-sm medlab_product_list_main_shopping_box_button_info" product="{{ $product->id }}" onClick="location.href='/nutraceuticals/products/{{ $product->id }}'">
                                             Learn More
                                         </button>
                                     </div>

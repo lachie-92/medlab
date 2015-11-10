@@ -17,7 +17,7 @@ class Practitioner_Registration extends Model
         'business_type', 'abn', 'provider_number',
         'street', 'suburb', 'city',
         'state', 'country', 'postcode',
-        'telephone', 'mobile_phone'
+        'telephone', 'mobile_phone', 'business_number'
     ];
     protected $dates = ['approval', 'deleted_at'];
 

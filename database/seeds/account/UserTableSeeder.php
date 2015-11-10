@@ -38,7 +38,7 @@ class UserTableSeeder extends Seeder
         $patientList = [
             [
                 // Patient Detail
-                'title' => 'Mr.',
+                'title' => 'Mr',
                 'name' => 'patient test',
                 'first_name' => 'patient',
                 'last_name' => 'test',

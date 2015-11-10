@@ -35,6 +35,7 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
     public function createUserShippingAddress($user)
     {
         $accountAddress = $user->customer->customer_addresses->where('type', 'Account')->first();
+        $accountMobile = $user->customer->customer_numbers->where('type', 'Account Mobile')->first();
 
         $shippingAddress['title'] = $user->customer->title;
         $shippingAddress['first_name'] = $user->customer->first_name;
@@ -45,7 +46,7 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $shippingAddress['postcode'] = $accountAddress->postcode;
         $shippingAddress['state'] = $accountAddress->state;
         $shippingAddress['country'] = $accountAddress->country;
-        $shippingAddress['phone'] = $accountAddress->number;
+        $shippingAddress['phone'] = $accountMobile->number;
 
         return $shippingAddress;
     }
@@ -182,6 +183,7 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
 
             $buy_one_get_one_free_Promotion->orderedProduct_id = $buy_one_get_one_free_Product->id;
             $buy_one_get_one_free_Promotion->promotion_name = $promotion['name'];
+            $buy_one_get_one_free_Promotion->type = $promotion['type'];
             $buy_one_get_one_free_Promotion->promotion_description = $promotion['description'];
             $buy_one_get_one_free_Promotion->promotion_apply_to_group = $promotion['apply_to_group'];
             $buy_one_get_one_free_Promotion->promotion_starting_date = $promotion['starting_date'];

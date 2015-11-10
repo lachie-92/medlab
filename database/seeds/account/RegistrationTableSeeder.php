@@ -14,7 +14,7 @@ class RegistrationTableSeeder extends Seeder
     public function run()
     {
         Patient_Registration::create([
-            'title' => 'Mr.',
+            'title' => 'Mr',
             'email' => 'regpatientemailtest321@gmail.com',
             'first_name' => 'Patient',
             'last_name' => 'Registration',
@@ -39,7 +39,7 @@ class RegistrationTableSeeder extends Seeder
         ]);
 
         Practitioner_Registration::create([
-            'title' => 'Mr.',
+            'title' => 'Mr',
             'email' => 'regpractitioneremailtest321@gmail.com',
             'first_name' => 'Practitioner',
             'last_name' => 'Registration',

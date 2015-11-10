@@ -32,7 +32,7 @@
         <div class="row">
             <h2>Items in Your Basket</h2>
 
-            <table class="table">
+            <table class="table" id="cart_list">
                 <thead>
                 <tr>
                     <th colspan="3">Product Description</th>
@@ -81,7 +81,7 @@
                                     <button data-qty-plus-button target="product_qty_{{ $item['index'] }}" type="button">
                                         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                                     </button>
-                                    <button type="submit" class="btn btn-default btn-xs" style="margin-left: 15px">
+                                    <button type="submit" class="btn btn-default btn-xs" target="product_qty_{{ $item['index'] }}" style="margin-left: 15px">
                                         Update
                                     </button>
                                 </div>
@@ -103,7 +103,7 @@
         </div>
         <div class="row">
             <div class="pull-right">
-                <table class="table">
+                <table class="table" id="cart_summary">
                     <tbody>
                     <tr>
                         <th>

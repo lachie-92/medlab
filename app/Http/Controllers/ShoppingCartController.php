@@ -60,7 +60,7 @@ class ShoppingCartController extends Controller
     {
         $this->validate($request, [
             'product_id' => 'required|exists:products,id',
-            'product_quantity' => 'required|digits_between:0,99|'
+            'product_quantity' => 'required|integer|between:0,99'
         ]);
 
         $shoppingCart = $this->shoppingCart;
