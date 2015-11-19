@@ -100,7 +100,11 @@ class ViewServiceProvider extends ServiceProvider
         view()->composer('partial.navigation', function($view) {
 
             $repository = App::make('App\Medlab\Repositories\ShoppingCartRepositoryInterface');
-            $view->with('shoppingCart', new ShoppingCart($repository));
+            $guard = App::make('Illuminate\Contracts\Auth\Guard');
+            $session = App::make('Illuminate\Session\Store');
+            $shoppingCart = new ShoppingCart($repository, $session, $guard);
+            $shoppingCart->retrieveBasket();
+            $view->with('shoppingCart', $shoppingCart);
         });
 
         //

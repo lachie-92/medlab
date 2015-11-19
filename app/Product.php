@@ -35,4 +35,29 @@ class Product extends Model
     {
         return $this->hasMany('App\Promotion');
     }
+
+    //
+    // Helper Functions
+    //
+    /**
+     * Determine the price of the product on user's group
+     *
+     * @param $userGroup
+     * @return double|null
+     */
+    public function getProductPriceByUserGroup($userGroup)
+    {
+        switch($userGroup) {
+            case 'Practitioner':
+                $price = $this->price_wholesale;
+                break;
+            case 'Patient':
+                $price = $this->price_retail;
+                break;
+            default:
+                $price = null;
+        }
+
+        return $price;
+    }
 }

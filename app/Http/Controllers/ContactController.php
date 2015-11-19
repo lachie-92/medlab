@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Medlab\Mailer\MedlabMailer;
 use Illuminate\Http\Request;
 use App\Http\Requests;
-use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -22,9 +22,10 @@ class ContactController extends Controller
      * Send Enquiry Email to Medlab
      *
      * @param Request $request
+     * @param MedlabMailer $mail
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postSendEnquiryEmail(Request $request)
+    public function postSendEnquiryEmail(Request $request, MedlabMailer $mail)
     {
         $this->validate($request, [
             'name' => 'required|max:30',
@@ -40,15 +41,7 @@ class ContactController extends Controller
             'enquiry'
         ]);
 
-        $data = array();
-        $data['enquiry'] = serialize($enquiry);
-
-        Mail::queue('emails.enquiry', $data, function($message) use ($enquiry) {
-
-            $message->from($enquiry['email'])
-                ->to('13533test@gmail.com')
-                ->subject('Medlab - Enquiry from ' . $enquiry['name']);
-        });
+        $mail->sendEnquiryEmail($enquiry);
 
         return redirect('/contact')->with(['message' => 'Your Enquiry has been Sent']);
     }

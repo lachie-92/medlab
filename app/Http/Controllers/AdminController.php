@@ -8,11 +8,11 @@ use App\Http\Requests\AdminCreatePractitionerAccountRequest;
 use App\Http\Requests\AdminCreatePractitionerRegistrationRequest;
 use App\Http\Requests\OrderStatusUpdateRequest;
 use App\Http\Requests\OrderViewDetailsRequest;
+use App\Medlab\Mailer\MedlabMailer;
 use App\Medlab\Repositories\AccountRepositoryInterface;
 use App\Medlab\Repositories\AdminRepositoryInterface;
 use App\Patient_Registration;
 use App\Practitioner_Registration;
-use Illuminate\Support\Facades\Mail;
 
 class AdminController extends Controller
 {
@@ -24,24 +24,15 @@ class AdminController extends Controller
     protected $repository;
 
     /**
-     * Account Repository for the Controller
-     *
-     * @var AccountRepositoryInterface
-     */
-    protected $accountRepository;
-
-    /**
      * Constructor for the AdminController
      *
      * @param AdminRepositoryInterface $repository
-     * @param AccountRepositoryInterface $accountRepository
      */
-    public function __construct(AdminRepositoryInterface $repository, AccountRepositoryInterface $accountRepository)
+    public function __construct(AdminRepositoryInterface $repository)
     {
         $this->middleware('authAdmin');
 
         $this->repository = $repository;
-        $this->accountRepository = $accountRepository;
 
         parent::__construct();
     }
@@ -128,18 +119,13 @@ class AdminController extends Controller
      *
      * @param AdminCreatePatientAccountRequest $request
      * @param Patient_Registration $registration
+     * @param MedlabMailer $mail
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postCreatePatientAccount(AdminCreatePatientAccountRequest $request, Patient_Registration $registration)
+    public function postCreatePatientAccount(AdminCreatePatientAccountRequest $request, Patient_Registration $registration, MedlabMailer $mail)
     {
         $this->repository->createPatientAccount($request, $registration);
-
-        Mail::queue('emails.registration_approved', compact('registration'), function($message) use ($registration) {
-
-            $message->from('registration_temp_email@medlab.co')
-                ->to($registration->email)
-                ->subject('Medlab -  Your Registration has been approved');
-        });
+        $mail->sendRegistrationApprovalEmail($registration);
 
         return redirect('/account/patient-registration')->with(['message' => 'Account has been created']);
     }
@@ -161,19 +147,14 @@ class AdminController extends Controller
      * Create a Practitioner account base on Patient Registration
      *
      * @param AdminCreatePractitionerRegistrationRequest $request
+     * @param MedlabMailer $mail
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postNewPractitionerRegistration(AdminCreatePractitionerRegistrationRequest $request)
+    public function postNewPractitionerRegistration(AdminCreatePractitionerRegistrationRequest $request, MedlabMailer $mail)
     {
         $registration = $this->repository->createPractitionerRegistration($request);
         $this->repository->createPractitionerAccount(null, $registration);
-
-        Mail::queue('emails.registration_approved', compact('registration'), function($message) use ($registration) {
-
-            $message->from('registration_temp_email@medlab.co')
-                ->to($registration->email)
-                ->subject('Medlab -  Your Registration has been approved');
-        });
+        $mail->sendRegistrationApprovalEmail($registration);
 
         return redirect('/account/practitioner-registration')->with(['message' => 'Account has been created']);
     }
@@ -248,18 +229,13 @@ class AdminController extends Controller
      *
      * @param AdminCreatePractitionerAccountRequest $request
      * @param Practitioner_Registration $registration
+     * @param MedlabMailer $mail
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function postCreatePractitionerAccount(AdminCreatePractitionerAccountRequest $request, Practitioner_Registration $registration)
+    public function postCreatePractitionerAccount(AdminCreatePractitionerAccountRequest $request, Practitioner_Registration $registration, MedlabMailer $mail)
     {
         $this->repository->createPractitionerAccount($request, $registration);
-
-        Mail::queue('emails.registration_approved', compact('registration'), function($message) use ($registration) {
-
-            $message->from('registration_temp_email@medlab.co')
-                ->to($registration->email)
-                ->subject('Medlab -  Your Registration has been approved');
-        });
+        $mail->sendRegistrationApprovalEmail($registration);
 
         return redirect('/account/practitioner-registration')->with(['message' => 'Account has been created']);
     }
@@ -322,11 +298,12 @@ class AdminController extends Controller
      * Display a single Order
      *
      * @param OrderViewDetailsRequest $request
+     * @param AccountRepositoryInterface $accountRepository
      * @return \Illuminate\Http\Response
      */
-    public function postAdminOrderDetails(OrderViewDetailsRequest $request)
+    public function postAdminOrderDetails(OrderViewDetailsRequest $request, AccountRepositoryInterface $accountRepository)
     {
-        $order = $this->accountRepository->getOrderDetails($request);
+        $order = $accountRepository->getOrderDetails($request);
 
         return view('pages.account.dashboard.admin.order.details.index', compact(
             'order'

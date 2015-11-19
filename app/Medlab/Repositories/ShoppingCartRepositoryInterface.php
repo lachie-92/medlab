@@ -10,7 +10,7 @@ interface ShoppingCartRepositoryInterface
     public function getProductListInBasket($basketArrayInSession);
     public function createUserShippingAddress($user);
     public function createUserBillingAddress($user);
-    public function createOrder($user, $shoppingCart);
+    public function createOrder($user, $subtotal, $GST, $shippingCost, $discount, $total, $shippingAddress, $billingAddress);
     public function createOrderedProduct($order, $item);
     public function createOrderedProductPromotion($order, $orderedProduct, $promotion);
 }

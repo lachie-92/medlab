@@ -4,10 +4,10 @@ namespace App\Http\Controllers;
 use App\Http\Requests\ShoppingCartCheckoutRequest;
 use App\Http\Requests\ShoppingCartUpdateAddressRequest;
 use App\Medlab\Billing\BillingInterface;
+use App\Medlab\Mailer\MedlabMailer;
 use App\Medlab\ShoppingCart\ShoppingCart;
 use App\Order;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
 
 class ShoppingCartController extends Controller
 {
@@ -46,6 +46,7 @@ class ShoppingCartController extends Controller
     public function getShoppingCart()
     {
         $shoppingCart = $this->shoppingCart;
+        $shoppingCart->retrieveBasket();
 
         return view('pages.shoppingcart.cart.index', compact('shoppingCart'));
     }
@@ -63,8 +64,13 @@ class ShoppingCartController extends Controller
             'product_quantity' => 'required|integer|between:0,99'
         ]);
 
+        $update = $request->only([
+            'product_id',
+            'product_quantity'
+        ]);
+
         $shoppingCart = $this->shoppingCart;
-        $shoppingCart->updateBasket($request);
+        $shoppingCart->updateBasket($update);
 
         return redirect('/shoppingcart/cart');
     }
@@ -77,6 +83,7 @@ class ShoppingCartController extends Controller
     public function getAddress()
     {
         $shoppingCart = $this->shoppingCart;
+        $shoppingCart->retrieveBasket();
         $shoppingCart->getShippingAddress();
         $shoppingCart->getBillingAddress();
 
@@ -91,9 +98,35 @@ class ShoppingCartController extends Controller
      */
     public function postAddress(ShoppingCartUpdateAddressRequest $request)
     {
+        $shippingAddress = $request->only([
+            'shipping_title',
+            'shipping_first_name',
+            'shipping_last_name',
+            'shipping_street_address_one',
+            'shipping_street_address_two',
+            'shipping_city',
+            'shipping_state',
+            'shipping_country',
+            'shipping_postcode',
+            'shipping_phone'
+        ]);
+
+        $billingAddress = $request->only([
+            'billing_title',
+            'billing_first_name',
+            'billing_last_name',
+            'billing_street_address_one',
+            'billing_street_address_two',
+            'billing_city',
+            'billing_state',
+            'billing_country',
+            'billing_postcode',
+        ]);
+
         $shoppingCart = $this->shoppingCart;
-        $shoppingCart->updateShippingAddress($request);
-        $shoppingCart->updateBillingAddress($request);
+        $shoppingCart->retrieveBasket();
+        $shoppingCart->updateShippingAddress($shippingAddress);
+        $shoppingCart->updateBillingAddress($billingAddress);
         $order = $shoppingCart->createOrder();
         session()->put('new_order', $order);
 
@@ -124,9 +157,10 @@ class ShoppingCartController extends Controller
      *
      * @param ShoppingCartCheckoutRequest $request
      * @param BillingInterface $billing
-     * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
+     * @param MedlabMailer $mail
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response
      */
-    public function postCheckout(ShoppingCartCheckoutRequest $request, BillingInterface $billing)
+    public function postCheckout(ShoppingCartCheckoutRequest $request, BillingInterface $billing, MedlabMailer $mail)
     {
         $result = $billing->processOrder($request);
 
@@ -136,16 +170,7 @@ class ShoppingCartController extends Controller
             session()->forget('new_order');
 
             $order = Order::findOrFail($request['order']);
-
-            $data = array();
-            $data['order'] = serialize($order);
-
-            Mail::queue('emails.new_order_received', $data, function($message) use ($order) {
-
-                $message->from('order_temp_email@medlab.co')
-                    ->to('13533test@gmail.com')
-                    ->subject('Medlab - A New Order has been received');
-            });
+            $mail->sendOrderReceivedNoticeToAdmin($order);
 
             return view('pages.shoppingcart.order.index', compact('order'));
         }

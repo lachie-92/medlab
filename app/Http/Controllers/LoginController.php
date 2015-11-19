@@ -4,13 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\GuestCreatePatientRegistrationRequest;
 use App\Http\Requests\GuestCreatePractitionerRegistrationRequest;
+use App\Medlab\Mailer\MedlabMailer;
 use App\Medlab\Repositories\RegistrationRepositoryInterface;
-use App\Medlab\Repositories\SearchRepositoryInterface;
 use App\Medlab\Traits\DefineAccountParameters;
 use App\Http\Requests\UserLoginRequest;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Support\Facades\Auth;
-use Mail;
 
 class LoginController extends Controller
 {
@@ -116,26 +115,14 @@ class LoginController extends Controller
      * Process the practitioner register.
      *
      * @param GuestCreatePractitionerRegistrationRequest $request
-     *
+     * @param MedlabMailer $mail
      * @return \Illuminate\Http\Response
      */
-    public function postRegisterPractitioner(GuestCreatePractitionerRegistrationRequest $request)
+    public function postRegisterPractitioner(GuestCreatePractitionerRegistrationRequest $request, MedlabMailer $mail)
     {
         $registration = $this->repository->createPractitionerRegistrationForGuest($request);
-
-        Mail::queue('emails.registration_received', compact('registration'), function($message) use ($registration) {
-
-            $message->from('registration_temp_email@medlab.co')
-                ->to($registration->email)
-                ->subject('Medlab - Your Registration has been received');
-        });
-
-        Mail::queue('emails.new_registration_received', compact('registration'), function($message) use ($registration) {
-
-            $message->from('registration_temp_email@medlab.co')
-                ->to('13533test@gmail.com')
-                ->subject('Medlab - A New Registration has been received');
-        });
+        $mail->sendRegistrationReceivedEmail($registration);
+        $mail->sendRegistrationReceivedNoticeToAdmin($registration);
 
         return view('pages.account.register.approval.index');
     }
@@ -154,26 +141,14 @@ class LoginController extends Controller
      * Process the patient register.
      *
      * @param GuestCreatePatientRegistrationRequest $request
-     *
+     * @param MedlabMailer $mail
      * @return \Illuminate\Http\Response
      */
-    public function postRegisterPatient(GuestCreatePatientRegistrationRequest $request)
+    public function postRegisterPatient(GuestCreatePatientRegistrationRequest $request, MedlabMailer $mail)
     {
         $registration = $this->repository->createPatientRegistrationForGuest($request);
-
-        Mail::queue('emails.registration_received', compact('registration'), function($message) use ($registration) {
-
-            $message->from('registration_temp_email@medlab.co')
-                ->to($registration->email)
-                ->subject('Medlab - Your Registration has been received');
-        });
-
-        Mail::queue('emails.new_registration_received', compact('registration'), function($message) use ($registration) {
-
-            $message->from('registration_temp_email@medlab.co')
-                ->to('13533test@gmail.com')
-                ->subject('Medlab - A New Registration has been received');
-        });
+        $mail->sendRegistrationReceivedEmail($registration);
+        $mail->sendRegistrationReceivedNoticeToAdmin($registration);
 
         return view('pages.account.register.approval.index');
     }
