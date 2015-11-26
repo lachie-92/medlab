@@ -16,6 +16,7 @@ trait UsefulViewFunctions {
     private function createAuStateList()
     {
         return [
+            '' => '',
             'ACT' => 'ACT',
             'NSW' => 'NSW',
             'NT' => 'NT',
@@ -30,6 +31,7 @@ trait UsefulViewFunctions {
     private function createNzRegionList()
     {
         return [
+            '' => '',
             'Northland' => 'Northland',
             'Auckland' => 'Auckland',
             'Waikato' => 'Waikato',
@@ -52,6 +54,7 @@ trait UsefulViewFunctions {
     private function createTitleList()
     {
         return [
+            '' => '',
             'Mr' => 'Mr',
             'Ms' => 'Ms',
             'Miss' => 'Miss',
