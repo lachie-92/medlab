@@ -135,69 +135,69 @@ class ShoppingCart {
         $this->basket = $this->session->get('basket', []);
 
         // Only process the Shopping cart when user is login and shopping cart is not empty
-        if (!($this->userHasLogin) || empty($this->basket)) {
-            return;
-        }
+        if ($this->userHasLogin && !empty($this->basket)) {
 
-        // Retrieve the product list from the database
-        $products = $this->repository->getProductListInBasket($this->basket);
-        $basket = [];
-        $index = 0;
+            // Retrieve the product list from the database
+            $products = $this->repository->getProductListInBasket($this->basket);
+            $processedBasket = [];
+            $index = 0;
 
-        // Process each product in the basket
-        foreach($products as $product) {
+            // Process each product in the basket
+            foreach($products as $product) {
 
-            // Find out the product price, quantity, discount rate, and promotions
-            $price = $product->getProductPriceByUserGroup($this->user->group);
-            $qty = $this->basket[$product->id];
-            $promotions = [];
+                // Find out the product price, quantity, discount rate, and promotions
+                $price = $product->getProductPriceByUserGroup($this->user->group);
+                $qty = $this->basket[$product->id];
+                $promotions = [];
 
-            // Process each promotion associated with the product
-            foreach ($product->promotions as $promotion) {
+                // Process each promotion associated with the product
+                foreach ($product->promotions as $promotion) {
 
-                // Check the user is eligible for the promotion
-                if ($promotion->isEligibleForPromotion($this->user->group)) {
+                    // Check the user is eligible for the promotion
+                    if ($promotion->isEligibleForPromotion($this->user->group)) {
 
-                    $promotions[] = $promotion->applyPromotion($price, $qty);
+                        $promotions[] = $promotion->applyPromotion($price, $qty);
+                    }
                 }
+
+                // Calculate the product for the shopping cart
+                $discount_percentage = 0;
+                $discount = 0;
+
+                foreach ($promotions as $promotion) {
+
+                    $discount_percentage += $promotion['discount_percentage'];
+                    $discount += $promotion['discount_from_free_qty'];
+                }
+
+                $priceAfterDiscount = $this->applyDiscount($price, $discount_percentage);
+                $total = $priceAfterDiscount * $qty;
+                $discount += $price * $qty - $total;
+
+                // Add the amounts toward shopping cart subtotal and total discount
+                $this->subtotal += $total;
+                $this->discount += $discount;
+
+                // Push the product information into basket array
+                $processedBasket[] = [
+                    'index' => $index++,
+                    'product' => $product,
+                    'quantity' => $qty,
+                    'original_price' => $price,
+                    'price' => $priceAfterDiscount,
+                    'discount_percentage' => $discount_percentage,
+                    'discount' => $discount,
+                    'total' => $total,
+                    'promotions' => $promotions,
+                ];
             }
 
-            $discount_percentage = 0;
-            $discount = 0;
+            $this->basket = $processedBasket;
 
-            foreach ($promotions as $promotion) {
-
-                $discount_percentage += $promotion['discount_percentage'];
-                $discount += $promotion['discount_from_free_qty'];
-            }
-
-            $priceAfterDiscount = $this->applyDiscount($price, $discount_percentage);
-            $total = $priceAfterDiscount * $qty;
-            $discount += $price * $qty - $total;
-
-            // Add the amounts toward shopping cart subtotal and total discount
-            $this->subtotal += $total;
-            $this->discount += $discount;
-
-            // Push the product information into basket array
-            $basket[] = [
-                'index' => $index++,
-                'product' => $product,
-                'quantity' => $qty,
-                'original_price' => $price,
-                'price' => $priceAfterDiscount,
-                'discount_percentage' => $discount_percentage,
-                'discount' => $discount,
-                'total' => $total,
-                'promotions' => $promotions,
-            ];
+            // Calculate Grand total and GST
+            $this->GST = round($this->subtotal * $this->tax, 2);
+            $this->total = $this->subtotal + $this->GST + $this->shippingCost;
         }
-
-        $this->basket = $basket;
-
-        // Calculate Grand total and GST
-        $this->GST = round($this->subtotal * $this->tax, 2);
-        $this->total = $this->subtotal + $this->GST + $this->shippingCost;
     }
 
     /**

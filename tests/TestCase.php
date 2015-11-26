@@ -22,4 +22,43 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
 
         return $app;
     }
+
+    public function setUp()
+    {
+        parent::setUp();
+
+        Artisan::call('migrate:refresh');
+        Artisan::call('db:seed');
+    }
+
+    protected function createShippingAddress()
+    {
+        return [
+            'shipping_title' => 'Mr',
+            'shipping_first_name' => 'name',
+            'shipping_last_name' => 'phpunit',
+            'shipping_street_address_one' => 'street',
+            'shipping_street_address_two' => 'suburb',
+            'shipping_city' => 'city',
+            'shipping_state' => 'NSW',
+            'shipping_country' => 'AU',
+            'shipping_postcode' => '1234',
+            'shipping_phone' => '12345678'
+        ];
+    }
+
+    protected function createBillingAddress()
+    {
+        return [
+            'billing_title' => 'Mr',
+            'billing_first_name' => 'name',
+            'billing_last_name' => 'phpunit',
+            'billing_street_address_one' => 'street',
+            'billing_street_address_two' => 'suburb',
+            'billing_city' => 'city',
+            'billing_state' => 'NSW',
+            'billing_country' => 'AU',
+            'billing_postcode' => '1234',
+        ];
+    }
 }

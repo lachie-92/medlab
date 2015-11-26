@@ -27,12 +27,6 @@ class BraintreeBilling implements BillingInterface
 
     public function processOrder($request)
     {
-        $request = $request->only([
-            'payment_token',
-            'payment_type',
-            'order'
-        ]);
-
         $order = Order::findOrFail($request['order']);
         $user = $order->user;
 

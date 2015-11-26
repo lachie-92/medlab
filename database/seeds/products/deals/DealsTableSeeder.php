@@ -26,7 +26,7 @@ class DealsTableSeeder extends Seeder
                 'description' => 'Get one free for every three purchase',
                 'isActive' => true,
                 'starting_date' => Carbon::now(),
-                'end_date' => Carbon::now()->addWeeks(3),
+                'end_date' => Carbon::now()->addYear(10),
                 'minimum_qty' => '3',
                 'bonus_qty' => '1',
 
@@ -55,7 +55,7 @@ class DealsTableSeeder extends Seeder
                 'description' => '20% off Enbiotic 120',
                 'isActive' => true,
                 'starting_date' => Carbon::now(),
-                'end_date' => Carbon::now()->addWeeks(2),
+                'end_date' => Carbon::now()->addYear(10),
                 'discount_percentage' => '20'
             ],
             [
@@ -66,7 +66,7 @@ class DealsTableSeeder extends Seeder
                 'description' => '30% off MultiBiotic 60',
                 'isActive' => true,
                 'starting_date' => Carbon::now(),
-                'end_date' => Carbon::now()->addWeeks(2),
+                'end_date' => Carbon::now()->addYear(10),
                 'discount_percentage' => '30'
             ]
         ];

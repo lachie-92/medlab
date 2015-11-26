@@ -130,9 +130,7 @@ $I->seeInDatabase('orderedProducts_Promotions', array(
     'promotion_name' => 'Biotic Jnr. Promotion',
     'type' => 'buy_one_get_one_free',
     'promotion_description' => 'Get one free for every three purchase',
-    'promotion_apply_to_group' => 'Patient',
-    'promotion_starting_date' => '2015-11-05 19:39:52',
-    'promotion_end_date' => '2015-11-26 19:39:52',
+    'promotion_apply_to_group' => 'Patient'
 ));
 
 $I->seeInDatabase('orderedProducts_Promotions', array(
@@ -141,9 +139,7 @@ $I->seeInDatabase('orderedProducts_Promotions', array(
     'promotion_name' => 'Biotic Jnr. Promotion',
     'type' => 'buy_one_get_one_free',
     'promotion_description' => 'Get one free for every three purchase',
-    'promotion_apply_to_group' => 'Patient',
-    'promotion_starting_date' => '2015-11-05 19:39:52',
-    'promotion_end_date' => '2015-11-26 19:39:52',
+    'promotion_apply_to_group' => 'Patient'
 ));
 
 $I->seeInDatabase('orderedProducts_Promotions', array(
@@ -152,9 +148,7 @@ $I->seeInDatabase('orderedProducts_Promotions', array(
     'promotion_name' => 'Enbiotic 120\'s Sales',
     'type' => 'price_discount',
     'promotion_description' => '20% off Enbiotic 120',
-    'promotion_apply_to_group' => 'Patient',
-    'promotion_starting_date' => '2015-11-05 19:39:52',
-    'promotion_end_date' => '2015-11-19 19:39:52',
+    'promotion_apply_to_group' => 'Patient'
 ));
 
 $I->seeCurrentUrlEquals('/shoppingcart/summary');
