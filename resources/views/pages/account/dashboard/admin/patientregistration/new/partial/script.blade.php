@@ -3,33 +3,15 @@
     (function(){
 
         var australiaOptions = {
-            'ACT': 'ACT',
-            'NSW': 'NSW',
-            'NT': 'NT',
-            'QLD': 'QLD',
-            'SA': 'SA',
-            'TAS': 'TAS',
-            'VIC': 'VIC',
-            'WA': 'WA'
+            @foreach($auState as $key => $value)
+                '{{ $key }}': '{{ $value }}',
+            @endforeach
         };
 
         var newzealandOptions = {
-            'Northland': 'Northland',
-            'Auckland': 'Auckland',
-            'Waikato': 'Waikato',
-            'Bay of Plenty': 'Bay of Plenty',
-            'Gisborne': 'Gisborne',
-            "Hawke's Bay": "Hawke's Bay",
-            'Taranaki': 'Taranaki',
-            'Manawatu-Wanganui': 'Manawatu-Wanganui',
-            'Wellington': 'Wellington',
-            'Tasman': 'Tasman',
-            'Nelson': 'Nelson',
-            'Marlborough': 'Marlborough',
-            'West Coast': 'West Coast',
-            'Canterbury': 'Canterbury',
-            'Otago': 'Otago',
-            'Southland': 'Southland'
+            @foreach($nzRegion as $key => $value)
+                '{{ $key }}': '{{ $value }}',
+            @endforeach
         };
 
         var toggleStateOption = function(e) {
