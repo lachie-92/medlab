@@ -447,4 +447,205 @@ class UseShoppingCartTest extends TestCase
             'grand_total' => 80.11
         ]);
     }
+
+    public function test_it_allows_practitioner_to_uses_braintree_to_checkout()
+    {
+        Session::start();
+
+        $patient = User::where('email', 'practitioneremailtest321@gmail.com')->first();
+        Auth::login($patient);
+        $this->withSession(['basket' => ['1' => '1']]);
+
+        $shippingAddress = $this->createShippingAddress();
+        $billingAddress = $this->createBillingAddress();
+        $data = array_merge($shippingAddress, $billingAddress, ['_token' => csrf_token()]);
+        $this->call('POST', '/shoppingcart/address', $data);
+
+        $request = [
+            'payment_token' => 'fake-valid-nonce',
+            'payment_type' => 'CreditCard',
+            'order' => '1001',
+            '_token' => csrf_token(),
+        ];
+
+        $this->call('POST', '/shoppingcart/checkout', $request);
+
+        $this->seeInDatabase('orders', [
+            'id' => 1001,
+            'user_id' => 2,
+            'shipping_address_title' => 'Mr',
+            'shipping_address_first_name' => 'name',
+            'shipping_address_last_name' => 'phpunit',
+            'shipping_address_street' => 'street',
+            'shipping_address_suburb' => 'suburb',
+            'shipping_address_state' => 'NSW',
+            'shipping_address_country' => 'AU',
+            'shipping_address_postcode' => '1234',
+            'shipping_address_city' => 'city',
+            'shipping_address_phone' => '12345678',
+            'billing_address_title' => 'Mr',
+            'billing_address_first_name' => 'name',
+            'billing_address_last_name' => 'phpunit',
+            'billing_address_street' => 'street',
+            'billing_address_suburb' => 'suburb',
+            'billing_address_state' => 'NSW',
+            'billing_address_country' => 'AU',
+            'billing_address_postcode' => '1234',
+            'billing_address_city' => 'city',
+            'payment_type' => 'CreditCard',
+            'order_status' => 'Order Received',
+            'subtotal' => 38.08,
+            'GST' => 3.81,
+            'shipping_cost' => 11,
+            'discount' => 0,
+            'grand_total' => 52.89
+        ]);
+    }
+
+    public function test_it_applies_buy_one_get_one_free_promotion()
+    {
+        Session::start();
+
+        $patient = User::where('email', 'patientemailtest321@gmail.com')->first();
+        Auth::login($patient);
+        $this->withSession(['basket' => ['1' => '3']]);
+
+        $shippingAddress = $this->createShippingAddress();
+        $billingAddress = $this->createBillingAddress();
+        $data = array_merge($shippingAddress, $billingAddress, ['_token' => csrf_token()]);
+        $this->call('POST', '/shoppingcart/address', $data);
+        $this->assertRedirectedTo('/shoppingcart/summary');
+
+        $this->seeInDatabase('orders', [
+            'id' => 1001,
+            'user_id' => 3,
+            'shipping_address_title' => 'Mr',
+            'shipping_address_first_name' => 'name',
+            'shipping_address_last_name' => 'phpunit',
+            'shipping_address_street' => 'street',
+            'shipping_address_suburb' => 'suburb',
+            'shipping_address_state' => 'NSW',
+            'shipping_address_country' => 'AU',
+            'shipping_address_postcode' => '1234',
+            'shipping_address_city' => 'city',
+            'shipping_address_phone' => '12345678',
+            'billing_address_title' => 'Mr',
+            'billing_address_first_name' => 'name',
+            'billing_address_last_name' => 'phpunit',
+            'billing_address_street' => 'street',
+            'billing_address_suburb' => 'suburb',
+            'billing_address_state' => 'NSW',
+            'billing_address_country' => 'AU',
+            'billing_address_postcode' => '1234',
+            'billing_address_city' => 'city',
+            'order_status' => 'New Order',
+            'subtotal' => 188.49,
+            'GST' => 18.85,
+            'shipping_cost' => 11,
+            'discount' => 62.83,
+            'grand_total' => 218.34
+        ]);
+
+        $this->seeInDatabase('orderedProducts', [
+            'id' => 4,
+            'order_id' => 1001,
+            'product_name' => 'Biotic Jnr.',
+            'line_price' => 62.83,
+            'line_quantity' => 3,
+            'discount_percentage' => 0,
+            'discounted_price' => 62.83,
+            'line_total' => 188.49,
+        ]);
+
+        $this->seeInDatabase('orderedProducts', [
+            'id' => 5,
+            'order_id' => 1001,
+            'product_name' => 'Free - Biotic Jnr.',
+            'line_price' => 62.83,
+            'line_quantity' => 1,
+            'discount_percentage' => 100,
+            'discounted_price' => 0,
+            'line_total' => 0,
+        ]);
+
+        $this->seeInDatabase('orderedProducts_Promotions', [
+            'orderedProduct_id' => 4,
+            'promotion_name' => 'Biotic Jnr. Promotion',
+            'type' => 'buy_one_get_one_free',
+            'promotion_description' => 'Get one free for every three purchase',
+            'promotion_apply_to_group' => 'Patient'
+        ]);
+
+        $this->seeInDatabase('orderedProducts_Promotions', [
+            'orderedProduct_id' => 5,
+            'promotion_name' => 'Biotic Jnr. Promotion',
+            'type' => 'buy_one_get_one_free',
+            'promotion_description' => 'Get one free for every three purchase',
+            'promotion_apply_to_group' => 'Patient'
+        ]);
+    }
+
+    public function test_it_applies_discount_promotion()
+    {
+        Session::start();
+
+        $patient = User::where('email', 'patientemailtest321@gmail.com')->first();
+        Auth::login($patient);
+        $this->withSession(['basket' => ['2' => '1']]);
+
+        $shippingAddress = $this->createShippingAddress();
+        $billingAddress = $this->createBillingAddress();
+        $data = array_merge($shippingAddress, $billingAddress, ['_token' => csrf_token()]);
+        $this->call('POST', '/shoppingcart/address', $data);
+        $this->assertRedirectedTo('/shoppingcart/summary');
+
+        $this->seeInDatabase('orders', [
+            'id' => 1001,
+            'user_id' => 3,
+            'shipping_address_title' => 'Mr',
+            'shipping_address_first_name' => 'name',
+            'shipping_address_last_name' => 'phpunit',
+            'shipping_address_street' => 'street',
+            'shipping_address_suburb' => 'suburb',
+            'shipping_address_state' => 'NSW',
+            'shipping_address_country' => 'AU',
+            'shipping_address_postcode' => '1234',
+            'shipping_address_city' => 'city',
+            'shipping_address_phone' => '12345678',
+            'billing_address_title' => 'Mr',
+            'billing_address_first_name' => 'name',
+            'billing_address_last_name' => 'phpunit',
+            'billing_address_street' => 'street',
+            'billing_address_suburb' => 'suburb',
+            'billing_address_state' => 'NSW',
+            'billing_address_country' => 'AU',
+            'billing_address_postcode' => '1234',
+            'billing_address_city' => 'city',
+            'order_status' => 'New Order',
+            'subtotal' => 67.54,
+            'GST' => 6.75,
+            'shipping_cost' => 11,
+            'discount' => 16.89,
+            'grand_total' => 85.29
+        ]);
+
+        $this->seeInDatabase('orderedProducts', [
+            'id' => 4,
+            'order_id' => 1001,
+            'product_name' => 'Enbiotic 120\'s',
+            'line_price' => 84.43,
+            'line_quantity' => 1,
+            'discount_percentage' => 20,
+            'discounted_price' => 67.54,
+            'line_total' => 67.54,
+        ]);
+
+        $this->seeInDatabase('orderedProducts_Promotions', [
+            'orderedProduct_id' => 4,
+            'promotion_name' => 'Enbiotic 120\'s Sales',
+            'type' => 'price_discount',
+            'promotion_description' => '20% off Enbiotic 120',
+            'promotion_apply_to_group' => 'Patient'
+        ]);
+    }
 }
