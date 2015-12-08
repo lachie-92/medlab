@@ -32,7 +32,7 @@ $I->seeInDatabase('companies', array(
     'name' => 'company one',
     'business_type' => 'company',
     'business_number' => '213441',
-    'country' => 'AU',
+    'country' => 'Australia',
 ));
 
 $I->seeInDatabase('company_addresses', array(
@@ -43,7 +43,7 @@ $I->seeInDatabase('company_addresses', array(
     'suburb' => 'suburb',
     'city' => 'sydney',
     'state' => 'NSW',
-    'country' => 'AU',
+    'country' => 'Australia',
     'postcode' => '1234',
     'company_id' => 2
 ));

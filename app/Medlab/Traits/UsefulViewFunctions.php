@@ -8,8 +8,8 @@ trait UsefulViewFunctions {
     private function createCountryList()
     {
         return [
-            'AU' => 'Australia',
-            'NZ' => 'New Zealand'
+            'Australia' => 'Australia',
+            'New Zealand' => 'New Zealand'
         ];
     }
 
@@ -66,6 +66,7 @@ trait UsefulViewFunctions {
     private function createBusinessTypeList()
     {
         return [
+            '' => '',
             'company' => 'Company',
             'partnership' => 'Partnership',
             'sole_enterprise_or_trade' => 'Sole Enterprise/Trade',

@@ -180,7 +180,7 @@
                                                 <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                                 <tr>
                                                     <td>
-                                                        @if( old('country', $shoppingCart->billingAddress['country']) == "AU")
+                                                        @if( old('country', $shoppingCart->billingAddress['country']) == "Australia")
                                                             {!! Form::select('state', $auState, old('state', $shoppingCart->billingAddress['state']), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                         @else
                                                             {!! Form::select('state', $nzRegion, old('state', $shoppingCart->billingAddress['state']), ['class' => 'form-control', 'id' => 'state_select']) !!}

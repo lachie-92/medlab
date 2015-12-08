@@ -3,8 +3,12 @@
 namespace App\Medlab\Validators;
 
 
+use App\Medlab\Traits\UsefulViewFunctions;
+
 class RegisterValidator
 {
+    use UsefulViewFunctions;
+
     public function validTitle($attribute, $value, $parameters)
     {
         $titles = ['Mr', 'Ms', 'Miss', 'Dr.', 'Prof.'];

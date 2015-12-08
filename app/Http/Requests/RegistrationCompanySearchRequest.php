@@ -25,8 +25,8 @@ class RegistrationCompanySearchRequest extends Request
     public function rules()
     {
         return [
-            'company_state' => 'required|validState|max:30',
-            'company_country' => 'required|validCountry|max:2',
+            'company_state' => 'validState|max:30',
+            'company_country' => 'required|validCountry',
             'company_suburb' => 'max:30',
             'company_postcode' => 'digits:4',
             'company_name' => 'max:50',

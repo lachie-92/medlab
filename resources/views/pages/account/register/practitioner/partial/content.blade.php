@@ -179,7 +179,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if(old('country') == "NZ")
+                                                            @if(old('country') == "New Zealand")
                                                                 {!! Form::select('state', $nzRegion, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @else
                                                                 {!! Form::select('state', $auState, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}

@@ -40,7 +40,7 @@ $I->seeInDatabase('patient_registrations', array(
     'suburb' => 'suburb changed',
     'city' => 'sydney changed',
     'state' => 'Auckland',
-    'country' => 'NZ',
+    'country' => 'New Zealand',
     'postcode' => '1233',
     'telephone' => '34141333',
     'mobile_phone' => '13414141333',
@@ -50,7 +50,7 @@ $I->seeInDatabase('patient_registrations', array(
     'practitioner_clinic' => 'company one',
     'practitioner_city' => 'Sydney',
     'practitioner_state' => 'NSW',
-    'practitioner_country' => 'AU',
+    'practitioner_country' => 'Australia',
     'practitioner_postcode' => '2077',
 ));
 
@@ -65,7 +65,7 @@ $I->seeInDatabase('customers', array(
     'name' => 'Patient changed Codeception changed',
     'first_name' => 'Patient changed',
     'last_name' => 'Codeception changed',
-    'country' => 'NZ',
+    'country' => 'New Zealand',
 ));
 
 $I->seeInDatabase('customer_addresses', array(
@@ -76,7 +76,7 @@ $I->seeInDatabase('customer_addresses', array(
     'suburb' => 'suburb changed',
     'city' => 'sydney changed',
     'state' => 'Auckland',
-    'country' => 'NZ',
+    'country' => 'New Zealand',
     'postcode' => '1233',
     'customer_id' => 4
 ));
@@ -102,7 +102,7 @@ $I->seeInDatabase('users', array(
     'newsletter_subscription' => false,
     'approved_by' => 'Admin',
     'status' => 'Active',
-    'timezone' => 'NZ',
+    'timezone' => 'New Zealand',
     'customer_id' => 4
 ));
 

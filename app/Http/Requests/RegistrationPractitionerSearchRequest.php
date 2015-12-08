@@ -26,7 +26,7 @@ class RegistrationPractitionerSearchRequest extends Request
     {
         return [
             'practitioner_state' => 'validState|max:30',
-            'practitioner_country' => 'required|validCountry|max:2',
+            'practitioner_country' => 'required|validCountry',
             'practitioner_suburb' => 'max:30',
             'practitioner_postcode' => 'digits:4',
             'practitioner_clinic' => 'max:50',

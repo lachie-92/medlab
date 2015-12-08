@@ -230,7 +230,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region</th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if( (old('country', $customer_address->country)) == "AU" )
+                                                            @if( (old('country', $customer_address->country)) == "Australia" )
                                                                 {!! Form::select('state', $auState, old('state', $customer_address->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @else
                                                                 {!! Form::select('state', $nzRegion, old('state', $customer_address->state), ['class' => 'form-control', 'id' => 'state_select']) !!}

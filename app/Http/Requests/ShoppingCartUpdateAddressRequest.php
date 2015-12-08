@@ -32,7 +32,7 @@ class ShoppingCartUpdateAddressRequest extends Request
             'shipping_street_address_two' => 'required|max:50',
             'shipping_city' => 'required|max:30',
             'shipping_state' => 'required|validState|max:30',
-            'shipping_country' => 'required|validCountry|max:2',
+            'shipping_country' => 'required|validCountry',
             'shipping_postcode' => 'required|digits:4',
             'shipping_phone' => array('required','numeric'),
             'billing_title' => 'required|validTitle|max:10',
@@ -42,7 +42,7 @@ class ShoppingCartUpdateAddressRequest extends Request
             'billing_street_address_two' => 'required|max:50',
             'billing_city' => 'required|max:30',
             'billing_state' => 'required|validState|max:30',
-            'billing_country' => 'required|validCountry|max:2',
+            'billing_country' => 'required|validCountry',
             'billing_postcode' => 'required|digits:4',
         ];
     }

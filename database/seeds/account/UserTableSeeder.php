@@ -57,7 +57,7 @@ class UserTableSeeder extends Seeder
                 'postcode' => '2077',
                 'city' => 'Sydney',
                 'state' => 'NSW',
-                'country' => 'AU',
+                'country' => 'Australia',
 
                 // Practitioner for the patient
                 'practitioner' => 1
@@ -87,7 +87,7 @@ class UserTableSeeder extends Seeder
                 'postcode' => '2077',
                 'city' => 'Sydney',
                 'state' => 'NSW',
-                'country' => 'AU',
+                'country' => 'Australia',
 
                 // Practitioner Company
                 'company_name' => 'company one',
@@ -104,7 +104,7 @@ class UserTableSeeder extends Seeder
                 'company_postcode' => '2077',
                 'company_city' => 'Sydney',
                 'company_state' => 'NSW',
-                'company_country' => 'AU',
+                'company_country' => 'Australia',
             ]
         ];
 

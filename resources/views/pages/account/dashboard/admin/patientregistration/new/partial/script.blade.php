@@ -20,13 +20,13 @@
             var countrySelected = $country_option.val();
             var $target = $('#' + $country_option.attr('data-change-state'));
 
-            if (countrySelected == 'AU') {
+            if (countrySelected == 'Australia') {
                 $target.empty();
                 $.each(australiaOptions, function(value,key) {
                     $target.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
-            if (countrySelected == 'NZ') {
+            if (countrySelected == 'New Zealand') {
                 $target.empty();
                 $.each(newzealandOptions, function(value,key) {
                     $target.append('<option value="' + value + '">' + key + '</option>');

@@ -38,7 +38,7 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'street_address_two' => 'required|max:50',
             'city' => 'required|max:30',
             'state' => 'required|validState|max:30',
-            'country' => 'required|validCountry|max:2',
+            'country' => 'required|validCountry',
             'postcode' => 'required|digits:4',
             'telephone' => array('required','numeric'),
             'mobile_phone' => array('required','numeric'),

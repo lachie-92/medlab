@@ -67,13 +67,13 @@
 
             var countrySelected = $(this).val();
 
-            if (countrySelected == 'AU') {
+            if (countrySelected == 'Australia') {
                 $stateSelector.empty();
                 $.each(australiaOptions, function(value,key) {
                     $stateSelector.append('<option value="' + value + '">' + key + '</option>');
                 });
             }
-            if (countrySelected == 'NZ') {
+            if (countrySelected == 'New Zealand') {
                 $stateSelector.empty();
                 $.each(newzealandOptions, function(value,key) {
                     $stateSelector.append('<option value="' + value + '">' + key + '</option>');

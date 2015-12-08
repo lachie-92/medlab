@@ -46,7 +46,7 @@ $I->seeInDatabase('practitioner_registrations', array(
     'suburb' => 'Hornsby',
     'city' => 'Sydney',
     'state' => 'NSW',
-    'country' => 'AU',
+    'country' => 'Australia',
     'postcode' => '2077',
     'telephone' => '341414',
     'mobile_phone' => '13414141'
@@ -63,7 +63,7 @@ $I->seeInDatabase('customers', array(
     'name' => 'Practitioner Codeception',
     'first_name' => 'Practitioner',
     'last_name' => 'Codeception',
-    'country' => 'AU',
+    'country' => 'Australia',
 ));
 
 $I->seeInDatabase('customer_addresses', array(
@@ -74,7 +74,7 @@ $I->seeInDatabase('customer_addresses', array(
     'suburb' => 'Hornsby',
     'city' => 'Sydney',
     'state' => 'NSW',
-    'country' => 'AU',
+    'country' => 'Australia',
     'postcode' => '2077',
     'customer_id' => 4
 ));
@@ -100,7 +100,7 @@ $I->seeInDatabase('users', array(
     'newsletter_subscription' => false,
     'approved_by' => 'Admin',
     'status' => 'Active',
-    'timezone' => 'AU',
+    'timezone' => 'Australia',
     'customer_id' => 4
 ));
 

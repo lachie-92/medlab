@@ -22,7 +22,7 @@ $I->seeInDatabase('customer_addresses', array(
     'suburb' => 'changed',
     'city' => 'changed',
     'state' => 'Auckland',
-    'country' => 'NZ',
+    'country' => 'New Zealand',
     'postcode' => '1233'
 ));
 

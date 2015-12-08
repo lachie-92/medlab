@@ -66,10 +66,12 @@ class ViewServiceProvider extends ServiceProvider
         //
         // Dashboard Order List
         //
+        /*
         view()->composer('pages.account.dashboard.order.details.index', function($view) {
 
             $view->with('country', $this->createCountryList());
         });
+        */
 
         //
         // Dashboard Patient Edit
@@ -152,26 +154,32 @@ class ViewServiceProvider extends ServiceProvider
         //
         // Shopping Cart Checkout Summary
         //
+        /*
         view()->composer('pages.shoppingcart.summary.index', function($view) {
 
             $view->with('country', $this->createCountryList());
         });
+        */
 
         //
-        // Shopping Cart Billing and Shipping Address Edit
+        // Order information page after checkout
         //
+        /*
         view()->composer('pages.shoppingcart.order.index', function($view) {
 
             $view->with('country', $this->createCountryList());
         });
+        */
 
         //
-        // Shopping Cart Order complete
+        // Shopping Cart Order Received Email
         //
+        /*
         view()->composer('emails.new_order_received', function($view) {
 
             $view->with('country', $this->createCountryList());
         });
+        */
     }
 
     private function adminViewComposer()
@@ -179,10 +187,12 @@ class ViewServiceProvider extends ServiceProvider
         //
         // Admin View Order Details
         //
+        /*
         view()->composer('pages.account.dashboard.admin.order.details.index', function($view) {
 
             $view->with('country', $this->createCountryList());
         });
+        */
 
         //
         // Admin Patient Account Registration Deleted

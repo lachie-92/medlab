@@ -130,7 +130,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if(old('country') == "NZ")
+                                                            @if(old('country') == "New Zealand")
                                                                 {!! Form::select('state', $nzRegion, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                             @else
                                                                 {!! Form::select('state', $auState, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
@@ -190,7 +190,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region</th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if(old('practitioner_country_select') == "NZ")
+                                                            @if(old('practitioner_country_select') == "New Zealand")
                                                                 {!! Form::select('practitioner_state', $nzRegion, old('practitioner_state'), ['class' => 'form-control', 'id' => 'practitioner_state_select']) !!}
                                                             @else
                                                                 {!! Form::select('practitioner_state', $auState, old('practitioner_state'), ['class' => 'form-control', 'id' => 'practitioner_state_select']) !!}
@@ -284,7 +284,7 @@
                                                         <tr><th class="medlab_registration_form_section_subtitle">State/Region</th></tr>
                                                         <tr>
                                                             <td>
-                                                                @if(old('practitioner_not_found_country') == "NZ")
+                                                                @if(old('practitioner_not_found_country') == "New Zealand")
                                                                     {!! Form::select('practitioner_not_found_state', $nzRegion, old('practitioner_not_found_state'), ['class' => 'form-control', 'id' => 'practitioner_not_found_state_select']) !!}
                                                                 @else
                                                                     {!! Form::select('practitioner_not_found_state', $auState, old('practitioner_not_found_state'), ['class' => 'form-control', 'id' => 'practitioner_not_found_state_select']) !!}

@@ -33,7 +33,7 @@ class AdminCreateCompanyRequest extends Request
             'company_city' => 'required|max:30',
             'company_postcode' => 'required|digits:4',
             'company_state' => 'required|validState|max:30',
-            'company_country' => 'required|validCountry|max:2',
+            'company_country' => 'required|validCountry',
         ];
     }
 }

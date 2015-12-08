@@ -41,7 +41,7 @@ $I->seeInDatabase('practitioner_registrations', array(
     'suburb' => 'suburb',
     'city' => 'sydney',
     'state' => 'NSW',
-    'country' => 'AU',
+    'country' => 'Australia',
     'postcode' => '1234',
     'telephone' => '341414',
     'mobile_phone' => '13414141'

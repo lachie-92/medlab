@@ -27,7 +27,8 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
     {
         parent::setUp();
 
-        Artisan::call('migrate:refresh');
+        Artisan::call('migrate:rollback');
+        Artisan::call('migrate');
         Artisan::call('db:seed');
     }
 
@@ -41,7 +42,7 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
             'shipping_street_address_two' => 'suburb',
             'shipping_city' => 'city',
             'shipping_state' => 'NSW',
-            'shipping_country' => 'AU',
+            'shipping_country' => 'Australia',
             'shipping_postcode' => '1234',
             'shipping_phone' => '12345678'
         ];
@@ -57,7 +58,7 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
             'billing_street_address_two' => 'suburb',
             'billing_city' => 'city',
             'billing_state' => 'NSW',
-            'billing_country' => 'AU',
+            'billing_country' => 'Australia',
             'billing_postcode' => '1234',
         ];
     }

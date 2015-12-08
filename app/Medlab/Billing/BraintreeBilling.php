@@ -47,7 +47,7 @@ class BraintreeBilling implements BillingInterface
                 'locality' => $order->billing_address_city,
                 'region' => $order->billing_address_state,
                 'postalCode' => $order->billing_address_postcode,
-                'countryCodeAlpha2' => $order->billing_address_country
+                'countryName' => $order->billing_address_country
             ],
             'shipping' => [
                 'firstName' => $order->shipping_address_first_name,
@@ -57,7 +57,7 @@ class BraintreeBilling implements BillingInterface
                 'locality' => $order->shipping_address_city,
                 'region' => $order->shipping_address_state,
                 'postalCode' => $order->shipping_address_postcode,
-                'countryCodeAlpha2' => $order->shipping_address_country
+                'countryName' => $order->shipping_address_country
             ],
             /*'descriptor' => [
                 'name' => 'Medlab',
