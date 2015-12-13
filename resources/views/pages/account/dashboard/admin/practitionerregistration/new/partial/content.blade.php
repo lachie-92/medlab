@@ -243,16 +243,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region</th></tr>
                                                     <tr>
                                                         <td>
-                                                            <select class="form-control" id="company_state_select" name="company_state">
-                                                                <option value="ACT">ACT</option>
-                                                                <option value="NSW">NSW</option>
-                                                                <option value="NT">NT</option>
-                                                                <option value="QLD">QLD</option>
-                                                                <option value="SA">SA</option>
-                                                                <option value="TAS">TAS</option>
-                                                                <option value="VIC">VIC</option>
-                                                                <option value="WA">WA</option>
-                                                            </select>
+                                                            {!! Form::select('company_state', $auState, null, ['class' => 'form-control', 'id' => 'company_state_select']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -262,10 +253,7 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
                                                     <tr>
                                                         <td>
-                                                            <select class="form-control" id="company_country_select" data-change-state="company_state_select" name="company_country">
-                                                                <option selected="selected" value="Australia">Australia</option>
-                                                                <option value="New Zealand">New Zealand</option>
-                                                            </select>
+                                                            {!! Form::select('company_country', $country, null, ['class' => 'form-control', 'data-change-state' => 'company_state_select', 'id' => 'company_country_select']) !!}
                                                         </td>
                                                     </tr>
                                                 </table>

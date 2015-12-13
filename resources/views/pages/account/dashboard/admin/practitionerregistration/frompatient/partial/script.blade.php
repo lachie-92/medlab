@@ -1,40 +1,18 @@
 <script type="text/javascript">
 
+    var australiaOptions = {
+        @foreach($auState as $key => $value)
+        '{{ $key }}': '{{ $value }}',
+        @endforeach
+    };
+
+    var newzealandOptions = {
+        @foreach($nzRegion as $key => $value)
+        '{{ $key }}': '{{ $value }}',
+        @endforeach
+    };
+
     (function(){
-
-        var australiaOptions = {
-            @foreach($auState as $key => $value)
-                '{{ $key }}': '{{ $value }}',
-            @endforeach
-        };
-
-        var newzealandOptions = {
-            @foreach($nzRegion as $key => $value)
-                '{{ $key }}': '{{ $value }}',
-            @endforeach
-        };
-
-        var toggleStateOption = function(e) {
-
-            var $country_option = $(this);
-            var countrySelected = $country_option.val();
-            var $target = $('#' + $country_option.attr('data-change-state'));
-
-            if (countrySelected == 'Australia') {
-                $target.empty();
-                $.each(australiaOptions, function(value,key) {
-                    $target.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-            if (countrySelected == 'New Zealand') {
-                $target.empty();
-                $.each(newzealandOptions, function(value,key) {
-                    $target.append('<option value="' + value + '">' + key + '</option>');
-                });
-            }
-        };
-
-        $('select[data-change-state]').on('change', toggleStateOption);
 
         $('#find_company_btn').click(function(e) {
 

@@ -20,6 +20,7 @@ $I->fillField('telephone', '341414');
 $I->fillField('mobile_phone', '13414141');
 
 $I->checkOption('#practitioner_not_found');
+$I->wait(2);
 $I->fillField('practitioner_not_found_practitioner_name', 'Dr. Practitioner Test');
 $I->fillField('practitioner_not_found_clinic', 'Company one');
 $I->fillField('practitioner_not_found_postcode', '1234');

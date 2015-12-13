@@ -64,16 +64,6 @@ class ViewServiceProvider extends ServiceProvider
     private function accountViewComposer()
     {
         //
-        // Dashboard Order List
-        //
-        /*
-        view()->composer('pages.account.dashboard.order.details.index', function($view) {
-
-            $view->with('country', $this->createCountryList());
-        });
-        */
-
-        //
         // Dashboard Patient Edit
         //
         view()->composer('pages.account.dashboard.patient.edit.index', function($view) {
@@ -150,50 +140,10 @@ class ViewServiceProvider extends ServiceProvider
             $view->with('monthList', $this->createMonthList());
             $view->with('yearList', $this->createYearList());
         });
-
-        //
-        // Shopping Cart Checkout Summary
-        //
-        /*
-        view()->composer('pages.shoppingcart.summary.index', function($view) {
-
-            $view->with('country', $this->createCountryList());
-        });
-        */
-
-        //
-        // Order information page after checkout
-        //
-        /*
-        view()->composer('pages.shoppingcart.order.index', function($view) {
-
-            $view->with('country', $this->createCountryList());
-        });
-        */
-
-        //
-        // Shopping Cart Order Received Email
-        //
-        /*
-        view()->composer('emails.new_order_received', function($view) {
-
-            $view->with('country', $this->createCountryList());
-        });
-        */
     }
 
     private function adminViewComposer()
     {
-        //
-        // Admin View Order Details
-        //
-        /*
-        view()->composer('pages.account.dashboard.admin.order.details.index', function($view) {
-
-            $view->with('country', $this->createCountryList());
-        });
-        */
-
         //
         // Admin Patient Account Registration Deleted
         //

@@ -47,8 +47,10 @@
 <script src="/js/bootstrap.min.js"></script>
 
 <!-- App script -->
+<script src="/js/all.js"></script>
 
 @yield('custom_script')
+
 
 
 </body>
