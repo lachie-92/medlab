@@ -71,6 +71,8 @@ class BraintreeBilling implements BillingInterface
             $order->order_status = 'Order Received';
             $order->payment_type = $request['payment_type'];
             $order->purchase_date = Carbon::now();
+            //$order->purchase_date = $result->transaction->createdAt; need to change the time zone on braintree to Austraila
+            $order->transaction_id = $result->transaction->id;
             $order->save();
         }
 

@@ -49,6 +49,7 @@ class CreateOrdersTable extends Migration
             $table->double('grand_total');
 
             $table->timestamp('purchase_date');
+            $table->string('transaction_id');
             $table->timestamps();
         });
 

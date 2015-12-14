@@ -81,9 +81,10 @@
                                         <thead>
                                         <tr>
                                             <th style="text-align: center">Order No.</th>
+                                            <th style="text-align: center">Transaction</th>
                                             <th style="text-align: center">Recipient</th>
                                             <th style="text-align: center">Date Received</th>
-                                            <th style="text-align: center">Order Amount</th>
+                                            <th style="text-align: center">Amount</th>
                                             <th style="text-align: center">Order Status</th>
                                             <th style="text-align: center">Details</th>
                                         </tr>
@@ -92,6 +93,7 @@
                                         @foreach ($orders as $order)
                                             <tr>
                                                 <td style="text-align: center; vertical-align: middle;">{{ $order->id }}</td>
+                                                <td style="text-align: center; vertical-align: middle;">{{ $order->transaction_id }}</td>
                                                 <td style="text-align: center; vertical-align: middle;">
                                                     {{ $order->shipping_address_title }} {{ $order->shipping_address_first_name }} {{ $order->shipping_address_last_name }}
                                                 </td>
@@ -102,7 +104,7 @@
                                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                                         <input type="hidden" name="order" value="{{ $order->id }}">
                                                         {!! Form::select('order_status', $orderStatusList, old('order_status', $order->order_status), ['class' => 'btn btn-default btn-sm', 'order' => $order->id, 'style' => 'padding-left: 3px; padding-right: 3px']) !!}
-                                                        &nbsp;<button class="btn btn-default" type="submit" order="{{ $order->id }}">Update</button>
+                                                        &nbsp;<button class="btn btn-default btn-sm" type="submit" order="{{ $order->id }}">Update</button>
                                                     </form>
                                                 </td>
                                                 <td style="text-align: center; vertical-align: middle;">

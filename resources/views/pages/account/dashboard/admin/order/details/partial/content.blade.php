@@ -38,6 +38,7 @@
                                 <li class="list-group-item" style="background-color: transparent;">
                                     User: {{ $order->user->customer->title }} {{ $order->user->customer->first_name }} {{ $order->user->customer->last_name }} <br>
                                     Order No.: {{ $order->id }} <br>
+                                    Transaction Id: {{ $order->transaction_id }} <br>
                                     Order Status: {{ $order->order_status }} <br>
                                     Payment Type: {{ $order->payment_type }} <br>
                                     Purchase Date: {{ $order->purchase_date->toFormattedDateString() }} <br>
@@ -56,7 +57,8 @@
                                     {{ $order->shipping_address_street }} <br>
                                     {{ $order->shipping_address_suburb }} {{ $order->shipping_address_state }} {{ $order->shipping_address_postcode }} <br>
                                     {{ $order->shipping_address_city }} {{ $order->shipping_address_country }} <br>
-                                    Phone: {{ $order->shipping_address_phone }}
+                                    Phone: {{ $order->shipping_address_phone }} <br>
+                                    &nbsp; <br>
                                 </li>
                             </ul>
                         </div>
@@ -72,7 +74,8 @@
                                     {{ $order->billing_address_street }} <br>
                                     {{ $order->billing_address_suburb }} {{ $order->billing_address_state }} {{ $order->billing_address_postcode }} <br>
                                     {{ $order->billing_address_city }} {{ $order->billing_address_country }} <br>
-                                    &nbsp;
+                                    &nbsp; <br>
+                                    &nbsp; <br>
                                 </li>
                             </ul>
                         </div>
