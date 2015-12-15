@@ -50,6 +50,7 @@ class CreateOrdersTable extends Migration
 
             $table->timestamp('purchase_date');
             $table->string('transaction_id');
+            $table->string('transaction_ip');
             $table->timestamps();
         });
 

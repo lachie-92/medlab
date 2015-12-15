@@ -162,11 +162,15 @@ class ShoppingCartController extends Controller
      */
     public function postCheckout(ShoppingCartCheckoutRequest $request, BillingInterface $billing, MedlabMailer $mail)
     {
+        $client_ip = $request->ip();
+
         $request = $request->only([
             'payment_token',
             'payment_type',
             'order'
         ]);
+
+        $request['ip'] = $client_ip;
 
         $result = $billing->processOrder($request);
 
