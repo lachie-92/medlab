@@ -8,6 +8,7 @@ use App\Medlab\Mailer\MedlabMailer;
 use App\Medlab\ShoppingCart\ShoppingCart;
 use App\Order;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
 
 class ShoppingCartController extends Controller
 {
@@ -162,6 +163,8 @@ class ShoppingCartController extends Controller
      */
     public function postCheckout(ShoppingCartCheckoutRequest $request, BillingInterface $billing, MedlabMailer $mail)
     {
+        $request->setTrustedProxies([Config::get('services.aws.load-balancer')]);
+
         $client_ip = $request->ip();
 
         $request = $request->only([
