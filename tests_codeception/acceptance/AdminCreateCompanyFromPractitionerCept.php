@@ -14,7 +14,6 @@ $I->selectOption('create_new_business_type', 'Company');
 $I->fillField('create_new_business_number', '213441');
 $I->fillField('create_new_street_address_one', 'street');
 $I->fillField('create_new_street_address_two', 'suburb');
-$I->fillField('create_new_city', 'sydney');
 $I->selectOption('create_new_state', 'NSW');
 $I->selectOption('create_new_country', 'Australia');
 $I->fillField('create_new_postcode', '1234');
@@ -38,7 +37,6 @@ $I->seeInDatabase('company_addresses', array(
     'address' => 'street suburb',
     'street' => 'street',
     'suburb' => 'suburb',
-    'city' => 'sydney',
     'state' => 'NSW',
     'country' => 'Australia',
     'postcode' => '1234',

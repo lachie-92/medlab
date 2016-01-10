@@ -71,12 +71,6 @@
                                     <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="shipping_street_address_two" placeholder="Suburb" value="{{ old('shipping_street_address_two', $shoppingCart->shippingAddress['suburb']) }}"></td></tr>
                                 </table>
                             </div>
-                            <div class="col-md-6 col-sm-6">
-                                <table style="width:100%;">
-                                    <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
-                                    <tr><td><input type="text" class="form-control" name="shipping_city" placeholder="City" value="{{ old('shipping_city', $shoppingCart->shippingAddress['city']) }}"></td></tr>
-                                </table>
-                            </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
@@ -158,12 +152,6 @@
                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
                                     <tr><td><input type="text" class="form-control" name="billing_street_address_one" placeholder="Street" value="{{ old('billing_street_address_one', $shoppingCart->billingAddress['street']) }}"></td></tr>
                                     <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="billing_street_address_two" placeholder="Suburb" value="{{ old('billing_street_address_two', $shoppingCart->billingAddress['suburb']) }}"></td></tr>
-                                </table>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <table style="width:100%;">
-                                    <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
-                                    <tr><td><input type="text" class="form-control" name="billing_city" placeholder="City" value="{{ old('billing_city', $shoppingCart->billingAddress['city']) }}"></td></tr>
                                 </table>
                             </div>
                         </div>

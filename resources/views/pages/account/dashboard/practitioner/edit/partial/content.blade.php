@@ -136,7 +136,6 @@
                                                     @if ($company_address)
                                                         {{ $company_address->street }} <br>
                                                         {{ $company_address->suburb }} {{ $company_address->postcode }}<br>
-                                                        {{ $company_address->city }} <br>
                                                         {{ $company_address->state }} {{ $company_address->country }}<br>
                                                     @endif
                                                 </div>
@@ -214,13 +213,12 @@
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address</th></tr>
                                                     <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ old('street_address_one', $customer_address->street) }}"></td></tr>
-                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two', $customer_address->suburb) }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">City</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ old('city', $customer_address->city) }}"></td></tr>
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Suburb</th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two', $customer_address->suburb) }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>

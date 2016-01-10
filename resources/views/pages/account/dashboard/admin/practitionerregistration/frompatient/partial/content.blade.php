@@ -69,12 +69,6 @@
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">City</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="practitioner_not_found_city" placeholder="City" value="{{ $registration->practitioner_city }}" disabled></td></tr>
-                                                </table>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Post Code</th></tr>
                                                     <tr><td><input type="text" class="form-control" name="practitioner_not_found_postcode" placeholder="Post Code" value="{{ $registration->practitioner_postcode }}" disabled></td></tr>
                                                 </table>
@@ -336,13 +330,12 @@
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
                                                         <tr><td><input id="create_new_street_address_one" type="text" class="form-control" name="create_new_street_address_one" placeholder="Street" value="{{ old('create_new_street_address_one') }}"></td></tr>
-                                                        <tr><td style="padding-top: 10px;"><input id="create_new_street_address_two" type="text" class="form-control" name="create_new_street_address_two" placeholder="Suburb" value="{{ old('create_new_street_address_two') }}"></td></tr>
                                                     </table>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
-                                                        <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
-                                                        <tr><td><input id="create_new_city" type="text" class="form-control" name="create_new_city" placeholder="City" value="{{ old('create_new_city') }}"></td></tr>
+                                                        <tr><th class="medlab_registration_form_section_subtitle">Suburb<span style="color: red;">*</span></th></tr>
+                                                        <tr><td><input id="create_new_street_address_two" type="text" class="form-control" name="create_new_street_address_two" placeholder="Suburb" value="{{ old('create_new_street_address_two') }}"></td></tr>
                                                     </table>
                                                 </div>
                                             </div>

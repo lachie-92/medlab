@@ -114,13 +114,12 @@
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
                                                     <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ old('street_address_one') }}"></td></tr>
-                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ old('city') }}"></td></tr>
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Suburb<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -169,6 +168,9 @@
                                                     <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone') }}"></td></tr>
                                                 </table>
                                             </div>
+                                        </div>
+                                        <div style="margin-top: 28px;">
+                                            &nbsp;
                                         </div>
                                     </div>
                                 </div>
@@ -305,16 +307,12 @@
                                                 </div>
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
-                                                        <tr><th class="medlab_registration_form_section_subtitle">City</th></tr>
-                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_city" placeholder="City" value="{{ old('practitioner_not_found_city') }}"></td></tr>
-                                                    </table>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6">
-                                                    <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Post Code</th></tr>
                                                         <tr><td><input type="text" class="form-control" name="practitioner_not_found_postcode" placeholder="Post Code" value="{{ old('practitioner_not_found_postcode') }}"></td></tr>
                                                     </table>
                                                 </div>
+                                            </div>
+                                            <div class="row">
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Practitioner Name</th></tr>

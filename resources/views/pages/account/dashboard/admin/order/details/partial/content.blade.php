@@ -56,7 +56,7 @@
                                     {{ $order->shipping_address_last_name }} <br>
                                     {{ $order->shipping_address_street }} <br>
                                     {{ $order->shipping_address_suburb }} {{ $order->shipping_address_state }} {{ $order->shipping_address_postcode }} <br>
-                                    {{ $order->shipping_address_city }} {{ $order->shipping_address_country }} <br>
+                                    {{ $order->shipping_address_country }} <br>
                                     Phone: {{ $order->shipping_address_phone }} <br>
                                     &nbsp; <br>
                                 </li>
@@ -73,7 +73,7 @@
                                     {{ $order->billing_address_last_name }} <br>
                                     {{ $order->billing_address_street }} <br>
                                     {{ $order->billing_address_suburb }} {{ $order->billing_address_state }} {{ $order->billing_address_postcode }} <br>
-                                    {{ $order->billing_address_city }} {{ $order->billing_address_country }} <br>
+                                    {{ $order->billing_address_country }} <br>
                                     &nbsp; <br>
                                     &nbsp; <br>
                                 </li>

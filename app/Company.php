@@ -40,14 +40,6 @@ class Company extends Model {
             });
     }
 
-    public function scopeFilterCity($query, $city) {
-        $query
-            ->whereHas('company_addresses', function($q) use ($city) {
-                $q
-                    ->where('city', '=', $city);
-            });
-    }
-
     public function scopeFilterSuburb($query, $suburb) {
         $query
             ->whereHas('company_addresses', function($q) use ($suburb) {

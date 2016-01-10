@@ -89,7 +89,6 @@
                     company_business_number: $('#create_new_business_number').val(),
                     company_street: $('#create_new_street_address_one').val(),
                     company_suburb: $('#create_new_street_address_two').val(),
-                    company_city: $('#create_new_city').val(),
                     company_postcode: $('#create_new_postcode').val(),
                     company_country: $('#create_new_country_select').val(),
                     company_state: $('#create_new_state_select').val(),

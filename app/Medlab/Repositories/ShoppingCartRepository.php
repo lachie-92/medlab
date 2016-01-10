@@ -42,7 +42,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $shippingAddress['last_name'] = $user->customer->last_name;
         $shippingAddress['street'] = $accountAddress->street;
         $shippingAddress['suburb'] = $accountAddress->suburb;
-        $shippingAddress['city'] = $accountAddress->city;
         $shippingAddress['postcode'] = $accountAddress->postcode;
         $shippingAddress['state'] = $accountAddress->state;
         $shippingAddress['country'] = $accountAddress->country;
@@ -66,7 +65,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $billingAddress['last_name'] = $user->customer->last_name;
         $billingAddress['street'] = $accountAddress->street;
         $billingAddress['suburb'] = $accountAddress->suburb;
-        $billingAddress['city'] = $accountAddress->city;
         $billingAddress['postcode'] = $accountAddress->postcode;
         $billingAddress['state'] = $accountAddress->state;
         $billingAddress['country'] = $accountAddress->country;
@@ -104,7 +102,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $order->shipping_address_last_name = $shippingAddress['last_name'];
         $order->shipping_address_street = $shippingAddress['street'];
         $order->shipping_address_suburb = $shippingAddress['suburb'];
-        $order->shipping_address_city = $shippingAddress['city'];
         $order->shipping_address_postcode = $shippingAddress['postcode'];
         $order->shipping_address_state = $shippingAddress['state'];
         $order->shipping_address_country = $shippingAddress['country'];
@@ -115,7 +112,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $order->billing_address_last_name = $billingAddress['last_name'];
         $order->billing_address_street = $billingAddress['street'];
         $order->billing_address_suburb = $billingAddress['suburb'];
-        $order->billing_address_city = $billingAddress['city'];
         $order->billing_address_postcode = $billingAddress['postcode'];
         $order->billing_address_state = $billingAddress['state'];
         $order->billing_address_country = $billingAddress['country'];

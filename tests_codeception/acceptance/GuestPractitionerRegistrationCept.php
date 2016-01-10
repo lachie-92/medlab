@@ -17,7 +17,6 @@ $I->fillField('provider_number', '21412341');
 
 $I->fillField('street_address_one', 'street');
 $I->fillField('street_address_two', 'suburb');
-$I->fillField('city', 'sydney');
 $I->selectOption('state', 'NSW');
 $I->selectOption('country', 'Australia');
 $I->fillField('postcode', '1234');
@@ -39,7 +38,6 @@ $I->seeInDatabase('practitioner_registrations', array(
     'provider_number' => '21412341',
     'street' => 'street',
     'suburb' => 'suburb',
-    'city' => 'sydney',
     'state' => 'NSW',
     'country' => 'Australia',
     'postcode' => '1234',

@@ -45,7 +45,6 @@ $I->fillField('shipping_first_name', 'Test');
 $I->fillField('shipping_last_name', 'Codeception');
 $I->fillField('shipping_street_address_one', 'street');
 $I->fillField('shipping_street_address_two', 'suburb');
-$I->fillField('shipping_city', 'sydney');
 $I->selectOption('shipping_state', 'NSW');
 $I->selectOption('shipping_country', 'Australia');
 $I->fillField('shipping_postcode', '1234');
@@ -55,7 +54,6 @@ $I->fillField('billing_first_name', 'Test');
 $I->fillField('billing_last_name', 'Codeception');
 $I->fillField('billing_street_address_one', 'street');
 $I->fillField('billing_street_address_two', 'suburb');
-$I->fillField('billing_city', 'sydney');
 $I->selectOption('billing_state', 'NSW');
 $I->selectOption('billing_country', 'Australia');
 $I->fillField('billing_postcode', '1234');
@@ -72,7 +70,6 @@ $I->seeInDatabase('orders', array(
     'shipping_address_state' => 'NSW',
     'shipping_address_country' => 'Australia',
     'shipping_address_postcode' => '1234',
-    'shipping_address_city' => 'sydney',
     'shipping_address_phone' => '341414',
     'billing_address_title' => 'Mr',
     'billing_address_first_name' => 'Test',
@@ -82,7 +79,6 @@ $I->seeInDatabase('orders', array(
     'billing_address_state' => 'NSW',
     'billing_address_country' => 'Australia',
     'billing_address_postcode' => '1234',
-    'billing_address_city' => 'sydney',
     'order_status' => 'New Order',
     'subtotal' => 323.57,
     'GST' => 32.36,
@@ -175,7 +171,6 @@ $I->seeInDatabase('orders', array(
     'shipping_address_state' => 'NSW',
     'shipping_address_country' => 'Australia',
     'shipping_address_postcode' => '1234',
-    'shipping_address_city' => 'sydney',
     'shipping_address_phone' => '341414',
     'billing_address_title' => 'Mr',
     'billing_address_first_name' => 'Test',
@@ -185,7 +180,6 @@ $I->seeInDatabase('orders', array(
     'billing_address_state' => 'NSW',
     'billing_address_country' => 'Australia',
     'billing_address_postcode' => '1234',
-    'billing_address_city' => 'sydney',
     'payment_type' => 'CreditCard',
     'order_status' => 'Order Received',
     'subtotal' => '323.57',

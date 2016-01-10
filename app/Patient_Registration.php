@@ -14,10 +14,10 @@ class Patient_Registration extends Model
     protected $fillable = [
         'title', 'email', 'first_name',
         'last_name', 'password', 'street',
-        'suburb', 'city', 'state',
+        'suburb', 'state',
         'country', 'postcode', 'telephone',
         'mobile_phone', 'practitioner_id', 'practitioner_not_found',
-        'practitioner_name', 'practitioner_clinic', 'practitioner_city',
+        'practitioner_name', 'practitioner_clinic',
         'practitioner_state', 'practitioner_country', 'practitioner_postcode',
     ];
     protected $dates = ['approval', 'deleted_at'];

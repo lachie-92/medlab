@@ -38,7 +38,6 @@ class ShoppingCartStripeUpdatePaymentOptionRequest extends Request
                 'last_name' => 'required|max:30',
                 'street_address_one' => 'required|max:50',
                 'street_address_two' => 'required|max:50',
-                'city' => 'required|max:30',
                 'state' => 'required|validState|max:30',
                 'country' => 'required|validCountry',
                 'postcode' => 'required|digits:4',

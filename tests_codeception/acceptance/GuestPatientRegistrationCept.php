@@ -12,7 +12,6 @@ $I->fillField('password_confirmation', 'testtest');
 
 $I->fillField('street_address_one', 'street');
 $I->fillField('street_address_two', 'suburb');
-$I->fillField('city', 'sydney');
 $I->selectOption('state', 'NSW');
 $I->selectOption('country', 'Australia');
 $I->fillField('postcode', '1234');
@@ -33,7 +32,6 @@ $I->seeInDatabase('patient_registrations', array(
     'last_name' => 'Codeception',
     'street' => 'street',
     'suburb' => 'suburb',
-    'city' => 'sydney',
     'state' => 'NSW',
     'country' => 'Australia',
     'postcode' => '1234',
@@ -42,7 +40,6 @@ $I->seeInDatabase('patient_registrations', array(
     'practitioner_not_found' => false,
     'practitioner_name' => 'practitioner test',
     'practitioner_clinic' => 'company one',
-    'practitioner_city' => 'Sydney',
     'practitioner_state' => 'NSW',
     'practitioner_country' => 'Australia',
     'practitioner_postcode' => '2077',

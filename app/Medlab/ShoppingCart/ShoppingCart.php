@@ -265,7 +265,6 @@ class ShoppingCart {
         $shippingAddress['last_name'] = $update['shipping_last_name'];
         $shippingAddress['street'] = $update['shipping_street_address_one'];
         $shippingAddress['suburb'] = $update['shipping_street_address_two'];
-        $shippingAddress['city'] = $update['shipping_city'];
         $shippingAddress['state'] = $update['shipping_state'];
         $shippingAddress['country'] = $update['shipping_country'];
         $shippingAddress['postcode'] = $update['shipping_postcode'];
@@ -300,7 +299,6 @@ class ShoppingCart {
         $billingAddress['last_name'] = $update['billing_last_name'];
         $billingAddress['street'] = $update['billing_street_address_one'];
         $billingAddress['suburb'] = $update['billing_street_address_two'];
-        $billingAddress['city'] = $update['billing_city'];
         $billingAddress['state'] = $update['billing_state'];
         $billingAddress['country'] = $update['billing_country'];
         $billingAddress['postcode'] = $update['billing_postcode'];

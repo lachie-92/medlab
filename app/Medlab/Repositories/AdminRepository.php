@@ -241,7 +241,6 @@ class AdminRepository implements AdminRepositoryInterface
         $registration->provider_number = $request->provider_number;
         $registration->street = $companyMainAddress->street;
         $registration->suburb = $companyMainAddress->suburb;
-        $registration->city = $companyMainAddress->city;
         $registration->state = $companyMainAddress->state;
         $registration->country = $companyMainAddress->country;
         $registration->postcode = $companyMainAddress->postcode;
@@ -278,7 +277,6 @@ class AdminRepository implements AdminRepositoryInterface
         $companyAddress->street = $request->company_street;
         $companyAddress->suburb = $request->company_suburb;
         $companyAddress->postcode = $request->company_postcode;
-        $companyAddress->city = $request->company_city;
         $companyAddress->state = $request->company_state;
         $companyAddress->country = $request->company_country;
         $companyAddress->company_id = $company->id;
@@ -303,7 +301,6 @@ class AdminRepository implements AdminRepositoryInterface
         $registration->last_name = $request->last_name;
         $registration->street = $request->street_address_one;
         $registration->suburb = $request->street_address_two;
-        $registration->city = $request->city;
         $registration->state = $request->state;
         $registration->country = $request->country;
         $registration->postcode = $request->postcode;
@@ -313,7 +310,6 @@ class AdminRepository implements AdminRepositoryInterface
         $registration->practitioner_not_found = false;
         $registration->practitioner_name = $practitioner->user->customer->name;
         $registration->practitioner_clinic = $practitioner->company->name;
-        $registration->practitioner_city = $companyMainAddress->city;
         $registration->practitioner_state = $companyMainAddress->state;
         $registration->practitioner_country = $companyMainAddress->country;
         $registration->practitioner_postcode = $companyMainAddress->postcode;
@@ -348,7 +344,6 @@ class AdminRepository implements AdminRepositoryInterface
         $registration->provider_number = $request->provider_number;
         $registration->street = $companyMainAddress->street;
         $registration->suburb = $companyMainAddress->suburb;
-        $registration->city = $companyMainAddress->city;
         $registration->state = $companyMainAddress->state;
         $registration->country = $companyMainAddress->country;
         $registration->postcode = $companyMainAddress->postcode;
@@ -403,7 +398,6 @@ class AdminRepository implements AdminRepositoryInterface
         $customerAddress->street = $registration->street;
         $customerAddress->suburb = $registration->suburb;
         $customerAddress->postcode = $registration->postcode;
-        $customerAddress->city = $registration->city;
         $customerAddress->state = $registration->state;
         $customerAddress->country = $registration->country;
         $customerAddress->customer_id = $customer->id;

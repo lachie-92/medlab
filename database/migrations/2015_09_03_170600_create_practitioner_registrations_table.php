@@ -29,7 +29,6 @@ class CreatePractitionerRegistrationsTable extends Migration
 
             $table->string('street');
             $table->string('suburb');
-            $table->string('city');
             $table->string('state');
             $table->string('country');
             $table->string('postcode');

@@ -55,7 +55,6 @@ class UserTableSeeder extends Seeder
                 'street' => '123 Fake Street',
                 'suburb' => 'Hornsby',
                 'postcode' => '2077',
-                'city' => 'Sydney',
                 'state' => 'NSW',
                 'country' => 'Australia',
 
@@ -85,7 +84,6 @@ class UserTableSeeder extends Seeder
                 'street' => '123 Fake Street',
                 'suburb' => 'Hornsby',
                 'postcode' => '2077',
-                'city' => 'Sydney',
                 'state' => 'NSW',
                 'country' => 'Australia',
 
@@ -102,7 +100,6 @@ class UserTableSeeder extends Seeder
                 'company_street' => '123 Fake Street',
                 'company_suburb' => 'Hornsby',
                 'company_postcode' => '2077',
-                'company_city' => 'Sydney',
                 'company_state' => 'NSW',
                 'company_country' => 'Australia',
             ]
@@ -124,7 +121,6 @@ class UserTableSeeder extends Seeder
                 'street' => $user['street'],
                 'suburb' => $user['suburb'],
                 'postcode' => $user['postcode'],
-                'city' => $user['city'],
                 'state' => $user['state'],
                 'country' => $user['country'],
                 'customer_id' => $customer->id
@@ -156,7 +152,6 @@ class UserTableSeeder extends Seeder
                 'street' => $user['company_street'],
                 'suburb' => $user['company_suburb'],
                 'postcode' => $user['company_postcode'],
-                'city' => $user['company_city'],
                 'state' => $user['company_state'],
                 'country' => $user['company_country'],
                 'company_id' => $company->id
@@ -217,7 +212,6 @@ class UserTableSeeder extends Seeder
                 'street' => $user['street'],
                 'suburb' => $user['suburb'],
                 'postcode' => $user['postcode'],
-                'city' => $user['city'],
                 'state' => $user['state'],
                 'country' => $user['country'],
                 'customer_id' => $customer->id

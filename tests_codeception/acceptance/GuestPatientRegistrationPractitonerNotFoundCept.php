@@ -12,7 +12,6 @@ $I->fillField('password_confirmation', 'testtest');
 
 $I->fillField('street_address_one', 'street');
 $I->fillField('street_address_two', 'suburb');
-$I->fillField('city', 'sydney');
 $I->selectOption('state', 'NSW');
 $I->selectOption('country', 'Australia');
 $I->fillField('postcode', '1234');
@@ -24,7 +23,6 @@ $I->wait(2);
 $I->fillField('practitioner_not_found_practitioner_name', 'Dr. Practitioner Test');
 $I->fillField('practitioner_not_found_clinic', 'Company one');
 $I->fillField('practitioner_not_found_postcode', '1234');
-$I->fillField('practitioner_not_found_city', 'sydney');
 $I->selectOption('practitioner_not_found_state', 'NSW');
 $I->selectOption('practitioner_not_found_country', 'Australia');
 
@@ -37,7 +35,6 @@ $I->seeInDatabase('patient_registrations', array(
     'last_name' => 'Codeception',
     'street' => 'street',
     'suburb' => 'suburb',
-    'city' => 'sydney',
     'state' => 'NSW',
     'country' => 'Australia',
     'postcode' => '1234',
@@ -46,7 +43,6 @@ $I->seeInDatabase('patient_registrations', array(
     'practitioner_not_found' => true,
     'practitioner_name' => 'Dr. Practitioner Test',
     'practitioner_clinic' => 'Company one',
-    'practitioner_city' => 'sydney',
     'practitioner_state' => 'NSW',
     'practitioner_country' => 'Australia',
     'practitioner_postcode' => '1234',

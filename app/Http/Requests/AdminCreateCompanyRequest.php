@@ -30,7 +30,6 @@ class AdminCreateCompanyRequest extends Request
             'company_business_number' => 'required|numeric|unique:companies,business_number',
             'company_street' => 'required|max:50',
             'company_suburb' => 'required|max:30',
-            'company_city' => 'required|max:30',
             'company_postcode' => 'required|digits:4',
             'company_state' => 'required|validState|max:30',
             'company_country' => 'required|validCountry',

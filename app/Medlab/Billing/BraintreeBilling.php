@@ -44,7 +44,6 @@ class BraintreeBilling implements BillingInterface
                 'lastName' => $order->billing_address_last_name,
                 'streetAddress' => $order->billing_address_street,
                 'extendedAddress' => $order->billing_address_suburb,
-                'locality' => $order->billing_address_city,
                 'region' => $order->billing_address_state,
                 'postalCode' => $order->billing_address_postcode,
                 'countryName' => $order->billing_address_country
@@ -54,7 +53,6 @@ class BraintreeBilling implements BillingInterface
                 'lastName' => $order->shipping_address_last_name,
                 'streetAddress' => $order->shipping_address_street,
                 'extendedAddress' => $order->shipping_address_suburb,
-                'locality' => $order->shipping_address_city,
                 'region' => $order->shipping_address_state,
                 'postalCode' => $order->shipping_address_postcode,
                 'countryName' => $order->shipping_address_country

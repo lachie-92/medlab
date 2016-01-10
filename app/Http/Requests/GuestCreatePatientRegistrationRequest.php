@@ -32,7 +32,6 @@ class GuestCreatePatientRegistrationRequest extends Request
             'password' => 'required|confirmed|min:6',
             'street_address_one' => 'required|max:50',
             'street_address_two' => 'required|max:50',
-            'city' => 'required|max:30',
             'state' => 'required|validState|max:30',
             'country' => 'required|validCountry',
             'postcode' => 'required|digits:4',
@@ -49,7 +48,6 @@ class GuestCreatePatientRegistrationRequest extends Request
 
             $addition = [
                 'practitioner_not_found_practitioner_name' => 'required|max:30',
-                'practitioner_not_found_city' => 'required|max:30',
                 'practitioner_not_found_state' => 'required|validState|max:30',
                 'practitioner_not_found_country' => 'required|validCountry',
                 'practitioner_not_found_postcode' => 'required|digits:4',

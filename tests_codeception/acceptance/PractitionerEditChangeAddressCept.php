@@ -6,7 +6,6 @@ $I->amonPage('/account/edit');
 
 $I->fillField('street_address_one', 'changed');
 $I->fillField('street_address_two', 'changed');
-$I->fillField('city', 'changed');
 $I->selectOption('country', 'New Zealand');
 $I->selectOption('state', 'Auckland');
 $I->fillField('postcode', '1233');
@@ -20,7 +19,6 @@ $I->seeInDatabase('customer_addresses', array(
     'type' => 'Account',
     'street' => 'changed',
     'suburb' => 'changed',
-    'city' => 'changed',
     'state' => 'Auckland',
     'country' => 'New Zealand',
     'postcode' => '1233'

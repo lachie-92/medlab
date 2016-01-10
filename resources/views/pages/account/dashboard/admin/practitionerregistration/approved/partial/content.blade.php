@@ -173,13 +173,12 @@
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
                                                     <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ $registration->street }}" disabled></td></tr>
-                                                    <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ $registration->suburb }}" disabled></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">City<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="city" placeholder="City" value="{{ $registration->city }}" disabled></td></tr>
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Suburb<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ $registration->suburb }}" disabled></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -215,7 +214,7 @@
                                                 </table>
                                             </div>
                                         </div>
-
+                                        <div style="margin-top: 47px;"></div>
 
                                     </div>
                                 </div>

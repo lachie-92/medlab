@@ -176,7 +176,6 @@
                                                 <div class="col-md-8 col-sm-8">
                                                     {{ $customer_address->street }} <br>
                                                     {{ $customer_address->suburb }} {{ $customer_address->postcode }}<br>
-                                                    {{ $customer_address->city }} <br>
                                                     {{ $customer_address->state }} {{ $customer_address->country }}<br>
                                                 </div>
                                             </div>
@@ -202,7 +201,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="margin-top: 16px;"></div>
+                                    <div style="margin-top: 35px;"></div>
                                 </div>
                             </div>
                             <!--
@@ -252,7 +251,6 @@
                                                     @if ($company_address)
                                                         {{ $company_address->street }} <br>
                                                         {{ $company_address->suburb }} {{ $company_address->postcode }}<br>
-                                                        {{ $company_address->city }} <br>
                                                         {{ $company_address->state }} {{ $company_address->country }}<br>
                                                     @endif
                                                 </div>

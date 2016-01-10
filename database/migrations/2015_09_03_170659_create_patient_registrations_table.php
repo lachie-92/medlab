@@ -23,7 +23,6 @@ class CreatePatientRegistrationsTable extends Migration
 
             $table->string('street');
             $table->string('suburb');
-            $table->string('city');
             $table->string('state');
             $table->string('country');
             $table->string('postcode');
@@ -34,7 +33,6 @@ class CreatePatientRegistrationsTable extends Migration
             $table->boolean('practitioner_not_found');
             $table->string('practitioner_name');
             $table->string('practitioner_clinic');
-            $table->string('practitioner_city');
             $table->string('practitioner_state');
             $table->string('practitioner_country');
             $table->string('practitioner_postcode');

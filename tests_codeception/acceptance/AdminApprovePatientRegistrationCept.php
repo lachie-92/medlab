@@ -14,7 +14,6 @@ $I->fillField('last_name', 'Codeception changed');
 
 $I->fillField('street_address_one', 'street changed');
 $I->fillField('street_address_two', 'suburb changed');
-$I->fillField('city', 'sydney changed');
 $I->selectOption('country', 'New Zealand');
 $I->selectOption('state', 'Auckland');
 $I->fillField('postcode', '1233');
@@ -38,7 +37,6 @@ $I->seeInDatabase('patient_registrations', array(
     'last_name' => 'Codeception changed',
     'street' => 'street changed',
     'suburb' => 'suburb changed',
-    'city' => 'sydney changed',
     'state' => 'Auckland',
     'country' => 'New Zealand',
     'postcode' => '1233',
@@ -48,7 +46,6 @@ $I->seeInDatabase('patient_registrations', array(
     'practitioner_not_found' => false,
     'practitioner_name' => 'practitioner test',
     'practitioner_clinic' => 'company one',
-    'practitioner_city' => 'Sydney',
     'practitioner_state' => 'NSW',
     'practitioner_country' => 'Australia',
     'practitioner_postcode' => '2077',
@@ -74,7 +71,6 @@ $I->seeInDatabase('customer_addresses', array(
     'address' => 'street changed suburb changed',
     'street' => 'street changed',
     'suburb' => 'suburb changed',
-    'city' => 'sydney changed',
     'state' => 'Auckland',
     'country' => 'New Zealand',
     'postcode' => '1233',

@@ -21,7 +21,6 @@ class CreateCustomerAddressesTable extends Migration {
             $table->string('state');
             $table->string('suburb');
 			$table->string('street');
-			$table->string('city');
 			$table->string('address');
 			$table->string('country');
             $table->string('territory');

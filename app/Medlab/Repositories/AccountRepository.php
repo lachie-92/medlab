@@ -62,7 +62,6 @@ class AccountRepository implements AccountRepositoryInterface
         $mainAddress->suburb = $request->street_address_two;
         $mainAddress->street = $request->street_address_one;
         $mainAddress->address = $request->street_address_one . ' ' . $request->street_address_two;
-        $mainAddress->city = $request->city;
         $mainAddress->country = $request->country;
         $mainAddress->save();
 

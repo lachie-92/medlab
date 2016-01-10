@@ -176,7 +176,6 @@
                                                 <div class="col-md-8 col-sm-8">
                                                     {{ $customer_address->street }} <br>
                                                     {{ $customer_address->suburb }} {{ $customer_address->postcode }}<br>
-                                                    {{ $customer_address->city }} <br>
                                                     {{ $customer_address->state }} {{ $customer_address->country }}<br>
                                                 </div>
                                             </div>
@@ -246,7 +245,6 @@
                                                     @if ($practitioner_company_address)
                                                         {{ $practitioner_company_address->street }} <br>
                                                         {{ $practitioner_company_address->suburb }} {{ $practitioner_company_address->postcode }}<br>
-                                                        {{ $practitioner_company_address->city }} <br>
                                                         {{ $practitioner_company_address->state }} {{ $practitioner_company_address->country }}<br>
                                                     @endif
                                                 </div>

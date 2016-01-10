@@ -18,7 +18,6 @@ class CreateCompanyAddressesTable extends Migration
             $table->string('description', 1000);
             $table->string('postcode');
             $table->string('state');
-            $table->string('city');
             $table->string('suburb');
             $table->string('street');
             $table->string('address');
