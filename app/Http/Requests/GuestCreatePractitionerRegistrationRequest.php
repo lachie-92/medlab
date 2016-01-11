@@ -39,8 +39,8 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'state' => 'required|validState|max:30',
             'country' => 'required|validCountry',
             'postcode' => 'required|digits:4',
-            'telephone' => array('required','regex:/^[0-9 \+\(\)]+$/', 'max:20'),
-            'mobile_phone' => array('required','regex:/^[0-9 \+\(\)]+$/', 'max:20'),
+            'telephone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),
+            'mobile_phone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),
             'agree' => 'boolean|accepted'
         ];
     }

@@ -30,7 +30,7 @@ class ContactController extends Controller
         $this->validate($request, [
             'name' => 'required|max:30',
             'email' => 'required|email|max:255',
-            'phone' => array('required','regex:/^[0-9 \+\(\)]+$/', 'max:20'),
+            'phone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),
             'enquiry' => 'required|max:200'
         ]);
 
