@@ -377,7 +377,8 @@ class GastroDaily_Seeder extends Seeder
             'price_retail' => 47.15,
             'price_wholesale' => 28.57,
             'image_path' => '/img/products/gastrodaily/gastro.png',
-            'thumb_image_path' => '/img/products/gastrodaily/thumb_gastro.png'
+            'thumb_image_path' => '/img/products/gastrodaily/thumb_gastro.png',
+            'in_stock' => true
         ]);
     }
 }

@@ -34,7 +34,16 @@
                         <h2 class="medlab_product_info_title">{!! strtoupper($product->product_name) !!}</h2>
 
                         <p>
-                            Availability: <span class="medlab_product_info_in_stock">In stock</span>
+                            Availability:
+                            @if ($product->in_stock)
+                                <span class="medlab_product_info_in_stock">
+                                    In stock
+                                </span>
+                            @else
+                                <span class="medlab_product_info_out_of_stock">
+                                    Out of stock
+                                </span>
+                            @endif
                         </p>
 
                         <div class="medlab_product_info_price_box">
@@ -55,13 +64,15 @@
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 <input type="hidden" value="{{ $product->id }}" name="product_id">
                                 <div class="input-group">
-                                    <span class="input-group-addon">
+                                    @if ($product->in_stock)
+                                        <span class="input-group-addon">
                                         Qty:
-                                    </span>
+                                        </span>
                                         <input id="product_quantity" name="product_quantity" class="form-control" type="text" placeholder="Quantity" title="Quantity" value="1"/>
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-default medlab_product_info_shop_box_button" type="submit" title="Add to Cart" >Add to Cart</button>
-                                    </span>
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-default medlab_product_info_shop_box_button" type="submit" title="Add to Cart" >Add to Cart</button>
+                                        </span>
+                                    @endif
                                 </div>
                             </form>
                         </div>

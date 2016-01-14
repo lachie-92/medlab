@@ -71,9 +71,14 @@ class ShoppingCartController extends Controller
         ]);
 
         $shoppingCart = $this->shoppingCart;
-        $shoppingCart->updateBasket($update);
+        $updateIsSuccessful = $shoppingCart->updateBasket($update);
 
-        return redirect('/shoppingcart/cart');
+        if ($updateIsSuccessful) {
+            return redirect('/shoppingcart/cart');
+        }
+        else {
+            return redirect('/shoppingcart/cart')->with('errors', collect(['Product is out of stock']));
+        }
     }
 
     /**

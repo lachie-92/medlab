@@ -520,7 +520,8 @@ class ORSBiotic_Seeder extends Seeder
             'price_retail' => 33.10,
             'price_wholesale' => 20.06,
             'image_path' => '/img/products/orsbiotic/orsbiotic.png',
-            'thumb_image_path' => '/img/products/orsbiotic/thumb_orsbiotic.png'
+            'thumb_image_path' => '/img/products/orsbiotic/thumb_orsbiotic.png',
+            'in_stock' => true
         ]);
     }
 }

@@ -349,8 +349,8 @@ class NanoCelle_D3_Seeder extends Seeder
             'price_retail' => 28.48,
             'price_wholesale' => 17.26,
             'image_path' => '/img/products/nanocelle_d3/d3_1.jpg',
-            'thumb_image_path' => '/img/products/nanocelle_d3/thumb_d3_1.jpg'
-
+            'thumb_image_path' => '/img/products/nanocelle_d3/thumb_d3_1.jpg',
+            'in_stock' => true
         ]);
     }
 }

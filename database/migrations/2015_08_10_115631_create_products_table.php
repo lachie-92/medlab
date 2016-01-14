@@ -30,6 +30,7 @@ class CreateProductsTable extends Migration
             $table->text('ingredients');
             $table->text('cmi');
             $table->text('free_from');
+            $table->boolean('in_stock');
             $table->decimal('price_retail', 8, 2);
             $table->decimal('price_wholesale', 8, 2);
             $table->string('image_path', 255);

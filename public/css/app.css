@@ -401,6 +401,10 @@ body {
   color: #3C763D;
   font-family: "Open Sans Bold",sans-serif; }
 
+.medlab_product_info_out_of_stock {
+  color: #FF0000;
+  font-family: "Open Sans Bold",sans-serif; }
+
 .medlab_product_info_price_box {
   display: inline-block;
   padding: 6px 12px 6px 12px;

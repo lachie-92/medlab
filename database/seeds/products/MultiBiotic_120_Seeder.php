@@ -389,8 +389,8 @@ class MultiBiotic_120s_Seeder extends Seeder
             'price_retail' => 100.55,
             'price_wholesale' => 60.94,
             'image_path' => '/img/products/multibiotic_120s/multibiotic-120s-bottle-jun15.jpg',
-            'thumb_image_path' => '/img/products/multibiotic_120s/thumb_multibiotic-120s-bottle-jun15.jpg'
-
+            'thumb_image_path' => '/img/products/multibiotic_120s/thumb_multibiotic-120s-bottle-jun15.jpg',
+            'in_stock' => true
         ]);
     }
 }

@@ -27,6 +27,19 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
     }
 
     /**
+     * Check the product is in stock
+     *
+     * @param $productId
+     * @return boolean
+     */
+    public function checkProductInStock($productId)
+    {
+        $isInStock = Product::find($productId)->in_stock;
+
+        return $isInStock;
+    }
+
+    /**
      * Create a Shipping Address array using the User Account Address
      *
      * @param $user

@@ -224,20 +224,31 @@ class ShoppingCart {
      * Update the Shopping basket saved in session
      *
      * @param $update
+     * @return bool
      */
     public function updateBasket($update) {
 
+        $updateSuccessful = false;
         $basket = $this->session->get('basket', []);
 
-        // Remove the product if the update quantity is zero
-        if ($update['product_quantity'] == 0) {
-            unset($basket[$update['product_id']]);
-        }
-        else {
-            $basket[$update['product_id']] = $update['product_quantity'];
+        // Only allows in-stock items to be added to the basket
+        $productIsInStock = $this->repository->checkProductInStock($update['product_id']);
+
+        if ($productIsInStock) {
+
+            // Remove the product if the update quantity is zero
+            if ($update['product_quantity'] == 0) {
+                unset($basket[$update['product_id']]);
+            }
+            else {
+                $basket[$update['product_id']] = $update['product_quantity'];
+            }
+
+            $this->session->put('basket', $basket);
+            $updateSuccessful = true;
         }
 
-        $this->session->put('basket', $basket);
+        return $updateSuccessful;
     }
 
     /**
