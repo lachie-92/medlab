@@ -15,7 +15,8 @@ $I->selectOption('title', 'Mr');
 $I->fillField('first_name', 'Practitioner');
 $I->fillField('last_name', 'Codeception');
 
-$I->fillField('provider_number', '21412341');
+$I->fillField('association_number', '21412341');
+$I->fillField('association_type', 'Australia Medical');
 
 $I->fillField('telephone', '341414');
 $I->fillField('mobile_phone', '13414141');
@@ -41,7 +42,8 @@ $I->seeInDatabase('practitioner_registrations', array(
     'clinic_name' => 'company one',
     'business_type' => 'company',
     'business_number' => '01234',
-    'provider_number' => '21412341',
+    'association_number' => '21412341',
+    'association_type' => 'Australia Medical',
     'street' => '123 Fake Street',
     'suburb' => 'Hornsby',
     'state' => 'NSW',
@@ -99,12 +101,13 @@ $I->seeInDatabase('users', array(
     'approved_by' => 'Admin',
     'status' => 'Active',
     'timezone' => 'Australia',
+    'association_number' => '21412341',
+    'association_type' => 'Australia Medical',
     'customer_id' => 4
 ));
 
 $I->seeInDatabase('practitioners', array(
     'id' => 2,
-    'practitioner_license' => '21412341',
     'user_id' => 4,
     'company_id' => 1
 ));

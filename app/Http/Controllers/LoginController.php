@@ -8,6 +8,7 @@ use App\Medlab\Mailer\MedlabMailer;
 use App\Medlab\Repositories\RegistrationRepositoryInterface;
 use App\Medlab\Traits\DefineAccountParameters;
 use App\Http\Requests\UserLoginRequest;
+use App\User;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Support\Facades\Auth;
 
@@ -73,8 +74,19 @@ class LoginController extends Controller
 
         $credentials = $this->getCredentials($request);
 
-        if (Auth::attempt($credentials, $request->has('remember'))) {
-            return $this->handleUserWasAuthenticated($request, $throttles);
+        $hasValidUserGroup = count(
+            User::where('email', '=', $credentials['email'])->
+                where(function($query) {
+                    $query->where('group', '=', 'Practitioner') ->
+                        orWhere('group', '=', 'Patient') ->
+                        orWhere('group', '=', 'Admin');
+                })->get());
+
+        if ($hasValidUserGroup) {
+
+            if (Auth::attempt($credentials, $request->has('remember'))) {
+                return $this->handleUserWasAuthenticated($request, $throttles);
+            }
         }
 
         if ($throttles) {

@@ -15,7 +15,6 @@ class CreatePractitionersTable extends Migration {
 		Schema::create('practitioners', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('practitioner_license');
 			$table->timestamps();
 			$table->softDeletes();
 

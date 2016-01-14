@@ -37,7 +37,8 @@
                             <thead>
                             <tr>
                                 <th>Practitioner Name</th>
-                                <th>Provider Number</th>
+                                <th>Association Number</th>
+                                <th>Association Name</th>
                                 <th>Clinic</th>
                                 <th>Received</th>
                                 <th>Details</th>
@@ -47,7 +48,8 @@
                             @foreach ($practitionerRegistrationList as $practitioner)
                                 <tr>
                                     <td>{{ $practitioner->first_name }} {{ $practitioner->last_name }}</td>
-                                    <td>{{ $practitioner->provider_number }}</td>
+                                    <td>{{ $practitioner->association_number }}</td>
+                                    <td>{{ $practitioner->association_type }}</td>
                                     <td>{{ $practitioner->clinic_name }}</td>
                                     <td>{{ $practitioner->created_at->diffForHumans() }}</td>
                                     <td><a class="btn btn-default" href="/account/practitioner-registration/{{ $practitioner->id }}">View</a></td>
@@ -75,7 +77,8 @@
                             <thead>
                             <tr>
                                 <th>Practitioner Name</th>
-                                <th>Provider Number</th>
+                                <th>Association Number</th>
+                                <th>Association Name</th>
                                 <th>Clinic</th>
                                 <th>Approved</th>
                                 <th>Details</th>
@@ -85,7 +88,8 @@
                             @foreach ($practitionerRegistrationApprovedList as $practitioner)
                                 <tr>
                                     <td>{{ $practitioner->first_name }} {{ $practitioner->last_name }}</td>
-                                    <td>{{ $practitioner->provider_number }}</td>
+                                    <td>{{ $practitioner->association_number }}</td>
+                                    <td>{{ $practitioner->association_type }}</td>
                                     <td>{{ $practitioner->clinic_name }}</td>
                                     <td>{{ $practitioner->approval->diffForHumans() }}</td>
                                     <td><a class="btn btn-default" href="/account/practitioner-registration/{{ $practitioner->id }}">View</a></td>
@@ -113,7 +117,8 @@
                             <thead>
                             <tr>
                                 <th>Practitioner Name</th>
-                                <th>Provider Number</th>
+                                <th>Association Number</th>
+                                <th>Association Name</th>
                                 <th>Clinic</th>
                                 <th>Deleted</th>
                                 <th>Details</th>
@@ -123,7 +128,8 @@
                             @foreach ($practitionerRegistrationDeletedList as $practitioner)
                                 <tr>
                                     <td>{{ $practitioner->first_name }} {{ $practitioner->last_name }}</td>
-                                    <td>{{ $practitioner->provider_number }}</td>
+                                    <td>{{ $practitioner->association_number }}</td>
+                                    <td>{{ $practitioner->association_type }}</td>
                                     <td>{{ $practitioner->clinic_name }}</td>
                                     <td>{{ $practitioner->deleted_at->diffForHumans() }}</td>
                                     <td><a class="btn btn-default" href="/account/practitioner-registration/{{ $practitioner->id }}">View</a></td>

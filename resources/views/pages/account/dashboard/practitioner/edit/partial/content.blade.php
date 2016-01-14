@@ -95,7 +95,7 @@
                             <!--
                             -- Business Information Box
                             -->
-                            <?php $company = $user->practitioner->company; ?>
+                            <?php $company = $user->practitioners->first()->company; ?>
                             <?php $company_address = $company->company_addresses->where('type', 'Physical')->first(); ?>
                             <?php $company_phone = $company->company_numbers->where('type', 'Main')->first(); ?>
                             <div class="col-md-6 col-sm-12">
@@ -157,13 +157,28 @@
                                             <div class="row">
                                                 <div class="col-md-4 col-sm-4">
                                                     <strong>
-                                                        Provider<br>
+                                                        Association<br>
                                                         Number:
                                                     </strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
                                                     <span style="line-height: 40px">
-                                                        {{ $user->practitioner->practitioner_license }}
+                                                        {{ $user->association_number }}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="medlab_dashboard_info_item_box_bottom">
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-4">
+                                                    <strong>
+                                                        Association<br>
+                                                        Name:
+                                                    </strong>
+                                                </div>
+                                                <div class="col-md-8 col-sm-8">
+                                                    <span style="line-height: 40px">
+                                                        {{ $user->association_type }}
                                                     </span>
                                                 </div>
                                             </div>

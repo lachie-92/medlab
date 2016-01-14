@@ -68,7 +68,8 @@ class UserTableSeeder extends Seeder
                 // Practitioner Detail
                 'title' => 'Dr.',
                 'name' => 'practitioner test',
-                'practitioner_license' => '01234',
+                'association_number' => '01234',
+                'association_type' => 'Australia Clinic',
                 'first_name' => 'practitioner',
                 'last_name' => 'test',
                 'email' => 'practitioneremailtest321@gmail.com',
@@ -184,11 +185,12 @@ class UserTableSeeder extends Seeder
                 'status' => 'Active',
                 'approved_by' => 'Seeder',
                 'timezone' => $user['country'],
+                'association_number' => $user['association_number'],
+                'association_type' => $user['association_type'],
                 'customer_id' => $customer->id
             ]);
 
             Practitioner::create([
-                'practitioner_license' => $user['practitioner_license'],
                 'user_id' => $newUser->id,
                 'company_id' => $company->id,
             ]);

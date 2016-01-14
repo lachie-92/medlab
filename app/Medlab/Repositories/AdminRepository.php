@@ -238,7 +238,8 @@ class AdminRepository implements AdminRepositoryInterface
         $registration->first_name = $request->first_name;
         $registration->last_name = $request->last_name;
         $registration->company_id = $request->company_id;
-        $registration->provider_number = $request->provider_number;
+        $registration->association_number = $request->association_number;
+        $registration->association_type = $request->association_type;
         $registration->street = $companyMainAddress->street;
         $registration->suburb = $companyMainAddress->suburb;
         $registration->state = $companyMainAddress->state;
@@ -341,7 +342,8 @@ class AdminRepository implements AdminRepositoryInterface
         $registration->first_name = $request->first_name;
         $registration->last_name = $request->last_name;
         $registration->company_id = $request->company_id;
-        $registration->provider_number = $request->provider_number;
+        $registration->association_number = $request->association_number;
+        $registration->association_type = $request->association_type;
         $registration->street = $companyMainAddress->street;
         $registration->suburb = $companyMainAddress->suburb;
         $registration->state = $companyMainAddress->state;
@@ -479,6 +481,8 @@ class AdminRepository implements AdminRepositoryInterface
         $newUser->approved_by = Auth::user()->customer->name;
         $newUser->status = 'Active';
         $newUser->timezone = $registration->country;
+        $newUser->association_number = $registration->association_number;
+        $newUser->association_type = $registration->association_type;
         $newUser->customer_id = $customer->id;
         $newUser->save();
 
@@ -513,7 +517,6 @@ class AdminRepository implements AdminRepositoryInterface
     {
         $newPractitioner = new Practitioner();
         $newPractitioner->user_id = $newUser->id;
-        $newPractitioner->practitioner_license = $registration->provider_number;
         $newPractitioner->company_id = $registration->company_id;
         $newPractitioner->save();
 

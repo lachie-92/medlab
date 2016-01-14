@@ -134,10 +134,18 @@
                                                     <tr><td><input type="text" class="form-control" name="business_number" placeholder="Business Num." value="{{ old('business_number') }}"></td></tr>
                                                 </table>
                                             </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Provider/Association Number<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider/Association Num." value="{{ old('provider_number') }}"></td></tr>
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Association Number<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="association_number" placeholder="Association Num." value="{{ old('association_number') }}"></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Association Name<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="association_type" placeholder="Association Name" value="{{ old('association_type') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>

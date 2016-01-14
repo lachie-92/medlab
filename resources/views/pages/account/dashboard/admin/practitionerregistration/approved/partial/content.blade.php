@@ -72,10 +72,16 @@
                                                     <tr><td><input type="text" class="form-control" name="last_name" placeholder="Last Name" value="{{ $registration->last_name }}" disabled></td></tr>
                                                 </table>
                                             </div>
-                                            <div class="col-md-12 col-sm-12">
+                                            <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
-                                                    <tr><th class="medlab_registration_form_section_subtitle">Provider Number<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="provider_number" placeholder="Provider Number" value="{{ $registration->provider_number }}" disabled></td></tr>
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Association Number<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="association_number" placeholder="Association Number" value="{{ $registration->association_number }}" disabled></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Association Name<span style="color: red;">*</span></th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="association_type" placeholder="Association Name" value="{{ $registration->association_type }}" disabled></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">

@@ -27,7 +27,9 @@ class CreateUsersTable extends Migration
             $table->boolean('account_credit');
             $table->string('timezone');
 
-            //set customer_since as created_at
+            $table->string('association_number')->nullable()->unique();
+            $table->string('association_type')->nullable();
+
             $table->timestamps();
             $table->softDeletes();
 
