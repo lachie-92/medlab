@@ -100,7 +100,7 @@ $I->seeInDatabase('users', array(
 ));
 
 $I->seeInDatabase('practitioners', array(
-    'id' => 2,
+    'id' => 3,
     'user_id' => 4,
     'company_id' => 1
 ));

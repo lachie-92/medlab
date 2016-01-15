@@ -27,7 +27,7 @@ $I->seeInPopup('Company has been created');
 $I->acceptPopup();
 
 $I->seeInDatabase('companies', array(
-    'id' => 2,
+    'id' => 3,
     'name' => 'company one',
     'business_type' => 'company',
     'business_number' => '213441',
@@ -35,7 +35,7 @@ $I->seeInDatabase('companies', array(
 ));
 
 $I->seeInDatabase('company_addresses', array(
-    'id' => 2,
+    'id' => 3,
     'type' => 'Physical',
     'address' => 'street suburb',
     'street' => 'street',
@@ -43,5 +43,5 @@ $I->seeInDatabase('company_addresses', array(
     'state' => 'NSW',
     'country' => 'Australia',
     'postcode' => '1234',
-    'company_id' => 2
+    'company_id' => 3
 ));

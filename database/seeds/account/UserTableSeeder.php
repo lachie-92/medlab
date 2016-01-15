@@ -195,6 +195,50 @@ class UserTableSeeder extends Seeder
                 'company_id' => $company->id,
             ]);
 
+            //
+            // Create a second company for the practitioner
+            //
+            $company = Company::create([
+                'name' => $user['company_name'] . ' duplicate',
+                'business_number' => $user['business_number'] . '0000',
+                'business_type' => $user['business_type'],
+                'country' => $user['company_country']
+
+            ]);
+
+            $mainCompanyAddress = Company_Address::create([
+                'type' => 'Physical',
+                'address' => $user['company_address'] . ' duplicate',
+                'street' => $user['company_street'] . ' duplicate',
+                'suburb' => $user['company_suburb'] . ' duplicate',
+                'postcode' => $user['company_postcode'],
+                'state' => $user['company_state'],
+                'country' => $user['company_country'],
+                'company_id' => $company->id
+            ]);
+
+            Company_Number::create([
+                'type' => 'Main',
+                'number' => $user['company_main_number'] . '0000',
+                'company_id' => $company->id
+            ]);
+
+            Related_To::create([
+                'this_company_id' => $company->id,
+                'related_customer_id' => $customer->id,
+                'relationship' => 'employ the customer'
+            ]);
+
+            Related_To::create([
+                'this_customer_id' => $customer->id,
+                'related_company_id' => $company->id,
+                'relationship' => 'working for the company'
+            ]);
+
+            Practitioner::create([
+                'user_id' => $newUser->id,
+                'company_id' => $company->id,
+            ]);
 
         }
 

@@ -201,74 +201,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div style="margin-top: 35px;"></div>
-                                </div>
-                            </div>
-                            <!--
-                            -- Right hand side box
-                            -->
-                            <div class="col-md-6 col-sm-12">
-                                <div class="well" style="background-color: transparent; background-image: none">
                                     <!--
-                                    -- User Business info
+                                    -- Practitioner Information
                                     -->
-                                    <?php $company = $user->practitioners->first()->company; ?>
-                                    <?php $company_address = $company->company_addresses->where('type', 'Physical')->first(); ?>
-                                    <?php $company_phone = $company->company_numbers->where('type', 'Main')->first(); ?>
-                                    <div class="row">
-                                        <h4 class="medlab_dashboard_info_section_title">Business Information</h4>
+                                    <div class="row" style="margin-top: 20px">
+                                        <h4 class="medlab_dashboard_info_section_title">Practitioner Info</h4>
                                         <div class="medlab_dashboard_info_item_box_top">
-                                            <div class="row">
-                                                <div class="col-md-4 col-sm-4">
-                                                    <strong>
-                                                        Business<br>
-                                                        Number:
-                                                    </strong>
-                                                </div>
-                                                <div class="col-md-8 col-sm-8">
-                                                    <span style="line-height: 40px">
-                                                        {{ $company->business_number }}
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="medlab_dashboard_info_item_box_top">
-                                            <div class="row">
-                                                <div class="col-md-4 col-sm-4">
-                                                    <strong>Clinic:</strong>
-                                                </div>
-                                                <div class="col-md-8 col-sm-8">
-                                                    {{ $company->name }}
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="medlab_dashboard_info_item_box_top">
-                                            <div class="row">
-                                                <div class="col-md-4 col-sm-4">
-                                                    <strong>Address:</strong>
-                                                </div>
-                                                <div class="col-md-8 col-sm-8">
-                                                    @if ($company_address)
-                                                        {{ $company_address->street }} <br>
-                                                        {{ $company_address->suburb }} {{ $company_address->postcode }}<br>
-                                                        {{ $company_address->state }} {{ $company_address->country }}<br>
-                                                    @endif
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="medlab_dashboard_info_item_box_top">
-                                            <div class="row">
-                                                <div class="col-md-4 col-sm-4">
-                                                    <strong>Phone:</strong>
-                                                </div>
-                                                <div class="col-md-8 col-sm-8">
-                                                    @if ($company_phone->number)
-                                                        {{ $company_phone->number }}
-                                                    @endif
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="medlab_dashboard_info_item_box_middle">
                                             <div class="row">
                                                 <div class="col-md-4 col-sm-4">
                                                     <strong>
@@ -283,7 +221,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="medlab_dashboard_info_item_box_bottom">
+                                        <div class="medlab_dashboard_info_item_box_middle">
                                             <div class="row">
                                                 <div class="col-md-4 col-sm-4">
                                                     <strong>
@@ -299,9 +237,104 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="alert alert-info" style="text-align: center; margin-bottom: 0px; margin-top: 10px;">
-                                        If you would like to change or update your Business information. Please
-                                        contact our staff at 1300 369 570.
+                                </div>
+                            </div>
+                            <!--
+                            -- Right hand side box
+                            -->
+                            <div class="col-md-6 col-sm-12">
+                                <div class="well" style="background-color: transparent; background-image: none">
+                                    <!--
+                                    -- User Business info
+                                    -->
+                                    <h4 class="medlab_dashboard_info_section_title">Business Information</h4>
+                                    <?php $practitioners = $user->practitioners; ?>
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li class="dropdown active">
+                                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                                Company <span class="caret"></span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                @foreach ($practitioners as $practitioner)
+                                                    <li role="presentation">
+                                                        <a href="#{{ $practitioner->company->id }}" role="tab" data-toggle="tab">
+                                                            {{ $practitioner->company->name }}
+                                                        </a>
+                                                    </li>
+                                                @endforeach
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <br>
+                                        @foreach ($practitioners as $index => $practitioner)
+                                            <div role="tabpanel" @if ($index == 0) class="tab-pane active" @else class="tab-pane" @endif id="{{ $practitioner->company->id }}">
+
+                                                <?php $company = $practitioner->company; ?>
+                                                <?php $company_address = $company->company_addresses->where('type', 'Physical')->first(); ?>
+                                                <?php $company_phone = $company->company_numbers->where('type', 'Main')->first(); ?>
+
+                                                <div class="medlab_dashboard_info_item_box_top">
+                                                    <div class="row">
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <strong>
+                                                                Business<br>
+                                                                Number:
+                                                            </strong>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-8">
+                                                    <span style="line-height: 40px">
+                                                        {{ $company->business_number }}
+                                                    </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="medlab_dashboard_info_item_box_top">
+                                                    <div class="row">
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <strong>Clinic:</strong>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-8">
+                                                            {{ $company->name }}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="medlab_dashboard_info_item_box_top">
+                                                    <div class="row">
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <strong>Address:</strong>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-8">
+                                                            @if ($company_address)
+                                                                {{ $company_address->street }} <br>
+                                                                {{ $company_address->suburb }} {{ $company_address->postcode }}<br>
+                                                                {{ $company_address->state }} {{ $company_address->country }}<br>
+                                                            @endif
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="medlab_dashboard_info_item_box_middle">
+                                                    <div class="row">
+                                                        <div class="col-md-4 col-sm-4">
+                                                            <strong>Phone:</strong>
+                                                        </div>
+                                                        <div class="col-md-8 col-sm-8">
+                                                            @if ($company_phone->number)
+                                                                {{ $company_phone->number }}
+                                                            @endif
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        @endforeach
+                                        <div style="margin-top: 120px;"></div>
+                                        <div class="alert alert-info" style="text-align: center; margin-bottom: 10px; margin-top: 10px;">
+                                            If you would like to change or update your Business and Practitioner information. Please
+                                            contact our staff at 1300 369 570.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
