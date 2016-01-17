@@ -43,6 +43,11 @@
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-6">
+                                    @if ($product->promotions->first())
+                                        <div style="float: right; border: 1px solid blue; padding: 4px;">
+                                            {!! $product->promotions->first()->description !!}
+                                        </div>
+                                    @endif
                                     {!! $product->short_description !!}
                                 </div>
                                 <div class="col-md-3 col-sm-3 col-xs-3">
