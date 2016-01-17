@@ -174,9 +174,13 @@
                                                     <strong>Address:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $customer_address->street }} <br>
-                                                    {{ $customer_address->suburb }} {{ $customer_address->postcode }}<br>
-                                                    {{ $customer_address->state }} {{ $customer_address->country }}<br>
+                                                    @if ($customer_address)
+                                                        {{ $customer_address->street }} <br>
+                                                        {{ $customer_address->suburb }} {{ $customer_address->postcode }}<br>
+                                                        {{ $customer_address->state }} {{ $customer_address->country }}<br>
+                                                    @else
+                                                        No Address Found
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -186,7 +190,11 @@
                                                     <strong>Phone:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $customer_phone->number }}
+                                                    @if ($customer_phone)
+                                                        {{ $customer_phone->number }}
+                                                    @else
+                                                        No Phone Number Found
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -196,7 +204,11 @@
                                                     <strong>Mobile:</strong>
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
-                                                    {{ $customer_mobile->number }}
+                                                    @if ($customer_mobile)
+                                                        {{ $customer_mobile->number }}
+                                                    @else
+                                                        No Mobile Number Found
+                                                    @endif
                                                 </div>
                                             </div>
                                         </div>
@@ -312,6 +324,8 @@
                                                                 {{ $company_address->street }} <br>
                                                                 {{ $company_address->suburb }} {{ $company_address->postcode }}<br>
                                                                 {{ $company_address->state }} {{ $company_address->country }}<br>
+                                                            @else
+                                                                No Address Found
                                                             @endif
                                                         </div>
                                                     </div>
@@ -324,6 +338,8 @@
                                                         <div class="col-md-8 col-sm-8">
                                                             @if ($company_phone->number)
                                                                 {{ $company_phone->number }}
+                                                            @else
+                                                                No Phone Number Found
                                                             @endif
                                                         </div>
                                                     </div>

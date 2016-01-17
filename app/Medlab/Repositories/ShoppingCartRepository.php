@@ -47,18 +47,35 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
      */
     public function createUserShippingAddress($user)
     {
+        $shippingAddress['title'] = '';
+        $shippingAddress['first_name'] = '';
+        $shippingAddress['last_name'] = '';
+        $shippingAddress['street'] = '';
+        $shippingAddress['suburb'] = '';
+        $shippingAddress['postcode'] = '';
+        $shippingAddress['state'] = '';
+        $shippingAddress['country'] = '';
+        $shippingAddress['phone'] = '';
+
         $accountAddress = $user->customer->customer_addresses->where('type', 'Account')->first();
         $accountMobile = $user->customer->customer_numbers->where('type', 'Account Mobile')->first();
 
-        $shippingAddress['title'] = $user->customer->title;
-        $shippingAddress['first_name'] = $user->customer->first_name;
-        $shippingAddress['last_name'] = $user->customer->last_name;
-        $shippingAddress['street'] = $accountAddress->street;
-        $shippingAddress['suburb'] = $accountAddress->suburb;
-        $shippingAddress['postcode'] = $accountAddress->postcode;
-        $shippingAddress['state'] = $accountAddress->state;
-        $shippingAddress['country'] = $accountAddress->country;
-        $shippingAddress['phone'] = $accountMobile->number;
+        if ($accountAddress) {
+            $shippingAddress['title'] = $user->customer->title;
+            $shippingAddress['first_name'] = $user->customer->first_name;
+            $shippingAddress['last_name'] = $user->customer->last_name;
+            $shippingAddress['street'] = $accountAddress->street;
+            $shippingAddress['suburb'] = $accountAddress->suburb;
+            $shippingAddress['postcode'] = $accountAddress->postcode;
+            $shippingAddress['state'] = $accountAddress->state;
+            $shippingAddress['country'] = $accountAddress->country;
+
+        }
+
+        if ($accountMobile) {
+            $shippingAddress['phone'] = $accountMobile->number;
+        }
+
 
         return $shippingAddress;
     }
@@ -71,16 +88,27 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
      */
     public function createUserBillingAddress($user)
     {
+        $billingAddress['title'] = '';
+        $billingAddress['first_name'] = '';
+        $billingAddress['last_name'] = '';
+        $billingAddress['street'] = '';
+        $billingAddress['suburb'] = '';
+        $billingAddress['postcode'] = '';
+        $billingAddress['state'] = '';
+        $billingAddress['country'] = '';
+
         $accountAddress = $user->customer->customer_addresses->where('type', 'Account')->first();
 
-        $billingAddress['title'] = $user->customer->title;
-        $billingAddress['first_name'] = $user->customer->first_name;
-        $billingAddress['last_name'] = $user->customer->last_name;
-        $billingAddress['street'] = $accountAddress->street;
-        $billingAddress['suburb'] = $accountAddress->suburb;
-        $billingAddress['postcode'] = $accountAddress->postcode;
-        $billingAddress['state'] = $accountAddress->state;
-        $billingAddress['country'] = $accountAddress->country;
+        if ($accountAddress) {
+            $billingAddress['title'] = $user->customer->title;
+            $billingAddress['first_name'] = $user->customer->first_name;
+            $billingAddress['last_name'] = $user->customer->last_name;
+            $billingAddress['street'] = $accountAddress->street;
+            $billingAddress['suburb'] = $accountAddress->suburb;
+            $billingAddress['postcode'] = $accountAddress->postcode;
+            $billingAddress['state'] = $accountAddress->state;
+            $billingAddress['country'] = $accountAddress->country;
+        }
 
         return $billingAddress;
     }

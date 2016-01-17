@@ -394,7 +394,6 @@
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
                                                         <tr><td><input id="create_new_street_address_one" type="text" class="form-control" name="create_new_street_address_one" placeholder="Street" value="{{ $registration->street }}"></td></tr>
-                                                        <tr><td style="padding-top: 10px;"><input id="create_new_street_address_two" type="text" class="form-control" name="create_new_street_address_two" placeholder="Suburb" value="{{ $registration->suburb }}"></td></tr>
                                                     </table>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6">

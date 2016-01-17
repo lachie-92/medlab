@@ -164,6 +164,8 @@
                                                                 {{ $company_address->street }} <br>
                                                                 {{ $company_address->suburb }} {{ $company_address->postcode }}<br>
                                                                 {{ $company_address->state }} {{ $company_address->country }}<br>
+                                                            @else
+                                                                No Address Found
                                                             @endif
                                                         </div>
                                                     </div>
@@ -176,6 +178,8 @@
                                                         <div class="col-md-8 col-sm-8">
                                                             @if ($company_phone->number)
                                                                 {{ $company_phone->number }}
+                                                            @else
+                                                                No Phone Number Found
                                                             @endif
                                                         </div>
                                                     </div>
@@ -226,13 +230,21 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ old('street_address_one', $customer_address->street) }}"></td></tr>
+                                                    @if ($customer_address)
+                                                        <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ old('street_address_one', $customer_address->street) }}"></td></tr>
+                                                    @else
+                                                        <tr><td><input type="text" class="form-control" name="street_address_one" placeholder="Street" value="{{ old('street_address_one') }}"></td></tr>
+                                                    @endif
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Suburb</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two', $customer_address->suburb) }}"></td></tr>
+                                                    @if ($customer_address)
+                                                        <tr><td><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two', $customer_address->suburb) }}"></td></tr>
+                                                    @else
+                                                        <tr><td><input type="text" class="form-control" name="street_address_two" placeholder="Suburb" value="{{ old('street_address_two') }}"></td></tr>
+                                                    @endif
                                                 </table>
                                             </div>
                                         </div>
@@ -242,10 +254,18 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region</th></tr>
                                                     <tr>
                                                         <td>
-                                                            @if( (old('country', $customer_address->country)) == "Australia" )
-                                                                {!! Form::select('state', $auState, old('state', $customer_address->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                            @if ($customer_address)
+                                                                @if( (old('country', $customer_address->country)) == "Australia" )
+                                                                    {!! Form::select('state', $auState, old('state', $customer_address->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                @else
+                                                                    {!! Form::select('state', $nzRegion, old('state', $customer_address->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                @endif
                                                             @else
-                                                                {!! Form::select('state', $nzRegion, old('state', $customer_address->state), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                @if( (old('country')) == "Australia" )
+                                                                    {!! Form::select('state', $auState, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                @else
+                                                                    {!! Form::select('state', $nzRegion, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                @endif
                                                             @endif
                                                         </td>
                                                     </tr>
@@ -256,7 +276,11 @@
                                                     <tr><th class="medlab_registration_form_section_subtitle">Country</th></tr>
                                                     <tr>
                                                         <td>
-                                                            {!! Form::select('country', $country, old('country', $customer_address->country), ['class' => 'form-control', 'data-change-state' => 'state_select']) !!}
+                                                            @if ($customer_address)
+                                                                {!! Form::select('country', $country, old('country', $customer_address->country), ['class' => 'form-control', 'data-change-state' => 'state_select']) !!}
+                                                            @else
+                                                                {!! Form::select('country', $country, old('country'), ['class' => 'form-control', 'data-change-state' => 'state_select']) !!}
+                                                            @endif
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -264,7 +288,11 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Post Code</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ old('postcode', $customer_address->postcode) }}"></td></tr>
+                                                    @if ($customer_address)
+                                                        <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ old('postcode', $customer_address->postcode) }}"></td></tr>
+                                                    @else
+                                                        <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ old('postcode') }}"></td></tr>
+                                                    @endif
                                                 </table>
                                             </div>
                                         </div>
@@ -272,13 +300,21 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Telephone</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ old('telephone', $customer_phone->number) }}"></td></tr>
+                                                    @if ($customer_phone)
+                                                        <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ old('telephone', $customer_phone->number) }}"></td></tr>
+                                                    @else
+                                                        <tr><td><input type="text" class="form-control" name="telephone" placeholder="Phone Num." value="{{ old('telephone') }}"></td></tr>
+                                                    @endif
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone</th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone', $customer_mobile->number) }}"></td></tr>
+                                                    @if ($customer_mobile)
+                                                        <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone', $customer_mobile->number) }}"></td></tr>
+                                                    @else
+                                                        <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone') }}"></td></tr>
+                                                    @endif
                                                 </table>
                                             </div>
                                         </div>

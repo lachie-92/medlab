@@ -1,6 +1,8 @@
 <?php
 namespace App\Medlab\Repositories;
 
+use App\Customer_Address;
+use App\Customer_Number;
 use App\Order;
 
 class AccountRepository implements AccountRepositoryInterface
@@ -57,21 +59,54 @@ class AccountRepository implements AccountRepositoryInterface
     public function updateUserAddress($request, $user)
     {
         $mainAddress = $user->customer->customer_addresses->where('type', "Account")->first();
-        $mainAddress->postcode = $request->postcode;
-        $mainAddress->state = $request->state;
-        $mainAddress->suburb = $request->street_address_two;
-        $mainAddress->street = $request->street_address_one;
-        $mainAddress->address = $request->street_address_one . ' ' . $request->street_address_two;
-        $mainAddress->country = $request->country;
-        $mainAddress->save();
+        if ($mainAddress) {
+            $mainAddress->postcode = $request->postcode;
+            $mainAddress->state = $request->state;
+            $mainAddress->suburb = $request->street_address_two;
+            $mainAddress->street = $request->street_address_one;
+            $mainAddress->address = $request->street_address_one . ' ' . $request->street_address_two;
+            $mainAddress->country = $request->country;
+            $mainAddress->save();
+        }
+        else {
+            $mainAddress = new Customer_Address();
+            $mainAddress->type = 'Account';
+            $mainAddress->postcode = $request->postcode;
+            $mainAddress->state = $request->state;
+            $mainAddress->suburb = $request->street_address_two;
+            $mainAddress->street = $request->street_address_one;
+            $mainAddress->address = $request->street_address_one . ' ' . $request->street_address_two;
+            $mainAddress->country = $request->country;
+            $mainAddress->customer_id = $user->customer->id;
+            $mainAddress->save();
+        }
+
 
         $mainPhone = $user->customer->customer_numbers->where('type', 'Account Phone')->first();
-        $mainPhone->number = $request->telephone;
-        $mainPhone->save();
+        if ($mainPhone) {
+            $mainPhone->number = $request->telephone;
+            $mainPhone->save();
+        }
+        else {
+            $mainPhone = new Customer_Number();
+            $mainPhone->type = 'Account Phone';
+            $mainPhone->number = $request->telephone;
+            $mainPhone->customer_id = $user->customer->id;
+            $mainPhone->save();
+        }
 
         $mainMobile = $user->customer->customer_numbers->where('type', 'Account Mobile')->first();
-        $mainMobile->number = $request->mobile_phone;
-        $mainMobile->save();
+        if ($mainMobile) {
+            $mainMobile->number = $request->mobile_phone;
+            $mainMobile->save();
+        }
+        else {
+            $mainMobile = new Customer_Number();
+            $mainMobile->type = 'Account Mobile';
+            $mainMobile->number = $request->mobile_phone;
+            $mainMobile->customer_id = $user->customer->id;
+            $mainMobile->save();
+        }
     }
 
     /**
