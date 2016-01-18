@@ -36,7 +36,9 @@
                     practitioner_state: $('#practitioner_state_select').val(),
                     practitioner_postcode: $('#practitioner_postcode').val(),
                     practitioner_suburb: $('#practitioner_suburb').val(),
-                    practitioner_clinic: $('#practitioner_clinic').val()
+                    practitioner_clinic: $('#practitioner_clinic').val(),
+                    practitioner_first_name: $('#practitioner_first_name').val(),
+                    practitioner_last_name: $('#practitioner_last_name').val()
                 },
                 type: "POST",
                 dataType : "html",
@@ -44,6 +46,7 @@
                 beforeSend: function(  ) {
                     var display = $('#find_practitioner_display_box');
                     display.empty();
+                    display.append("<p style='text-align: center; font-size: larger'><strong>Processing...</strong></p>");
                 },
 
                 success: function( html ) {

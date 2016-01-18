@@ -83,6 +83,14 @@ class SearchRepository implements SearchRepositoryInterface
             $all_practitioners = $all_practitioners->filterClinic($request['practitioner_clinic']);
         }
 
+        if(!empty($request['practitioner_first_name'])) {
+            $all_practitioners = $all_practitioners->filterFirstName($request['practitioner_first_name']);
+        }
+
+        if(!empty($request['practitioner_last_name'])) {
+            $all_practitioners = $all_practitioners->filterLastName($request['practitioner_last_name']);
+        }
+
         $filtered_practitioners = $all_practitioners->get();
 
         return $filtered_practitioners;

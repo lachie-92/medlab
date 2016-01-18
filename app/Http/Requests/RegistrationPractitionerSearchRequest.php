@@ -30,6 +30,8 @@ class RegistrationPractitionerSearchRequest extends Request
             'practitioner_suburb' => 'max:30',
             'practitioner_postcode' => 'digits:4',
             'practitioner_clinic' => 'max:50',
+            'practitioner_first_name' => 'max:30',
+            'practitioner_last_name' => 'max:30'
         ];
     }
 }

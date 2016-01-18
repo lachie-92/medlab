@@ -169,7 +169,7 @@
                                                 </table>
                                             </div>
                                         </div>
-                                        <div style="margin-top: 28px;">
+                                        <div style="margin-top: 87px;">
                                             &nbsp;
                                         </div>
                                     </div>
@@ -229,6 +229,18 @@
                                                     <tr><td><input type="text" id="practitioner_clinic" class="form-control" name="practitioner_clinic" placeholder="Practitioner Clinic Name" value=""></td></tr>
                                                 </table>
                                             </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">First Name</th></tr>
+                                                    <tr><td><input type="text" id="practitioner_first_name" class="form-control" name="practitioner_first_name" placeholder="First Name" value=""></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Last Name</th></tr>
+                                                    <tr><td><input type="text" id="practitioner_last_name" class="form-control" name="practitioner_last_name" placeholder="Last Name" value=""></td></tr>
+                                                </table>
+                                            </div>
                                         </div>
 
                                         <div style="margin-top: 10px;">
@@ -256,7 +268,7 @@
                                             <div class="medlab_registration_search_result">
                                                 SEARCH RESULTS
                                             </div>
-                                            <div id="find_practitioner_display_box">
+                                            <div id="find_practitioner_display_box" style="max-height: 300px; overflow: scroll;">
 
                                             </div>
                                         </div>

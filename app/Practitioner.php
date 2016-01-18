@@ -61,6 +61,28 @@ class Practitioner extends Model {
             });
     }
 
+    public function scopeFilterFirstName($query, $first_name) {
+        $query
+            ->whereHas('user', function($q) use ($first_name) {
+                $q
+                    ->whereHas('customer', function($q) use ($first_name) {
+                        $q
+                            ->where('first_name', 'like', '%' . $first_name . '%');
+                    });
+            });
+    }
+
+    public function scopeFilterLastName($query, $last_name) {
+        $query
+            ->whereHas('user', function($q) use ($last_name) {
+                $q
+                    ->whereHas('customer', function($q) use ($last_name) {
+                        $q
+                            ->where('last_name', 'like', '%' . $last_name . '%');
+                    });
+            });
+    }
+
     //
     // Model Relationships
     //
