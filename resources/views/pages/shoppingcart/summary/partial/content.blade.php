@@ -162,7 +162,11 @@
                                 Shipping
                             </th>
                             <td style="text-align: right">
-                                ${{ number_format($order->shipping_cost, 2) }}
+                                @if ($order->shippingCost == 0)
+                                    FREE
+                                @else
+                                    ${{ number_format($order->shipping_cost, 2) }}
+                                @endif
                             </td>
                         </tr>
                         <tr class="success" style="font-size: 24px">

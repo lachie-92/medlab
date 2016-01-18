@@ -38,13 +38,13 @@
                             @if (Auth::guest())
                                 @if ($promotion->isEligibleForPromotion('Patient'))
                                     <div style="border: 1px solid blue; padding: 4px;">
-                                        {!! $product->promotions->first()->description !!}
+                                        {!! $promotion->description !!}
                                     </div>
                                 @endif
                             @else
                                 @if ($promotion->isEligibleForPromotion(Auth::user()->group))
                                     <div style="border: 1px solid blue; padding: 4px;">
-                                        {!! $product->promotions->first()->description !!}
+                                        {!! $promotion->description !!}
                                     </div>
                                 @endif
                             @endif

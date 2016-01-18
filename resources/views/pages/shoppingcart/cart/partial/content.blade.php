@@ -106,6 +106,12 @@
                 <table class="table" id="cart_summary">
                     <tbody>
                     <tr>
+                        <th></th>
+                        <th style="text-align: right">
+                            Free Shipping for Order over ${{ $shoppingCart->amountRequiredForFreeShipping }}
+                        </th>
+                    </tr>
+                    <tr>
                         <th>
                             Subtotal
                         </th>
@@ -126,7 +132,11 @@
                             Shipping
                         </th>
                         <td style="text-align: right">
-                            ${{ $shoppingCart->shippingCost }}
+                            @if ($shoppingCart->shippingCost == 0)
+                                FREE
+                            @else
+                                ${{ $shoppingCart->shippingCost }}
+                            @endif
                         </td>
                     </tr>
                     <tr class="success" style="font-size: 24px">

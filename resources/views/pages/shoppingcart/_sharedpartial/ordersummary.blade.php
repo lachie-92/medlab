@@ -54,7 +54,11 @@
                 Shipping
             </th>
             <td style="text-align: right">
-                ${{ $shoppingCart->shippingCost }}
+                @if ($shoppingCart->shippingCost == 0)
+                    FREE
+                @else
+                    ${{ $shoppingCart->shippingCost }}
+                @endif
             </td>
         </tr>
         <tr class="success" style="font-size: 24px">

@@ -17,6 +17,13 @@ class ShoppingCart {
     public $shippingCost = 11;
 
     /**
+     * Shipping is free when order total exceed this value
+     *
+     * @var double
+     */
+    public $amountRequiredForFreeShipping = 100;
+
+    /**
      * Tax rate
      *
      * @var double
@@ -194,9 +201,21 @@ class ShoppingCart {
 
             $this->basket = $processedBasket;
 
-            // Calculate Grand total and GST
+            //
+            // Calculate Grand total
+            //
+            // Add Subtotal
+            $this->total = $this->subtotal;
+
+            // Add GST
             $this->GST = round($this->subtotal * $this->tax, 2);
-            $this->total = $this->subtotal + $this->GST + $this->shippingCost;
+            $this->total += $this->GST;
+
+            // Add Shipping
+            if ($this->subtotal > $this->amountRequiredForFreeShipping) {
+                $this->shippingCost = 0;
+            }
+            $this->total += $this->shippingCost;
         }
     }
 
