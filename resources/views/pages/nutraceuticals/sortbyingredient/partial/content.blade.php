@@ -46,6 +46,22 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6">
+                                            <?php $promotion = $product->promotions->first(); ?>
+                                            @if ($promotion)
+                                                @if (Auth::guest())
+                                                    @if ($promotion->isEligibleForPromotion('Patient'))
+                                                        <div style="float: right; border: 1px solid blue; padding: 4px;">
+                                                            {!! $product->promotions->first()->description !!}
+                                                        </div>
+                                                    @endif
+                                                @else
+                                                    @if ($promotion->isEligibleForPromotion(Auth::user()->group))
+                                                        <div style="float: right; border: 1px solid blue; padding: 4px;">
+                                                            {!! $product->promotions->first()->description !!}
+                                                        </div>
+                                                    @endif
+                                                @endif
+                                            @endif
                                             {!! $product->short_description !!}
                                         </div>
                                         <div class="col-md-3 col-sm-3 col-xs-3">
@@ -62,7 +78,11 @@
                                                     @endif
                                                 </span>
                                                 <span style="font-size: 12px; color: #555;">
-                                                    RRP
+                                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                                        WS
+                                                    @else
+                                                        RRP
+                                                    @endif
                                                 </span>
                                                 </div>
 

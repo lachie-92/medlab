@@ -43,11 +43,20 @@
                                     </a>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-6">
-                                    @if ($product->promotions->first())
-                                        @if ($product->promotions->first()->apply_to_group == Auth::user()->group)
-                                            <div style="float: right; border: 1px solid blue; padding: 4px;">
-                                                {!! $product->promotions->first()->description !!}
-                                            </div>
+                                    <?php $promotion = $product->promotions->first(); ?>
+                                    @if ($promotion)
+                                        @if (Auth::guest())
+                                            @if ($promotion->isEligibleForPromotion('Patient'))
+                                                <div style="float: right; border: 1px solid blue; padding: 4px;">
+                                                    {!! $product->promotions->first()->description !!}
+                                                </div>
+                                            @endif
+                                        @else
+                                            @if ($promotion->isEligibleForPromotion(Auth::user()->group))
+                                                <div style="float: right; border: 1px solid blue; padding: 4px;">
+                                                    {!! $product->promotions->first()->description !!}
+                                                </div>
+                                            @endif
                                         @endif
                                     @endif
                                     {!! $product->short_description !!}

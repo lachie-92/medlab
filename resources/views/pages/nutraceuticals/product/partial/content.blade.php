@@ -33,10 +33,21 @@
 
                         <h2 class="medlab_product_info_title">{!! strtoupper($product->product_name) !!}</h2>
 
-                        @if ($product->promotions->first())
-                            <div style="border: 1px solid blue; padding: 4px;">
-                                {!! $product->promotions->first()->description !!}
-                            </div>
+                        <?php $promotion = $product->promotions->first(); ?>
+                        @if ($promotion)
+                            @if (Auth::guest())
+                                @if ($promotion->isEligibleForPromotion('Patient'))
+                                    <div style="border: 1px solid blue; padding: 4px;">
+                                        {!! $product->promotions->first()->description !!}
+                                    </div>
+                                @endif
+                            @else
+                                @if ($promotion->isEligibleForPromotion(Auth::user()->group))
+                                    <div style="border: 1px solid blue; padding: 4px;">
+                                        {!! $product->promotions->first()->description !!}
+                                    </div>
+                                @endif
+                            @endif
                         @endif
 
                         <p>
