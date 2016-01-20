@@ -21,6 +21,9 @@ class MultiBiotic_30s_Seeder extends Seeder
                 '
                 <h4 class="medlab_product_content_title">MultiBiotic 30&#39;s</h4>
                 <p>
+                    <strong>PATENT PENDING</strong>
+                </p>
+                <p>
                     MultiBiotic&trade; is formulated to target both the small and large bowel for gastrointestinal
                     microbial balance. MultiBiotic™ may assist in maintaining optimal gastrointestinal care and
                     immune function.
@@ -28,6 +31,9 @@ class MultiBiotic_30s_Seeder extends Seeder
                 ',
             'patent' =>
                 '
+                <p>
+                    <strong>PATENT PENDING</strong>
+                </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>

@@ -14,7 +14,7 @@ class ORSBiotic_Seeder extends Seeder
     {
         Product::create([
 
-            'xero_item_id' => 12,
+            'xero_item_id' => 13,
             'product_name_index' => 'ORSBiotic',
             'product_name' => 'ORSBiotic&trade;',
             'short_description' =>

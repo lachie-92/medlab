@@ -15,7 +15,8 @@ class Product extends Model
     //
     public function scopeAlphabeticalOrder($query, $letter)
     {
-        return $query->where('product_name', 'like', $letter.'%');
+        return $query->where('product_name', 'like', $letter.'%')
+            ->orderBy('product_name_index', 'ASC');
     }
 
     //

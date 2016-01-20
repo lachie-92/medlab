@@ -14,7 +14,7 @@ class GastroDaily_Seeder extends Seeder
     {
         Product::create([
 
-            'xero_item_id' => 13,
+            'xero_item_id' => 14,
             'product_name_index' => 'GastroDaily',
             'product_name' => 'GastroDaily&trade;',
             'short_description' =>

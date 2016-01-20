@@ -36,11 +36,11 @@ class NutraceuticalsController extends Controller
                 $productList[$searchLetter] = 'active';
                 break;
             case 'Show All':
-                $products = Product::all();
+                $products = Product::orderBy('product_name_index', 'ASC')->get();
                 $productList['Show All'] = 'active';
                 break;
             default:
-                $products = Product::all();
+                $products = Product::orderBy('product_name_index', 'ASC')->get();
                 $productList['Show All'] = 'active';
         }
 
@@ -101,11 +101,11 @@ class NutraceuticalsController extends Controller
                 $productList[$searchLetter] = 'active';
                 break;
             case 'Show All':
-                $products = $category->products()->get();
+                $products = $category->products()->orderBy('product_name_index', 'ASC')->get();
                 $productList['Show All'] = 'active';
                 break;
             default:
-                $products = $category->products()->get();
+                $products = $category->products()->orderBy('product_name_index', 'ASC')->get();
                 $productList['Show All'] = 'active';
         }
 
@@ -138,11 +138,11 @@ class NutraceuticalsController extends Controller
                 $ingredientList[$searchLetter] = 'active';
                 break;
             case 'Show All':
-                $ingredients = Ingredient::all();
+                $ingredients = Ingredient::orderBy('ingredient_name', 'ASC')->get();
                 $ingredientList['Show All'] = 'active';
                 break;
             default:
-                $ingredients = Ingredient::all();
+                $ingredients = Ingredient::orderBy('ingredient_name', 'ASC')->get();
                 $ingredientList['Show All'] = 'active';
         }
 

@@ -74,9 +74,15 @@ class DatabaseSeeder extends Seeder
         $this->call(NRGBiotic_60s_Seeder::class);
         $this->call(NanoCelle_B12_Seeder::class);
         $this->call(NanoCelle_D3_Seeder::class);
-        $this->call(W8Biotic_Seeder::class);
+        $this->call(W8BioticLemonAndLime_Seeder::class);
+        $this->call(W8BioticStrawberriesAndCream_Seeder::class);
         $this->call(ORSBiotic_Seeder::class);
         $this->call(GastroDaily_Seeder::class);
+        $this->call(BioClean_EPA_DHA_CoQ10_120s_Seeder::class);
+        $this->call(BioClean_EPA_DHA_CoQ10_60s_Seeder::class);
+        $this->call(BioClean_EPA_DHA_Plant_Sterols_120s_Seeder::class);
+        $this->call(BioClean_EPA_DHA_Plant_Sterols_60s_Seeder::class);
+        $this->call(MgOptimaRelax_12_Seeder::class);
 
         $this->call(IngredientsTableSeeder::class);
         $this->call(IngredientProductSeeder::class);

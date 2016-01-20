@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Product;
 
-class W8Biotic_Seeder extends Seeder
+class W8BioticStrawberriesAndCream_Seeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,12 +14,12 @@ class W8Biotic_Seeder extends Seeder
     {
         Product::create([
 
-            'xero_item_id' => 11,
-            'product_name_index' => 'W8Biotic',
-            'product_name' => 'W8Biotic&trade;',
+            'xero_item_id' => 12,
+            'product_name_index' => 'W8Biotic Strawberries & Cream',
+            'product_name' => 'W8Biotic&trade; Strawberries & Cream',
             'short_description' =>
                 '
-                <h4 class="medlab_product_content_title">W8Biotic&trade;</h4>
+                <h4 class="medlab_product_content_title">W8Biotic&trade; Strawberries & Cream</h4>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>

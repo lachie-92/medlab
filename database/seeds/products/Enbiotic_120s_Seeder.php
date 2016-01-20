@@ -21,7 +21,7 @@ class Enbiotic_120s_Seeder extends Seeder
                 '
                 <h4 class="medlab_product_content_title">Enbiotic 120&#39;s</h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>PATENT PROTECTED</strong>
                 </p>
                 <p>
                     EnBiotic&trade; is a high quality, high strength digestive enzyme and probiotic combination developed to
@@ -31,7 +31,7 @@ class Enbiotic_120s_Seeder extends Seeder
             'patent' =>
                 '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>PATENT PROTECTED</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.

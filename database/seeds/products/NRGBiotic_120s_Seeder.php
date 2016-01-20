@@ -21,7 +21,7 @@ class NRGBiotic_120s_Seeder extends Seeder
                 '
                 <h4 class="medlab_product_content_title">NRGBiotic 120&#39;s</h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>PATENT PROTECTED</strong>
                 </p>
                 <p>
                     NRGBiotic&trade; is formulated to improve mitochondrial function and intracellular energy production.
@@ -30,7 +30,7 @@ class NRGBiotic_120s_Seeder extends Seeder
             'patent' =>
                 '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>PATENT PROTECTED</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.

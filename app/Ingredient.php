@@ -14,7 +14,8 @@ class Ingredient extends Model
     //
     public function scopeAlphabeticalOrder($query, $letter)
     {
-        return $query->where('ingredient_name', 'like', $letter.'%');
+        return $query->where('ingredient_name', 'like', $letter.'%')
+            ->orderBy('ingredient_name', 'ASC');
     }
 
     //
