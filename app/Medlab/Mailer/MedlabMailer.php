@@ -3,6 +3,7 @@
 namespace App\Medlab\Mailer;
 
 use Illuminate\Mail\Mailer;
+use Mandrill;
 
 class MedlabMailer
 {
@@ -42,13 +43,22 @@ class MedlabMailer
     protected $mail;
 
     /**
+     * Mandrill API
+     *
+     * @var Mandrill
+     */
+    protected $mandrill;
+
+    /**
      * Constructor for the Mailer
      *
      * @param Mailer $mail
+     * @param Mandrill $mandrill
      */
-    public function __construct(Mailer $mail)
+    public function __construct(Mailer $mail, Mandrill $mandrill)
     {
         $this->mail = $mail;
+        $this->mandrill = $mandrill;
     }
 
     /**

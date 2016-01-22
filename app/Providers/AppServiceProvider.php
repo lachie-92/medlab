@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->app->bind(
             'App\Medlab\Billing\BillingInterface',
-            'App\Medlab\Billing\BraintreeBilling'
+            'App\Medlab\Billing\CommWebBilling'
         );
 
         $this->app->bind(

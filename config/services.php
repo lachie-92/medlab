@@ -42,6 +42,13 @@ return [
         'privateKey' => env('BRAINTREE_PRIVATE_KEY'),
     ],
 
+    'commweb' => [
+        'secure-hash-secret' => env('COMMWEB_SECURE_HASH_SECRET'),
+        'vpc-url' => env('COMMWEB_VPC_URL'),
+        'merchant-id' => env('COMMWEB_MERCHANT_ID'),
+        'merchant-access-code' => env('COMMWEB_MERCHANT_ACCESS_CODE')
+    ],
+
     'aws' => [
         'load-balancer' => env('AWS_LOAD_BALANCER')
     ]

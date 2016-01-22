@@ -18,4 +18,9 @@ class StripeBilling implements BillingInterface
     {
 
     }
+
+    public function getClientToken()
+    {
+
+    }
 }

@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ShoppingCartCheckoutRequest;
+use App\Http\Requests\ShoppingCartDigitalOrderRequest;
 use App\Http\Requests\ShoppingCartUpdateAddressRequest;
 use App\Medlab\Billing\BillingInterface;
 use App\Medlab\Mailer\MedlabMailer;
@@ -151,9 +152,14 @@ class ShoppingCartController extends Controller
         }
 
         $order = session()->get('new_order');
-        $clientToken = $billing->getClientToken();
 
-        return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
+        if (is_a($billing, 'CommWebBilling')) {
+            return view('pages.shoppingcart.commweb.index', compact('order'));
+        }
+        else {
+            $clientToken = $billing->getClientToken();
+            return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
+        }
     }
 
     /**
@@ -167,7 +173,6 @@ class ShoppingCartController extends Controller
     public function postCheckout(ShoppingCartCheckoutRequest $request, BillingInterface $billing, MedlabMailer $mail)
     {
         $request->setTrustedProxies([Config::get('services.aws.load-balancer')]);
-
         $client_ip = $request->ip();
 
         $request = $request->only([
@@ -200,5 +205,17 @@ class ShoppingCartController extends Controller
 
             return redirect('/shoppingcart/summary')->with('errors', collect($errors));
         }
+    }
+
+    public function postCommWebDigitalOrder(ShoppingCartDigitalOrderRequest $request, BillingInterface $billing)
+    {
+        $vpc_url = $billing->processOrder($request);
+
+        return response()->header("Location: ".$vpc_url);
+    }
+
+    public function postCommWebDigitalReceipt()
+    {
+        
     }
 }
