@@ -11,28 +11,28 @@ class MedlabMailer
      *
      * @var string
      */
-    public $AdminRegistrationEmailAddress = 'registration_temp_email@medlab.co';
+    public $AdminRegistrationEmailAddress = 'henry_wu@medlab.co';
 
     /**
      * Admin Enquiry Email Address
      *
      * @var string
      */
-    public $AdminEnquiryEmailAddress = '13533test@gmail.com';
+    public $AdminEnquiryEmailAddress = 'henry_wu@medlab.co';
 
     /**
      * Admin Notice Email Address
      *
      * @var string
      */
-    public $AdminNoticeEmailAddress = '13533test@gmail.com';
+    public $AdminNoticeEmailAddress = 'henry_wu@medlab.co';
 
     /**
      * Admin Order Email Address
      *
      * @var string
      */
-    public $AdminOrderEmailAddress = '13533test@gmail.com';
+    public $AdminOrderEmailAddress = 'henry_wu@medlab.co';
 
     /**
      * Laravel Mailer
