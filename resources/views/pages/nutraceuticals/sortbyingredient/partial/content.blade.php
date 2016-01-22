@@ -67,23 +67,27 @@
                                         <div class="col-md-3 col-sm-3 col-xs-3">
                                             <div class="medlab_product_list_main_shopping_box">
                                                 <div class="medlab_product_info_price_box">
-                                                <span class="medlab_product_info_price_box_label">
-                                                    Price:
-                                                </span>
-                                                <span class="medlab_product_info_price_box_price">
-                                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                        ${!! $product->price_wholesale !!}
-                                                    @else
-                                                        ${!! $product->price_retail !!}
-                                                    @endif
-                                                </span>
-                                                <span style="font-size: 12px; color: #555;">
-                                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                        WS
-                                                    @else
-                                                        RRP
-                                                    @endif
-                                                </span>
+                                                    <span class="medlab_product_info_price_box_price">
+                                                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                                            <span class="medlab_product_info_price_box_label">
+                                                            Price:
+                                                        </span>
+                                                            ${!! $product->price_wholesale !!}
+                                                            <span style="font-size: 12px; color: #555;">
+                                                            WS
+                                                        </span>
+                                                        @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                                            <span class="medlab_product_info_price_box_label">
+                                                            Price:
+                                                        </span>
+                                                            ${!! $product->price_retail !!}
+                                                            <span style="font-size: 12px; color: #555;">
+                                                            RRP
+                                                        </span>
+                                                        @else
+
+                                                        @endif
+                                                    </span>
                                                 </div>
 
                                                 @if ($product->in_stock)
@@ -150,6 +154,18 @@
                 </div>
             </div>
 
+            <!--
+            -- No Login No Price Reminder
+            -->
+            @if(Auth::guest())
+                <div class="col-md-12 col-sm-6 col-xs-6">
+                    <div class="panel panel-primary medlab_panel medlab_product_list_side_bar_panel">
+                        <div class="panel-body medlab_panel_content medlab_product_list_side_bar_panel_content">
+                            <div class="medlab_product_list_side_bar_content_title"> Please <a href="/account/login">Login</a> to see the price of our products.</div>
+                        </div>
+                    </div>
+                </div>
+            @endif
         </div>
 
     </div>
