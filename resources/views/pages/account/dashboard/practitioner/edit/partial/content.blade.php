@@ -263,8 +263,10 @@
                                                             @else
                                                                 @if( (old('country')) == "Australia" )
                                                                     {!! Form::select('state', $auState, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
-                                                                @else
+                                                                @elseif( (old('country')) == "New Zealand")
                                                                     {!! Form::select('state', $nzRegion, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
+                                                                @else
+                                                                    {!! Form::select('state', $auState, old('state'), ['class' => 'form-control', 'id' => 'state_select']) !!}
                                                                 @endif
                                                             @endif
                                                         </td>

@@ -64,14 +64,25 @@
                         </p>
 
                         <div class="medlab_product_info_price_box">
-                            <span class="medlab_product_info_price_box_label">
-                                Price:
-                            </span>
                             <span class="medlab_product_info_price_box_price">
                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                    <span class="medlab_product_info_price_box_label">
+                                        Price:
+                                    </span>
                                     ${!! $product->price_wholesale !!}
-                                @else
+                                    <span style="font-size: 12px; color: #555;">
+                                        WS
+                                    </span>
+                                @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                    <span class="medlab_product_info_price_box_label">
+                                        Price:
+                                    </span>
                                     ${!! $product->price_retail !!}
+                                    <span style="font-size: 12px; color: #555;">
+                                        RRP
+                                    </span>
+                                @else
+                                    <div style="font-size: 15px; color: black;">Please <a href="/account/login">Login</a> to see product price and more product information.</div>
                                 @endif
                             </span>
                         </div>
