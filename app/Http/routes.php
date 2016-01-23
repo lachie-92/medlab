@@ -168,7 +168,7 @@ Route::post('/shoppingcart/checkout', 'ShoppingCartController@postCheckout');
 
 Route::post('/shoppingcart/digitalorder', 'ShoppingCartController@postCommWebDigitalOrder');
 
-Route::post('/shoppingcart/digitalreceipt', 'ShoppingCartController@postCommWebDigitalReceipt');
+Route::get('/shoppingcart/digitalreceipt', 'ShoppingCartController@getCommWebDigitalReceipt');
 
 ///////////////////////////////////////////////////////////////////////////////////
 //

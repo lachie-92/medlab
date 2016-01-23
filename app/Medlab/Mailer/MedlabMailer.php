@@ -2,8 +2,10 @@
 
 namespace App\Medlab\Mailer;
 
+use Carbon\Carbon;
 use Illuminate\Mail\Mailer;
 use Mandrill;
+use Mandrill_Error;
 
 class MedlabMailer
 {
@@ -68,14 +70,103 @@ class MedlabMailer
      */
     public function sendRegistrationReceivedEmail($registration)
     {
-        $from = $this->AdminRegistrationEmailAddress;
+        //$from = $this->AdminRegistrationEmailAddress;
 
+        /*
         $this->mail->queue('emails.registration_received', compact('registration'), function($message) use ($registration, $from) {
 
             $message->from($from)
                 ->to($registration->email)
                 ->subject('Medlab - Your Registration has been received');
         });
+        */
+
+        try {
+            $template_name = 'medlab-registration';
+            $template_content = array();
+            $message = array(
+                //'html' => null,
+                //'text' => null,
+                'subject' => 'Medlab - Your Registration has been received',
+                'from_email' => 'henry_wu@medlab.co',
+                'from_name' => 'Medlab',
+                'to' => array(
+                    array(
+                        'email' => $registration->email,
+                        'name' => empty($registration->title) ? $registration->title . " " . $registration->first_name . " " . $registration->last_name : $registration->first_name . " " . $registration->last_name,
+                        'type' => 'to'
+                    )
+                ),
+                'headers' => array('Reply-To' => 'henry_wu@medlab.co'),
+                'important' => false,
+                'track_opens' => null,
+                'track_clicks' => null,
+                'auto_text' => null,
+                'auto_html' => null,
+                'inline_css' => null,
+                'url_strip_qs' => null,
+                'preserve_recipients' => null,
+                'view_content_link' => null,
+                'bcc_address' => null,
+                'tracking_domain' => null,
+                'signing_domain' => null,
+                'return_path_domain' => null,
+                'merge' => true,
+                'merge_language' => 'mailchimp',
+                'global_merge_vars' => array(
+                ),
+                'merge_vars' => array(
+                ),
+                'tags' => array('registration_recieved'),
+                'subaccount' => null,
+                //'google_analytics_domains' => array('example.com'),
+                //'google_analytics_campaign' => 'message.from_email@example.com',
+                //'metadata' => array('website' => 'www.example.com'),
+                /*'recipient_metadata' => array(
+                    array(
+                        'rcpt' => 'recipient.email@example.com',
+                        'values' => array('user_id' => 123456)
+                    )
+                ),
+                'attachments' => array(
+                    array(
+                        'type' => 'text/plain',
+                        'name' => 'myfile.txt',
+                        'content' => 'ZXhhbXBsZSBmaWxl'
+                    )
+                ),
+                'images' => array(
+                    array(
+                        'type' => 'image/png',
+                        'name' => 'IMAGECID',
+                        'content' => 'ZXhhbXBsZSBmaWxl'
+                    )
+                )*/
+            );
+            $async = false;
+            $ip_pool = 'Main Pool';
+            $send_at = date('Y-m-d H:i:s');
+            $result = $this->mandrill->messages->sendTemplate($template_name, $template_content, $message, $async);
+            print_r($result);
+            /*
+            Array
+            (
+                [0] => Array
+                    (
+                        [email] => recipient.email@example.com
+                        [status] => sent
+                        [reject_reason] => hard-bounce
+                        [_id] => abc123abc123abc123abc123abc123
+                    )
+
+            )
+            */
+        } catch(Mandrill_Error $e) {
+            // Mandrill errors are thrown as exceptions
+            echo 'A mandrill error occurred: ' . get_class($e) . ' - ' . $e->getMessage();
+            // A mandrill error occurred: Mandrill_Unknown_Subaccount - No subaccount exists with the id 'customer-123'
+            throw $e;
+        }
     }
 
     /**

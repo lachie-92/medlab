@@ -10,6 +10,7 @@ use App\Medlab\ShoppingCart\ShoppingCart;
 use App\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Redirect;
 
 class ShoppingCartController extends Controller
 {
@@ -153,13 +154,13 @@ class ShoppingCartController extends Controller
 
         $order = session()->get('new_order');
 
-        if (is_a($billing, 'CommWebBilling')) {
+        //if (is_a($billing, 'CommWebBilling')) {
             return view('pages.shoppingcart.commweb.index', compact('order'));
-        }
-        else {
-            $clientToken = $billing->getClientToken();
-            return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
-        }
+        //}
+        //else {
+        //    $clientToken = $billing->getClientToken();
+        //    return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
+        //}
     }
 
     /**
@@ -211,11 +212,11 @@ class ShoppingCartController extends Controller
     {
         $vpc_url = $billing->processOrder($request);
 
-        return response()->header("Location: ".$vpc_url);
+        return Redirect::to($vpc_url);
     }
 
-    public function postCommWebDigitalReceipt()
+    public function getCommWebDigitalReceipt(Request $request)
     {
-        
+        var_dump($request->all());
     }
 }
