@@ -16,6 +16,7 @@
 </p>
 
 <p>
+    Account Type: {{ (get_class($registration) == "App\\Practitioner_Registration") ? "Practitioner" : "Patient" }}
     Name: {{ $registration['title'] }} {{ $registration['first_name'] }} {{ $registration['last_name'] }} <br>
     Email: {{ $registration['email'] }}
 </p>
