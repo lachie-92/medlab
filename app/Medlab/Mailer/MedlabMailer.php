@@ -2,40 +2,14 @@
 
 namespace App\Medlab\Mailer;
 
-use Carbon\Carbon;
 use Illuminate\Mail\Mailer;
 use Mandrill;
 use Mandrill_Error;
 
 class MedlabMailer
 {
-    /**
-     * Admin Registration Email Address
-     *
-     * @var string
-     */
-    public $AdminRegistrationEmailAddress = 'henry_wu@medlab.co';
 
-    /**
-     * Admin Enquiry Email Address
-     *
-     * @var string
-     */
-    public $AdminEnquiryEmailAddress = 'henry_wu@medlab.co';
-
-    /**
-     * Admin Notice Email Address
-     *
-     * @var string
-     */
-    public $AdminNoticeEmailAddress = 'henry_wu@medlab.co';
-
-    /**
-     * Admin Order Email Address
-     *
-     * @var string
-     */
-    public $AdminOrderEmailAddress = 'henry_wu@medlab.co';
+    public $AdminEmailAddress = 'henry_wu@medlab.co';
 
     /**
      * Laravel Mailer
@@ -70,23 +44,12 @@ class MedlabMailer
      */
     public function sendRegistrationReceivedEmail($registration)
     {
-        //$from = $this->AdminRegistrationEmailAddress;
-
-        /*
-        $this->mail->queue('emails.registration_received', compact('registration'), function($message) use ($registration, $from) {
-
-            $message->from($from)
-                ->to($registration->email)
-                ->subject('Medlab - Your Registration has been received');
-        });
-        */
-
         try {
             $template_name = 'medlab-registration-received';
             $template_content = array();
             $message = array(
                 'subject' => 'Medlab - Your Registration has been received',
-                'from_email' => 'henry_wu@medlab.co',
+                'from_email' => $this->AdminEmailAddress,
                 'from_name' => 'Medlab',
                 'to' => array(
                     array(
@@ -95,7 +58,7 @@ class MedlabMailer
                         'type' => 'to'
                     )
                 ),
-                'headers' => array('Reply-To' => 'henry_wu@medlab.co'),
+                'headers' => array('Reply-To' => $this->AdminEmailAddress),
                 'important' => false,
                 'track_opens' => null,
                 'track_clicks' => null,
@@ -136,7 +99,6 @@ class MedlabMailer
             );
             $async = false;
             $this->mandrill->messages->sendTemplate($template_name, $template_content, $message, $async);
-            print_r(get_class($registration));
         } catch(Mandrill_Error $e) {
             // Mandrill errors are thrown as exceptions
             echo 'A mandrill error occurred: ' . get_class($e) . ' - ' . $e->getMessage();
@@ -152,8 +114,8 @@ class MedlabMailer
      */
     public function sendRegistrationReceivedNoticeToAdmin($registration)
     {
-        $from = $this->AdminRegistrationEmailAddress;
-        $to = $this->AdminNoticeEmailAddress;
+        $from = $this->AdminEmailAddress;
+        $to = $this->AdminEmailAddress;
 
         $this->mail->queue('emails.new_registration_received', compact('registration'), function($message) use ($registration, $from, $to) {
 
@@ -170,7 +132,7 @@ class MedlabMailer
      */
     public function sendRegistrationApprovalEmail($registration)
     {
-        $from = $this->AdminRegistrationEmailAddress;
+        $from = $this->AdminEmailAddress;
 
         $this->mail->queue('emails.registration_approved', compact('registration'), function($message) use ($registration, $from) {
 
@@ -187,7 +149,7 @@ class MedlabMailer
      */
     public function sendEnquiryEmail($enquiry)
     {
-        $to = $this->AdminEnquiryEmailAddress;
+        $to = $this->AdminEmailAddress;
 
         $data = array();
         $data['enquiry'] = serialize($enquiry);
@@ -207,8 +169,8 @@ class MedlabMailer
      */
     public function sendOrderReceivedNoticeToAdmin($order)
     {
-        $from = $this->AdminOrderEmailAddress;
-        $to = $this->AdminNoticeEmailAddress;
+        $from = $this->AdminEmailAddress;
+        $to = $this->AdminEmailAddress;
 
         $data = array();
         $data['order'] = serialize($order);
