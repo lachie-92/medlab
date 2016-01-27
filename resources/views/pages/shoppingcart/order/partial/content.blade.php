@@ -19,10 +19,11 @@
                 </h2>
                 <div class="alert alert-success" style="text-align: center">
                     <p>
-                        Your order is currently being processed and you should receive a confirmation soon.
+                        Your order is currently being processed and you should receive a confirmation in your email:
+                        {{ $order->user->email }}
                     </p>
                     <p>
-                        Your can see your order <a href="/account/orders">here</a> at your account management page.
+                        You can see your order <a href="/account/orders">here</a> at your account management page.
                     </p>
                     <p>
                         Please contact us at 1300 369 570, if you have any enquires regarding your order.

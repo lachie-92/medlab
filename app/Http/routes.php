@@ -170,6 +170,8 @@ Route::post('/shoppingcart/digitalorder', 'ShoppingCartController@postCommWebDig
 
 Route::get('/shoppingcart/digitalreceipt', 'ShoppingCartController@getCommWebDigitalReceipt');
 
+Route::get('/shoppingcart/digitalcheckout', 'ShoppingCartController@getCommWebCheckOut');
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Educations
