@@ -64,6 +64,28 @@
                             </li>
                         </ul>
 
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-info">
+                                Payment Option
+                            </li>
+                            <li class="list-group-item">
+                                <div class="alert alert-info">
+                                    This is a Test System. Please don't use real credit card numbers.
+                                    Use these test values instead:
+                                    <br>
+                                    <br>
+                                    <ul style="list-style-type: none;">
+                                        <li>American Express: 371449635311004 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Visa: 4987654321098769 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Mastercard: 5123456789012346 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Diners Club: 30123456789019 Expiry Date: 05/17 CSC: N/A</li>
+                                    </ul>
+                                    <br>
+                                </div>
+                                <div id="braintree-container"></div>
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
