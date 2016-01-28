@@ -9,7 +9,7 @@ use Mandrill_Error;
 class MedlabMailer
 {
 
-    public $AdminEmailAddress = 'henry_wu@medlab.co';
+    public $AdminEmailAddress = '13533test@gmail.com';
 
     /**
      * Laravel Mailer
@@ -180,6 +180,22 @@ class MedlabMailer
             $message->from($from)
                 ->to($to)
                 ->subject('Medlab - A New Order has been received');
+        });
+    }
+
+    public function sendCommWebReceiptErrorToAdmin($errorMessages)
+    {
+        $from = $this->AdminEmailAddress;
+        $to = $this->AdminEmailAddress;
+
+        $data = array();
+        $data['errorMessages'] = serialize($errorMessages);
+
+        $this->mail->queue('emails.commweb_receipt_error', $data, function($message) use ($from, $to) {
+
+            $message->from($from)
+                ->to($to)
+                ->subject('Medlab - Received a CommWeb Receipt with Error');
         });
     }
 }

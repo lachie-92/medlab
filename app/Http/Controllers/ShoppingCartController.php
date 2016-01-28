@@ -11,7 +11,6 @@ use App\Medlab\ShoppingCart\ShoppingCart;
 use App\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Session;
 use Monolog\Handler\StreamHandler;
@@ -217,6 +216,8 @@ class ShoppingCartController extends Controller
         else {
 
             // Mail the error to the admin
+            $error = array_merge($errorMessages, $request->all());
+            $mail->sendCommWebReceiptErrorToAdmin($error);
 
             return redirect('/shoppingcart/summary')->with('errors', collect($errorMessages));
         }

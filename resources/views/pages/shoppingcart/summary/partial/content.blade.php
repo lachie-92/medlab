@@ -8,7 +8,7 @@
 -->
 @if (count($errors) > 0)
     <div class="container" style="margin-top: 30px;">
-        <div class="alert alert-danger">
+        <div class="alert alert-danger" style="margin-bottom: 0;">
             <ul>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>

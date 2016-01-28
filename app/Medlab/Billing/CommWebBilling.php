@@ -8,13 +8,14 @@ use Illuminate\Support\Facades\Config;
 
 class CommWebBilling implements BillingInterface
 {
+    protected $testingMode = true;
     protected $vpc_version = 1;
     protected $vpc_Locale = 'en';
     protected $vpc_gateway = 'ssl';
     protected $vpc_Merchant;
     protected $vpc_AccessCode;
     protected $vpc_ReturnURL;
-    protected $secure_hash_secret;
+    protected $secure_hash_secret;  // Remember to change this periodically as per requested by the best practice guide
     protected $vpc_url;
 
     public function __construct()
@@ -144,9 +145,9 @@ class CommWebBilling implements BillingInterface
             return $errorMessages;
         }
 
-        if ($vpc_TxnResponseCode != '0') {
-            $error = $this->getResponseDescription($vpc_TxnResponseCode);
-            $errorMessages[] = $this->processError($order, $error);
+        if ($order->transaction_status == 'Complete' || $order->transaction_status != 'Incomplete') {
+            $error = 'The Order in the Receipt has already being processed';
+            $errorMessages[] = $error;
             return $errorMessages;
         }
 
@@ -156,14 +157,14 @@ class CommWebBilling implements BillingInterface
             return $errorMessages;
         }
 
-        if ($order->transaction_status == 'Complete') {
-            $error = 'The Order in the Receipt has already being processed';
+        if ( (!$this->testingMode) && (($order->grand_total * 100) != $vpc_Amount) ) {
+            $error = 'The Amount in the Receipt does not match the Amount in the Order';
             $errorMessages[] = $this->processError($order, $error);
             return $errorMessages;
         }
 
-        if (($order->grand_total * 100) != $vpc_Amount) {
-            $error = 'The Amount in the Receipt does not match the Amount in the Order';
+        if ($vpc_TxnResponseCode != '0') {
+            $error = $this->getQSIResponseCodeDescription($vpc_TxnResponseCode);
             $errorMessages[] = $this->processError($order, $error);
             return $errorMessages;
         }
@@ -173,23 +174,16 @@ class CommWebBilling implements BillingInterface
 
     private function processError($order, $errorMessage)
     {
-        if ($order->transaction_status == 'Complete') {
-            return $errorMessage;
-        }
-
         if ($order->transaction_status == 'Incomplete') {
             $order->transaction_status = $errorMessage;
             $order->save();
             return $errorMessage;
         }
-        else {
-            $order->transaction_status = $order->transaction_status . '; ' . $errorMessage;
-            $order->save();
-            return $errorMessage;
-        }
+
+        return $errorMessage;
     }
 
-    public function retrieveReceiptItems($request)
+    private function retrieveReceiptItems($request)
     {
         $receipt['amount']          = $this->null2unknown($request["vpc_Amount"]);
         $receipt['locale']          = $this->null2unknown($request["vpc_Locale"]);
@@ -244,7 +238,27 @@ class CommWebBilling implements BillingInterface
         }
     }
 
-    // txnResponseCode
+    // txnResponseCode as per described by the current documentations
+    private function getQSIResponseCodeDescription($responseCode)
+    {
+        switch ($responseCode) {
+            case "0" : $result = "Transaction Approved"; break;
+            case "1" : $result = "Transaction could not be processed"; break;
+            case "2" : $result = "Transaction Declined – Contact Issuing Bank"; break;
+            case "3" : $result = "No Reply from Processing Host"; break;
+            case "4" : $result = "Card has Expired"; break;
+            case "5" : $result = "Insufficient Credit"; break;
+            case "6" : $result = "Transaction not processed - bank system error"; break;
+            case "7" : $result = "Transaction not processed - system error"; break;
+            case "B" : $result = "Transaction Declined"; break;
+            case "U" : $result = "Transaction Declined"; break;
+            case "E" : $result = "Transaction Declined"; break;
+            default  : $result = "Unable to be determined";
+        }
+        return $result;
+    }
+
+    // txnResponseCode from example
     private function getResponseDescription($responseCode)
     {
         switch ($responseCode) {
@@ -277,10 +291,9 @@ class CommWebBilling implements BillingInterface
         return $result;
     }
 
-    // avsResultCode
+    // avsResultCode from example
     private function displayAVSResponse($avsResultCode)
     {
-
         if ($avsResultCode != "") {
             switch ($avsResultCode) {
                 Case "Unsupported" : $result = "AVS not supported or there was no AVS data provided"; break;
@@ -304,7 +317,7 @@ class CommWebBilling implements BillingInterface
         return $result;
     }
 
-    // cscResultCode
+    // cscResultCode from example
     private function displayCSCResponse($cscResultCode)
     {
         if ($cscResultCode != "") {
@@ -323,7 +336,7 @@ class CommWebBilling implements BillingInterface
         return $result;
     }
 
-    // 3-D Secure Data verStatus
+    // 3-D Secure Data verStatus from example
     private function getStatusDescription($statusResponse)
     {
         if ($statusResponse == "" || $statusResponse == "No Value Returned") {
