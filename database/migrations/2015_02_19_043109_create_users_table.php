@@ -3,8 +3,8 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUsersTable extends Migration
-{
+class CreateUsersTable extends Migration {
+
     /**
      * Run the migrations.
      *
@@ -12,24 +12,26 @@ class CreateUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('users', function(Blueprint $table)
+        {
             $table->increments('id');
-            $table->integer('xero_contact_id')->nullable()->unique();
-            $table->string('email')->unique();
+            $table->integer('mage_id')->nullable()->unique();
+            $table->string('xero_contact_id')->nullable();
+            $table->tinyInteger('staff_security')->unsigned();
+            $table->string('email')->nullable()->unique();
             $table->string('group');
             $table->string('password', 60);
             $table->rememberToken();
-            $table->tinyInteger('tier')->unsigned();
             $table->boolean('newsletter_subscription');
+            $table->boolean('account_credit');
+            $table->string('association_number')->nullable();
+            $table->string('association_type')->nullable();
             $table->dateTime('date_approved');
             $table->string('approved_by');
             $table->string('status');
-            $table->boolean('account_credit');
             $table->string('timezone');
 
-            $table->string('association_number')->nullable()->unique();
-            $table->string('association_type')->nullable();
-
+            //set customer_since as created_at
             $table->timestamps();
             $table->softDeletes();
 
@@ -47,4 +49,5 @@ class CreateUsersTable extends Migration
     {
         Schema::drop('users');
     }
+
 }

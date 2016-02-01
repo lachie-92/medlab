@@ -53,6 +53,7 @@ class CreateOrdersTable extends Migration
             $table->string('receipt_no');
             $table->string('authorize_id');
             $table->string('merch_txn_ref')->unique()->nullable();
+
             $table->timestamps();
         });
 

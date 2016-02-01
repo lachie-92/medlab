@@ -19,9 +19,9 @@ class CreateRelatedToTable extends Migration {
 			$table->integer('this_company_id')->nullabe();
 			$table->integer('related_customer_id')->nullabe();
 			$table->integer('related_company_id')->nullabe();
-			//$table->string('this_name');
-			$table->string('relationship'); //Doctor employed by
-			//$table->string('related_name');
+			$table->string('this_name');
+			$table->string('relationship');
+			$table->string('related_name');
 			$table->timestamps();
 			$table->softDeletes();
 		});

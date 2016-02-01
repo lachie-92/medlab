@@ -67,7 +67,7 @@ class CommWebBilling implements BillingInterface
             'vpc_Version' => $this->vpc_version,
             'vpc_Command' => 'pay',
             'vpc_Amount' => 100,
-            'vpc_MerchTxnRef' => $user->id . '-' . $order->id . '-' . time(),
+            'vpc_MerchTxnRef' => $user->id . '-' . $order->id . '-' . Carbon::now()->format('d-m-Y-H-i-s'),
             'vpc_OrderInfo' => $order->id,
             'vpc_Locale' => $this->vpc_Locale,
             'vpc_gateway' => $this->vpc_gateway,
