@@ -63,10 +63,27 @@ class CommWebBilling implements BillingInterface
         $order = Order::findOrFail($request['order']);
         $user = $order->user;
 
+        if ($this->testingMode) {
+
+            $isTestValue =
+                ($order->subtotal == 1.00) ||
+                ($order->subtotal == 1.10) ||
+                ($order->subtotal == 1.05) ||
+                ($order->subtotal == 1.68) ||
+                ($order->subtotal == 1.54) ||
+                ($order->subtotal == 1.51) ||
+                ($order->subtotal == 1.01);
+
+            $amount = ($isTestValue) ? $order->subtotal * 100 : 100;
+        }
+        else {
+            $amount = $order->grand_total * 100;
+        }
+
         $billingRequest = [
             'vpc_Version' => $this->vpc_version,
             'vpc_Command' => 'pay',
-            'vpc_Amount' => 100,
+            'vpc_Amount' => $amount,
             'vpc_MerchTxnRef' => $user->id . '-' . $order->id . '-' . Carbon::now()->format('d-m-Y-H-i-s'),
             'vpc_OrderInfo' => $order->id,
             'vpc_Locale' => $this->vpc_Locale,
@@ -244,15 +261,15 @@ class CommWebBilling implements BillingInterface
         switch ($responseCode) {
             case "0" : $result = "Transaction Approved"; break;
             case "1" : $result = "Transaction could not be processed"; break;
-            case "2" : $result = "Transaction Declined – Contact Issuing Bank"; break;
-            case "3" : $result = "No Reply from Processing Host"; break;
+            case "2" : $result = "Transaction Declined. Contact Issuing Bank"; break;
+            case "3" : $result = "No Reply from Bank Processing Host"; break;
             case "4" : $result = "Card has Expired"; break;
             case "5" : $result = "Insufficient Credit"; break;
             case "6" : $result = "Transaction not processed - bank system error"; break;
             case "7" : $result = "Transaction not processed - system error"; break;
-            case "B" : $result = "Transaction Declined"; break;
-            case "U" : $result = "Transaction Declined"; break;
-            case "E" : $result = "Transaction Declined"; break;
+            case "B" : $result = "Transaction Declined. BIN blocked"; break;
+            case "U" : $result = "Transaction auto-declined due to unacceptable CSC value."; break;
+            case "E" : $result = "Transaction Declined. Contact issuing bank"; break;
             default  : $result = "Unable to be determined";
         }
         return $result;

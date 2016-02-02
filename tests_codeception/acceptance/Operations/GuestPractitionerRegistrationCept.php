@@ -27,7 +27,7 @@ $I->fillField('mobile_phone', '13414141');
 $I->checkOption('//input[@type="checkbox" and @name="agree"]');
 $I->click('//button[@type="submit" and contains(., "Submit")]');
 
-$I->see('Please wait for our Staff to approve your application.');
+$I->see('Your Registration has been received.');
 $I->seeInDatabase('practitioner_registrations', array(
     'email' => 'regpractitioneremailtest321@gmail.com',
     'title' => 'Mr',
