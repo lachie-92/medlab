@@ -9,7 +9,7 @@ use Mandrill_Error;
 class MedlabMailer
 {
 
-    public $AdminEmailAddress = '13533test@gmail.com';
+    public $AdminEmailAddress = 'henry_wu@medlab.co';
 
     /**
      * Laravel Mailer
@@ -183,7 +183,7 @@ class MedlabMailer
         });
     }
 
-    public function sendOrderRecievedNoticeToClient($order)
+    public function sendOrderReceivedNoticeToClient($order)
     {
         $customer = $order->user->customer;
 
@@ -191,7 +191,7 @@ class MedlabMailer
             $template_name = 'medlab-order-receipt';
             $template_content = array();
             $message = array(
-                'subject' => 'Medlab - Order Recieved #' . $order->id,
+                'subject' => 'Medlab - Order Received #' . $order->id,
                 'from_email' => $this->AdminEmailAddress,
                 'from_name' => 'Medlab',
                 'to' => array(
