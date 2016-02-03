@@ -386,110 +386,6 @@ class UseShoppingCartTest extends TestCase
         ]);
     }
 
-    public function test_it_allows_patient_to_uses_braintree_to_checkout()
-    {
-        Session::start();
-
-        $patient = User::where('email', 'patientemailtest321@gmail.com')->first();
-        Auth::login($patient);
-        $this->withSession(['basket' => ['1' => '1']]);
-
-        $shippingAddress = $this->createShippingAddress();
-        $billingAddress = $this->createBillingAddress();
-        $data = array_merge($shippingAddress, $billingAddress, ['_token' => csrf_token()]);
-        $this->call('POST', '/shoppingcart/address', $data);
-
-        $request = [
-            'payment_token' => 'fake-valid-nonce',
-            'payment_type' => 'CreditCard',
-            'order' => '1001',
-            '_token' => csrf_token(),
-        ];
-
-        $this->call('POST', '/shoppingcart/checkout', $request);
-
-        $this->seeInDatabase('orders', [
-            'id' => 1001,
-            'user_id' => 3,
-            'shipping_address_title' => 'Mr',
-            'shipping_address_first_name' => 'name',
-            'shipping_address_last_name' => 'phpunit',
-            'shipping_address_street' => 'street',
-            'shipping_address_suburb' => 'suburb',
-            'shipping_address_state' => 'NSW',
-            'shipping_address_country' => 'Australia',
-            'shipping_address_postcode' => '1234',
-            'shipping_address_phone' => '12345678',
-            'billing_address_title' => 'Mr',
-            'billing_address_first_name' => 'name',
-            'billing_address_last_name' => 'phpunit',
-            'billing_address_street' => 'street',
-            'billing_address_suburb' => 'suburb',
-            'billing_address_state' => 'NSW',
-            'billing_address_country' => 'Australia',
-            'billing_address_postcode' => '1234',
-            'payment_type' => 'CreditCard',
-            'order_status' => 'Order Received',
-            'subtotal' => 62.83,
-            'GST' => 6.28,
-            'shipping_cost' => 11,
-            'discount' => 0,
-            'grand_total' => 80.11
-        ]);
-    }
-
-    public function test_it_allows_practitioner_to_uses_braintree_to_checkout()
-    {
-        Session::start();
-
-        $patient = User::where('email', 'practitioneremailtest321@gmail.com')->first();
-        Auth::login($patient);
-        $this->withSession(['basket' => ['1' => '1']]);
-
-        $shippingAddress = $this->createShippingAddress();
-        $billingAddress = $this->createBillingAddress();
-        $data = array_merge($shippingAddress, $billingAddress, ['_token' => csrf_token()]);
-        $this->call('POST', '/shoppingcart/address', $data);
-
-        $request = [
-            'payment_token' => 'fake-valid-nonce',
-            'payment_type' => 'CreditCard',
-            'order' => '1001',
-            '_token' => csrf_token(),
-        ];
-
-        $this->call('POST', '/shoppingcart/checkout', $request);
-
-        $this->seeInDatabase('orders', [
-            'id' => 1001,
-            'user_id' => 2,
-            'shipping_address_title' => 'Mr',
-            'shipping_address_first_name' => 'name',
-            'shipping_address_last_name' => 'phpunit',
-            'shipping_address_street' => 'street',
-            'shipping_address_suburb' => 'suburb',
-            'shipping_address_state' => 'NSW',
-            'shipping_address_country' => 'Australia',
-            'shipping_address_postcode' => '1234',
-            'shipping_address_phone' => '12345678',
-            'billing_address_title' => 'Mr',
-            'billing_address_first_name' => 'name',
-            'billing_address_last_name' => 'phpunit',
-            'billing_address_street' => 'street',
-            'billing_address_suburb' => 'suburb',
-            'billing_address_state' => 'NSW',
-            'billing_address_country' => 'Australia',
-            'billing_address_postcode' => '1234',
-            'payment_type' => 'CreditCard',
-            'order_status' => 'Order Received',
-            'subtotal' => 38.08,
-            'GST' => 3.81,
-            'shipping_cost' => 11,
-            'discount' => 0,
-            'grand_total' => 52.89
-        ]);
-    }
-
     public function test_it_applies_buy_one_get_one_free_promotion()
     {
         Session::start();
@@ -527,9 +423,9 @@ class UseShoppingCartTest extends TestCase
             'order_status' => 'New Order',
             'subtotal' => 188.49,
             'GST' => 18.85,
-            'shipping_cost' => 11,
+            'shipping_cost' => 0,
             'discount' => 62.83,
-            'grand_total' => 218.34
+            'grand_total' => 207.34
         ]);
 
         $this->seeInDatabase('orderedProducts', [
@@ -632,4 +528,5 @@ class UseShoppingCartTest extends TestCase
             'promotion_apply_to_group' => 'Patient'
         ]);
     }
+
 }

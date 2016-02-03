@@ -73,7 +73,7 @@ class ZPaymentNoReplyResponseTestCest
         $I->click('//button[@type="submit"]');
         $I->click('#button_payment');
     }
-
+/*
     //
     // This will lock the payment gate way for the next 15 minutes
     //
@@ -128,4 +128,5 @@ class ZPaymentNoReplyResponseTestCest
             'transaction_status' => 'Incomplete'
         ));
     }
+*/
 }
