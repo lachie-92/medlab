@@ -35,8 +35,8 @@ $I->see('$67.54', '//table[@id="cart_list"]/tbody/tr[2]/td[5]');
 $I->see('$135.08', '//table[@id="cart_list"]/tbody/tr[2]/td[6]');
 $I->see('$323.57', '//table[@id="cart_summary"]/tbody//th[contains(., "Subtotal")]/ancestor::tr/td');
 $I->see('$32.36', '//table[@id="cart_summary"]/tbody//th[contains(., "GST")]/ancestor::tr/td');
-$I->see('$11', '//table[@id="cart_summary"]/tbody//th[contains(., "Shipping")]/ancestor::tr/td');
-$I->see('$366.93', '//table[@id="cart_summary"]/tbody//th[contains(., "Total")]/ancestor::tr/td');
+$I->see('FREE', '//table[@id="cart_summary"]/tbody//th[contains(., "Shipping")]/ancestor::tr/td');
+$I->see('$355.93', '//table[@id="cart_summary"]/tbody//th[contains(., "Total")]/ancestor::tr/td');
 $I->click('//a[@href="/shoppingcart/address"]');
 
 $I->seeCurrentUrlEquals('/shoppingcart/address');
@@ -82,9 +82,9 @@ $I->seeInDatabase('orders', array(
     'order_status' => 'New Order',
     'subtotal' => 323.57,
     'GST' => 32.36,
-    'shipping_cost' => 11,
+    'shipping_cost' => 0,
     'discount' => 96.61,
-    'grand_total' => 366.93
+    'grand_total' => 355.93
 ));
 
 $I->seeInDatabase('orderedProducts', array(
@@ -148,17 +148,19 @@ $I->seeInDatabase('orderedProducts_Promotions', array(
 ));
 
 $I->seeCurrentUrlEquals('/shoppingcart/summary');
-$I->wait(10);
-$I->switchToIFrame('braintree-dropin-frame');
-$I->fillField('#credit-card-number', '4111111111111111');
-$I->fillField('#expiration', '1119');
-$I->fillField('#cvv', '123');
-$I->switchToIFrame();
 $I->click('#button_payment');
 
+$I->click('//img[@name="Visa"]');
+$I->fillField('cardno', '4987654321098769');
+$I->fillField('cardexpirymonth', '05');
+$I->fillField('cardexpiryyear', '17');
+$I->fillField('cardsecurecode', '100');
+$I->click('#Paybutton');
+
 $I->wait(10);
-$I->seeCurrentUrlEquals('/shoppingcart/checkout');
-$I->see('Your order is currently being processed and you should receive a confirmation soon.');
+$I->wait(10);
+$I->seeCurrentUrlEquals('/shoppingcart/digitalcheckout');
+$I->see('Your order is currently being processed and you should receive a confirmation in your email:');
 
 $I->seeInDatabase('orders', array(
     'id' => 1001,
@@ -180,11 +182,12 @@ $I->seeInDatabase('orders', array(
     'billing_address_state' => 'NSW',
     'billing_address_country' => 'Australia',
     'billing_address_postcode' => '1234',
-    'payment_type' => 'CreditCard',
+    'payment_type' => 'VC',
     'order_status' => 'Order Received',
+    'transaction_status' => 'Complete',
     'subtotal' => '323.57',
     'GST' => '32.36',
-    'shipping_cost' => '11',
+    'shipping_cost' => '0',
     'discount' => '96.61',
-    'grand_total' => '366.93'
+    'grand_total' => '355.93'
 ));
