@@ -193,6 +193,7 @@ class ShoppingCartController extends Controller
 
             $order = Order::findOrFail($request['order']);
             $mail->sendOrderReceivedNoticeToAdmin($order);
+            $mail->sendOrderRecievedNoticeToClient($order);
 
             return view('pages.shoppingcart.order.index', compact('order'));
         }
