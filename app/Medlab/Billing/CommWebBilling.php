@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Config;
 
 class CommWebBilling implements BillingInterface
 {
-    protected $testingMode = true;
+    protected $testingMode = false;
     protected $vpc_version = 1;
     protected $vpc_Locale = 'en';
     protected $vpc_gateway = 'ssl';
