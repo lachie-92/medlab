@@ -26,10 +26,12 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
+        /*
         $schedule->command('order:clean')
                  ->daily();
 
         $schedule->command('registration:clean')
                   ->daily();
+        */
     }
 }

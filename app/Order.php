@@ -45,8 +45,11 @@ class Order extends Model
 
     public function scopeSearchDayOldUnprocessedOrders($query)
     {
-        $query->where('order_status', '=', 'New Order')
-            ->where('created_at', '<', Carbon::yesterday());
+        $query->where('created_at', '<', Carbon::yesterday())
+            ->where(function($query) {
+                $query->whereNull('transaction_status') ->
+                orWhere('transaction_status', '=', '');
+            });
     }
 
     //
