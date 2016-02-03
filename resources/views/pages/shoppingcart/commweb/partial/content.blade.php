@@ -8,7 +8,7 @@
 -->
 @if (count($errors) > 0)
     <div class="container" style="margin-top: 30px;">
-        <div class="alert alert-danger">
+        <div class="alert alert-danger" style="margin-bottom: 0;">
             <ul>
                 @foreach ($errors->all() as $error)
                     <li>{{ $error }}</li>
@@ -70,15 +70,15 @@
                             </li>
                             <li class="list-group-item">
                                 <div class="alert alert-info">
-                                    This is a Test System. Please don't use real credit card or Paypal account.
+                                    This is a Test System. Please don't use real credit card numbers.
                                     Use these test values instead:
                                     <br>
                                     <br>
                                     <ul style="list-style-type: none;">
-                                        <li>American Express: 378282246310005</li>
-                                        <li>Visa: 4111111111111111</li>
-                                        <li>Mastercard: 5555555555554444</li>
-                                        <li>Paypal: Any valid email address and password</li>
+                                        <li>American Express: 371449635311004 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Visa: 4987654321098769 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Mastercard: 5123456789012346 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Diners Club: 30123456789019 Expiry Date: 05/17 CSC: N/A</li>
                                     </ul>
                                     <br>
                                 </div>

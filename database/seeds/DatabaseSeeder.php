@@ -62,6 +62,7 @@ class DatabaseSeeder extends Seeder
         DB::statement("SET foreign_key_checks = 1");
 
         $this->call(UserTableSeeder::class);
+        $this->call(StaffSeed::class);
         $this->call(RegistrationTableSeeder::class);
 
         $this->call(Biotic_Jnr_Seeder::class);

@@ -14,7 +14,7 @@ class CreateCompanyAddressesTable extends Migration
     {
         Schema::create('company_addresses', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('type'); //Billing Address
+            $table->string('type');
             $table->string('description', 1000);
             $table->string('postcode');
             $table->string('state');

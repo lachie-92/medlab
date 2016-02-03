@@ -49,6 +49,11 @@ class CreateOrdersTable extends Migration
             $table->timestamp('purchase_date');
             $table->string('transaction_id');
             $table->string('transaction_ip');
+            $table->string('transaction_status');
+            $table->string('receipt_no');
+            $table->string('authorize_id');
+            $table->string('merch_txn_ref')->unique()->nullable();
+
             $table->timestamps();
         });
 

@@ -9,7 +9,7 @@ use Mandrill_Error;
 class MedlabMailer
 {
 
-    public $AdminEmailAddress = 'henry_wu@medlab.co';
+    public $AdminEmailAddress = '13533test@gmail.com';
 
     /**
      * Laravel Mailer
@@ -332,5 +332,21 @@ class MedlabMailer
             // A mandrill error occurred: Mandrill_Unknown_Subaccount - No subaccount exists with the id 'customer-123'
             throw $e;
         }
+    }
+
+    public function sendCommWebReceiptErrorToAdmin($errorMessages)
+    {
+        $from = $this->AdminEmailAddress;
+        $to = $this->AdminEmailAddress;
+
+        $data = array();
+        $data['errorMessages'] = serialize($errorMessages);
+
+        $this->mail->queue('emails.commweb_receipt_error', $data, function($message) use ($from, $to) {
+
+            $message->from($from)
+                ->to($to)
+                ->subject('Medlab - Received a CommWeb Receipt with Error');
+        });
     }
 }

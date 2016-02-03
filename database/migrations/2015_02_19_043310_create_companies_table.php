@@ -16,11 +16,12 @@ class CreateCompaniesTable extends Migration {
 		{
 			$table->increments('id');
 			$table->string('solve_id')->unique()->nullable();
+			$table->string('xero_contact_id')->nullable();
 			$table->string('name');
             $table->boolean('starred');
-            $table->string('business_type');
             $table->string('modality');
-            $table->string('business_number')->unique();
+            $table->string('business_number');
+            $table->string('business_type');
             $table->string('country');
 			$table->dateTime('viewed_at');
 

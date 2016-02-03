@@ -3,6 +3,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\ShoppingCartCheckoutRequest;
 use App\Http\Requests\ShoppingCartDigitalOrderRequest;
+use App\Http\Requests\ShoppingCartDigitalReceipt;
 use App\Http\Requests\ShoppingCartUpdateAddressRequest;
 use App\Medlab\Billing\BillingInterface;
 use App\Medlab\Mailer\MedlabMailer;
@@ -10,7 +11,10 @@ use App\Medlab\ShoppingCart\ShoppingCart;
 use App\Order;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
-use Illuminate\Support\Facades\Redirect;
+use Illuminate\Support\Facades\Response;
+use Illuminate\Support\Facades\Session;
+use Monolog\Handler\StreamHandler;
+use Monolog\Logger;
 
 class ShoppingCartController extends Controller
 {
@@ -147,24 +151,108 @@ class ShoppingCartController extends Controller
      */
     public function getSummary(BillingInterface $billing)
     {
-        if (!session()->has('new_order')) {
+        // Return to previous step if no order is found in session
+        if (!session()->has('new_order')) return redirect('/shoppingcart/cart');
 
-            return redirect('/shoppingcart/cart');
-        }
-
+        // Retrieve order from session
         $order = session()->get('new_order');
 
-        //if (is_a($billing, 'CommWebBilling')) {
+        // Select the view for the implemented billing class
+        if (get_class($billing) == 'App\Medlab\Billing\CommWebBilling') {
             return view('pages.shoppingcart.commweb.index', compact('order'));
-        //}
-        //else {
-        //    $clientToken = $billing->getClientToken();
-        //    return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
-        //}
+        }
+        else {
+            $clientToken = $billing->getClientToken();
+            return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
+        }
+    }
+
+    public function postCommWebDigitalOrder(ShoppingCartDigitalOrderRequest $request, BillingInterface $billing)
+    {
+        // Retrieve Client IP from request
+        $request->setTrustedProxies([Config::get('services.aws.load-balancer')]);
+        $client_ip = $request->ip();
+        $request['ip'] = $client_ip;
+        $request = $request->only([
+            'order',
+            'ip'
+        ]);
+
+        // Disallow order that has been previously processed and has a transaction reference
+        if ($billing->orderAlreadyHasMerchTxnRef($request)) {
+
+            // Create a new order from shopping cart to replace the already processed one
+            $this->shoppingCart->retrieveBasket();
+            $this->shoppingCart->getShippingAddress();
+            $this->shoppingCart->getBillingAddress();
+            $order = $this->shoppingCart->createOrder();
+            session()->put('new_order', $order);
+            $request['order'] = $order->id;
+        }
+
+        // Create CommWeb billing transaction for the Order
+        $billingRequest = $billing->createBillingRequest($request);
+        $vpc_url = $billing->generateBillingUrl($billingRequest);
+
+        return Response::make('', 200, ['Location' => $vpc_url]);
+    }
+
+    public function getCommWebDigitalReceipt(ShoppingCartDigitalReceipt $request, BillingInterface $billing, MedlabMailer $mail)
+    {
+        // Check the receipt response message and make sure receipt contents match the order information
+        $errorMessages = $billing->validateOrderReceipt($request);
+
+        // Save the receipt to the log file
+        $this->logCommWebReceipt($request, $errorMessages);
+
+        // Process the order if no errors are found
+        if (count($errorMessages) == 0) {
+
+            $order = $billing->processOrder($request);
+            $mail->sendOrderReceivedNoticeToAdmin($order);
+
+            return redirect('/shoppingcart/digitalcheckout')->with('order', $order);
+        }
+        else {
+
+            // Mail the error to the admin
+            $error = array_merge($errorMessages, $request->all());
+            $mail->sendCommWebReceiptErrorToAdmin($error);
+
+            return redirect('/shoppingcart/summary')->with('errors', collect($errorMessages));
+        }
+    }
+
+    public function getCommWebCheckOut()
+    {
+        session()->forget('basket');
+        session()->forget('new_order');
+        $order = Session::get( 'order' );
+
+        return view('pages.shoppingcart.order.index', compact('order'));
+    }
+
+    private function logCommWebReceipt($request, $errorMessages)
+    {
+        $log = new Logger('CommWebReceipt');
+
+        if (count($errorMessages) == 0) {
+            $log->pushHandler(new StreamHandler(storage_path("/logs/CommWebReceipt.log")));
+        }
+        else {
+            $log->pushHandler(new StreamHandler(storage_path("/logs/CommWebReceiptError.log")));
+        }
+
+        $messageToLog = array_merge($errorMessages, $request->all());
+        $log->addInfo(
+            'MerchRef: ' . $request['vpc_MerchTxnRef'] .
+            ' TxnCode: ' . $request['vpc_TxnResponseCode'],
+            $messageToLog
+        );
     }
 
     /**
-     * Process the order and checkout
+     * Process the order and checkout for Braintree billing
      *
      * @param ShoppingCartCheckoutRequest $request
      * @param BillingInterface $billing
@@ -207,17 +295,5 @@ class ShoppingCartController extends Controller
 
             return redirect('/shoppingcart/summary')->with('errors', collect($errors));
         }
-    }
-
-    public function postCommWebDigitalOrder(ShoppingCartDigitalOrderRequest $request, BillingInterface $billing)
-    {
-        $vpc_url = $billing->processOrder($request);
-
-        return Redirect::to($vpc_url);
-    }
-
-    public function getCommWebDigitalReceipt(Request $request)
-    {
-        var_dump($request->all());
     }
 }

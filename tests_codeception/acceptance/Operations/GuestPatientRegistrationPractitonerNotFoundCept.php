@@ -28,6 +28,7 @@ $I->selectOption('practitioner_not_found_country', 'Australia');
 
 $I->checkOption('//input[@type="checkbox" and @name="agree"]');
 $I->click('//button[@type="submit" and contains(., "Submit")]');
+$I->see('Your Registration has been received.');
 $I->seeInDatabase('patient_registrations', array(
     'email' => 'regpatientemailtest321@gmail.com',
     'title' => 'Mr',
