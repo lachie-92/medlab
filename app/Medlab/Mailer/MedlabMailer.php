@@ -5,6 +5,7 @@ namespace App\Medlab\Mailer;
 use Illuminate\Mail\Mailer;
 use Mandrill;
 use Mandrill_Error;
+use View;
 
 class MedlabMailer
 {
@@ -186,6 +187,7 @@ class MedlabMailer
     public function sendOrderReceivedNoticeToClient($order)
     {
         $customer = $order->user->customer;
+        $table = View::make('emails.order_table',  compact('order'));
 
         try {
             $template_name = 'medlab-order-receipt';
@@ -232,7 +234,7 @@ class MedlabMailer
                     ),
                     array(
                         'name' => 'TABLE',
-                        'content' => '<table style="width:100%; border: 2px solid black;"> <thead> <tr> <th style="text-align: center; border: 2px solid black; width:20%;">Item</th> <th style="text-align: center; border: 2px solid black; width:20%;">QTY</th> <th style="text-align: center; border: 2px solid black; width:20%;">Price</th> <th style="text-align: center; border: 2px solid black; width:20%;">Discount</th> <th style="text-align: center; border: 2px solid black; width:20%;">Total</th> </tr> </thead> <tbody> <tr> <td style="text-align: center; border: 2px solid black; width:20%;"> Biotic Jnr. </td> <td style="text-align: center; border: 2px solid black; width:20%;"> 1 </td> <td style="text-align: center; border: 2px solid black; width:20%;"> 38.08 </td> <td style="text-align: center; border: 2px solid black; width:20%;"> 0% </td> <td style="text-align: center; border: 2px solid black; width:20%;"> $38.08 </td> </tr> <tr> <th colspan="4"> Total Discount </th> <td style="text-align: right"> $0.00 </td> </tr> <tr> <th colspan="4"> Subtotal </th> <td style="text-align: right"> $38.08 </td> </tr> <tr> <th colspan="4"> GST </th> <td style="text-align: right"> $3.81 </td> </tr> <tr> <th colspan="4"> Shipping </th> <td style="text-align: right"> $11.00 </td> </tr> <tr class="success" style="font-size: 24px"> <th colspan="4"> Total </th> <td style="text-align: right"> $52.89 </td> </tr> </tbody> </table>'
+                        'content' => strval($table)
                     ),
                     array(
                         'name' => 'ORDER_NUMBER',
@@ -240,7 +242,7 @@ class MedlabMailer
                     ),
                     array(
                         'name' => 'ORDER_DATE',
-                        'content' => $order->purchase_date
+                        'content' => strval($order->purchase_date)
                     ),
                     array(
                         'name' => 'ORDER_STATUS',

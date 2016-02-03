@@ -210,6 +210,7 @@ class ShoppingCartController extends Controller
 
             $order = $billing->processOrder($request);
             $mail->sendOrderReceivedNoticeToAdmin($order);
+            $mail->sendOrderReceivedNoticeToClient($order);
 
             return redirect('/shoppingcart/digitalcheckout')->with('order', $order);
         }
