@@ -33,34 +33,6 @@ class UseShoppingCartTest extends TestCase
         $this->assertRedirectedTo('/account/login');
     }
 
-    public function test_it_disallows_admin_to_use_the_shopping_cart()
-    {
-        Session::start();
-
-        $admin = User::where('email', '13533test@gmail.com')->first();
-        Auth::login($admin);
-
-        $this->call('GET', '/shoppingcart/cart');
-        $this->assertRedirectedTo('/account');
-
-        $this->call('POST', '/shoppingcart/update', ['_token' => csrf_token()]);
-        $this->assertRedirectedTo('/account');
-
-        $this->call('GET', '/shoppingcart/address');
-        $this->assertRedirectedTo('/account');
-
-        $this->call('POST', '/shoppingcart/address', ['_token' => csrf_token()]);
-        $this->assertRedirectedTo('/account');
-
-        $this->call('GET', '/shoppingcart/summary');
-        $this->assertRedirectedTo('/account');
-
-        $this->call('POST', '/shoppingcart/checkout', ['_token' => csrf_token()]);
-        $this->assertRedirectedTo('/account');
-
-        Auth::logout();
-    }
-
     public function test_it_allows_patient_to_use_the_shopping_cart()
     {
         // Patient

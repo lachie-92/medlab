@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.1.28 (LTS) on 2016-01-22.
+ * Generated for Laravel 5.1.29 (LTS) on 2016-02-04.
  *
  * @author Barry vd. Heuvel <barryvdh@gmail.com>
  * @see https://github.com/barryvdh/laravel-ide-helper
@@ -11550,7 +11550,7 @@ namespace {
          * @param string $path
          * @param array $data
          * @param array $mergeData
-         * @return \Illuminate\View\View 
+         * @return \Illuminate\Contracts\View\View 
          * @static 
          */
         public static function file($path, $data = array(), $mergeData = array()){
@@ -11575,7 +11575,7 @@ namespace {
          *
          * @param string $view
          * @param mixed $data
-         * @return \Illuminate\View\View 
+         * @return \Illuminate\Contracts\View\View 
          * @static 
          */
         public static function of($view, $data = array()){
@@ -11694,7 +11694,7 @@ namespace {
         /**
          * Call the composer for a given view.
          *
-         * @param \Illuminate\View\View $view
+         * @param \Illuminate\Contracts\View\View $view
          * @return void 
          * @static 
          */
@@ -11705,7 +11705,7 @@ namespace {
         /**
          * Call the creator for a given view.
          *
-         * @param \Illuminate\View\View $view
+         * @param \Illuminate\Contracts\View\View $view
          * @return void 
          * @static 
          */

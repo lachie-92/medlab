@@ -98,21 +98,6 @@ class ViewServiceProvider extends ServiceProvider
             $shoppingCart->retrieveBasket();
             $view->with('shoppingCart', $shoppingCart);
         });
-
-        //
-        // Admin Dashboard Left Navigation
-        //
-        view()->composer('pages.account.dashboard.admin._sharedpartial.sidenavigation', function($view) {
-
-            $repository = App::make('App\Medlab\Repositories\AdminRepositoryInterface');
-            $unapprovedPatientRegistrationList = $repository->getUnapprovedPatientRegistrationList();
-            $unapprovedPractitionerRegistrationList = $repository->getUnapprovedPractitionerRegistrationList();
-            $newOrderList = $repository->getNewOrderList();
-
-            $view->with('unapprovedPatientRegistrationList', $unapprovedPatientRegistrationList);
-            $view->with('unapprovedPractitionerRegistrationList', $unapprovedPractitionerRegistrationList);
-            $view->with('newOrderList', $newOrderList);
-        });
     }
 
     private function shoppingCartViewComposer()

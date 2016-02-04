@@ -42,7 +42,7 @@ class AuthenticateNotAdmin
             }
         }
 
-        if ($this->auth->user()->group == 'Admin') {
+        if ($this->auth->user()->group == 'Staff') {
             if ($request->ajax()) {
                 return response('Unauthorized.', 401);
             } else {

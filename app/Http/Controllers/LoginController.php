@@ -78,8 +78,7 @@ class LoginController extends Controller
             User::where('email', '=', $credentials['email'])->
                 where(function($query) {
                     $query->where('group', '=', 'Practitioner') ->
-                        orWhere('group', '=', 'Patient') ->
-                        orWhere('group', '=', 'Admin');
+                        orWhere('group', '=', 'Patient');
                 })->get());
 
         if ($hasValidUserGroup) {

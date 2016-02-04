@@ -58,8 +58,6 @@ Route::post('/account/reset', 'Auth\PasswordController@postReset');
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-Route::post('/search/getcompanylist', 'SearchController@postGetCompanyList');
-
 Route::post('/search/getpractitionerlist', 'SearchController@postGetPractitionerList');
 
 
@@ -82,49 +80,6 @@ Route::post('/account/edit/address', 'AccountController@postAddress');
 Route::get('/account/orders', 'AccountController@getOrdersOverview');
 
 Route::post('/account/orders/details', 'AccountController@postOrderDetails');
-
-
-///////////////////////////////////////////////////////////////////////////////////
-//
-// Admin
-//
-///////////////////////////////////////////////////////////////////////////////////
-
-Route::get('/account/patient-registration', 'AdminController@getShowPatientRegistrations');
-
-Route::get('/account/patient-registration/{patientRegistrationId}', 'AdminController@getPatientRegistration');
-
-Route::post('/account/patient-registration/{patientRegistrationId}/delete', 'AdminController@postDeletePatientRegistration');
-
-Route::post('/account/patient-registration/{patientRegistrationId}/restore', 'AdminController@postRestoreDeletedPatientRegistration');
-
-Route::post('/account/patient-registration/{patientRegistrationId}/create', 'AdminController@postCreatePatientAccount');
-
-Route::get('/account/practitioner-registration', 'AdminController@getShowPractitionerRegistrations');
-
-Route::post('/account/practitioner-registration/createclinic', 'AdminController@postCreateCompany');
-
-Route::get('/account/practitioner-registration/new/{patientRegistrationId}', 'AdminController@getNewPractitionerRegistration');
-
-Route::post('/account/practitioner-registration/new/create', 'AdminController@postNewPractitionerRegistration');
-
-Route::get('/account/practitioner-registration/{practitionerRegistrationId}', 'AdminController@getPractitionerRegistration');
-
-Route::post('/account/practitioner-registration/{practitionerRegistrationId}/delete', 'AdminController@postDeletePractitionerRegistration');
-
-Route::post('/account/practitioner-registration/{practitionerRegistrationId}/restore', 'AdminController@postRestoreDeletedPractitionerRegistration');
-
-Route::post('/account/practitioner-registration/{practitionerRegistrationId}/create', 'AdminController@postCreatePractitionerAccount');
-
-Route::get('/account/admin-orders', function() {
-    return redirect('/account/admin-orders/received');
-});
-
-Route::get('/account/admin-orders/{display}', 'AdminController@getAdminShowOrders');
-
-Route::post('/account/admin-orders/details', 'AdminController@postAdminOrderDetails');
-
-Route::post('/account/admin-orders/update', 'AdminController@postAdminOrderUpdate');
 
 
 ///////////////////////////////////////////////////////////////////////////////////

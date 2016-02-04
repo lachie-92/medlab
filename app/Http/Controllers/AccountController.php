@@ -26,11 +26,7 @@ class AccountController extends Controller
      */
     public function __construct(AccountRepositoryInterface $repository)
     {
-        $this->middleware('authNotAdmin',[
-            'except' => [
-                'dashboard'
-            ]
-        ]);
+        $this->middleware('auth');
 
         $this->repository = $repository;
 
@@ -57,11 +53,6 @@ class AccountController extends Controller
             case 'Practitioner':
 
                 return view('pages.account.dashboard.practitioner.main.index', compact('user', 'orders'));
-                break;
-
-            case 'Admin':
-
-                return redirect('/account/patient-registration');
                 break;
         }
     }

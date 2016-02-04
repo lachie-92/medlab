@@ -18,28 +18,9 @@ class SearchController extends Controller
 
     public function __construct(SearchRepositoryInterface $searchRepository)
     {
-        $this->middleware('authAdmin', [
-            'only' => [
-                'postGetCompanyList'
-            ]
-        ]);
-
         $this->searchRepository = $searchRepository;
 
         parent::__construct();
-    }
-
-    /**
-     * Return a html list of companies based on the search criteria
-     *
-     * @param RegistrationCompanySearchRequest $request
-     * @return \Illuminate\Http\Response
-     */
-    public function postGetCompanyList(RegistrationCompanySearchRequest $request)
-    {
-        $filtered_companies = $this->searchRepository->searchCompany($request);
-
-        return view('pages.account.search.findcompanylist', compact('filtered_companies'));
     }
 
     /**
