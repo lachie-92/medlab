@@ -138,7 +138,7 @@ Route::get('/education', function () {
 });
 
 Route::get('/education/publications', function () {
-    return view('pages.education.Publications.index');
+    return view('pages.education.paper.index');
 });
 
 
