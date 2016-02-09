@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('pages.education.publications.partial.breadcrumbs')
-@include('pages.education.publications.partial.content')
+@include('pages.education.paper.partial.breadcrumbs')
+@include('pages.education.paper.partial.content')
 
 @endsection
