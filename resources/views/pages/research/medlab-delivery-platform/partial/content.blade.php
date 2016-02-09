@@ -55,7 +55,7 @@
                         A comparative study assessing the rate of absorption of 1000 ?g of Cyanocobalamin as either a
                         Nanoparticle, Emulsion or Tablet formulation in 10 healthy participants. The figure below
                         demonstrates the percentage increase of serum B12 at 1 hour, 3 hours and 6 hours compared to
-                        baseline values. Medlab’s B12 Nanoparticles significantly increased serum B12 levels compared
+                        baseline values. Medlabï¿½s B12 Nanoparticles significantly increased serum B12 levels compared
                         to either the Emulsion or Tablet formulations and maintained a higher serum B12 level at the
                         6 hour time point.
                     </p>
@@ -85,28 +85,37 @@
                     </h3>
                     <br>
                     <p>
-                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 1" src="/img/research/Slide1.png" alt="NanoCelle Technology Slide 1">
+                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 1" src="/img/research/Slide1.jpeg" alt="NanoCelle Technology Slide 1">
                     </p>
                     <p>
-                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 2" src="/img/research/Slide2.png" alt="NanoCelle Technology Slide 2">
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 2" src="/img/research/Slide2.png" alt="NanoCelle Technology Slide 2">
                     </p>
                     <p>
-                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 3" src="/img/research/Slide3.png" alt="NanoCelle Technology Slide 3">
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 3" src="/img/research/Slide3.png" alt="NanoCelle Technology Slide 3">
                     </p>
                     <p>
-                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 4" src="/img/research/Slide4.png" alt="NanoCelle Technology Slide 4">
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 4" src="/img/research/Slide4.png" alt="NanoCelle Technology Slide 4">
                     </p>
                     <p>
-                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 5" src="/img/research/Slide5.png" alt="NanoCelle Technology Slide 5">
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 5" src="/img/research/Slide5.png" alt="NanoCelle Technology Slide 5">
                     </p>
                     <p>
-                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 6" src="/img/research/Slide6.png" alt="NanoCelle Technology Slide 6">
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 6" src="/img/research/Slide6.png" alt="NanoCelle Technology Slide 6">
                     </p>
                     <p>
-                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 7" src="/img/research/Slide7.png" alt="NanoCelle Technology Slide 7">
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 7" src="/img/research/Slide7.png" alt="NanoCelle Technology Slide 7">
                     </p>
                     <p>
-                        <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" title="NanoCelle Technology Slide 8" src="/img/research/Slide8.png" alt="NanoCelle Technology Slide 8">
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 8" src="/img/research/Slide8.png" alt="NanoCelle Technology Slide 8">
+                    </p>
+                    <p>
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 9" src="/img/research/Slide9.png" alt="NanoCelle Technology Slide 9">
+                    </p>
+                    <p>
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 10" src="/img/research/Slide10.jpeg" alt="NanoCelle Technology Slide 10">
+                    </p>
+                    <p>
+                        <img class="img-responsive center-block" title="NanoCelle Technology Slide 11" src="/img/research/Slide11.jpeg" alt="NanoCelle Technology Slide 11">
                     </p>
 
                     <p style="text-align: left;">

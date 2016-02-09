@@ -65,7 +65,7 @@ class NutraceuticalsController extends Controller
      */
     public function categories()
     {
-        $categories = Category::all();
+        $categories = Category::orderBy('category_name', 'ASC')->get();
 
         return view('pages.nutraceuticals.sortbycategory.index', compact('categories'));
     }

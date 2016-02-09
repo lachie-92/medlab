@@ -108,8 +108,7 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/why-medlab">Why Medlab</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/the-medlab-solution">The Medlab Solution</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/patents">Patents</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/registration">Research Registration</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trails">Clinical Trails</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trails">Clinical Trials</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -129,7 +128,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/investor">Investor Center</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">Asx Announcements</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX announcements</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/corporate-governance">Corporate Governance</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="http://clients3.weblink.com.au/Clients/medlab/charttabs.aspx" target="_blank">Share Price</a></li>
                     </ul>

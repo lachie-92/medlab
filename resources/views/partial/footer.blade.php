@@ -64,16 +64,10 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/order/shipping-and-delivery">Shipping & Delivery</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/order/website-access-and-registration-benefits">Website Access & Registration Benefits</a>
-                        </li>
-                        <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/order/returns">Returns</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/order/payment-pricing-and-discounts">Payment, Pricing & Discounts</a>
-                        </li>
-                        <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/order/patient-management-tool">Patient Management Tool</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/order/order-and-stocking">Order & Stocking</a>
@@ -90,7 +84,7 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/investor/corporate-governance">Corporate Governance</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX Announcements</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX announcements</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/charttabs.aspx" target="_blank">Share Price</a>
@@ -140,13 +134,10 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/research/the-medlab-solution">The Medlab Solution</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/research/registration">Research Registration</a>
-                        </li>
-                        <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/research/patents">Patents</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/research/clinical-trails">Clinical Trails</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/clinical-trails">Clinical Trials</a>
                         </li>
                     </ul>
 
@@ -267,7 +258,7 @@
                 <div class="col-md-6" style="text-align: right">
                     <a class="medlab_footer_bottom_copyright_box_link" href="/contact">Contact Us</a>
                     &nbsp &nbsp &nbsp &nbsp
-                    <a class="medlab_footer_bottom_copyright_box_link" href="/about/privacy-policy">Privacy Policy</a>
+                    <a class="medlab_footer_bottom_copyright_box_link" href="/policies/privacy-policy">Privacy Policy</a>
                 </div>
             </div>
 

@@ -28,6 +28,26 @@
                     </p>
 
                     <p>
+                        <a href="http://www.mdpi.com/2076-2607/3/4/913">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Vitetta L, Hall S, Coulson S. </strong>
+                                Metabolic Interactions in the Gastrointestinal Tract (GIT): Host, Commensal, Probiotics, and Bacteriophage Influences.
+                                <em>Microorganisms</em> 2015;3(4):913-932.
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="http://www.apjon.org/preprintarticle.asp?id=170977">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Schloss J, Colosimo M, Vitetta L. </strong>
+                                New Insights into potential prevention and management options for chemotherapy-induced peripheral neuropathy:
+                                <em>Asia-Pacific Journal of Oncology Nursing</em> 2015 Dec: 10.4103/2347-5625.170977
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
                         <a href="http://www.ncbi.nlm.nih.gov/pubmed/25863665">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Schloss J, Colosimo M, Airey C, Vitetta L, </strong>
@@ -38,9 +58,7 @@
                     </p>
 
                     <p>
-                        <!-- missing link -->
-                        <a href="">
-                            Link missing -
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25849070">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Schloss J, Colosimo M, Vitetta L.</strong>
                                 Herbal Medicines and Chemotherapy Induced Peripheral Neuropathy (CIPN): a Critical
@@ -123,7 +141,7 @@
                     <p>
                         <!-- missing link -->
                         <a href="">
-                            Link missing -
+                            Wrong Link -
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Gray B, Vitetta L, Davies WP.</strong>
                                 Liver function parameters, cholesterol, and phospholipid &alpha;-linoleic acid are
@@ -307,6 +325,86 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L & Coulson S,</strong>
+                            Live Probiotic Cultures and the Gastrointestinal Tract – Improving More Than Just GI
+                            Health, General Practice Conference and Exhibition [Sydney, Melbourne] 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L & Coulson S,</strong>
+                            High Fat Diet, Probiotics and Non–Alcoholic Fatty Liver Disease, General Practice
+                            Conference and Exhibition [Sydney, Melbourne] 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L & Coulson S,</strong>
+                            Depression and the Gut Microbiome Influence of Probiotics and Nutraceuticals,General
+                            Practice Conference and Exhibition [Sydney, Melbourne] 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L & Coulson S,</strong>
+                            Diarrhoeal Illness: Causes and Evidenced Based Treatments, General Practice Conference and
+                            Exhibition [Sydney, Melbourne] 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Coulson S,</strong>
+                            Inter–Kingdom communication: bacterial instruction of host gene expression, The 5th Science
+                            of Nutrition in Medicine and Healthcare Conference 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L,</strong>
+                            A multi-strain probiotic preparation in a mouse model of a high fat diet / obesity induced
+                            liver steatosis, The 5th Science of Nutrition in Medicine and Healthcare Conference 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L & Coulson S,</strong>
+                            Probiotics in Clinical Practice and ICU, 16th Annual Meeting: Australian College of
+                            Critical Care Nurses 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong>
+                            Gut Function and Chronic Kidney Disease. National Institute of Integrative Medicine 1st
+                            Symposium, 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Coulson S.</strong>
+                            Neonatal and Infant Development: Influence of Bacteria. National Institute of Integrative
+                            Medicine 1st Symposium, 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong>
+                            Reactive oxygen species and their lifelong regulation of the metabolome. 6th World Congress
+                            on Targeting Mitochondria. Oct 28–30, 2015. Berlin, Germany, 2015.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Briskey D, Peake J, Coulson S, Vitetta L.</strong>
                             High Fat Diet, Probiotics and Non-Alcoholic Fatty Liver Disease 4th Beneficial Microbes
                             Conference, The Hague, Netherlands, 2015.
@@ -376,6 +474,14 @@
                         </span>
                     </p>
 
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong>
+                            Gut Bacteria and Health…Probiotics and the Microbiome. National Institute of Integrative
+                            Medicine 2nd Symposium.
+                        </span>
+                    </p>
+
                     <br>
                     <br>
 
@@ -413,6 +519,16 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Steels E, Rao A,Coulson S, Vitetta L.</strong>
+                            A phase II randomised double–blind placebo–controlled clinical trial investigating the
+                            efficacy and safety of a herbal medicine preparation for the management of symptoms of
+                            benign prostatic hypertrophy. 3<sup>rd</sup>  International Conference on the Science of
+                            Nutrition in Medicine and Healthcare. 2013; May 3-5. Sydney Australia.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Schloss J, Colosmio M, Linnane AW, Masci P, Vitetta L.</strong>
                             B Vitamin Status In Cancer Patients Administered Chemotherapy. 3rd International Conference
                             on the Science of Nutrition in Medicine and Healthcare. 2013; May 3-5. Sydney Australia.
@@ -425,17 +541,6 @@
                             Is Ginger Supplementation Effective In Ameliorating Chemotherapy-Induced Nausea And
                             Vomiting? 3rd International Conference on the Science of Nutrition in Medicine and
                             Healthcare. 2013; May 3-5. Sydney Australia.
-                        </span>
-                    </p>
-
-                    <br>
-                    <br>
-
-                    <p>
-                        <span style="font-size: medium; text-decoration: underline;">
-                            <strong>
-                                In Press:
-                            </strong>
                         </span>
                     </p>
 
@@ -460,6 +565,17 @@
                         </span>
                     </p>
 
+                    <p style="padding-left: 30px">
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>
+                                In: Progress in Drug Research Novel Natural Products: Therapeutic Effects in Pain,
+                                Arthritis And Gastro-Intestinal Diseases <br>
+                                [Editors: K D Rainsford, M C Powanda and M W Whitehouse] <br>
+                                Publisher: Springer Basel AG. 2015. ISBN 9783-0348-0926-9 <br>
+                            </strong>
+                        </span>
+                    </p>
+
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Vitetta L, Alford H, Palacios T Coulson S.</strong>
@@ -473,7 +589,7 @@
                                 In: Progress in Drug Research Novel Natural Products: Therapeutic Effects in Pain,
                                 Arthritis And Gastro-Intestinal Diseases <br>
                                 [Editors: K D Rainsford, M C Powanda and M W Whitehouse] <br>
-                                Publisher:Springer Basel AG <br>
+                                Publisher: Springer Basel AG. 2015. ISBN 9783-0348-0926-9 <br>
                             </strong>
                         </span>
                     </p>

@@ -54,6 +54,16 @@
                     </p>
 
                     <br>
+
+                    <p>
+                        <a href="/img/research/Researchprogression.png">
+                            <img class="img-responsive center-block" src="/img/research/Researchprogression.png" title="Research Progression"/>
+                        </a>
+                        <br>
+                        As at 1st of February 2016
+                    </p>
+
+                    <br>
                     <br>
 
                     <p>
@@ -66,15 +76,10 @@
 
                     <ol>
                         <li>
-                            <strong>
-                                OBESITY OBEP.100
-                                <a href="/img/research/Research_OBE_V2.jpg">
-                                    <img style="float: right;" src="/img/research/Research_OBE_V2.jpg" alt="Obesity Timeline" width="350"/>
-                                </a>
-                                <br>
-                            </strong>
-                            <strong>PROVISIONAL PATENT LODGED. </strong>
-                            Medlab's research focus is to develop new novel drugs for weight loss and improve symptomology of metabolic syndrome/pre-diabetes.
+                            <strong>OBESITY OBEP.100</strong>
+                            <br>
+                            <br>
+                            <strong>PROVISIONAL PATENT LODGED. </strong>Medlab's research focus is to develop new novel drugs for weight loss and improve symptomology of metabolic syndrome/pre-diabetes.
                             Current medical treatments offer limited efficacy except that of radical surgery with lifestyle changes the preferred but not essentially
                             the mosttherapeutic. Medlab research staff adjunct to The University of Sydney, Medical School Medical Sciences in the discipline of Pharmacology
                             are collaborating >with the Boden Institute of Obesity, Nutrition, Exercise and Eating Disorders, The University of Sydney Medical School
@@ -85,16 +90,10 @@
                             <br>
                         </li>
                         <li>
-                            <strong>CHRONIC KIDNEY DISEASE (CKD) CKDP.100
-                                <a href="/img/research/Research_CKD_V2.jpg">
-                                    <img style="float: right;" src="/img/research/Research_CKD_V2.jpg" alt="Chronic Kidney Disease Timeline" width="350"/>
-                                </a>
-                            </strong>
+                            <strong>CHRONIC KIDNEY DISEASE (CKD) CKDP.100</strong>
                             <br>
-                            <strong>
-                                PROVISONAL PATENT LODGED.
-                            </strong>
-                            Current medical treatment for CKD is limited in both availability and efficacy with treatment targeted towards the comorbid conditions
+                            <br>
+                            <strong>PROVISONAL PATENT LODGED.</strong> Current medical treatment for CKD is limited in both availability and efficacy with treatment targeted towards the comorbid conditions
                             typically responsible for CKD. Medlab's research focus is to develop noveldrugs/biologics to treat the causes and pathophysiology of CKD
                             and its associated symptoms. Medlab's research staff in collaboration with the Kidney Disease Research Centre at The University of Queensland,
                             School of Medicine, at the Translational Research Institute / Princess Alexandra Hospital Brisbane (A/Professor Glenda Gobe), will be assessing
@@ -105,14 +104,10 @@
                             <br>
                         </li>
                         <li>
-                            <strong>DEPRESSION DEPP.100
-                                <a href="/img/research/Research_DEP_V2.jpg">
-                                    <img style="float: right;" src="/img/research/Research_DEP_V2.jpg" alt="Depression Timeline" width="350"/>
-                                </a>
-                                <br>
-                            </strong>
-                            <strong> PROVISIONAL PATENT LODGED. </strong>
-                            Traditional medical treatments for depressive symptoms include anti-depressant medications (i.e. SSRIs) however such therapy is reserved for
+                            <strong>DEPRESSION DEPP.100</strong>
+                            <br>
+                            <br>
+                            <strong> PROVISIONAL PATENT LODGED. </strong> Traditional medical treatments for depressive symptoms include anti-depressant medications (i.e. SSRIs) however such therapy is reserved for
                             moderate to severe depression with no evidence to support the use of antidepressants in mild depression. Depression is a large cause of disability
                             in Australia with minor depression reported to be 2-3 times more common than major depression. Furthermore, clinical research is predominantly
                             targeted towards major depression, excluding a large proportion of the population in need of effective treatment options. Medlab's research focus
@@ -155,14 +150,9 @@
                             <br>
                         </li>
                         <li>
-                            <strong>MUSCULOSKELETAL MUSCLE LOSS ASSOCIATED WITH AGEING AAP.100
-                                <a href="/img/research/Research_AGE_V2.jpg">
-                                    <img style="float: right;" src="/img/research/Research_AGE_V2.jpg" alt="Ageing Timeline" width="350"/>
-                                </a>
-                                <br>
-                            </strong>
-                            <strong>PROVISIONAL PATENT LODGED.</strong>
-                            Anti-ageing medicines/treatments are highly sought after by people requiring therapies to treat diseases (i.e. Alzheimer's Disease) and conditions
+                            <strong>MUSCULOSKELETAL MUSCLE LOSS ASSOCIATED WITH AGEING AAP.100</strong>
+                            <br><br>
+                            <strong>PROVISIONAL PATENT LODGED.</strong> Anti-ageing medicines/treatments are highly sought after by people requiring therapies to treat diseases (i.e. Alzheimer's Disease) and conditions
                             (i.e. skeletal muscle loss, deficits in cellular energy production) associated with the ageing process. Medlab's research focus in this area is to
                             develop novel drug therapies to rescue degenerative muscle fibers allowing better utilization of energy production with the reduction of biological
                             ageing. Research protocol in development to investigate in an <em>in vitro</em> human cell system that initially would achieve the following:
@@ -186,14 +176,10 @@
                             <br>
                         </li>
                         <li>
-                            <strong>NON-OPIOID PAIN MANAGEMENT CANP.100
-                                <a href="/img/research/Research_PAI_V2.jpg">
-                                    <img style="float: right;" src="/img/research/Research_PAI_V2.jpg" alt="Pain Timeline" width="350"/>
-                                </a>
-                                <br>
-                            </strong>
-                            <strong>PROVISONAL PATENT LODGED.</strong>
-                            Current treatment options for chronic pain relief include anti-inflammatory, analgesic and anti-depressant medications that are often
+                            <strong>NON-OPIOID PAIN MANAGEMENT CANP.100</strong>
+                            <br>
+                            <br>
+                            <strong>PROVISONAL PATENT LODGED.</strong> Current treatment options for chronic pain relief include anti-inflammatory, analgesic and anti-depressant medications that are often
                             associated with numerous unwanted side effects limiting their dose and longevity of use. The cannabis plant contains over 70 unique cannabinoid
                             compounds that are responsible for its therapeutic and psychotomimetic/addictive effects. The main psychoactive component is tetrahydrocannabinol
                             (THC) that is predominantly responsible for the health and psychological effects associated with cannabis use. In recent years, considerable
@@ -222,9 +208,6 @@
                         <br>
                         <br>
                         <strong>NANOTECHNOLOGY DELIVERY SYSTEMS</strong>
-                        <a href="/img/research/Research_NAN_V2.jpg">
-                            <img style="float: right;" src="/img/research/Research_NAN_V2.jpg" alt="Nanotechnology Timeline" width="350"/>
-                        </a>
                     </p>
 
                     <p>
