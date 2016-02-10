@@ -101,29 +101,6 @@
                         and treatment of mental health patients in rural and remote areas in Australia.
                     </p>
                     <h3>
-                        <strong>Dr Elizabeth Steels</strong>
-                    </h3>
-                    <p>
-                        <strong>Clinical Biochemist</strong>
-                    </p>
-                    <p>
-                        <img style="float: left; margin-right: 10px;" title="Elizabeth Steels Portrait" src="/img/about/beth.jpeg" alt="Elizabeth Steels Portrait" width="125">
-                    </p>
-                    <p style="text-align: justify;">
-                        Elizabeth has a PhD in clinical biochemistry with over 20 years experience in pharmaceutical
-                        drug research and development.
-                    </p>
-                    <p style="text-align: justify;">
-                        Elizabeth is currently the Research Director of the Integrated Health Group, Brisbane. She
-                        specialises in designing clinical trial protocols in integrative medicine and nutraceuticals
-                        that meet international clinical and regulatory requirements.
-                    </p>
-                    <p style="text-align: justify;">
-                        Elizabeth's areas of interests include pathology and the development of nutritional biomarkers
-                        for altered metabolism and disease states. Elizabeth is also well published and lectures in
-                        integrated health at universities, industry functions and private tertiary organisations.
-                    </p>
-                    <h3>
                         <strong>Dr Jeremy Henson</strong>
                     </h3>
                     <p style="text-align: justify;">
