@@ -33,6 +33,7 @@ class ShoppingCartController extends Controller
     public function __construct(ShoppingCart $shoppingCart)
     {
         $this->middleware('authNotAdmin');
+        $this->middleware('userStatusActive');
         $this->middleware('shoppingCartNotEmpty', [
             'except' => [
                 'getShoppingCart',

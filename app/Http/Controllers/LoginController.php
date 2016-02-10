@@ -74,6 +74,9 @@ class LoginController extends Controller
 
         $credentials = $this->getCredentials($request);
 
+        //
+        // Check User Group
+        //
         $hasValidUserGroup = count(
             User::where('email', '=', $credentials['email'])->
                 where(function($query) {
@@ -81,7 +84,26 @@ class LoginController extends Controller
                         orWhere('group', '=', 'Patient');
                 })->get());
 
+        //
+        // Login when user group is valid
+        //
         if ($hasValidUserGroup) {
+
+            //
+            // Check Account Active
+            //
+            $accountNotActive = count(
+                User::where('email', '=', $credentials['email'])->
+                where('status', '!=', 'Active')->get());
+
+            if ($accountNotActive) {
+
+                return redirect($this->loginPath())
+                    ->withInput($request->only($this->loginUsername(), 'remember'))
+                    ->withErrors([
+                        'Your Account has been put on Hold. Please Contact our Staff'
+                    ]);
+            }
 
             if (Auth::attempt($credentials, $request->has('remember'))) {
                 return $this->handleUserWasAuthenticated($request, $throttles);
