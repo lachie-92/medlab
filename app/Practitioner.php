@@ -1,10 +1,12 @@
 <?php namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Practitioner extends Model {
 
     protected $table='practitioners';
+    use SoftDeletes;
 
     //
     // Query Scope

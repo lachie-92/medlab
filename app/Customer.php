@@ -2,10 +2,12 @@
 
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Customer extends Model {
 
     protected $table='customers';
+    use SoftDeletes;
 
     //
     // Query Scope
