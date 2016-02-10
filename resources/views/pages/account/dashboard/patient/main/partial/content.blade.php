@@ -205,7 +205,7 @@
                                                 </div>
                                                 <div class="col-md-8 col-sm-8">
                                                     @if ($customer_mobile)
-                                                        {{ $customer_mobile->first()->number }}
+                                                        {{ $customer_mobile->number }}
                                                     @else
                                                         No Mobile Number Found
                                                     @endif
