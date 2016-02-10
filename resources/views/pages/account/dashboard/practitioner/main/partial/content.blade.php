@@ -336,7 +336,7 @@
                                                             <strong>Phone:</strong>
                                                         </div>
                                                         <div class="col-md-8 col-sm-8">
-                                                            @if ($company_phone->number)
+                                                            @if ($company_phone)
                                                                 {{ $company_phone->number }}
                                                             @else
                                                                 No Phone Number Found
