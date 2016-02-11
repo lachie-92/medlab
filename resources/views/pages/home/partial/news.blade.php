@@ -66,7 +66,7 @@
                     <div class="medlab_news_item_body">
                         <br>
                         <p>
-                            <a href="#">
+                            <a href="https://goo.gl/aGHsdZ" target="_blank">
                                 <img alt="Register for a practitioner account"
                                      src="/img/news/pracacc_register.jpg"
                                      title="Register for a practitioner account"
@@ -86,7 +86,7 @@
                     <div class="medlab_news_item_body">
                         <br>
                         <p>
-                            <a href="#">
+                            <a href="https://goo.gl/pC2CWE" target="_blank">
                                 <img alt="Medlab Gastrointestinal webinar"
                                      src="/img/news/Medlab_Gastrointestinal_webinar.jpeg"
                                      title="Medlab Gastrointestinal webinar"
@@ -105,7 +105,7 @@
                     </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
-                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" class="medlab_news_content_link">
+                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" target="_blank" class="medlab_news_content_link">
                                 Professor Luis Vitetta contributes to the scientific program
                             </a>
                         </h2>
@@ -130,7 +130,7 @@
                     </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
-                            <a href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" class="medlab_news_content_link">
+                            <a href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" target="_blank" class="medlab_news_content_link">
                                 Medlab's research featured on Channel 9 news
                             </a>
                         </h2>
@@ -156,7 +156,7 @@
                     </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
-                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" class="medlab_news_content_link">
+                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" target="_blank" class="medlab_news_content_link">
                                 Professor Luis Vitetta contributes to the scientific program
                             </a>
                         </h2>
@@ -181,7 +181,7 @@
                     </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
-                            <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/GPCE15_MelbRegoBroc_LoRes.pdf?v=635737234559793816" class="medlab_news_content_link">
+                            <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/GPCE15_MelbRegoBroc_LoRes.pdf?v=635737234559793816" target="_blank" class="medlab_news_content_link">
                                 Professor Luis Vitetta and Dr Samantha Coulson contribute to the scientific program
                             </a>
                         </h2>
