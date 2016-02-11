@@ -10,7 +10,7 @@ use View;
 class MedlabMailer
 {
 
-    public $AdminEmailAddress = 'henry_wu@medlab.co';
+    public $AdminEmailAddress = 'hello@medlab.co';
 
     /**
      * Laravel Mailer
