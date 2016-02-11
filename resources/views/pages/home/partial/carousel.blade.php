@@ -14,6 +14,7 @@
             <li data-target="#medlab-carousel" data-slide-to="4"></li>
             <li data-target="#medlab-carousel" data-slide-to="5"></li>
             <li data-target="#medlab-carousel" data-slide-to="6"></li>
+            <li data-target="#medlab-carousel" data-slide-to="7"></li>
         </ol>
 
         <div class="carousel-inner" role="listbox">
@@ -43,6 +44,10 @@
             </div>
             <div class="item">
                 <img class="medlab_carousel_image" src="/img/carousel/7.jpg" alt="7">
+                <div class="carousel-caption"></div>
+            </div>
+            <div class="item">
+                <img class="medlab_carousel_image" src="/img/carousel/8.jpg" alt="7">
                 <div class="carousel-caption"></div>
             </div>
         </div>

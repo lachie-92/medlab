@@ -64,28 +64,6 @@
                             </li>
                         </ul>
 
-                        <ul class="list-group">
-                            <li class="list-group-item list-group-item-info">
-                                Payment Option
-                            </li>
-                            <li class="list-group-item">
-                                <div class="alert alert-info">
-                                    This is a Test System. Please don't use real credit card numbers.
-                                    Use these test values instead:
-                                    <br>
-                                    <br>
-                                    <ul style="list-style-type: none;">
-                                        <li>American Express: 371449635311004 Expiry Date: 05/17 CSC: 100</li>
-                                        <li>Visa: 4987654321098769 Expiry Date: 05/17 CSC: 100</li>
-                                        <li>Mastercard: 5123456789012346 Expiry Date: 05/17 CSC: 100</li>
-                                        <li>Diners Club: 30123456789019 Expiry Date: 05/17 CSC: N/A</li>
-                                    </ul>
-                                    <br>
-                                </div>
-                                <div id="braintree-container"></div>
-                            </li>
-                        </ul>
-
                     </div>
                 </div>
             </div>
@@ -183,6 +161,56 @@
 
             </div>
 
+            <!--
+            -- Testing Information Box
+            -->
+            @if (false)
+                <div class="col-md-12 col-sm-12">
+                    <div class="center-block" style="width: 700px;">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-info">
+                                Payment Option
+                            </li>
+                            <li class="list-group-item">
+                                <div class="alert alert-info">
+                                    This is a Test System. Please don't use real credit card numbers.
+                                    Use these test values instead:
+                                    <br>
+                                    <br>
+                                    <ul style="list-style-type: none;">
+                                        <li>American Express: 371449635311004 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Visa: 4987654321098769 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Mastercard: 5123456789012346 Expiry Date: 05/17 CSC: 100</li>
+                                        <li>Diners Club: 30123456789019 Expiry Date: 05/17 CSC: N/A</li>
+                                    </ul>
+                                    <br>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            @endif
+
+            <!--
+            -- Payment Method Box
+            -->
+            <div class="col-md-12 col-sm-12">
+                <div class="center-block" style="width: 700px;">
+                    <div class="well" style="width: 300px; background: transparent none; text-align: center; display: inline-block">
+                    <span style="font-family: 'Open Sans Condensed',sans-serif;">
+                        ACCEPTED PAYMENT METHODS
+                    </span>
+                        <img width="100%" src="/img/products/shippingandpayment/payments_au.png">
+                    </div>
+                    <div class="well" style="width: 300px; background: transparent none; text-align: center; display: inline-block">
+                    <span style="font-family: 'Open Sans Condensed',sans-serif;">
+                        OUR SHIPPING PROVIDERS
+                    </span>
+                        <img width="100%" src="/img/products/shippingandpayment/shipping_au.png">
+                    </div>
+                </div>
+            </div>
+
         </div>
 
         <!--
@@ -196,7 +224,7 @@
             </div>
             <div class="pull-right">
                 <button id="button_payment" class="btn btn-success" type="submit">
-                    Pay Now <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    Pay Securely Now <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 </button>
             </div>
         </div>

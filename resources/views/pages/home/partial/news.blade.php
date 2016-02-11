@@ -15,19 +15,20 @@
                         FEATURED PRODUCT
                     </div>
                     <div class="medlab_news_item_body">
-                        <img src="/img/news/w8biotic.png" alt="W8Biotic Featured Product" height="150" width="auto" style="float: right;"/>
+                        <img src="/img/news/bioclean_epadha_coq10_60s.png" alt="BioClean EPA:DHA + Coenzyme Q10 Featured Product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/1" class="medlab_news_content_link">
-                                W8Biotic&trade;
+                            <a href="/nutraceuticals/products/16" class="medlab_news_content_link">
+                                BioClean EPA:DHA + Coenzyme Q10
                             </a>
                         </h2>
                         <p class="medlab_news_content_paragraph">
-                            W8Biotic&trade; is scientifically formulated to support lean body mass, weight management
-                            and maintain healthy blood glucose levels in healthy individuals when taken in conjunction
-                            with a calorie controlled eating plan.
+                            Scientifically formulated combination of Omega-3 Fatty Acids and Coenzyme Q10 targeted to
+                            support cardiovascular and neurocognitive health. Ubiquinol (CoQ10), has a superior
+                            absorption profile and higher bioavailability than other forms, therefore increasing
+                            therapeutic efficacy.
                         </p>
                         <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/1" class="medlab_news_content_link">More Information</a>
+                            <a href="/nutraceuticals/products/16" class="medlab_news_content_link">More Information</a>
                         </p>
                     </div>
                 </div>
@@ -35,6 +36,98 @@
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        FEATURED PRODUCT
+                    </div>
+                    <div class="medlab_news_item_body">
+                        <img src="/img/news/bioclean_epadha_plant_sterols_60s.png" alt="BioClean EPA:DHA + Plant Sterols Featured Product" height="150" width="auto" style="float: right;"/>
+                        <h2 class="medlab_news_content_title">
+                            <a href="/nutraceuticals/products/18" class="medlab_news_content_link">
+                                BioClean EPA:DHA + Plant Sterols
+                            </a>
+                        </h2>
+                        <p class="medlab_news_content_paragraph">
+                            Unique combination of Omega-3 essential Fatty Acids and Plant Sterols targeted to support
+                            healthy cholesterol levels and cardiovascular health. This combination will provide
+                            additional cardiovascular benefits than either nutrient taken alone.
+                        </p>
+                        <p class="medlab_news_content_paragraph">
+                            <a href="/nutraceuticals/products/18" class="medlab_news_content_link">More Information</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        REGISTER FOR A PRACTITIONER ACCOUNT TODAY
+                    </div>
+                    <div class="medlab_news_item_body">
+                        <br>
+                        <p>
+                            <a href="#">
+                                <img alt="Register for a practitioner account"
+                                     src="/img/news/pracacc_register.jpg"
+                                     title="Register for a practitioner account"
+                                     width="100%"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        MEDLAB WEBINAR
+                    </div>
+                    <div class="medlab_news_item_body">
+                        <br>
+                        <p>
+                            <a href="#">
+                                <img alt="Medlab Gastrointestinal webinar"
+                                     src="/img/news/Medlab_Gastrointestinal_webinar.jpeg"
+                                     title="Medlab Gastrointestinal webinar"
+                                     width="100%"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        NEWS
+                    </div>
+                    <div class="medlab_news_item_body">
+                        <h2 class="medlab_news_content_title">
+                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" class="medlab_news_content_link">
+                                Professor Luis Vitetta contributes to the scientific program
+                            </a>
+                        </h2>
+                        <br>
+                        <p>
+                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf">
+                                <img alt="6th World Congress on Mitochondria Berlin"
+                                     src="/img/news/6th_World_Congress_on_Mitochondria_Berlin.png"
+                                     title="6th World Congress on Mitochondria Berlin"
+                                     width="100%"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        NEWS
+                    </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
                             <a href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" class="medlab_news_content_link">
@@ -58,6 +151,9 @@
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        NEWS
+                    </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
                             <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" class="medlab_news_content_link">
@@ -70,9 +166,8 @@
                                 <img alt="6th World Congress on Mitochondria Berlin"
                                      src="/img/news/6th_World_Congress_on_Mitochondria_Berlin.png"
                                      title="6th World Congress on Mitochondria Berlin"
-                                     style="display: block; margin-left: auto; margin-right: auto;"
                                      width="100%"
-                                     class="img-responsive">
+                                     class="img-responsive center-block">
                             </a>
                         </p>
                     </div>
@@ -81,6 +176,9 @@
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        NEWS
+                    </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
                             <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/GPCE15_MelbRegoBroc_LoRes.pdf?v=635737234559793816" class="medlab_news_content_link">
@@ -99,8 +197,7 @@
                                 <img alt="NIIM Symposium 28 Nov 2015"
                                      src="/img/news/NIIM_Symposium28Nov2015.jpeg"
                                      title="NIIM Symposium 28 Nov 2015"
-                                     style="display: block; margin-left: auto; margin-right: auto;"
-                                     class="img-responsive">
+                                     class="img-responsive center-block">
                             </a>
                         </p>
 
