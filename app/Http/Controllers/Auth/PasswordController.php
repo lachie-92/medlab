@@ -39,7 +39,7 @@ class PasswordController extends Controller
 
         $user->save();
 
-        $mailer->sendPasswordResetNoticeToAdmin($user);
+        echo('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
 
         Auth::login($user);
     }
