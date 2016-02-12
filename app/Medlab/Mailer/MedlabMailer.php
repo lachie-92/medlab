@@ -38,6 +38,19 @@ class MedlabMailer
         $this->mandrill = $mandrill;
     }
 
+    public function sendPasswordResetNoticeToAdmin($user)
+    {
+        $from = $this->AdminEmailAddress;
+        $to = $this->AdminEmailAddress;
+
+        $this->mail->queue('emails.password_reset_received', compact('user'), function($message) use ($from, $to) {
+
+            $message->from($from)
+                ->to($to)
+                ->subject('Medlab - Account password reset received');
+        });
+    }
+
     /**
      * Send Registration Received Email to the newly registered
      *
