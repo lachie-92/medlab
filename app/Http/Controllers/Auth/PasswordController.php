@@ -4,7 +4,6 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
-use App\Medlab\Mailer\MedlabMailer;
 use Auth;
 
 class PasswordController extends Controller
@@ -33,13 +32,11 @@ class PasswordController extends Controller
         $this->subject = 'Medlab - Password Recovery';
     }
 
-    protected function resetPassword($user, $password, MedlabMailer $mailer)
+    protected function resetPassword($user, $password)
     {
         $user->password = bcrypt($password);
 
         $user->save();
-
-        echo('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA');
 
         Auth::login($user);
     }
