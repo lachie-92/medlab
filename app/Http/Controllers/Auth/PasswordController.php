@@ -3,8 +3,11 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Medlab\Mailer\MedlabMailer;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 use Auth;
+use Illuminate\Http\Request;
+use Password;
 
 class PasswordController extends Controller
 {
@@ -32,12 +35,39 @@ class PasswordController extends Controller
         $this->subject = 'Medlab - Password Recovery';
     }
 
-    protected function resetPassword($user, $password)
+    /**
+     * Reset the given user's password.
+     *
+     * @param  \Illuminate\Http\Request $request
+     * @param MedlabMailer $mail
+     * @return \Illuminate\Http\Response
+     */
+    public function postReset(Request $request, MedlabMailer $mail)
     {
-        $user->password = bcrypt($password);
+        $this->validate($request, [
+            'token' => 'required',
+            'email' => 'required|email',
+            'password' => 'required|confirmed|min:6',
+        ]);
 
-        $user->save();
+        $credentials = $request->only(
+            'email', 'password', 'password_confirmation', 'token'
+        );
 
-        Auth::login($user);
+        $response = Password::reset($credentials, function ($user, $password) use ($mail) {
+            $this->resetPassword($user, $password);
+            $mail->sendPasswordResetNoticeToAdmin($user);
+        });
+
+
+        switch ($response) {
+            case Password::PASSWORD_RESET:
+                return redirect($this->redirectPath())->with('status', trans($response));
+
+            default:
+                return redirect()->back()
+                    ->withInput($request->only('email'))
+                    ->withErrors(['email' => trans($response)]);
+        }
     }
 }
