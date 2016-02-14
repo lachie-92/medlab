@@ -9,7 +9,7 @@
     <p>An Account Holder has successfully reset his/her account password: </p>
     <p>{{ "Account Login Email: " . $user->email}}</p>
     <p>{{ "Account Type: " . $user->group }}</p>
-    <p>{{ "Customer Name:" . $user->customer->name }}</p>
+    <p>{{ "Customer Name: " . $user->customer->name }}</p>
 </body>
 </html>
 
