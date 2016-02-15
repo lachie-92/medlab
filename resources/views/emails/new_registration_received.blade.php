@@ -12,7 +12,7 @@
 </p>
 
 <p>
-    Please login into the <a href="{{ url('/account/') }}" mc:disable-tracking>Admin page</a> to see more details.
+    Please login into the <a href="https://echelon.medlab.co" mc:disable-tracking>Admin page</a> to see more details.
 </p>
 
 <p>
