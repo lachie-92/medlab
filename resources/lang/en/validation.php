@@ -87,8 +87,8 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'email' => [
+            'unique' => 'This email is currently registered on this website. Please use the login page, and reset password if necessary.',
         ],
     ],
 
