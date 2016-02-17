@@ -78,10 +78,10 @@
                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                     <tr>
                                         <td>
-                                            @if( old('shipping_country', $shoppingCart->shippingAddress['country']) == "Australia")
-                                                {!! Form::select('shipping_state', $auState, old('shipping_state', $shoppingCart->shippingAddress['state']), ['class' => 'form-control', 'id' => 'shipping_state_select']) !!}
-                                            @else
+                                            @if( old('shipping_country', $shoppingCart->shippingAddress['country']) == "New Zealand")
                                                 {!! Form::select('shipping_state', $nzRegion, old('shipping_state', $shoppingCart->shippingAddress['state']), ['class' => 'form-control', 'id' => 'shipping_state_select']) !!}
+                                            @else
+                                                {!! Form::select('shipping_state', $auState, old('shipping_state', $shoppingCart->shippingAddress['state']), ['class' => 'form-control', 'id' => 'shipping_state_select']) !!}
                                             @endif
                                         </td>
                                     </tr>
@@ -161,10 +161,10 @@
                                     <tr><th class="medlab_registration_form_section_subtitle">State/Region<span style="color: red;">*</span></th></tr>
                                     <tr>
                                         <td>
-                                            @if( old('billing_country', $shoppingCart->billingAddress['country']) == "Australia")
-                                                {!! Form::select('billing_state', $auState, old('billing_state', $shoppingCart->billingAddress['state']), ['class' => 'form-control', 'id' => 'billing_state_select']) !!}
-                                            @else
+                                            @if( old('billing_country', $shoppingCart->billingAddress['country']) == "New Zealand")
                                                 {!! Form::select('billing_state', $nzRegion, old('billing_state', $shoppingCart->billingAddress['state']), ['class' => 'form-control', 'id' => 'billing_state_select']) !!}
+                                            @else
+                                                {!! Form::select('billing_state', $auState, old('billing_state', $shoppingCart->billingAddress['state']), ['class' => 'form-control', 'id' => 'billing_state_select']) !!}
                                             @endif
                                         </td>
                                     </tr>
