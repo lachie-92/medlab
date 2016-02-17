@@ -20,7 +20,7 @@ class CategoriesSlugSeeder extends Seeder
             'Immunological Support' => 'immunological-support',
             'Anti-inflammatory' => 'anti-inflammatory',
             'Support for Teenagers' => 'support-for-teenagers',
-            'Support for Men' => 'Support-for-Men',
+            'Support for Men' => 'support-for-men',
             'Support for Pregnancy' => 'support-for-pregnancy',
             'Support for Seniors' => 'support-for-seniors',
             'Support for Women' => 'support-for-women',
