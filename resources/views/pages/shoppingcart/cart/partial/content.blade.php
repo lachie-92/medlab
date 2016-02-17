@@ -47,13 +47,13 @@
 
                     <tr>
                         <td width="10%" style="vertical-align: middle">
-                            <a href="/nutraceuticals/products/{{ $item['product']->id }}">
+                            <a href="/nutraceuticals/products/{{ $item['product']->slug }}">
                                 <img class="image-responsive" height="60px" title="{{ $item['product']->product_name_index }}" alt="{{ $item['product']->product_name_index }}" src="{{ $item['product']->thumb_image_path }}">
                             </a>
                         </td>
                         <td width="10%" style="vertical-align: middle">
                             <p>
-                                <a href="/nutraceuticals/products/{{ $item['product']->id }}">{{ $item['product']->product_name_index }}</a>
+                                <a href="/nutraceuticals/products/{{ $item['product']->slug }}">{{ $item['product']->product_name_index }}</a>
                             </p>
                             <form method="post" action="/shoppingcart/update">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">

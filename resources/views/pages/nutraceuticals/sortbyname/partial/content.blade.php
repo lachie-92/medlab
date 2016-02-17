@@ -38,7 +38,7 @@
                         @foreach($products as $product)
                             <div class="row">
                                 <div class="col-md-3 col-sm-3 col-xs-3">
-                                    <a href="/nutraceuticals/products/{{ $product->id }}">
+                                    <a href="/nutraceuticals/products/{{ $product->slug }}">
                                         <img alt="missing picture" src="{{ $product->thumb_image_path }}">
                                     </a>
                                 </div>
@@ -97,7 +97,7 @@
                                             </button>
                                         @endif
 
-                                        <button class="btn btn-info btn-sm medlab_product_list_main_shopping_box_button_info" product="{{ $product->id }}" onClick="location.href='/nutraceuticals/products/{{ $product->id }}'">
+                                        <button class="btn btn-info btn-sm medlab_product_list_main_shopping_box_button_info" product="{{ $product->id }}" onClick="location.href='/nutraceuticals/products/{{ $product->slug }}'">
                                             Learn More
                                         </button>
                                     </div>

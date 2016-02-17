@@ -55,6 +55,7 @@ class MedlabMailer
      * Send Registration Received Email to the newly registered
      *
      * @param $registration
+     * @throws Mandrill_Error
      */
     public function sendRegistrationReceivedEmail($registration)
     {

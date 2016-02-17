@@ -19,6 +19,8 @@ class CreateProductsTable extends Migration
             $table->string('product_name_index', 255);
             $table->index('product_name_index');
             $table->string('product_name', 255);
+            $table->string('slug')->nullable()->unique();
+            $table->index('slug');
             $table->string('short_description', 3000);
             $table->text('patent');
             $table->text('general_summary');

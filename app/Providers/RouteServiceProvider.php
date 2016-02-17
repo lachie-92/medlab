@@ -30,14 +30,14 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        $router->bind('productId', function($id){
+        $router->bind('productSlug', function($slug){
 
-            return Product::where('id', '=', $id)->firstOrFail();
+            return Product::where('slug', '=', $slug)->firstOrFail();
         });
 
-        $router->bind('categoryId', function($id){
+        $router->bind('categorySlug', function($slug){
 
-            return Category::where('id', '=', $id)->firstOrFail();
+            return Category::where('slug', '=', $slug)->firstOrFail();
         });
 
         $router->bind('patientRegistrationId', function($id){

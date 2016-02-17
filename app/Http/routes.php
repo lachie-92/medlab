@@ -92,11 +92,11 @@ Route::get('/nutraceuticals', 'NutraceuticalsController@products');
 
 Route::get('/nutraceuticals/products', 'NutraceuticalsController@products');
 
-Route::get('/nutraceuticals/products/{productId}', 'NutraceuticalsController@showProduct');
+Route::get('/nutraceuticals/products/{productSlug}', 'NutraceuticalsController@showProduct');
 
 Route::get('/nutraceuticals/categories', 'NutraceuticalsController@categories');
 
-Route::get('/nutraceuticals/categories/{categoryId}', 'NutraceuticalsController@showCategory');
+Route::get('/nutraceuticals/categories/{categorySlug}', 'NutraceuticalsController@showCategory');
 
 Route::get('/nutraceuticals/ingredients', 'NutraceuticalsController@ingredients');
 

@@ -94,6 +94,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call(CategoriesChangesTableSeeder::class);
         $this->call(CategoryProductChangesSeeder::class);
+        $this->call(ProductsSlugSeeder::class);
+        $this->call(CategoriesSlugSeeder::class);
 
         Model::reguard();
     }

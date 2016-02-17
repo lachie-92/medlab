@@ -21,7 +21,7 @@ $I->see('$114.24', '//table[@id="cart_list"]/tbody/tr[1]/td[6]');
 $I->click('//a[@href="/nutraceuticals/products/"]');
 $I->seeCurrentUrlEquals('/nutraceuticals/products/');
 $I->click('//button[@product="2" and contains(., "Learn More")]');
-$I->seeCurrentUrlEquals('/nutraceuticals/products/2');
+$I->seeCurrentUrlEquals('/nutraceuticals/products/enbiotic-120s');
 $I->click('//button[@title="Add to Cart" and contains(., "Add to Cart")]');
 
 $I->seeCurrentUrlEquals('/shoppingcart/cart');

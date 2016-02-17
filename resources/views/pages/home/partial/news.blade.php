@@ -17,7 +17,7 @@
                     <div class="medlab_news_item_body">
                         <img src="/img/news/bioclean_epadha_coq10_60s.png" alt="BioClean EPA:DHA + Coenzyme Q10 Featured Product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/16" class="medlab_news_content_link">
+                            <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s" class="medlab_news_content_link">
                                 BioClean EPA:DHA + Coenzyme Q10
                             </a>
                         </h2>
@@ -28,7 +28,7 @@
                             therapeutic efficacy.
                         </p>
                         <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/16" class="medlab_news_content_link">More Information</a>
+                            <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s" class="medlab_news_content_link">More Information</a>
                         </p>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                     <div class="medlab_news_item_body">
                         <img src="/img/news/bioclean_epadha_plant_sterols_60s.png" alt="BioClean EPA:DHA + Plant Sterols Featured Product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/18" class="medlab_news_content_link">
+                            <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s" class="medlab_news_content_link">
                                 BioClean EPA:DHA + Plant Sterols
                             </a>
                         </h2>
@@ -52,7 +52,7 @@
                             additional cardiovascular benefits than either nutrient taken alone.
                         </p>
                         <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/18" class="medlab_news_content_link">More Information</a>
+                            <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s" class="medlab_news_content_link">More Information</a>
                         </p>
                     </div>
                 </div>
