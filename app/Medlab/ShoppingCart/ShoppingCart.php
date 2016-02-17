@@ -21,7 +21,7 @@ class ShoppingCart {
      *
      * @var double
      */
-    public $amountRequiredForFreeShipping = 100;
+    public $amountRequiredForFreeShipping = 165;
 
     /**
      * Tax rate
@@ -212,7 +212,7 @@ class ShoppingCart {
             $this->total += $this->GST;
 
             // Add Shipping
-            if ($this->subtotal > $this->amountRequiredForFreeShipping) {
+            if ($this->total >= $this->amountRequiredForFreeShipping) {
                 $this->shippingCost = 0;
             }
             $this->total += $this->shippingCost;

@@ -33,22 +33,15 @@
 
                         <h2 class="medlab_product_info_title">{!! strtoupper($product->product_name) !!}</h2>
 
-                        <?php $promotion = $product->promotions->first(); ?>
-                        @if ($promotion)
-                            @if (Auth::guest())
-                                @if ($promotion->isEligibleForPromotion('Patient'))
-                                    <div style="border: 1px solid blue; padding: 4px;">
-                                        {!! $promotion->description !!}
-                                    </div>
-                                @endif
-                            @else
+                        @foreach ($product->promotions as $promotion)
+                            @if (Auth::guest() == false)
                                 @if ($promotion->isEligibleForPromotion(Auth::user()->group))
-                                    <div style="border: 1px solid blue; padding: 4px;">
-                                        {!! $promotion->description !!}
+                                    <div class="alert alert-success" role="alert" style="margin-bottom:3px;">
+                                        <b>{{ $promotion->description }}</b>
                                     </div>
                                 @endif
                             @endif
-                        @endif
+                        @endforeach
 
                         <p>
                             Availability:

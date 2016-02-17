@@ -108,7 +108,7 @@
                     <tr>
                         <th></th>
                         <th style="text-align: right">
-                            Free Shipping for Order over ${{ $shoppingCart->amountRequiredForFreeShipping }}
+                            Free Shipping for Orders over ${{ $shoppingCart->amountRequiredForFreeShipping }}
                         </th>
                     </tr>
                     <tr>

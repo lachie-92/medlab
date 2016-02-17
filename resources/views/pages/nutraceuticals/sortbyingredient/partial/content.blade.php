@@ -46,23 +46,16 @@
                                             </a>
                                         </div>
                                         <div class="col-md-6 col-sm-6 col-xs-6">
-                                            <?php $promotion = $product->promotions->first(); ?>
-                                            @if ($promotion)
-                                                @if (Auth::guest())
-                                                    @if ($promotion->isEligibleForPromotion('Patient'))
-                                                        <div style="float: right; border: 1px solid blue; padding: 4px;">
-                                                            {!! $promotion->description !!}
-                                                        </div>
-                                                    @endif
-                                                @else
+                                            {!! $product->short_description !!}
+                                            @foreach ($product->promotions as $promotion)
+                                                @if (Auth::guest() == false)
                                                     @if ($promotion->isEligibleForPromotion(Auth::user()->group))
-                                                        <div style="float: right; border: 1px solid blue; padding: 4px;">
-                                                            {!! $promotion->description !!}
+                                                        <div class="alert alert-success" role="alert" style="margin-bottom:3px;">
+                                                            <b>{{ $promotion->name . ": " . $promotion->description }}</b>
                                                         </div>
                                                     @endif
                                                 @endif
-                                            @endif
-                                            {!! $product->short_description !!}
+                                            @endforeach
                                         </div>
                                         <div class="col-md-3 col-sm-3 col-xs-3">
                                             <div class="medlab_product_list_main_shopping_box">
