@@ -105,31 +105,6 @@
                     </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
-                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" target="_blank" class="medlab_news_content_link">
-                                Professor Luis Vitetta contributes to the scientific program
-                            </a>
-                        </h2>
-                        <br>
-                        <p>
-                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" target="_blank">
-                                <img alt="6th World Congress on Mitochondria Berlin"
-                                     src="/img/news/6th_World_Congress_on_Mitochondria_Berlin.png"
-                                     title="6th World Congress on Mitochondria Berlin"
-                                     width="100%"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        NEWS
-                    </div>
-                    <div class="medlab_news_item_body">
-                        <h2 class="medlab_news_content_title">
                             <a href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" target="_blank" class="medlab_news_content_link">
                                 Medlab's research featured on Channel 9 news
                             </a>
@@ -149,61 +124,6 @@
                 </div>
             </div>
 
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        NEWS
-                    </div>
-                    <div class="medlab_news_item_body">
-                        <h2 class="medlab_news_content_title">
-                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" target="_blank" class="medlab_news_content_link">
-                                Professor Luis Vitetta contributes to the scientific program
-                            </a>
-                        </h2>
-                        <br>
-                        <p>
-                            <a href="https://s3.amazonaws.com/medlab-pdfs/Research/TargetingMitochondria.pdf" target="_blank">
-                                <img alt="6th World Congress on Mitochondria Berlin"
-                                     src="/img/news/6th_World_Congress_on_Mitochondria_Berlin.png"
-                                     title="6th World Congress on Mitochondria Berlin"
-                                     width="100%"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        NEWS
-                    </div>
-                    <div class="medlab_news_item_body">
-                        <h2 class="medlab_news_content_title">
-                            <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/GPCE15_MelbRegoBroc_LoRes.pdf?v=635737234559793816" target="_blank" class="medlab_news_content_link">
-                                Professor Luis Vitetta and Dr Samantha Coulson contribute to the scientific program
-                            </a>
-                        </h2>
-                        <br>
-                        <p>
-                            <a href="http://www.gpce.com.au/RXAU/RXAU_GPCE_V2/documents/2015/GPCE15_MelbRegoBroc_LoRes.pdf?v=635737234559793816" target="_blank">
-                                <img alt="GPCE Melbourne 2015" src="/img/news/GPCE2015Melbourn.png" title="GPCE Melbourne 2015" width="100%">
-                            </a>
-                        </p>
-                        <br>
-                        <p>
-                            <a href="http://www.niim.com.au/sites/default/files/NIIM-2nd-Annual-Symposium-digital.pdf" target="_blank">
-                                <img alt="NIIM Symposium 28 Nov 2015"
-                                     src="/img/news/NIIM_Symposium28Nov2015.jpeg"
-                                     title="NIIM Symposium 28 Nov 2015"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-
-                    </div>
-                </div>
-            </div>
 
         </div>
         <!--
