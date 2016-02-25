@@ -127,6 +127,28 @@ class ModifyProduct extends Command
         ]);
     }
 
+    private function modify_products($modify_array)
+    {
+        foreach($modify_array as $modify_product) {
+
+            if ($modify_product['name'] == 'All') {
+                $product_all = Product::all();
+                foreach ($product_all as $product) {
+                    $this->update_product($product, $modify_array);
+                }
+            }
+
+        }
+    }
+
+    private function update_product($product, $modify_array)
+    {
+        if(!empty($modify_array['product_name'])) {
+            $product->product_name = $modify_array['product_name'];
+
+        }
+    }
+
     private function create_discount_deals($deals)
     {
         foreach ($deals as $deal) {
