@@ -51,21 +51,369 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
-                'product_name_index' => 'NanoCelle Activated B12',
-                'references' =>
+                'product_name_index' => '12Mg Optima Relax',
+                'cmi' =>
                     '
-                    <ol class="medlab_product_reference_list">
-                        <li>Carmel R. Efficacy and safety of fortification and supplementation with vitamin B12: biochemical and physiological effects. <em>Food Nutr Bull</em> 2008;29:S177-S187.</li>
-                        <li>Nielsen, HM 2014, &#39;Epithelial permeation and absorption mechanisms of biopharmaceuticals&#39;, in J das Neves & B Sarmento (eds), Mucosal Delivery of Biopharmaceuticals, Springer, New York, pp. 99-124.</li>
-                        <li>Laffleur F, Bernkop-Schn&uuml;rch A. Strategies for improving drug delivery. <em>Future Medicine</em> 2013;8:2061-75.</li>
-                        <li>Ansari Z. Homocysteine and mild cognitive impairment: are these the tools for early intervention in the dementia spectrum? <em>J Nutr health Aging</em> 2016;20:155-60.</li>
-                        <li>Ganguly P, Alam SF. Role of homocysteine in the development of cardiovascular disease. <em>Nutr J</em> 2015;14:6.</li>
-                        <li>Obeid R, Fedosov SN, Nexo E. Cobalamin coenzyme forms are not likely to be superior to cyano- and hydroxyl-cobalamin in prevention or treatment of cobalamin deficiency. <em>Mol Nutr Food Res</em> 2015;59:1364-1372.</li>
-                        <li>Thakkar K, Billa G. Treatment of vitamin B12 deficiency &ndash; Methylcobalamine? Cyanocobalamine? Hydroxycobalamin? &ndash; clearing the confusion. <em>Eur J Clin Nutr</em> 2015;69:1-2.</li>
-                    </ol>
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Spanish.pdf">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    </p>
                     ',
 
-            ]
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + CoQ10 120s',
+                'cmi' =>
+                    '
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    </p>
+                    ',
+
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + CoQ10 60s',
+                'cmi' =>
+                    '
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    </p>
+                    ',
+
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 120s',
+                'cmi' =>
+                    '
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    </p>
+                    ',
+
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 60s',
+                'cmi' =>
+                    '
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    </p>
+                    ',
+
+            ],
+            [
+                'product_name_index' => 'NanoCelle Activated B12',
+                'cmi' =>
+                    '
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    </p>
+                    ',
+
+            ],
+            [
+                'product_name_index' => 'Biotic Jnr.',
+                'cmi' =>
+                    '
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/TraditionalChinese.pdf" target="_blank">中文翻譯</a>
+                    </p>
+                    ',
+
+            ],
+            [
+                'product_name_index' => "Enbiotic 120's",
+                'cmi' =>
+                    '
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    ',
+
+            ],
+            [
+                'product_name_index' => "Enbiotic 60's",
+                'cmi' =>
+                    '
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/English.pdf" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
+                    ',
+
+            ],
+
         ];
 
         $this->modify_products($modify_array);

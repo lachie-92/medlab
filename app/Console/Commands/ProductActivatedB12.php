@@ -232,6 +232,30 @@ class UploadProduct extends Command
                         Click Here For English CMI
                     </a>
                 </p>
+                <p>
+                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Arabic.pdf">الترجمة العربية </a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Russion.pdf">Перевод на русском языке</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Japanese.pdf">日本語翻訳</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/French.pdf">Traduction en français</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Chinese.pdf">中文翻译</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Italian.pdf">Traduzione italiana</a>
+                </p>
                 ',
             'free_from' =>
                 '
