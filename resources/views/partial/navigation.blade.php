@@ -135,10 +135,11 @@
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
-                        Education
+                        Efficacy
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/education/publications">Publications</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/human-ageing">Human Ageing</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/optimising-skeletal-muscle-function">Optimising Skeletal...</a></li>
                     </ul>
                 </li>
             </ul>

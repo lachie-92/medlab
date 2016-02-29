@@ -316,6 +316,19 @@ Route::get('/about/letter-from-ceo', function () {
     return view('pages.about.letter-from-ceo.index');
 });
 
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Efficacy pages
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/efficacy/human-ageing', function () {
+    return view('pages.efficacy.human-ageing.index');
+});
+
+Route::get('/efficacy/optimising-skeletal-muscle-function', function () {
+    return view('pages.efficacy.optimising-skeletal-muscle-function.index');
+});
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
