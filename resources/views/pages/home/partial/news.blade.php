@@ -15,6 +15,21 @@
                         FEATURED PRODUCT
                     </div>
                     <div class="medlab_news_item_body">
+                        <img src="/img/news/activated_b12.png" alt="NanoCelle Activated B12 Featured Product" height="150" width="auto" style="float: right;"/>
+                        <h2 class="medlab_news_content_title">
+                            <a href="/nutraceuticals/products/nanocelle-activated-b12" class="medlab_news_content_link">
+                                New - NanoCelle&trade; Activated B12
+                            </a>
+                        </h2>
+                        <p class="medlab_news_content_paragraph">
+                            NanoCelle&trade; Activated B12 may assist in the management of dietary vitamin B12 deficiency as may occur
+                            in vegetarians, vegans, the elderly, and those taking certain medications that lower stomach acid.
+                            Methylcobalamin is a biologically active form of vitamin B12 that is involved in the methylation of
+                            homocysteine to methionine, therefore helping to lower serum homocysteine levels.
+                        </p>
+                        <p class="medlab_news_content_paragraph">
+                            <a href="/nutraceuticals/products/nanocelle-activated-b12" class="medlab_news_content_link">More Information</a>
+                        </p>
                         <img src="/img/news/bioclean_epadha_coq10_60s.png" alt="BioClean EPA:DHA + Coenzyme Q10 Featured Product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s" class="medlab_news_content_link">
@@ -30,16 +45,6 @@
                         <p class="medlab_news_content_paragraph">
                             <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s" class="medlab_news_content_link">More Information</a>
                         </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        FEATURED PRODUCT
-                    </div>
-                    <div class="medlab_news_item_body">
                         <img src="/img/news/bioclean_epadha_plant_sterols_60s.png" alt="BioClean EPA:DHA + Plant Sterols Featured Product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s" class="medlab_news_content_link">
