@@ -62,6 +62,7 @@
                     </p>
                     <br>
                     <p style="text-align: justify;">
+                        <img class="img-responsive" alt="Heart Health" width="300px;" src="/img/efficacy/human-ageing/heart_health.jpg" title="Heart Health" style="float: right; margin-left: 20px;">
                         <strong>Fish Fats:</strong> a recent study has demonstrated that fish oil–derived n–3 PUFA treatment slowed
                         the normal decline in skeletal muscle mass and function in a study with older adults. As such these compounds
                         should very much be considered a therapeutic approach for preventing sarcopenia and maintaining physical
@@ -75,6 +76,7 @@
                     </p>
                     <br>
                     <p style="text-align: justify;">
+                        <img class="img-responsive" alt="Brain Health" width="300px;" src="/img/efficacy/human-ageing/brain_health.jpg" title="Brain Health" style="float: right; margin-left: 20px;">
                         <strong>Coenzyme Q<sub>10</sub> (CoQ<sub>10</sub>):</strong> studies have reported on the scientific and clinical
                         literature being replete with reports on the efficacy of CoQ<sub>10</sub> for the treatment of a wide range of apparently
                         unrelated diseases.<sup>6</sup> The CoQ<sub>10</sub> efficacy reports have embraced a diverse range of pathologies. For instance, CoQ<sub>10</sub>
