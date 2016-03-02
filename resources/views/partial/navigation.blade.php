@@ -109,6 +109,7 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/the-medlab-solution">The Medlab Solution</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/patents">Patents</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trails">Clinical Trials</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/medlab-cell-line">Medlab Cell Line</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

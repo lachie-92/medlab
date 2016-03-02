@@ -23,7 +23,7 @@ class NutraceuticalsController extends Controller
         ]);
 
         $productList = $this->createSortList(
-            ['B', 'E', 'M', 'N', 'O', 'W', 'Show All']
+            ['B', 'E', 'M', 'N', 'O', 'S', 'W', 'Show All']
         );
 
         // If q not exits, default is Show All

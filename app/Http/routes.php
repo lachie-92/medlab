@@ -269,6 +269,10 @@ Route::get('/research/clinical-trails', function () {
     return view('pages.research.clinical-trails.index');
 });
 
+Route::get('/research/medlab-cell-line', function () {
+    return view('pages.research.medlab-cell-line.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
