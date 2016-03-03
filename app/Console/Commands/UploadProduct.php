@@ -375,11 +375,16 @@ class UploadProduct extends Command
             'practitioner_summary' =>
                 '
                 <p>
-                    It is only within the last decade that a complex microbiome has been discovered in the placenta, amniotic fluid and
+                    It is only within the last decade that a complex microbiome was discovered in the placenta, amniotic fluid and
                     breast milk, which were once believed to be sterile. Infants were only thought to be exposed to microbes during birth,
                     i.e. the mother’s vaginal microbiome or that of the hospital staff and surgical environment when delivered via cesarean
-                    section. The evolution of the infant gut microbiome does however begin in utero. Continued evolution of the microbiome
+                    section. The evolution of the infant gut microbiome does however begin <em>in utero</em>. Continued evolution of the microbiome
                     after birth is influenced by numerous factors including diet, medications, toxins, illness and other stressors.<sup>1,2</sup>
+                </p>
+
+                <p>
+                    <img alt="Human Mammary Microbiota" src="/img/products/bioticnatal/bioticnatal_figure1.jpg" class="img-responsive" title="Human Mammary Microbiota"><br>
+                    <strong>Figure 1.</strong> Schematic representation of the acquisition and development of the human mammary microbiota.<sup>1</sup>
                 </p>
 
                 <p>
@@ -396,7 +401,7 @@ class UploadProduct extends Command
                     the exposure to antenatal sources of commensal bacteria, varies by length of gestation. During the third trimester
                     of pregnancy the bacterial density in the placenta and also that of the breast milk significantly increases.
                     Further, at this time the foetus begins to swallow large amounts of amniotic fluid that harbours commensal
-                    bacteria.<sup>1,2</sup>
+                    bacteria (see Figure 1).<sup>1,2</sup>
                 </p>
 
                 <p>
@@ -413,39 +418,26 @@ class UploadProduct extends Command
                     able to penetrate the gut epithelium, extending dendrites into the gut lumen and directly sample/collect the bacteria.
                     Intestinal DCs and macrophages can retain small numbers of live commensal bacteria for several days in the mesenteric
                     lymph nodes. DCs can then translocate these bacteria to other body sites including the lactating mammary gland.<sup>1,4</sup>
-                    The proposed method of bacterial transfer from the maternal GIT to the mammary gland is shown in Figure 1.
+                    The proposed method of bacterial transfer from the maternal GIT to the mammary gland is shown in Figure 2.
                 </p>
 
                 <p>
-                    <img alt="Enteromammary Pathway" src="/img/products/sb_5b/sb5b_figure1.png" class="img-responsive" title="Enteromammary Pathway"><br>
-                    <strong>Figure 1. Enteromammary Pathway: </strong> Dendritic cells in the lamina propria send dendrites into the maternal gut lumen via
+                    <img alt="Enteromammary Pathway" src="/img/products/bioticnatal/bioticnatal_figure2.jpg" class="img-responsive" title="Enteromammary Pathway"><br>
+                    <strong>Figure 2. Enteromammary Pathway: </strong> Dendritic cells in the lamina propria send dendrites into the maternal gut lumen via
                     tight junctions and trap commensal gut bacteria and transport them back to the lamina propria and from here to mesenteric lymph nodes.
                     Once inside dendritic cells and/or macrophages, gut bacteria can spread to other locations such as the mammary gland and therefore into
                     breast milk and possibly the placenta, as there is a circulation of lymphocytes within the mucosal-associated lymphoid system.<sup>4</sup>
                 </p>
 
                 <p>
-                    AAD can occur within a few hours after administering antibiotics for up to several months after ceasing treatment.
-                    The prevalence of AAD varies from 5% to 30% in paediatrics and as high as 80% in very young hospitalized children.
-                    In adults the prevalence ranges from 5% to 70%.<sup>5</sup> As SB is a yeast it is not affected by antibiotics. Furthermore,
-                    when co-prescribed, SB promotes the re-establishment of a normal commensal microbial cohort at a faster rate than
-                    when antibiotics are prescribed without SB.<sup>1,2</sup>
-                </p>
-
-                <p>
                     <em>Staphylococcus</em> and <em>Streptococcus</em> are among the most abundant genera found in breast milk.
-                    Lactic acid bacteria breast milk generates an anaerobic environment in the neonate gut by consuming oxygen, promoting
+                    Lactic acid bacteria in breast milk generates an anaerobic environment in the neonate gut by consuming oxygen, promoting
                     <em>Bifidobacterium</em> growth and later for several intestinal strains after weaning. The milk microbiota is
                     vital for the neonates immune and GIT maturation. Without bacteria this simply does not occur.<sup>4</sup> There are
                     large differences in neonatal gut colonisation between breastfed and formula fed infants. It has been demonstrated that
-                    term breastfed infants are dominated by <em>Bifidobacteria</em> species but decreased <em>Enterobacteria</em> species,
+                    term breast fed infants are dominated by <em>Bifidobacteria</em> species but decreased <em>Enterobacteria</em> species,
                     whereas formula fed infants demonstrate a more diverse array of bacteria including <em>Escherichia coli, Clostridium, Bacteroides, Prevotella
                     </em> and <em>Lactobacillus</em> species.<sup>2</sup>
-                </p>
-
-                <p>
-                    <img alt="Human Mammary Microbiota" src="/img/products/bioticnatal/bioticnatal_figure2.png" class="img-responsive" title="Human Mammary Microbiota"><br>
-                    <strong>Figure 2.</strong> Schematic representation of the acquisition and development of the human mammary microbiota.<sup>1</sup>
                 </p>
 
                 <p>
@@ -580,7 +572,7 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Glycomax&trade; Lactoferrin</em></p>
+                                <p><em>Lactoferrin</em></p>
                             </td>
                             <td width="136" valign="top">
                                 <p>100 mg</p>

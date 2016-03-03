@@ -94,17 +94,19 @@
                                 <img alt="Medlab HFD NALFD Webinar"
                                      src="/img/news/Medlab_HFD_NALFD_Webinar.jpg"
                                      title="Medlab HFD NALFD Webinar"
-                                     width="645px"
+                                     width="450px"
                                      class="img-responsive center-block">
                             </a>
                         </p>
                         <br>
                         <p>
-                                <img alt="Medlab Gastrointestinal webinar"
-                                     src="/img/news/Medlab_Gastrointestinal_webinar.jpeg"
-                                     title="Medlab Gastrointestinal webinar"
-                                     width="100%"
+                            <a href="http://goo.gl/fBJJjj" target="_blank">
+                                <img alt="Medlab Probiotic and Gut Health Webinar"
+                                     src="/img/news/Medlab_Probiotic_and_Gut_Health_Webinar.jpg"
+                                     title="Medlab Probiotic and Gut Health Webinar"
+                                     width="450px"
                                      class="img-responsive center-block">
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -116,6 +118,38 @@
                         NEWS
                     </div>
                     <div class="medlab_news_item_body">
+                        <h2 class="medlab_news_content_title">
+                            <a href="https://nutritionmedicine.org.au" target="_blank" class="medlab_news_content_link">
+                                Dr Samantha Coulson will be contributing to the scientific program.
+                            </a>
+                        </h2>
+                        <br>
+                        <p>
+                            <a href="https://nutritionmedicine.org.au" target="_blank">
+                                <img alt="Nutrition in Medicine Conference"
+                                     src="/img/news/Apr2016_nutrition_in_medicine.png"
+                                     title="Nutrition in Medicine Conference"
+                                     width="100%"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                        <br>
+                        <h2 class="medlab_news_content_title">
+                            <a href="http://www.gpce.com.au" target="_blank" class="medlab_news_content_link">
+                                GPCE Sydney – Prof Luis Vitetta and Dr Samantha Coulson will be contributing to the scientific program.
+                            </a>
+                        </h2>
+                        <br>
+                        <p>
+                            <a href="http://www.gpce.com.au" target="_blank">
+                                <img alt="Sydney GPCE 2016"
+                                     src="/img/news/May2016_gpce_sydney.jpg"
+                                     title="Sydney GPCE 2016"
+                                     width="100%"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                        <br>
                         <h2 class="medlab_news_content_title">
                             <a href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" target="_blank" class="medlab_news_content_link">
                                 Medlab's research featured on Channel 9 news

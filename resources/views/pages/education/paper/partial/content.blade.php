@@ -23,6 +23,43 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
+                            <strong>2016:</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26888768" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Vitetta L. </strong>
+                                Lactobacillus acidophilus Restores Functionality in Uremic Macrophages: Plausible or Lacking Evidence?
+                                <em>Dig Dis Sci.</em> 2016 Feb 18.
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26858242" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Liu X, Furuya-Kanamori L, Siskind D, Crompton D, Williams GM, Kostner K, Vitetta L, Doi SA. </strong>
+                                An evidence-based scale for the antecedents of depressive symptoms in Australian adults.
+                                <em>Australas Psychiatry.</em> 2016 Feb 8.
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26858242" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Liu X, Furuya-Kanamori L, Siskind D, Crompton D, Williams GM, Kostner K, Vitetta L, Doi SA. </strong>
+                                An evidence-based scale for the antecedents of depressive symptoms in Australian adults.
+                                <em>Australas Psychiatry.</em> 2016 Feb 8.
+                            </span>
+                        </a>
+                    </p>
+
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
                             <strong>2015:</strong>
                         </span>
                     </p>
