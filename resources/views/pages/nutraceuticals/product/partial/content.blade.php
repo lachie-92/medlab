@@ -123,7 +123,7 @@
                     <div class="panel-heading medlab_panel_title">
                         CLINICAL SUMMARY
                     </div>
-                    <div class="panel-body medlab_panel_content">
+                    <div class="panel-body medlab_panel_content" style="text-align: justify">
                         <p>
                             <strong><em>General Use:</em></strong>
                         </p>
@@ -169,7 +169,7 @@
                         <div class="panel-heading medlab_panel_title">
                             SIDE EFFECTS
                         </div>
-                        <div class="panel-body medlab_panel_content">
+                        <div class="panel-body medlab_panel_content" style="text-align: justify">
 
                             {!! $product->side_effects !!}
 
@@ -189,7 +189,7 @@
                             <div class="panel-heading medlab_panel_title">
                                 INTERACTIONS
                             </div>
-                            <div class="panel-body medlab_panel_content">
+                            <div class="panel-body medlab_panel_content" style="text-align: justify">
 
                                 {!! $product->interactions !!}
 

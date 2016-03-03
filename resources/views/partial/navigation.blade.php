@@ -104,12 +104,12 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research">Research</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/medlab-cell-line">Medlab's Cell Lines</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/medlab-delivery-platform">Medlab Delivery Platform</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/why-medlab">Why Medlab</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/the-medlab-solution">The Medlab Solution</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/patents">Patents</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trails">Clinical Trials</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/medlab-cell-line">Medlab's Cell Lines</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
