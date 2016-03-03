@@ -48,15 +48,17 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26858242" target="_blank">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26791805" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
-                                <strong>Liu X, Furuya-Kanamori L, Siskind D, Crompton D, Williams GM, Kostner K, Vitetta L, Doi SA. </strong>
-                                An evidence-based scale for the antecedents of depressive symptoms in Australian adults.
-                                <em>Australas Psychiatry.</em> 2016 Feb 8.
+                                <strong>Rao A, Steels E, Inder WJ, Abraham S, Vitetta L. </strong>
+                                Testofen, a specialised Trigonella foenum-graecum seed extract reduces age-related symptoms of androgen decrease, increases testosterone levels and improves sexual function in healthy aging males in a double-blind randomised clinical study.
+                                <em>Aging Male.</em> 2016 Jan 20:1-9.
                             </span>
                         </a>
                     </p>
 
+                    <br>
+                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
@@ -65,7 +67,17 @@
                     </p>
 
                     <p>
-                        <a href="http://www.mdpi.com/2076-2607/3/4/913">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26703884" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Chen C, Zhao KN, Masci PP, Lakhani SR, Antonsson A, Simpson PT, Vitetta L. </strong>
+                                TGFβ isoforms and receptors mRNA expression in breast tumours: prognostic value and clinical implications.
+                                <em>BMC Cancer.</em> 2015 Dec 24;15(1):1010.
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26703884" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Hall S, Coulson S. </strong>
                                 Metabolic Interactions in the Gastrointestinal Tract (GIT): Host, Commensal, Probiotics, and Bacteriophage Influences.
@@ -75,7 +87,17 @@
                     </p>
 
                     <p>
-                        <a href="http://www.apjon.org/preprintarticle.asp?id=170977">
+                        <a href="http://www.mdpi.com/2076-2607/3/4/913" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Vitetta L, Hall S, Coulson S. </strong>
+                                Metabolic Interactions in the Gastrointestinal Tract (GIT): Host, Commensal, Probiotics, and Bacteriophage Influences.
+                                <em>Microorganisms</em> 2015;3(4):913-932.
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="http://www.apjon.org/preprintarticle.asp?id=170977" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Schloss J, Colosimo M, Vitetta L. </strong>
                                 New Insights into potential prevention and management options for chemotherapy-induced peripheral neuropathy:
@@ -85,7 +107,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25863665">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25863665" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Schloss J, Colosimo M, Airey C, Vitetta L, </strong>
                                 Chemotherapy-induced peripheral neuropathy (CIPN) and vitamin B12 deficiency.
@@ -95,7 +117,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25849070">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25849070" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Schloss J, Colosimo M, Vitetta L.</strong>
                                 Herbal Medicines and Chemotherapy Induced Peripheral Neuropathy (CIPN): a Critical
@@ -105,7 +127,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25848702">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25848702" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Marx W, Ried K, McCarthy AL, Vitetta L, Sali A, McKavanagh D, Isenring E.</strong>
                                 Ginger-Mechanism of Action in Chemotherapy-induced Nausea and Vomiting: A Review.
@@ -115,7 +137,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25914334">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25914334" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Rao A, Steels E, Beccaria G, Inder WJ, Vitetta L.</strong>
                                 Influence of a Specialized Trigonella foenum graecum Seed Extract (Libifem), on
@@ -126,7 +148,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.sciencedirect.com/science/article/pii/S2212958815000415">
+                        <a href="http://www.sciencedirect.com/science/article/pii/S2212958815000415" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Bambling M, Edwards SC, Coulson S, Vitetta L. </strong>
                                 S-adenosylmethionine (SAMe) and Magnesium Orotate as adjunctives to SSRIs in
@@ -146,7 +168,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25266952">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25266952" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Bambling, M, Alford H. </strong>
                                 The gastrointestinal tract microbiome, probiotics and mood. <em>Inflammopharmacology</em>
@@ -156,7 +178,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25244509">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/25244509" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Manuel R, Zhou JY, Linnane A, Hall S, Coulson S.</strong>
                                 The overarching influence of the gut microbiome on end-organ function: the role of
@@ -166,7 +188,7 @@
                     </p>
 
                     <p>
-                        <a href="http://link.springer.com/article/10.1007%2Fs10787-014-0201-4">
+                        <a href="http://link.springer.com/article/10.1007%2Fs10787-014-0201-4" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Briskey B, Alford H, Hall S, Coulson S.</strong>
                                 Probiotics, prebiotics and the gastrointestinal tract in health and disease.
@@ -177,7 +199,7 @@
 
                     <p>
                         <!-- missing link -->
-                        <a href="http://connection.ebscohost.com/c/articles/94849884/antioxidants-abrogate-free-radicals-new-insights-challenge-currently-held-beliefs">
+                        <a href="http://connection.ebscohost.com/c/articles/94849884/antioxidants-abrogate-free-radicals-new-insights-challenge-currently-held-beliefs" target="_blank">
                             Wrong Link -
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Gray B, Vitetta L, Davies WP.</strong>
@@ -189,7 +211,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/24712653">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/24712653" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Marx W, McCarthy AL, Ried K, Vitetta L, McKavanagh D, Thomson D, Sali A, Isenring L.</strong>
                                 Can ginger ameliorate chemotherapy-induced nausea? Protocol of a randomized double
@@ -199,7 +221,7 @@
                     </p>
 
                     <p>
-                        <a href="http://connection.ebscohost.com/c/articles/94849884/antioxidants-abrogate-free-radicals-new-insights-challenge-currently-held-beliefs">
+                        <a href="http://connection.ebscohost.com/c/articles/94849884/antioxidants-abrogate-free-radicals-new-insights-challenge-currently-held-beliefs" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Scholoss, J, Vitetta L.</strong>
                                 Antioxidants to Abrogate Free Radicals. New insights to challenge currently held
@@ -209,7 +231,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/24562527">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/24562527" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Linnane AW.</strong>
                                 Endocellular Regulation of Free Radicals and Hydrogen Peroxide: Key Determinants of
@@ -219,7 +241,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.researchgate.net/publication/262879524_Is_co-prescribing_a_multi-strain_probiotic_the_solution_for_treating_and_preventing_proton_pump_inhibitor_(PPIs)_induced_Clostridium_difficile_associated_diarrhoea_(CDAD)_while_maintaining_evidence_based_pharmacotherapy">
+                        <a href="http://www.researchgate.net/publication/262879524_Is_co-prescribing_a_multi-strain_probiotic_the_solution_for_treating_and_preventing_proton_pump_inhibitor_(PPIs)_induced_Clostridium_difficile_associated_diarrhoea_(CDAD)_while_maintaining_evidence_based_pharmacotherapy" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Bella C, Coulson S, Vitetta L.</strong>
                                 Is co-prescribing a multi-strain probiotic the simple solution for treating and
@@ -242,7 +264,7 @@
                     </p>
 
                     <p>
-                        <a href="http://journal.frontiersin.org/Journal/10.3389/fcimb.2014.00143/abstract">
+                        <a href="http://journal.frontiersin.org/Journal/10.3389/fcimb.2014.00143/abstract" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Hall S, Linnane AW.</strong>
                                 Live Probiotic Cultures and the Gastrointestinal Tract: Symbiotic Preservation of
@@ -262,7 +284,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/24129365">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/24129365" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Gray B, Steyn F, Davies P, Vitetta L.</strong>
                                 Omega-3 fatty acids: A review of the effects on adiponectin and leptin and potential
@@ -273,7 +295,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23647723">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23647723" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Schloss JM,Colosimo M, Airey C, Vitetta L.</strong>
                                 Nutraceuticals and Chemotherapy Induced Peripheral Neuropathy (CIPN): a Systematic
@@ -283,7 +305,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.mdpi.com/2072-6651/5/11/2042">
+                        <a href="http://www.mdpi.com/2072-6651/5/11/2042" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Linnane A, Gobe G.</strong>
                                 From the Gastrointestinal Tract (GIT) to the Kidneys: Live Bacterial Cultures
@@ -294,7 +316,7 @@
                     </p>
 
                     <p>
-                        <a href="http://onlinelibrary.wiley.com/doi/10.1002/ddr.21091/abstract">
+                        <a href="http://onlinelibrary.wiley.com/doi/10.1002/ddr.21091/abstract" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Alford H.</strong>
                                 The Pharmacobiotic Potential of the Gastrointestinal Tract Micro-Biometabolome-Probiotic
@@ -304,7 +326,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23550785">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23550785" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Marx W, Teleni L, McCarthy A, Vitetta L, McKavanagh D, Thomson T, Isenring E.</strong>
                                 Ginger (Zingiber officinale) and chemotherapy-induced nausea and vomiting: a
@@ -314,7 +336,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.aimedjournal.com/article/S2212-9626(13)00016-3/abstract">
+                        <a href="http://www.aimedjournal.com/article/S2212-9626(13)00016-3/abstract" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Palacios T, Coulson S, Butt H, Vitetta L.</strong>
                                 The Gastrointestinal Microbiota and Multi-Strain Probiotic Therapy:  In Children and
@@ -324,7 +346,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.mdpi.com/2076-0817/2/4/606">
+                        <a href="http://www.mdpi.com/2076-0817/2/4/606" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Couslon S, Linnane A, Butt H.</strong>
                                 The Gastrointestinal Microbiome and Musculoskeletal Diseases: A beneficial Role for
@@ -334,7 +356,7 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23450842">
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/23450842" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Gobe G.</strong>
                                 Uremia and Chronic Kidney Disease: The Role of Probiotics / Prebiotics.

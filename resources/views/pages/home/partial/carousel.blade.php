@@ -68,7 +68,7 @@
             <td class="medlab_carousel_bottom_panel_column2">100% Satisfaction</td>
 
             <td class="medlab_carousel_bottom_panel_column3">
-                <a href="#">
+                <a href="/contact">
                     <div class="medlab_carousel_bottom_panel_column3_link">Ask a Question!</div>
                 </a>
             </td>
