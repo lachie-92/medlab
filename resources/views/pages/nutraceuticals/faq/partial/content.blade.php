@@ -46,7 +46,7 @@
                     </p>
 
                     <p>
-                        As EnBiotic<sup>TM</sup> contains live bacteria we recommend it be stored in the refrigerater
+                        As EnBiotic<sup>TM</sup> contains live bacteria we recommend it be stored in the refrigerator
                         to keep the bacteria stable for as long as possible. In saying this, short periods of
                         non-refrigeration (if not exposed to heat) will not harm the product.
                     </p>
@@ -106,7 +106,7 @@
                     </p>
 
                     <p>
-                        As NRGBiotic<sup>TM</sup> contains live bacteria we recommend it be stored in the refrigerater
+                        As NRGBiotic<sup>TM</sup> contains live bacteria we recommend it be stored in the refrigerator
                         to keep the bacteria stable for as long as possible. In saying this, short periods of
                         non-refrigeration (if not exposed to heat) will not harm the product.
                     </p>
