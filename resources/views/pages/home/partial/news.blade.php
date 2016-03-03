@@ -89,15 +89,22 @@
                         MEDLAB WEBINAR
                     </div>
                     <div class="medlab_news_item_body">
+                        <p>
+                            <a href="http://goo.gl/uJHPxi" target="_blank">
+                                <img alt="Medlab HFD NALFD Webinar"
+                                     src="/img/news/Medlab_HFD_NALFD_Webinar.jpg"
+                                     title="Medlab HFD NALFD Webinar"
+                                     width="645px"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
                         <br>
                         <p>
-                            <a href="https://goo.gl/pC2CWE" target="_blank">
                                 <img alt="Medlab Gastrointestinal webinar"
                                      src="/img/news/Medlab_Gastrointestinal_webinar.jpeg"
                                      title="Medlab Gastrointestinal webinar"
                                      width="100%"
                                      class="img-responsive center-block">
-                            </a>
                         </p>
                     </div>
                 </div>
