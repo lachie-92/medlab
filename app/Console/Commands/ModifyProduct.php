@@ -414,6 +414,114 @@ class ModifyProduct extends Command
 
             ],
 
+            [
+                'product_name_index' => "BioticNatal",
+                'practitioner_summary' =>
+                '
+                <p>
+                    It is only within the last decade that a complex microbiome was discovered in the placenta, amniotic fluid and
+                    breast milk, which were once believed to be sterile. Infants were only thought to be exposed to microbes during birth,
+                    i.e. the mother’s vaginal microbiome or that of the hospital staff and surgical environment when delivered via cesarean
+                    section. The evolution of the infant gut microbiome does however begin <em>in utero</em>. Continued evolution of the microbiome
+                    after birth is influenced by numerous factors including diet, medications, toxins, illness and other stressors.<sup>1,2</sup>
+                </p>
+
+                <p>
+                    <strong><em>In Utero Exposure to Bacteria</em></strong>
+                </p>
+
+                <p>
+                    Colonisation of the mucosa of the digestive, respiratory, urogenital tracts and the skin begins before birth.
+                    The placental microbiome has recently been characterised and comprises non-pathogenic commensal microbiota from
+                    the Firmicutes, Tenericutes, Proteobacteria, Bacteroides and Fusobacteria phyla, which do share some
+                    similarities of the oral microbiome.<sup>2,3</sup> During the first week of life, a full term infant is largely
+                    colonised by bacteria from the Actinobacteria, Proteobacteria, Bacteroides and much less by the Firmicutes.
+                    Firmicutes and Tenericutes, however, dominate the gut microbiota of a pre-term infant. It is understood that
+                    the exposure to antenatal sources of commensal bacteria, varies by length of gestation. During the third trimester
+                    of pregnancy the bacterial density in the placenta and also that of the breast milk significantly increases.
+                    Further, at this time the foetus begins to swallow large amounts of amniotic fluid that harbours commensal
+                    bacteria (see Figure 1).<sup>1,2</sup>
+                </p>
+
+                <p>
+                    <img alt="Human Mammary Microbiota" src="/img/products/bioticnatal/bioticnatal_figure1.jpg" class="img-responsive" title="Human Mammary Microbiota"><br>
+                    <strong>Figure 1.</strong> Schematic representation of the acquisition and development of the human mammary microbiota.<sup>1</sup>
+                </p>
+
+                <p>
+                    <strong><em>Breast Milk Microbiome</em></strong>
+                </p>
+
+                <p>
+                    Breast milk not only provides bioactive molecules to the infant, including: immunocompetent cells, immunoglobulins,
+                    fatty acids, oligosaccharides, lactoferrin and antimicrobial peptides, but constitutes one of the main sources of
+                    bacteria to the breast fed infant gut and a baby consuming approximately 800 mL/day of milk would ingest between
+                    1 x10<sup>5</sup> – 1 x 10<sup>7</sup> bacteria per day. The oligosaccharides play a vital role in driving the
+                    diversity of the infant gut microbiota.<sup>1</sup> Potential sources of bacteria present in human colostrum and milk
+                    are proposed to be through the Enteromammary pathway, based on a plausible scientific basis. Dendritic cells (DC) are
+                    able to penetrate the gut epithelium, extending dendrites into the gut lumen and directly sample/collect the bacteria.
+                    Intestinal DCs and macrophages can retain small numbers of live commensal bacteria for several days in the mesenteric
+                    lymph nodes. DCs can then translocate these bacteria to other body sites including the lactating mammary gland.<sup>1,4</sup>
+                    The proposed method of bacterial transfer from the maternal GIT to the mammary gland is shown in Figure 2.
+                </p>
+
+                <p>
+                    <img alt="Enteromammary Pathway" src="/img/products/bioticnatal/bioticnatal_figure2.jpg" class="img-responsive" title="Enteromammary Pathway"><br>
+                    <strong>Figure 2. Enteromammary Pathway: </strong> Dendritic cells in the lamina propria send dendrites into the maternal gut lumen via
+                    tight junctions and trap commensal gut bacteria and transport them back to the lamina propria and from here to mesenteric lymph nodes.
+                    Once inside dendritic cells and/or macrophages, gut bacteria can spread to other locations such as the mammary gland and therefore into
+                    breast milk and possibly the placenta, as there is a circulation of lymphocytes within the mucosal-associated lymphoid system.<sup>4</sup>
+                </p>
+
+                <p>
+                    <em>Staphylococcus</em> and <em>Streptococcus</em> are among the most abundant genera found in breast milk.
+                    Lactic acid bacteria in breast milk generates an anaerobic environment in the neonate gut by consuming oxygen, promoting
+                    <em>Bifidobacterium</em> growth and later for several intestinal strains after weaning. The milk microbiota is
+                    vital for the neonates immune and GIT maturation. Without bacteria this simply does not occur.<sup>4</sup> There are
+                    large differences in neonatal gut colonisation between breastfed and formula fed infants. It has been demonstrated that
+                    term breast fed infants are dominated by <em>Bifidobacteria</em> species but decreased <em>Enterobacteria</em> species,
+                    whereas formula fed infants demonstrate a more diverse array of bacteria including <em>Escherichia coli, Clostridium, Bacteroides, Prevotella
+                    </em> and <em>Lactobacillus</em> species.<sup>2</sup>
+                </p>
+
+                <p>
+                    <strong><em>Maternal Dysbiosis</em></strong>
+                </p>
+
+                <p>
+                    Alterations in the GIT microbiome is reported in numerous conditions such as obesity, type 2 diabetes mellitus, inflammatory bowel conditions,
+                    depression etc. For example overweight pregnant women demonstrate low numbers of <em>Bifidobacterium</em> and <em>Bacteroides</em> species compared
+                    to normal weight pregnant women.<sup>5</sup> It is apparent that the maternal GIT microbiome provides the cue for foetal and neonate colonisation
+                    via the proposed bacterial translocation to breast milk, placenta and amniotic fluid. If the mother therefore has a dysbiotic gut, it will impact
+                    on the type of bacteria available for colonisation of the infant. Research has shown that supplementing women during their pregnancy with probiotics
+                    can lead to those selected species colonisation in the infants gut. Further studies have shown that administering <em>Lactobacillus rhamnosus</em>
+                    to mothers 4 weeks before delivery and 3 weeks after delivery induced specific changes in the transfer and initial establishment of <em>Bifidobacteria</em>
+                    in neonates compared to those that received placebo.<sup>5,6</sup> The administration of probiotics during pregnancy and after birth is supported by
+                    numerous research papers, particularly with <em>L. rhamnosus</em> and various <em>Bifidobacteruim</em> species, however the results are not consistent.
+                    Furthermore, the GIT microbiome in the neonate is responsible for re-establishing a T<sub>H</sub>1 to T<sub>H</sub>2 balance, with a stimulation of
+                    T<sub>H</sub>17 and T<sub>Reg</sub> Cells involved in infant immune maturation.<sup>2</sup>
+                </p>
+
+                <p>
+                    <strong>Clinical Summary:</strong>
+                </p>
+
+                <p>
+                    Who will benefit:
+                </p>
+
+                <p>
+                    <ul>
+                        <li>Pregnant and breast feeding mothers.</li>
+                        <li>Women planning on becoming pregnant.</li>
+                        <li>Women experiencing vaginosis.</li>
+                        <li>Women with gastrointestinal dysbiosis and symptoms of gastrointestinal discomfort.</li>
+                    </ul>
+                </p>
+                ',
+
+            ],
+
         ];
 
         $this->modify_products($modify_array);
