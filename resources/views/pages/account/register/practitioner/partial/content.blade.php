@@ -281,11 +281,6 @@
 
                     </form>
 
-                    <p style="text-align: center">
-                        <br>
-                        <br>
-                        <a class="btn btn-default" href="/account/login">Back to Login</a>
-                    </p>
                 </div>
             </div>
         </div>
