@@ -15,7 +15,36 @@
                         FEATURED PRODUCT
                     </div>
                     <div class="medlab_news_item_body">
-                        <img src="/img/news/activated_b12.png" alt="NanoCelle Activated B12 Featured Product" height="150" width="auto" style="float: right;"/>
+                        <img src="/img/products/sb_5b/sb5b_thumb.png" alt="SB5B Featured product" height="150" width="auto" style="float: right;"/>
+                        <h2 class="medlab_news_content_title">
+                            <a href="/nutraceuticals/products/sb-5b" class="medlab_news_content_link">
+                                New - SB 5B&trade;
+                            </a>
+                        </h2>
+                        <p class="medlab_news_content_paragraph">
+                            Saccharomyces cerevisiae ssp. boulardii (SB) is a beneficial probiotic yeast that helps to maintain gastrointestinal
+                            function and integrity by supporting a healthy gut microbial profile. SB 5B™ assists in supporting healthy immune
+                            function and may help to reduce inflammatory mediators in the gastrointestinal tract.
+                        </p>
+                        <p class="medlab_news_content_paragraph">
+                            <a href="/nutraceuticals/products/sb-5b" class="medlab_news_content_link">More Information</a>
+                        </p>
+                        <img src="/img/products/bioticnatal/bioticnatal_thumb.jpg" alt="BioticNatal Featured Product" height="150" width="auto" style="float: right;"/>
+                        <h2 class="medlab_news_content_title">
+                            <a href="/nutraceuticals/products/bioticnatal" class="medlab_news_content_link">
+                                New - BioticNatal&trade;
+                            </a>
+                        </h2>
+                        <p class="medlab_news_content_paragraph">
+                            BioticNatal™ is intended for both the pregnant and breast feeding mother aiding to support and maintain the integrity
+                            and function of her own GIT, her immune system and to potentially assist in reducing the occurrence of vaginosis,
+                            a condition that is often reported during pregnancy. BioticNatal™ may also support breast milk colonisation of
+                            beneficial bacterial species that can be transferred to the breast fed infant.
+                        </p>
+                        <p class="medlab_news_content_paragraph">
+                            <a href="/nutraceuticals/products/bioticnatal" class="medlab_news_content_link">More Information</a>
+                        </p>
+                        <img src="/img/products/nanocelle_activated_b12/activated_b12_thumb.png" alt="NanoCelle Activated B12 Featured Product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/nanocelle-activated-b12" class="medlab_news_content_link">
                                 New - NanoCelle&trade; Activated B12
@@ -29,35 +58,6 @@
                         </p>
                         <p class="medlab_news_content_paragraph">
                             <a href="/nutraceuticals/products/nanocelle-activated-b12" class="medlab_news_content_link">More Information</a>
-                        </p>
-                        <img src="/img/news/bioclean_epadha_coq10_60s.png" alt="BioClean EPA:DHA + Coenzyme Q10 Featured Product" height="150" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s" class="medlab_news_content_link">
-                                BioClean EPA:DHA + Coenzyme Q10
-                            </a>
-                        </h2>
-                        <p class="medlab_news_content_paragraph">
-                            Scientifically formulated combination of Omega-3 Fatty Acids and Coenzyme Q10 targeted to
-                            support cardiovascular and neurocognitive health. Ubiquinol (CoQ10), has a superior
-                            absorption profile and higher bioavailability than other forms, therefore increasing
-                            therapeutic efficacy.
-                        </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s" class="medlab_news_content_link">More Information</a>
-                        </p>
-                        <img src="/img/news/bioclean_epadha_plant_sterols_60s.png" alt="BioClean EPA:DHA + Plant Sterols Featured Product" height="150" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s" class="medlab_news_content_link">
-                                BioClean EPA:DHA + Plant Sterols
-                            </a>
-                        </h2>
-                        <p class="medlab_news_content_paragraph">
-                            Unique combination of Omega-3 essential Fatty Acids and Plant Sterols targeted to support
-                            healthy cholesterol levels and cardiovascular health. This combination will provide
-                            additional cardiovascular benefits than either nutrient taken alone.
-                        </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s" class="medlab_news_content_link">More Information</a>
                         </p>
                     </div>
                 </div>
