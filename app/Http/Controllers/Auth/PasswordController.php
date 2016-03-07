@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Medlab\Mailer\MedlabMailer;
+use Illuminate\Mail\Message;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 use Auth;
 use Illuminate\Http\Request;
@@ -36,12 +37,32 @@ class PasswordController extends Controller
     }
 
     /**
-     * Reset the given user's password.
+     * override ResetsPasswords;
+     */
+
+    /**
+     * Send a reset link to the given user.
      *
-     * @param  \Illuminate\Http\Request $request
-     * @param MedlabMailer $mail
+     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+    public function postEmail(Request $request)
+    {
+        $this->validate($request, ['email' => 'required|email']);
+
+        $response = Password::sendResetLink($request->only('email'), function (Message $message) {
+            $message->subject($this->getEmailSubject());
+        });
+
+        switch ($response) {
+            case Password::RESET_LINK_SENT:
+                return redirect('/account/login')->with('status', trans($response) . ' Please check the Inbox of the email address you entered.');
+
+            case Password::INVALID_USER:
+                return redirect()->back()->withErrors(['email' => trans($response)]);
+        }
+    }
+
     public function postReset(Request $request, MedlabMailer $mail)
     {
         $this->validate($request, [

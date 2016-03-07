@@ -5,6 +5,13 @@
 ------------------------------------------------------------------------------------->
 
 <div class="container medlab_panel_container">
+    @if (session('status'))
+        <div class="container-fluid">
+            <div class="alert alert-success">
+                {{ session('status') }}
+            </div>
+        </div>
+    @endif
     <div class="row">
         <!--
         -- Login form
