@@ -273,6 +273,10 @@ Route::get('/research/medlab-cell-line', function () {
     return view('pages.research.medlab-cell-line.index');
 });
 
+Route::get('/research/what-is-nanotechnology', function () {
+    return view('pages.research.what-is-nanotechnology.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
