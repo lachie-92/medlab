@@ -97,7 +97,7 @@
 
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
-                    
+
 
                     <h3 class="medlab_footer_top_site_map_box_header">
                         <a class="medlab_footer_top_site_map_box_header_link" href="/education">
@@ -181,7 +181,7 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/about/letter-from-ceo">Letter From THE CEO</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="https://www.inmedtech.co/">InMed Technology</a>
+                            <a class="medlab_footer_top_site_map_box_link" target="_blank" href="http://inmedtech.co/">InMed Technology</a>
                         </li>
                     </ul>
 
@@ -234,13 +234,13 @@
                     <h4 class="medlab_footer_bottom_contact_info_box_header">
                         Follow Us
                     </h4>
-                    <a href="https://www.facebook.com/medlabAUS" class="medlab_footer_bottom_contact_info_box_icon">
+                    <a href="https://www.facebook.com/medlabAUS" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-facebook"></i>
                     </a>
-                    <a href="http://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" class="medlab_footer_bottom_contact_info_box_icon">
+                    <a href="http://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-vimeo-square"></i>
                     </a>
-                    <a href="https://vimeo.com/user30326229" class="medlab_footer_bottom_contact_info_box_icon">
+                    <a href="https://vimeo.com/user30326229" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-linkedin"></i>
                     </a>
                 </div>
