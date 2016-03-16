@@ -183,8 +183,8 @@
                                 <td style=" background-color: #fff; text-align: center; border: none";">Rosuvastatin in water ( 5 mg/mL) and Nanocelled Rosuvastatin ( 10mg /mL)</td>
                             </tr>
                             <tr>
-                                <td style=" background-color: #fff; text-align: center; border: none";"><img class="img-responsive" src="/img/research/Atorvastatin.JPG" style="float: middle; margin: 20px; width: 500px;" title="Atorvastatin"/></td>
-                                <td style=" background-color: #fff; text-align: center; border: none";"><img class="img-responsive" src="/img/research/Rosuvastatin.JPG" style="float:middle; margin: 20px; width: 500px;" title="Rosuvastatin"/></td>
+                                <td style=" background-color: #fff; text-align: center; border: none";"><img class="img-responsive" src="/img/research/Atorvastatin.JPG" style="float: middle;  width: 500px;" title="Atorvastatin"/></td>
+                                <td style=" background-color: #fff; text-align: center; border: none";"><img class="img-responsive" src="/img/research/Rosuvastatin.JPG" style="float:middle;  width: 500px;" title="Rosuvastatin"/></td>
                             </tr>
                         </table>
 
