@@ -29,27 +29,24 @@
                         </li>
                     </ul>
 
-                    <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="/education">
-                            EDUCATION
-                        </a>
-                        <ul class="medlab_footer_top_site_map_box_list">
-                            <li>
-                                <a class="medlab_footer_top_site_map_box_link" href="/education/publications">Publications</a>
-                            </li>
-                        </ul>
-                    </h3>
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="/help">
-                            HELP
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/investor">
+                            INVESTOR
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/help/website-registration">Website Registration</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/investor/corporate-governance">Corporate Governance</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX announcements</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/charttabs.aspx" target="_blank">Share Price</a>
                         </li>
                     </ul>
+
 
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
@@ -74,29 +71,6 @@
                         </li>
                     </ul>
 
-                    <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="/investor">
-                            INVESTOR
-                        </a>
-                    </h3>
-                    <ul class="medlab_footer_top_site_map_box_list">
-                        <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/investor/corporate-governance">Corporate Governance</a>
-                        </li>
-                        <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX announcements</a>
-                        </li>
-                        <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/charttabs.aspx" target="_blank">Share Price</a>
-                        </li>
-                    </ul>
-
-                    <!-- Make the 2nd column's height greater than the 1st column for responsive view -->
-                    <br>
-                    <br>
-
-                </div>
-                <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <h3 class="medlab_footer_top_site_map_box_header">
                         <a class="medlab_footer_top_site_map_box_header_link" href="/policies">
@@ -117,6 +91,25 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/policies/faq">FAQ</a>
                         </li>
                     </ul>
+                    <!-- Make the 2nd column's height greater than the 1st column for responsive view -->
+                    <br>
+                    <br>
+
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    
+
+                    <h3 class="medlab_footer_top_site_map_box_header">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/education">
+                            EDUCATION
+                        </a>
+                        <ul class="medlab_footer_top_site_map_box_list">
+                            <li>
+                                <a class="medlab_footer_top_site_map_box_link" href="/education/publications">Publications</a>
+                            </li>
+                        </ul>
+                    </h3>
+
 
                     <h3 class="medlab_footer_top_site_map_box_header">
                         <a class="medlab_footer_top_site_map_box_header_link" href="/research">
@@ -125,11 +118,21 @@
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/research/why-medlab">Why Medlab</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research">Research</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/medlab-cell-line">Medlab's Cell Lines</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/research/medlab-delivery-platform">Medlab Delivery Platform</a>
                         </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/what-is-nanotechnology">What Is Nanotechnology</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/why-medlab">Why Medlab</a>
+                        </li>
+
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/research/the-medlab-solution">The Medlab Solution</a>
                         </li>
