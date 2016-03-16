@@ -12,21 +12,30 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <p>
-                        <strong>WHAT IS NANOTECHNOLOGY</strong>
+                        <h3><strong>WHAT IS NANOTECHNOLOGY</strong></h3>
                     </p>
                     <p style="text-align: justify;">
                         Nanotechnology describes the science, engineering and technology that is conducted at the nanoscale that deals with particle dimensions of less than 100 nanometres.  This is functional systems at the molecular scale.
                     </p>
                     <br>
                     <p>
-                        <strong>WHY ITS USE IN MEDICINE IS IMPORTANT</strong>
+                    <h3><strong>A COMPREHENSIVE DEFINITION IS:</strong></h3>
+                    </p>
+                    <p style="text-align: justify;">
+                        The design, characterization, production, and application of structures, devices, and systems by controlled manipulation of size and shape at the nanometer scale (atomic, molecular, and macromolecular scale) that produces structures, devices, and systems with at least one novel/superior characteristic or property.
+                    </p>
+                                        <br>
+                    <p>
+                    <h3><strong>WHY ITS USE IN MEDICINE IS IMPORTANT</strong></h3>
                     </p>
                     <p style="text-align: justify;">
                         The application of nanotechnology in medicine offers exciting possibilities from its application to drug delivery...to therapy techniques...to diagnostic techniques...to anti–microbial techniques...to cell repair.
                     </p>
                     <br>
+                    <img class="img-responsive" src="/img/research/nanoparticles.png" title="Nanoparticles"/>
+                    <br>
                     <p>
-                        <strong>MEDLAB'S ROLE and USE OF NANOTECHNOLOGY</strong>
+                    <h3><strong>MEDLAB'S ROLE and USE OF NANOTECHNOLOGY</strong></h3>
                     </p>
                     <p style="text-align: justify;">
                         Research in the nanotechnology space is to further characterise important submicron particle features that may value add to Medlab's patented technology by enhancing the science and hence efficacy of medicinal compounds such as Vitamin D3, Ascorbate, Vitamin B12,and  whole plant extract cannabis.
@@ -38,23 +47,32 @@
                         Notwithstanding, whilst Medlab favours the buccal route, application for NanoCelle'ed API delivery is underway for nasal and topical as well.
                     </p>
                     <br>
-                    <img class="img-responsive" src="/img/research/application_of_nanoparticles.png" title="Application of Nanoparticles"/>
-                    <br>
-                    <img class="img-responsive" src="/img/research/medlab_nanocelle_technology.png" title="Medlab's NanoCelle&trade; Technology"/>
+                    <div class = "row"><img class="img-responsive" src="/img/research/application_of_nanoparticles.png" style="float: left; margin: 20px;" title="Application of Nanoparticles"/>
+                        <h3><strong>Medlab's Nanocelle<sup>TM</sup> Key-Points</strong></h3><br>
+                        <li>Buccal / Nasal administration is preferred route for drug development</li>
+                        <li>< 60% marketed drugs are via oral gastrointestinal administration</li>
+                        <li>Bioavailability of orally administered drugs strongly influenced by their solubility and permeability across the gastrointestinal (GIT) mucosal epithelium</li>
+                        <li>Most orally administered drugs display low systemic availability and diminished efficacy - due to drug formulation, GIT physiology & first pass metabolism</li>
+                        <li>Particle range is 3.8 - 89.31nm validated by US reference lab
+
+                        </li>
+                    </div>
                     <br>
                     <p style="text-align: justify;">
                         While submicron particle suspensions have complex particle size distributions in that the particle size distribution is broad consisting of several distinct particle populations of varying sizes where all are greater than 100 nanometres (e.g. emulsions, liposomes), Medlab's nanocelle patented technology was developed with research on submicron particles spanning more than two decades.
                     </p>
                     <br>
                     <p>
-                        <strong>THE NEED FOR 3RD PARTY VALIDATION</strong>
+                    <h3><strong>THE NEED FOR 3RD PARTY VALIDATION</strong></h3>
                     </p>
                     <p style="text-align: justify;">
                         Who we use and why
                     </p>
                     <br>
                     <p style="text-align: justify;">
-                        <a href="http://www.particletechlabs.com/" target="_blank">Particle Technology Labs, LTD</a>
+                        <h3><a href="http://www.particletechlabs.com/" target="_blank">Particle Technology Labs, LTD</a></h3>
+                        <img class="img-responsive" src="/img/research/ptllogo.png" title="PTL"/>
+
                     </p>
                     <p style="text-align: justify;">
                         PTL is a premier particle technology research and advisory company.  We are a trusted advisor to the world's leading pharmaceutical, industrial, public sector and scientific organizations. We work with, and provide advice to, major organizations across the private, public, and scientific research sectors. PTL is free from all commercial bias.
@@ -108,50 +126,71 @@
                     </p>
                     <br>
                     <p style="text-align: justify;">
-                        Sample report for Medlab's Perindopril Erbumine
+                        <a href="/img/research/atsample.pdf" target="_blank">Sample report for Medlab's Perindopril Erbumine here</a>
                     </p>
-                    <img class="img-responsive" src="/img/research/medlab_perindopril_erbumine_1.png" title="Medlab's Perindopril Erbumine page one"/>
-                    <img class="img-responsive" src="/img/research/medlab_perindopril_erbumine_2.png" title="Medlab's Perindopril Erbumine page two"/>
                     <br>
                     <p style="text-align: justify;">
-                        Sample report for Medlab's Atrovastatin
+                        <a href="/img/research/pesample.pdf" target="_blank">Sample report for Medlab's Atrovastatin here</a>
                     </p>
-                    <img class="img-responsive" src="/img/research/medlab_atorvastatin_1.png" title="Medlab's Atorvastatin page one"/>
-                    <img class="img-responsive" src="/img/research/medlab_atorvastatin_2.png" title="Medlab's Atorvastatin page two"/>
                     <br>
                     <p>
-                        <strong>NANOCELLE</strong>
+                    <h3><strong>NANOCELLE</strong></h3>
                     </p>
                     <p style="text-align: justify;">
-                        Explanation<br>
-                        Administration and route of absorption
+                        <h3><strong>Explanation<br><br></strong></h3>
+                        <img class="img-responsive" src="/img/research/nanocelle7.png" title="Nanoparticles"/><br>
+                        <h3><strong>Administration and route of absorption</strong></h3>
                     </p>
                     <br>
+                    <div class="row">
+                    <p style="text-align: justify;">
+                        <img class="img-responsive" src="/img/research/nanocelle8.png" style="float:left; margin:20px;" title="Administration and route of absorption"/>
+                        <li>40-50 cell layers thick</li>
+                        <li>More permeable to water-soluble drugs than keratinized epithelia i.e. hard palate</li>
+                        <li>Blood flow faster / richer compared to sublingual, gingival and palatal regions</li>
+                        <li>Passive diffusion of Nanocelle<sup>TM</sup> drug molecules facilitated and enhanced</li>
+                                        </p></div>
                     <br>
-                    <img class="img-responsive" src="/img/research/medlab_nanocelle_slide_1.png" title="Medlab's NanoCelle slide one"/>
-                    <img class="img-responsive" src="/img/research/medlab_nanocelle_slide_2.png" title="Medlab's NanoCelle slide two"/>
-                    <br>
+                    <p style="text-align: justify;">
+                    <h3><strong>GIT Barrier to Drug Absorption / Bioavailability</strong></h3>
+
+                    <img class="img-responsive" src="/img/research/nanocelle1.png" title="GIT Barrier to Drug Absorption / Bioavailability"/>
+                    </p>
+                        <br>
                     <p>
-                        <strong>B12 EXAMPLE</strong>
+                    <h3><strong>B12 EXAMPLE</strong></h3>
                     </p>
                     <p style="text-align: justify;">
                         Comparative blood work
                     </p>
                     <br>
-                    <img class="img-responsive" src="/img/research/medlab_nanocelle_slide_3.png" title="Medlab's NanoCelle slide three"/>
+                    <img class="img-responsive" src="/img/research/nanocelle5.png" style="width:600px" title="B12 Comparative blood work"/>
+                    <img class="img-responsive" src="/img/research/nanocelle6.png" style="width:600px" title="B12 Comparative blood work"/>
                     <br>
                     <p>
-                        <strong>ATORVASTATIN PROBLEM</strong>
+                    <h3><strong>STATIN EXAMPLE</strong></h3>
                     </p>
                     <p style="text-align: justify;">
                         14% of tablet is active, side effects - opportunity to improve
                     </p>
                     <br>
-                    <img class="img-responsive" src="/img/research/medlab_nanocelle_slide_4.png" title="Medlab's NanoCelle slide four"/>
-                    <img class="img-responsive" src="/img/research/medlab_nanocelle_slide_5.png" title="Medlab's NanoCelle slide five"/>
+                    <img class="img-responsive" src="/img/research/nanocelle2.png" title="STATIN EXAMPLE"/>
                     <br>
+                    <div class = "row">
+                        <table class="table table-bordered table-responsive" style="border: none">
+                            <tr>
+                                <td style=" background-color: #fff; text-align: center; border: none";">Atorvastatin in water (1.7 mg/mL) and Nanocelled Atorvastatin (1.7 mg/mL)</td>
+                                <td style=" background-color: #fff; text-align: center; border: none";">Rosuvastatin in water ( 5 mg/mL) and Nanocelled Rosuvastatin ( 10mg /mL)</td>
+                            </tr>
+                            <tr>
+                                <td style=" background-color: #fff; text-align: center; border: none";"><img class="img-responsive" src="/img/research/Atorvastatin.JPG" style="float: middle; margin: 20px; width: 500px;" title="Atorvastatin"/></td>
+                                <td style=" background-color: #fff; text-align: center; border: none";"><img class="img-responsive" src="/img/research/Rosuvastatin.JPG" style="float:middle; margin: 20px; width: 500px;" title="Rosuvastatin"/></td>
+                            </tr>
+                        </table>
+
+                    </div>
                     <p>
-                        <strong>CURRENTLY IN DEVELOPMENT</strong>
+                    <h3><strong>CURRENTLY IN DEVELOPMENT</strong></h3>
                     </p>
                     <p style="text-align: justify;">
                         Table of particle sized API's
@@ -168,119 +207,107 @@
                         <tbody>
                             <tr><td></td><td></td><td></td></tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Ampicillin Sodium Salt (2162016AMP)-antibiotics</td>
-                                <td style="background-color: #ffe8f7;">12.85</td>
-                                <td style="background-color: #ffe8f7;">2 mg/mL</td>
+                                <td style=" background-color: #fff">Ampicillin Sodium Salt (2162016AMP)-antibiotics</td>
+                                <td style=" background-color: #fff;">12.85</td>
+                                <td style=" background-color: #fff;">2 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Atorvasatatin (1022015ATO)</td>
-                                <td style="background-color: #ffe8f7;">11.41</td>
-                                <td style="background-color: #ffe8f7;">10 mg/mL</td>
+                                <td style=" background-color: #fff;">Atorvasatatin (1022015ATO)</td>
+                                <td style=" background-color: #fff;">11.41</td>
+                                <td style=" background-color: #fff;">10 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Atorvastatin (1232015ATO)</td>
-                                <td style="background-color: #ffe8f7;"><span style="color: blue">89.31</span></td>
-                                <td style="background-color: #ffe8f7;">0.1 mg/mL</td>
+                                <td style=" background-color: #fff;">Atorvastatin (1232015ATO)</td>
+                                <td style=" background-color: #fff;">89.31</td>
+                                <td style=" background-color: #fff;">0.1 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Atorvastatin-25 (12142015ATO25)</td>
-                                <td style="background-color: #ffe8f7;">14.62</td>
-                                <td style="background-color: #ffe8f7;">1.67 mg/mL</td>
+                                <td style=" background-color: #fff;">Atorvastatin-25 (12142015ATO25)</td>
+                                <td style=" background-color: #fff;">14.62</td>
+                                <td style=" background-color: #fff;">1.67 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Atorvastatin-30 (12142015ATO30)</td>
-                                <td style="background-color: #ffe8f7;">14.37</td>
-                                <td style="background-color: #ffe8f7;">1.67 mg/mL</td>
+                                <td style=" background-color: #fff;">Atorvastatin-30 (12142015ATO30)</td>
+                                <td style=" background-color: #fff;">14.37</td>
+                                <td style=" background-color: #fff;">1.67 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Atorvastation (2162016ATO)</td>
-                                <td style="background-color: #ffe8f7;">12.71</td>
-                                <td style="background-color: #ffe8f7;">10 mg/mL</td>
+                                <td style=" background-color: #fff;">Atorvastation (2162016ATO)</td>
+                                <td style=" background-color: #fff;">12.71</td>
+                                <td style=" background-color: #fff;">10 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Beta-Estradiol (2162016EST)-hormones</td>
-                                <td style="background-color: #ffe8f7;">16.43</td>
-                                <td style="background-color: #ffe8f7;">1 mg/mL</td>
+                                <td style=" background-color: #fff;">Beta-Estradiol (2162016EST)-hormones</td>
+                                <td style=" background-color: #fff;">16.43</td>
+                                <td style=" background-color: #fff;">1 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Insulin  (1022015INS)</td>
-                                <td style="background-color: #ffe8f7;">3.843</td>
-                                <td style="background-color: #ffe8f7;">15 IU/mL</td>
+                                <td style=" background-color: #fff;">Insulin  (1022015INS)</td>
+                                <td style=" background-color: #fff;">3.843</td>
+                                <td style=" background-color: #fff;">15 IU/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Perindopril Erbumine (2162016PER)-ACEi</td>
-                                <td style="background-color: #ffe8f7;">12.7</td>
-                                <td style="background-color: #ffe8f7;">7 mg/mL</td>
+                                <td style=" background-color: #fff;">Perindopril Erbumine (2162016PER)-ACEi</td>
+                                <td style=" background-color: #fff;">12.7</td>
+                                <td style=" background-color: #fff;">7 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Progestogen (2162016PRO)-hormones</td>
-                                <td style="background-color: #ffe8f7;">15.48</td>
-                                <td style="background-color: #ffe8f7;">2 mg/mL</td>
+                                <td style=" background-color: #fff;">Progestogen (2162016PRO)-hormones</td>
+                                <td style=" background-color: #fff;">15.48</td>
+                                <td style=" background-color: #fff;">2 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Rosuvastatin (1022015ROS)-statin</td>
-                                <td style="background-color: #ffe8f7;">12.19</td>
-                                <td style="background-color: #ffe8f7;">2 mg/mL</td>
+                                <td style=" background-color: #fff;">Rosuvastatin (1022015ROS)-statin</td>
+                                <td style=" background-color: #fff;">12.19</td>
+                                <td style=" background-color: #fff;">2 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Sertraline Hydrochloride (2162016SER)-SSRI</td>
-                                <td style="background-color: #ffe8f7;">15.21</td>
-                                <td style="background-color: #ffe8f7;">0.5 mg/mL</td>
+                                <td style=" background-color: #fff;">Sertraline Hydrochloride (2162016SER)-SSRI</td>
+                                <td style=" background-color: #fff;">15.21</td>
+                                <td style=" background-color: #fff;">0.5 mg/mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #ffe8f7;">Testosterone Propionate (1232015TES)-hormones</td>
-                                <td style="background-color: #ffe8f7;">14.31</td>
-                                <td style="background-color: #ffe8f7;">15 mg/mL</td>
-                            </tr>
-                            <tr>
-                                <td></td><td></td><td></td>
+                                <td style=" background-color: #fff;">Testosterone Propionate (1232015TES)-hormones</td>
+                                <td style=" background-color: #fff;">14.31</td>
+                                <td style=" background-color: #fff;">15 mg/mL</td>
                             </tr>
                             <tr>
                                 <td></td><td></td><td></td>
                             </tr>
                             <tr>
-                                <td style="background-color: #c3fdff;">CoQ10 (2182016CoQ10)</td>
-                                <td style="background-color: #c3fdff;">32.3</td>
-                                <td style="background-color: #c3fdff;">30mg/0.3mL</td>
-                            </tr>
-                            <tr>
-                                <td style="background-color: #c3fdff;">D3</td>
-                                <td style="background-color: #c3fdff;"></td>
-                                <td style="background-color: #c3fdff;"></td>
-                            </tr>
-                            <tr>
-                                <td style="background-color: #c3fdff;">D3 & K2 (2182016D3K2)</td>
-                                <td style="background-color: #c3fdff;">28</td>
-                                <td style="background-color: #c3fdff;">1000 IU+ 45 mg/0.3 mL</td>
-                            </tr>
-                            <tr>
-                                <td style="background-color: #c3fdff;">Melatonin (2182016MEL)</td>
-                                <td style="background-color: #c3fdff;">23</td>
-                                <td style="background-color: #c3fdff;">2.5 mg/0.3 mL</td>
-                            </tr>
-                            <tr>
-                                <td style="background-color: #c3fdff;">Cyanocobalamin B12</td>
-                                <td style="background-color: #c3fdff;"></td>
-                                <td style="background-color: #c3fdff;"></td>
-                            </tr>
-                            <tr>
-                                <td style="background-color: #c3fdff;">Methlycobalamin B12  (2182016B12)</td>
-                                <td style="background-color: #c3fdff;">18.9</td>
-                                <td style="background-color: #c3fdff;"></td>
-                            </tr>
-                            <tr>
                                 <td></td><td></td><td></td>
                             </tr>
                             <tr>
-                                <td style="background-color: #c3fdff;">Methlycobalamin B12  (2182016B12)</td>
-                                <td></td>
-                                <td>2500IU/0.3mL</td>
+                                <td style="background-color: #fff;">CoQ10 (2182016CoQ10)</td>
+                                <td style="background-color: #fff;">32.3</td>
+                                <td style="background-color: #fff;">30mg/0.3mL</td>
                             </tr>
                             <tr>
-                                <td style="background-color: #c3fdff;">Methlycobalamin B12  (2182016B12)</td>
-                                <td></td>
-                                <td>1000IU/0.3mL</td>
+                                <td style="background-color: #fff;">D3</td>
+                                <td style="background-color: #fff;">31.01</td>
+                                <td style="background-color: #fff;"></td>
                             </tr>
+                            <tr>
+                                <td style="background-color: #fff;">D3 & K2 (2182016D3K2)</td>
+                                <td style="background-color: #fff;">28</td>
+                                <td style="background-color: #fff;">1000 IU+ 45 mg/0.3 mL</td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: #fff;">Melatonin (2182016MEL)</td>
+                                <td style="background-color: #fff;">23</td>
+                                <td style="background-color: #fff;">2.5 mg/0.3 mL</td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: #fff;">Cyanocobalamin B12</td>
+                                <td style="background-color: #fff;">24.8</td>
+                                <td style="background-color: #fff;"></td>
+                            </tr>
+                            <tr>
+                                <td style="background-color: #fff;">Methlycobalamin B12  (2182016B12)</td>
+                                <td style="background-color: #fff;">18.9</td>
+                                <td style="background-color: #fff;"></td>
+                            </tr>
+
                         </tbody>
                     </table>
                 </div>
