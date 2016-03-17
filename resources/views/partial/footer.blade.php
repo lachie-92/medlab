@@ -127,9 +127,6 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/research/medlab-delivery-platform">Medlab Delivery Platform</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/research/what-is-nanotechnology">What Is Nanotechnology</a>
-                        </li>
-                        <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/research/why-medlab">Why Medlab</a>
                         </li>
 

@@ -258,7 +258,7 @@ Route::get('/research/the-medlab-solution', function () {
 });
 
 Route::get('/research/medlab-delivery-platform', function () {
-    return view('pages.research.medlab-delivery-platform.index');
+    return view('pages.research.what-is-nanotechnology.index');
 });
 
 Route::get('/research/patents', function () {
@@ -273,9 +273,8 @@ Route::get('/research/medlab-cell-line', function () {
     return view('pages.research.medlab-cell-line.index');
 });
 
-Route::get('/research/what-is-nanotechnology', function () {
-    return view('pages.research.what-is-nanotechnology.index');
-});
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////

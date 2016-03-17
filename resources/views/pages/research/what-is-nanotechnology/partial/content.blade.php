@@ -8,7 +8,7 @@
         <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    What is Nanotechnology?
+                    Medlab Delivery Platform
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <p>
