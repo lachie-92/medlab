@@ -11,7 +11,7 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    MEDLAB'S CELL LINES
+                    MEDLAB'S PROBIOTIC GENERA
                 </div>
                 <div class="panel-body medlab_panel_content">
 

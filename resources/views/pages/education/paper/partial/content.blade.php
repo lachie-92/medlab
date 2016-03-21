@@ -77,16 +77,6 @@
                     </p>
 
                     <p>
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/26703884" target="_blank">
-                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
-                                <strong>Vitetta L, Hall S, Coulson S. </strong>
-                                Metabolic Interactions in the Gastrointestinal Tract (GIT): Host, Commensal, Probiotics, and Bacteriophage Influences.
-                                <em>Microorganisms</em> 2015;3(4):913-932.
-                            </span>
-                        </a>
-                    </p>
-
-                    <p>
                         <a href="http://www.mdpi.com/2076-2607/3/4/913" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Hall S, Coulson S. </strong>
@@ -198,11 +188,9 @@
                     </p>
 
                     <p>
-                        <!-- missing link -->
-                        <a href="http://connection.ebscohost.com/c/articles/94849884/antioxidants-abrogate-free-radicals-new-insights-challenge-currently-held-beliefs" target="_blank">
-                            Wrong Link -
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=Liver+function+parameters%2C+cholesterol%2C+and+phospholipid+%26alpha%3B-linoleic+acid+are" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
-                                <strong>Gray B, Vitetta L, Davies WP.</strong>
+                                <strong>Gray B, Steym F, Davies WP, Vitetta L.</strong>
                                 Liver function parameters, cholesterol, and phospholipid &alpha;-linoleic acid are
                                 associated with adipokine levels in overweight and obese adults.
                                 <em>Nutrition Research</em> 2014; 345: 375-382.

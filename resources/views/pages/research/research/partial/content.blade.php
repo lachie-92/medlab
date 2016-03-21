@@ -214,11 +214,7 @@
                         The aim of the following clinical trials is to investigate and demonstrate that a novel,
                         patent-protected delivery system is superior to standard delivery systems for nutraceutical
                         therapies currently on the market e.g. capsules, liquids and powders. Bioavailability of
-                        nutraceutical compounds can be reduced and/or tightly regulated.
-                    </p>
-
-                    <p>
-                        when administered orally due to gastrointestinal physiology, dysfunction and inflammation and
+                        nutraceutical compounds can be reduced and/or tightly regulated when administered orally due to gastrointestinal physiology, dysfunction and inflammation and
                         also from gastrointestinal bacterial metabolism of the compounds. There is a need to improve the
                         delivery mechanism of nutraceutical compounds to achieve optimal bioavailability and therapeutic
                         efficacy. Medlab research staff, in collaboration with InMed researchers have developed a novel
@@ -250,7 +246,7 @@
                         </li>
                         <li>
                             <strong>Ascorbic acid</strong>
-                            - Plasma levels of ascorbic acid are tightly regulated do not increase with higher oral doses of the vitamin with the mean bioavailability of oral
+                            - Plasma levels of ascorbic acid are tightly regulated and do not increase with higher oral doses of the vitamin with the mean bioavailability of oral
                             ascorbic acid decreasing with increasing doses. Medlab is developing a novel delivery system for ascorbic acid to overcome the oral threshold
                             to progress clinical research in the assessment of elevated plasma ascorbic acid levels as an adjunct cancer therapy.
                         </li>
@@ -259,7 +255,7 @@
                     <br>
                     <br>
 
-                    <p style="padding-left: 30px;">LAST UPDATED: 1/10/2014</p>
+                    <p style="padding-left: 30px;">LAST UPDATED: 21/3/2016</p>
 
                 </div>
             </div>
