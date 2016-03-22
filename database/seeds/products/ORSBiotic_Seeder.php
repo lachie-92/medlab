@@ -93,7 +93,7 @@ class ORSBiotic_Seeder extends Seeder
                     bicarbonate due to its stability.<sup>4</sup>
                 </p>
                 <p>
-                    <img alt="missing picture" src="">
+                    <img class="img-responsive" alt="Figure 1" src="/img/products/orsbiotic/ors_pic_1.png">
                 </p>
                 <p>
                     <strong>Figure 1. Coupled transport of sodium and glucose in intestinal epithelial cells.</strong>

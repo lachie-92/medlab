@@ -51,455 +51,448 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
-                'product_name_index' => '12Mg Optima Relax',
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Spanish.pdf">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Italian.pdf" target="_blank">Traduzione italiana</a>
-                    </p>
-                    ',
-
-            ],
-            [
-                'product_name_index' => 'BioClean EPA:DHA + CoQ10 120s',
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Italian.pdf" target="_blank">Traduzione italiana</a>
-                    </p>
-                    ',
-
-            ],
-            [
-                'product_name_index' => 'BioClean EPA:DHA + CoQ10 60s',
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Italian.pdf" target="_blank">Traduzione italiana</a>
-                    </p>
-                    ',
-
-            ],
-            [
-                'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 120s',
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Italian.pdf" target="_blank">Traduzione italiana</a>
-                    </p>
-                    ',
-
-            ],
-            [
-                'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 60s',
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Italian.pdf" target="_blank">Traduzione italiana</a>
-                    </p>
-                    ',
-
-            ],
-            [
-                'product_name_index' => 'NanoCelle Activated B12',
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Italian.pdf" target="_blank">Traduzione italiana</a>
-                    </p>
-                    ',
-
-            ],
-            [
-                'product_name_index' => 'Biotic Jnr.',
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/TraditionalChinese.pdf" target="_blank">中文翻譯</a>
-                    </p>
-                    ',
-
-            ],
-            [
-                'product_name_index' => "Enbiotic 120's",
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    ',
-
-            ],
-            [
-                'product_name_index' => "Enbiotic 60's",
-                'cmi' =>
-                    '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    ',
-
-            ],
-
-            [
-                'product_name_index' => "BioticNatal",
+                'product_name_index' => "ORSBiotic",
                 'practitioner_summary' =>
-                '
+                    '
                 <p>
-                    It is only within the last decade that a complex microbiome was discovered in the placenta, amniotic fluid and
-                    breast milk, which were once believed to be sterile. Infants were only thought to be exposed to microbes during birth,
-                    i.e. the mother’s vaginal microbiome or that of the hospital staff and surgical environment when delivered via cesarean
-                    section. The evolution of the infant gut microbiome does however begin <em>in utero</em>. Continued evolution of the microbiome
-                    after birth is influenced by numerous factors including diet, medications, toxins, illness and other stressors.<sup>1,2</sup>
+                    The concept of an Oral Rehydration Solution (ORS) began in the late 1960’s when it was found that
+                    the sodium-coupled glucose transporter remains largely intact and continues to stimulate resorption
+                    of salts and water in patients infected with Vibrio cholera infection.<sup>1</sup> Clinical studies
+                    of ORS use in cholera patients confirmed that ORS therapy was effective in reducing mortality in
+                    children and adults with acute diarrhoeal disease. Shortly following this evidence, the
+                    World Health Organisation (WHO) was driving a major campaign to implement ORS worldwide.<sup>2</sup>
+                    The osmolarity, which is based on glucose and electrolyte concentrations in the solution,
+                    is imperative to the therapeutic success of an ORS. The original standard formula proposed by
+                    WHO in 1975 was 311 mmol/L but was amended in 2002 to 245 mmol/L. The reduced osmolarity formula
+                    in children demonstrated improved net water absorption, less vomiting, less stool output, shorter
+                    duration of illness and less need for intravenous fluids.<sup>1</sup>
+                </p>
+                <p>
+                    <strong>Electrolyte Composition</strong>
+                </p>
+                <p>
+                    The composition of an ORS includes glucose, sodium, potassium, chloride and citrate, all of which
+                    play an imperative role. Further considerations when treating dehydration associated in particular
+                    with diarrhoea include zinc and selected probiotic species that offer a unique therapeutic role
+                    in such situations. Glucose and sodium are vital to an ORS formulation. In patients with diarrhoea,
+                    the nutrient-independent sodium absorption across the brush border membrane of intestinal
+                    epithelial cells is impaired; however the coupled transport of sodium and glucose is preserved,
+                    allowing absorption of salt and passive absorption of water provided by the ORS (see Figure 1).
+                    Furthermore, glucose administration maintains blood glucose levels and sodium stimulates drinking,
+                    renal absorption and maintains extracellular fluid volume.<sup>1</sup>
+                </p>
+                <p>
+                    Potassium is a major cation in intracellular fluid and the balance of potassium in the
+                    extracellular versus intracellular space has important effects on neural transmission, muscle
+                    contraction and vascular tone. Chloride is the major anion lost in sweat and when combined with
+                    sodium and glucose, it stimulates maximal water and sodium absorption across the jejunum.<sup>3</sup>
+                    Citrate is used to correct metabolic acidosis due to watery diarrhoea and is used instead of
+                    bicarbonate due to its stability.<sup>4</sup>
+                </p>
+                <p>
+                    <img class="img-responsive" alt="Figure 1" src="/img/products/orsbiotic/ors_pic_1.png">
+                </p>
+                <p>
+                    <strong>Figure 1. Coupled transport of sodium and glucose in intestinal epithelial cells.</strong>
+                </p>
+                <p>
+                    <strong>Zinc</strong>
+                </p>
+                <p>
+                    In 2004 WHO recommended for zinc to be added to ORS in children under the age of 5 years due to
+                    it reducing duration and severity of diarrhoea, having a greater effect in malnourished children.
+                    The mechanism of zinc for the treatment of diarrhoea is not completely understood but the role
+                    of zinc may be due to regulation of intestinal fluid transport and mucosal integrity, modulation
+                    of expression of genes encoding important zinc-dependent enzymes like cytokines that play a role
+                    in immune modulation.<sup>5</sup> Zinc supplementation in children provides a 26% reduction in
+                    the estimated relative risk of diarrhoea lasting beyond three days and is particularly indicated
+                    for low- and middle-income countries/communities.<sup>6</sup>
+                </p>
+                <p>
+                    <strong>Probiotic Bacteria</strong>
+                </p>
+                <p>
+                    There is extensive evidence for the use of specific probiotic bacterial species for the treatment
+                    of various triggers of diarrhoea. Two recent Cochrane reviews provide undisputed evidence for
+                    their use in such situations. The use of probiotics in acute infectious diarrhoea was analysed
+                    from 63 trials that included 8014 patients. The authors concluded that probiotics reduced the
+                    duration of diarrhoea by approx. 25 hours and reduced stool frequency by one to two days.<sup>7</sup>
+                    Further, another systematic review assessed 23 trials including 4213 patients and concluded that
+                    when patients were given probiotics concomitantly, it reduced the risk of developing Clostridium
+                    difficile-associated diarrhoea (CDAD) by 64% and also reduced the symptoms of CDAD such as
+                    abdominal cramping, nausea, fever, soft stool, flatulence and taste disturbance.<sup>8</sup> From
+                    these reviews, Saccharomyces boulardii and Lactobacillus gasseri particularly stood out has
+                    having therapeutic efficacy for treating diarrhoea.
+                </p>
+                <p>
+                    In addition to the immune modulating activity of Saccharomyces boulardii i.e. sIgA stimulation,
+                    it has also demonstrated in rat models to increase the expression of the sodium glucose
+                    cotransporter SGLT-1 which is of great importance in acute and chronic diarrhoeas as this
+                    is the transporter responsible for moving sodium, glucose, other electrolytes (from ORS)
+                    and water from the gastrointestinal lumen into the blood stream, assisting with the prevention
+                    of dehydration.<sup>9</sup> Lactobacillus gasseri provides therapeutic action for diarrhoea in that it
+                    demonstrates immunomodulating activity via stimulation of host sIgA and cytokines that are
+                    directed towards to pathogens and also secretes anti-microbial and anti-viral metabolites that
+                    competitively exclude pathogens that may prove beneficial in cases of infectious diarrhoea.<sup>10</sup>
+                    Lactobacillus plantarum also secretes anti-microbial and anti-viral metabolites and has
+                    demonstrated anti-microbial activity against Group B Streptococcus. L. plantarum may have a
+                    preventative effect on milder gastrointestinal symptoms during treatment with antibiotics such
+                    as loose watery stools and nausea.<sup>11,12</sup> Bifidobacterium breve may also provide therapeutic activity
+                    when treating diarrhoea due to its ability to protect against pathogens due to its cell surface
+                    exopolysaccharides and its immunomodulating activity (cytokine and antibody stimulation) that
+                    has proven effective ex vivo from breast fed infants against enteropathogenic bacteria such as
+                    selected strains from Salmonella, Shigella and Escherichia coli.<sup>13,14</sup>
+                </p>
+                <p>
+                    In conclusion, the addition of zinc and selected probiotic bacteria to an approved ORS osmolarity
+                    formulation as outlined by the WHO; provides a scientifically valid treatment option for patients
+                    diagnosed with acute or chronic diarrhoea due to antibiotic use, Clostridium difficile infection,
+                    other infectious pathogens, bowel disorders, allergies and intolerances to foods and medications
+                    such as NSAIDs, chemotherapy and radiation. Furthermore, ORSBiotic&trade; would be effective in
+                    preventing dehydration while exercising and potentially the development of gut permeability
+                    that is seen with athletes training in hot and humid conditions.<sup>15</sup>
                 </p>
 
                 <p>
-                    <strong><em>In Utero Exposure to Bacteria</em></strong>
+                    <strong>Clinical Summary:</strong>
                 </p>
 
                 <p>
-                    Colonisation of the mucosa of the digestive, respiratory, urogenital tracts and the skin begins before birth.
-                    The placental microbiome has recently been characterised and comprises non-pathogenic commensal microbiota from
-                    the Firmicutes, Tenericutes, Proteobacteria, Bacteroides and Fusobacteria phyla, which do share some
-                    similarities of the oral microbiome.<sup>2,3</sup> During the first week of life, a full term infant is largely
-                    colonised by bacteria from the Actinobacteria, Proteobacteria, Bacteroides and much less by the Firmicutes.
-                    Firmicutes and Tenericutes, however, dominate the gut microbiota of a pre-term infant. It is understood that
-                    the exposure to antenatal sources of commensal bacteria, varies by length of gestation. During the third trimester
-                    of pregnancy the bacterial density in the placenta and also that of the breast milk significantly increases.
-                    Further, at this time the foetus begins to swallow large amounts of amniotic fluid that harbours commensal
-                    bacteria (see Figure 1).<sup>1,2</sup>
+                    <ul>
+                        <li>Replace water and electrolytes lost due to vomiting, diarrhoea, heavy sweating, fever, vigorous exercise and other dehydrating conditions<sup>1</sup></li>
+                        <li>Supplementary zinc benefits children with diarrhoea <sup>8</sup></li>
+                        <li>The co-transport of glucose with sodium accelerates water  absorption<sup>9</sup></li>
+                        <li>Selected probiotic species maintain healthy gastrointestinal  homeostasis and permeability<sup>10</sup></li>
+                    </ul>
                 </p>
 
                 <p>
-                    <img alt="Human Mammary Microbiota" src="/img/products/bioticnatal/bioticnatal_figure1.jpg" class="img-responsive" title="Human Mammary Microbiota"><br>
-                    <strong>Figure 1.</strong> Schematic representation of the acquisition and development of the human mammary microbiota.<sup>1</sup>
+                    <strong>Who will benefit:</strong>
                 </p>
 
                 <p>
-                    <strong><em>Breast Milk Microbiome</em></strong>
+                    <ul>
+                        <li>Those requiring rehydration due to vomiting and diarrhoea</li>
+                        <li>Those requiring rehydration after vigorous exercise and heavy  sweating</li>
+                    </ul>
+                </p>
+                ',
+
+            ],
+
+            [
+                'product_name_index' => "NanoCelle B12",
+                'practitioner_summary' =>
+                    '
+                <p>
+                    Oral cyanocobalamin supplementation exists in the free unbound state and is absorbed across the
+                    gastrointestinal mucosa by passive diffusion, but only to the extent of approximately 1% over a
+                    dosage range of 100 μg to 5 mg. Dietary B12 however, is protein bound and requires pepsin and
+                    stomach acid for its release and subsequent binding to intrinsic factor for absorption across the
+                    enterocytes.<sup>1</sup> Nanotechnology offers a form of oral drug delivery that enhances the absorptive
+                    process and allows the release of the chosen drug/nutrient in a controlled manner. The
+                    micellization of drugs and nutrients produces nano-sized particles consisting of an inner
+                    hydrophobic core (drug/nutrient combined with lipid carrier or is itself fat-soluble) with a
+                    hydrophilic outer shell (various surfactants) that interacts with the mucosal cells (Figure 1).
+                    NanoCelle&trade; B12 consists of cyanocobalamin combined with d-alpha tocopherol (vitamin E) to form
+                    the hydrophobic core coated with hydrophilic compounds obtaining a particle size approximately
+                    50 - 200 nm (0.05 – 0.2 micron) that is soluble in aqueous solution. The uptake of the micelle
+                    particles across the mucosal membrane and the extent of drug/nutrient absorption increases with
+                    decreasing particle size.<sup>2,3</sup>
                 </p>
 
                 <p>
-                    Breast milk not only provides bioactive molecules to the infant, including: immunocompetent cells, immunoglobulins,
-                    fatty acids, oligosaccharides, lactoferrin and antimicrobial peptides, but constitutes one of the main sources of
-                    bacteria to the breast fed infant gut and a baby consuming approximately 800 mL/day of milk would ingest between
-                    1 x10<sup>5</sup> – 1 x 10<sup>7</sup> bacteria per day. The oligosaccharides play a vital role in driving the
-                    diversity of the infant gut microbiota.<sup>1</sup> Potential sources of bacteria present in human colostrum and milk
-                    are proposed to be through the Enteromammary pathway, based on a plausible scientific basis. Dendritic cells (DC) are
-                    able to penetrate the gut epithelium, extending dendrites into the gut lumen and directly sample/collect the bacteria.
-                    Intestinal DCs and macrophages can retain small numbers of live commensal bacteria for several days in the mesenteric
-                    lymph nodes. DCs can then translocate these bacteria to other body sites including the lactating mammary gland.<sup>1,4</sup>
-                    The proposed method of bacterial transfer from the maternal GIT to the mammary gland is shown in Figure 2.
+                    <img class="img-responsive" alt="Figure 1" src="/img/products/b12/B12figure1.png"><br>
+                    <strong>Figure 1. Formation of drug/nutrient-loaded micelle.<sup>2</sup></strong>
                 </p>
 
                 <p>
-                    <img alt="Enteromammary Pathway" src="/img/products/bioticnatal/bioticnatal_figure2.jpg" class="img-responsive" title="Enteromammary Pathway"><br>
-                    <strong>Figure 2. Enteromammary Pathway: </strong> Dendritic cells in the lamina propria send dendrites into the maternal gut lumen via
-                    tight junctions and trap commensal gut bacteria and transport them back to the lamina propria and from here to mesenteric lymph nodes.
-                    Once inside dendritic cells and/or macrophages, gut bacteria can spread to other locations such as the mammary gland and therefore into
-                    breast milk and possibly the placenta, as there is a circulation of lymphocytes within the mucosal-associated lymphoid system.<sup>4</sup>
+                    <strong>NanoCelle&trade; B12: Hydrophobic polymer = d-alpha tocopherol; drug molecule = cyanocobalamin</strong>
                 </p>
 
                 <p>
-                    <em>Staphylococcus</em> and <em>Streptococcus</em> are among the most abundant genera found in breast milk.
-                    Lactic acid bacteria in breast milk generates an anaerobic environment in the neonate gut by consuming oxygen, promoting
-                    <em>Bifidobacterium</em> growth and later for several intestinal strains after weaning. The milk microbiota is
-                    vital for the neonates immune and GIT maturation. Without bacteria this simply does not occur.<sup>4</sup> There are
-                    large differences in neonatal gut colonisation between breastfed and formula fed infants. It has been demonstrated that
-                    term breast fed infants are dominated by <em>Bifidobacteria</em> species but decreased <em>Enterobacteria</em> species,
-                    whereas formula fed infants demonstrate a more diverse array of bacteria including <em>Escherichia coli, Clostridium, Bacteroides, Prevotella
-                    </em> and <em>Lactobacillus</em> species.<sup>2</sup>
+                    Vitamin B12 (Cobalamin) is an organometallic compound that contains cobalt in its chemical
+                    structure. Cyanocobalamin and hydroxycobalamin are relatively inert forms of B12 and must be
+                    metabolised to the biologically active forms as methylcobalamin and adenosylcobalamin within the
+                    cell cytosol and mitochondria respectively, which function as coenzymes for numerous biological
+                    pathways.<sup>4,5,6</sup> It is the R-group attached to the cobalt element that chemically differentiates the
+                    various forms of B12.<sup>4</sup>
                 </p>
 
                 <p>
-                    <strong><em>Maternal Dysbiosis</em></strong>
+                    Cobalamin is involved in one-carbon transfer pathways in the form of methylcobalamin, which
+                    transfers methyl groups to homocysteine, converting it to methionine and is catalyzed by the
+                    methionine synthase enzyme (Figure 2). In addition to lowering serum homocysteine levels, the
+                    methionine produced is essential for protein synthesis and the synthesis of myelin that forms the
+                    insulating myelin sheath surrounding the axons of neurons. Myelin, and therefore B12, is essential
+                    for nerve transmission and proper functioning of the nervous system.<sup>4</sup> A deficiency of B12 may lead
+                    to the inhibition of methionine synthase activity causing methyltetrahhydrofolate (CH3-THF) to
+                    accumulate resulting in state of functional folate deficiency.<sup>6</sup>
                 </p>
 
                 <p>
-                    Alterations in the GIT microbiome is reported in numerous conditions such as obesity, type 2 diabetes mellitus, inflammatory bowel conditions,
-                    depression etc. For example overweight pregnant women demonstrate low numbers of <em>Bifidobacterium</em> and <em>Bacteroides</em> species compared
-                    to normal weight pregnant women.<sup>5</sup> It is apparent that the maternal GIT microbiome provides the cue for foetal and neonate colonisation
-                    via the proposed bacterial translocation to breast milk, placenta and amniotic fluid. If the mother therefore has a dysbiotic gut, it will impact
-                    on the type of bacteria available for colonisation of the infant. Research has shown that supplementing women during their pregnancy with probiotics
-                    can lead to those selected species colonisation in the infants gut. Further studies have shown that administering <em>Lactobacillus rhamnosus</em>
-                    to mothers 4 weeks before delivery and 3 weeks after delivery induced specific changes in the transfer and initial establishment of <em>Bifidobacteria</em>
-                    in neonates compared to those that received placebo.<sup>5,6</sup> The administration of probiotics during pregnancy and after birth is supported by
-                    numerous research papers, particularly with <em>L. rhamnosus</em> and various <em>Bifidobacteruim</em> species, however the results are not consistent.
-                    Furthermore, the GIT microbiome in the neonate is responsible for re-establishing a T<sub>H</sub>1 to T<sub>H</sub>2 balance, with a stimulation of
-                    T<sub>H</sub>17 and T<sub>Reg</sub> Cells involved in infant immune maturation.<sup>2</sup>
+                    <img class="img-responsive" alt="Figure 2" src="/img/products/b12/B12figure2.png"><br>
+                    <strong>Figure 2. Cobalamin as a methyl carrier.<sup>6</sup></strong>
+                </p>
+
+                <p>
+                    <strong>SAM – S-adenyslmethionine; CH3-THF – methyltetrahydrofolate; THF- tetrahydrofolate</strong>
+                </p>
+
+                <p>
+                    Theactivation of folate by B12 is essential for DNA synthesis which is impacted by B12 deficiency.<sup>4</sup>
+                    Adenosylcobalamin is essential for the synthesis of succinyl-CoA within the mitochondria from amino
+                    acids and fatty acids, which then enters the tricarboxylic acid (TCA) cycle for energy (ATP)
+                    production in cells.<sup>6</sup>
+                </p>
+
+                <p>
+                    B12 is synthesized solely by bacteria or microorganisms, with gastrointestinal commensals such as
+                    Lactobacillus, Streptococcus and Bacteroides species known to produce and release B12 within the
+                    gut lumen, however not in sufficient amounts to maintain adequate serum levels.<sup>4</sup> Dietary B12
+                    deficiency is prevalent in both developing and Western countries, particularly the elderly,
+                    vegetarians, vegans and people with malabsorption issues causing functional deficiency (i.e.
+                    low stomach acid, inadequate synthesis of intrinsic factor, coeliac disease and inflammatory
+                    bowel disease).
+                </p>
+
+                <p>
+                    <strong>Clinical Summary:</strong>
+                </p>
+
+                <p>
+                    NanoCelle&trade; B12 is a nano-particle formulation that may:
+                </p>
+
+                <p>
+                    <ul>
+                        <li>Assist in the management of dietary vitamin B12 deficiency.<sup>1, 2</sup></li>
+                        <li>Enhance bioavailability through the nano-technology process.</li>
+                        <li>Aid in the synthesis of DNA.<sup>3</sup></li>
+                        <li>Support the methylation cycle and balance homocysteine levels.<sup>4, 6</sup></li>
+                        <li>Assist in the conversion of homocysteine to methionine.<sup>4, 5</sup></li>
+                        <li>Support healthy nerve function through the synthesis of myelin.<sup>3</sup></li>
+                        <li>Promote the mitochondrial energy production cycle.<sup>4, 6</sup></li>
+                        <li>Support the production of healthy red blo</li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>Specific Use:</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>Healthy myelin and nerve function.<sup>3</sup></li>
+                        <li>An essential cofactor required for the methylation of homocysteine to methionine.<sup>4,5</sup></li>
+                        <li>
+                            Vitamin B12 is a cofactor involved the methylation cycle that involves protein and DNA
+                            methylation and synthesis of nucleotides (purines and pyrimidine’s).<sup>7</sup>
+                        </li>
+                    </ul>
+                </p>
+                ',
+
+            ],
+
+            [
+                'product_name_index' => 'NanoCelle D3',
+                'practitioner_summary' =>
+                    '
+                <p>
+                    In addition to its well-known classical effects in calcium/phosphate homeostasis, vitamin D is a
+                    potent regulator of many other vital physiological functions in the body beyond that of bone
+                    health such as immune regulation.<sup>1</sup> Vitamin D3 (cholecalciferol) is naturally synthesised in the
+                    skin and may contribute to 80-90% of the vitamin D supply within the body but this is ultimately
+                    dependent on factors such as sun exposure, geographic latitude, season, clothing habits,
+                    sunscreen use and skin complexion. Dietary sources of vitamin D3 are limited but include fatty
+                    fish, fish liver oil, beef liver, egg yolk and milk.<sup>1,2</sup> Cholecalciferol is biologically inert and
+                    must undergo two hydroxylation reactions, first within the liver to produce 25-hydroxyvitamin
+                    D [25(OH)D] also known as calcidiol, and then in the kidney to produce the active hormonal
+                    metabolite 1,25-dihydroxyvitamin D [1,25(OH)2D] also know as calcitriol.<sup>3,4</sup> Further,
+                    25(OH)D can be converted to 1,25(OH)2D in at least 10 extra-renal tissues including
+                    immune cells (macrophages, dendritic cells and B-lymphocytes) and also vascular smooth muscle
+                    cells and colonocytes.<sup>1</sup>
+                </p>
+
+                <p>
+                    As a lipid-soluble compound, orally ingested cholecalciferol (D3) is naturally emulsified into
+                    lipid droplets and combined with bile salts, phospholipids and cholesterol to form micelles that
+                    enable absorption across in the intestinal mucosa. A fraction of D3 enters enterocytes via passive
+                    diffusion when delivered at pharmacological doses, but the main intracellular transport of D3
+                    into the enterocyte is via binding the micelle to apical membrane transporters. Intestinal
+                    absorption of vitamin D3 varies between 55-99% (mean 78%) in healthy individuals<sup>2</sup> but is
+                    decreased in individuals with conditions of malabsorption such as cystic fibrosis, inflammatory
+                    bowel disease, coeliac disease, biliary obstruction, pancreatic dysfunction and intestinal
+                    resection.<sup>5,6</sup> Furthermore, disruption in the conversion of vitamin D metabolites to the active
+                    hormone will also impact vitamin D status within the body such as in chronic kidney disease.<sup>7</sup>
+                </p>
+
+                <p>
+                    The micellization process of drugs and nutrients prior to ingestion produces nano-sized particles
+                    consisting of an inner hydrophobic core (drug/nutrient combined with lipid carrier or is itself
+                    lipid-soluble) with a hydrophilic outer shell (various surfactants) creating a water-soluble
+                    solution that interacts with the mucosal cells. Figure 1 demonstrates an example of micellizing
+                    the fat-soluble compound, beta-carotene.
+                </p>
+
+                <p>
+                    <img class="img-responsive" alt="Figure 1" src="/img/products/d3/D3figure1.png"><br>
+                    <strong>
+                        Figure 1. (a) Micellized beta-carotene (a fat-soluble carotene) is completely soluble in water;
+                        (b) non-micellized beta-carotene is not water soluble and sits on the water surface.
+                    </strong>
+                </p>
+
+                <p>
+                    NanoCelle&trade; D3 consists of cholecalciferol forming the hydrophobic core coated with
+                    hydrophilic compounds to obtain a particle size approximately 50 - 200 nm (0.05 – 0.2 micron)
+                    that is soluble in aqueous solution (Figure 2). The uptake of the micelle particles across the
+                    mucosal membrane and the extent of drug/nutrient absorption increases with decreasing particle
+                    size.<sup>8,9</sup> Drug delivery via the oral mucosa by-passes the gastrointestinal tract
+                    and any conditions that may influence or inhibit its absorption across the intestinal mucosa.
+                </p>
+
+                <p>
+                    <img class="img-responsive" alt="Figure 2" src="/img/products/d3/D3figure2.png"><br>
+                    <strong>Figure 2. Formation of drug/nutrient-loaded micelle.<sup>7</sup></strong>
+                </p>
+
+                <p>
+                    <strong>NanoCelle&trade; D3: Hydrophobic polymer/drug molecule = cholecalciferol</strong>
+                </p>
+
+                <p>
+                    The secosteroid hormone 1,25(OH)2D is the biologically active form of vitamin D3 and initiates
+                    physiological responses of more than 36 cell types that possess the vitamin D receptor (VDR)
+                    on their cell membrane or in the cytosol, by regulating gene transcription and activating signal
+                    transduction pathways similar to other steroid hormones.Cholecalciferol itself does not bind to
+                    the VDR. It is estimated that the VDR can regulate the expression of 3% of the human
+                    genome.<sup>10</sup> It is well established that 1,25(OH)2D plays a vital role in adaptive
+                    and innate immune regulation from inducing the differentiation of monocytes into macrophages;
+                    increasing macrophage activity and cytotoxic activity; inducing the synthesis of the antibacterial
+                    proteins cathelicidin and beta-defensin; inducing IFN-gamma-mediated antimicrobial activity and
+                    regulating Th1, Th2, Treg and Th17 responses (Figure 3).<sup>11</sup>
+                </p>
+
+                <p>
+                    <img class="img-responsive" alt="Figure 3" src="/img/products/d3/D3figure3.png"><br>
+                    <strong>Figure 3. Vitamin D and innate and adaptive immune function.<sup>11</sup></strong>
+                </p>
+
+                <p>
+                    <strong>CYP27b1: 25-hydroxyvitamin D-1 alpha hydroxylase (converts 25(OH)D to 1,25(OH)2D); VDR: vitamin D receptor</strong>
+                </p>
+
+                <p>
+                    <strong>Clinical Summary:</strong>
+                </p>
+
+                <p>
+                    NanoCelle&trade; D3 is a nano-particle formulation that may:
+                </p>
+
+                <p>
+                    <ul>
+                        <li>Assist in the management of medically confirmed vitamin D deficiency.<sup>1, 2</sup></li>
+                        <li>Enhance bioavailability through the nano-technology process.</li>
+                        <li>Aid in dietary calcium absorption and metabolism.<sup>3</sup></li>
+                        <li>Support proper cellular and immunological function.<sup>4</sup></li>
+                        <li>Increase serum vitamin D levels and bone mass density in vitamin D deficient individuals.<sup>5</sup></li>
+                        <li>Activate the transcription and transrepression of genes.<sup>6,7</sup></li>
+                        <li>Activate the synthesis of the antimicrobial peptides cathelicidin and beta-defensin synthesis from immune cells.<sup>7</sup></li>
+                        <li>Support proper innate and adaptive immune system function.<sup>7,8</sup></li>
+                        <li>Help to promote a healthy respiratory function.<sup>9</sup></li>
+                        <li>Reduce inflammatory responses and conditions within the body.<sup>4</sup></li>
+                        <li>Assist in healthy musculoskeletal health.<sup>5</sup></li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>Specific Use:</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>Vitamin D3 is essential proper cellular and immune (innate and adaptive) regulation via activation of the VDR.</li>
+                        <li>Supplementation may be required by individuals with malabsorption conditions.</li>
+                        <li>Vitamin D3 is essential for maintenance of bone mineralisation through the regulation of calcium and phosphorus homeostasis.</li>
+                    </ul>
+                </p>
+                ',
+
+            ],
+
+            [
+                'product_name_index' => "NanoCelle Activated B12",
+                'practitioner_summary' =>
+                    '
+                <p>
+                    Vitamin B12 is one of the most complex vitamins in regards to its absorption and transport within the
+                    body and depends critically on a very tightly regulated transport system. Vitamin B12 is continually
+                    partnered with binding proteins throughout the digestive tract and blood stream and then requires a binder
+                    specific cellular receptor for intracellular transport. Intrinsic factor (IF), which is released from the
+                    stomach and is required to mediate transport of B12 into enterocytes in the ileum, is saturable, the
+                    rate at which varies inversely with the amount of B12 ingested. The IF-mediated transport rarely allows
+                    more than 1 to 2 &micro;g of B12 to be absorbed at any one time, therefore high doses quickly exceed the absorptive
+                    capacity of the body, with unabsorbed B12 being excreted in the faeces. Nonspecific and linear non-saturable
+                    diffusion does occur, in which a receptor is not required, however this fraction is extremely small and
+                    estimated to be approximately 1%.<sup>1</sup>
+                </p>
+
+                <p>
+                    <strong>NanoCelle&trade; Delivery of Vitamin B12</strong>
+                </p>
+
+                <p>
+                    A novel way to bypass the limited absorptive capacity of vitamin B12 in the gastrointestinal tract (GIT) is to
+                    utilize the rich blood supply of the buccal mucosa. The buccal mucosa is non-keratinized and is therefore more permeable
+                    to water-soluble particles than keratinized epithelium such as the hard palate. The buccal mucosa is 40-50 cell layers
+                    thick, and compared to intestinal cells, may also have less tight junctions but a higher level of lipid intercellular matrix.<sup>1</sup>
+                    Once the NanoCelle&trade; molecule diffuses through the mucus layer and aqueous boundary layer on the surface of the epithelium,
+                    it may then transverse across the epithelium via passive diffusion (See Figure 1).<sup>2</sup> There are no B12 receptors on
+                    oral epithelium cells i.e. such as the cubam receptor on ileum enterocytes that facilitate the entry of IF-bound cobalamin
+                    into the enterocytes for transport into the blood stream.
+                </p>
+
+                <p>
+                    <img class="img-responsive" alt="Oro-Buccal Nutrient Delievery" src="/img/products/nanocelle_activated_b12/act_b12_figure1.png"><br>
+                    <strong>Figure 1. Formation of drug/nutrient-loaded micelle.<sup>2</sup></strong>
+                </p>
+
+                <p>
+                    <strong>Function of Methylcobalamin</strong>
+                </p>
+
+                <p>
+                    Vitamin B12 (Cobalamin &ndash; Cbl) exists in two active forms, methylcobalamin (MeCbl) and adenosylcobalamin (AdoCbl)
+                    that participate in specific physiological processes in the cell. MeCbl is a cofactor for the cytosolic
+                    methionine synthase enzyme and AdoCbl is the cofactor for the mitochondrial methylmalonyl-CoA mutase.
+                    In the cytosol, MeCbl is involved in transferring its methyl group to homocysteine to form methionine,
+                    which is part of the S-adenosyl methionine cycle. Elevated serum homocysteine levels are associated with
+                    increased risk of heart attack, stroke, blood clots and cognitive impairment.<sup>4, 5</sup> AdoCbl is
+                    a key component of the tricarboxylic acid (TCA) pathway of carbohydrate metabolism, catalyzing the isomerization
+                    of methylmalonyl-CoA to succinyl-CoA resulting in ATP generation in cells (see Figure 2).<sup>6, 7</sup>
+                    Methionine is required for the synthesis of myelin, therefore MeCbl is required for healthy nerve function.
+                    Further, while AdoCbl and CNCbl can increase DNA-methylation by methyltransferase, MeCbl is the most efficient
+                    compound.<sup>6</sup>
+                </p>
+
+                <p>
+                    <img class="img-responsive" alt="Methylcobalamin Cylcles" src="/img/products/nanocelle_activated_b12/act_b12_figure2.jpg"><br>
+                    <strong>Figure 2. Methylcobalamin acts in the cytoplasm where it is involved in the Methionine cycle and
+                    Adenosylcobalamin in the mitochondria where it is involved in the Krebs cycle.<sup>7</sup></strong>
+
+                </p>
+
+                <p>
+                    Both hydroxy- (HOCbl) and cyanocobalamin (CNCbl) are able to convert to both the methyl- and adenosylcobalamin forms.
+                    It has been shown that this conversion can occur just after supplementation in the blood stream. There are some rare
+                    genetic conditions in which cyanocobalamin cannot be converted to the active forms.<sup>6, 7</sup> Both hydroxy-
+                    (HOCbl) and cyanocobalamin (CNCbl) are able to convert to both the methyl- and adenosylcobalamin forms.
+                    It has been shown that this conversion can occur just after supplementation in the blood stream.
+                    There are some rare genetic conditions in which cyanocobalamin cannot be converted to the active forms.<sup>6, 7</sup>
+                    All forms of Cbl appear to be absorbed and efficient in treating vitamin B12 deficiency.
                 </p>
 
                 <p>
@@ -512,15 +505,16 @@ class ModifyProduct extends Command
 
                 <p>
                     <ul>
-                        <li>Pregnant and breast feeding mothers.</li>
-                        <li>Women planning on becoming pregnant.</li>
-                        <li>Women experiencing vaginosis.</li>
-                        <li>Women with gastrointestinal dysbiosis and symptoms of gastrointestinal discomfort.</li>
+                        <li>Those needing to target their homocysteine levels.</li>
+                        <li>Those with dietary vitamin B12 deficiency.</li>
+                        <li>Vegans, vegetarians and the elderly.</li>
+                        <li>Those taking certain medications such as proton pump inhibitors and metformin.</li>
+                        <li>Those with achlorhydria, gastritis and those who have undergone gastrectomy.</li>
+                        <li>Those who cannot convert cobalamin to methylcobalamin.</li>
                     </ul>
                 </p>
                 ',
-
-            ],
+            ]
 
         ];
 

@@ -68,7 +68,7 @@ class NanoCelle_B12_Seeder extends Seeder
                 </p>
 
                 <p>
-                    <img alt="missing picture" src="/missing"><br>
+                    <img class="img-responsive" alt="Figure 1" src="/img/products/b12/B12figure1.png"><br>
                     <strong>Figure 1. Formation of drug/nutrient-loaded micelle.<sup>2</sup></strong>
                 </p>
 
@@ -97,7 +97,7 @@ class NanoCelle_B12_Seeder extends Seeder
                 </p>
 
                 <p>
-                    <img alt="missing picture" src="/missing"><br>
+                    <img class="img-responsive" alt="Figure 2" src="/img/products/b12/B12figure2.png"><br>
                     <strong>Figure 2. Cobalamin as a methyl carrier.<sup>6</sup></strong>
                 </p>
 

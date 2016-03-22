@@ -475,36 +475,40 @@ class Biotic_Jnr_Seeder extends Seeder
                 ',
             'cmi' =>
                 '
-                <p>
+                    <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/English.pdf">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/English.pdf" target="_blank">
                         Click Here For English CMI
                     </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Arabic.pdf">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Russian.pdf">Перевод на русском языке</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Spanish.pdf">Traducción en español</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Japanese.pdf">日本語翻訳</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/French.pdf">Traduction en français</a>
-                </p>
-                <p>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Spanish.pdf" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/French.pdf" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Chinese.pdf" target="_blank">中文翻译</a>
+                    </p>
+                    <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Chinese.pdf">中文翻译，中文翻譯</a>
-                </p>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/TraditionalChinese.pdf" target="_blank">中文翻譯</a>
+                    </p>
                 ',
             'free_from' =>
                 '

@@ -94,7 +94,7 @@ class NanoCelle_D3_Seeder extends Seeder
                 </p>
 
                 <p>
-                    <img alt="missing picture" src="/missing"><br>
+                    <img class="img-responsive" alt="Figure 1" src="/img/products/d3/D3figure1.png"><br>
                     <strong>
                         Figure 1. (a) Micellized beta-carotene (a fat-soluble carotene) is completely soluble in water;
                         (b) non-micellized beta-carotene is not water soluble and sits on the water surface.
@@ -111,7 +111,7 @@ class NanoCelle_D3_Seeder extends Seeder
                 </p>
 
                 <p>
-                    <img alt="missing picture" src="/missing"><br>
+                    <img class="img-responsive" alt="Figure 2" src="/img/products/d3/D3figure2.png"><br>
                     <strong>Figure 2. Formation of drug/nutrient-loaded micelle.<sup>7</sup></strong>
                 </p>
 
@@ -133,7 +133,7 @@ class NanoCelle_D3_Seeder extends Seeder
                 </p>
 
                 <p>
-                    <img alt="missing picture" src="/missing"><br>
+                    <img class="img-responsive" alt="Figure 3" src="/img/products/d3/D3figure3.png"><br>
                     <strong>Figure 3. Vitamin D and innate and adaptive immune function.<sup>11</sup></strong>
                 </p>
 
