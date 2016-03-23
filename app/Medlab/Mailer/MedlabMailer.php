@@ -130,7 +130,7 @@ class MedlabMailer
     public function sendRegistrationReceivedNoticeToAdmin($registration)
     {
         $from = $this->AdminEmailAddress;
-        $to = $this->AdminEmailAddress;
+        $to = "sales@medlab.co";
 
         $this->mail->queue('emails.new_registration_received', compact('registration'), function($message) use ($registration, $from, $to) {
 
