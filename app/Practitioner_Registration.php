@@ -15,7 +15,7 @@ class Practitioner_Registration extends Model
         'title', 'email', 'first_name',
         'last_name', 'password', 'clinic_name',
         'business_type', 'abn', 'association_number',
-        'association_type', 'street', 'suburb',
+        'primary_profession', 'association_type', 'street', 'suburb',
         'state', 'country', 'postcode',
         'telephone', 'mobile_phone', 'business_number'
     ];

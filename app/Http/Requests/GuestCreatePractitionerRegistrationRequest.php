@@ -33,6 +33,7 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'clinic_name' => 'required:max:50',
             'business_type' => 'required|validBusinessType',
             'business_number' => 'required|numeric',
+            'primary_profession' => 'required|max:50',
             'association_number' => array('required','regex:/^[0-9]+$/', 'max:20'),
             'association_type' => 'required|max:50',
             'street_address_one' => 'required|max:50',

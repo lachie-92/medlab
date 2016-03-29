@@ -89,6 +89,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'clinic_name' => $request->clinic_name,
             'business_type' => $request->business_type,
             'business_number' => $request->business_number,
+            'primary_profession' => $request->primary_profession,
             'association_number' => $request->association_number,
             'association_type' => $request->association_type,
             'street' => $request->street_address_one,

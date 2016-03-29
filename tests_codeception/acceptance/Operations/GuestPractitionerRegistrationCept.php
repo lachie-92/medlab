@@ -13,6 +13,7 @@ $I->fillField('password_confirmation', 'testtest');
 $I->fillField('clinic_name', 'company one');
 $I->selectOption('business_type', 'Company');
 $I->fillField('business_number', '213441');
+$I->fillField('primary_profession', 'Doctor');
 $I->fillField('association_number', '21412341');
 $I->fillField('association_type', 'Australia Medical');
 
@@ -36,6 +37,7 @@ $I->seeInDatabase('practitioner_registrations', array(
     'clinic_name' => 'company one',
     'business_type' => 'company',
     'business_number' => '213441',
+    'primary_profession'  => 'Doctor',
     'association_number' => '21412341',
     'association_type' => 'Australia Medical',
     'street' => 'street',

@@ -26,6 +26,7 @@ class CreatePractitionerRegistrationsTable extends Migration
             $table->string('business_number');
             $table->string('association_number');
             $table->string('association_type');
+            $table->string('primary_profession');
             $table->integer('company_id')->nullable();
 
             $table->string('street');
