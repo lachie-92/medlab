@@ -196,6 +196,15 @@
                         <li>(FAO/WHO). Health and Nutritional Properties of Probiotics in Food including Powder Milk with Live Lactic Acid Bacteria. 2001.</li>
                         <li>Vitetta L, Manuel R, Zhou JY, Linnane AW, Hall S, Coulson S. The overarching influence of the gut microbiome on end-organ function: the role of live probiotic cultures. <em>Pharmaceuticals (Basel, Switzerland).</em> 2014;7(9):954-89.</li>
                     </ol>
+                    <hr>
+                    <p style="text-align: justify;">
+                        <strong>Disclaimer</strong><br><br>
+                        <em>
+                            The information provided in this Efficacy article is for educational and informational purposes only.
+                            The information provided on this site is not, nor is it intended to be, a substitute for professional advice or care.
+                            Please seek the advice of a qualified health care professional in the event something you have read here raises questions or concerns regarding your health.
+                        </em>
+                    </p>
                 </div>
             </div>
         </div>

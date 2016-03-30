@@ -337,6 +337,10 @@ Route::get('/efficacy/optimising-skeletal-muscle-function', function () {
     return view('pages.efficacy.optimising-skeletal-muscle-function.index');
 });
 
+Route::get('/efficacy/obesity-intestinal-inflammation-and-probiotics', function () {
+    return view('pages.efficacy.obesity-intestinal-inflammation-and-probiotics.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Contact pages
