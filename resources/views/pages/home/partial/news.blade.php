@@ -36,10 +36,11 @@
                             </a>
                         </h2>
                         <p class="medlab_news_content_paragraph">
-                            BioticNatal™ is intended for both the pregnant and breast feeding mother aiding to support and maintain the integrity
-                            and function of her own GIT, her immune system and to potentially assist in reducing the occurrence of vaginosis,
-                            a condition that is often reported during pregnancy. BioticNatal™ may also support breast milk colonisation of
-                            beneficial bacterial species that can be transferred to the breast fed infant.
+                            BioticNatal™ is intended for both the pregnant and breast feeding mother aiding to support
+                            and maintain the integrity and function of her own GIT and her immune system. BioticNatal™
+                            may also support breast milk colonisation of beneficial bacterial species that can be
+                            transferred to the breast fed infant.
+
                         </p>
                         <p class="medlab_news_content_paragraph">
                             <a href="/nutraceuticals/products/bioticnatal" class="medlab_news_content_link">More Information</a>
