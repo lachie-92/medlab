@@ -301,8 +301,7 @@ class Product_BioticNatal_and_SB extends Command
                 <h4 class="medlab_product_content_title">BioticNatal&trade;</h4>
                 <p>
                     BioticNatal&trade; is intended for both the pregnant and breast feeding mother aiding to support and maintain
-                    the integrity and function of her own GIT, her immune system and to potentially assist in reducing the
-                    occurrence of vaginosis, a condition that is often reported during pregnancy. BioticNatal&trade; may also
+                    the integrity and function of her own GIT and her immune system. BioticNatal&trade; may also
                     support breast milk colonisation of beneficial bacterial species that can be transferred to the breast fed infant.
                 </p>
                 ',
@@ -318,8 +317,7 @@ class Product_BioticNatal_and_SB extends Command
                     BioticNatal&trade; is formulated according to current scientific evidence that demonstrates the vital
                     role of the gastrointestinal (GIT) microbiome on the health and development of newborn infants. BioticNatal&trade;
                     is intended for both the pregnant and breast feeding mother aiding to support and maintain the integrity and function
-                    of her own GIT, her immune system and to potentially provide assistance in reducing the occurrence of vaginosis, a
-                    condition that is often reported during pregnancy. BioticNatal™ may also be indicated to provide support for breast
+                    of her own GIT and her immune system. BioticNatal™ may also be indicated to provide support for breast
                     milk colonisation of beneficial bacterial species that can be transferred to the breast fed infant. Lactoferrin is
                     a naturally occurring milk protein found in breast milk, providing antibacterial, antiviral and antiparasitic activity,
                     protecting both the mother and the infant.
