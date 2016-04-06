@@ -2,10 +2,9 @@
 
 namespace App\Console\Commands;
 
-use App\Product;
-use Carbon\Carbon;
 use Illuminate\Console\Command;
-use App\Xero_Contact;
+use App\Order;
+use App\Medlab\Mailer\MedlabMailer;
 
 class QuickFix extends Command
 {
@@ -38,10 +37,10 @@ class QuickFix extends Command
      *
      * @return mixed
      */
-    public function handle()
+    public function handle(MedlabMailer $mail)
     {
-        $multi_120 = Product::findOrFail(4);
-
-        $multi_120->delete();
+        $order = Order::findOrFail(1016);
+        $mail->sendOrderReceivedNoticeToAdmin($order);
+        //$mail->sendOrderReceivedNoticeToClient($order);
     }
 }
