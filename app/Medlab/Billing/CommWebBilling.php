@@ -2,9 +2,12 @@
 
 namespace App\Medlab\Billing;
 
+use App;
 use App\Order;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Config;
+use Monolog\Handler\StreamHandler;
+use Monolog\Logger;
 
 class CommWebBilling implements BillingInterface
 {
@@ -175,9 +178,14 @@ class CommWebBilling implements BillingInterface
         }
 
         if ( (!$this->testingMode) && (($order->grand_total * 100) != $vpc_Amount) ) {
-            $error = 'The Amount in the Receipt does not match the Amount in the Order';
-            $errorMessages[] = $this->processError($order, $error);
-            return $errorMessages;
+            //
+            // Disabled for monitoring - check storage/log/ReceiptAmountMismatch.log
+            // Match the MerchTxnRef on CommWeb to verify
+            //
+            //$error = 'The Amount in the Receipt does not match the Amount in the Order';
+            //$errorMessages[] = $this->processError($order, $error);
+            //return $errorMessages;
+            $this->logReceiptAmountMismatch($order, $vpc_MerchTxnRef, $vpc_Amount, $request->all());
         }
 
         if ($vpc_TxnResponseCode != '0') {
@@ -187,6 +195,25 @@ class CommWebBilling implements BillingInterface
         }
 
         return $errorMessages;
+    }
+
+    private function logReceiptAmountMismatch($order, $vpc_MerchTxnRef, $vpc_Amount, $receipt)
+    {
+        $log = new Logger('CommWebReceipt');
+        $log->pushHandler(new StreamHandler(storage_path("/logs/ReceiptAmountMismatch.log")));
+
+        $errorMessages = [
+            'The Amount in the Receipt does not match the Amount in the Order',
+            'MerchRef: ' . $vpc_MerchTxnRef .
+            ' Order Amount: ' . $order->grand_total * 100  .
+            ' Receipt Amount: ' . $vpc_Amount
+        ];
+
+        $errorMessages = array_merge($errorMessages, $receipt);
+        $log->addInfo('', $errorMessages);
+
+        $mail = App::make('App\Medlab\Mailer\MedlabMailer');
+        $mail->sendCommWebReceiptErrorToAdmin($errorMessages);
     }
 
     private function processError($order, $errorMessage)
