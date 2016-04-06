@@ -16,7 +16,7 @@ class Kernel extends ConsoleKernel
         \App\Console\Commands\Inspire::class,
         \App\Console\Commands\OrderCleanUp::class,
         \App\Console\Commands\RegistrationCleanUp::class,
-        
+
 
     ];
 
