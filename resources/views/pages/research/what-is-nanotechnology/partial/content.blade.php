@@ -19,7 +19,7 @@
                     </p>
                     <br>
                     <p>
-                    <h3><strong>A COMPREHENSIVE DEFINITION IS:</strong></h3>
+                    <h3><strong>A COMPREHENSIVE DEFINITION IS</strong></h3>
                     </p>
                     <p style="text-align: justify;">
                         The design, characterization, production, and application of structures, devices, and systems by controlled manipulation of size and shape at the nanometer scale (atomic, molecular, and macromolecular scale) that produces structures, devices, and systems with at least one novel/superior characteristic or property.
@@ -31,9 +31,13 @@
                     <p style="text-align: justify;">
                         The application of nanotechnology in medicine offers exciting possibilities from its application to drug delivery...to therapy techniques...to diagnostic techniques...to anti–microbial techniques...to cell repair.
                     </p>
+                    <p> Utilising small particle size technology such as nanoparticles can further enhance the medical delivery and hence efficacy of pharmaceutical, nutraceutical and herbal medicines such as cannabis.</p>
                     <br>
                     <img class="img-responsive" src="/img/research/nanoparticles.png" title="Nanoparticles"/>
                     <br>
+                    <p>
+                        <strong>Source: Adapted and modified from CA CANCER J CLIN 2013;63:395–418</strong>
+                    </p>
                     <p>
                     <h3><strong>MEDLAB'S ROLE and USE OF NANOTECHNOLOGY</strong></h3>
                     </p>
@@ -59,7 +63,8 @@
                     </div>
                     <br>
                     <p style="text-align: justify;">
-                        While submicron particle suspensions have complex particle size distributions in that the particle size distribution is broad consisting of several distinct particle populations of varying sizes where all are greater than 100 nanometres (e.g. emulsions, liposomes), Medlab's nanocelle patented technology was developed with research on submicron particles spanning more than two decades.
+                        While submicron particle suspensions have complex particle size distributions in that the particle size distribution is broad consisting of several distinct particle populations of varying sizes where most have greater than 100 nanometres particle sizes (e.g., emulsions, liposomes), Medlab's nanocelle patented technology was developed with research on submicron particles spanning more than two decades.
+                        Demonstrating critical sub micron particle size characteristics well below 100 nanometres.
                     </p>
                     <br>
                     <p>
@@ -137,7 +142,7 @@
                     <h3><strong>NANOCELLE</strong></h3>
                     </p>
                     <p style="text-align: justify;">
-                        <h3><strong>Explanation<br><br></strong></h3>
+                        <h3>Please see below an example of Medlab's nanotechnology.<br><br></></h3>
                         <img class="img-responsive" src="/img/research/nanocelle7.png" title="Nanoparticles"/><br>
                         <h3><strong>Administration and route of absorption</strong></h3>
                     </p>
