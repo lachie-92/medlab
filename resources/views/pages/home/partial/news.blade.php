@@ -120,6 +120,22 @@
                     </div>
                     <div class="medlab_news_item_body">
                         <h2 class="medlab_news_content_title">
+                            <a href="https://issuu.com/aiglobalmedia/docs/biotech_awards_2016_supplement/1" target="_blank" class="medlab_news_content_link">
+                                Congratulations to the Medlab team! Best early-phase chronic disease drug discovery company. Click the link to review the article, featured on pages 16 and 17.</br>
+                            </a>
+                        </h2>
+                        <br>
+                        <p>
+                            <a href="https://issuu.com/aiglobalmedia/docs/biotech_awards_2016_supplement/1" target="_blank">
+                                <img alt="Best Early-Phase Chronic Disease Drug Discovery Company Award"
+                                     src="/img/news/awardlogo.jpg"
+                                     title="Best Early-Phase Chronic Disease Drug Discovery Company Award"
+                                     width="50%"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                        <br>
+                        <h2 class="medlab_news_content_title">
                             <a href="https://nutritionmedicine.org.au" target="_blank" class="medlab_news_content_link">
                                 Dr Samantha Coulson will be contributing to the scientific program.
                             </a>
