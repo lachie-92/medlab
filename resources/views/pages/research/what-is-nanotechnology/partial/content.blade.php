@@ -143,7 +143,7 @@
                     </p>
                     <p style="text-align: justify;">
                         <h3>Please see below an example of Medlab's nanotechnology.<br><br></></h3>
-                        <img class="img-responsive" src="/img/research/nanocelle7.png" title="Nanoparticles"/><br>
+                        <img class="img-responsive" width="700" src="/img/research/nanocelle7.png" title="Nanoparticles"/><br>
                         <h3><strong>Administration and route of absorption</strong></h3>
                     </p>
                     <br>
