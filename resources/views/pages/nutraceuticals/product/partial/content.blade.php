@@ -242,18 +242,20 @@
             <!--
             --  CMI
             -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        CMI
-                    </div>
-                    <div class="panel-body medlab_panel_content">
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="panel panel-primary medlab_panel">
+                        <div class="panel-heading medlab_panel_title">
+                            CMI
+                        </div>
+                        <div class="panel-body medlab_panel_content">
 
-                        {!! $product->cmi !!}
+                            {!! $product->cmi !!}
 
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endif
 
             <!--
             --  Free from
