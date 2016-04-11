@@ -185,7 +185,7 @@ class MedlabMailer
     public function sendOrderReceivedNoticeToAdmin($order)
     {
         $from = $this->AdminEmailAddress;
-        $to = $this->AdminEmailAddress;
+        $to = 'sales@medlab.co';
 
         $data = array();
         $data['order'] = serialize($order);
