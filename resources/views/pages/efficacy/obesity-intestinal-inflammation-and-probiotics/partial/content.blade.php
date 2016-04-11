@@ -75,7 +75,7 @@
                     <br>
                     <img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" alt="Picture: liver fatty hepatosis" src="/img/efficacy/obesity-intestinal-inflammation-and-probiotics/liver-fatty-hepatosis.png" title="Picture: liver fatty hepatosis">
                     <br>
-                    <p style="text-align: center"><strong>Picture: Liver fatty hepatosis of a human, photomicrograph panorama as seen under the microscope, 100x zoom.</strong></p>
+                    <p style="text-align: center"><strong>Histology of the liver (Magnification by x100) demonstrating non alcoholic fatty liver disease.</strong></p>
                     <br>
                     <h4><strong>Probiotics and NAFLD</strong></h4>
                     <p style="text-align: justify;">
