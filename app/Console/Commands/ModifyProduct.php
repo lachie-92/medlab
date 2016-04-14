@@ -51,29 +51,228 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
-                'product_name_index' => "BioticNatal",
-                'short_description' =>
+                'product_name_index' => "12Mg Optima Relax",
+                'dosage_information' =>
                     '
-                        <h4 class="medlab_product_content_title">BioticNatal&trade;</h4>
-                        <p>
-                            BioticNatal&trade; is intended for both the pregnant and breast feeding mother aiding to support and maintain
-                            the integrity and function of her own GIT and her immune system. BioticNatal&trade; may also
-                            support breast milk colonisation of beneficial bacterial species that can be transferred to the breast fed infant.
-                        </p>
-                    ',
-                'general_summary' =>
-                    '
-                        <p>
-                            BioticNatal&trade; is formulated according to current scientific evidence that demonstrates the vital
-                            role of the gastrointestinal (GIT) microbiome on the health and development of newborn infants. BioticNatal&trade;
-                            is intended for both the pregnant and breast feeding mother aiding to support and maintain the integrity and function
-                            of her own GIT and her immune system. BioticNatal™ may also be indicated to provide support for breast
-                            milk colonisation of beneficial bacterial species that can be transferred to the breast fed infant. Lactoferrin is
-                            a naturally occurring milk protein found in breast milk, providing antibacterial, antiviral and antiparasitic activity,
-                            protecting both the mother and the infant.
-                        </p>
-                    ',
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
 
+                    <p>
+                        Add 5g(1 scoop) to 100-200mL of cold water or juice, one(1) to two(2) times per day, or as directed by your
+                        healthcare practitioner.
+                    </p>
+                    ',
+            ],
+            [
+                'product_name_index' => "NRGBiotic 120's",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take two(2) capsules morning and night with water before meals or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/ngrbiotic_60s/2partcap_4_6_1.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "NRGBiotic 60's",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take two(2) capsules morning and night with water before meals or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/ngrbiotic_120s/2partcap_4_3_1_3.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "MultiBiotic 60's",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take 1-2 capsule(s) morning and night with water before meals or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/ngrbiotic_120s/2partcap_4_3_1_3.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "MultiBiotic 30's",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take 1-2 capsule(s) morning and night with water before meals or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/ngrbiotic_120s/2partcap_4_3_1_3.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "SB 5B",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/sb_5b/2partcap.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "BioticNatal",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/bioticnatal/2partcap.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "BioClean EPA:DHA + CoQ10 120s",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take one (1) to two (2) capsules, twice per day, or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/bioclean_epa_dha_coq10_120s/2partcap.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "BioClean EPA:DHA + CoQ10 60s",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/bioclean_epa_dha_coq10_60s/2partcap.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "BioClean EPA:DHA + Plant Sterols 120s",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take two (2) capsules, twice per day, or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/bioclean_epa_dha_plant_sterols_120s/2partcap.png">
+                    </div>
+                    ',
+            ],
+            [
+                'product_name_index' => "BioClean EPA:DHA + Plant Sterols 60s",
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Take two (2) capsules, twice per day, or as directed by your healthcare practitioner.
+                    </p>
+
+                    <h4 class="medlab_product_content_title">
+                        Dosage Size
+                    </h4>
+
+                    <div style="text-align: center">
+                        <img src="/img/products/bioclean_epa_dha_plant_sterols_60s/2partcap.png">
+                    </div>
+                    ',
             ],
 
         ];
