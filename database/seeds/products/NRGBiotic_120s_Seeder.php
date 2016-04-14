@@ -261,7 +261,7 @@ class NRGBiotic_120s_Seeder extends Seeder
                 </h4>
 
                 <p>
-                    The recommended dose of Probiotic Uridine – NRGBiotic is two (2) capsules per day.
+                    Take two(2) capsules morning and night with water before meals or as directed by your healthcare practitioner.
                 </p>
 
                 <h4 class="medlab_product_content_title">
@@ -269,7 +269,7 @@ class NRGBiotic_120s_Seeder extends Seeder
                 </h4>
 
                 <div style="text-align: center">
-                    <img src="/img/products/ngrbiotic_120s/2partcap_4_3_1_3.png">
+                    <img src="/img/products/ngrbiotic_60s/2partcap_4_6_1.png">
                 </div>
                 ',
             'ingredients' =>

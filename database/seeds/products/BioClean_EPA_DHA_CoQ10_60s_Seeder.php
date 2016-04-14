@@ -209,9 +209,18 @@ class BioClean_EPA_DHA_CoQ10_60s_Seeder extends Seeder
                 <h4 class="medlab_product_content_title">
                     Serving Information
                 </h4>
+
                 <p>
-                    Take one (1) to two (2) capsules, twice per day, or as directed by your healthcare practitioner.
+                    Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
                 </p>
+
+                <h4 class="medlab_product_content_title">
+                    Dosage Size
+                </h4>
+
+                <div style="text-align: center">
+                    <img src="/img/products/bioclean_epa_dha_coq10_60s/2partcap.png">
+                </div>
                 ',
             'ingredients' =>
                 '

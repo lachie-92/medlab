@@ -177,9 +177,18 @@ class BioClean_EPA_DHA_Plant_Sterols_120s_Seeder extends Seeder
                 <h4 class="medlab_product_content_title">
                     Serving Information
                 </h4>
+
                 <p>
                     Take two (2) capsules, twice per day, or as directed by your healthcare practitioner.
                 </p>
+
+                <h4 class="medlab_product_content_title">
+                    Dosage Size
+                </h4>
+
+                <div style="text-align: center">
+                    <img src="/img/products/bioclean_epa_dha_plant_sterols_120s/2partcap.png">
+                </div>
                 ',
             'ingredients' =>
                 '

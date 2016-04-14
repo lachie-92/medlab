@@ -197,6 +197,14 @@ class Product_BioticNatal_and_SB extends Command
                 <p>
                     Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
                 </p>
+
+                <h4 class="medlab_product_content_title">
+                    Dosage Size
+                </h4>
+
+                <div style="text-align: center">
+                    <img src="/img/products/sb_5b/2partcap.png">
+                </div>
                 ',
             'ingredients' =>
                 '
@@ -460,11 +468,16 @@ class Product_BioticNatal_and_SB extends Command
                 </h4>
 
                 <p>
-                    Take one (1) capsule, one (1) to two (2) times per day, or as directed by your healthcare practitioner.
+                    Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
                 </p>
-                <p>
-                    Always read the label. Use only as directed.
-                </p>
+
+                <h4 class="medlab_product_content_title">
+                    Dosage Size
+                </h4>
+
+                <div style="text-align: center">
+                    <img src="/img/products/bioticnatal/2partcap.png">
+                </div>
                 ',
             'ingredients' =>
                 '

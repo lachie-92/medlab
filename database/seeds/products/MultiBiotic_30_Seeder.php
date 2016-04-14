@@ -260,8 +260,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                 </h4>
 
                 <p>
-                    The recommended dose of MultiBiotic is two (2) capsules twice in the morning with breakfast and
-                    at night with dinner.
+                    Take 1-2 capsule(s) morning and night with water before meals or as directed by your healthcare practitioner.
                 </p>
 
                 <h4 class="medlab_product_content_title">
@@ -269,7 +268,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                 </h4>
 
                 <div style="text-align: center">
-                    <img src="/img/products/multibiotic_30s/2partcap_4_4_1.png">
+                    <img src="/img/products/ngrbiotic_120s/2partcap_4_3_1_3.png">
                 </div>
                 ',
             'ingredients' =>

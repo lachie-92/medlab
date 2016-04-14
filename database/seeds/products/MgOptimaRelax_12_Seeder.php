@@ -271,6 +271,11 @@ class MgOptimaRelax_12_Seeder extends Seeder
                 <h4 class="medlab_product_content_title">
                     Serving Information
                 </h4>
+
+                <p>
+                    Add 5g(1 scoop) to 100-200mL of cold water or juice, one(1) to two(2) times per day, or as directed by your
+                    healthcare practitioner.
+                </p>
                 ',
             'ingredients' =>
                 '
