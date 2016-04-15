@@ -80,6 +80,18 @@ class UpdateDeal extends Command
                 'bonus_qty' => '1'
             ],
             [
+                'product' => "BioticNatal",
+                'name' => "April 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
                 'product' => "MultiBiotic 30's",
                 'name' => "April 2016 Deals",
                 'type' => "buy_one_get_one_free",
