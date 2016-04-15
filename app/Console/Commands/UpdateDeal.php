@@ -56,255 +56,104 @@ class UpdateDeal extends Command
         $buy_one_get_one_free_deals = [
 
             [
-                'product' => "NanoCelle Activated B12",
-                'name' => "March 2016 Deals",
+                'product' => "12Mg Optima Relax",
+                'name' => "Special",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
+                'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '26/02/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'minimum_qty' => '4',
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2016 23:59:59'),
+                'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
             [
                 'product' => "SB 5B",
-                'name' => "March 2016 Deals",
+                'name' => "April 2016 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '26/02/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2016 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
-            ],
-            [
-                'product' => "BioticNatal",
-                'name' => "March 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '26/02/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-
-        ];
-
-        $discount_deals = [
-
-            [
-                'product' => '12Mg Optima Relax',
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => 'BioClean EPA:DHA + CoQ10 60s',
-                'name' => "March 2016 Deals",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '25% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '25'
-            ],
-            [
-                'product' => 'BioClean EPA:DHA + CoQ10 120s',
-                'name' => "March 2016 Deals",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '25% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '25'
-            ],
-            [
-                'product' => 'BioClean EPA:DHA + Plant Sterols 120s',
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => 'BioClean EPA:DHA + Plant Sterols 60s',
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => 'Biotic Jnr.',
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => "Enbiotic 120's",
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => "Enbiotic 60's",
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => "GastroDaily",
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => "MultiBiotic 120's",
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => "MultiBiotic 60's",
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
             ],
             [
                 'product' => "MultiBiotic 30's",
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
+                'name' => "April 2016 Deals",
+                'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
+                'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
             ],
             [
-                'product' => "NRGBiotic 120's",
-                'name' => "March 2016 Deals",
-                'type' => "price_discount",
+                'product' => "MultiBiotic 60's",
+                'name' => "April 2016 Deals",
+                'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => '25% Discount',
+                'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '25'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
             ],
             [
-                'product' => "NRGBiotic 60's",
-                'name' => "March 2016 Deals",
-                'type' => "price_discount",
+                'product' => "BioClean EPA:DHA + Plant Sterols 120s",
+                'name' => "April 2016 Deals",
+                'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => '25% Discount',
+                'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '25'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
             ],
             [
-                'product' => "NanoCelle B12",
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
+                'product' => "BioClean EPA:DHA + Plant Sterols 60s",
+                'name' => "April 2016 Deals",
+                'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
+                'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => "NanoCelle D3",
-                'name' => "Website Relaunch Special",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '10% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '10'
-            ],
-            [
-                'product' => "ORSBiotic",
-                'name' => "March 2016 Deals",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '25% Discount',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '25'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
             ],
             [
                 'product' => "W8Biotic Lemon & Lime",
-                'name' => "March 2016 Deals",
-                'type' => "price_discount",
+                'name' => "April 2016 Deals",
+                'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => '25% Discount',
+                'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '25'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
             ],
             [
                 'product' => "W8Biotic Strawberries & Cream",
-                'name' => "March 2016 Deals",
-                'type' => "price_discount",
+                'name' => "April 2016 Deals",
+                'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => '25% Discount',
+                'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2016 23:59:59'),
-                'discount_percentage' => '25'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
             ],
+        ];
+
+        $discount_deals = [
         ];
 
 
