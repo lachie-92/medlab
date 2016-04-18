@@ -91,6 +91,16 @@
                     </div>
                     <div class="medlab_news_item_body">
                         <p>
+                            <a href="http://goo.gl/02ed6J" target="_blank">
+                                <img alt="Medlab Depression and the Gut Microbiome Webinar"
+                                     src="/img/news/medlab_depressionwebinar.jpg"
+                                     title="Medlab Depression and the Gut Microbiome Webina"
+                                     width="450px"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                        <br>
+                        <p>
                             <a href="http://goo.gl/uJHPxi" target="_blank">
                                 <img alt="Medlab HFD NALFD Webinar"
                                      src="/img/news/Medlab_HFD_NALFD_Webinar.jpg"
