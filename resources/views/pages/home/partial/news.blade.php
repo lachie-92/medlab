@@ -206,71 +206,52 @@
             <div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_sidebar_item_title">
-                        EDUCATION
+                        WEBINARS
                     </div>
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="#">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        What are Mitochondria?
-                                    </div>
-                                    <div class="medlab_news_sidebar_list_item_body">
-                                        Dr Mark Donohoe, an integrative GP explains what Mitochondria are and the critical role they play in energy production
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="medlab_news_sidebar_list_item">
-                                <a href="#">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        The Role of the Microbiome
-                                    </div>
-                                    <div class="medlab_news_sidebar_list_item_body">
-                                        Dr Mark Donohoe discusses the Microbiome, located in the human gastrointestinal tract and its role
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="medlab_news_sidebar_list_item">
-                                <a href="#">
+                                <a href="http://goo.gl/02ed6J">
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/Mark-150x150.png" >
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/medlab_depressionwebinar.jpg" target="_blank" >
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
-                                            Diet and Gut Health
+                                            Depression and The Gut Microbiome
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">
-                                            Dr Mark Donohoe, an integrative GP discusses why gut health is crucial to your overall health
+                                            Join Professor Luis Vitetta for this informative webinar.
+
                                         </div>
                                     </div>
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="#">
+                                <a href="http://goo.gl/uJHPxi">
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/shutterstock_180827759-150x150.jpeg" >
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/Medlab_HFD_NALFD_Webinar.jpg" target="_blank">
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
-                                            Psychology and the Evidence on Exercise
+                                            High Fat Diet, Probiotics and NAFLD
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">
-                                            Hollie Alford discusses the effects of psychological factors related to exercise
+                                            Join Professor Luis Vitetta for this informative webinar.
                                         </div>
                                     </div>
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="#">
+                                <a href="http://goo.gl/fBJJjj">
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/Screen-Shot-2014-05-12-at-12.35.36-pm-150x150.png" >
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/Medlab_Probiotic_and_Gut_Health_Webinar.jpg" target="_blank" >
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
-                                            Psychology and Health
+                                            Probiotics and Gut Health
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">
-                                            Hollie Alford discusses the effects of psychological factors related to health & illness
+                                            Join Professor Luis Vitetta for this informative webinar.
                                         </div>
                                     </div>
                                 </a>
