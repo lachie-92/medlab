@@ -90,6 +90,7 @@
                         MEDLAB WEBINAR
                     </div>
                     <div class="medlab_news_item_body">
+                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
                         <p>
                             <a href="http://goo.gl/02ed6J" target="_blank">
                                 <img alt="Medlab Depression and the Gut Microbiome Webinar"
@@ -99,6 +100,7 @@
                                      class="img-responsive center-block">
                             </a>
                         </p>
+                        @endif
                         <br>
                         <p>
                             <a href="http://goo.gl/uJHPxi" target="_blank">
@@ -210,6 +212,7 @@
                     </div>
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
+                            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://goo.gl/02ed6J">
                                     <div class="media-left media-middle">
@@ -226,10 +229,11 @@
                                     </div>
                                 </a>
                             </li>
+                            @endif
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://goo.gl/uJHPxi">
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/Medlab_HFD_NALFD_Webinar.jpg" target="_blank">
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/Medlab_HFD_NALFD_Webinar.jpg" target="blank">
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
