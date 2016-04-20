@@ -289,62 +289,83 @@ class MultiBiotic_60s_Seeder extends Seeder
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Lactobacillus rhamnosus</p>
+                                <p>Lactobacillus rhamnosus (Med 26)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>18.0 billion CFU</p>
+                                <p>9 billion CFU</p>
                             </td>
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Lactobacillus acidophilus</p>
+                                <p>Lactobacillus acidophilus (Med 27)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>7.5 billion CFU</p>
+                                <p>3.75 billion CFU</p>
                             </td>
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Lactobacillus plantarum</p>
+                                <p>Lactobacillus plantarum (Med 25)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>3.15 billion CFU</p>
+                                <p>1.575 billion CFU</p>
                             </td>
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Bifidobacterium lactis</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>6.0 billion CFU</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>Bifidobacterium breve</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>3.5 billion CFU</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>Bifidobacterium bifidum</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>1 billion CFU</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>Streptococcus thermophilus</p>
+                                <p>Bifidobacterium animalis spp. lactis (Med 13)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>3 billion CFU</p>
                             </td>
                         </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Bifidobacterium breve (Med 12)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1.75 billion CFU</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Bifidobacterium bifidum (Med 11)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>500 million CFU</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Streptococcus thermophilus (Med 51)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1.5 billion CFU</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
+                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <th width="136" valign="top">
+                                <p>Total</p>
+                            </th>
+                            <th width="273" valign="top">
+                                <p>21.075 Billion CFU (1 capsule)</p>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <th width="273" valign="top">
+                                <p>42.15 Billion CFU (2 capsules)</p>
+                            </th>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="medlab_product_content_sub_title">
+                *CFU: Colony Forming Units
+                </p>
                 ',
             'cmi' =>
                 '

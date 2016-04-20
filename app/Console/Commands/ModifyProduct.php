@@ -133,13 +133,13 @@ class ModifyProduct extends Command
                                     <p>Total</p>
                                 </th>
                                 <th width="273" valign="top">
-                                    <p>21.075 Billion CFU* (1 capsule)</p>
+                                    <p>21.075 Billion CFU (1 capsule)</p>
                                 </th>
                             </tr>
                             <tr>
                                 <td></td>
                                 <th width="273" valign="top">
-                                    <p>42.15 Billion CFU* (2 capsules)</p>
+                                    <p>42.15 Billion CFU (2 capsules)</p>
                                 </th>
                             </tr>
                         </tbody>
@@ -232,13 +232,13 @@ class ModifyProduct extends Command
                                     <p>Total</p>
                                 </th>
                                 <th width="273" valign="top">
-                                    <p>21.075 Billion CFU* (1 capsule)</p>
+                                    <p>21.075 Billion CFU (1 capsule)</p>
                                 </th>
                             </tr>
                             <tr>
                                 <td></td>
                                 <th width="273" valign="top">
-                                    <p>42.15 Billion CFU* (2 capsules)</p>
+                                    <p>42.15 Billion CFU (2 capsules)</p>
                                 </th>
                             </tr>
                         </tbody>
