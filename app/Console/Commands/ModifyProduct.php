@@ -51,28 +51,200 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
-                'product_name_index' => "Enbiotic 60's",
-                'general_summary' =>
+                'product_name_index' => "MultiBiotic 30's",
+                'ingredients' =>
                     '
-                    <p>
-                        EnBiotic&trade; is a digestive enzyme and multi-species probiotic formulation. EnBiotic&trade;
-                        contains 241.6 mg of plant and fungal-derived digestive enzymes and 8.75 billion CFU
-                        (colony forming units) of bacteria per capsule. This combination may support digestive function of
-                        dietary fats, proteins and carbohydrates and assist in the management of indigestion, altered bowel
-                        habits and gastrointestinal discomfort.
+                    <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>
+                                        <strong>ACTIVE INGREDIENTS</strong>
+                                    </p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>
+                                        <strong>EACH CAPSULE CONTAINS</strong>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Lactobacillus rhamnosus (Med 26)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>9 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Lactobacillus acidophilus (Med 27)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>3.75 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Lactobacillus plantarum (Med 25)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>1.575 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Bifidobacterium animalis spp. lactis (Med 13)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>3 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Bifidobacterium breve (Med 12)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>1.75 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Bifidobacterium bifidum (Med 11)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>500 million CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Streptococcus thermophilus (Med 51)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>1.5 billion CFU</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            <tr>
+                                <th width="136" valign="top">
+                                    <p>Total</p>
+                                </th>
+                                <th width="273" valign="top">
+                                    <p>21.075 Billion CFU* (1 capsule)</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <th width="273" valign="top">
+                                    <p>42.15 Billion CFU* (2 capsules)</p>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="medlab_product_content_sub_title">
+                    *CFU: Colony Forming Units
                     </p>
                     ',
             ],
             [
-                'product_name_index' => "Enbiotic 120's",
-                'general_summary' =>
+                'product_name_index' => "MultiBiotic 60's",
+                'ingredients' =>
                     '
-                    <p>
-                        EnBiotic&trade; is a digestive enzyme and multi-species probiotic formulation. EnBiotic&trade;
-                        contains 241.6 mg of plant and fungal-derived digestive enzymes and 8.75 billion CFU
-                        (colony forming units) of bacteria per capsule. This combination may support digestive function of
-                        dietary fats, proteins and carbohydrates and assist in the management of indigestion, altered bowel
-                        habits and gastrointestinal discomfort.
+                    <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>
+                                        <strong>ACTIVE INGREDIENTS</strong>
+                                    </p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>
+                                        <strong>EACH CAPSULE CONTAINS</strong>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Lactobacillus rhamnosus (Med 26)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>9 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Lactobacillus acidophilus (Med 27)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>3.75 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Lactobacillus plantarum (Med 25)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>1.575 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Bifidobacterium animalis spp. lactis (Med 13)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>3 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Bifidobacterium breve (Med 12)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>1.75 billion CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Bifidobacterium bifidum (Med 11)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>500 million CFU</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Streptococcus thermophilus (Med 51)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>1.5 billion CFU</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            <tr>
+                                <th width="136" valign="top">
+                                    <p>Total</p>
+                                </th>
+                                <th width="273" valign="top">
+                                    <p>21.075 Billion CFU* (1 capsule)</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <th width="273" valign="top">
+                                    <p>42.15 Billion CFU* (2 capsules)</p>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p class="medlab_product_content_sub_title">
+                    *CFU: Colony Forming Units
                     </p>
                     ',
             ]
@@ -120,6 +292,9 @@ class ModifyProduct extends Command
         }
         if(!empty($modify_array['practitioner_summary'])) {
             $product->practitioner_summary = $modify_array['practitioner_summary'];
+        }
+        if(!empty($modify_array['ingredients'])) {
+            $product->ingredients = $modify_array['ingredients'];
         }
         if(!empty($modify_array['references'])) {
             $product->references = $modify_array['references'];

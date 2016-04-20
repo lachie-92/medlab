@@ -44,8 +44,7 @@ class Enbiotic_120s_Seeder extends Seeder
                     contains 241.6 mg of plant and fungal-derived digestive enzymes and 8.75 billion CFU
                     (colony forming units) of bacteria per capsule. This combination may support digestive function of
                     dietary fats, proteins and carbohydrates and assist in the management of indigestion, altered bowel
-                    habits and gastrointestinal discomfort. EnBiotic&trade; may also assist in managing the symptoms of
-                    medically diagnosed Irritable Bowel Syndrome.
+                    habits and gastrointestinal discomfort.
                 </p>
                 ',
             'practitioner_summary' =>
