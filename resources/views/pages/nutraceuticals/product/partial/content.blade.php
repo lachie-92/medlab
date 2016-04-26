@@ -17,8 +17,8 @@
             <div class="col-md-7 col-sm-7 col-xs-12">
                 <div class="panel panel-primary medlab_panel">
                     <div class="panel-body medlab_panel_content">
-                        <a id="product_modal_link" href="#">
-                            <img id="product_image" alt="{!! $product->product_name !!}" src="{!! $product->image_path !!}" width="100%"/>
+                        <a class="product_modal_link" href="#">
+                            <img class="product_image" alt="{!! $product->product_name !!}" src="{!! $product->image_path !!}" width="100%"/>
                         </a>
                     </div>
                 </div>
@@ -242,19 +242,22 @@
             <!--
             --  CMI
             -->
+
             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="panel panel-primary medlab_panel">
-                        <div class="panel-heading medlab_panel_title">
-                            CMI
-                        </div>
-                        <div class="panel-body medlab_panel_content">
+                @if($product->cmi !== "none")
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary medlab_panel">
+                            <div class="panel-heading medlab_panel_title">
+                                CMI
+                            </div>
+                            <div class="panel-body medlab_panel_content">
 
-                            {!! $product->cmi !!}
+                                {!! $product->cmi !!}
 
+                            </div>
                         </div>
                     </div>
-                </div>
+                @endif
             @endif
 
             <!--

@@ -25,16 +25,14 @@ class UploadProduct extends Command
 
         Product::create([
 
-            'xero_item_id' => 21,
-            'product_name_index' => "SB 5B",
-            'product_name' => 'SB 5B&trade;',
+            'xero_item_id' => 23,
+            'product_name_index' => "NOS",
+            'product_name' => 'NOS <small>Nitric Oxide Support</small>',
             'short_description' =>
                 '
-                <h4 class="medlab_product_content_title">SB 5B&trade;</h4>
+                <h4 class="medlab_product_content_title">NOS <small>Nitric Oxide Support</small></h4>
                 <p>
-                    <em>Saccharomyces cerevisiae ssp. boulardii</em> (SB) is a beneficial probiotic yeast that helps to
-                    maintain gastrointestinal function and integrity by supporting a healthy gut microbial profile. SB 5B&trade;
-                    assists in supporting healthy immune function and may help to reduce inflammatory mediators in the gastrointestinal tract.
+                    A targeted pre-exercise sports food containing a selection of evidence-based ingredients combined to support and optimise exercise performance.
                 </p>
                 ',
             'patent' =>
@@ -46,136 +44,101 @@ class UploadProduct extends Command
             'general_summary' =>
                 '
                 <p>
-                    <em>Saccharomyces cerevisiae ssp. boulardii</em> (SB) is a beneficial probiotic yeast that helps to
-                    maintain gastrointestinal function and integrity by supporting a healthy gut microbial profile; by increasing
-                    the production of secretory IgA (sIgA), short-chain fatty acids (SCFAs) and helping to promote the
-                    activity of brush border disaccharide enzymes. SB has demonstrated efficacy in relieving diarrhoea
-                    severity and duration in both adults and children due to various triggers. SB assists in supporting healthy
-                    immune function and may help to reduce inflammatory mediators in the gastrointestinal tract.
+                    A targeted pre-exercise sports food containing a selection of evidence-based ingredients combined to support and optimise exercise performance.
+                    Creatine, L-arginine and the B vitamins support energy production during strenuous exercise while beta-alanine helps to increase muscle carnosine levels.
+                    The amino acid L-arginine is also the precursor for nitric oxide production, a signaling molecule involved in blood vessel relaxation and vasodilation.
+                    Coconut powder contains important electrolytes required during exercise and Guarana seed powder naturally contains caffeine.
                 </p>
                 ',
             'practitioner_summary' =>
                 '
                 <p>
-                    <em>Saccharomyces cerevisiae ssp. boulardii</em> was discovered in 1920 by Henri Boulard, who isolated the yeast
-                    from the skins of lychee and mangosteen fruit when visiting IndoChina. During a cholera outbreak he noticed
-                    that the people who drank tea made from these fruit skins did not contract the infection. Over the last few decades,
-                    interest in the therapeutic applications of using SB has increased with now well over 53 randomised controlled
-                    clinical studies published in peer reviewed journals that encompass over 8000 participants, both adults and children
-                    to assess safety and efficacy. Of these clinical trials, over 80% have found clinically significant efficacy for
-                    SB when supplemented for various conditions.<sup>1</sup>
+                    <strong>L-Arginine</strong>
                 </p>
 
                 <p>
-                    SB is an anaerobic yeast which is absent from the natural gut microbiota and does not permanently colonise
-                    the gastrointestinal tract (GIT) after supplementation. SB will achieve a steady-state concentration in the
-                    large bowel after 3 days of supplementation and is not detected in faeces within one week after discontinuing.
-                    It is stable at room temperature 24&deg;C but thrives at 37&deg;C i.e. body temperature and has a high tolerance to
-                    low pH and bile acids.<sup>1,2</sup> Furthermore, another advantage of SB as a probiotic yeast is that it is antibiotic
-                    resistant due to being a fungi and also they do not exchange DNA with bacteria.<sup>2</sup> SB can therefore be supplemented
-                    simultaneously with antibiotic therapy and assist with managing symptoms such as antibiotic associated diarrhoea.
-                    The predominant therapeutic effect of SB is associated with treating diarrhoea due to various causes, including
-                    antibiotic, infectious including <em>Clostridium difficile</em>, viral and parasitic, travelers diarrrhoea and diarrhoea
-                    induced by inflammatory GIT conditions.
+                    L-arginine is a semi-essential amino acid with numerous metabolic roles within the body. It is a building block for proteins
+                    (hormones, histones, collagen and intra-cellular structural proteins) and the synthesis of creatine – the high-phosphate energy
+                    stores in cells. L-arginine is the precursor to nitric oxide (NO) synthesis, an important cellular signaling molecule involved
+                    in many physiological processes and is most well known as a powerful vasodilator of blood vessels that regulates
+                    blood flow (see Figure 1). NO also has anti-inflammatory, anti-microbial and anti-viral activity, playing an important role in
+                    immunological function.<sup>1-3</sup> Endothelium-derived NO causes vasorelaxation and inhibits platelet adhesion and aggregation, thus
+                    maintaining blood fluidity and preventing thrombosis.<sup>4,5</sup> Platelets also produce NO that inhibits platelet aggregation, adhesion to
+                    vascular endothelium, recruitment to growing thrombi and the formation of leukocyte-platelet aggregates.
+                    Endothelial dysfunction is a common trait of essentially all cardiovascular risk factors. Impaired NO-mediated endothelial function
+                    is characteristic of cardiovascular diseases, correlates with risk factor profiles and is an independent predictor of adverse cardiac
+                    events.<sup>3</sup> Ageing is associated with an increase in atherothrombotic conditions, including. hypertension, and it has been suggested
+                    that there is an age-related decline in nitric oxide (NO) production in arterial endothelium and platelets. It has been reported that exogenous
+                    administration of L-arginine restores NO bioavailability.<sup>3</sup>
                 </p>
 
                 <p>
-                    <strong>Efficacy of <em>Saccharomyces boulardii</em> for Diarrhoea:</strong>
+                    <img alt="How L-Arginine Works in the Body" src="/img/products/nos/nos_figure1.png" class="img-responsive"><br>
+                    <strong>Figure 1. Metabolic pathways of L-arginine.<sup>6</sup></strong> NO, nitric oxide; NOS, nitric oxide synthase.
                 </p>
 
                 <p>
-                    <ul>
-                        <li>
-                           <strong><em>Acute Infectious Diarrhoea</em></strong>
-                        </li>
-                    </ul>
+                    <strong>Creatine</strong>
                 </p>
 
                 <p>
-                    Extensive clinical studies have assessed the efficacy of SB in treating diarrhoea due to infectious causes.
-                    A recent systematic review and meta-analysis found that SB significantly reduced the duration of diarrhoea
-                    due to acute infection by approximately 24 hours and that of hospitalization by up to 20 hours.<sup>3</sup> The authors
-                    assessed 381 articles and 19 clinical trials with 17 of the studies performed in children from 3 months and older.
-                    The dose of SB varied between 250 and 750 mg. From an evidence-based recommendation, the World Gastroenterology
-                    Organization states that SB is not only useful in reducing the severity and duration (approximately 1 day) of acute
-                    infectious diarrhoea in children, but is also safe.<sup>3</sup> Furthermore, SB supports regeneration of the intestinal commensal
-                    bacterial cohort after episodes of diarrhoea such as increasing SCFA-producing bacteria, <em>Bacteroides</em> and
-                    <em>Prevotella</em> genera.<sup>2</sup>
+                    Extensive research has been conducted on the ergogenic effects of creatine on improving physical and cognitive
+                    performance and increasing fat free mass, however the exact mechanisms are not clear.<sup>7</sup> Creatine increases cellular
+                    phosphocreatine content and together act as an intracellular buffer for adenosine triphosphate (ATP) and also as an
+                    energy shuttle for the movement of high-energy phosphates from mitochondrial sites of production to cytoplasmic sites
+                    of utilisation in a variety of cells and creatine must be continuously replenished (see Figure 2).<sup>8</sup>
+                    Creatine can be synthesised in the body from arginine and glycine, but muscle cells cannot synthesise creatine and so
+                    depend on the uptake from the circulation which can further be promoted by exercise.<sup>7,8</sup> Creatine is particularly found
+                    in cells with high and fluctuating energy demands, such as skeletal muscle and the heart.<sup>9</sup> The ergogenic affects of
+                    creatine are evident for high-intensity exercise of short duration and has been shown to increase muscle mass when
+                    combined with an exercise program.<sup>7,9</sup>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>
-                            <strong><em>Clostridium difficile infection and associated diarrhoea</em></strong>
-                        </li>
-                    </ul>
+                    <img alt="Muscle Metabolism" src="/img/products/nos/nos_figure2.png" class="img-responsive"><br>
+                    <strong>Figure 2. Some ATP is stored in a resting muscle and as contraction starts it is used up in seconds and more ATP
+                    is generated from creatine phosphate.<sup>10</sup></strong> ATP - adenosine triphosphate.
                 </p>
 
                 <p>
-                    <em>Clostridium difficile</em> infection is strongly associated with antibiotic use, particularly in the hospital
-                    setting but is also prevalent in the community setting. A recent Cochrane review reported that by co-prescribing
-                    probiotic’s, importantly including SB, with antibiotics reduces the risk of contracting <em>C. difficile</em> infection by
-                    up to 64% than when compared to that of a placebo.<sup>4</sup> It has been demonstrated that SB directly degrades <em>C.
-                    difficile</em> toxin A and B via its release of protease enzymes. Further SB stimulates sIgA release in the intestine,
-                    regulating host immune responses and also is associated with higher serum IgG levels to <em>C. difficile
-                    toxins</em> A and B.<sup>1</sup>
+                    <strong>Beta-Alanine</strong>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>
-                            <strong><em>Antibiotic-associated diarrhoea (AAD)</em></strong>
-                        </li>
-                    </ul>
+                    Beta-alanine is a non-essential amino acid and the rate-limiting precursor to carnosine synthesis in muscle cells,
+                    an important physiological buffer that readily accepts protons during contraction-induced acidosis. Supplementation
+                    of beta-alanine is required to achieve the active daily dose required to significantly elevate intramuscular carnosine
+                    and it increases dose-dependently. Increasing muscle carnosine concentration may improve athletic performance in exercise
+                    tasks that accrue a high level of muscle acidosis, improving high-intensity intermittent exercise performance and time to fatigue.
+                    Carnosine is also involved in maintaining ATP stores in muscle cells and skeletal muscle cell contraction.<sup>11,12</sup>
+                    When combined with creatine, there is an additive effect on reducing fatigue and training intensity.<sup>12</sup>
                 </p>
 
                 <p>
-                    AAD can occur within a few hours after administering antibiotics for up to several months after ceasing treatment.
-                    The prevalence of AAD varies from 5% to 30% in paediatrics and as high as 80% in very young hospitalized children.
-                    In adults the prevalence ranges from 5% to 70%.<sup>5</sup> As SB is a yeast it is not affected by antibiotics. Furthermore,
-                    when co-prescribed, SB promotes the re-establishment of a normal commensal microbial cohort at a faster rate than
-                    when antibiotics are prescribed without SB.<sup>1,2</sup>
+                    <strong>Tyrosine and Vitamins</strong>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>
-                            <strong><em>Irritable Bowel Syndrome (IBS)</em></strong>
-                        </li>
-                    </ul>
+                    Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance;
+                    namely dopamine, noradrenaline and adrenaline. Tyrosine may aid in mental activity and in improving cognitive performance under
+                    stressful conditions due to its direct role in increasing catecholamine synthesis in the brain.<sup>13</sup> The B vitamins are involved in
+                    the transformation of dietary energy sources such as carbohydrates, fats and proteins into cellular energy in the form of ATP,
+                    functioning as cofactors and coenzymes for numerous enzymatic reactions. Vitamin C is required for the synthesis of catecholamine
+                    hormones, dopamine, adrenaline and noradrenaline.<sup>14</sup>
                 </p>
 
                 <p>
-                    A number of studies have been conducted assessing the efficacy of SB in treating the symptoms of IBS.
-                    A recent study demonstrated that supplementing IBS-diarrhoea dominant patients with SB (200 mg t.i.d. for 30 days)
-                    alone or together with mesalazine (anti-inflammatory drug) significantly reduced symptom scores of stool frequency,
-                    stool form and consistency, abdominal pain and bloating (p < 0.003).<sup>6</sup> Other studies have also shown that SB
-                    (750 mg - 1000 mg per day for 4-6 weeks) significantly decreases pro-inflammatory cytokines and improves
-                    quality of life (QoL) in IBS-D patients.<sup>7,8</sup>
+                    <strong>Guarana Seed Powder</strong>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>
-                            <strong><em>Gastrointestinal Function and Integrity</em></strong>
-                        </li>
-                    </ul>
-                </p>
-
-                <p>
-                    Research has shown that SB regulates host immune responses by acting as an immune stimulant or by reducing
-                    inflammatory cytokines. SB stimulates the release of sIgA in the intestine which targets pathogenic bacteria
-                    present; it is associated with increased serum IgG to C. <em>difficile</em> toxins and interferes with NF-&kappa;B signaling.
-                    SB is able to promote SCFA synthesis; restore fluid transport pathways within the intestine i.e. the sodium-glucose
-                    transporter which is important for rehydration during diarrhoea and vomiting; preserve tight junction integrity;
-                    stimulate protein and energy production and aid in enterocyte maturation via stimulating the release of spermine and
-                    spermidine or other brush border enzymes. SB is also capable in preventing the growth of <em>Candida-albicans</em> and other
-                    pathogens such as <em>Salmonella</em> and <em>Yersinia</em>.<sup>1,2</sup>
-                </p>
-
-                <p>
-                    <img alt="Effects of Difference Pathogens" src="/img/products/sb_5b/sb5b_figure1.png" class="img-responsive"><br>
-                    <strong>Figure 1. Multiple potential mechanisms of action of <em>Saccharomyces boulardii</em>.<sup>1</sup></strong>
+                    Caffeine is widely used as an enhancement for athletic performance via its broad range of metabolic, hormonal and physiologic effects.
+                    Guarana is a natural source of caffeine. Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.
+                    Mechanisms include stimulation of the sympathetic nervous system, increase intracellular Ca<sup>2+</sup> concentrations and spare
+                    glycogen via increasing lipolysis.<sup>15</sup> Furthermore, caffeine affects cognition, mood and alertness via binding to adenosine
+                    receptors in the brain. Adenosine, a neuromodulator, binds to adenosine receptors and slows nerve cell activity, whereas caffeine
+                    blocks adenosine receptors and speeds up the activity of cells.<sup>15,16</sup> Research has demonstrated that small to moderate doses
+                    (i.e. 3 – 6 mg•kg-1) of caffeine has superior ergogenic effectiveness than higher doses (9 mg•kg-1) and also reduces any negative side-effects.<sup>15</sup>
                 </p>
 
                 <p>
@@ -188,463 +151,259 @@ class UploadProduct extends Command
 
                 <p>
                     <ul>
-                        <li>Those with symptoms of diarrhoea due to various triggers including:</li>
-                            <ul style="list-style-type: circle">
-                                <li>Infectious (bacteria, virus, parasitic).</li>
-                                <li>Traveler’s diarrhoea.</li>
-                                <li>Anti-biotic use.</li>
-                                <li>Bowel disorders.</li>
-                            </ul>
-                        <li>Those with mild digestive disturbances including bloating, flatulence and digestive discomfort.</li>
-                        <li>Those with medically diagnosed Irritable Bowel Syndrome – particularly diarrhoea predominant.</li>
-                        <li>Those with <em>Candida</em> infection (thrush).</li>
-                        <li>Those taking antibiotics.</li>
-                        <li>Those wanting to assist healthy digestive and immune function.</li>
+                        <li>Those wanting to improve exercise performance and time to fatigue</li>
+                        <li>Those wanting to improve cognitive performance</li>
+                        <li>Those wanting to improve cellular energy metabolism</li>
+                        <li>Those wanting to improve blood flow, tissue oxygenation and blood pressure</li>
+                        <li>The aging population who may demonstrate reduced ability to synthesise NO</li>
                     </ul>
+                </p>
+
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    Not to be used as a sole source of nutrition. Should be used in conjunction with a balanced diet and appropriate exercise program.
+                    Not suitable for children under 15 years of age or pregnant women. Should only be used under medical or dietetic supervision.
+                    Contains not less than 30 mg of caffeine per serve.
                 </p>
                 ',
             'references' =>
                 '
                 <ol class="medlab_product_reference_list">
-                    <li>McFarland LV. Systematic review and meta-analysis of <em>Saccharomyces boulardii</em> in adult patients. <em>World J Gastroenterol</em> 2010;16:2202-2222.</li>
-                    <li>More MI, Swidsinski A. <em>Saccharomyces boulardii</em> CNCM I-745 supports regeneration of the intestinal microbiota after diarrhoeic dysbiosis – a review. <em>Clin Exp Gastroenterol</em> 2015;8:237-255.</li>
-                    <li>Dinleyici EC, Eren M, Ozen M, et al. Effectiveness and safety of Saccharomyces boulardii for acute infectious diarrhoea. <em>Expert Opin Biol Ther</em> 2012;12:395-410.</li>
-                    <li>Goldenberg JZ, Ma SSY, Saxton JD, et al. Probiotics for the prevention of Clostridium difficile-associated diarrhea in adults and children. Cochrane Database of Systematic Reviews 2013, Issue 5. Art. No.: CD006095. DOI:10.1002/14651858.CD006095.pub3.</li>
-                    <li>Szajewska H, Kotodziej M. Systematic review with meta-analysis: Saccharomyces boulardii in the prevention of antibiotic-associated diarrhoea. <em>Ailment Pharmacol Ther</em> 2015;42:793-801.</li>
-                    <li>Bufutto M, Almeida JR, Leite NV, et al. Treatment of diarrhea-predominant irritable bowel syndrome with mesalazine and/or <em>Saccharomyces boulardii</em>. <em>Arg Gastroenterol</em> 2013;50:304-9.</li>
-                    <li>Abbas Z, Yakoob J, Ahmad Z, et al. Cytokine and clinical response to <em>Saccharomyces boulardii</em> therapy in diarrhea-dominant irritable bowel syndrome: a randomised trial. <em>Eur J Gastroenterol Hepatol</em> 2014;26:630-9.</li>
-                    <li>Choi CH, Jo SY, Oark HJ, et al. A randomized, double-blind, placebo-controlled multicentre trial of <em>Saccharomyces boulardii</em> in irritable bowel syndrome: effect on quality of life. <em>J Clin Gastroenterol</em> 2011;45:679-83.</li>
+                    <li>Hristina K, Langerholc T, Trapecar M. Novel metabolic roles of L-arginine in body energy metabolism and possible clinical applications. <em>J Nutr, Health & Aging</em> 2014;18:213-18.</li>
+                    <li>Zhao Y, Vanhoutte PM, Leung, SWS. Vascular nitric oxide: beyond eNOS. <em>J Pharmacol Sci </em> 2015;129:83-94.</li>
+                    <li>Lorin J, Zeller M, Guilland JC, et al. Arginine and nitric oxide synthase: regulatory mechanisms and cardiovascular aspects. <em>Mol Nutr Food Res</em> 2014;58:101-116.</li>
+                    <li>Goubareva I, Gkalaiagkousi E, Shah A, et al. Age decreases nitric oxide synthesis and responsiveness in human platelets and increases formation of monocyte-platelet aggregates. <em>Cardiovascular Res</em> 2007;75:793-802.</li>
+                    <li>Taddei S, Virdis A, Ghiadoni L, et al. Age-related reduction of NO availability and oxidative stress in humans. <em>Hypertension</em> 2001;38:274-279.</li>
+                    <li>Luiking YC, Poeze M, Dejong CH, et al. Sepsis:an arginine deficiency state? <em>Crit Care Med</em> 2004;32:2135-45.</li>
+                    <li>Cooper R, Naclerio F, Allgrove J, et al. Creatine supplementation with specific view to exercise/sports performance: an update. <em>J Int Soc Sports Nutr</em> 2012;9:33.</li>
+                    <li>Terjung RL, Clarkson P, Eichner ER, et al. American college of sports medicine roundtable. The physiological and health effects of oral creatine supplementation. <em>Med Sci Sports Exerc</em> 2000;32:706-717.</li>
+                    <li>Brosnan JT, Brosnan ME. Creatine: endogenous metabolite, dietary and therapeutic supplementation. <em>Annu Rev Nutr</em> 2007;27:241-61.</li>
+                    <li>Muscle fiber contraction and relaxation. <em>Openstax CNX.</em> http://cnx.org/contents/EtWWcJM-@3/Muscle-Fiber-Contraction-and-R (accessed 14th April 2016).</li>
+                    <li>Bellinger PM. &beta;-alanine supplementation for athletic performance: an update. <em>J Strength Cond Res</em> 2013;28:1751-1770.</li>
+                    <li>Culbertson JY, Kreider RB, Greenwood M, et al. Effects of beta-alanine on muscle carnosine and exercise performance: a review of the current literature. <em>Nutrients</em> 2010;2:75-98.</li>
+                    <li>Luckose F, Pandey MC, Radhakrishna. Effects of amino acid derivatives on physical, mental and physiological activities. <em>Crit Rev Food Sci Nutr</em> 2015;55:1793-1807.</li>
+                    <li>Huskisson E, Maggini S, Ruf M. The role of vitramins and minerals in energy metabolism and well-being. <em>J Int Med Res</em> 2007;35:277-289.</li>
+                    <li>Sokmen B, Armstrong LE, Kraemer WJ, et al. Caffeine use in sports: considerations for the athlete. <em>J Strength Cond Res</em> 2008;22:978-986.</li>
+                    <li>Lorist MM, Tops M. Caffeine, fatigue and cognition. <em>Brain Cog</em> 2003;53:82-94.</li>
                 </ol>
                 ',
             'side_effects' =>
                 '
-                <p>
-                    SB has shown to be safe in adults when taken orally for up to 15 month’s duration. It can cause flatulence
-                    in some people. Infrequent cases of fungaemia have been reported in case reports but only in patients with
-                    serious diseases in which they have been hospitalised. SB has shown to be safe in children when taken orally
-                    appropriately. However, a healthcare practitioner should evaluate diarrhoea in children before using SB 5B&trade;.
-                </p>
-                <p>
-                    You can also refer to the CMI for this product for symptoms and side effects.
-                </p>
-                ',
-            'interactions' =>
-                '
-                <p>
-                    Medications for fungal infections (i.e. dicflonac) interact with and reduce the therapeutic effectiveness of SB due to SB being a yeast.
-                </p>
-                ',
-            'dosage_information' =>
-                '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
-                <p>
-                    Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
-                </p>
-                ',
-            'ingredients' =>
-                '
-                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
-                    <tbody>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>
-                                    <strong>Active Ingredients</strong>
-                                </p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>
-                                    <strong>Each vegetarian capsule contains:</strong>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><em>Saccharomyces cerevisiae ssp. boulardii</em></p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>250 mg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>Equiv.</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>5 bill CFU</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="2">
-                                <p>
-                                    <strong>Excipient Ingredients</strong>
-                                </p>
-                                <p>Cellulose-microcrystalline, Calcium Hydrogen Phosphate, Silica, Magnesium Stearate.</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                ',
-            'cmi' =>
-                '
-                <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/SB5B/English.pdf"target="_blank">
-                        Click Here For English CMI
-                    </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Arabic.pdf"target="_blank">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Russian.pdf"target="_blank">Перевод на русском языке</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Japanese.pdf"target="_blank">日本語翻訳</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/French.pdf"target="_blank">Traduction en français</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Chinese.pdf"target="_blank">中文翻译</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Italian.pdf"target="_blank">Traduzione italiana</a>
-                </p>
-                ',
-            'free_from' =>
-                '
-                <p class="medlab_product_content_sub_title">
-                    Dairy and Gluten Free
-                </p>
-                <p class="medlab_product_content_sub_title">
-                    Suitable for Vegetarians
-                </p>
-                ',
-            'price_retail' => 45.87,
-            'price_wholesale' => 27.80,
-            'image_path' => '/img/products/sb_5b/sb5b.png',
-            'thumb_image_path' => '/img/products/sb_5b/sb5b_thumb.png',
-            'in_stock' => true,
-            'slug' => 'SB-5B'
-        ]);
-
-        Product::create([
-
-            'xero_item_id' => 22,
-            'product_name_index' => "BioticNatal",
-            'product_name' => 'BioticNatal&trade;',
-            'short_description' =>
-                '
-                <h4 class="medlab_product_content_title">BioticNatal&trade;</h4>
-                <p>
-                    BioticNatal&trade; is intended for both the pregnant and breast feeding mother aiding to support and maintain
-                    the integrity and function of her own GIT, her immune system and to potentially assist in reducing the
-                    occurrence of vaginosis, a condition that is often reported during pregnancy. BioticNatal&trade; may also
-                    support breast milk colonisation of beneficial bacterial species that can be transferred to the breast fed infant.
-                </p>
-                ',
-            'patent' =>
-                '
-                <p>
-                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
-                </p>
-                ',
-            'general_summary' =>
-                '
-                <p>
-                    BioticNatal&trade; is formulated according to current scientific evidence that demonstrates the vital
-                    role of the gastrointestinal (GIT) microbiome on the health and development of newborn infants. BioticNatal&trade;
-                    is intended for both the pregnant and breast feeding mother aiding to support and maintain the integrity and function
-                    of her own GIT, her immune system and to potentially provide assistance in reducing the occurrence of vaginosis, a
-                    condition that is often reported during pregnancy. BioticNatal™ may also be indicated to provide support for breast
-                    milk colonisation of beneficial bacterial species that can be transferred to the breast fed infant. Lactoferrin is
-                    a naturally occurring milk protein found in breast milk, providing antibacterial, antiviral and antiparasitic activity,
-                    protecting both the mother and the infant.
-                </p>
-
-                ',
-            'practitioner_summary' =>
-                '
-                <p>
-                    It is only within the last decade that a complex microbiome was discovered in the placenta, amniotic fluid and
-                    breast milk, which were once believed to be sterile. Infants were only thought to be exposed to microbes during birth,
-                    i.e. the mother’s vaginal microbiome or that of the hospital staff and surgical environment when delivered via cesarean
-                    section. The evolution of the infant gut microbiome does however begin <em>in utero</em>. Continued evolution of the microbiome
-                    after birth is influenced by numerous factors including diet, medications, toxins, illness and other stressors.<sup>1,2</sup>
-                </p>
-
-                <p>
-                    <img alt="Human Mammary Microbiota" src="/img/products/bioticnatal/bioticnatal_figure1.jpg" class="img-responsive" title="Human Mammary Microbiota"><br>
-                    <strong>Figure 1.</strong> Schematic representation of the acquisition and development of the human mammary microbiota.<sup>1</sup>
-                </p>
-
-                <p>
-                    <strong><em>In Utero Exposure to Bacteria</em></strong>
-                </p>
-
-                <p>
-                    Colonisation of the mucosa of the digestive, respiratory, urogenital tracts and the skin begins before birth.
-                    The placental microbiome has recently been characterised and comprises non-pathogenic commensal microbiota from
-                    the Firmicutes, Tenericutes, Proteobacteria, Bacteroides and Fusobacteria phyla, which do share some
-                    similarities of the oral microbiome.<sup>2,3</sup> During the first week of life, a full term infant is largely
-                    colonised by bacteria from the Actinobacteria, Proteobacteria, Bacteroides and much less by the Firmicutes.
-                    Firmicutes and Tenericutes, however, dominate the gut microbiota of a pre-term infant. It is understood that
-                    the exposure to antenatal sources of commensal bacteria, varies by length of gestation. During the third trimester
-                    of pregnancy the bacterial density in the placenta and also that of the breast milk significantly increases.
-                    Further, at this time the foetus begins to swallow large amounts of amniotic fluid that harbours commensal
-                    bacteria (see Figure 1).<sup>1,2</sup>
-                </p>
-
-                <p>
-                    <strong><em>Breast Milk Microbiome</em></strong>
-                </p>
-
-                <p>
-                    Breast milk not only provides bioactive molecules to the infant, including: immunocompetent cells, immunoglobulins,
-                    fatty acids, oligosaccharides, lactoferrin and antimicrobial peptides, but constitutes one of the main sources of
-                    bacteria to the breast fed infant gut and a baby consuming approximately 800 mL/day of milk would ingest between
-                    1 x10<sup>5</sup> – 1 x 10<sup>7</sup> bacteria per day. The oligosaccharides play a vital role in driving the
-                    diversity of the infant gut microbiota.<sup>1</sup> Potential sources of bacteria present in human colostrum and milk
-                    are proposed to be through the Enteromammary pathway, based on a plausible scientific basis. Dendritic cells (DC) are
-                    able to penetrate the gut epithelium, extending dendrites into the gut lumen and directly sample/collect the bacteria.
-                    Intestinal DCs and macrophages can retain small numbers of live commensal bacteria for several days in the mesenteric
-                    lymph nodes. DCs can then translocate these bacteria to other body sites including the lactating mammary gland.<sup>1,4</sup>
-                    The proposed method of bacterial transfer from the maternal GIT to the mammary gland is shown in Figure 2.
-                </p>
-
-                <p>
-                    <img alt="Enteromammary Pathway" src="/img/products/bioticnatal/bioticnatal_figure2.jpg" class="img-responsive" title="Enteromammary Pathway"><br>
-                    <strong>Figure 2. Enteromammary Pathway: </strong> Dendritic cells in the lamina propria send dendrites into the maternal gut lumen via
-                    tight junctions and trap commensal gut bacteria and transport them back to the lamina propria and from here to mesenteric lymph nodes.
-                    Once inside dendritic cells and/or macrophages, gut bacteria can spread to other locations such as the mammary gland and therefore into
-                    breast milk and possibly the placenta, as there is a circulation of lymphocytes within the mucosal-associated lymphoid system.<sup>4</sup>
-                </p>
-
-                <p>
-                    <em>Staphylococcus</em> and <em>Streptococcus</em> are among the most abundant genera found in breast milk.
-                    Lactic acid bacteria in breast milk generates an anaerobic environment in the neonate gut by consuming oxygen, promoting
-                    <em>Bifidobacterium</em> growth and later for several intestinal strains after weaning. The milk microbiota is
-                    vital for the neonates immune and GIT maturation. Without bacteria this simply does not occur.<sup>4</sup> There are
-                    large differences in neonatal gut colonisation between breastfed and formula fed infants. It has been demonstrated that
-                    term breast fed infants are dominated by <em>Bifidobacteria</em> species but decreased <em>Enterobacteria</em> species,
-                    whereas formula fed infants demonstrate a more diverse array of bacteria including <em>Escherichia coli, Clostridium, Bacteroides, Prevotella
-                    </em> and <em>Lactobacillus</em> species.<sup>2</sup>
-                </p>
-
-                <p>
-                    <strong><em>Maternal Dysbiosis</em></strong>
-                </p>
-
-                <p>
-                    Alterations in the GIT microbiome is reported in numerous conditions such as obesity, type 2 diabetes mellitus, inflammatory bowel conditions,
-                    depression etc. For example overweight pregnant women demonstrate low numbers of <em>Bifidobacterium</em> and <em>Bacteroides</em> species compared
-                    to normal weight pregnant women.<sup>5</sup> It is apparent that the maternal GIT microbiome provides the cue for foetal and neonate colonisation
-                    via the proposed bacterial translocation to breast milk, placenta and amniotic fluid. If the mother therefore has a dysbiotic gut, it will impact
-                    on the type of bacteria available for colonisation of the infant. Research has shown that supplementing women during their pregnancy with probiotics
-                    can lead to those selected species colonisation in the infants gut. Further studies have shown that administering <em>Lactobacillus rhamnosus</em>
-                    to mothers 4 weeks before delivery and 3 weeks after delivery induced specific changes in the transfer and initial establishment of <em>Bifidobacteria</em>
-                    in neonates compared to those that received placebo.<sup>5,6</sup> The administration of probiotics during pregnancy and after birth is supported by
-                    numerous research papers, particularly with <em>L. rhamnosus</em> and various <em>Bifidobacteruim</em> species, however the results are not consistent.
-                    Furthermore, the GIT microbiome in the neonate is responsible for re-establishing a T<sub>H</sub>1 to T<sub>H</sub>2 balance, with a stimulation of
-                    T<sub>H</sub>17 and T<sub>Reg</sub> Cells involved in infant immune maturation.<sup>2</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    Who will benefit:
-                </p>
-
                 <p>
                     <ul>
-                        <li>Pregnant and breast feeding mothers.</li>
-                        <li>Women planning on becoming pregnant.</li>
-                        <li>Women experiencing vaginosis.</li>
-                        <li>Women with gastrointestinal dysbiosis and symptoms of gastrointestinal discomfort.</li>
+                        <li>Caffeine may cause side-effects in some individuals including dizziness, headache, jitteriness, nervousness, insomnia and gastrointestinal distress.</li>
+                        <li>Beta-alanine may cause paraesthesia - pins and needles of the skin in some individuals.</li>
+                        <li>Creatine may cause muscles to retain water. Do not supplement creatine in individuals with kidney disease.</li>
+                        <li>Do not supplement L-arginine in individuals with Guanidinoacetate methyltransferase deficiency and avoid in people with herpes virus.</li>
+                        <li>
+                            L-arginine may decrease blood pressure therefore caution is required in individuals taking blood pressure medications. Medications that
+                            increase blood flow to the heart (Nitrates) interact with L-arginine.
+                        </li>
+                        <li>
+                            Tyrosine may decrease how much levodopa the body absorbs and it is advised to not combine the two.
+                        </li>
                     </ul>
-                </p>
-                ',
-            'references' =>
-                '
-                <ol class="medlab_product_reference_list">
-                    <li>Fernandez L, Langa S, Martin V, at al. The human milk microbiota: origin and potential roles in health and disease. <em>Pharmacol Res</em> 2013;69:1-10.</li>
-                    <li>Gritz EC, Bhandari V. The human neonatal gut microbiome: a brief review. <em>Front Pediatr</em> 2015;3:1-12.</li>
-                    <li>Aagaard K, Ma J, Antony KM, et al. The placenta harbors a unique microbiome. <em>Sci Transl Med</em> 2014;6:254lr3.</li>
-                    <li>Bergmann H, Rodriguez JM, Slaminen S, et al. Probiotics in human milk and probiotic supplementation in infant nutrition: a workshop report. <em>Br J Nutr</em> 2014;112:1119-1128.</li>
-                    <li>Sanz Y. Gut microbiotand probiotics in maternal and infant health. <em>Am J Clin Nutr</em> 2011;94(suppl):2000S-5S.</li>
-                    <li>Gueimonde M, Sakata S, Killiomaki M, et al. Effect of maternal consumption of Lactobacillus GG on transfer and establishment of fecal bifidobacterial microbiota in neonates. <em>J Pediatr Gastroenterol Nutr</em> 2006;42:166-70.</li>
-                </ol>
-                ',
-            'side_effects' =>
-                '
-                <p>
-                    Probiotics and lactoferrin are safe during pregnancy. Gastrointestinal symptoms such as bloating and discomfort may occur but is temporary.
-                </p>
-                <p>
-                    You can also refer to the CMI for this product for symptoms and side effects.
                 </p>
                 ',
             'interactions' =>
                 '
-                <p>
-                    Antibiotics will reduce the efficacy of probiotics. If taking antibiotics, take 2 hours away from probiotics.
-                </p>
                 ',
             'dosage_information' =>
                 '
                 <h4 class="medlab_product_content_title">
                     Serving Information
                 </h4>
-
                 <p>
-                    Take one (1) capsule, one (1) to two (2) times per day, or as directed by your healthcare practitioner.
-                </p>
-                <p>
-                    Always read the label. Use only as directed.
+                    Mix one scoop (5 g) into 200 mL of cold water and drink 20 minutes prior to exercising. To be taken once per day.
                 </p>
                 ',
             'ingredients' =>
                 '
+                <a class="product_modal_link" href="#">
+                    <img class="product_image" alt="NOS Ingredient Label" src="/img/products/nos/ingredient_label.png" width="100%"/>
+                </a>
+                <br><br>
                 <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
                     <tbody>
                         <tr>
-                            <td width="273" valign="top">
+                            <td>
                                 <p>
-                                    <strong>Active Ingredients</strong>
+                                    <strong>ACTIVE INGREDIENTS</strong>
                                 </p>
                             </td>
-                            <td width="136" valign="top">
+                            <td>
                                 <p>
-                                    <strong>Each vegetarian capsule contains:</strong>
+                                    <strong>Per serve (5g)</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    <strong>Per 100g</strong>
                                 </p>
                             </td>
                         </tr>
                         <tr>
-                            <td width="273" valign="top">
-                                <p><em>Bifidobacterium infantis</em> (Med 14)</p>
+                            <td>
+                                <p>Creatine monohydrate</p>
                             </td>
-                            <td width="136" valign="top">
-                                <p>2 billion</p>
+                            <td>
+                                <p>1 g</p>
                             </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><em>Bifidobacterium longum</em> (Med 15)</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>2 billion</p>
+                            <td>
+                                <p>20 g</p>
                             </td>
                         </tr>
                         <tr>
-                            <td width="273" valign="top">
-                                <p><em>Lactobacillus rhamnosus</em> (Med 26)</p>
+                            <td>
+                                <p>L-arginine</p>
                             </td>
-                            <td width="136" valign="top">
-                                <p>2 billion</p>
+                            <td>
+                                <p>1 g</p>
                             </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><em>Streptococcus thermophilus</em> (Med 51)</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>2 billion</p>
+                            <td>
+                                <p>20 g</p>
                             </td>
                         </tr>
                         <tr>
-                            <td width="273" valign="top">
-                                <p><em>Saccharomyces cerevisiae ssp. boulardii</em> (Med 41)</p>
+                            <td>
+                                <p>Beta-alanine</p>
                             </td>
-                            <td width="136" valign="top">
-                                <p>2 billion</p>
+                            <td>
+                                <p>1.2 g</p>
                             </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><em>Lactoferrin</em></p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>100 mg</p>
+                            <td>
+                                <p>24 g</p>
                             </td>
                         </tr>
                         <tr>
-                            <td width="273" valign="top">
-                                <p><strong>Total</strong></p>
+                            <td>
+                                <p>Ascorbic acid (Vitamin C)</p>
                             </td>
-                            <td width="136" valign="top">
-                                <p><strong>10 billion CFU</strong></p>
+                            <td>
+                                <p>80mg</p>
+                            </td>
+                            <td>
+                                <p>1.6 g</p>
                             </td>
                         </tr>
                         <tr>
-                            <td colspan="2">
-                                <p>
-                                    <strong>Excipient Ingredients</strong>
-                                </p>
-                                <p>Cellulose-Microcrystalline, Silica, Magnesium Stearate.</p>
+                            <td>
+                                <p>L-Tyrosine</p>
+                            </td>
+                            <td>
+                                <p>200 mg</p>
+                            </td>
+                            <td>
+                                <p>4 g</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Guarana (Paullinia cupana kunth) dried seeds powder</p>
+                            </td>
+                            <td>
+                                <p>1 g</p>
+                            </td>
+                            <td>
+                                <p>20 g</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Nicotinic acid (Vitamin B3)</p>
+                            </td>
+                            <td>
+                                <p>20 mg</p>
+                            </td>
+                            <td>
+                                <p>400 mg</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Pyridoxine 5-phosphate (Vitamin B6)</p>
+                            </td>
+                            <td>
+                                <p>3.2 mg</p>
+                            </td>
+                            <td>
+                                <p>64 mg</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Cyanocobalamin (Vitamin B12)</p>
+                            </td>
+                            <td>
+                                <p>4 mcg</p>
+                            </td>
+                            <td>
+                                <p>80 mcg</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Folic acid (Vitamin B9)</p>
+                            </td>
+                            <td>
+                                <p>250 mcg</p>
+                            </td>
+                            <td>
+                                <p>5 mg</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Tender green coconut water powder</p>
+                            </td>
+                            <td>
+                                <p>25 mg</p>
+                            </td>
+                            <td>
+                                <p>500 mg</p>
                             </td>
                         </tr>
                     </tbody>
                 </table>
+                <p class="medlab_product_content_sub_title">
+                    Excipient Ingredients:
+                </p>
+                <p>
+                    Citric acid
+                </p>
+                <p>
+                    Malic acid
+                </p>
+                <p>
+                    Flavour
+                </p>
+                <p>
+                    Stevia
+                </p>
+                <p>
+                    Silica
+                </p>
                 ',
             'cmi' =>
-                '
-                <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/English.pdf"target="_blank">
-                        Click Here For English CMI
-                    </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Arabic.pdf"target="_blank">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Russian.pdf"target="_blank">Перевод на русском языке</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Japanese.pdf"target="_blank">日本語翻訳</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/French.pdf"target="_blank">Traduction en français</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Chinese.pdf"target="_blank">中文翻译</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Italian.pdf"target="_blank">Traduzione italiana</a>
-                </p>
-                ',
+                'none',
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
-                    Dairy and Gluten Free
+                    Contains No Artificial Colours or Sweeteners
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Suitable for Vegetarians
                 </p>
                 ',
-            'price_retail' => 59.32,
-            'price_wholesale' => 35.95,
-            'image_path' => '/img/products/bioticnatal/bioticnatal.jpg',
-            'thumb_image_path' => '/img/products/bioticnatal/bioticnatal_thumb.jpg',
+            'price_retail' => 40.29,
+            'price_wholesale' => 24.40,
+            'image_path' => '/img/products/nos/nos.png',
+            'thumb_image_path' => '/img/products/nos/nos_thumb.png',
             'in_stock' => true,
-            'slug' => 'bioticnatal'
+            'slug' => 'NOS'
         ]);
 
         Model::reguard();
