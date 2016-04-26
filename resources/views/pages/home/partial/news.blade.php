@@ -17,7 +17,7 @@
                     <div class="medlab_news_item_body">
                         <img src="/img/products/nos/nos_thumb.png" alt="NOS Featured product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/sb-5b" class="medlab_news_content_link">
+                            <a href="/nutraceuticals/products/nos" class="medlab_news_content_link">
                                 New - NOS <small>Nitric Oxide Support</small>
                             </a>
                         </h2>
