@@ -26,6 +26,9 @@
                             and optimise exercise performance. Creatine, L-arginine and the B vitamins support energy production during
                             strenuous exercise while beta-alanine helps to increase muscle carnosine levels.
                         </p>
+                        <p class="medlab_news_content_paragraph">
+                            <a href="/nutraceuticals/products/nos" class="medlab_news_content_link">More Information</a>
+                        </p>
                         <img src="/img/products/sb_5b/sb5b_thumb.png" alt="SB5B Featured product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/sb-5b" class="medlab_news_content_link">
