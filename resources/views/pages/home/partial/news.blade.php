@@ -258,7 +258,7 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="https://nutritionmedicine.org.au/">
+                                <a href="https://nutritionmedicine.org.au/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
                                         Dr Samantha Coulson will be contributing to the scientific program.
                                     </div>
@@ -268,7 +268,7 @@
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.gpce.com.au/">
+                                <a href="http://www.gpce.com.au/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
                                         Prof Luis Vitetta and Dr Samantha Coulson will be contributing to the scientific program.
                                     </div>
@@ -277,7 +277,16 @@
                                     </div>
                                 </a>
                             </li>
-
+                            <li class="medlab_news_sidebar_list_item">
+                                <a href="http://www.iddst.com/iddstkorea2016/" target="_blank">
+                                    <div class="medlab_news_sidebar_list_item_title">
+                                        Mr Sean Hall will be contributing to the scientific program in South Korea.
+                                    </div>
+                                    <div class="media-left media-middle">
+                                        <img width="100%" alt="Diet and Gut Health " src="/img/news/IDDST.png" target="_blank" >
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
