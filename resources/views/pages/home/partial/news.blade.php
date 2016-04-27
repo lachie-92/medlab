@@ -263,7 +263,7 @@
                                         Dr Samantha Coulson will be contributing to the scientific program.
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_conferences_list_item_image" alt="Diet and Gut Health " src="/img/news/Apr2016_nutrition_in_medicine.png" target="blank">
+                                        <img width="100%"  alt="Diet and Gut Health " src="/img/news/Apr2016_nutrition_in_medicine.png" target="blank">
                                     </div>
                                 </a>
                             </li>
@@ -273,7 +273,7 @@
                                         Prof Luis Vitetta and Dr Samantha Coulson will be contributing to the scientific program.
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_conferences_list_item_image" alt="Diet and Gut Health " src="/img/news/May2016_gpce_sydney.jpg" target="_blank" >
+                                        <img width="100%" alt="Diet and Gut Health " src="/img/news/May2016_gpce_sydney.jpg" target="_blank" >
                                     </div>
                                 </a>
                             </li>
