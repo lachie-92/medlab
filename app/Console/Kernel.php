@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
         \App\Console\Commands\OrderCleanUp::class,
         \App\Console\Commands\RegistrationCleanUp::class,
 
-        \App\Console\Commands\UpdateDeal::class,
+        \App\Console\Commands\UpdateCategory::class,
     ];
 
     /**

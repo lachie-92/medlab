@@ -1,24 +1,47 @@
 <?php
 
+namespace App\Console\Commands;
+
 use App\Category;
-use Illuminate\Database\Seeder;
-
-use App\Ingredient;
 use App\Product;
+use Illuminate\Console\Command;
 
-class CategoryProductChangesSeeder extends Seeder
+class UpdateCategory extends Command
 {
     /**
-     * Run the database seeds.
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'update:category';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Command for running temp codes';
+
+    /**
+     * Create a new command instance.
      *
      * @return void
      */
-    public function run()
+    public function __construct()
+    {
+        parent::__construct();
+    }
+
+    /**
+     * Execute the console command.
+     *
+     * @return mixed
+     */
+    public function handle()
     {
         $category_to_product = [
 
             'Anti-inflammatory' => [
-                'MultiBiotic 120\'s',
                 'MultiBiotic 60\'s',
                 'MultiBiotic 30\'s',
                 'BioClean EPA:DHA + Plant Sterols 120s',
@@ -52,7 +75,6 @@ class CategoryProductChangesSeeder extends Seeder
             'Gastrointestinal Support' => [
                 'W8Biotic Lemon & Lime',
                 'W8Biotic Strawberries & Cream',
-                'MultiBiotic 120\'s',
                 'MultiBiotic 60\'s',
                 'MultiBiotic 30\'s',
                 'GastroDaily',
@@ -66,7 +88,6 @@ class CategoryProductChangesSeeder extends Seeder
                 'BioticNatal'
             ],
             'Immunological Support' => [
-                'MultiBiotic 120\'s',
                 'MultiBiotic 60\'s',
                 'MultiBiotic 30\'s',
                 'GastroDaily',
@@ -146,7 +167,6 @@ class CategoryProductChangesSeeder extends Seeder
                 'BioticNatal'
             ],
             'Urogenital Support' => [
-                'MultiBiotic 120\'s',
                 'MultiBiotic 60\'s',
                 'MultiBiotic 30\'s'
             ],
