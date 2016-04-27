@@ -258,6 +258,9 @@ body {
 .medlab_news_sidebar_list_item_image {
   height: 75px; }
 
+.medlab_news_sidebar_conferences_list_item_image {
+  width: 100%; }
+
 .medlab_panel_container {
   padding-top: 20px; }
 
