@@ -341,6 +341,10 @@ Route::get('/efficacy/obesity-intestinal-inflammation-and-probiotics', function 
     return view('pages.efficacy.obesity-intestinal-inflammation-and-probiotics.index');
 });
 
+Route::get('/efficacy/role-of-bacteria-in-git-conditions', function () {
+    return view('pages.efficacy.role-of-bacteria-in-git-conditions.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Contact pages
