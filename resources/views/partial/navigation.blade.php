@@ -96,6 +96,7 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/scientific-team">Scientific Team</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/board-of-directors">Board of Director</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/letter-from-ceo">Letter From CEO</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/careers">Careers</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

@@ -323,6 +323,10 @@ Route::get('/about/letter-from-ceo', function () {
     return view('pages.about.letter-from-ceo.index');
 });
 
+Route::get('/about/careers', function () {
+    return view('pages.about.careers.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Efficacy pages
