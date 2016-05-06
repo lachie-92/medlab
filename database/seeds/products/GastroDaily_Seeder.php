@@ -21,6 +21,9 @@ class GastroDaily_Seeder extends Seeder
                 '
                 <h4 class="medlab_product_content_title">GastroDaily&trade;</h4>
                 <p>
+                    <strong>PATENT PENDING</strong>
+                </p>
+                <p>
                     GastroDaily&trade; is scientifically formulated to assist in supporting healthy gastrointestinal
                     and natural immunological function and to help relieve symptoms of medically diagnosed Irritable
                     Bowel Syndrome.

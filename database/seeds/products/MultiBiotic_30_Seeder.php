@@ -16,10 +16,10 @@ class MultiBiotic_30s_Seeder extends Seeder
 
             'xero_item_id' => 6,
             'product_name_index' => "MultiBiotic 30's",
-            'product_name' => 'MultiBiotic 30&#39;s',
+            'product_name' => 'MultiBiotic&trade; 30&#39;s',
             'short_description' =>
                 '
-                <h4 class="medlab_product_content_title">MultiBiotic 30&#39;s</h4>
+                <h4 class="medlab_product_content_title">MultiBiotic&trade; 30&#39;s</h4>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>

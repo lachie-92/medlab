@@ -16,10 +16,10 @@ class NRGBiotic_120s_Seeder extends Seeder
 
             'xero_item_id' => 7,
             'product_name_index' => "NRGBiotic 120's",
-            'product_name' => 'NRGBiotic 120&#39;s',
+            'product_name' => 'NRGBiotic&trade; 120&#39;s',
             'short_description' =>
                 '
-                <h4 class="medlab_product_content_title">NRGBiotic 120&#39;s</h4>
+                <h4 class="medlab_product_content_title">NRGBiotic&trade; 120&#39;s</h4>
                 <p>
                     <strong>PATENT PROTECTED</strong>
                 </p>

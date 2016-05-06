@@ -16,10 +16,10 @@ class Enbiotic_120s_Seeder extends Seeder
 
             'xero_item_id' => 2,
             'product_name_index' => "Enbiotic 120's",
-            'product_name' => 'Enbiotic 120&#39;s',
+            'product_name' => 'Enbiotic&trade; 120&#39;s',
             'short_description' =>
                 '
-                <h4 class="medlab_product_content_title">Enbiotic 120&#39;s</h4>
+                <h4 class="medlab_product_content_title">Enbiotic&trade; 120&#39;s</h4>
                 <p>
                     <strong>PATENT PROTECTED</strong>
                 </p>
