@@ -25,14 +25,15 @@ class UploadProduct extends Command
 
         Product::create([
 
-            'xero_item_id' => 23,
-            'product_name_index' => "NOS",
-            'product_name' => 'NOS <small>Nitric Oxide Support</small>',
+            'xero_item_id' => 24,
+            'product_name_index' => "Manuka-C",
+            'product_name' => 'Manuka-C&trade;',
             'short_description' =>
                 '
-                <h4 class="medlab_product_content_title">NOS <small>Nitric Oxide Support</small></h4>
+                <h4 class="medlab_product_content_title">Manuka-C&trade;</small></h4>
                 <p>
-                    A targeted pre-exercise sports food containing a selection of evidence-based ingredients combined to support and optimise exercise performance.
+                    Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
+                    ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
                 </p>
                 ',
             'patent' =>
@@ -44,101 +45,98 @@ class UploadProduct extends Command
             'general_summary' =>
                 '
                 <p>
-                    A targeted pre-exercise sports food containing a selection of evidence-based ingredients combined to support and optimise exercise performance.
-                    Creatine, L-arginine and the B vitamins support energy production during strenuous exercise while beta-alanine helps to increase muscle carnosine levels.
-                    The amino acid L-arginine is also the precursor for nitric oxide production, a signaling molecule involved in blood vessel relaxation and vasodilation.
-                    Coconut powder contains important electrolytes required during exercise and Guarana seed powder naturally contains caffeine.
+                    Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
+                    ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder. Ascorbic acid
+                    and zinc are vital for the optimal functioning of the immune system including the anti-microbial activity of white
+                    blood cells and are also important for wound healing. Glutathione assists with the physiological role of ascorbic
+                    acid within the cell, while Manuka honey has traditionally been used for its anti-bacterial, anti-viral and anti-fungal activity.
+
                 </p>
                 ',
             'practitioner_summary' =>
                 '
                 <p>
-                    <strong>L-Arginine</strong>
+                    Manuka-C&trade; is a novel combination of ingredients to support optimal immune system function containing a blend of three
+                    ascorbates to be gentle on the stomach. Ascorbic acid and glutathione are essential nutrients for optimal immune function,<sup>1-3</sup>
+                    ensuring effective anti-microbial and anti-inflammatory activity of white blood cells (WBC)<sup>2,4</sup> with glutathione aiding
+                    the physiological role of ascorbic acid recycling and activity within the cell. <sup>4-7</sup> Ascorbic acid together with zinc
+                    is also required for wound healing and healthy connective tissue function.<sup>1,3,8</sup> Manuka honey has been used for centuries
+                    in the treatment of infections having antimicrobial and anti-inflammatory activity.<sup>9-11</sup>
                 </p>
 
                 <p>
-                    L-arginine is a semi-essential amino acid with numerous metabolic roles within the body. It is a building block for proteins
-                    (hormones, histones, collagen and intra-cellular structural proteins) and the synthesis of creatine – the high-phosphate energy
-                    stores in cells. L-arginine is the precursor to nitric oxide (NO) synthesis, an important cellular signaling molecule involved
-                    in many physiological processes and is most well known as a powerful vasodilator of blood vessels that regulates
-                    blood flow (see Figure 1). NO also has anti-inflammatory, anti-microbial and anti-viral activity, playing an important role in
-                    immunological function.<sup>1-3</sup> Endothelium-derived NO causes vasorelaxation and inhibits platelet adhesion and aggregation, thus
-                    maintaining blood fluidity and preventing thrombosis.<sup>4,5</sup> Platelets also produce NO that inhibits platelet aggregation, adhesion to
-                    vascular endothelium, recruitment to growing thrombi and the formation of leukocyte-platelet aggregates.
-                    Endothelial dysfunction is a common trait of essentially all cardiovascular risk factors. Impaired NO-mediated endothelial function
-                    is characteristic of cardiovascular diseases, correlates with risk factor profiles and is an independent predictor of adverse cardiac
-                    events.<sup>3</sup> Ageing is associated with an increase in atherothrombotic conditions, including. hypertension, and it has been suggested
-                    that there is an age-related decline in nitric oxide (NO) production in arterial endothelium and platelets. It has been reported that exogenous
-                    administration of L-arginine restores NO bioavailability.<sup>3</sup>
+                    <strong><em>Specific Use:</em></strong>
                 </p>
 
                 <p>
-                    <img alt="How L-Arginine Works in the Body" src="/img/products/nos/nos_figure1.png" class="img-responsive"><br>
-                    <strong>Figure 1. Metabolic pathways of L-arginine.<sup>6</sup></strong> NO, nitric oxide; NOS, nitric oxide synthase.
+                    <strong>Ascorbic Acid:</strong>
                 </p>
 
                 <p>
-                    <strong>Creatine</strong>
+                    Ascorbic acid is a water-soluble vitamin essential for healthy immune system activity and can only be obtained from the
+                    diet due to lack of endogenous synthesis in humans. It is an important catalyst for extensive biochemical reactions and
+                    enzymatic processes, and further is a vital redox cofactor.<sup>3</sup> Pharmacokinetic data demonstrates that plasma ascorbic
+                    acid levels are tightly regulated, which significantly impacts on the bioavailability of orally administered vitamin C
+                    supplements.<sup>1</sup> Optimum bioavailability of ascorbic acid occurs between 200 – 500 mg per day and as the oral dosage
+                    increases, bioavailability decreases and excess ascorbic acid is excreted in urine. Plasma ascorbic acid levels plateau at a
+                    dose between 500 – 1000 mg and does not increase with increasing doses (see Figure 1).<sup>1</sup> Data demonstrates that
+                    circulating WBCs become saturated at an intake of 100 mg per day. Ascorbic acid bioavailability in plasma is near 100% at a
+                    single dose of 200 mg but at higher oral vitamin C doses, bioavailability declines significantly with a 1250 mg dose resulting
+                    in less than 50% bioavailability (see Figure 2).<sup>1</sup> As the oral dose of ascorbic acid increases so does its excretion
+                    in urine (see Figure 3). Elevated doses may have adverse consequences as a 1000 mg dose has been shown to elevate urine uric
+                    acid and oxalate levels.  High doses of ascorbic acid are not recommended, as there is no clear benefit of excess excreted
+                    or unabsorbed vitamin C.<sup>1</sup> Physiologically, ascorbic acid is required for the effective anti-microbial function of
+                    WBCs acting as a reducing agent. It is also a key compensatory factor in the regulation of plasma glutathione concentration.<sup>7</sup>
+                    The prophylactic use of ascorbic acid may reduce the incidence, duration and severity of the common cold. <sup>8,12</sup>
+                </p>
+                <br>
+                <p>
+                    <img alt="Figure 1-3" src="/img/products/manuka-c/manuka_figure1-3.png" class="img-responsive"><br>
                 </p>
 
                 <p>
-                    Extensive research has been conducted on the ergogenic effects of creatine on improving physical and cognitive
-                    performance and increasing fat free mass, however the exact mechanisms are not clear.<sup>7</sup> Creatine increases cellular
-                    phosphocreatine content and together act as an intracellular buffer for adenosine triphosphate (ATP) and also as an
-                    energy shuttle for the movement of high-energy phosphates from mitochondrial sites of production to cytoplasmic sites
-                    of utilisation in a variety of cells and creatine must be continuously replenished (see Figure 2).<sup>8</sup>
-                    Creatine can be synthesised in the body from arginine and glycine, but muscle cells cannot synthesise creatine and so
-                    depend on the uptake from the circulation which can further be promoted by exercise.<sup>7,8</sup> Creatine is particularly found
-                    in cells with high and fluctuating energy demands, such as skeletal muscle and the heart.<sup>9</sup> The ergogenic affects of
-                    creatine are evident for high-intensity exercise of short duration and has been shown to increase muscle mass when
-                    combined with an exercise program.<sup>7,9</sup>
+                    <strong>Glutathione:</strong>
                 </p>
 
                 <p>
-                    <img alt="Muscle Metabolism" src="/img/products/nos/nos_figure2.png" class="img-responsive"><br>
-                    <strong>Figure 2. Some ATP is stored in a resting muscle and as contraction starts it is used up in seconds and more ATP
-                    is generated from creatine phosphate.<sup>10</sup></strong> ATP - adenosine triphosphate.
+                    Glutathione is an intrinsic tripeptide essential for optimal immune function; this is exemplified predominantly in
+                    its capacity to facilitate cellular protection and repair as a vital cofactor in the redox process.<sup>2,6</sup>
+                    Glutathione is critical for the physiological role of ascorbic acid in white blood cell anti-microbial activity.
+                    When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form Dehydroascorbic acid that is
+                    transported into the neutrophil and rapidly reduces back to ascorbic acid within the cell by the redox enzyme
+                    glutaredoxin that requires glutathione as a cofactor.<sup>13</sup> As a result of the recycling of ascorbic acid,
+                    the internal concentration of ascorbic acid within the WBC increases 10-fold in which it functions to quench oxidants
+                    generated during phagocytosis, a natural and controlled physiological process (see Figure 4).<sup>13</sup>
                 </p>
 
                 <p>
-                    <strong>Beta-Alanine</strong>
+                    <img alt="Figure 4" src="/img/manuka-c/manuka_figure4.png" class="img-responsive"><br>
                 </p>
 
                 <p>
-                    Beta-alanine is a non-essential amino acid and the rate-limiting precursor to carnosine synthesis in muscle cells,
-                    an important physiological buffer that readily accepts protons during contraction-induced acidosis. Supplementation
-                    of beta-alanine is required to achieve the active daily dose required to significantly elevate intramuscular carnosine
-                    and it increases dose-dependently. Increasing muscle carnosine concentration may improve athletic performance in exercise
-                    tasks that accrue a high level of muscle acidosis, improving high-intensity intermittent exercise performance and time to fatigue.
-                    Carnosine is also involved in maintaining ATP stores in muscle cells and skeletal muscle cell contraction.<sup>11,12</sup>
-                    When combined with creatine, there is an additive effect on reducing fatigue and training intensity.<sup>12</sup>
+                    <strong>Zinc:</strong>
                 </p>
 
                 <p>
-                    <strong>Tyrosine and Vitamins</strong>
+                    Zinc is necessary for numerous metabolic functions, particularly gene expression; cell growth and differentiation.<sup>8</sup>
+                    It is a critical nutrient for immune function due to its role in supporting a range of immune reactions.<sup>14</sup> Zinc is
+                    a vital component of many proteins, over 300 enzymes; and is regarded as a key nutrient in the support of cellular mediators
+                    of innate immunity.<sup>14</sup> Zinc functions in the maturation of T cells and is also responsible for the activity of
+                    natural killer cells as well as waste management in WBC.<sup>15</sup> Zinc together with ascorbic acid is shown to produce
+                    additive effects in supporting immune function; and together have shown to be effective in reducing the severity
+                    and/or duration of the common cold.<sup>8</sup>
                 </p>
 
                 <p>
-                    Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance;
-                    namely dopamine, noradrenaline and adrenaline. Tyrosine may aid in mental activity and in improving cognitive performance under
-                    stressful conditions due to its direct role in increasing catecholamine synthesis in the brain.<sup>13</sup> The B vitamins are involved in
-                    the transformation of dietary energy sources such as carbohydrates, fats and proteins into cellular energy in the form of ATP,
-                    functioning as cofactors and coenzymes for numerous enzymatic reactions. Vitamin C is required for the synthesis of catecholamine
-                    hormones, dopamine, adrenaline and noradrenaline.<sup>14</sup>
+                    <strong>Manuka Honey:</strong>
                 </p>
 
                 <p>
-                    <strong>Guarana Seed Powder</strong>
-                </p>
-
-                <p>
-                    Caffeine is widely used as an enhancement for athletic performance via its broad range of metabolic, hormonal and physiologic effects.
-                    Guarana is a natural source of caffeine. Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.
-                    Mechanisms include stimulation of the sympathetic nervous system, increase intracellular Ca<sup>2+</sup> concentrations and spare
-                    glycogen via increasing lipolysis.<sup>15</sup> Furthermore, caffeine affects cognition, mood and alertness via binding to adenosine
-                    receptors in the brain. Adenosine, a neuromodulator, binds to adenosine receptors and slows nerve cell activity, whereas caffeine
-                    blocks adenosine receptors and speeds up the activity of cells.<sup>15,16</sup> Research has demonstrated that small to moderate doses
-                    (i.e. 3 – 6 mg•kg-1) of caffeine has superior ergogenic effectiveness than higher doses (9 mg•kg-1) and also reduces any negative side-effects.<sup>15</sup>
+                    Manuka honey has been used as a traditional anti-microbial therapy for the treatment of infection.<sup>11</sup> Honey has
+                    well documented anti-bacterial activity,<sup>9</sup> together with anti-viral and anti-fungal properties.<sup>16</sup>
+                    The anti-inflammatory effects of Manuka honey are effective in assisting the recovery from the common cold;<sup>17</sup>
+                    as well as treating symptoms of upper-respiratory tract infections.<sup>18</sup> Emerging evidence has illustrated that
+                    honey added to oral rehydration solution (ORS) improved recovery in children following episodes of diarrheal illness.<sup>10</sup>
                 </p>
 
                 <p>
@@ -151,11 +149,10 @@ class UploadProduct extends Command
 
                 <p>
                     <ul>
-                        <li>Those wanting to improve exercise performance and time to fatigue</li>
-                        <li>Those wanting to improve cognitive performance</li>
-                        <li>Those wanting to improve cellular energy metabolism</li>
-                        <li>Those wanting to improve blood flow, tissue oxygenation and blood pressure</li>
-                        <li>The aging population who may demonstrate reduced ability to synthesise NO</li>
+                        <li>Those requiring immune support.</li>
+                        <li>Those seeking symptomatic relief from upper respiratory tract infections.</li>
+                        <li>Those requiring dietary vitamin C support.</li>
+                        <li>For healthy collagen production.</li>
                     </ul>
                 </p>
 
@@ -164,47 +161,42 @@ class UploadProduct extends Command
                 </p>
 
                 <p>
-                    Not to be used as a sole source of nutrition. Should be used in conjunction with a balanced diet and appropriate exercise program.
-                    Not suitable for children under 15 years of age or pregnant women. Should only be used under medical or dietetic supervision.
-                    Contains not less than 30 mg of caffeine per serve.
+                    Not to be used in children under 2 years of age without medical advice. Not suitable for infants under
+                    the age of twelve months. Adults only. Not recommended for use by pregnant and lactating women. Vitamin
+                    supplements should not replace a balanced diet. Contains sugars. Always read the label. Use only as directed.
                 </p>
                 ',
             'references' =>
                 '
                 <ol class="medlab_product_reference_list">
-                    <li>Hristina K, Langerholc T, Trapecar M. Novel metabolic roles of L-arginine in body energy metabolism and possible clinical applications. <em>J Nutr, Health & Aging</em> 2014;18:213-18.</li>
-                    <li>Zhao Y, Vanhoutte PM, Leung, SWS. Vascular nitric oxide: beyond eNOS. <em>J Pharmacol Sci </em> 2015;129:83-94.</li>
-                    <li>Lorin J, Zeller M, Guilland JC, et al. Arginine and nitric oxide synthase: regulatory mechanisms and cardiovascular aspects. <em>Mol Nutr Food Res</em> 2014;58:101-116.</li>
-                    <li>Goubareva I, Gkalaiagkousi E, Shah A, et al. Age decreases nitric oxide synthesis and responsiveness in human platelets and increases formation of monocyte-platelet aggregates. <em>Cardiovascular Res</em> 2007;75:793-802.</li>
-                    <li>Taddei S, Virdis A, Ghiadoni L, et al. Age-related reduction of NO availability and oxidative stress in humans. <em>Hypertension</em> 2001;38:274-279.</li>
-                    <li>Luiking YC, Poeze M, Dejong CH, et al. Sepsis:an arginine deficiency state? <em>Crit Care Med</em> 2004;32:2135-45.</li>
-                    <li>Cooper R, Naclerio F, Allgrove J, et al. Creatine supplementation with specific view to exercise/sports performance: an update. <em>J Int Soc Sports Nutr</em> 2012;9:33.</li>
-                    <li>Terjung RL, Clarkson P, Eichner ER, et al. American college of sports medicine roundtable. The physiological and health effects of oral creatine supplementation. <em>Med Sci Sports Exerc</em> 2000;32:706-717.</li>
-                    <li>Brosnan JT, Brosnan ME. Creatine: endogenous metabolite, dietary and therapeutic supplementation. <em>Annu Rev Nutr</em> 2007;27:241-61.</li>
-                    <li>Muscle fiber contraction and relaxation. <em>Openstax CNX.</em> http://cnx.org/contents/EtWWcJM-@3/Muscle-Fiber-Contraction-and-R (accessed 14th April 2016).</li>
-                    <li>Bellinger PM. &beta;-alanine supplementation for athletic performance: an update. <em>J Strength Cond Res</em> 2013;28:1751-1770.</li>
-                    <li>Culbertson JY, Kreider RB, Greenwood M, et al. Effects of beta-alanine on muscle carnosine and exercise performance: a review of the current literature. <em>Nutrients</em> 2010;2:75-98.</li>
-                    <li>Luckose F, Pandey MC, Radhakrishna. Effects of amino acid derivatives on physical, mental and physiological activities. <em>Crit Rev Food Sci Nutr</em> 2015;55:1793-1807.</li>
-                    <li>Huskisson E, Maggini S, Ruf M. The role of vitramins and minerals in energy metabolism and well-being. <em>J Int Med Res</em> 2007;35:277-289.</li>
-                    <li>Sokmen B, Armstrong LE, Kraemer WJ, et al. Caffeine use in sports: considerations for the athlete. <em>J Strength Cond Res</em> 2008;22:978-986.</li>
-                    <li>Lorist MM, Tops M. Caffeine, fatigue and cognition. <em>Brain Cog</em> 2003;53:82-94.</li>
+                    <li>Levine M, Conry-Cantilena C, Wang Y, et al. Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance. <em>PNAS</em> 1996; 93:3704-3709.</li>
+                    <li>Johnston C, Meyer S, Srilakshmi JC. Vitamin C Elevates Red Blood Cell Glutathione in Healthy Adults. <em>Am J Clin Nutr</em> 1993; 58:103-105.</li>
+                    <li>Mendiratta S, Qu Z, May J. Erythrocyte Ascorbate Recycling: Antioxidant Effects in Blood. <em>Free Rad Bio & Med</em> 1998;2 4:798-797.</li>
+                    <li>Lenton K, Sané A, et al. Vitamin C Augments Lymphocyte Glutathione in Subjects with Ascorbate Deficiency. <em>Am J Clin Nutr</em> 2003; 77:189-195.</li>
+                    <li>Carr A, Bozonet S, et al. Human Skeletal Muscle Ascorbate is Highly Responsive to Changes in Vitamin C Intake and Plasma Concentrations. <em>Am J Clin Nutr</em> 2013; 97:800-807.</li>
+                    <li>Richie R, Nichenametla S, et al. Randomized Controlled Trial of Oral Glutathione Supplementation on Body Stores of Glutathione. <em>Eur J Nutr</em> 2015; 54:251-263.</li>
+                    <li>Rumsey S, Levine M. Absorption, Transport, and Disposition of Ascorbic Acid in Humans. <em>Nutr Biochem</em> 1998; 9:116–130.</li>
+                    <li>Wintergerst E, Maggini S, Hornig D. Immune-Enhancing Role of Vitamin C and Zinc and Effect on Clinical Conditions. <em>An Nutr Metab</em> 2006; 50:85-94.</li>
+                    <li>Israili Z. Antimicrobial Properties of Honey. <em>Am J Therapeu</em> 2014; 21:304–323.</li>
+                    <li>Abdulrhman MA, Mekawy MA, et al. Bee Honey Added to the Oral Rehydration Solution in Treatment of Gastroenteritis in Infants and Children. <em>J Med Food</em> 2010; 13:605-609.</li>
+                    <li>Zumla A, Lulat A. Honey--a Remedy Rediscovered. <em>J Royal Soc Med</em> 1989; 82:384-385.</li>
+                    <li>Hemilä H, Chalker E. Vitamin C for preventing and treating the common cold. <em>Cochrane Database Syst Rev</em> 2013; 1:CD000980.</li>
+                    <li>Padayatty SJ, Levine M. New insights into the physiology and pharmacology of vitamin C. <em>CMAJ</em> 2001; 164:353-355.</li>
+                    <li>Rink L, Haase H. Zinc homeostasis and immunity. <em>Trends in Immu</em> 2007; 28:1-4.</li>
+                    <li>Wellinghausen N, Kirchner H, Rink L. The immunobiology of zinc. <em>Immunol Today</em> 1997; 18:519-521.</li>
+                    <li>Eteraf-Oskouei T, Najafi M. Traditional and Modern Uses of Natural Honey in Human Diseases: A Review. <em>Iran J Basic Med Sci</em> 2013; 16:731–742.</li>
+                    <li>Patel S, Cichello S. Manuka honey: An emerging natural food with medicinal use. <em>Brain Cog</em> 2003;53:82-94.</li>
+                    <li>Leong A, Herst P, Harper J. Indigenous New Zealand honeys exhibit multiple anti-inflammatory activities. <em>Innate Immunol</em> 2011-2012; 18:459-466.</li>
                 </ol>
                 ',
             'side_effects' =>
                 '
                 <p>
                     <ul>
-                        <li>Caffeine may cause side-effects in some individuals including dizziness, headache, jitteriness, nervousness, insomnia and gastrointestinal distress.</li>
-                        <li>Beta-alanine may cause paraesthesia - pins and needles of the skin in some individuals.</li>
-                        <li>Creatine may cause muscles to retain water. Do not supplement creatine in individuals with kidney disease.</li>
-                        <li>Do not supplement L-arginine in individuals with Guanidinoacetate methyltransferase deficiency and avoid in people with herpes virus.</li>
-                        <li>
-                            L-arginine may decrease blood pressure therefore caution is required in individuals taking blood pressure medications. Medications that
-                            increase blood flow to the heart (Nitrates) interact with L-arginine.
-                        </li>
-                        <li>
-                            Tyrosine may decrease how much levodopa the body absorbs and it is advised to not combine the two.
-                        </li>
+                        <li>Ascorbic acid may increase the absorption of aluminum found in antacids.</li>
+                        <li>Taking ascorbic acid with estrogens may increase the effects of estrogens.</li>
+                        <li>Taking large amounts of ascorbic acid may decrease the effectiveness of fluphenazine (Prolixin).</li>
+                        <li>Zinc may decrease how much antibiotic the body absorbs.</li>
                     </ul>
                 </p>
                 ',
@@ -214,18 +206,14 @@ class UploadProduct extends Command
             'dosage_information' =>
                 '
                 <h4 class="medlab_product_content_title">
-                    Serving Information
+                    Direction of Use:
                 </h4>
                 <p>
-                    Mix one scoop (5 g) into 200 mL of cold water and drink 20 minutes prior to exercising. To be taken once per day.
+                    Mix one 5 g dose (1 teaspoon) into 200 mL of water and drink immediately, one (1) to two (2) times per day or as directed by your healthcare practitioner.
                 </p>
                 ',
             'ingredients' =>
                 '
-                <a class="product_modal_link" href="#">
-                    <img class="product_image" alt="NOS Ingredient Label" src="/img/products/nos/ingredient_label.png" width="100%"/>
-                </a>
-                <br><br>
                 <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
                     <tbody>
                         <tr>
@@ -236,134 +224,116 @@ class UploadProduct extends Command
                             </td>
                             <td>
                                 <p>
-                                    <strong>Per serve (5g)</strong>
+                                    <strong>Each 5 g dose (1 teaspoon) contains:</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    Ascorbic acid
                                 </p>
                             </td>
                             <td>
                                 <p>
-                                    <strong>Per 100g</strong>
+                                    400 mg
                                 </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <p>Creatine monohydrate</p>
+                                <p>
+                                    Zinc ascorbate
+                                </p>
                             </td>
                             <td>
-                                <p>1 g</p>
-                            </td>
-                            <td>
-                                <p>20 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>L-arginine</p>
-                            </td>
-                            <td>
-                                <p>1 g</p>
-                            </td>
-                            <td>
-                                <p>20 g</p>
+                                <p>
+                                    59.4 mg
+                                </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <p>Beta-alanine</p>
+                                <p style="margin-left:2em">
+                                    Equiv. ascorbic acid
+                                </p>
                             </td>
                             <td>
-                                <p>1.2 g</p>
-                            </td>
-                            <td>
-                                <p>24 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Ascorbic acid (Vitamin C)</p>
-                            </td>
-                            <td>
-                                <p>80mg</p>
-                            </td>
-                            <td>
-                                <p>1.6 g</p>
+                                <p>
+                                    50 mg
+                                </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <p>L-Tyrosine</p>
+                                <p style="margin-left:2em">
+                                    Equiv. zinc
+                                </p>
                             </td>
                             <td>
-                                <p>200 mg</p>
-                            </td>
-                            <td>
-                                <p>4 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Guarana (Paullinia cupana kunth) dried seeds powder</p>
-                            </td>
-                            <td>
-                                <p>1 g</p>
-                            </td>
-                            <td>
-                                <p>20 g</p>
+                                <p>
+                                    9.4 mg
+                                </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <p>Nicotinic acid (Vitamin B3)</p>
+                                <p>
+                                    Sodium ascorbate
+                                </p>
                             </td>
                             <td>
-                                <p>20 mg</p>
-                            </td>
-                            <td>
-                                <p>400 mg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Pyridoxine 5-phosphate (Vitamin B6)</p>
-                            </td>
-                            <td>
-                                <p>3.2 mg</p>
-                            </td>
-                            <td>
-                                <p>64 mg</p>
+                                <p>
+                                    56.6 mg
+                                </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <p>Cyanocobalamin (Vitamin B12)</p>
+                                <p style="margin-left:2em">
+                                    Equiv. ascorbic acid
+                                </p>
                             </td>
                             <td>
-                                <p>4 mcg</p>
-                            </td>
-                            <td>
-                                <p>80 mcg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Folic acid (Vitamin B9)</p>
-                            </td>
-                            <td>
-                                <p>250 mcg</p>
-                            </td>
-                            <td>
-                                <p>5 mg</p>
+                                <p>
+                                    50 mg
+                                </p>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <p>Tender green coconut water powder</p>
+                                <p>
+                                    <strong>Total ascorbic acid</strong>
+                                </p>
                             </td>
                             <td>
-                                <p>25 mg</p>
+                                <p>
+                                    <strong>500 mg</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                   Honey powder (Manuka honey)
+                                </p>
                             </td>
                             <td>
-                                <p>500 mg</p>
+                                <p>
+                                    2.5 g
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <strong>Glutathione (reduced) - Setria&reg;</strong>
+                                </p>
+                            </td>
+                            <td>
+                                <p>
+                                    <strong>100 mg</strong>
+                                </p>
                             </td>
                         </tr>
                     </tbody>
@@ -372,23 +342,36 @@ class UploadProduct extends Command
                     Excipient Ingredients:
                 </p>
                 <p>
-                    Citric acid
+                    Silica
                 </p>
                 <p>
-                    Malic acid
-                </p>
-                <p>
-                    Flavour
+                    Maltodextrin (corn)
                 </p>
                 <p>
                     Stevia
                 </p>
                 <p>
-                    Silica
+                    Tartaric Acid
+                </p>
+                <p>
+                    Citric Acid
+                </p>
+                <p>
+                    Effersoda
+                </p>
+                <p>
+                    Orange and Mango flavours
                 </p>
                 ',
             'cmi' =>
-                'none',
+                '
+                <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Manuka-C+CMI+.pdf"target="_blank">
+                        Click Here For English CMI
+                    </a>
+                </p>
+                ',
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
@@ -398,12 +381,12 @@ class UploadProduct extends Command
                     Suitable for Vegetarians
                 </p>
                 ',
-            'price_retail' => 40.29,
-            'price_wholesale' => 24.40,
-            'image_path' => '/img/products/nos/nos.png',
-            'thumb_image_path' => '/img/products/nos/nos_thumb.png',
+            'price_retail' => 27.50,
+            'price_wholesale' => 18.33,
+            'image_path' => '/img/products/manuka-c/manuka-c.png',
+            'thumb_image_path' => '/img/products/manuka-c/mauka-c_thumb.png',
             'in_stock' => true,
-            'slug' => 'NOS'
+            'slug' => 'manuka-c'
         ]);
 
         Model::reguard();
