@@ -25,6 +25,8 @@
                     <br>
                     <label>Toll Free: </label> 1300 369 570
                     <br>
+                    <label>Phone: </label> 02 8188 0311
+                    <br>
                     <label>Fax: </label> 02 9699 3347
                     <br>
                     <label>Email: </label> <a class="medlab_panel_content_link" href="mailto:hello@medlab.co">hello@medlab.co</a>
