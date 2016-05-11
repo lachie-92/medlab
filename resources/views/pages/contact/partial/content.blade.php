@@ -23,9 +23,9 @@
                     Australia 2015
                     <br>
                     <br>
-                    <label>Phone: </label>
-                    <br>
                     <label>Toll Free: </label> 1300 369 570
+                    <br>
+                    <label>Fax: </label> 02 9699 3347
                     <br>
                     <label>Email: </label> <a class="medlab_panel_content_link" href="mailto:hello@medlab.co">hello@medlab.co</a>
                     <br>
