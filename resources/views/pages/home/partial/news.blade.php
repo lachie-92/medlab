@@ -32,9 +32,6 @@
                             <a href="/nutraceuticals/products/manuka-c" class="medlab_news_content_link">More Information</a>
                         </p>
 
-
-
-
                         <img src="/img/products/nos/nos_thumb.png" alt="NOS Featured product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/nos" class="medlab_news_content_link">
@@ -63,37 +60,7 @@
                         <p class="medlab_news_content_paragraph">
                             <a href="/nutraceuticals/products/sb-5b" class="medlab_news_content_link">More Information</a>
                         </p>
-                        <img src="/img/products/bioticnatal/bioticnatal_thumb.jpg" alt="BioticNatal Featured Product" height="150" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/bioticnatal" class="medlab_news_content_link">
-                                New - BioticNatal&trade;
-                            </a>
-                        </h2>
-                        <p class="medlab_news_content_paragraph">
-                            BioticNatal™ is intended for both the pregnant and breast feeding mother aiding to support
-                            and maintain the integrity and function of her own GIT and her immune system. BioticNatal™
-                            may also support breast milk colonisation of beneficial bacterial species that can be
-                            transferred to the breast fed infant.
-
-                        </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/bioticnatal" class="medlab_news_content_link">More Information</a>
-                        </p>
-                        <img src="/img/products/nanocelle_activated_b12/activated_b12_thumb.png" alt="NanoCelle Activated B12 Featured Product" height="150" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/nanocelle-activated-b12" class="medlab_news_content_link">
-                                New - NanoCelle&trade; Activated B12
-                            </a>
-                        </h2>
-                        <p class="medlab_news_content_paragraph">
-                            NanoCelle&trade; Activated B12 may assist in the management of dietary vitamin B12 deficiency as may occur
-                            in vegetarians, vegans, the elderly, and those taking certain medications that lower stomach acid.
-                            Methylcobalamin is a biologically active form of vitamin B12 that is involved in the methylation of
-                            homocysteine to methionine, therefore helping to lower serum homocysteine levels.
-                        </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/nanocelle-activated-b12" class="medlab_news_content_link">More Information</a>
-                        </p>
+                        
                     </div>
                 </div>
             </div>
