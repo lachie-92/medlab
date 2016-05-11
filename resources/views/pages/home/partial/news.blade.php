@@ -15,6 +15,26 @@
                         FEATURED PRODUCT
                     </div>
                     <div class="medlab_news_item_body">
+
+                        <img src="/img/products/manuka-c/mauka-c_thumb.png" alt="Manuka-C Featured product" height="150" width="auto" style="float: right;"/>
+                        <h2 class="medlab_news_content_title">
+                            <a href="/nutraceuticals/products/manuka-c" class="medlab_news_content_link">
+                                New - Manuka-C
+                            </a>
+                        </h2>
+                        <p class="medlab_news_content_paragraph">
+                            Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
+                            ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder. Ascorbic acid
+                            and zinc are vital for the optimal functioning of the immune system including the anti-microbial activity of white
+                            blood cells and are also important for wound healing.
+                        </p>
+                        <p class="medlab_news_content_paragraph">
+                            <a href="/nutraceuticals/products/manuka-c" class="medlab_news_content_link">More Information</a>
+                        </p>
+
+
+
+
                         <img src="/img/products/nos/nos_thumb.png" alt="NOS Featured product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/nos" class="medlab_news_content_link">
