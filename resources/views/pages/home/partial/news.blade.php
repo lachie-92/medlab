@@ -19,7 +19,7 @@
                         <img src="/img/products/manuka-c/mauka-c_thumb.png" alt="Manuka-C Featured product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/manuka-c" class="medlab_news_content_link">
-                                New - Manuka-C
+                                New - Manuka-C&trade;
                             </a>
                         </h2>
                         <p class="medlab_news_content_paragraph">
@@ -60,7 +60,7 @@
                         <p class="medlab_news_content_paragraph">
                             <a href="/nutraceuticals/products/sb-5b" class="medlab_news_content_link">More Information</a>
                         </p>
-                        
+
                     </div>
                 </div>
             </div>
