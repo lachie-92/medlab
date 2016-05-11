@@ -52,6 +52,7 @@ class ModifyProduct extends Command
 
             [
                 'product_name_index' => "Manuka-C",
+                'product_name' => 'Manuka-C&trade;',
                 'practitioner_summary' =>
                     '
                     <p>
@@ -60,11 +61,7 @@ class ModifyProduct extends Command
                         ensuring effective anti-microbial and anti-inflammatory activity of white blood cells (WBC)<sup>2,4</sup> with glutathione aiding
                         the physiological role of ascorbic acid recycling and activity within the cell. <sup>4-7</sup> Ascorbic acid together with zinc
                         is also required for wound healing and healthy connective tissue function.<sup>1,3,8</sup> Manuka honey has been used for centuries
-                        in the treatment of infections having antimicrobial and anti-inflammatory activity.<sup>9-11</sup>
-                    </p>
-
-                    <p>
-                        <strong><em>Specific Use:</em></strong>
+                        in the treatment of infections having anti-microbial and anti-inflammatory activity.<sup>9-11</sup>
                     </p>
 
                     <p>
@@ -101,7 +98,7 @@ class ModifyProduct extends Command
                         Glutathione is an intrinsic tripeptide essential for optimal immune function; this is exemplified predominantly in
                         its capacity to facilitate cellular protection and repair as a vital cofactor in the redox process.<sup>2,6</sup>
                         Glutathione is critical for the physiological role of ascorbic acid in white blood cell anti-microbial activity.
-                        When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form Dehydroascorbic acid that is
+                        When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form dehydroascorbic acid that is
                         transported into the neutrophil and rapidly reduces back to ascorbic acid within the cell by the redox enzyme
                         glutaredoxin that requires glutathione as a cofactor.<sup>13</sup> As a result of the recycling of ascorbic acid,
                         the internal concentration of ascorbic acid within the WBC increases 10-fold in which it functions to quench oxidants
@@ -109,8 +106,18 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        <img alt="Figure 4" src="/img/manuka-c/manuka_figure4.png" class="img-responsive"><br>
+                        <img alt="Figure 4" src="/img/products/manuka-c/manuka_figure4.png" width="400px;" class="img-responsive center-block"><br>
+                        <strong>Figure 4. Dehydroascorbic acid (DHA) and ascorbic acid (AA) transport and recycling in neutrophils.<sup>7</sup></strong>
+                        AA and DHA are transported differently into the cell. With activation (i.e. bacterial exposure), neutrophils secrete reactive
+                        oxygen species that oxidize extracellular AA to DHA that is then rapidly transported into the neutrophil via the glucose
+                        transporters, GLUT1 and GLUT3. Intracellular DHA is immediately reduced to AA via Glutaredoxin (GRX), a glutathione requiring redox enzyme.
+                        As a result of DHA transport and reduction, a 10-fold higher AA internal concentration is achieved compared to activity of the AA
+                        transporter alone. AA may quench oxidants generated during phagocytosis, a regulated physiological occurrence.
                     </p>
+                    <p>
+                        GSH: reduced glutathione; GSSG: oxidized glutathione; GRD: glutathione reductase
+                    </p>
+                    <br>
 
                     <p>
                         <strong>Zinc:</strong>
@@ -163,6 +170,24 @@ class ModifyProduct extends Command
                         Not to be used in children under 2 years of age without medical advice. Not suitable for infants under
                         the age of twelve months. Adults only. Not recommended for use by pregnant and lactating women. Vitamin
                         supplements should not replace a balanced diet. Contains sugars. Always read the label. Use only as directed.
+                    </p>
+                    ',
+                'general_summary' =>
+                    '
+                    <p>
+                        Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
+                        ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder. Ascorbic acid
+                        and zinc are vital for the optimal functioning of the immune system including the anti-microbial activity of white
+                        blood cells and are also important for wound healing. Glutathione assists with the physiological role of ascorbic
+                        acid within the cell, while Manuka honey has traditionally been used for its anti-bacterial, anti-viral and anti-fungal activity.
+                    </p>
+                    ',
+                'short_description' =>
+                    '
+                    <h4 class="medlab_product_content_title">Manuka-C&trade;</small></h4>
+                    <p>
+                        Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
+                        ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
                     </p>
                     ',
                 'ingredients' =>
@@ -314,6 +339,16 @@ class ModifyProduct extends Command
                     </p>
                     <p>
                         Orange and Mango flavours
+                    </p>
+                    ',
+
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Direction of Use:
+                    </h4>
+                    <p>
+                        Mix one 5 g dose (1 level teaspoon) into 200 mL of water and drink immediately, one (1) to two (2) times per day or as directed by your healthcare practitioner.
                     </p>
                     ',
             ],

@@ -61,11 +61,7 @@ class UploadProduct extends Command
                     ensuring effective anti-microbial and anti-inflammatory activity of white blood cells (WBC)<sup>2,4</sup> with glutathione aiding
                     the physiological role of ascorbic acid recycling and activity within the cell. <sup>4-7</sup> Ascorbic acid together with zinc
                     is also required for wound healing and healthy connective tissue function.<sup>1,3,8</sup> Manuka honey has been used for centuries
-                    in the treatment of infections having antimicrobial and anti-inflammatory activity.<sup>9-11</sup>
-                </p>
-
-                <p>
-                    <strong><em>Specific Use:</em></strong>
+                    in the treatment of infections having anti-microbial and anti-inflammatory activity.<sup>9-11</sup>
                 </p>
 
                 <p>
@@ -102,7 +98,7 @@ class UploadProduct extends Command
                     Glutathione is an intrinsic tripeptide essential for optimal immune function; this is exemplified predominantly in
                     its capacity to facilitate cellular protection and repair as a vital cofactor in the redox process.<sup>2,6</sup>
                     Glutathione is critical for the physiological role of ascorbic acid in white blood cell anti-microbial activity.
-                    When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form Dehydroascorbic acid that is
+                    When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form dehydroascorbic acid that is
                     transported into the neutrophil and rapidly reduces back to ascorbic acid within the cell by the redox enzyme
                     glutaredoxin that requires glutathione as a cofactor.<sup>13</sup> As a result of the recycling of ascorbic acid,
                     the internal concentration of ascorbic acid within the WBC increases 10-fold in which it functions to quench oxidants
@@ -110,8 +106,18 @@ class UploadProduct extends Command
                 </p>
 
                 <p>
-                    <img alt="Figure 4" src="/img/manuka-c/manuka_figure4.png" class="img-responsive"><br>
+                    <img alt="Figure 4" src="/img/products/manuka-c/manuka_figure4.png" width="400px;" class="img-responsive center-block"><br>
+                    <strong>Figure 4. Dehydroascorbic acid (DHA) and ascorbic acid (AA) transport and recycling in neutrophils.<sup>7</sup></strong>
+                    AA and DHA are transported differently into the cell. With activation (i.e. bacterial exposure), neutrophils secrete reactive
+                    oxygen species that oxidize extracellular AA to DHA that is then rapidly transported into the neutrophil via the glucose
+                    transporters, GLUT1 and GLUT3. Intracellular DHA is immediately reduced to AA via Glutaredoxin (GRX), a glutathione requiring redox enzyme.
+                    As a result of DHA transport and reduction, a 10-fold higher AA internal concentration is achieved compared to activity of the AA
+                    transporter alone. AA may quench oxidants generated during phagocytosis, a regulated physiological occurrence.
                 </p>
+                <p>
+                    GSH: reduced glutathione; GSSG: oxidized glutathione; GRD: glutathione reductase
+                </p>
+                <br>
 
                 <p>
                     <strong>Zinc:</strong>
@@ -209,7 +215,7 @@ class UploadProduct extends Command
                     Direction of Use:
                 </h4>
                 <p>
-                    Mix one 5 g dose (1 teaspoon) into 200 mL of water and drink immediately, one (1) to two (2) times per day or as directed by your healthcare practitioner.
+                    Mix one 5 g dose (1 level teaspoon) into 200 mL of water and drink immediately, one (1) to two (2) times per day or as directed by your healthcare practitioner.
                 </p>
                 ',
             'ingredients' =>
