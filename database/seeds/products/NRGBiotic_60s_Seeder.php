@@ -386,7 +386,7 @@ class NRGBiotic_60s_Seeder extends Seeder
                 </p>
                 ',
             'price_retail' => 51.12,
-            'price_wholesale' => 51.12,
+            'price_wholesale' => 30.98,
             'image_path' => '/img/products/ngrbiotic_60s/nrgbiotic-60s-3d-bottle-master-sept14-v1_10_2_1.jpg',
             'thumb_image_path' => '/img/products/ngrbiotic_60s/thumb_nrgbiotic-60s-3d-bottle-master-sept14-v1_10_2_1.jpg',
             'in_stock' => false
