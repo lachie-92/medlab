@@ -366,7 +366,7 @@ class Enbiotic_60s_Seeder extends Seeder
                 </p>
                 ',
             'price_retail' => 46.05,
-            'price_wholesale' => 46.05,
+            'price_wholesale' => 27.91,
             'image_path' => '/img/products/enbiotic_60s/enbiotic-60s_1.jpg',
             'thumb_image_path' => '/img/products/enbiotic_60s/thumb_enbiotic-60s_1.jpg',
             'in_stock' => true
