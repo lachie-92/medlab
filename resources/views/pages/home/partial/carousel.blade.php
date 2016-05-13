@@ -24,7 +24,7 @@
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/1.jpg" alt="2">
+                <img class="medlab_carousel_image" src="/img/carousel/bioticnatal_banner.jpg" alt="2">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
