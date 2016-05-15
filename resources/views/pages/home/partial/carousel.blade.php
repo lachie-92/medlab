@@ -20,11 +20,11 @@
 
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="medlab_carousel_image" src="/img/carousel/NOS_web_banner_final.jpg" alt="1">
+                <img class="medlab_carousel_image" src="/img/carousel/Manuka-C_Banner.jpg" alt="1">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/bioticnatal_banner.jpg" alt="2">
+                <img class="medlab_carousel_image" src="/img/carousel/NOS_web_banner_final.jpg" alt="2">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
