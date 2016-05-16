@@ -17,13 +17,13 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.facebook.com/medlabAUS" class="medlab_navbar_login_item">
+                <a href="https://www.facebook.com/medlabAUS"  target="_blank" class="medlab_navbar_login_item">
                     <i class="fa fa-facebook"></i>
                 </a>
-                <a href="https://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" class="medlab_navbar_login_item">
+                <a href="https://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" target="_blank" class="medlab_navbar_login_item">
                     <i class="fa fa-linkedin"></i>
                 </a>
-                <a href="https://vimeo.com/user30326229" class="medlab_navbar_login_item">
+                <a href="https://vimeo.com/user30326229" target="_blank" class="medlab_navbar_login_item">
                     <i class="fa fa-vimeo-square"></i>
                 </a>
             </li>
