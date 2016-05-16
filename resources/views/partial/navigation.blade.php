@@ -7,7 +7,7 @@
     <div class="container medlab_navbar_login_container">
         <ul class="nav navbar-nav col-md-9 col-sm-8 col-xs-8">
             <li>
-                <a href="#" class="medlab_navbar_login_item">
+                <a href="mailto:hello@medlab.co?Subject=Medlab Inquiry" class="medlab_navbar_login_item">
                     <span class="glyphicon glyphicon-envelope medlab_navbar_login_glyphcon" aria-hidden="true"></span>
                     hello@medlab.co
                 </a>
