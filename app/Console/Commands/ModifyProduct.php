@@ -51,8 +51,9 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
-                'product_name_index' => "Enbiotic 60's",
-                'price_wholesale' => 27.91,
+                'product_name_index' => "Manuka-C",
+                'price_retail' => 31.79,
+                'price_wholesale' => 19.25,
 
             ],
 
