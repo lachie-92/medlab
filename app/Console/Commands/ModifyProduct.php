@@ -51,9 +51,27 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
-                'product_name_index' => "Manuka-C",
-                'price_retail' => 31.79,
-                'price_wholesale' => 19.25,
+                'cmi' =>
+                    '
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/English.pdf"target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Arabic.pdf">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Russian.pdf">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Japanese.pdf">日本語翻訳</a>
+                    </p>
+                    ',
 
             ],
 
