@@ -2,6 +2,8 @@
 
 namespace App\Console\Commands;
 
+use App\User;
+use Facebook\WebDriver\Exception\UnknownServerException;
 use Illuminate\Console\Command;
 use App\Order;
 use App\Medlab\Mailer\MedlabMailer;
@@ -39,8 +41,8 @@ class QuickFix extends Command
      */
     public function handle(MedlabMailer $mail)
     {
-        $order = Order::findOrFail(1016);
-        $mail->sendOrderReceivedNoticeToAdmin($order);
-        //$mail->sendOrderReceivedNoticeToClient($order);
+        $user = User::where('email', 'henrywu@iinet.net.au')->first();
+        $user->password = bcrypt('testtest');
+        $user->save();
     }
 }
