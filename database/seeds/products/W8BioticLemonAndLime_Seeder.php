@@ -355,7 +355,7 @@ class W8BioticLemonAndLime_Seeder extends Seeder
                     Refrigerate formula to maintain CFU stability
                 </p>
                 ',
-            'price_retail' => 48.58,
+            'price_retail' => 44.16,
             'price_wholesale' => 29.44,
             'image_path' => '/img/products/w8biotic/w8biotic.png',
             'thumb_image_path' => '/img/products/w8biotic/thumb_w8biotic.png',

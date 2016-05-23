@@ -325,7 +325,7 @@ class NanoCelle_B12_Seeder extends Seeder
                 '
 
                 ',
-            'price_retail' => 24.60,
+            'price_retail' => 22.36,
             'price_wholesale' => 14.91,
             'image_path' => '/img/products/nanocelle_b12/b12_bottle_rough_cut_1.jpg',
             'thumb_image_path' => '/img/products/nanocelle_b12/thumb_b12_bottle_rough_cut_1.jpg',

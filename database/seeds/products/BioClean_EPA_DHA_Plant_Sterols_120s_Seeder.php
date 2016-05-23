@@ -298,7 +298,7 @@ class BioClean_EPA_DHA_Plant_Sterols_120s_Seeder extends Seeder
                     Gluten and Casein Free
                 </p>
                 ',
-            'price_retail' => 49.95,
+            'price_retail' => 45.41,
             'price_wholesale' => 29.95,
             'image_path' => '/img/products/bioclean_epa_dha_plant_sterols_120s/bioclean_epadha_plant_sterols_120s.png',
             'thumb_image_path' => '/img/products/bioclean_epa_dha_plant_sterols_120s/thumb_bioclean_epadha_plant_sterols_120s.png',

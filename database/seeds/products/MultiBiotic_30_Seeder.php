@@ -412,7 +412,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                     Refrigerate formula to maintain CFU stability
                 </p>
                 ',
-            'price_retail' => 31.78,
+            'price_retail' => 28.89,
             'price_wholesale' => 19.26,
             'image_path' => '/img/products/multibiotic_30s/multibiotic-30s-3d-bottle-master-sept14-v1_10_2_1.jpg',
             'thumb_image_path' => '/img/products/multibiotic_30s/thumb_multibiotic-30s-3d-bottle-master-sept14-v1_10_2_1.jpg',

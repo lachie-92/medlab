@@ -398,7 +398,7 @@ class Product_NOS extends Command
                     Suitable for Vegetarians
                 </p>
                 ',
-            'price_retail' => 40.29,
+            'price_retail' => 36.63,
             'price_wholesale' => 24.40,
             'image_path' => '/img/products/nos/nos.png',
             'thumb_image_path' => '/img/products/nos/nos_thumb.png',

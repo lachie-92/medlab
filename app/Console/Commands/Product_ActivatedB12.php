@@ -270,7 +270,7 @@ class Product_ActivatedB12 extends Command
                     Suitable for Vegetarians
                 </p>
                 ',
-            'price_retail' => 26.27,
+            'price_retail' => 23.88,
             'price_wholesale' => 15.90,
             'image_path' => '/img/products/nanocelle_activated_b12/activated_b12.png',
             'thumb_image_path' => '/img/products/nanocelle_activated_b12/activated_b12_thumb.png',

@@ -517,7 +517,7 @@ class ORSBiotic_Seeder extends Seeder
                     Refrigerate formula to maintain CFU stability
                 </p>
                 ',
-            'price_retail' => 33.10,
+            'price_retail' => 30.09,
             'price_wholesale' => 20.06,
             'image_path' => '/img/products/orsbiotic/orsbiotic.png',
             'thumb_image_path' => '/img/products/orsbiotic/thumb_orsbiotic.png',

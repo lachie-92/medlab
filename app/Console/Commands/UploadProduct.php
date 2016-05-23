@@ -403,7 +403,7 @@ class UploadProduct extends Command
                     Suitable for Vegetarians
                 </p>
                 ',
-            'price_retail' => 31.79,
+            'price_retail' => 28.9,
             'price_wholesale' => 19.25,
             'image_path' => '/img/products/manuka-c/manuka-c.png',
             'thumb_image_path' => '/img/products/manuka-c/mauka-c_thumb.png',

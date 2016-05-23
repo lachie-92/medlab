@@ -385,7 +385,7 @@ class NRGBiotic_120s_Seeder extends Seeder
                     Refrigerate formula to maintain CFU stability
                 </p>
                 ',
-            'price_retail' => 90.06,
+            'price_retail' => 81.87,
             'price_wholesale' => 54.58,
             'image_path' => '/img/products/ngrbiotic_120s/nrgbiotic-120s-bottle-jun15.jpg',
             'thumb_image_path' => '/img/products/ngrbiotic_120s/thumb_nrgbiotic-120s-bottle-jun15.jpg',

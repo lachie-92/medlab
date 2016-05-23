@@ -365,7 +365,7 @@ class Enbiotic_60s_Seeder extends Seeder
                     Refrigerate formula to maintain CFU stability
                 </p>
                 ',
-            'price_retail' => 46.05,
+            'price_retail' => 41.86,
             'price_wholesale' => 27.91,
             'image_path' => '/img/products/enbiotic_60s/enbiotic-60s_1.jpg',
             'thumb_image_path' => '/img/products/enbiotic_60s/thumb_enbiotic-60s_1.jpg',

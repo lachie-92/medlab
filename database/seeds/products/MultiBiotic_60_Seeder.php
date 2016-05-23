@@ -412,7 +412,7 @@ class MultiBiotic_60s_Seeder extends Seeder
                     Refrigerate formula to maintain CFU stability
                 </p>
                 ',
-            'price_retail' => 57.35,
+            'price_retail' => 52.14,
             'price_wholesale' => 34.76,
             'image_path' => '/img/products/multibiotic_60s/multibiotic-60s-3d-bottle-master-sept14-v1.jpg',
             'thumb_image_path' => '/img/products/multibiotic_60s/thumb_multibiotic-60s-3d-bottle-master-sept14-v1.jpg',

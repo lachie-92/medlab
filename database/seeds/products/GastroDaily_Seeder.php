@@ -377,7 +377,7 @@ class GastroDaily_Seeder extends Seeder
                     No artificial colours, flavours or sweeteners
                 </p>
                 ',
-            'price_retail' => 47.15,
+            'price_retail' => 42.86,
             'price_wholesale' => 28.57,
             'image_path' => '/img/products/gastrodaily/gastro.png',
             'thumb_image_path' => '/img/products/gastrodaily/thumb_gastro.png',

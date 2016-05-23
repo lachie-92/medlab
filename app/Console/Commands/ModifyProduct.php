@@ -51,33 +51,96 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
+                'product_name_index' => 'BioClean EPA:DHA + CoQ10 60s',
+                'price_retail' => 29.95,
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + CoQ10 120s',
+                'price_retail' => 52.68,
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 60s',
+                'price_retail' => 25.41,
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 120s',
+                'price_retail' => 45.41,
+            ],
+            [
+                'product_name_index' => 'Biotic Jnr.',
+                'price_retail' => 57.12,
+            ],
+            [
+                'product_name_index' => "BioticNatal",
+                'price_retail' => 53.93,
+            ],
+            [
+                'product_name_index' => "Enbiotic 60's",
+                'price_retail' => 41.86,
+            ],
+            [
+                'product_name_index' => "Enbiotic 120's",
+                'price_retail' => 76.75,
+            ],
+            [
+                'product_name_index' => 'GastroDaily',
+                'price_retail' => 42.86,
+            ],
+            [
+                'product_name_index' => '12Mg Optima Relax',
+                'price_retail' => 44.01,
+            ],
+            [
+                'product_name_index' => "MultiBiotic 30's",
+                'price_retail' => 28.89,
+            ],
+            [
+                'product_name_index' => "MultiBiotic 60's",
+                'price_retail' => 52.14,
+            ],
+            [
+                'product_name_index' => "NanoCelle Activated B12",
+                'price_retail' => 23.88,
+            ],
+            [
+                'product_name_index' => 'NanoCelle B12',
+                'price_retail' => 22.36,
+            ],
+            [
+                'product_name_index' => 'NanoCelle D3',
+                'price_retail' => 25.89,
+            ],
+            [
+                'product_name_index' => "NRGBiotic 60's",
+                'price_retail' => 46.47,
+            ],
+            [
+                'product_name_index' => "NRGBiotic 120's",
+                'price_retail' => 81.87,
+            ],
+            [
+                'product_name_index' => "NOS",
+                'price_retail' => 36.63,
+            ],
+            [
+                'product_name_index' => 'ORSBiotic',
+                'price_retail' => 30.09,
+            ],
+            [
+                'product_name_index' => "SB 5B",
+                'price_retail' => 41.70,
+            ],
+            [
+                'product_name_index' => 'W8Biotic Lemon & Lime',
+                'price_retail' => 44.16,
+            ],
+            [
+                'product_name_index' => 'W8Biotic Strawberries & Cream',
+                'price_retail' => 44.16,
+            ],
+            [
                 'product_name_index' => "Manuka-C",
-                'cmi' =>
-                    '
-                    <p>
-                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                        <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/English.pdf"target="_blank">
-                            Click Here For English CMI
-                        </a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Italian.pdf"target="_blank">Traduzione italiana</a>
-                    </p>
-                    ',
-
+                'price_retail' => 28.9,
             ],
 
         ];

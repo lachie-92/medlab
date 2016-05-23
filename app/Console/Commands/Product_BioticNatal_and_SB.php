@@ -291,7 +291,7 @@ class Product_BioticNatal_and_SB extends Command
                     Suitable for Vegetarians
                 </p>
                 ',
-            'price_retail' => 45.87,
+            'price_retail' => 41.70,
             'price_wholesale' => 27.80,
             'image_path' => '/img/products/sb_5b/sb5b.png',
             'thumb_image_path' => '/img/products/sb_5b/sb5b_thumb.png',
@@ -604,7 +604,7 @@ class Product_BioticNatal_and_SB extends Command
                     Suitable for Vegetarians
                 </p>
                 ',
-            'price_retail' => 59.32,
+            'price_retail' => 53.93,
             'price_wholesale' => 35.95,
             'image_path' => '/img/products/bioticnatal/bioticnatal.jpg',
             'thumb_image_path' => '/img/products/bioticnatal/bioticnatal_thumb.jpg',

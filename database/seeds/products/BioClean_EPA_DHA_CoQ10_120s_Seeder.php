@@ -325,7 +325,7 @@ class BioClean_EPA_DHA_CoQ10_120s_Seeder extends Seeder
                     Gluten and Casein Free
                 </p>
                 ',
-            'price_retail' => 57.95,
+            'price_retail' => 52.68,
             'price_wholesale' => 34.95,
             'image_path' => '/img/products/bioclean_epa_dha_coq10_120s/bioclean_epadha_coq10_120s.png',
             'thumb_image_path' => '/img/products/bioclean_epa_dha_coq10_120s/thumb_bioclean_epadha_coq10_120s.png',

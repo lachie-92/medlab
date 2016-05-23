@@ -365,7 +365,7 @@ class Enbiotic_120s_Seeder extends Seeder
                     Refrigerate formula to maintain CFU stability
                 </p>
                 ',
-            'price_retail' => 84.43,
+            'price_retail' => 76.75,
             'price_wholesale' => 51.17,
             'image_path' => '/img/products/enbiotic_120s/enbiotic-120s-bottle-jun15-v1.jpg',
             'thumb_image_path' => '/img/products/enbiotic_120s/thumb_enbiotic-120s-bottle-jun15-v1.jpg',

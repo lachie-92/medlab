@@ -426,7 +426,7 @@ class MgOptimaRelax_12_Seeder extends Seeder
                     No artificial colours, flavours or sweeteners
                 </p>
                 ',
-            'price_retail' => 48.41,
+            'price_retail' => 44.01,
             'price_wholesale' => 29.32,
             'image_path' => '/img/products/12mg_optima/mg_optima_relax_150g.jpeg',
             'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_150g.jpeg',
