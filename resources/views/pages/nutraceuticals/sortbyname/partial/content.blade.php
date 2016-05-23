@@ -70,10 +70,7 @@
                                                     <span class="medlab_product_info_price_box_label">
                                                         Price:
                                                     </span>
-                                                    ${!! $product->price_retail !!}
-                                                    <span style="font-size: 12px; color: #555;">
-                                                        RRP
-                                                    </span>
+                                                    ${!! round($product->price_retail*11/10, 2) !!}
                                                 @else
 
                                                 @endif
