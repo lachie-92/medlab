@@ -50,7 +50,11 @@
                 <a href="/shoppingcart/cart" class="medlab_navbar_login_item medlab_navbar_login_shopping">
                     <span class="glyphicon glyphicon-shopping-cart medlab_navbar_login_glyphcon" aria-hidden="true"></span>
                     @if ($shoppingCart->subtotal != 0)
-                        ${{ $shoppingCart->subtotal }}
+                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                            ${{ round($shoppingCart->subtotal*11/10, 2) }}
+                        @else
+                            ${{ $shoppingCart->subtotal }}
+                        @endif
                     @else
                         $0.00
                     @endif
