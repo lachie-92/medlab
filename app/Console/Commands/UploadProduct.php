@@ -32,12 +32,18 @@ class UploadProduct extends Command
                 '
                 <h4 class="medlab_product_content_title">Manuka-C&trade;</small></h4>
                 <p>
+                    <strong>PATENT PENDING</strong>
+                </p>
+                <p>
                     Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
                     ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
                 </p>
                 ',
             'patent' =>
                 '
+                <p>
+                    <strong>PATENT PENDING</strong>
+                </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>

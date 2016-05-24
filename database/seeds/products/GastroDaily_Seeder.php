@@ -32,6 +32,9 @@ class GastroDaily_Seeder extends Seeder
             'patent' =>
                 '
                 <p>
+                    <strong>PATENT PENDING</strong>
+                </p>
+                <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>
                 ',

@@ -12,7 +12,7 @@ use App\Product;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\Model;
 
-class ModifyProduct extends Command
+class ProductPrices extends Command
 {
     /**
      * The name and signature of the console command.
@@ -51,39 +51,96 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
+                'product_name_index' => 'BioClean EPA:DHA + CoQ10 60s',
+                'price_retail' => 29.95,
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + CoQ10 120s',
+                'price_retail' => 52.68,
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 60s',
+                'price_retail' => 25.41,
+            ],
+            [
+                'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 120s',
+                'price_retail' => 45.41,
+            ],
+            [
+                'product_name_index' => 'Biotic Jnr.',
+                'price_retail' => 57.12,
+            ],
+            [
+                'product_name_index' => "BioticNatal",
+                'price_retail' => 53.93,
+            ],
+            [
+                'product_name_index' => "Enbiotic 60's",
+                'price_retail' => 41.86,
+            ],
+            [
+                'product_name_index' => "Enbiotic 120's",
+                'price_retail' => 76.75,
+            ],
+            [
                 'product_name_index' => 'GastroDaily',
-                'patent' =>
-                    '
-                    <p>
-                        <strong>PATENT PENDING</strong>
-                    </p>
-                    <p>
-                        Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
-                    </p>
-                    ',
+                'price_retail' => 42.86,
+            ],
+            [
+                'product_name_index' => '12Mg Optima Relax',
+                'price_retail' => 44.01,
+            ],
+            [
+                'product_name_index' => "MultiBiotic 30's",
+                'price_retail' => 28.89,
+            ],
+            [
+                'product_name_index' => "MultiBiotic 60's",
+                'price_retail' => 52.14,
+            ],
+            [
+                'product_name_index' => "NanoCelle Activated B12",
+                'price_retail' => 23.88,
+            ],
+            [
+                'product_name_index' => 'NanoCelle B12',
+                'price_retail' => 22.36,
+            ],
+            [
+                'product_name_index' => 'NanoCelle D3',
+                'price_retail' => 25.89,
+            ],
+            [
+                'product_name_index' => "NRGBiotic 60's",
+                'price_retail' => 46.47,
+            ],
+            [
+                'product_name_index' => "NRGBiotic 120's",
+                'price_retail' => 81.87,
+            ],
+            [
+                'product_name_index' => "NOS",
+                'price_retail' => 36.63,
+            ],
+            [
+                'product_name_index' => 'ORSBiotic',
+                'price_retail' => 30.09,
+            ],
+            [
+                'product_name_index' => "SB 5B",
+                'price_retail' => 41.70,
+            ],
+            [
+                'product_name_index' => 'W8Biotic Lemon & Lime',
+                'price_retail' => 44.16,
+            ],
+            [
+                'product_name_index' => 'W8Biotic Strawberries & Cream',
+                'price_retail' => 44.16,
             ],
             [
                 'product_name_index' => "Manuka-C",
-                'short_description' =>
-                    '
-                    <h4 class="medlab_product_content_title">Manuka-C&trade;</small></h4>
-                    <p>
-                        <strong>PATENT PENDING</strong>
-                    </p>
-                    <p>
-                        Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
-                        ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
-                    </p>
-                    ',
-                'patent' =>
-                    '
-                    <p>
-                        <strong>PATENT PENDING</strong>
-                    </p>
-                    <p>
-                        Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
-                    </p>
-                    ',
+                'price_retail' => 28.9,
             ],
 
         ];
