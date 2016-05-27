@@ -94,6 +94,25 @@
 
                         <p>
                             <a
+                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                    href="http://goo.gl/uhkgv7"
+                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                    href="#"
+                                    @else
+                                    href="/account/login"
+                                    @endif
+                                    target="_blank">
+
+                                <img alt="Unlocking the Clinical benefits of NRGBiotic"
+                                     src="/img/news/MedlabNRG_webinar.jpg"
+                                     title="Unlocking the Clinical benefits of NRGBiotic"
+                                     width="450px"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                        <br>
+                        <p>
+                            <a
                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
                                     href="http://goo.gl/02ed6J"
                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
@@ -105,7 +124,7 @@
 
                                 <img alt="Medlab Depression and the Gut Microbiome Webinar"
                                      src="/img/news/medlab_depressionwebinar.jpg"
-                                     title="Medlab Depression and the Gut Microbiome Webina"
+                                     title="Medlab Depression and the Gut Microbiome Webinar"
                                      width="450px"
                                      class="img-responsive center-block">
                             </a>
@@ -211,6 +230,31 @@
                         <ul class="medlab_news_sidebar_list media-list">
                             <li class="medlab_news_sidebar_list_item">
                                 <a
+                                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                        href="http://goo.gl/uhkgv7"
+                                        @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                        href="#"
+                                        @else
+                                        href="/account/login"
+                                        @endif
+                                        target="_blank">
+
+                                    <div class="media-left media-middle">
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Unlocking the Clinical benefits of NRGBiotic" src="/img/news/MedlabNRG_webinar.jpg" target="_blank" >
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="medlab_news_sidebar_list_item_title">
+                                            Unlocking the Clinical benefits of NRGBiotic
+                                        </div>
+                                        <div class="medlab_news_sidebar_list_item_body">
+                                            Join Dr Samantha Coulson for this informative webinar.
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <a
                                     @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
                                     href="http://goo.gl/02ed6J"
                                     @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
@@ -221,7 +265,7 @@
                                 target="_blank">
 
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/medlab_depressionwebinar.jpg" target="_blank" >
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Depression and The Gut Microbiome" src="/img/news/medlab_depressionwebinar.jpg" target="_blank" >
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
@@ -245,7 +289,7 @@
                                     @endif
                                 target="_blank">
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/Medlab_HFD_NALFD_Webinar.jpg" target="blank">
+                                        <img class="medlab_news_sidebar_list_item_image" alt="High Fat Diet, Probiotics and NAFLD" src="/img/news/Medlab_HFD_NALFD_Webinar.jpg" target="blank">
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
@@ -268,7 +312,7 @@
                                     @endif
                                 target="_blank">
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Diet and Gut Health " src="/img/news/Medlab_Probiotic_and_Gut_Health_Webinar.jpg" target="_blank" >
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Probiotics and Gut Health" src="/img/news/Medlab_Probiotic_and_Gut_Health_Webinar.jpg" target="_blank" >
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
