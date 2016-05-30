@@ -349,6 +349,10 @@ Route::get('/efficacy/role-of-bacteria-in-git-conditions', function () {
     return view('pages.efficacy.role-of-bacteria-in-git-conditions.index');
 });
 
+Route::get('/efficacy/optimising-immunity-in-preparation-for-cold-and-flue-season', function () {
+    return view('pages.efficacy.optimising-immunity.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Contact pages
