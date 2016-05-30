@@ -36,7 +36,7 @@
                     <br>
 
                     <p style="text-align: justify;">
-                        Notifiable respiratory diseases such as pneumonia and influenza are more closely monitored and therefore more
+                        Notable respiratory diseases such as pneumonia and influenza are more closely monitored and therefore more
                         significantly reflected in the statistics, however the spread of seasonal cold which is often equally as unpleasant
                         and disruptive, holds a greater impact for industrialised communities due to the sheer number of people infected.<sup>3</sup>
                         Acute respiratory infections are extremely common and are often not successfully treated using antibiotics,
@@ -171,9 +171,36 @@
                     <ol class="medlab_product_reference_list">
                         <li>Department of Health. (2015). <em>Australian influenza surveillance report no. 10 - 26 September to 09 October 2015.</em></li>
                         <li>NSW Ministry of Health. (2016). <em>NSW health influenza surveillance report week 19: 9 to 15 May 2016.</em></li>
-                        <li>Chen, Y. and M. D. Kirk. <em>'Incidence of Acute Respiratory Infections in Australia' (2014) 142 Epidemiology and infection</em> 1355.</li>
-                        <li>Dodds RM, Roberts HC, Cooper C, et al. The Epidemiology of Sarcopenia. <em>J Clin Densitom</em> 2015;18:461-6.</li>
-                        <li>Dodds RM, Roberts HC, Cooper C, et al. The Epidemiology of Sarcopenia. <em>J Clin Densitom</em> 2015;18:461-6.</li>
+                        <li>Chen, Y. and M. D. Kirk, 'Incidence of Acute Respiratory Infections in Australia' (2014) 142 <em>Epidemiology and infection</em> 1355.</li>
+                        <li>Levine M, Conry-Cantilena C, Wang Y, et al. Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance. <em>PNAS</em> 1996; 93:3704-3709.</li>
+                        <li>Johnston C, Meyer S, Srilakshmi JC. Vitamin C Elevates Red Blood Cell Glutathione in Healthy Adults. <em>Am J Clin Nutr</em> 1993; 58:103-105.</li>
+                        <li>Mendiratta S, Qu Z, May J. Erythrocyte Ascorbate Recycling: Antioxidant Effects in Blood. <em>Free Rad Bio & Med</em> 1998;2 4:798-797.</li>
+                        <li>Lenton K, Sané A, et al. Vitamin C Augments Lymphocyte Glutathione in Subjects with Ascorbate Deficiency. <em>Am J Clin Nutr</em> 2003; 77:189-195.</li>
+                        <li>Carr A, Bozonet S, et al. Human Skeletal Muscle Ascorbate is Highly Responsive to Changes in Vitamin C Intake and Plasma Concentrations. <em>Am J Clin Nutr</em> 2013; 97:800-807.</li>
+                        <li>Richie R, Nichenametla S, et al. Randomized Controlled Trial of Oral Glutathione Supplementation on Body Stores of Glutathione. <em>Eur J Clin Nutr</em> 2015; 54:251-263.</li>
+                        <li>Rumsey S, Levine M. Absorption, Transport, and Disposition of Ascorbic Acid in Humans. <em>Nutr Biochem</em> 1998; 9:116–130.</li>
+                        <li>Wintergerst E, Maggini S, Hornig D. Immune-Enhancing Role of Vitamin C and Zinc and Effect on Clinical Conditions. <em>An Nutr Metab</em> 2006; 50:85-94.</li>
+                        <li>Israili Z. Antimicrobial Properties of Honey. <em>Am J Therapeu</em> 2014; 21:304–323.</li>
+                        <li>Abdulrhman MA, Mekawy MA, et al. Bee Honey Added to the Oral Rehydration Solution in Treatment of Gastroenteritis in Infants and Children. <em>J Med Food</em> 2010; 13:605-609.</li>
+                        <li>Zumla A, Lulat A. Honey--a Remedy Rediscovered. <em>J Royal Soc Med</em> 1989; 82:384-385.</li>
+                        <li>Hemilä H, Chalker E. Vitamin C for preventing and treating the common cold. <em>Cochr Database Syst Rev</em> 2013; 1:CD000980.</li>
+                        <li>Padayatty SJ, Levine M. New insights into the physiology and pharmacology of vitamin C. <em>CMAJ</em> 2001; 164:353-355.</li>
+                        <li>Rink L, Haase H. Zinc homeostasis and immunity. <em>Trends in Immu</em> 2007; 28:1-4.</li>
+                        <li>Wellinghausen N, Kirchner H, Rink L. The immunobiology of zinc. <em>Immunol Today</em> 1997; 18:519-521.</li>
+                        <li>Eteraf-Oskouei T, Najafi M. Traditional and Modern Uses of Natural Honey in Human Diseases: A Review. <em>Iran J Basic Med Sci</em> 2013; 16:731–742.</li>
+                        <li>Patel S, Cichello S. Manuka honey: An emerging natural food with medicinal use. <em>Brain Cog</em> 2003;53:82-94.</li>
+                        <li>Leong A, Herst P, Harper J. Indigenous New Zealand honeys exhibit multiple anti-inflammatory activities. <em>Innate Immunol</em> 2011-2012; 18:459-466.</li>
+                        <li>Hao, Qiukui et al, 'Probiotics for Preventing Acute Upper Respiratory Tract Infections' (2011) <em>Cochr Database Syst Rev</em> CD006895.</li>
+                        <li>Boge, Thierry et al, 'A Probiotic Fermented Dairy Drink Improves Antibody Response to Influenza Vaccination in the Elderly in Two Randomised Controlled Trials' (2009) 27 <em>Vaccine</em> 5677.</li>
+                        <li>Rizzardini, Giuliano et al, 'Evaluation of the Immune Benefits of Two Probiotic Strains Bifidobacterium Animalis Ssp. Lactis, BB-12® and Lactobacillus Paracasei Ssp. Paracasei, L. Casei 431® in an Influenza Vaccination Model: A Randomised, Double-Blind, Placebo-Controlled Study' (2012) 107 <em>The Brit J Nutr</em> 876.</li>
+                        <li>Kelly, G. S., 'Larch Arabinogalactan: Clinical Relevance of a Novel Immune-Enhancing Polysaccharide' (1999) 4 <em>Altern Med Rev</em> 96.</li>
+                        <li>'Larch Arabinogalactan' (2000) 5 <em>Altern Med Rev</em> 463.</li>
+                        <li>Riede, L., B. Grube and J. Gruenwald, 'Larch Arabinogalactan Effects on Reducing Incidence of Upper Respiratory Infections' (2013) 29 <em>Current Medical Res & Opin</em> 251.</li>
+                        <li>Udani, Jay K., 'Immunomodulatory Effects of ResistAid™: A Randomized, Double-Blind, Placebo-Controlled, Multidose Study' (2013) 32 <em>J Ameri Coll of Nutr</em> 331.</li>
+                        <li>Udani, Jay K. et al, 'Proprietary Arabinogalactan Extract Increases Antibody Response to the Pneumonia Vaccine: A Randomized, Double-Blind, Placebo-Controlled, Pilot Study in Healthy Volunteers' (2010) 9 <em>Nutri Journ</em> 32.</li>
+                        <li>Robinson, R. R., J. Feirtag and J. L. Slavin, 'Effects of Dietary Arabinogalactan on Gastrointestinal and Blood Parameters in Healthy Human Subjects' (2001) 20 <em>J Ameri College of Nutr</em> 279.</li>
+                        <li>Riede, L., B. Grube and J. Gruenwald, 'Larch Arabinogalactan Effects on Reducing Incidence of Upper Respiratory Infections' (2013) 29 <em>Cur Med Res Opinion</em> 251.</li>
+                        <li>Ozen, Metehan, Gonca Kocabas Sandal and Ener Cagri Dinleyici, 'Probiotics for the Prevention of Pediatric Upper Respiratory Tract Infections: A Systematic Review' (2015) 15 <em>Exp Opin Biol Ther</em> 9.</li>
                     </ol>
                     <hr>
                     <p style="text-align: justify;">
