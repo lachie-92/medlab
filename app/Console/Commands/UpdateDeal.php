@@ -47,99 +47,65 @@ class UpdateDeal extends Command
     {
         Model::unguard();
 
+        /*
         DB::statement("SET foreign_key_checks = 0");
         Buy_One_Get_One_Free::truncate();
         Price_Discount::truncate();
         Promotion::truncate();
         DB::statement("SET foreign_key_checks = 1");
+        */
 
         $buy_one_get_one_free_deals = [
 
             //
-            //May
+            //June
             //
             [
-                'product' => "NOS",
-                'name' => "Introductory Special",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2016 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "Enbiotic 60's",
-                'name' => "May 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2016 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "Enbiotic 120's",
-                'name' => "May 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2016 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "GastroDaily",
-                'name' => "May 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2016 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "SB 5B",
-                'name' => "May 2016 Deals",
+                'product' => "Biotic Jnr.",
+                'name' => "June 2016 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "12Mg Optima Relax",
-                'name' => "May 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2016 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2016 23:59:59'),
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
             [
                 'product' => "Manuka-C",
-                'name' => "Introductory Special",
+                'name' => "June 2016 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
+                'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2016 23:59:59'),
-                'minimum_qty' => '4',
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "12Mg Optima Relax",
+                'name' => "June 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "ORSBiotic",
+                'name' => "June 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2016 23:59:59'),
+                'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
         ];

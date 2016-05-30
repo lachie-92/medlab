@@ -19,7 +19,7 @@ class Kernel extends ConsoleKernel
 
         \App\Console\Commands\ModifyProduct::class,
 
-        \App\Console\Commands\QuickFix::class,
+        \App\Console\Commands\UpdateDeal::class,
     ];
 
     /**
