@@ -11,11 +11,11 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Optimising Immunity in preparation for cold and flue season
+                    Optimising Immunity in preparation for cold and flu season
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <h3 style="text-align: center">
-                        <strong>Optimising Immunity in preparation for cold and flue season</strong>
+                        <strong>Optimising Immunity in preparation for cold and flu season</strong>
                     </h3>
                     <h5 style="text-align: center">
                         <strong>Dr Samantha Coulson, Professor Luis Vitetta and Isabelle Ibrahim</strong><br>
@@ -169,9 +169,9 @@
                     <strong>References</strong><br>
                     <br>
                     <ol class="medlab_product_reference_list">
-                        <li>Dodds RM, Roberts HC, Cooper C, et al. The Epidemiology of Sarcopenia. <em>J Clin Densitom</em> 2015;18:461-6.</li>
-                        <li>Dodds RM, Roberts HC, Cooper C, et al. The Epidemiology of Sarcopenia. <em>J Clin Densitom</em> 2015;18:461-6.</li>
-                        <li>Dodds RM, Roberts HC, Cooper C, et al. The Epidemiology of Sarcopenia. <em>J Clin Densitom</em> 2015;18:461-6.</li>
+                        <li>Department of Health. (2015). <em>Australian influenza surveillance report no. 10 - 26 September to 09 October 2015.</em></li>
+                        <li>NSW Ministry of Health. (2016). <em>NSW health influenza surveillance report week 19: 9 to 15 May 2016.</em></li>
+                        <li>Chen, Y. and M. D. Kirk. <em>'Incidence of Acute Respiratory Infections in Australia' (2014) 142 Epidemiology and infection</em> 1355.</li>
                         <li>Dodds RM, Roberts HC, Cooper C, et al. The Epidemiology of Sarcopenia. <em>J Clin Densitom</em> 2015;18:461-6.</li>
                         <li>Dodds RM, Roberts HC, Cooper C, et al. The Epidemiology of Sarcopenia. <em>J Clin Densitom</em> 2015;18:461-6.</li>
                     </ol>
