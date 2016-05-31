@@ -23,7 +23,7 @@
                     <h4>Positions Available</h4>
                     <a href="#EAtoCEO">EA to CEO</a></br>
                     <a href="#MarketingCoordinator">Marketing Coordinator</a></br>
-                    <a href="#PractitionerConsultant">Practitioner Consultant</a></br>
+                    <a href="#PractitionerConsultant">Client Relationship Manager</a></br>
 
                     <hr>
 
