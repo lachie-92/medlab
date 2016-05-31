@@ -124,7 +124,7 @@
                     <hr>
 
                     <a name="PractitionerConsultant"></a>
-                    <h3>Practitioner Consultant</h3>
+                    <h3>Client Relationship Manager</h3>
                     <li>Client Relationship Manager</li>
                     <li>Full Time / Permanent</li></br>
                     <p>Due to a rapid increase in market share we are seeking a highly ambitious Client Relationship Manager to join our extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
