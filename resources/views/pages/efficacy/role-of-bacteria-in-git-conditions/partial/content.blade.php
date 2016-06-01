@@ -128,7 +128,7 @@
                         </em>
                     </p>
                     <br>
-                    <a href="/nutraceuticals/products"><img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto;" alt="Medlab Probiotic Range" src="/img/efficacy/role-of-bacteria-in-git-conditions/medlab_probiotic_range.jpg" title="Medlab Probiotic Range"></a>
+                    <a href="/nutraceuticals/products"><img class="img-responsive" style="display: block; margin-left: auto; margin-right: auto; width: 600px;" alt="Medlab Probiotic Range" src="/img/efficacy/role-of-bacteria-in-git-conditions/medlab_probiotic_range.jpg" title="Medlab Probiotic Range"></a>
                 </div>
             </div>
         </div>
