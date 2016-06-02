@@ -28,6 +28,16 @@
                     </p>
 
                     <p>
+                        <a href="http://tag.sagepub.com/content/early/2016/04/28/1756283X16645055.abstract" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Briskey D, Heritage M, Jaskowoski LA, Peake J, Gobe G, Subramaniam N, Crawford D, Campbell C, Vitetta L. </strong>
+                                Probiotics modify tight-junction proteins in an animal model of nonalcoholic fatty liver disease
+                                <em>Therapeutic Advances in Gastroenterology </em> 1756283X16645055, first published on May 1, 2016 as doi:10.1177/1756283X16645055
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
                         <a href="http://www.ncbi.nlm.nih.gov/pubmed/26888768" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L. </strong>
