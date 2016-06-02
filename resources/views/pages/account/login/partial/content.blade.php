@@ -95,11 +95,11 @@
                                         </span>
                                     </p>
                                     <p>
-                                        <ul style="padding-left: 20px;">
+                                        <ul style="padding-left: 20px; padding-top: 5px;">
                                             <li>Referred by a qualified healthcare practitioner</li>
                                             <li>Purchase prescribed product through a secure checkout</li>
                                             <li>View personal shipping and billing information</li>
-                                            <li>View order history<br>&nbsp;</li>
+                                            <li>View order history</li>
                                         </ul>
                                     </p>
                                 </div>
@@ -112,7 +112,7 @@
                                         </span>
                                     </p>
                                     <p>
-                                        <ul style="padding-left: 20px;">
+                                        <ul style="padding-left: 20px; padding-top: 5px;">
                                             <li>Open to qualified healthcare practitioners</li>
                                             <li>Access technical product information</li>
                                             <li>Online educational resources and published research papers</li>
