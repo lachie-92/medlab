@@ -82,36 +82,43 @@
                 </div>
                 <div class="panel-body">
                     <p>
-                        By creating an account with our store, you will be able to move through the checkout process
-                        faster, store multiple shipping addresses, view and track your orders in your account and more.
+                        Create an online account with Medlab for the ability to view product information, purchase product
+                        online through a secure checkout, view your account history and much more.
                     </p>
                     <div>
                         <div class="row">
                             <div class="col-md-6 col-sm-12 col-xm-12" >
-                                <div id='patientBox' class="medlab_registration_account_box_focus">
+                                <div id='patientBox' class="medlab_registration_account_box">
                                     <p>
                                         <span class="medlab_registration_account_box_title">
                                             REGISTER AS A PATIENT
                                         </span>
                                     </p>
                                     <p>
-                                        This account is open to all consumers wishing to purchase Medlab Clinical
-                                        products. It allows full website access, newsletter updates and access to
-                                        current deals on products.
+                                        <ul style="padding-left: 20px;">
+                                            <li>Referred by a qualified healthcare practitioner</li>
+                                            <li>Purchase prescribed product through a secure checkout</li>
+                                            <li>View personal shipping and billing information</li>
+                                            <li>View order history<br>&nbsp;</li>
+                                        </ul>
                                     </p>
                                 </div>
                             </div>
                             <div class="col-md-6 col-sm-12 col-xm-12" >
-                                <div id='clinicianBox' class="medlab_registration_account_box">
+                                <div id='clinicianBox' class="medlab_registration_account_box_focus">
                                     <p>
                                         <span class="medlab_registration_account_box_title">
                                             REGISTER AS A PRACTITIONER
                                         </span>
                                     </p>
                                     <p>
-                                        This account is only open to qualified healthcare practitioners.
-                                        A practitioner account provides access to the technical product information
-                                        and resources available on our website.
+                                        <ul style="padding-left: 20px;">
+                                            <li>Open to qualified healthcare practitioners</li>
+                                            <li>Access technical product information</li>
+                                            <li>Online educational resources and published research papers</li>
+                                            <li>Monthly offers available online</li>
+                                            <li>Purchase product through a secure checkout</li>
+                                        </ul>
                                     </p>
                                 </div>
                             </div>
@@ -121,8 +128,8 @@
                                 <br>
                                 Please select appropriate box to for Practitioner or Patient.
                             </p>
-                            <a id='registerLink' class="btn btn-primary" href="/account/register/patient">
-                                Create Patient Account
+                            <a id='registerLink' class="btn btn-primary" href="/account/register/practitioner">
+                                Create Practitioner Account
                             </a>
                         </div>
 
