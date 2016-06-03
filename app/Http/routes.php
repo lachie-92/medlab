@@ -219,7 +219,7 @@ Route::get('/investor/share-price', function () {
 ///////////////////////////////////////////////////////////////////////////////////
 
 Route::get('/policies', function () {
-    return view('pages.policies.privacy-policy.index');
+    return view('pages.policies.policies.index');
 });
 
 Route::get('/policies/privacy-policy', function () {
