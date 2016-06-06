@@ -70,7 +70,7 @@ class ModifyProduct extends Command
                     </p>
                     <p>
                         <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Japanese.pdf"target="_blank"日本語翻訳</a>
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Japanese.pdf"target="_blank">日本語翻訳</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
