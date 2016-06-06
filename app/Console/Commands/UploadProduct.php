@@ -385,19 +385,19 @@ class UploadProduct extends Command
                 </p>
                 <p>
                 <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Arabic.pdf"target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Arabic.pdf"target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Russian.pdf"target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Russian.pdf"target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Japanese.pdf"target="_blank"日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Japanese.pdf"target="_blank"日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Italian.pdf"target="_blank">Traduzione italiana</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Italian.pdf"target="_blank">Traduzione italiana</a>
                 </p>
                 ',
             'free_from' =>

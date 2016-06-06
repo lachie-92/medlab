@@ -18,8 +18,6 @@ class Kernel extends ConsoleKernel
         \App\Console\Commands\RegistrationCleanUp::class,
 
         \App\Console\Commands\ModifyProduct::class,
-
-        \App\Console\Commands\UpdateDeal::class,
     ];
 
     /**
