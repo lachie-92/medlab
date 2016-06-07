@@ -28,6 +28,14 @@
                     </p>
 
                     <p>
+                        <a href="http://www.mdpi.com/journal/jcm/special_issues/human_microbiome" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                Journal of Clinical Medicine / Special Issue "Advances in Human Microbiome”  :   Guest Editor: <strong>Professor Luis Vitetta</strong>
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
                         <a href="http://tag.sagepub.com/content/early/2016/04/28/1756283X16645055.abstract" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Briskey D, Heritage M, Jaskowoski LA, Peake J, Gobe G, Subramaniam N, Crawford D, Campbell C, Vitetta L. </strong>
