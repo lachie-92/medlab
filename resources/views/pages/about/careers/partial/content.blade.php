@@ -21,52 +21,12 @@
                     </p>
                     <hr>
                     <h4>Positions Available</h4>
-                    <a href="#EAtoCEO">EA to CEO</a></br>
                     <a href="#MarketingCoordinator">Marketing Coordinator</a></br>
                     <a href="#PractitionerConsultant">Client Relationship Manager</a></br>
 
                     <hr>
 
-                    <a name="EAtoCEO"></a>
-                    <h3>EA to CEO</h3>
-                    <li>Full Time Position</li>
-                    <li>Modern Alexandria Offices</li>
-                    <li>Maternity cover with opportunity to go permanent</li>
-                    <li>Early June Start</li></br>
-                    <h4>The Opportunity</h4>
-                    <p>This is an excellent opportunity to work for a progressive company in the Health Sector as an Executive Assistant.</p>
-                    <p>This position reports directly to the CEO and is responsible for providing administration support to the CEO and the C-Level team.
-                        This includes preparing, formatting and editing a range of documents, presentations and event co-ordination.</p>
-                    <p>The role includes a number of specific administration responsibilities but not limited to:</p>
-                    <li>Day to day support to the CEO</li>
-                    <li>Diary management</li>
-                    <li>Coordination of C-Level meetings</li>
-                    <li>Company travel</li>
-                    <li>Office management</li></br>
-                    <h4>About You</h4>
-                    <p>To be successful in this role you will be able to demonstrate the following:</p>
-                    <li>Experience in high quality executive support</li>
-                    <li>Strong written communication skills and well developed interpersonal skills</li>
-                    <li>A can do attitude</li>
-                    <li>High attention to detail and ability to maintain confidentiality</li>
-                    <li>Strong organisational skills</li>
-                    <li>Intermediate/Advanced Microsoft Office skills</li>
-                    <li>Preferably experienced in Apple software - Keynote, Pages & Numbers</li></br>
-                    <h4>Benefits</h4>
-                    <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion.
-                        Here at Medlab we are committed to the development of staff and regularly promote from within.  
-                    </p>
-                    <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:
-                    </p>
-                    <li>Genuine opportunities to develop your career</li>
-                    <li>Fun and friendly environment</li>
-                    <li>Health and well being gym facilities </li>
-                    <li>Onsite parking</li></br>
-                    <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - EA to CEO">recruit@medlab.co</a></p>
 
-
-                    <hr>
 
                     <a name="MarketingCoordinator"></a>
                     <h3>Marketing Coordinator</h3>
