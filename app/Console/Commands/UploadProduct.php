@@ -388,6 +388,10 @@ class UploadProduct extends Command
                     <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Arabic.pdf"target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
+                    <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Spanish.pdf"target="_blank">Traducción en español</a>
+                </p>
+                <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
                     <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Russian.pdf"target="_blank">Перевод на русском языке</a>
                 </p>
