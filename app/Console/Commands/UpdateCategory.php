@@ -69,8 +69,8 @@ class UpdateCategory extends Command
                 'W8Biotic Lemon & Lime',
                 'W8Biotic Strawberries & Cream',
                 'Enbiotic 120\'s',
-                'Enbiotic 60\'s'
-
+                'Enbiotic 60\'s',
+                'Manuka-C'
             ],
             'Gastrointestinal Support' => [
                 'W8Biotic Lemon & Lime',
@@ -94,7 +94,8 @@ class UpdateCategory extends Command
                 'Biotic Jnr.',
                 'ORSBiotic',
                 'SB 5B',
-                'BioticNatal'
+                'BioticNatal',
+                'Manuka-C'
             ],
             'Infants and Toddlers' => [
                 'Biotic Jnr.',
@@ -128,14 +129,16 @@ class UpdateCategory extends Command
                 'NRGBiotic 60\'s',
                 'BioClean EPA:DHA + CoQ10 60s',
                 'BioClean EPA:DHA + CoQ10 120s',
-                'NOS'
+                'NOS',
+                'Manuka-C'
             ],
             'Support for Men' => [
                 '12Mg Optima Relax',
                 'BioClean EPA:DHA + Plant Sterols 120s',
                 'BioClean EPA:DHA + Plant Sterols 60s',
                 'BioClean EPA:DHA + CoQ10 120s',
-                'BioClean EPA:DHA + CoQ10 60s'
+                'BioClean EPA:DHA + CoQ10 60s',
+                'Manuka-C'
             ],
             'Support for Pregnancy' => [
                 'Biotic Jnr.',
@@ -149,14 +152,16 @@ class UpdateCategory extends Command
                 'BioClean EPA:DHA + CoQ10 60s',
                 'NRGBiotic 120\'s',
                 'NRGBiotic 60\'s',
-                'NanoCelle Activated B12'
+                'NanoCelle Activated B12',
+                'Manuka-C'
             ],
             'Support for Teenagers' => [
                 '12Mg Optima Relax',
                 'BioClean EPA:DHA + Plant Sterols 120s',
                 'BioClean EPA:DHA + Plant Sterols 60s',
                 'BioClean EPA:DHA + CoQ10 120s',
-                'BioClean EPA:DHA + CoQ10 60s'
+                'BioClean EPA:DHA + CoQ10 60s',
+                'Manuka-C'
             ],
             'Support for Women' => [
                 '12Mg Optima Relax',
@@ -164,7 +169,8 @@ class UpdateCategory extends Command
                 'BioClean EPA:DHA + Plant Sterols 60s',
                 'BioClean EPA:DHA + CoQ10 120s',
                 'BioClean EPA:DHA + CoQ10 60s',
-                'BioticNatal'
+                'BioticNatal',
+                'Manuka-C'
             ],
             'Urogenital Support' => [
                 'MultiBiotic 60\'s',
