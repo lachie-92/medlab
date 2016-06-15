@@ -266,7 +266,7 @@
                                             Understanding the Clinical Application of NanoCelle
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">
-                                            Join Dr Samantha Coulson for this informative webinar.
+                                            Join Professor Luis Vitetta for this informative webinar.
 
                                         </div>
                                     </div>
