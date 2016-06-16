@@ -126,7 +126,7 @@
                         <div style="text-align: center">
                             <p>
                                 <br>
-                                Please select appropriate box to for Practitioner or Patient.
+                                Please select appropriate box: Practitioner or Patient.
                             </p>
                             <a id='registerLink' class="btn btn-primary" href="/account/register/practitioner">
                                 Create Practitioner Account
