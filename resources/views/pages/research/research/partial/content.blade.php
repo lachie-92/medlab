@@ -60,7 +60,7 @@
                             <img class="img-responsive center-block" src="/img/research/Researchprogression.png" title="Research Progression"/>
                         </a>
                         <br>
-                        As at 31st of March 2016
+                        As at 1st June 2016
                     </p>
 
                     <br>
