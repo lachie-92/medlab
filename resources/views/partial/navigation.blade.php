@@ -141,6 +141,8 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/education/publications">Publications</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/education/webinars">Webinars</a></li>
+
                     </ul>
                 </li>
                 <li class="dropdown">

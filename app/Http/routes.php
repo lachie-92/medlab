@@ -141,6 +141,10 @@ Route::get('/education/publications', function () {
     return view('pages.education.paper.index');
 });
 
+Route::get('/education/webinars', function () {
+    return view('pages.education.webinars.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
