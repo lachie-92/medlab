@@ -357,6 +357,10 @@ Route::get('/efficacy/optimising-immunity-in-preparation-for-cold-and-flu-season
     return view('pages.efficacy.optimising-immunity.index');
 });
 
+Route::get('/efficacy/vitamin-d-your-best-defence', function () {
+    return view('pages.efficacy.vitamin-d-your-best-defence.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Contact pages
