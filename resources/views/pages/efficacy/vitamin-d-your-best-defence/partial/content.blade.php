@@ -11,11 +11,11 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Vitamin D – Your best defence against the flu
+                    Vitamin D – Your Best Defence Against The Flu
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <h3 style="text-align: center">
-                        <strong>Vitamin D – Your best defence against the flu</strong>
+                        <strong>Vitamin D – Your Best Defence Against The Flu</strong>
                     </h3>
                     <h5 style="text-align: center">
                         <strong>Margaret Jasinska</strong><br>
