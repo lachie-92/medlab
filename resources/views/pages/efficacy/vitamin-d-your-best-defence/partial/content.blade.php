@@ -54,7 +54,7 @@
                         <div class="col-md-4">
 
 
-                            <strong><br><br>You can see how incredibly easy it is to pick up an infection if you touch money, door handles, or use public transport!</strong>
+                            <em><br><br>You can see how incredibly easy it is to pick up an infection if you touch money, door handles, or use public transport!</em>
                             </p>
                         </div>
 
