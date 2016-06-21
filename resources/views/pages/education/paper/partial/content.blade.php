@@ -390,6 +390,22 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Coulson S,</strong>
+                            Neonatal & Infant Development: Instruction from the Microbiota,
+                            The 6th Science of Nutrition in Medicine and Healthcare Conference [Sydney 2016].
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Coulson S & Vitetta L,</strong>
+                            Metabolic Disorders: Instruction by the Gut Microbiome,
+                            General Practitioner Conference and Exhibition [Sydney] 2016.
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Hall S,</strong>
                             Invitation to Chair session on Nanotechnologies for Drug Delivery Systems:
                             Redefining the Curve - Sustainable Compound Delivery Through Nanoparticles.
@@ -409,6 +425,15 @@
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>2015:</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Coulson S,</strong>
+                            Scientific Application for Innovative Delivery Systems:
+                            Bacteria and Nanotechnology Platforms, The 5th Annual Symposium of Drug Delivery Systems;
+                            Oct 20-22, 2015. Beijing, China.
                         </span>
                     </p>
 
