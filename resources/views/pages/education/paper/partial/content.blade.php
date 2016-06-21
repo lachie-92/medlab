@@ -414,7 +414,7 @@
                             A Universe of Therapeutic Potential. BIT’s 14th Annual Congress of IDDST;
                             June 16-18, 2016. South Korea
                         </span>
-                    </p>
+                    </p><br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">

@@ -35,7 +35,7 @@
                         <div class="col-md-2"></div>
                     <div class="col-md-4">
                     <p style="text-align: justify;">
-                        <img class="img-responsive" alt="Human Anatomy" width="320px;" src="/img/efficacy/vitamin-d/picture1.png" title="Human Anatomy" >
+                        <img class="img-responsive" alt="Human Anatomy" width="320px;" src="/img/efficacy/vitamin-d/Picture1.png" title="Human Anatomy" >
                         </div>
 
                     <div class="col-md-4">
@@ -60,7 +60,7 @@
 
                         <div class="col-md-4">
                         <p style="text-align: justify;">
-                            <img class="img-responsive" alt="Human Anatomy" width="320px;" src="/img/efficacy/vitamin-d/picture2.png" title="Human Anatomy" >
+                            <img class="img-responsive" alt="Human Anatomy" width="320px;" src="/img/efficacy/vitamin-d/Picture2.png" title="Human Anatomy" >
 
                             </div>
                         <div class="col-md-2"></div>
@@ -100,7 +100,7 @@
                         <div class="col-md-2"></div>
 
                         <div class="col-md-4">
-                            <img class="img-responsive" alt="Human Anatomy" width="320px;" src="/img/efficacy/vitamin-d/picture3.png" title="Human Anatomy" >
+                            <img class="img-responsive" alt="Human Anatomy" width="320px;" src="/img/efficacy/vitamin-d/Picture3.png" title="Human Anatomy" >
 
 
                         </div>
