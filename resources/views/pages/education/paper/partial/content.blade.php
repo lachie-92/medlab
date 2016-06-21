@@ -28,6 +28,16 @@
                     </p>
 
                     <p>
+                        <a href="http://www.mdpi.com/2076-2607/3/4/913" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Vitetta, L.; Hall, S.; Coulson, S. </strong>
+                                Metabolic Interactions in the Gastrointestinal Tract (GIT): Host, Commensal, Probiotics, and Bacteriophage Influences.
+                                <em>Microorganisms</em> 2015, 3, 913-932; doi:10.3390/microorganisms3040913.
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
                         <a href="http://www.mdpi.com/journal/jcm/special_issues/human_microbiome" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 Journal of Clinical Medicine / Special Issue "Advances in Human Microbiome”  :   Guest Editor: <strong>Professor Luis Vitetta</strong>
@@ -380,6 +390,30 @@
                                 Conference Presentations and Proceedings
                             </span>
                         </strong>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>2016:</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Hall S,</strong>
+                            Invitation to Chair session on Nanotechnologies for Drug Delivery Systems:
+                            Redefining the Curve - Sustainable Compound Delivery Through Nanoparticles.
+                            BIT’s 14th Annual Congress of IDDST; June 16-18, 2016. South Korea
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Hall S,</strong>
+                            Invitation to speak at Opening Ceremony and Keynote Forum session: The Microbiome -
+                            A Universe of Therapeutic Potential. BIT’s 14th Annual Congress of IDDST;
+                            June 16-18, 2016. South Korea
+                        </span>
                     </p>
 
                     <p>
