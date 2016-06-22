@@ -487,7 +487,7 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
-                            <strong>Vitetta L & Coulson S,</strong>
+                            <strong>Coulson S & Vitetta L,</strong>
                             Probiotics in Clinical Practice and ICU, 16th Annual Meeting: Australian College of
                             Critical Care Nurses 2015.
                         </span>
