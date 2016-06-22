@@ -143,60 +143,7 @@ class W8BioticStrawberriesAndCream_Seeder extends Seeder
             'side_effects' =>
                 '
                 <p>
-                    Consuming probiotics and enzymes may cause side effects. Parents should not be alarmed by this list of
-                    possible side effects, as infants and children may not experience any of them. Parents should contact
-                    their healthcare practitioner if children experience any of the following.
-                </p>
-
-                <p>
-                    These include:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Cramps or pain in the stomach</li>
-                        <li>Constipation</li>
-                        <li>Diarrhoea</li>
-                        <li>Mucus in the stool</li>
-                        <li>Bloated stomach area</li>
-                        <li>Gas</li>
-                    </ul>
-                </p>
-
-                <p>
-                    These side effects are usually mild and dose related. Most of them disappear completely in a few days
-                    after the dose of W8Biotic&trade; is lowered or stopped.
-                </p>
-
-                <p>
-                    Serious allergic reactions to these ingredients are rare however parents should contact their
-                    healthcare professional or call an ambulance immediately if any of the following are experienced:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Skin rash</li>
-                        <li>Swelling of face and/or throat</li>
-                        <li>Difficulty breathing</li>
-                        <li>Itching of the skin</li>
-                    </ul>
-                </p>
-
-                <p>
-                    If you experience any allergic reaction, other side effects not listed here or if you notice
-                    anything else that is making you feel unwell after consuming W8Biotic&trade;, discontinue use and
-                    consult with your healthcare practitioner.
-                </p>
-
-                <p>
-                    You can also refer to the CMI for this product for symptoms and side effects.
-                </p>
-
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
+                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
                 </p>
                 ',
             'interactions' =>
@@ -286,73 +233,67 @@ class W8BioticStrawberriesAndCream_Seeder extends Seeder
                                 <p>10 Billion</p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica</p>
+                                <p>Thaumatin</p>
+                                <p>Malic acid</p>
+                                <p>Stevia</p>
+                                <p>Strawberries and cream flavour</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    Excipient Ingredients:
-                </p>
-                <p>
-                    Silica
-                </p>
-                <p>
-                    Thaumatin
-                </p>
-                <p>
-                    Malic acid
-                </p>
-                <p>
-                    Stevia
-                </p>
-                <p>
-                    Lemon Lime Flavour
-                </p>
                 ',
             'cmi' =>
                 '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/English.pdf">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/English.pdf" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Arabic.pdf">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Russian.pdf">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Spanish.pdf">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Spanish.pdf" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Japanese.pdf">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Japanese.pdf" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/French.pdf">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/French.pdf" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Chinese.pdf">中文翻译，中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Chinese.pdf" target="_blank">中文翻译，中文翻譯</a>
                 </p>
                 ',
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
-                    Gluten and Casein Free
+                    Gluten and Lactose Free
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Suitable for vegetarians
+                    Suitable for Vegetarians
                 </p>
                 <p class="medlab_product_content_sub_title">
                     No artificial colours, flavours or sweeteners
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Refrigerate formula to maintain CFU stability
+                    Refrigerate to maintain stability
                 </p>
                 ',
             'price_retail' => 44.16,

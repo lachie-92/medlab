@@ -166,10 +166,7 @@ class Product_ActivatedB12 extends Command
             'side_effects' =>
                 '
                 <p>
-                    NanoCelle&trade; Activated B12 has low risk of side effects when taken as directed. Excess vitamin B12 intake is typically excreted from the body (urine / faeces).
-                </p>
-                <p>
-                    You can also refer to the CMI for this product for symptoms and side effects.
+                    Vitamin B12 has a low risk of side-effects when taken as directed.
                 </p>
                 ',
             'interactions' =>
@@ -218,7 +215,15 @@ class Product_ActivatedB12 extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Citric acid, PEG-40 hydrogenated castor oil, glycerol, peppermint oil, potassium sorbate, stevia, water, d-alpha tocopherol, soy oil</p>
+                                <p>Citric acid</p>
+                                <p>PEG-40 hydrogenated castor oil</p>
+                                <p>Glycerol</p>
+                                <p>Peppermint oil</p>
+                                <p>Potassium sorbate</p>
+                                <p>Stevia</p>
+                                <p>Water</p>
+                                <p>D-alpha tocopherol</p>
+                                <p>Soy oil</p>
                             </td>
                         </tr>
                     </tbody>
@@ -226,40 +231,36 @@ class Product_ActivatedB12 extends Command
                 ',
             'cmi' =>
                 '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Spanish.pdf" target="_blank">Traducción en español</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Japanese.pdf" target="_blank">日本語翻訳</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/French.pdf" target="_blank">Traduction en français</a>
-                    </p>
-                    <p>
-                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Chinese.pdf" target="_blank">中文翻译</a>
-                    </p>
-                    <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Italian.pdf" target="_blank">Traduzione italiana</a>
-                    </p>
+                <p>
+                <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/English.pdf" target="_blank">
+                    Click Here For English CMI
+                </a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Japanese.pdf" target="_blank">日本語翻訳</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/French.pdf" target="_blank">Traduction en français</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Chinese.pdf" target="_blank">中文翻译</a>
+                </p>
+                <p>
+                <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Italian.pdf" target="_blank">Traduzione italiana</a>
+                </p>
                 ',
             'free_from' =>
                 '

@@ -135,75 +135,13 @@ class Enbiotic_60s_Seeder extends Seeder
             'side_effects' =>
                 '
                 <p>
-                    Consuming probiotics and enzymes may cause side effects. Do not be alarmed by this list of possible
-                    side effects. You may not experience any of them. Tell your healthcare professional if you notice
-                    any of the following and they worry you:
-                </p>
-
-                <p>
-                    These include:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Cramps or pain in the stomach area</li>
-                        <li>Constipation</li>
-                        <li>Diarrhoea</li>
-                        <li>Mucus in the stool</li>
-                        <li>Swollen or bloated stomach area</li>
-                        <li>Gas</li>
-                        <li>Discomfort in the upper stomach area</li>
-                        <li>Headache</li>
-                    </ul>
-                </p>
-
-                <p>
-                    These side effects are usually mild and dose related. Most of them disappear completely in a few days
-                    after the dose of EnBiotic&trade; is lowered or stopped.
-                </p>
-
-                <p>
-                    Serious allergic reactions to these ingredients are rare, however tell your healthcare professional
-                    immediately if you experience any of the following:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Skin rash</li>
-                        <li>Swelling of face and/or throat</li>
-                        <li>Difficulty breath</li>
-                        <li>Itching of the skin</li>
-                    </ul>
-                </p>
-
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
+                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
                 </p>
                 ',
             'interactions' =>
                 '
                 <p>
-                    Some medicines may interfere with EnBiotic&trade;. These include:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Immunosuppressant Drugs</li>
-                        <li>Antibiotics</li>
-                        <li>Acarbose</li>
-                        <li>Miglitol / Amylase</li>
-                        <li>Pancreatin</li>
-                        <li>Creon and Creon Forte</li>
-                    </ul>
-                </p>
-
-                <p>
-                    These medicines may be affected by EnBiotic&trade;, or may affect how well it works. You may
-                    need to take different amounts of your medicine, or you may need to take different medicines.
-                    Your doctor will advise you.
+                    Antibiotics will reduce the efficacy of probiotics. If talking antibiotics, take 2 hours away from probiotics.
                 </p>
                 ',
             'dosage_information' =>
@@ -237,7 +175,7 @@ class Enbiotic_60s_Seeder extends Seeder
                             </td>
                             <td width="136" valign="top">
                                 <p>
-                                    <strong>EACH CAPSULE CONTAINS</strong>
+                                    <strong>EACH VEGETARIAN CAPSULE CONTAINS</strong>
                                 </p>
                             </td>
                         </tr>
@@ -313,11 +251,22 @@ class Enbiotic_60s_Seeder extends Seeder
                             <td width="273" valign="top">Papain (from Carica papaya) </td>
                             <td width="136" valign="top">39.2 mg </td>
                         </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica</p>
+                                <p>Maltodextrin</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    *CFU: Colony Forming Units
-                </p>
                 ',
             'cmi' =>
                 '
@@ -356,13 +305,13 @@ class Enbiotic_60s_Seeder extends Seeder
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
-                    Gluten & Dairy Free
+                    Gluten and Dairy Free
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Vegetarian Friendly
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Refrigerate formula to maintain CFU stability
+                    Refrigerate to maintain stability
                 </p>
                 ',
             'price_retail' => 41.86,

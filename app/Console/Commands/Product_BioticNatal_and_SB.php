@@ -243,7 +243,10 @@ class Product_BioticNatal_and_SB extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Cellulose-microcrystalline, Calcium Hydrogen Phosphate, Silica, Magnesium Stearate.</p>
+                                <p>Cellulose-microcrystalline</p>
+                                <p>Calcium hydrogen phosphate</p>
+                                <p>Silica</p>
+                                <p>Magnesium stearate</p>
                             </td>
                         </tr>
                     </tbody>
@@ -552,7 +555,12 @@ class Product_BioticNatal_and_SB extends Command
                                 <p><strong>Total</strong></p>
                             </td>
                             <td width="136" valign="top">
-                                <p><strong>10 billion CFU</strong></p>
+                                <p><strong>10 billion CFU*</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: right">
+                                *CFU: Colony Forming Units
                             </td>
                         </tr>
                         <tr>
@@ -560,7 +568,9 @@ class Product_BioticNatal_and_SB extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Cellulose-Microcrystalline, Silica, Magnesium Stearate.</p>
+                                <p>Cellulose-microcrystalline</p>
+                                <p>Silica</p>
+                                <p>Magnesium Stearate</p>
                             </td>
                         </tr>
                     </tbody>
@@ -606,7 +616,10 @@ class Product_BioticNatal_and_SB extends Command
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
-                    Dairy and Gluten Free
+                    Gluten and Casein Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Refrigerate to maintain stability
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Suitable for Vegetarians

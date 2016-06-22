@@ -177,60 +177,7 @@ class NRGBiotic_120s_Seeder extends Seeder
             'side_effects' =>
                 '
                 <p>
-                    Consuming NRBiotic&trade; may cause side effects, however do not be alarmed by this list of possible
-                    side effects, as you may not experience any of them. Tell your healthcare professional if you
-                    notice any of the following and they worry you.
-                </p>
-
-                <p>
-                    These include:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Cramps or pain in the stomach area</li>
-                        <li>Constipation</li>
-                        <li>Diarrhoea</li>
-                        <li>Mucus in the stool</li>
-                        <li>Bloated stomach area</li>
-                        <li>Gas</li>
-                        <li>Discomfort in the upper stomach area</li>
-                    </ul>
-                </p>
-
-                <p>
-                    These side effects are usually mild and dose related. Most of them disappear completely in a few days
-                    after the dose of NRBiotic&trade; is lowered or stopped.
-                </p>
-
-                <p>
-                    Serious allergic reactions to these ingredients are rare, however tell your healthcare professional
-                    immediately if you experience any of the following:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Skin rash</li>
-                        <li>Swelling of face and/or throat</li>
-                        <li>Difficulty breathing</li>
-                        <li>Itching of the skin</li>
-                    </ul>
-                </p>
-
-                <p>
-                    <strong>You can also refer to the CMI for this product for symptoms and side effects</strong>
-                </p>
-
-                <p>
-                    WARNING: Take NRBiotic&trade; exactly as your healthcare professional has prescribed. If symptoms
-                    persist consult your healthcare practitioner.
-                </p>
-
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
+                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
                 </p>
                 ',
             'interactions' =>
@@ -246,12 +193,6 @@ class NRGBiotic_120s_Seeder extends Seeder
                         <li>Immunosuppressant Drugs</li>
                         <li>Antibiotics</li>
                     </ul>
-                </p>
-
-                <p>
-                    These medicines may be affected by NRGBiotic&trade;, or may affect how well it works. You may
-                    need to take different amounts of your medicine, or you may need to take different medicines.
-                    Your doctor will advise you.
                 </p>
                 ',
             'dosage_information' =>
@@ -334,43 +275,54 @@ class NRGBiotic_120s_Seeder extends Seeder
                             </td>
                             <td valign="top">37.5 mg</td>
                         </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica</p>
+                                <p>Maltodextrin</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    *CFU: Colony Forming Units
-                </p>
                 ',
             'cmi' =>
                 '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/English.pdf">
+                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/English.pdf" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Arabic.pdf">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Russion.pdf">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Russion.pdf" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Spanish.pdf">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Spanish.pdf" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Japanese.pdf">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/French.pdf">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/French.pdf" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/%C2%81Chinese.pdf">中文翻译，中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/%C2%81Chinese.pdf" target="_blank">中文翻译，中文翻譯</a>
                 </p>
                 ',
             'free_from' =>
@@ -379,10 +331,10 @@ class NRGBiotic_120s_Seeder extends Seeder
                     Gluten & Dairy Free
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Vegetarian Friendly
+                    Suitable for Vegetarians
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Refrigerate formula to maintain CFU stability
+                    Refrigerate to maintain stability
                 </p>
                 ',
             'price_retail' => 81.87,

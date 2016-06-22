@@ -151,9 +151,21 @@ class BioClean_EPA_DHA_CoQ10_120s_Seeder extends Seeder
                 ',
             'references' =>
                 '
-                <p class="medlab_product_reference_list">
-                    References available to Clinicians on request.
-                </p>
+                <ol class="medlab_product_reference_list">
+                    <li>Vitetta L, Sali A.  Omega–3 Fatty Acids PUFA. PART I. <em>J Comp Med</em> 2006; 5(6):52-59.</li>
+                    <li>Jain AP, et al. Omega-3 fatty acids and cardiovascular disease. <em>Eur Rev Med Pharmacol Sci</em> 2015; 19:441-445.</li>
+                    <li>Djoussé L, et al. Fish consumption, omega-3 fatty acids and risk of heart failure: a meta-analysis. <em>Clin Nutr</em> 2012; 31(6):846-53.</li>
+                    <li>Marik PE, Varon J. Omega-3 dietary supplements and the risk of cardiovascular events: a systematic review. <em>Clin Cardiol</em> 2009; 32(7):365-72.</li>
+                    <li>Lopez–Garcia E, Schulze MB, Manson JE, etal. Consumption of (n-3) fatty acids is related to plasma biomarkers of inflammation and endothelial activation in women. <em>J Nutr</em> 2004; 134(7):1806–11.</li>
+                    <li>Vitetta L, Sali A.  Omega–3 Fatty Acids PUFA. PART I. <em>J Comp Med</em> 2007; 6(1):48-51.</li>
+                    <li>Innis SM. Dietary omega 3 fatty acids and the developing brain. <em>Brain Res</em> 2008; 1237:35-43.</li>
+                    <li>Docosahexaenoic acid (DHA). Monograph. <em>Altern Med Rev</em> 2009; 14(4):391-399.</li>
+                    <li>Uauy R, Dangour AD. Nutrition in brain development and aging: role of essential fatty acids. <em>Nutr Rev</em> 2006; 64(5 Pt 2):S24-33; discussion S72-91.</li>
+                    <li>Issa AM, et al. The efficacy of omega-3 fatty acids on cognitive function in aging and dementia: a systematic review. <em>Dement Geriatr Cogn Disord</em> 2006;21(2):88-96.</li>
+                    <li>Linnane AW, Kios M, Vitetta L. Coenzyme Q(10)--its role as a prooxidant in the formation of superoxide anion/hydrogen peroxide and the regulation of the metabolome. <em>Mitochondrion</em> 2007; 7 Suppl:S51-61.</li>
+                    <li>Yang YK, et al. Coenzyme Q10 treatment of cardiovascular disorders of ageing including heart failure, hypertension and endothelial dysfunction. <em>Clin Chim Acta</em> 2015;450:83-9.</li>
+                    <li>Martinet W, Knaapen MW, Kockx MM, De Meyer GR. Autophagy in cardiovascular disease. <em>Trends Mol Med</em> 2007; 13(11):482-91.</li>
+                </ol>
                 ',
             'side_effects' =>
                 '
@@ -165,22 +177,10 @@ class BioClean_EPA_DHA_CoQ10_120s_Seeder extends Seeder
                 </p>
                 <p>
                     <ul>
-                        <li>Stomach upset</li>
                         <li>Belching</li>
-                        <li>Heart burn</li>
                         <li>Bad breath (refrigeration of fish oils or taking them with meals helps to prevent this)</li>
-                        <li>Loss of appetite</li>
-                        <li>Nausea</li>
-                        <li>Vomiting</li>
-                        <li>Diarrhoea</li>
                         <li>May lower blood pressure</li>
                         <li>May reduce blood clotting when taking more than 3 g /day of fish oils</li>
-                    </ul>
-                </p>
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
                     </ul>
                 </p>
                 ',
@@ -199,8 +199,6 @@ class BioClean_EPA_DHA_CoQ10_120s_Seeder extends Seeder
                                 <li>Angiotensin II receptor blockers</li>
                             </ul>
                         </li>
-                        <li>Pregnant or planning on becoming pregnant.</li>
-                        <li>Breastfeeding or planning on breast feeding.</li>
                     </ul>
                 </p>
                 ',
@@ -273,14 +271,17 @@ class BioClean_EPA_DHA_CoQ10_120s_Seeder extends Seeder
                                 <p>50 mg</p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Gelatin capsules</p>
+                                <p>Vanillin</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    Excipient Ingredients:
-                </p>
-                <p>
-                    Gelatin capsules, vanillin
-                </p>
                 ',
             'cmi' =>
                 '
@@ -322,7 +323,7 @@ class BioClean_EPA_DHA_CoQ10_120s_Seeder extends Seeder
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
-                    Gluten and Casein Free
+                    Gluten and Dairy Free
                 </p>
                 ',
             'price_retail' => 52.68,

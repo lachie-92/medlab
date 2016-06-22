@@ -172,74 +172,13 @@ class NanoCelle_B12_Seeder extends Seeder
             'side_effects' =>
                 '
                 <p>
-                    NanoCelle&trade; B12 has low risk side effects when taken as directed. Excess vitamin B12 levels
-                    are excreted from the body via urine.
-                </p>
-
-                <p>
-                    If you experience any of the following symptoms after taking a dose of NanoCelle&trade; B12,
-                    tell your healthcare professional.
-                </p>
-
-                <p>
-                    These symptoms may be from an allergic reaction:
-                </p>
-
-                <p>
-                    - Difficulty breathing
-                </p>
-
-                <p>
-                    - Swelling of the face and throat
-                </p>
-
-                <p>
-                    - Skin rash
-                </p>
-
-                <p>
-                    - Itching
-                </p>
-
-                <p>
-                    <strong>Please refer to the CMI for this product for side effects.</strong>
-                </p>
-
-                <p>
-                    WARNING: Take NanoCelle&trade; B12 exactly as your healthcare practitioner has prescribed.
-                </p>
-
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
+                    Vitamin B12 has a low risk of side-effects when taken as directed.
                 </p>
                 ',
             'interactions' =>
                 '
                 <p>
-                    Some medicines may interfere with NanoCelle&trade; B12. These include:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Colchicine</li>
-                        <li>Metformin</li>
-                        <li>Extended-release potassium products</li>
-                        <li>Antibiotics</li>
-                        <li>Anti-seizure medications</li>
-                        <li>H2 blockers</li>
-                        <li>Proton pump inhibitors.</li>
-                    </ul>
-                </p>
-
-                <p>
-                    These medicines may be affected by NanoCelle&trade; B12 or may affect how well it works. You may need
-                    to take different amounts of your medicine, or you may need to take different medicines. Your
-                    doctor will advise you.
+                    Some medications interfere with vitamin B12 such as proton pump inhibitors, metformin and chloramphenicol if taken for extended duration.
                 </p>
                 ',
             'dosage_information' =>
@@ -285,6 +224,22 @@ class NanoCelle_B12_Seeder extends Seeder
                                 <p></p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Citric acid</p>
+                                <p>PEG-40 hydrogenated castor oil</p>
+                                <p>Glycerol</p>
+                                <p>Peppermint oil</p>
+                                <p>Potassium sorbate</p>
+                                <p>Stevia</p>
+                                <p>Water</p>
+                                <p>D-alpha tocopherol</p>
+                                <p>Soy oil</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
                 ',
@@ -292,38 +247,43 @@ class NanoCelle_B12_Seeder extends Seeder
                 '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/English.pdf">
+                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/English.pdf" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Arabic.pdf">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Arabic.pdf" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Russian.pdf">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Russian.pdf" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Spanish.pdf">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Spanish.pdf" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/French.pdf">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/French.pdf" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Chinese.pdf">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Chinese.pdf" target="_blank">中文翻译</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Traditional_Chinese.pdf">中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Traditional_Chinese.pdf" target="_blank">中文翻譯</a>
                 </p>
                 ',
             'free_from' =>
                 '
-
+                    <p class="medlab_product_content_sub_title">
+                        Gluten and Dairy free
+                    </p>
+                    <p class="medlab_product_content_sub_title">
+                        Suitable for Vegetarians
+                    </p>
                 ',
             'price_retail' => 22.36,
             'price_wholesale' => 14.91,

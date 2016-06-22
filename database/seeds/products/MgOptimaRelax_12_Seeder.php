@@ -250,12 +250,6 @@ class MgOptimaRelax_12_Seeder extends Seeder
                 <p>
                      You can also refer to the CMI for this product for symptoms and side effects.
                 </p>
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
-                </p>
                 ',
             'interactions' =>
                 '
@@ -273,7 +267,7 @@ class MgOptimaRelax_12_Seeder extends Seeder
                 </h4>
 
                 <p>
-                    Add 5g(1 scoop) to 100-200mL of cold water or juice, one(1) to two(2) times per day, or as directed by your
+                    Add 5g (1 scoop) to 100-200mL of cold water or juice, one (1) to two (2) times per day, or as directed by your
                     healthcare practitioner.
                 </p>
                 ',
@@ -358,30 +352,22 @@ class MgOptimaRelax_12_Seeder extends Seeder
                                 <p>5mg</p>
                             </td>
                         </tr>
-
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica</p>
+                                <p>Malic acid</p>
+                                <p>Silica</p>
+                                <p>Lemon lime flavour</p>
+                                <p>Stevia</p>
+                                <p>Citric acid</p>
+                                <p>Maltodextrin</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    Excipient Ingredients:
-                </p>
-                <p>
-                    Malic acid
-                </p>
-                <p>
-                    Silica
-                </p>
-                <p>
-                    Lemon lime flavour
-                </p>
-                <p>
-                    Stevia
-                </p>
-                <p>
-                    Citric acid
-                </p>
-                <p>
-                    Maltodextrin
-                </p>
                 ',
             'cmi' =>
                 '
@@ -422,6 +408,12 @@ class MgOptimaRelax_12_Seeder extends Seeder
                 ',
             'free_from' =>
                 '
+                <p class="medlab_product_content_sub_title">
+                    Dairy and Gluten Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Suitable for Vegetarians
+                </p>
                 <p class="medlab_product_content_sub_title">
                     No artificial colours, flavours or sweeteners
                 </p>

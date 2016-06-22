@@ -366,26 +366,20 @@ class Product_NOS extends Command
                                 <p>500 mg</p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Citric acid</p>
+                                <p>Malic acid</p>
+                                <p>Stevia</p>
+                                <p>Silica</p>
+                                <p>Flavour</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    Excipient Ingredients:
-                </p>
-                <p>
-                    Citric acid
-                </p>
-                <p>
-                    Malic acid
-                </p>
-                <p>
-                    Flavour
-                </p>
-                <p>
-                    Stevia
-                </p>
-                <p>
-                    Silica
-                </p>
                 ',
             'cmi' =>
                 'none',
@@ -393,6 +387,9 @@ class Product_NOS extends Command
                 '
                 <p class="medlab_product_content_sub_title">
                     Contains No Artificial Colours or Sweeteners
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Gluten & Dairy Free
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Suitable for Vegetarians

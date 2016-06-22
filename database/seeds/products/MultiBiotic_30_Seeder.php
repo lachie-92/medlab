@@ -178,60 +178,7 @@ class MultiBiotic_30s_Seeder extends Seeder
             'side_effects' =>
                 '
                 <p>
-                    Consuming probiotics and enzymes may cause side effects. Do not be alarmed by this list of possible
-                    side effects. You may not experience any of them. Tell your healthcare professional if you notice
-                    any of the following and they worry you:
-                </p>
-
-                <p>
-                    These include:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Cramps or pain in the stomach area</li>
-                        <li>Constipation</li>
-                        <li>Diarrhoea</li>
-                        <li>Mucus in the stool</li>
-                        <li>Bloated stomach area</li>
-                        <li>Gas</li>
-                        <li>Discomfort in the upper stomach area</li>
-                    </ul>
-                </p>
-
-                <p>
-                    These side effects are usually mild and dose related. Most of them disappear completely in a few days
-                    after the dose of MultiBiotic&trade; is lowered or stopped.
-                </p>
-
-                <p>
-                    Serious allergic reactions to these ingredients are rare, however tell your healthcare professional
-                    immediately if you experience any of the following:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Skin rash</li>
-                        <li>Swelling of face and/or throat</li>
-                        <li>Difficulty breath</li>
-                        <li>Itching of the skin</li>
-                    </ul>
-                </p>
-
-                <p>
-                    <strong>You can also refer to the CMI for this product for symptoms and side effects</strong>
-                </p>
-
-                <p>
-                    WARNING: Take MultiBiotic&trade; exactly as your healthcare professional has prescribed; if symptoms
-                    persist consult your healthcare practitioner.
-                </p>
-
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
+                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
                 </p>
                 ',
             'interactions' =>
@@ -245,12 +192,6 @@ class MultiBiotic_30s_Seeder extends Seeder
                         <li>Immunosuppressant Drugs</li>
                         <li>Antibiotics</li>
                     </ul>
-                </p>
-
-                <p>
-                    These medicines may be affected by MultiBiotic&trade;, or may affect how well it works. You may
-                    need to take different amounts of your medicine, or you may need to take different medicines.
-                    Your doctor will advise you.
                 </p>
                 ',
             'dosage_information' =>
@@ -283,7 +224,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                             </td>
                             <td width="136" valign="top">
                                 <p>
-                                    <strong>EACH CAPSULE CONTAINS</strong>
+                                    <strong>EACH VEGETARIAN CAPSULE CONTAINS</strong>
                                 </p>
                             </td>
                         </tr>
@@ -292,7 +233,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                                 <p>Lactobacillus rhamnosus (Med 26)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>9 billion CFU</p>
+                                <p>9 billion</p>
                             </td>
                         </tr>
                         <tr>
@@ -300,7 +241,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                                 <p>Lactobacillus acidophilus (Med 27)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>3.75 billion CFU</p>
+                                <p>3.75 billion</p>
                             </td>
                         </tr>
                         <tr>
@@ -308,7 +249,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                                 <p>Lactobacillus plantarum (Med 25)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>1.575 billion CFU</p>
+                                <p>1.575 billion</p>
                             </td>
                         </tr>
                         <tr>
@@ -316,7 +257,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                                 <p>Bifidobacterium animalis spp. lactis (Med 13)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>3 billion CFU</p>
+                                <p>3 billion</p>
                             </td>
                         </tr>
                         <tr>
@@ -324,7 +265,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                                 <p>Bifidobacterium breve (Med 12)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>1.75 billion CFU</p>
+                                <p>1.75 billion</p>
                             </td>
                         </tr>
                         <tr>
@@ -332,7 +273,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                                 <p>Bifidobacterium bifidum (Med 11)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>500 million CFU</p>
+                                <p>500 million</p>
                             </td>
                         </tr>
                         <tr>
@@ -340,7 +281,7 @@ class MultiBiotic_30s_Seeder extends Seeder
                                 <p>Streptococcus thermophilus (Med 51)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>1.5 billion CFU</p>
+                                <p>1.5 billion</p>
                             </td>
                         </tr>
                     </tbody>
@@ -352,64 +293,75 @@ class MultiBiotic_30s_Seeder extends Seeder
                                 <p>Total</p>
                             </th>
                             <th width="273" valign="top">
-                                <p>21.075 Billion CFU (1 capsule)</p>
+                                <p>21.075 Billion CFU* (1 capsule)</p>
                             </th>
                         </tr>
                         <tr>
                             <td></td>
                             <th width="273" valign="top">
-                                <p>42.15 Billion CFU (2 capsules)</p>
+                                <p>42.15 Billion CFU* (2 capsules)</p>
                             </th>
+                        </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica</p>
+                                <p>Maltodextrin</p>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                *CFU: Colony Forming Units
-                </p>
                 ',
             'cmi' =>
                 '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/English.pdf">
+                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/English.pdf" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Arabic.pdf">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Russion.pdf">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Russion.pdf" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Spanish.pdf">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Spanish.pdf" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Japanese.pdf">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/French.pdf">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/French.pdf" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Chinese.pdf">中文翻译，中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Chinese.pdf" target="_blank">中文翻译，中文翻譯</a>
                 </p>
                 ',
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
-                    Gluten & Dairy Free
+                    Gluten and Dairy Free
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Vegetarian Friendly
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Refrigerate formula to maintain CFU stability
+                    Refrigerate to maintain stability
                 </p>
                 ',
             'price_retail' => 28.89,

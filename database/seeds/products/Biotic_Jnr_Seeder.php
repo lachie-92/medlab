@@ -278,72 +278,19 @@ class Biotic_Jnr_Seeder extends Seeder
                     <li>Walker WA, Lyengar SR. Breast milk, microbiota and intestinal immune homeostasis. <em>Pediatr Res</em> 2015;77:220.</li>
                 </ol>
                 ',
-            'side_effects' =>
+            'free_from' =>
                 '
-                <p>
-                    Consuming probiotics and enzymes may cause side effects. Parents should not be alarmed by this list of
-                    possible side effects, as infants and children may not experience any of them. Parents should contact
-                    their healthcare practitioner if children experience any of the following.
+                <p class="medlab_product_content_sub_title">
+                    Gluten and Casein Free
                 </p>
-
-                <p>
-                    These include:
+                <p class="medlab_product_content_sub_title">
+                    Vegetarian Friendly
                 </p>
-
-                <p>
-                    <ul>
-                        <li>Cramps or pain in the stomach</li>
-                        <li>Constipation</li>
-                        <li>Diarrhoea</li>
-                        <li>Mucus in the stool</li>
-                        <li>Bloated stomach area</li>
-                        <li>Gas</li>
-                    </ul>
+                <p class="medlab_product_content_sub_title">
+                    No artificial colours, flavours or sweeteners
                 </p>
-
-                <p>
-                    These side effects are usually mild and dose related. Most of them disappear completely in a few days
-                    after the dose of Biotic Jnr.&trade; is lowered or stopped.
-                </p>
-
-                <p>
-                    If symptoms persist parents should consult their healthcare practitioner. If diarrhoea persists for
-                    more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children
-                    aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.
-                </p>
-
-                <p>
-                    Lactoferrin in Biotic Jnr.&trade; is derived from cow&#39;s milk and contains less than 0.1% Lactose.
-                </p>
-
-                <p>
-                    Serious allergic reactions to these ingredients are rare however parents should contact their
-                    healthcare professional or call an ambulance immediately if any of the following are experienced:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Skin rash</li>
-                        <li>Swelling of face and/or throat</li>
-                        <li>Difficulty breathing</li>
-                        <li>Itching of the skin</li>
-                    </ul>
-                </p>
-
-                <p>
-                    If the child experiences any allergic reaction or other side effects after consuming Biotic Jnr.&trade;
-                    discontinue use and parents should consult with their healthcare practitioner or pharmacist.
-                </p>
-
-                <p>
-                    Parents can also refer to the CMI for this product for symptoms and side effects.
-                </p>
-
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
+                <p class="medlab_product_content_sub_title">
+                    Refrigerate to maintain stability
                 </p>
                 ',
             'interactions' =>
@@ -365,7 +312,7 @@ class Biotic_Jnr_Seeder extends Seeder
                 </h4>
 
                 <p>
-                    Add 500mg of powder (1 scoop) to liquid or solid foods, one (1) to two (2) times per day or as directed
+                    Add 500 mg of powder (1 scoop) to liquid or solid foods, one (1) to two (2) times per day or as directed
                     by your healthcare practitioner.
                 </p>
                 ',
@@ -454,24 +401,27 @@ class Biotic_Jnr_Seeder extends Seeder
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Glycomax&trade; Lactoferrin</p>
+                                <p>Lactoferrin</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>50 mg</p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Inulin</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    *CFU: Colony Forming Units
-                </p>
-                <p class="medlab_product_content_sub_title">
-                    Excipient Ingredients:
-                </p>
-                <p>
-                    Inulin
-                </p>
-
                 ',
             'cmi' =>
                 '
@@ -522,9 +472,30 @@ class Biotic_Jnr_Seeder extends Seeder
                     No artificial colours, flavours or sweeteners
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Refrigerate formula to maintain CFU stability
+                    Refrigerate to maintain stability
                 </p>
                 ',
+            'side_effects' =>
+                "
+                <p>
+                   Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually
+                   temporary and can be relieved by reducing the dose.
+                </p>
+                <br>
+                <p>
+                   If symptoms persist parents should consult their healthcare practitioner. If diarrhoea persists for
+                   more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children
+                   aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.
+                </p>
+                <br>
+                <p>
+                    Lactoferrin in Biotic Jnr.™ is derived from cow's milk and contains less than 0.1% Lactose.
+                </p>
+                <br>
+                <p>
+                    You can also refer to the CMI for this product for symptoms and side-effects.
+                </p>
+                ",
             'price_retail' => 57.12,
             'price_wholesale' => 38.08,
             'image_path' => '/img/products/boitic_jnr/bioticjnr.png',

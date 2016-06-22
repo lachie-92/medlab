@@ -348,32 +348,22 @@ class UploadProduct extends Command
                                 </p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica</p>
+                                <p>Maltodextrin (corn)</p>
+                                <p>Stevia</p>
+                                <p>Tartaric Acid</p>
+                                <p>Citric Acid</p>
+                                <p>Effersoda</p>
+                                <p>Orange and Mango flavours</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    Excipient Ingredients:
-                </p>
-                <p>
-                    Silica
-                </p>
-                <p>
-                    Maltodextrin (corn)
-                </p>
-                <p>
-                    Stevia
-                </p>
-                <p>
-                    Tartaric Acid
-                </p>
-                <p>
-                    Citric Acid
-                </p>
-                <p>
-                    Effersoda
-                </p>
-                <p>
-                    Orange and Mango flavours
-                </p>
                 ',
             'cmi' =>
                 '
@@ -408,6 +398,9 @@ class UploadProduct extends Command
                 '
                 <p class="medlab_product_content_sub_title">
                     Contains No Artificial Colours or Sweeteners
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Gluten and Dairy Free
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Suitable for Vegetarians

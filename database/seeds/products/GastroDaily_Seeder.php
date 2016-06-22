@@ -174,60 +174,7 @@ class GastroDaily_Seeder extends Seeder
             'side_effects' =>
                 '
                 <p>
-                    Consuming probiotics and enzymes may cause side effects. Do not be alarmed by this list of
-                    possible side effects, as you may not experience any of them. Tell your healthcare practitioner
-                    if you notice any of the following and they worry you.
-                </p>
-
-                <p>
-                    These include:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Cramps or pain in the stomach</li>
-                        <li>Constipation</li>
-                        <li>Diarrhoea</li>
-                        <li>Mucus in the stool</li>
-                        <li>Bloated stomach area</li>
-                        <li>Gas</li>
-                    </ul>
-                </p>
-
-                <p>
-                    These side effects are usually mild and dose related. Most of them disappear completely in a few days
-                    after the dose of GastroDaily&trade; is lowered or stopped.
-                </p>
-
-                <p>
-                    Serious allergic reactions to these ingredients are rare however tell your healthcare practitioner
-                    immediately if you experience any of the following:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Skin rash</li>
-                        <li>Swelling of face and/or throat</li>
-                        <li>Difficulty breathing</li>
-                        <li>Itching of the skin</li>
-                    </ul>
-                </p>
-
-                <p>
-                    If symptoms persist consult your healthcare practitioner. If Diarrhoea persists for more than 6
-                    hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged
-                    3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.
-                </p>
-
-                <p>
-                    You can also refer to the CMI for this product for symptoms and side effects.
-                </p>
-
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
+                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
                 </p>
                 ',
             'interactions' =>
@@ -253,10 +200,6 @@ class GastroDaily_Seeder extends Seeder
                     Mix one 6 g dose (1 scoop) into 250 mL of cold water, stir well and consume immediately. Take one
                     (1) to two (2) times per day before meals or as directed by your healthcare practitioner.
                 </p>
-                <p>
-                    Your healthcare practitioner or pharmacist will tell you how much GastroDaily&trade; powder to take each
-                    day. This depends on the condition being treated and whether any other medicines are being used.
-                </p>
                 ',
             'ingredients' =>
                 '
@@ -279,7 +222,7 @@ class GastroDaily_Seeder extends Seeder
                                 <p><em>Saccharomyces cerevisiae ssp. boulardii</em> (Med 41)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>5 million</p>
+                                <p>5 million CFU*</p>
                             </td>
                         </tr>
                         <tr>
@@ -314,58 +257,57 @@ class GastroDaily_Seeder extends Seeder
                                 <p>500mg</p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica</p>
+                                <p>Cocoa Powder</p>
+                                <p>Stevia</p>
+                                <p>Chocolate flavour</p>
+                                <p>Peppermint flavour</p>
+                            </td>
+                        </tr>
                         </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    Excipient Ingredients:
-                </p>
-                <p>
-                    Silica
-                </p>
-                <p>
-                    Cocoa Powder
-                </p>
-                <p>
-                    Stevia
-                </p>
-                <p>
-                    Chocolate flavour
-                </p>
-                <p>
-                    Peppermint flavour
-                </p>
                 ',
             'cmi' =>
                 '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/English.pdf">
+                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/English.pdf" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Arabic.pdf">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Arabic.pdf" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Russian.pdf">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Russian.pdf" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Spanish.pdf">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Spanish.pdf" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Japanese.pdf">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Japanese.pdf" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/French.pdf">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/French.pdf" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Chinese.pdf">中文翻译，中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Chinese.pdf" target="_blank">中文翻译，中文翻譯</a>
                 </p>
                 ',
             'free_from' =>

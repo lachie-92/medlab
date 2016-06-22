@@ -140,9 +140,21 @@ class BioClean_EPA_DHA_Plant_Sterols_120s_Seeder extends Seeder
                 ',
             'references' =>
                 '
-                <p class="medlab_product_reference_list">
-                    References available to Clinicians on request.
-                </p>
+                <ol class="medlab_product_reference_list">
+                    <li>Vitetta L, Sali A.  Omega–3 Fatty Acids PUFA. PART I. <em>J Comp Med</em> 2006; 5(6):52-59.</li>
+                    <li>Jain AP, et al. Omega-3 fatty acids and cardiovascular disease. <em>Eur Rev Med Pharmacol Sci</em> 2015; 19:441-445.</li>
+                    <li>Djoussé L, et al. Fish consumption, omega-3 fatty acids and risk of heart failure: a meta-analysis. <em>Clin Nutr</em> 2012; 31(6):846-53.</li>
+                    <li>Marik PE, Varon J. Omega-3 dietary supplements and the risk of cardiovascular events: a systematic review. <em>Clin Cardiol</em> 2009; 32(7):365-72.</li>
+                    <li>Lopez–Garcia E, Schulze MB, Manson JE, etal. Consumption of (n-3) fatty acids is related to plasma biomarkers of inflammation and endothelial activation in women. <em>J Nutr</em> 2004; 134(7):1806–11.</li>
+                    <li>Stipanuk, Martha H. Biochemical Physiological and Molecular Aspects of Human Nutrition. Saunders Publisher. 2nd Edition. Pp24-25. 2006.</li>
+                    <li>Gylling H, Simonen P. Phytosterols, Phytostanols, and Lipoprotein Metabolism. <em>Nutrients</em> 2015; 7(9):7965-77.</li>
+                    <li>Plat J, et al. Mechanisms underlying the health benefits of plant sterol and stanol ester consumption. <em>J AOAC Int</em> 2015; 98(3):697-700.</li>
+                    <li>Plat J, et al. A plant stanol yogurt drink alone or combined with a low-dose statin lowers serum triacylglycerol and non-HDL cholesterol in metabolic syndrome patients. <em>J Nutr</em> 2009; 139(6):1143-1149.</li>
+                    <li>Plat J, et al. Protective role of plant sterol and stanol esters in liver inflammation: insights from mice and humans. <em>PLoS ONE</em> 2014; 9(1): e110758.</li>
+                    <li>Katan MB, et al. Efficacy and safety of plant stanols and sterols in the management of blood cholesterol levels. <em>Mayo Clin Proc</em> 2003; 78(8):965-78.</li>
+                    <li>Abumweis SS, Barake R, Jones PJ. Plant sterols/stanols as cholesterol lowering agents: A meta-analysis of randomized controlled trials. <em>Food Nutr Res</em> 2008;52.</li>
+                    <li>Ras RT, et al. Low doses of Eicosapentaenoic acid and Docosahexaenoic acid from fish oil dose-dependantly decrease serum triglyceride concentrations in the presence of plant sterols in hypercholesterolemic men and women. <em>J Nutr </em> 2014; 144:1564-1570.</li>
+                </ol>
                 ',
             'side_effects' =>
                 '
@@ -153,19 +165,9 @@ class BioClean_EPA_DHA_Plant_Sterols_120s_Seeder extends Seeder
                 </p>
                 <p>
                     <ul>
-                        <li>Stomach upset</li>
                         <li>Belching</li>
-                        <li>Heart burn</li>
                         <li>Bad breath (refrigeration of fish oils or taking them with meals helps to prevent this)</li>
-                        <li>Nausea</li>
-                        <li>Diarrhoea</li>
                         <li>May reduce blood clotting when taking more than 3 g /day of fish oils</li>
-                    </ul>
-                </p>
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
                     </ul>
                 </p>
                 ',
@@ -214,7 +216,7 @@ class BioClean_EPA_DHA_Plant_Sterols_120s_Seeder extends Seeder
                                 <p>Fish Oil – Natural</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>950 mg</p>
+                                <p>500 mg</p>
                             </td>
                         </tr>
                         <tr>
@@ -236,24 +238,24 @@ class BioClean_EPA_DHA_Plant_Sterols_120s_Seeder extends Seeder
                         <tr>
                             <td valign="top" width="273">
                                 <p style="padding-left: 30px;">
-                                    Vegetable oil phytosterol esters
-                                </p>
-                                <p>
-                                    (Plant Sterols)
+                                    Vegetable oil phytosterol esters (Plant Sterols)
                                 </p>
                             </td>
                             <td valign="top" width="136">
                                 <p>500 mg</p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="2">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Gelatin capsules</p>
+                                <p>Vanillin</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <p class="medlab_product_content_sub_title">
-                    Excipient Ingredients:
-                </p>
-                <p>
-                    Gelatin capsules, vanillin
-                </p>
                 ',
             'cmi' =>
                 '
@@ -295,7 +297,7 @@ class BioClean_EPA_DHA_Plant_Sterols_120s_Seeder extends Seeder
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
-                    Gluten and Casein Free
+                    Gluten and Dairy Free
                 </p>
                 ',
             'price_retail' => 45.41,

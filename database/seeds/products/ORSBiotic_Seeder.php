@@ -203,64 +203,7 @@ class ORSBiotic_Seeder extends Seeder
             'side_effects' =>
                 '
                 <p>
-                    Consuming probiotics may cause minor side effects. Your patients should not be alarmed by this
-                    list of possible side effects, as they may not experience any of them.
-                </p>
-
-                <p>
-                    These include:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Cramps or pain in the stomach</li>
-                        <li>Constipation</li>
-                        <li>Mucus in the stool</li>
-                        <li>Bloated stomach area</li>
-                        <li>Gas</li>
-                    </ul>
-                </p>
-
-                <p>
-                    These side effects are usually mild and dose related. Most of them disappear completely in a few days
-                    after the dose of ORSBiotic&trade; is lowered or stopped.
-                </p>
-
-                <p>
-                    Serious allergic reactions to these ingredients are rare however if a patient experiences any of
-                    these they should contact their healthcare practitioner immediately:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Skin rash</li>
-                        <li>Swelling of face and/or throat</li>
-                        <li>Difficulty breathing</li>
-                        <li>Itching of the skin</li>
-                    </ul>
-                </p>
-
-                <p>
-                    If symptoms persist patients should consult their healthcare practitioner. If Diarrhoea persists
-                    for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours
-                    in children aged 3 - 6 years or 48 hours in children over 6 years and adults, patients are
-                    advised to seek medical advice.
-                </p>
-
-                <p>
-                    ORSBiotic&trade; contains glucose (sugar). This powder contains zinc, which may be dangerous if
-                    taken in large amounts or for a long period.
-                </p>
-
-                <p>
-                    Please refer patients to the CMI for this product for symptoms and side effects.
-                </p>
-
-                <p>
-                    <ul>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
-                        <li>Always read the label and use the product as directed.</li>
-                    </ul>
+                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
                 </p>
                 ',
             'interactions' =>
@@ -279,10 +222,6 @@ class ORSBiotic_Seeder extends Seeder
                 <p>
                     Recommended dose for under 3 years is 100 mL every 90 minutes; 3-6 years 100 mL every 60 minutes;
                     6-12 years 100 mL every 30 minutes and over 12 years 200 mL every 30 minutes.
-                </p>
-                <p>
-                    Your healthcare practitioner or pharmacist will tell you how much ORSBiotic&trade; powder to take
-                    each day. This depends on the condition being treated and whether any other medicines are being used.
                 </p>
                 ',
             'ingredients' =>
@@ -466,6 +405,22 @@ class ORSBiotic_Seeder extends Seeder
                                 <p><strong>216.5 mmol/L</strong></p>
                             </td>
                         </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica</p>
+                                <p>Stevia</p>
+                                <p>Carrot powder</p>
+                                <p>Flavours</p>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
                 ',
@@ -473,39 +428,39 @@ class ORSBiotic_Seeder extends Seeder
                 '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/English.pdf">
+                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/English.pdf" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Arabic.pdf">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Russian.pdf">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Spanish.pdf">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Spanish.pdf" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Japanese.pdf">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/French.pdf">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/French.pdf" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Chinese.pdf">中文翻译，中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Chinese.pdf" target="_blank">中文翻译，中文翻譯</a>
                 </p>
                 ',
             'free_from' =>
                 '
                 <p class="medlab_product_content_sub_title">
-                    Gluten and Casein Free
+                    Gluten and Lactose Free
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Suitable for vegetarians
@@ -514,7 +469,7 @@ class ORSBiotic_Seeder extends Seeder
                     No artificial colours, flavours or sweeteners
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Refrigerate formula to maintain CFU stability
+                    Refrigerate to maintain stability
                 </p>
                 ',
             'price_retail' => 30.09,
