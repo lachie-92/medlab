@@ -271,7 +271,7 @@ class NanoCelle_D3_Seeder extends Seeder
                                 <p>Stevia</p>
                                 <p>Water</p>
                                 <p>D-alpha tocopherol</p>
-                                <p>Soy oil</p>
+                                <p>Maize oil</p>
                             </td>
                         </tr>
                     </tbody>

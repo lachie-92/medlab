@@ -2053,7 +2053,7 @@ class ModifyProduct extends Command
                                     <p>Stevia</p>
                                     <p>Water</p>
                                     <p>D-alpha tocopherol</p>
-                                    <p>Soy oil</p>
+                                    <p>Maize oil</p>
                                 </td>
                             </tr>
                         </tbody>
