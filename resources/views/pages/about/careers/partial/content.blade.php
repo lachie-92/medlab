@@ -81,7 +81,7 @@
                     <p>Due to a rapid increase in market share we are seeking a highly ambitious Practitioner  Consultant Field Rep to join our extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
 
                     <h4>The Opportunity</h4>
-                    <p>As a passionate Client Relationship Manager, you will act as the interface between our company and healthcare practitioners, As a passionate Practitioner Consultant Field Rep, you will act as the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
+                    <p>As a passionate Practitioner Consultant Field Rep, you will act as the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
                     <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
                     <p>Duties and Responsibilities include:</p>
                     <li>Continually identify and develop new business opportunities.</li>
@@ -117,7 +117,7 @@
                     <p>Due to a rapid increase in market share we are seeking a highly ambitious Practitioner  Consultant Field Rep to join our extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
 
                     <h4>The Opportunity</h4>
-                    <p>As a passionate Client Relationship Manager, you will act as the interface between our company and healthcare practitioners, As a passionate Practitioner Consultant Field Rep, you will act as the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
+                    <p>As a passionate Practitioner Consultant Field Rep, you will act as the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
                     <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
                     <p>Duties and Responsibilities include:</p>
                     <li>Continually identify and develop new business opportunities.</li>
@@ -153,7 +153,7 @@
                     <p>Due to a rapid increase in market share we are seeking a highly ambitious Practitioner  Consultant Field Rep to join our extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
 
                     <h4>The Opportunity</h4>
-                    <p>As a passionate Client Relationship Manager, you will act as the interface between our company and healthcare practitioners, As a passionate Practitioner Consultant Field Rep, you will act as the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
+                    <p>As a passionate Practitioner Consultant Field Rep, you will act as the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
                     <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
                     <p>Duties and Responsibilities include:</p>
                     <li>Continually identify and develop new business opportunities.</li>
