@@ -24,7 +24,10 @@ class NRGBiotic_60s_Seeder extends Seeder
                     <strong>PATENT PROTECTED</strong>
                 </p>
                 <p>
-                    NRGBiotic&trade; is formulated to improve mitochondrial function and intracellular energy production.
+                    NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate.
+                    NRGBioticTM is indicated to support healthy cellular energy production with magnesium and Coenzyme Q10
+                    required for ATP (energy) production in the cell. The probiotic species may help to support a healthy
+                    gut microbial profile and support a healthy immune system.
                 </p>
                 ',
             'patent' =>
@@ -39,12 +42,10 @@ class NRGBiotic_60s_Seeder extends Seeder
             'general_summary' =>
                 '
                 <p>
-                    NRGBiotic&trade; is a multi-species probiotic formula combined with Coenzyme Q10 and Magnesium Orotate.
-                    NRGBiotic&trade; is used to support optimal mitochondrial energy production and muscle cell function.
-                    Each capsule of NRGBiotic&trade; contains 400 mg of Magnesium Orotate, equivalent to 25 mg of elemental
-                    magnesium. Orotate is a key molecule involved in uridine and pyrimidine biosynthesis; constituents
-                    that are involved in DNA and RNA turnover as well as synthesis of the glycogen and phospholipids.
-                    Coenzyme Q10 and magnesium are critical for intracellular energy production.
+                    NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate. NRGBioticTM is
+                    indicated to support healthy cellular energy production with magnesium and Coenzyme Q10 required for
+                    ATP (energy) production in the cell. The probiotic species may help to support a healthy gut microbial
+                    profile and support a healthy immune system.
                 </p>
                 ',
             'practitioner_summary' =>

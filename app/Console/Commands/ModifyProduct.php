@@ -2126,6 +2126,28 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "NRGBiotic 60's",
+                'short_description' =>
+                    '
+                    <h4 class="medlab_product_content_title">NRGBiotic&trade; 60&#39;s</h4>
+                    <p>
+                        <strong>PATENT PROTECTED</strong>
+                    </p>
+                    <p>
+                        NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate.
+                        NRGBioticTM is indicated to support healthy cellular energy production with magnesium and Coenzyme Q10
+                        required for ATP (energy) production in the cell. The probiotic species may help to support a healthy
+                        gut microbial profile and support a healthy immune system.
+                    </p>
+                    ',
+                'general_summary' =>
+                    '
+                    <p>
+                        NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate. NRGBioticTM is
+                        indicated to support healthy cellular energy production with magnesium and Coenzyme Q10 required for
+                        ATP (energy) production in the cell. The probiotic species may help to support a healthy gut microbial
+                        profile and support a healthy immune system.
+                    </p>
+                    ',
                 'ingredients' =>
                     '
                     <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
@@ -2352,6 +2374,28 @@ class ModifyProduct extends Command
                             </tr>
                         </tbody>
                     </table>
+                    ',
+                'short_description' =>
+                    '
+                    <h4 class="medlab_product_content_title">NRGBiotic&trade; 120&#39;s</h4>
+                    <p>
+                        <strong>PATENT PROTECTED</strong>
+                    </p>
+                    <p>
+                        NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate.
+                        NRGBioticTM is indicated to support healthy cellular energy production with magnesium and Coenzyme Q10
+                        required for ATP (energy) production in the cell. The probiotic species may help to support a healthy
+                        gut microbial profile and support a healthy immune system.
+                    </p>
+                    ',
+                'general_summary' =>
+                    '
+                    <p>
+                        NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate. NRGBioticTM is
+                        indicated to support healthy cellular energy production with magnesium and Coenzyme Q10 required for
+                        ATP (energy) production in the cell. The probiotic species may help to support a healthy gut microbial
+                        profile and support a healthy immune system.
+                    </p>
                     ',
                 'free_from' =>
                     '
