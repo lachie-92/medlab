@@ -1464,6 +1464,39 @@ class ModifyProduct extends Command
                         </tbody>
                     </table>
                     ',
+                'cmi' =>
+                    '
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/English.pdf"target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                    <p>
+                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Arabic.pdf"target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Spanish.pdf"target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Russian.pdf"target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Japanese.pdf"target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Italian.pdf"target="_blank">Traduzione italiana</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Chinese.pdf" target="_blank">中文翻译，中文翻譯</a>
+                    </p>
+                    ',
             ],
             [
                 'product_name_index' => "MultiBiotic 30's",
