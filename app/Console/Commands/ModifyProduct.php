@@ -2383,7 +2383,7 @@ class ModifyProduct extends Command
                     </p>
                     <p>
                         NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate.
-                        NRGBioticTM is indicated to support healthy cellular energy production with magnesium and Coenzyme Q10
+                        NRGBiotic&trade; is indicated to support healthy cellular energy production with magnesium and Coenzyme Q10
                         required for ATP (energy) production in the cell. The probiotic species may help to support a healthy
                         gut microbial profile and support a healthy immune system.
                     </p>
@@ -2391,7 +2391,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                     <p>
-                        NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate. NRGBioticTM is
+                        NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate. NRGBiotic&trade; is
                         indicated to support healthy cellular energy production with magnesium and Coenzyme Q10 required for
                         ATP (energy) production in the cell. The probiotic species may help to support a healthy gut microbial
                         profile and support a healthy immune system.
