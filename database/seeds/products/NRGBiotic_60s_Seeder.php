@@ -323,7 +323,7 @@ class NRGBiotic_60s_Seeder extends Seeder
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/%C2%81Chinese.pdf" target="_blank">中文翻译，中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/%C2%81Chinese.pdf" target="_blank">中文翻译</a>
                 </p>
                 ',
             'free_from' =>
