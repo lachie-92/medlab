@@ -393,6 +393,10 @@ class UploadProduct extends Command
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
                     <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Italian.pdf"target="_blank">Traduzione italiana</a>
                 </p>
+                <p>
+                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Chinese.pdf" target="_blank">中文翻译，中文翻譯</a>
+                </p>
                 ',
             'free_from' =>
                 '
