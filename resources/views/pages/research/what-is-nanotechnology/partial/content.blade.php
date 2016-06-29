@@ -290,7 +290,7 @@
                             <tr>
                                 <td style="background-color: #fff;">D3</td>
                                 <td style="background-color: #fff;">31.01</td>
-                                <td style="background-color: #fff;"></td>
+                                <td style="background-color: #fff;">1000 IU/0.3 mL</td>
                             </tr>
                             <tr>
                                 <td style="background-color: #fff;">D3 & K2 (2182016D3K2)</td>
@@ -305,12 +305,12 @@
                             <tr>
                                 <td style="background-color: #fff;">Cyanocobalamin B12</td>
                                 <td style="background-color: #fff;">24.8</td>
-                                <td style="background-color: #fff;"></td>
+                                <td style="background-color: #fff;">1000mg/0.3 mL</td>
                             </tr>
                             <tr>
                                 <td style="background-color: #fff;">Methlycobalamin B12  (2182016B12)</td>
                                 <td style="background-color: #fff;">18.9</td>
-                                <td style="background-color: #fff;"></td>
+                                <td style="background-color: #fff;">1000mg/0.3 mL</td>
                             </tr>
 
                         </tbody>
