@@ -110,82 +110,7 @@
                                      class="img-responsive center-block">
                             </a>
                         </p>
-                        <br>
-                        <p>
-                            <a
-                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="http://goo.gl/uhkgv7"
-                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                    href="#"
-                                    @else
-                                    href="/account/login"
-                                    @endif
-                                    target="_blank">
 
-                                <img alt="Unlocking the Clinical benefits of NRGBiotic"
-                                     src="/img/news/MedlabNRG_webinar.jpg"
-                                     title="Unlocking the Clinical benefits of NRGBiotic"
-                                     width="450px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-                        <br>
-                        <p>
-                            <a
-                                @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="http://goo.gl/02ed6J"
-                                @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                    href="#"
-                                @else
-                                    href="/account/login"
-                                @endif
-                            target="_blank">
-
-                                <img alt="Medlab Depression and the Gut Microbiome Webinar"
-                                     src="/img/news/medlab_depressionwebinar.jpg"
-                                     title="Medlab Depression and the Gut Microbiome Webinar"
-                                     width="450px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-                        <br>
-                        <p>
-                            <a
-                                @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                href="http://goo.gl/uJHPxi"
-                                @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                href="#"
-                                @else
-                                href="/account/login"
-                                @endif
-                            target="_blank">
-
-                                <img alt="Medlab HFD NALFD Webinar"
-                                     src="/img/news/Medlab_HFD_NALFD_Webinar.jpg"
-                                     title="Medlab HFD NALFD Webinar"
-                                     width="450px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-                        <br>
-                        <p>
-                            <a
-                                @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                href="http://goo.gl/fBJJjj"
-                                @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                href="#"
-                                @else
-                                href="/account/login"
-                                @endif
-                            target="_blank">
-
-                                <img alt="Medlab Probiotic and Gut Health Webinar"
-                                     src="/img/news/Medlab_Probiotic_and_Gut_Health_Webinar.jpg"
-                                     title="Medlab Probiotic and Gut Health Webinar"
-                                     width="450px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
                     </div>
                 </div>
             </div>
@@ -198,7 +123,45 @@
                         NEWS
                     </div>
                     <div class="medlab_news_item_body">
-                        <h2 class="medlab_news_content_title">
+
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                            Professor Luis Vitetta presents Medlab Seminar in: Sydney, Melbourne, Gold Coast, Perth and Brisbane to our Health Practitioners.<br>
+                        </h2>
+                        Proving to be a great event with seats filling up fast.</br>
+                        <br>
+                        <img alt="Medlab Seminars"
+                             src="/img/news/Medlab_Seminar.jpg"
+                             title="Medlab Seminars"
+                             width="600px"
+                             class="img-responsive center-block">
+                        <br><br>
+
+
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                            <a href="https://www.a5m.net/events/category/annual-conference" target="_blank" class="medlab_news_content_link">
+                                We are excited to announce our involvement in the upcoming AustralAsian Academy of Anti-Ageing Medicine (A5M)’s 10th Annual Conference, being held in Melbourne 6-7 August 2016.<br>
+                            </a>
+                        </h2>
+                        <p>
+                            <a href="https://www.a5m.net/events/category/annual-conference" target="_blank">
+                                <img alt="10th Annual A5M Conference"
+                                     src="/img/news/A5m_banner.jpg"
+                                     title="10th Annual A5M Conference"
+                                     width="600px"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+                        <p style="text-align: justify">
+                            The conference aims to connect medical and health practitioners in Australia, as they come together
+                            to learn and understand more about integrative and preventative approaches to treatment and medicine.
+                            This is to address the future health crises caused by 21st century lifestyle habits and keep people
+                            living a quality life for longer.  Medlab will be exhibiting at booth 15 and both Professor Luis Vitetta
+                            and Dr Samantha Coulson will be presenting at this event.
+                        </p>
+                        <br><br>
+
+
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             <a href="https://issuu.com/aiglobalmedia/docs/biotech_awards_2016_supplement/1" target="_blank" class="medlab_news_content_link">
                                 Congratulations to the Medlab team! Best early-phase chronic disease drug discovery company. Click the link to review the article, featured on pages 16 and 17.</br>
                             </a>
@@ -213,8 +176,10 @@
                                      class="img-responsive center-block">
                             </a>
                         </p>
-                        <br>
-                        <h2 class="medlab_news_content_title">
+                        <br><br>
+
+
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 23px;">
                             <a href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" target="_blank" class="medlab_news_content_link">
                                 Medlab's research featured on Channel 9 news
                             </a>
