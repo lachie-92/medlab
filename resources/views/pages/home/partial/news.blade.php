@@ -184,7 +184,7 @@
                                 Medlab's research featured on Channel 9 news
                             </a>
                         </h2>
-                        <p>
+                        <p style="text-align: justify">
                             Medlab Clinical is at the forefront of research into obesity and the prevention of diabetes.
                             Medlab's probiotic formulation is currently undergoing clinical trial evaluation in
                             collaboration with the University of Sydney's Boden Institute as featured in a recent Channel
