@@ -145,7 +145,7 @@
                         <p>
                             <a href="https://www.a5m.net/events/category/annual-conference" target="_blank">
                                 <img alt="10th Annual A5M Conference"
-                                     src="/img/news/A5m_banner.jpg"
+                                     src="/img/news/A5M_banner.jpg"
                                      title="10th Annual A5M Conference"
                                      width="600px"
                                      class="img-responsive center-block">
