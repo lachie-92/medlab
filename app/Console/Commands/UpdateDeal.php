@@ -58,56 +58,69 @@ class UpdateDeal extends Command
         $buy_one_get_one_free_deals = [
 
             //
-            //June
+            //July
             //
             [
-                'product' => "Biotic Jnr.",
-                'name' => "June 2016 Deals",
+                'product' => "NanoCelle B12",
+                'name' => "July 2016 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2016 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "SB 5B",
+                'name' => "July 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "NanoCelle Activated B12",
+                'name' => "July 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "NanoCelle D3",
+                'name' => "July 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
             [
                 'product' => "Manuka-C",
-                'name' => "June 2016 Deals",
+                'name' => "July 2016 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2016 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
-            [
-                'product' => "12Mg Optima Relax",
-                'name' => "June 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "ORSBiotic",
-                'name' => "June 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
+
         ];
 
         $discount_deals = [
