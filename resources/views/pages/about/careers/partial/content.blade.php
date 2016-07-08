@@ -21,6 +21,7 @@
                     </p>
                     <hr>
                     <h4>Positions Available</h4>
+                    <a href="#RegulatoryAffairsProductManager">Regulatory Affairs Product Manager</a></br>
                     <a href="#ClientRelationshipManager">Client Relationship Manager</a></br>
                     <a href="#PractitionerConsultantRepNSW">Practitioner Consultant Field Rep New South Wales</a></br>
                     <a href="#PractitionerConsultantRepSEQ">Practitioner Consultant Field Rep South East Queensland</a></br>
@@ -30,6 +31,46 @@
                     <hr>
 
 
+
+                    <a name="RegulatoryAffairsProductManager"></a>
+                    <h3>Regulatory Affairs Product Manager</h3>
+                    <li>Full Time / Permanent</li>
+                    <li>Alexandria Location</li></br>
+                    <p>Due to a rapid increase in market share we are seeking a highly ambitious Regulatory Affairs Product Manager to join our
+                        extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
+
+                    <h4>Who Is Medlab CLinical</h4>
+                    <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is
+                        being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry
+                        leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
+
+                    <h4>The Opportunity</h4>
+                    <p>As a passionate Regulatory Affairs Product Manager, you will ensure regulatory compliance of Medlab’s current practitioner only nutraceutical
+                        product range as well as developing new and innovative nutraceuticals for us to take to market.</p>
+                    <p>Duties and Responsibilities include:</p>
+                    <li>Continually identify and develop new product concept opportunities.</li>
+                    <li>Work collaboratively with the Product Development team and Head of Medical Research on all regulatory affair matters for the global business</li>
+                    <li>Listing of all new nutraceutical products with respective agencies, dealing with regulatory agencies as needed.</li>
+                    <li>Writing, assessing and reviewing claims and substantiations</li>
+                    <li>Working closely with the Marketing team to develop, design and write marketing materials</li></br>
+
+                    <h4>About You</h4>
+                    <p>To be successful in this role you will be able to demonstrate the following:</p>
+                    <li>You will need to have minimum 5 years experience in a Regulatory Affairs and/or TGA Consultancy role.</li>
+                    <li>Possess high level of interpersonal skills, with the ability to motivate and influence.</li>
+                    <li>Self motivated and have a solutions based approach to tasks.</li>
+                    <li>Have a genuine passion for health and wellness with desire to succeed.</li>
+                    <li>Ability to meet deadlines.</li>
+                    <li>Strong verbal and written skills.</li></br>
+
+                    <h4>Benefits</h4>
+                    <li>Competitive Salary Package</li>
+                    <li>Use of on-site gym facilities within our offices in Alexandria.</li>
+                    <li>A fun, collaborative team working environment.</li>
+                    <li>On-going training, education and mentoring.</li>
+                    <li>Casual dress code</li></br>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Regulatory Affairs Product Manager">recruit@medlab.co</a></p>
+                    <hr>
 
                     <a name="ClientRelationshipManager"></a>
                     <h3>Client Relationship Manager</h3>
