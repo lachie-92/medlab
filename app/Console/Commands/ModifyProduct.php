@@ -7287,7 +7287,7 @@ class ModifyProduct extends Command
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Spanish.pdf"target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Spanish.pdf"target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
