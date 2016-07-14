@@ -19,13 +19,15 @@
             <div class="col-md-12 col-sm-12 col-xs-12">
                 <div class="panel panel-primary medlab_panel">
                     <div class="panel-heading medlab_panel_title">
-                        <p style="text-align: center;">
-                            {!! strtoupper($product->product_name) !!}</br>
-                        ARTG L 227515
+                        <p style="text-align: center; margin-bottom:0">
+                            <span style="font-size: larger">
+                                {!! strtoupper($product->product_name) !!}<br>
+                            </span>
+                            @if ( !empty($product->austl_number) )
+                                ARTG L {{ $product->austl_number }}
+                            @endif
                         </p>
                     </div>
-
-
                 </div>
             </div>
             @endif
