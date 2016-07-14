@@ -127,17 +127,26 @@
 
                         {!! $product->general_summary !!}
 
-                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                            <p>
-                                <strong><em>Specific Use:</em></strong>
-                            </p>
-
-                            {!! $product->practitioner_summary !!}
-                        @endif
-
                     </div>
                 </div>
             </div>
+
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="panel panel-primary medlab_panel">
+                        <div class="panel-heading medlab_panel_title">
+                            AS PER ARTG PUBLIC SUMARY:
+                        </div>
+                        <div class="panel-body medlab_panel_content" style="text-align: justify">
+
+                            {!! $product->practitioner_summary !!}
+
+                        </div>
+                    </div>
+                </div>
+
+            @endif
 
             <!--
             --  References
