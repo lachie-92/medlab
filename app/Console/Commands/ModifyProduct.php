@@ -7821,7 +7821,10 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <strong>Colostrum:</strong> Often described as the first food of life, colostrum is a sweet sticky mammary secretion produced 
+                    <strong>Colostrum:</strong>
+                 </p>   
+                  <p>   
+                    Often described as the first food of life, colostrum is a sweet sticky mammary secretion produced 
                     by mammals generally during the 24-48-hour perinatal period to provide essential immune-building nutrients to the offspring. 
                     Containing vital antibodies, vitamins and proteins, colostrum particularly of bovine origin has been used in the treatment and 
                     prevention of infectious diseases.<sup>4</sup> The diverse immune-enhancing factors of colostrum prove to have significant beneficial 
@@ -8005,7 +8008,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Arabinogalactactan
+                                    Arabinogalactactan (RestAid&trade;)
                                 </p>
                             </td>
                             <td>
@@ -8017,7 +8020,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Lactobacillus paracasei
+                                    Lactobacillus paracasei (Med24)
                                 </p>
                             </td>
                             <td>
@@ -8029,7 +8032,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Bifidobacterium lactis
+                                    Bifidobacterium animalis ssp. lactis (Med 13)
                                 </p>
                             </td>
                             <td>
@@ -8149,25 +8152,28 @@ class ModifyProduct extends Command
                     Lactoferrin is an abundant protein found in breast milk, and is secreted in tears, saliva, intestinal mucus, genital secretions 
                     and in found in granules of neutrophils. Lactoferrin is a glycoprotein belonging to the transferrin family of iron-binding 
                     proteins. As a multifunctional protein it demonstrates potent anti-microbial, anti-viral, anti-fungal, anti-inflammatory and 
-                    immunomodulatory activity providing an effective defense mechanism for the mammalian body. 1 The bactericidal effect of lactoferrin 
+                    immunomodulatory activity providing an effective defense mechanism for the mammalian body.<sup>1</sup> The bactericidal effect of lactoferrin 
                     is in part due to its ability to bind to and withhold iron that is essential for pathogenic bacterial growth, resulting in 
-                    bacteriostatic effects. 2 Furthermore, lactoferrin disrupts the integrity of pathogenic bacterial cell walls by binding to 
-                    lipopolysaccharides causing cell wall degradation. 1 Clinical evidence from a recent Cochrane review demonstrated the therapeutic 
-                    activity of lactoferrin for the prevention of sepsis and NEC in preterm infants. 3
+                    bacteriostatic effects. <sup>2</sup> Furthermore, lactoferrin disrupts the integrity of pathogenic bacterial cell walls by binding to 
+                    lipopolysaccharides causing cell wall degradation.<sup>1</sup> Clinical evidence from a recent Cochrane review demonstrated the therapeutic 
+                    activity of lactoferrin for the prevention of sepsis and NEC in preterm infants.<sup>3</sup>
 
                 </p>
 
                 <p>
-                    <strong>Colostrum:</strong> Often described as the first food of life, colostrum is a sweet sticky mammary secretion produced 
+                    <strong>Colostrum:</strong>
+                 </p>   
+                  <p>   
+                    Often described as the first food of life, colostrum is a sweet sticky mammary secretion produced 
                     by mammals generally during the 24-48-hour perinatal period to provide essential immune-building nutrients to the offspring. 
                     Containing vital antibodies, vitamins and proteins, colostrum particularly of bovine origin has been used in the treatment and 
-                    prevention of infectious diseases. 4 The diverse immune-enhancing factors of colostrum prove to have significant beneficial 
-                    therapeutic applications, particularly due to its rich supply of immunoglobulin Ig (IgG). 2    Clinical trials have shown 
+                    prevention of infectious diseases.<sup>4</sup> The diverse immune-enhancing factors of colostrum prove to have significant beneficial 
+                    therapeutic applications, particularly due to its rich supply of immunoglobulin Ig (IgG).<sup>2</sup> Clinical trials have shown 
                     therapeutic benefit from the use of bovine colostrum in patients suffering chronic infection and pain; as well as being an 
-                    effective prophylactic for gram negative sepsis, influenza and severe diarrhea. 4,5 It has also been shown to prevent gastric 
+                    effective prophylactic for gram negative sepsis, influenza and severe diarrhea.<sup>4,5</sup> It has also been shown to prevent gastric 
                     damage in patients using nonsteroidal anti-inflammatory medications; and not only proves to be a substance with superior 
-                    immunological activity but is also an optimum dietary supplement. 5,6 There is some evidence which implies that a colostrum 
-                    supplement is beneficial to those who are immunocompromised suffering from a severe diarrheal illness. 6
+                    immunological activity but is also an optimum dietary supplement.<sup>5,6</sup> There is some evidence which implies that a colostrum 
+                    supplement is beneficial to those who are immunocompromised suffering from a severe diarrheal illness.<sup>6</sup>
 
                 </p>
                 
@@ -8179,15 +8185,15 @@ class ModifyProduct extends Command
                 <p>
                     Arabinogalactans are highly branched, water-soluble polysaccharides with a high molecular weight that are found in a wide 
                     variety of plants. Arabinogalactans specifically from Larch are an excellent dietary fiber supplement that are capable of 
-                    increasing beneficial gastrointestinal (GI) commensal bacteria as well as short-chain fatty acid production. 7,8 As an 
+                    increasing beneficial gastrointestinal (GI) commensal bacteria as well as short-chain fatty acid production.<sup>7,8</sup> As an 
                     effective defense against the common cold infection, Larch arabinogalactan has also been shown in animal studies to 
                     stimulate natural killer cell cytotoxicity in vitro, demonstrating an increase in white blood cell counts i.e. neutrophils 
-                    and eosinophil’s. 9,10 ResistAid™ is a proprietary arabinogalactan extracted from Larch (Larix laricina) supplied by Lonza 
-                    Ltd, Switzerland. A number of human clinical studies have demonstrated ResistAid\'s™ immunomodulatory activity in which a 
+                    and eosinophil’s.<sup>9,10</sup> ResistAid&trade; is a proprietary arabinogalactan extracted from Larch (Larix laricina) supplied by Lonza 
+                    Ltd, Switzerland. A number of human clinical studies have demonstrated ResistAids’&trade; immunomodulatory activity in which a 
                     daily dose of 4.5 g significantly increased IgG antibody response of healthy volunteers to the pneumonia vaccine when 
-                    compared to placebo. 10 In a more recent study Udani 2013 demonstrated that ResistAid™ at a dose of 1.5 g daily significantly 
-                    increased the IgG antibody response to tetanus vaccine compared to placebo. 11 ResistAid™ has clinical evidence of being 
-                    well tolerated in healthy individuals with no demonstrable side-effects. 10,12
+                    compared to placebo.<sup>10</sup> In a more recent study Udani 2013 demonstrated that ResistAid™ at a dose of 1.5 g daily significantly 
+                    increased the IgG antibody response to tetanus vaccine compared to placebo.<sup>11</sup> ResistAid&trade; has clinical evidence of being 
+                    well tolerated in healthy individuals with no demonstrable side-effects.<sup>10,12</sup>
 
                 </p>
                 
@@ -8196,16 +8202,16 @@ class ModifyProduct extends Command
                 <p>
                     The GI commensal microbiota significantly influences the health of the host, supported by extensive scientific evidence. 
                     Whilst there are numerous publications exemplifying the range of positive benefits of probiotic bacteria, the mechanisms 
-                    by which they benefit health and the specific species and strains are of a growing interest within the scientific community. 
-                    13 A recent Cochrane review examined clinical studies assessing live microorganism intervention in cold and flu treatment, 
+                    by which they benefit health and the specific species and strains are of a growing interest within the scientific community.<sup>13 </sup>
+                    A recent Cochrane review examined clinical studies assessing live microorganism intervention in cold and flu treatment, 
                     and found that probiotic bacteria including various Lactobacillus and Bifidobacterium species were effective in reducing the 
-                    symptoms of acute upper respiratory tract infections. 14 Two clinical trials demonstrated that daily consumption of a
+                    symptoms of acute upper respiratory tract infections.<sup>14 Two clinical trials demonstrated that daily consumption of a
                     probiotic product containing Lactobacillus paracasei increased the antibody response (IgG) to influenza vaccination in elderly 
-                    participants. 15, 16 Additional research has shown that consumption of probiotics containing both Lactobacillus paracasei and 
+                    participants.<sup>15, 16</sup> Additional research has shown that consumption of probiotics containing both Lactobacillus paracasei and 
                     Bifidobacterium lactis increases the antigen-specific immune response (IgG and sIgA) of patients receiving the influenza vaccine, 
-                    further supporting their immune modulatory effects. 16  The results from two systematic reviews demonstrated that the use of 
+                    further supporting their immune modulatory effects.<sup>16</sup>  The results from two systematic reviews demonstrated that the use of 
                     probiotics in children is effective in diminishing the incidence and the severity of the symptoms of upper respiratory tract 
-                    infections. 17,18
+                    infections.<sup>17,18</sup>
 
                 </p>
                 
@@ -8237,12 +8243,12 @@ class ModifyProduct extends Command
                     Not to be used in children under two years of age except on health professional advice. Colostrum is 
                     derived from cow’s milk and contains lactose and cow’s milk proteins. Vitamin supplements should not replace a balanced diet. 
                 </p>
-                ',
-            'references' =>
-                '
+                \',
+                \'references\' =>
+                    \'
                 <ol class="medlab_product_reference_list">
 
-                 <li>Ochoa T,  Cleary T. Effect of lactoferrin on enteric pathogens. <em>Biochimie, 2009;91:30</li>
+                 <li>Ochoa T,  Cleary T. Effect of lactoferrin on enteric pathogens. <em>Biochimie, 2009;91:30</em></li>
                  <li>Vitetta L, Coulson S, et al. ‘The Clinical Efficacy of a Bovine lactoferrin/whey Protein Ig-Rich Fraction (Lf/IgF) for the Common Cold: A Double Blind Randomized Study‘  <em>Complementary therapies in medicine</em> 2013;21:164</li>
                  <li>Pammi M, Abrams S. ‘Oral lactoferrin for the prevention of sepsis and necrotizing enterocolitis in preterm infants.’ <em>The Cochrane Database of Systematic Reviews</em>, 2015:CD007137.</li>
                  <li>Waaga-Gasser A. ‘Bovine Colostrum--Therapeutic Synergism Involving Immunomodulation, Nutritional Supplementation and Antibacterial Action?‘ <em>International journal of clinical pharmacology and therapeutics</em> 2007;45:191</li>
@@ -8342,7 +8348,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Arabinogalactactan
+                                    Arabinogalactactan (RestAid&trade;)
                                 </p>
                             </td>
                             <td>
@@ -8354,7 +8360,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Lactobacillus paracasei
+                                    Lactobacillus paracasei (Med24)
                                 </p>
                             </td>
                             <td>
@@ -8366,7 +8372,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Bifidobacterium lactis
+                                    Bifidobacterium animalis ssp. lactis (Med 13)
                                 </p>
                             </td>
                             <td>
