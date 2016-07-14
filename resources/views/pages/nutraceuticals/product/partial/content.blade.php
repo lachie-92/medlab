@@ -11,6 +11,25 @@
         -->
         <div class="col-md-8 col-sm-12 col-xs-12 medlab_product_main_column">
 
+
+            <!--
+            --  ARGT L Number
+            -->
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="panel panel-primary medlab_panel">
+                    <div class="panel-heading medlab_panel_title">
+                        <p style="text-align: center;">
+                            {!! strtoupper($product->product_name) !!}</br>
+                        ARTG L 227515
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+            @endif
+
             <!--
             --  Image Box
             -->
@@ -149,9 +168,9 @@
             @endif
 
             <!--
-            --  References
+            --  References (Disabled)
             -->
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && false)
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="panel panel-primary medlab_panel">
                         <div class="panel-heading medlab_panel_title">
@@ -204,6 +223,38 @@
                     </div>
                 @endif
             @endif
+
+
+                        <!--
+            --  Technical Button
+            -->
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="panel panel-primary medlab_panel">
+                            <div class="panel-heading medlab_panel_title">
+                                PRACTITIONER INFORMATION
+                            </div>
+                            <div class="panel-body medlab_panel_content" style="text-align: justify">
+
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">IMPORTANT PRACTIONER EDUCATIONAL INFORMATION HERE</button>
+
+                                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <p style="text-align: center;">
+                                                You are now leaving the product section of The Medlab website</br>
+                                                and are being redirected to the Technical/Scientific area</br>
+                                                <a href="medlab.co">Click here to continue</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                @endif
+
 
 
         </div>

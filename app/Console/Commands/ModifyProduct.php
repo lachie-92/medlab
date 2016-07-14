@@ -6098,7 +6098,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                 <p>
-                    NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate. NRGBiotic&trade; is
+                    NRGBiotic&trade; is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate. NRGBiotic&trade; is
                     indicated to support healthy cellular energy production with magnesium and Coenzyme Q10 required for
                     ATP (energy) production in the cell. The probiotic species may help to support a healthy gut microbial
                     profile and support a healthy immune system.
@@ -6106,107 +6106,67 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    All tissues have a requisite for uridine. Uridine is an important nucleoside precursor in the
-                    pyrimidine salvage pathway.<sup>8,9,10</sup> Except for erythrocytes and the liver and kidney, which maintain
-                    de novo pyrimidine biosynthesis and supply other tissues with uridine for salvage, most normal
-                    tissues in adults rely on the salvage of uridine from plasma.<sup>9</sup>
-                </p>
-                <p>
-                    Uridine also participates in the regulation of several physiological and pathological
-                    processes.<sup>11</sup> In the absence of sugar, uridine can serve as an essential precursor for both
-                    carbohydrate metabolism and nucleic acid synthesis. Besides the direct salvage to pyrimidine
-                    nucleotides, the ribose moiety produced by the phosphorolysis of uridine can either enter the
-                    pentose cycle to meet cellular energy requirements or form phosphoribosyl pyrophosphate, which
-                    is used in the biosynthesis of purine nucleotides.11 In the nervous system, uridine acts as a
-                    physiological regulator of sleep function and demonstrates the ability to maintain brain metabolism
-                    during ischemia and severe hypoglycemia.
-                </p>
-                <p>
-                    Coenzyme Q10 (CoQ10) is a compound that is naturally found intracellularly and bound to organelle
-                    membranes such as for example the mitochondria, endoplasmic reticulum, and golgi apparatus.
-                    CoQ10 is found with the highest concentrations in tissues such as the heart, liver, kidneys, and
-                    pancreas. This compound is intricate to the production of adenosine triphosphate (ATP).
-                    ATP is essential to all bodily functions, including the generation of energy and a multitude of
-                    metabolic functions.<sup>12,13,14</sup>
-                </p>
-                <p>
-                    Over the past several decades, research has seen a refocus towards thinking and efforts directed
-                    in elucidating the critical inter–relationships that exist between the GIT microbiome and its host.
-                    This research has redefined the interactions between gut microbes and vertebrates, now recognising
-                    that the microbial active cohort and its mammalian host have shared co–evolutionary metabolic
-                    interactions that span millennia. Microbial interactions in the GIT provide the necessary cues for
-                    the development of regulated pro– and anti–inflammatory signals that promotes immunological
-                    tolerance, metabolic regulation and other factors which may then control local and extra–intestinal
-                    inflammation.<sup>15</sup> Furthermore, it is also becoming apparent that the GIT with its commensal cohort is
-                    a central regulator for the activities of end organs such as the kidneys, brain, adipose tissue,
-                    muscle and liver and as such may provide local prompts that are transmitted extra–intestinally to
-                    end organ sites.  A scientific insight therefore has emerged that plausibly links the GIT with the
-                    physiology of end organ function that may influence health maintenance or trigger and support a
-                    disease state. Maintaining a healthy GIT milieu and epithelium with the administration of
-                    probiotics may constitute a novel therapeutic strategy for health.
-                </p>
-                <p>
-                    Probiotics are those live bacterial cultures that are added to foods (e.g., yoghurts) and employed
-                    as dietary supplements, that when orally administered can improve the health of the host beyond
-                    their fundamental basic nutritional content.<sup>16</sup> Probiotic bacteria encompass those from different
-                    genera (as for example Lactobacilli, Bifidobacterium, Escherichia, Saccharomyces
-                    (a yeast), Streptococcus) giving rise to a variety of different species of each genera
-                    (i.e., Lactobacillus acidophilus; Lactobacillus bulgaricus, Lactobacillus rhamnosus); that lead to
-                    different strains within a species (i.e., Lactobacillus acidophilus La–1, Lactobacillus acidophilus
-                    NCFM). This taxonomic differentiation, importantly emphasizing that different strains from the same
-                    bacterial species can be different and may elaborate different physiological functions within the
-                    GIT<sup>17</sup> whilst exhibiting overlapping or specific therapeutic actions to different organ systems.<sup>18</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    NRGBiotic&trade; may improve mitochondrial function and intracellular energy production.
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Support intracellular energy production<sup>1</sup></li>
-                        <li>Help to assist in muscle cell recovery after exercise<sup>2</sup></li>
-                        <li>Assist with muscle action deficits due to low levels of Coenzyme Q10<sup>3</sup></li>
-                        <li>Support a healthy gastrointestinal microbial profile<sup>4</sup></li>
-                        <li>Help improve general health and wellbeing<sup>5</sup></li>
-                        <li>Support normal intracellular function with Magnesium Orotate<sup>6</sup></li>
-                        <li>Support a healthy immune system<sup>7</sup></li>
+                        <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                    </ul>
+                </p>
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
+                <p>
+                    <ul>
+                        <li>Supports energy production.</li>
+                        <li>Supports skin health.</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
+                        <li>Coenzyme Q10 is present in all cells and membranes and is critical for ATP (energy) production.</li>
+                    </ul>
+                </p>
+                
+                <p>
+                    Magnesium plays a significant role as a cofactor for more then 350 enzymes in the body and regulates 
+                    neuro-excitability and several ion channels.
+                </p>
+                
+                <p>
+                    <ul>
+                        <li>Magnesium orotate is required for normal intracellular function.</li>
+                        <li>Magnesium is required by most ATP-using enzymes in the form of Mg-ATP.</li>
+                        <li>May assist with muscle action deficits due to low levels of Coenzyme Q10.</li>
+                        <li>Supports a healthy immune system.</li>
+                        <li>Helps to maintain healthy skin.</li>
+                        <li>Helps to maintain proper muscle function.</li>
+                        <li>Helps to assist in muscle cell recovery after exercise.</li>
                     </ul>
                 </p>
 
+                
+
                 <p>
-                    <strong>Specific Use:</strong>
+                    <strong>SPECIFIC CONDITIONS</strong>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>Assist in muscle cell recovery after exercise.</li>
-                        <li>Support normal intracellular function with Magnesium Orotate.</li>
-                        <li>Support muscle function during and after exercise;</li>
-                        <li>Assist with muscle action deficits associated with low Coenzyme Q10 levels, and;</li>
-                        <li>Help improve intracellular energy production.</li>
-                    </ul>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
                 </p>
 
                 <p>
-                    <strong>Potential Claims:</strong>
+                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    Do not take while on warfarin therapy without medical advice.
+
                 </p>
 
-                <p>
-                    <ul>
-                        <li>Support cellular energy production.</li>
-                        <li>Help to assist in muscle cell repair and function after exercise.</li>
-                        <li>Assist with symptoms of Coenzyme Q10 deficiencies such as muscle pain.</li>
-                        <li>Support a healthy gastrointestinal microbial profile.</li>
-                        <li>Provide a source of magnesium to support cellular function.</li>
-                        <li>Help improve general health</li>
-                    </ul>
-                </p>
+               
                 ',
                 'references' =>
                     '
@@ -6250,7 +6210,11 @@ class ModifyProduct extends Command
                         <li>Immunosuppressant Drugs</li>
                         <li>Antibiotics</li>
                     </ul>
-                </p>
+                </p></br>
+                
+                
+                
+                
                 ',
                 'dosage_information' =>
                     '
