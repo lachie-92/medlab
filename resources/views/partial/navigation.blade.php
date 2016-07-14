@@ -142,6 +142,9 @@
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/education/publications">Publications</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/education/webinars">Webinars</a></li>
+                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                            <li><a class="medlab_navbar_dropdown_menu_item" href="/education/practitioner-education">Practitioner Education</a></li>
+                            @endif
 
                     </ul>
                 </li>

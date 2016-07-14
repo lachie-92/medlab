@@ -145,6 +145,10 @@ Route::get('/education/webinars', function () {
     return view('pages.education.webinars.index');
 });
 
+Route::get('/education/practitioner-education', function () {
+    return view('pages.education.practitioner-education.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
@@ -360,6 +364,23 @@ Route::get('/efficacy/optimising-immunity-in-preparation-for-cold-and-flu-season
 Route::get('/efficacy/vitamin-d-your-best-defence', function () {
     return view('pages.efficacy.vitamin-d-your-best-defence.index');
 });
+
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Practitioner Education pages
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/education/practitioner-education/importance-of-uridine', function () {
+    return view('pages.education.practitioner-education.importance-of-uridine.index');
+});
+
+Route::get('/education/practitioner-education/developement-human-microbiota', function () {
+    return view('pages.education.practitioner-education.developement-human-microbiota.index');
+});
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
