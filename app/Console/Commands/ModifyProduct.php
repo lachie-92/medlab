@@ -52,6 +52,7 @@ class ModifyProduct extends Command
 
             [
                 'product_name_index' => '12Mg Optima Relax',
+                'austl_number' => '262421',
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax',
                 'short_description' =>
                     '
@@ -462,6 +463,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'BioClean EPA:DHA + CoQ10 120s',
+                'austl_number' => '261255',
                 'product_name' => 'BioClean EPA:DHA + CoQ10 120s',
                 'short_description' =>
                     '
@@ -780,6 +782,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'BioClean EPA:DHA + CoQ10 60s',
+                'austl_number' => '261255',
                 'product_name' => 'BioClean EPA:DHA + CoQ10 60s',
                 'short_description' =>
                     '
@@ -1098,6 +1101,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 120s',
+                'austl_number' => '261256',
                 'product_name' => 'BioClean EPA:DHA + Plant Sterols 120s',
                 'short_description' =>
                     '
@@ -1390,6 +1394,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 60s',
+                'austl_number' => '261256',
                 'product_name' => 'BioClean EPA:DHA + Plant Sterols 60s',
                 'short_description' =>
                     '
@@ -1682,6 +1687,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'Biotic Jnr.',
+                'austl_number' => '239097',
                 'product_name' => 'Biotic Jnr.&trade;',
                 'short_description' =>
                     '
@@ -2170,6 +2176,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "BioticNatal",
+                'austl_number' => '260283',
                 'product_name' => 'BioticNatal&trade;',
                 'short_description' =>
                     '
@@ -2494,6 +2501,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "Enbiotic 120's",
+                'austl_number' => '227586',
                 'product_name' => 'Enbiotic&trade; 120&#39;s',
                 'short_description' =>
                     '
@@ -2800,6 +2808,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "Enbiotic 60's",
+                'austl_number' => '227586',
                 'product_name' => 'Enbiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
@@ -3106,6 +3115,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'GastroDaily',
+                'austl_number' => '242372',
                 'product_name' => 'GastroDaily&trade;',
                 'short_description' =>
                     '
@@ -3420,6 +3430,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "Manuka-C",
+                'austl_number' => '274057',
                 'product_name' => 'Manuka-C&trade;',
                 'short_description' =>
                     '
@@ -3812,6 +3823,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "MultiBiotic 30's",
+                'austl_number' => '227562',
                 'product_name' => 'MultiBiotic&trade; 30&#39;s',
                 'short_description' =>
                     '
@@ -4168,6 +4180,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "MultiBiotic 60's",
+                'austl_number' => '227562',
                 'product_name' => 'MultiBiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
@@ -4524,6 +4537,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "NanoCelle Activated B12",
+                'austl_number' => '262637',
                 'product_name' => 'NanoCelle&trade; Activated B12',
                 'short_description' =>
                     '
@@ -4777,6 +4791,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'NanoCelle B12',
+                'austl_number' => '232089',
                 'product_name' => 'NanoCelle&trade; B12',
                 'short_description' =>
                     '
@@ -5054,6 +5069,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'NanoCelle D3',
+                'austl_number' => '232096',
                 'product_name' => 'NanoCelle&trade; D3',
                 'short_description' =>
                     '
@@ -5742,6 +5758,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "NRGBiotic 60's",
+                'austl_number' => '227515',
                 'product_name' => 'NRGBiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
@@ -6072,6 +6089,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "NRGBiotic 120's",
+                'austl_number' => '227515',
                 'product_name' => 'NRGBiotic&trade; 120&#39;s',
                 'short_description' =>
                     '
@@ -6366,6 +6384,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'ORSBiotic',
+                'austl_number' => '239102',
                 'product_name' => 'ORSBiotic&trade;',
                 'short_description' =>
                     '
@@ -6830,6 +6849,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "SB 5B",
+                'austl_number' => '269432',
                 'product_name' => 'SB 5B&trade;',
                 'short_description' =>
                     '
@@ -7156,6 +7176,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'W8Biotic Strawberries & Cream',
+                'austl_number' => '260424',
                 'product_name' => 'W8Biotic&trade; Strawberries & Cream',
                 'short_description' =>
                     '
@@ -7444,6 +7465,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => 'W8Biotic Lemon & Lime',
+                'austl_number' => '239105',
                 'product_name' => 'W8Biotic&trade; Lemon & Lime',
                 'short_description' =>
                     '
@@ -7732,6 +7754,7 @@ class ModifyProduct extends Command
             ],
             [
                 'product_name_index' => "Immune-5 Vanilla",
+                'austl_number' => '276097',
                 'product_name' => 'Immune-5&trade; Vanilla ',
                 'short_description' =>
                     '
@@ -8072,6 +8095,7 @@ class ModifyProduct extends Command
 
             [
             'product_name_index' => "Immune-5 Raspberry",
+            'austl_number' => '276104',
             'product_name' => 'Immune-5&trade; Raspbery',
             'short_description' =>
                 '
@@ -8207,9 +8231,9 @@ class ModifyProduct extends Command
                     Not to be used in children under two years of age except on health professional advice. Colostrum is 
                     derived from cow’s milk and contains lactose and cow’s milk proteins. Vitamin supplements should not replace a balanced diet. 
                 </p>
-                \',
-                \'references\' =>
-                    \'
+                ',
+                'references' =>
+                    '
                 <ol class="medlab_product_reference_list">
 
                  <li>Ochoa T,  Cleary T. Effect of lactoferrin on enteric pathogens. <em>Biochimie, 2009;91:30</em></li>
@@ -8444,6 +8468,9 @@ class ModifyProduct extends Command
     {
         if(!empty($modify_array['product_name'])) {
             $product->product_name = $modify_array['product_name'];
+        }
+        if(!empty($modify_array['austl_number'])) {
+            $product->austl_number = $modify_array['austl_number'];
         }
         if(!empty($modify_array['short_description'])) {
             $product->short_description = $modify_array['short_description'];
