@@ -87,153 +87,74 @@ class ModifyProduct extends Command
                     </p>
                     ',
                 'practitioner_summary' =>
-                    '
-                    <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
-                        pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote relaxation
-                        during times of stress. Albion ® Magnesium bisglycinate is scientifically designed to provide a
-                        highly bioavailable form of magnesium. Magnesium may act as a GABA receptor agonist and also has a
-                        binding site on the glutamate receptors helping to regulate the activity of this main excitatory
-                        neurotransmitter.<sup>1</sup> Glycine functions as an inhibitory neurotransmitter in the nervous
-                        system while glutamine is a precursor to GABA production.<sup>2</sup> Theanine is an amino acid
-                        from Green Tea that promotes relaxation via binding to glutamate receptors.<sup>3</sup> Pyridoxal
-                        (vitamin B6) is a cofactor for the enzyme Glutamate decarboxylase that synthesises GABA from
-                        glutamate.<sup>4</sup> Zinc also has a binding site on the glutamate receptor and may act as a
-                        modulator for both excitatory and inhibitory neurotransmission.<sup>5</sup>
-                    </p>
-                    <p>
-                        <strong>Magnesium</strong>
-                    </p>
-                    <p>
-                        Magnesium is predominantly located intra-cellular in bone, muscles and non-muscular soft tissues
-                        while only 1% of total magnesium is found in serum and red blood cells. Magnesium needs to be
-                        consumed in the diet regularly to prevent the risk of magnesium deficiency and due to the increased
-                        consumption of processed foods; magnesium intake in the western world is decreasing. Magnesium is a
-                        cofactor in more than 300 enzymatic reactions, critically stabilising enzymes, including many
-                        ATP-generating reactions. ATP metabolism, muscle contraction and relaxation, normal neurological
-                        function and release of neurotransmitters are all magnesium dependent.<sup>6</sup> While evidence
-                        generally does not support the use of magnesium for skeletal muscle cramps with many studies
-                        producing null effect<sup>7,8</sup>, there is evidence to suggest oral magnesium supplementation
-                        can improve anaerobic metabolism in athletes, decreasing lactate production<sup>9</sup> and
-                        improving physical performance in healthy elderly women involved in an exercise program.<sup>10</sup>
-                    </p>
-                    <p>
-                        Magnesium may function as a GABA receptor agonist promoting the effects of GABA. Further, in the
-                        central nervous system (CNS), magnesium ions block NMDAR channels at resting membrane potentials.
-                        The binding site for magnesium ions is deep within the channel. This block is voltage-dependent but
-                        ion flux occurs when the membrane potential is depolarized. NMDAR receptors are glutamate-binding
-                        sites, being the major excitatory neurotransmitter in the CNS.<sup>11</sup> See Figure 1.
-                    </p>
-                    <p>
-                        <img class="img-responsive" src="/img/products/12mg_optima/GABA_Glutamate_fig1.jpg" alt="">
-                    </p>
-                    <p>
-                        <strong>Fig 1. Neurotransmitter signalling<sup>12</sup></strong>
-                    </p>
-                    <p>
-                        <strong>Glycine</strong>
-                    </p>
-                    <p>
-                        Glycine functions as one of the major inhibitory neurotransmitters in the CNS with a high density
-                        of glycine containing neurons being found in spinal cord and brain stem. When glycine binds to its
-                        receptor it opens the anion channel allowing an influx of chloride ions into the postsynaptic
-                        neuron causing hyperpolarization that raises the threshold for neuronal firing and thereby inhibits
-                        the postsynaptic neuron.<sup>2,13</sup>
-                    </p>
-                    <p>
-                        <strong>Glutamine</strong>
-                    </p>
-                    <p>
-                        Glutamine and glutamate are amino acids. Several studies show that concentrations of serum
-                        glutamine in the body are diminished during times of physical or psychological stress and further
-                        that patients presenting with exhaustion, anxiety, sleeplessness and lack of concentration have
-                        low serum glutamate concentration. Glutamine and glutamate synthesis occur interchangeably
-                        (see figure 2). Glutamine converts to glutamate using NADPH as a cofactor and glutamate is a
-                        precursor for GABA production using vitamin B6 as a cofactor.<sup>15-19</sup>
-                    </p>
-                    <p>
-                        <img class="img-responsive" src="/img/products/12mg_optima/Mgoptima_Fig2.jpg" alt="">
-                    </p>
-                    <p>
-                        <strong>Fig 2. GABA is synthesized from Glutamine and Glutamate<sup>20</sup></strong>
-                    </p>
-                    <p>
-                        <strong>L-Theanine</strong>
-                    </p>
-                    <p>
-                        Theanine is a novel plant-based amino acid found in tea (<em>Camellia sinensis</em>) leaves.
-                        Theanine is an analog of glutamic acid and is able to bind to glutamate receptor subtypes (AMPA,
-                        kainite and NMDA receptors) and block the binding of glutamate to the receptors, albeit with less
-                        affinity for the receptor than glutamate.<sup>21</sup> Studies have shown that L-Theanine is
-                        useful in the treatment of anxiety due to its ability to regulate neurotransmitter function in
-                        the CNS as well as improving the quality of sleep. L-Theanine supplementation in the standard
-                        dosages (50-250mg) has been shown to increase α-brainwaves in otherwise healthy persons, which
-                        is indicative of a perceived state of relaxation. This may only occur in persons with higher
-                        baseline anxiety or under periods of stress, but has been shown to occur during closed eye rest
-                        as well as during visuospatial tasks around 30 minutes after ingestion.<sup>22-26</sup> See Figure
-                        1.
-                    </p>
-                    <p>
-                        When administered orally, L-Theanine peaks in serum within an hour and appears in the urine after
-                        5 hours. Theanine reaches maximum concentration in the brain within 5 hours and gradually
-                        disappears within 24 hours. It freely crosses the blood-brain barrier and appears in the brain
-                        within an hour after ingestion.<sup>27</sup> A recent study demonstrated that L-Theanine could
-                        cause anti-stress activity via inhibition of cortical neuron excitation. The results showed that
-                        L-Theanine intake resulted in a reduction in the heart rate (HR) and salivary immunoglobulin A
-                        (s-IgA) responses to an acute stress task relative to the placebo control group that the authors
-                        attributed to an attenuation of sympathetic nervous activation.<sup>3</sup>
-                    </p>
-                    <p>
-                        <strong>Pyridoxal 5-Phosphate (Vitamin B6)</strong>
-                    </p>
-                    <p>
-                        Pyridoxine is the cofactor required by Glutamate decarboxylase to convert glutamate to GABA in the
-                        CNS.<sup>4</sup> See Figure 2.
-                    </p>
-                    <p>
-                        <strong>Zinc</strong>
-                    </p>
-                    <p>
-                        Approximately 10% of total zinc in the brain is located in synaptic vesicles of certain
-                        glutamatergic neurons.<sup>5</sup> Zinc may modulate neurotransmission mediated via both excitatory
-                        and inhibitory amino acid receptors at specific synapses for example the NMDA glutamate receptor is
-                        directly inhibited by zinc whereas GABA release from the presynapse can be potentiated
-                        (see Figure 1).<sup>28</sup>
-                    </p>
-                    <p>
-                       <strong>Clinical Summary:</strong>
-                    </p>
+                '
+                    <strong>STANDARD INDICATIONS</strong>
 
                     <p>
                         <ul>
-                            <li>To naturally increase GABA production to induce relaxation</li>
-                            <li>Helps relieve symptoms of nervous tension, stress and mild anxiety </li>
-                            <li>For the symptomatic relief of stress disorders. </li>
-                            <li>Herbal blend which helps relieve stress of study or work </li>
-                            <li>May help reduce the frequency of migraines. </li>
-                            <li>
-                                L-Theanine has a positive effect on mood and cognitive performance, resulting in increased
-                                energy, clarity of thought, efficiency, increased alertness and increased perceived work
-                                performance.
-                            </li>
+                            <li>Help reduce effects of mild anxiety and nervous tension. [Warning S required]</li>
+                            <li>For the symptomatic relief of stress disorders. [Warning S required]</li>
+                            <li>May assist in the management of stress disorders. [Warning S required]</li>
+                            <li>Beneficial during times of stress. [Warning S required]</li>
+                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. [Warning S required]</li>
+                            <li>Non-vitamin active ingredients may improve stress adaptation.</li>
+                            <li>Herbal blend which helps relieve stress of study or work. [Warning S required]</li>
+                            <li>May help reduce the frequency of migraines.</li>
+                            <li>Helps relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
+                            <li>Relief of muscular aches and pains. [Warning S required]</li>
+                            <li>May assist in the management of anxiety. [Warning S required]</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
+                            <li>For the symptomatic relief of anxiety. [Warning S required]</li>
+                        </ul>
+                    </p>
+
+                    <strong>SPECIFIC INDICATIONS</strong>
+
+                    <p>
+                        <ul>
+                            <li>Magnesium is primarily found within the cell where it acts as a counter ion for the energy-rich ATP and nuclear acids.</li>
+                            <li>Magnesium is a cofactor in more than 300 enzymatic reactions. It critically stabilises enzymes, including many ATP-generating reactions. ATP is required universally for glucose utilisation, synthesis of fat, proteins, nucleic acid and coenzymes, muscles contraction, methyl group transfer and many other processes.</li>
+                            <li>ATP metabolism, muscle contraction and relaxation, normal neurological function and release of neurotransmitters are all magnesium dependent.</li>
+                            <li>Magnesium contributes to the regulation of vascular tone, heart rhythm, proper blood coagulation and bone formation.</li>
+                            <li>Magnesium may modulate blood sugar regulation and cell proliferation in healthy individuals and is important for cell adhesion and transmembrane transport including transport of potassium and calcium ions.</li>
+                            <li>Magnesium maintains the conformation of nucleic acids and is essential for the structural function of proteins and mitochondria.</li>
+                            <li>Early signs of magnesium deficiency may include loss of appetite, nausea, vomiting, fatigue and weakness and as magnesium deficiency worsens it may be associated with numbness, tingling, muscle contractions and cramps.</li>
+                            <li>Hypomagnesaemia is common in hospitalised patients.</li>
+                            <li>Glycine is the major inhibitory neurotransmitter in caudal regions of the adult mammalian central nervous system with high densities of glycinergic synapses being found in spinal cord and brain stem.</li>
+                            <li>Glycine has important neurotransmitter functions at inhibitory and excitatory synapses in the central nervous system.</li>
+                            <li>L-theanine is one of the primary amino acids found in green tea and can pass over the blood-brain brain barrier increasing levels of concentration in the brain.</li>
+                            <li>L-theanine can affect the secretion and function of neurotransmitter in the central nervous system.</li>
+                            <li>L-theanine has an affinity to bind to the glutamate receptor subtypes. L-theanine blocks the binding of L-glutameric acid to the glutamate receptors in the brain, resulting in an anti-stress effect through inhibition of cortical neutron excitation.</li>
+                            <li>L-theanine through competitive action against excitation of glutamate receptor subtypes, neurochemical studies suggest that L-theanine affects emotions by interacting with serotonin, dopamine and GABA neurotransmitter levels.</li>
+                            <li>Dose-dependant administration of L-theanine may affect metabolism and/or the release of specific neurotransmitters in the brain.</li>
+                            <li>L-theanine induces alpha wave brain activity, which relates to a perceived state of relaxation.</li>
+                            <li>L-theanine may help to reduce anxiety levels and attenuate increased blood pressure in high-stress response adults.</li>
+                            <li>L-theanine has a positive effect on mood and cognitive performance, resulting in increased energy, clarity of thought, efficiency, increased alertness and increased perceived work performance.</li>
+                            <li>L-theanine may result in a reduction of heart rate and salivary immunoglobulin A responses during times of acute stress.</li>
+                            <li>Zinc may function as an inhibitory neuromodulator of glutamate release in the brain.</li>
+                            <li>Approximately 10% of total zinc in the brain exists in synaptic vesicles of glutamatergic neutrons.</li>
+                            <li>Zinc is likely to modulate neurotransmission mediated via excitatory and inhibitory amino acid receptors at specific synapses.</li>
+                            <li>Pyridoxal (B6) is involved in the regeneration of tetrahydrofolate into the active methyl- bearing form and in glutathione biosynthesis from homocysteine.</li>
+                            <li>L-Glutamine is an amino acid precursor to the neurotransmitter GABA, the major inhibitory neurotransmitter in the central nervous system.</li>
                         </ul>
                     </p>
 
                     <p>
-                        <strong>Who will benefit:</strong>
+                        <strong>SPECIFIC CONDITIONS</strong>
                     </p>
 
                     <p>
-                        <ul>
-                            <li>Those with symptoms of anxiety and nervous tension</li>
-                            <li>Those who are experiencing mild stress and associated disorders</li>
-                            <li>Those who are experiencing stress associated with work and/or study</li>
-                            <li>Those with magnesium deficiency</li>
-                            <li>Those who are experiencing frequent migraines</li>
-                            <li>Those who wish to improve their cognitive performance and mood. </li>
-                        </ul>
+                        No specific conditions included on record.
                     </p>
-                    ',
+
+                    <p>
+                        <strong>WARNINGS</strong>
+                    </p>
+
+                    <p>
+                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner (or words to that effect).
+                    </p>
+                ',
                 'references' =>
                     '
                     <ol class="medlab_product_reference_list">
@@ -499,104 +420,63 @@ class ModifyProduct extends Command
                 </p>
                 ',
                 'practitioner_summary' =>
-                    '
-                <p>
-                    <strong>Omega-3 Fatty Acids and the Cardiovascular System</strong>
-                </p>
-                <p>
-                    Important fats that enhance the functional physiology of the cardiovascular system are
-                    alpha–linolenic acid (ALA), the parent compound of the omega–3 fatty acid family, and
-                    linoleic acid (LA), the parent compound of the omega–6 family. ALA and LA are essential
-                    fatty acids obtained from the diet, as they cannot be synthesised. Omega–3 fatty acids
-                    consist of the long-chain, polyunsaturated fatty acids (PUFA) docosahexaenoic acid (DHA)
-                    and eicosapentaenoic acid (EPA) that are of marine origin with oily fish being the richest
-                    dietary source.<sup>1</sup>Omega-3 fatty acids have important physiological properties that
-                    include anti-inflammatory, antiarrhythmic and antithrombotic properties.<sup>2</sup>
-                </p>
-                <p>
-                    Numerous reviews have summarised the cardiovascular benefits of fish and fish oil consumption
-                    in the primary<sup>3</sup> and secondary<sup>4</sup> prevention of cardiovascular conditions.
-                    Research on nutrient intakes has shown that regular consumption of omega-3 fats significantly
-                    lowers heart-disease risk.<sup>3,4</sup> For example, a report of a cohort from the Nurses
-                    Health Study<sup>5</sup> showed that women who ate two-to-four servings of fish a week
-                    reduced heart disease risk by 30 per cent. Further, it has been shown that omega–3s reduce
-                    blood pressure and heart rate, lower blood triglycerides and increase HDL cholesterol, and
-                    make blood less likely to form clots and create life-threatening thromboses.<sup>5</sup>
-                </p>
-                <p>
-                    <strong>Omega-3 Fatty Acids and the Neurocognitive System</strong>
-                </p>
-                <p>
-                    As a predominant structural component of neural membranes in the brain and retina, DHA has
-                    demonstrated to have a positive effect on membrane fluidity and permeability, receptor
-                    structure and quantity, carrier mediated transport of nutrients into and out of the cell,
-                    enzymatic activities, cell to cell communication and signaling as well as the microenvironment
-                    of retinal photoreceptor outer segments.<sup>6,7</sup>
-                </p>
-                <p>
-                    DHA has been reported to be of significant importance for foetal brain development, for the
-                    optimal development of visual acuity and overall motor skills in infants, to help maintain
-                    healthy and balanced lipid metabolism in children and adults, and to support cognition in
-                    the elderly.<sup>8</sup> In the area of anti-ageing medicine, essential fatty-acids, in
-                    particular the omega-3 long-chain PUFAs, are also increasingly being investigated as
-                    therapeutic agents with potential to limit the cognitive decline that accompanies the ageing
-                    brain. Furthermore, during ageing, there is also a decrease in brain levels of DHA, and the
-                    consumption of fish correlates with a decreased risk of dementia and Alzheimer’s disease.
-                    The reported daily use of fish-oil supplements, although limited in evidence status,
-                    suggests a possible association between omega–3 fatty acids and reduced risk of
-                    dementia.<sup>9,10</sup>
-                </p>
-                <p>
-                    <strong>Coenzyme Q10 as Ubiquinol for Cardiovascular Health</strong>
-                </p>
-                <p>
-                    There is nothing more critical for all anabolic and catabolic cellular functions than an adequate,
-                    constant supply of bioenergy.<sup>11</sup> Coenzyme Q10 (CoQ10) plays a central role in cellular
-                    bioenergy generation and its regulation. Closed membrane systems generate a proton motive force to
-                    create transient localized bio-capacitors; the captured energy is used for the synthesis of
-                    mitochondrial ATP but also for many other processes, such as metabolite translocations, nerve
-                    conduction and a host of other bioenergy requiring processes. Coenzyme Q10 plays a key role
-                    in many of these sub-cellular membrane energy generating systems. Integral to this phenomenon
-                    is the prooxidant role of coenzyme Q10 in generating the major superoxide anion/hydrogen
-                    peroxide second messenger system.<sup>11</sup>
-                </p>
-                <p>
-                    A recent review has reported that with advancing age there is a major risk factor for the
-                    development of cardiovascular conditions.<sup>12</sup> Moreover that the aetiology of several
-                    cardiovascular disorders are thought to involve impaired mitochondrial function and metabolic
-                    dysfunction and more importantly of mitochondrial loss (mytophagy and autophagy).<sup>13</sup>
-                    CoQ10 acts as both an antioxidant and as a pro-oxidant at the level of the
-                    mitochondria.<sup>11</sup> Furthermore, in patients with cardiac conditions, plasma
-                    CoQ10 has been found to be an independent predictor of mortality. Based on the fundamental
-                    role of CoQ10 in mitochondrial bioenergetics and its well-acknowledged metabolic promoting
-                    properties, several clinical trials evaluating CoQ10 have been undertaken in cardiovascular
-                    disorders of ageing including chronic heart failure, hypertension and endothelial
-                    dysfunction.<sup>12</sup>
-                </p>
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
+                    "
+                    <strong>STANDARD INDICATIONS</strong>
 
-                <p>
-                    <ul>
-                        <li>Aids, assists or helps in the maintenance or improvement of general well-being</li>
-                        <li>Supports healthy cardiovascular and neurocognitive health</li>
-                        <li>Supports healthy cholesterol and triglyceride levels in healthy individuals</li>
-                        <li>Supports healthy endothelial and blood coagulation function in healthy individuals</li>
-                    </ul>
-                </p>
+                    <p>
+                        <ul>
+                            <li>May temporarily relieve joint pain/aches associated with mild arthritis.</li>
+                            <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                            <li>May temporarily relieve swollen and aching joints associated with mild arthritis.</li>
+                            <li>May temporarily relieve joint inflammation/ swelling associated with mild arthritis.</li>
+                            <li>May help enhance/improve/promote/increase joint mobility in mild arthritis.</li>
+                        </ul>
+                    </p>
 
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
+                    <strong>SPECIFIC INDICATIONS</strong>
 
-                <p>
-                    <ul>
-                        <li>Those requiring cardiovascular support</li>
-                        <li>Those requiring neurocognitive support</li>
-                    </ul>
-                </p>
-                ',
+                    <p>
+                        <ul>
+                            <li>CoQ10 transports electrons from mitochondrial respiratory chain complexes I and II to complex III and so is critical for ATP synthesis.</li>
+                            <li>CoQ10 functions as a cofactor for uncoupling proteins that are mitochondrial transporters presenting the inner membrane of mitochondria.</li>
+                            <li>Ubiquinol is the reduced form of CoQ10 and Ubiquinone is the oxidized form. These redox forms allows CoQ10 to act as an antioxidant and also as a prooxidant mainly through the semiquinone intermediate.</li>
+                            <li>CoQ10 is synthesised by all mammalian cells and is required for the biosynthesis of pyrimidine nucleotides because it is a natural substrate of dihydroorotate dehydrogenase, an enzyme located at the inner mitochondrial membrane.</li>
+                            <li>Coenzyme Q10 plays a central role in cellular bioenergy generation and its regulation.</li>
+                            <li>Coenzyme Q10 functions in prooxidant formation of small amounts of second messenger superoxide anion and hydrogen peroxide that are critical to overall metabolome function.</li>
+                            <li>Coenzyme Q10 acting through formation of its semiquinone is a major source of cellular and mitochondrial superoxide anion and consequently production of the second messenger hydrogen peroxide.</li>
+                            <li>Coenzyme Q10 plays a major role in mitochondrial energy generation actively participating in the establishment of the mitochondrial membrane's proton motive force.</li>
+                            <li>Coenzyme Q10 functions as a source of superoxide anion to activate the uncoupler proteins and is an obligatory co-factor for uncoupling protein function.</li>
+                            <li>Omega 3 fatty acids stabilise the electrical activity of cardiac myocytes by inhibiting sarcolemmal ion channels, resulting in a prolonged relative refractory period.</li>
+                            <li>Omega 3 fatty acids supports healthy cardiovascular and endothelial function in healthy individuals Omega 3 fatty acids support healthy cholesterol and triglyceride levels in healthy individuals.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 500 mg of omega 3 oils per day to maintain healthy cardiovascular function in healthy individuals.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 1000 mg per day omega 3 oils in those with documented heart conditions.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 1200 mg to 4000 mg of omega 3 oils in those with documented elevated triglyceride levels.</li>
+                            <li>Omega 3 fatty acids are incorporated into cell membranes, and increasing the amount of polyunsaturated fatty acids in the membranes increases its fluidity and deformability.</li>
+                            <li>Omega 3 fatty acids are essential because they are not synthesised by the body and must be obtained through diet or supplementation.</li>
+                            <li>Omega 3 fatty acids help maintain normal blood coagulation function in healthy individuals.</li>
+                            <li>Omega 3 fatty acids help maintain healthy endothelial function in healthy individuals.</li>
+                            <li>Omega 3 fatty acids may result in a favourable change in high density lipoproteins (HDL) levels.</li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        <strong>SPECIFIC CONDITIONS</strong>
+                    </p>
+
+                    <p>
+                        No specific conditions included on record.
+                    </p>
+
+                    <p>
+                        <strong>WARNINGS</strong>
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li>Do not take while on warfarin therapy without medical advice.  If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
+                        </ul>
+                    </p>
+                ",
                 'references' =>
                     '
                 <ol class="medlab_product_reference_list">
