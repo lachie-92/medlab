@@ -698,104 +698,63 @@ class ModifyProduct extends Command
                 </p>
                 ',
                 'practitioner_summary' =>
-                    '
-                <p>
-                    <strong>Omega-3 Fatty Acids and the Cardiovascular System</strong>
-                </p>
-                <p>
-                    Important fats that enhance the functional physiology of the cardiovascular system are
-                    alpha–linolenic acid (ALA), the parent compound of the omega–3 fatty acid family, and
-                    linoleic acid (LA), the parent compound of the omega–6 family. ALA and LA are essential
-                    fatty acids obtained from the diet, as they cannot be synthesised. Omega–3 fatty acids
-                    consist of the long-chain, polyunsaturated fatty acids (PUFA) docosahexaenoic acid (DHA)
-                    and eicosapentaenoic acid (EPA) that are of marine origin with oily fish being the richest
-                    dietary source.<sup>1</sup>Omega-3 fatty acids have important physiological properties that
-                    include anti-inflammatory, antiarrhythmic and antithrombotic properties.<sup>2</sup>
-                </p>
-                <p>
-                    Numerous reviews have summarised the cardiovascular benefits of fish and fish oil consumption
-                    in the primary<sup>3</sup> and secondary<sup>4</sup> prevention of cardiovascular conditions.
-                    Research on nutrient intakes has shown that regular consumption of omega-3 fats significantly
-                    lowers heart-disease risk.<sup>3,4</sup> For example, a report of a cohort from the Nurses
-                    Health Study<sup>5</sup> showed that women who ate two-to-four servings of fish a week
-                    reduced heart disease risk by 30 per cent. Further, it has been shown that omega–3s reduce
-                    blood pressure and heart rate, lower blood triglycerides and increase HDL cholesterol, and
-                    make blood less likely to form clots and create life-threatening thromboses.<sup>5</sup>
-                </p>
-                <p>
-                    <strong>Omega-3 Fatty Acids and the Neurocognitive System</strong>
-                </p>
-                <p>
-                    As a predominant structural component of neural membranes in the brain and retina, DHA has
-                    demonstrated to have a positive effect on membrane fluidity and permeability, receptor
-                    structure and quantity, carrier mediated transport of nutrients into and out of the cell,
-                    enzymatic activities, cell to cell communication and signaling as well as the microenvironment
-                    of retinal photoreceptor outer segments.<sup>6,7</sup>
-                </p>
-                <p>
-                    DHA has been reported to be of significant importance for foetal brain development, for the
-                    optimal development of visual acuity and overall motor skills in infants, to help maintain
-                    healthy and balanced lipid metabolism in children and adults, and to support cognition in
-                    the elderly.<sup>8</sup> In the area of anti-ageing medicine, essential fatty-acids, in
-                    particular the omega-3 long-chain PUFAs, are also increasingly being investigated as
-                    therapeutic agents with potential to limit the cognitive decline that accompanies the ageing
-                    brain. Furthermore, during ageing, there is also a decrease in brain levels of DHA, and the
-                    consumption of fish correlates with a decreased risk of dementia and Alzheimer’s disease.
-                    The reported daily use of fish-oil supplements, although limited in evidence status,
-                    suggests a possible association between omega–3 fatty acids and reduced risk of
-                    dementia.<sup>9,10</sup>
-                </p>
-                <p>
-                    <strong>Coenzyme Q10 as Ubiquinol for Cardiovascular Health</strong>
-                </p>
-                <p>
-                    There is nothing more critical for all anabolic and catabolic cellular functions than an adequate,
-                    constant supply of bioenergy.<sup>11</sup> Coenzyme Q10 (CoQ10) plays a central role in cellular
-                    bioenergy generation and its regulation. Closed membrane systems generate a proton motive force to
-                    create transient localized bio-capacitors; the captured energy is used for the synthesis of
-                    mitochondrial ATP but also for many other processes, such as metabolite translocations, nerve
-                    conduction and a host of other bioenergy requiring processes. Coenzyme Q10 plays a key role
-                    in many of these sub-cellular membrane energy generating systems. Integral to this phenomenon
-                    is the prooxidant role of coenzyme Q10 in generating the major superoxide anion/hydrogen
-                    peroxide second messenger system.<sup>11</sup>
-                </p>
-                <p>
-                    A recent review has reported that with advancing age there is a major risk factor for the
-                    development of cardiovascular conditions.<sup>12</sup> Moreover that the aetiology of several
-                    cardiovascular disorders are thought to involve impaired mitochondrial function and metabolic
-                    dysfunction and more importantly of mitochondrial loss (mytophagy and autophagy).<sup>13</sup>
-                    CoQ10 acts as both an antioxidant and as a pro-oxidant at the level of the
-                    mitochondria.<sup>11</sup> Furthermore, in patients with cardiac conditions, plasma
-                    CoQ10 has been found to be an independent predictor of mortality. Based on the fundamental
-                    role of CoQ10 in mitochondrial bioenergetics and its well-acknowledged metabolic promoting
-                    properties, several clinical trials evaluating CoQ10 have been undertaken in cardiovascular
-                    disorders of ageing including chronic heart failure, hypertension and endothelial
-                    dysfunction.<sup>12</sup>
-                </p>
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
+                    "
+                    <strong>STANDARD INDICATIONS</strong>
 
-                <p>
-                    <ul>
-                        <li>Aids, assists or helps in the maintenance or improvement of general well-being</li>
-                        <li>Supports healthy cardiovascular and neurocognitive health</li>
-                        <li>Supports healthy cholesterol and triglyceride levels in healthy individuals</li>
-                        <li>Supports healthy endothelial and blood coagulation function in healthy individuals</li>
-                    </ul>
-                </p>
+                    <p>
+                        <ul>
+                            <li>May temporarily relieve joint pain/aches associated with mild arthritis.</li>
+                            <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                            <li>May temporarily relieve swollen and aching joints associated with mild arthritis.</li>
+                            <li>May temporarily relieve joint inflammation/ swelling associated with mild arthritis.</li>
+                            <li>May help enhance/improve/promote/increase joint mobility in mild arthritis.</li>
+                        </ul>
+                    </p>
 
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
+                    <strong>SPECIFIC INDICATIONS</strong>
 
-                <p>
-                    <ul>
-                        <li>Those requiring cardiovascular support</li>
-                        <li>Those requiring neurocognitive support</li>
-                    </ul>
-                </p>
-                ',
+                    <p>
+                        <ul>
+                            <li>CoQ10 transports electrons from mitochondrial respiratory chain complexes I and II to complex III and so is critical for ATP synthesis.</li>
+                            <li>CoQ10 functions as a cofactor for uncoupling proteins that are mitochondrial transporters presenting the inner membrane of mitochondria.</li>
+                            <li>Ubiquinol is the reduced form of CoQ10 and Ubiquinone is the oxidized form. These redox forms allows CoQ10 to act as an antioxidant and also as a prooxidant mainly through the semiquinone intermediate.</li>
+                            <li>CoQ10 is synthesised by all mammalian cells and is required for the biosynthesis of pyrimidine nucleotides because it is a natural substrate of dihydroorotate dehydrogenase, an enzyme located at the inner mitochondrial membrane.</li>
+                            <li>Coenzyme Q10 plays a central role in cellular bioenergy generation and its regulation.</li>
+                            <li>Coenzyme Q10 functions in prooxidant formation of small amounts of second messenger superoxide anion and hydrogen peroxide that are critical to overall metabolome function.</li>
+                            <li>Coenzyme Q10 acting through formation of its semiquinone is a major source of cellular and mitochondrial superoxide anion and consequently production of the second messenger hydrogen peroxide.</li>
+                            <li>Coenzyme Q10 plays a major role in mitochondrial energy generation actively participating in the establishment of the mitochondrial membrane's proton motive force.</li>
+                            <li>Coenzyme Q10 functions as a source of superoxide anion to activate the uncoupler proteins and is an obligatory co-factor for uncoupling protein function.</li>
+                            <li>Omega 3 fatty acids stabilise the electrical activity of cardiac myocytes by inhibiting sarcolemmal ion channels, resulting in a prolonged relative refractory period.</li>
+                            <li>Omega 3 fatty acids supports healthy cardiovascular and endothelial function in healthy individuals Omega 3 fatty acids support healthy cholesterol and triglyceride levels in healthy individuals.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 500 mg of omega 3 oils per day to maintain healthy cardiovascular function in healthy individuals.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 1000 mg per day omega 3 oils in those with documented heart conditions.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 1200 mg to 4000 mg of omega 3 oils in those with documented elevated triglyceride levels.</li>
+                            <li>Omega 3 fatty acids are incorporated into cell membranes, and increasing the amount of polyunsaturated fatty acids in the membranes increases its fluidity and deformability.</li>
+                            <li>Omega 3 fatty acids are essential because they are not synthesised by the body and must be obtained through diet or supplementation.</li>
+                            <li>Omega 3 fatty acids help maintain normal blood coagulation function in healthy individuals.</li>
+                            <li>Omega 3 fatty acids help maintain healthy endothelial function in healthy individuals.</li>
+                            <li>Omega 3 fatty acids may result in a favourable change in high density lipoproteins (HDL) levels.</li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        <strong>SPECIFIC CONDITIONS</strong>
+                    </p>
+
+                    <p>
+                        No specific conditions included on record.
+                    </p>
+
+                    <p>
+                        <strong>WARNINGS</strong>
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li>Do not take while on warfarin therapy without medical advice.  If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
+                        </ul>
+                    </p>
+                ",
                 'references' =>
                     '
                 <ol class="medlab_product_reference_list">
@@ -1015,95 +974,57 @@ class ModifyProduct extends Command
                 </p>
                 ',
                 'practitioner_summary' =>
-                    '
-                <p>
-                    <strong>Omega-3 Fatty Acids and the Cardiovascular System</strong>
-                </p>
-                <p>
-                    Important fats that enhance the functional physiology of the cardiovascular system are
-                    alpha–linolenic acid (ALA), the parent compound of the omega–3 fatty acid family, and
-                    linoleic acid (LA), the parent compound of the omega–6 family. ALA and LA are essential
-                    fatty acids obtained from the diet, as they cannot be synthesised. Omega–3 fatty acids
-                    consist of the long-chain, polyunsaturated fatty acids (PUFA) docosahexaenoic acid (DHA)
-                    and eicosapentaenoic acid (EPA) that are of marine origin with oily fish being the richest
-                    dietary source.<sup>1</sup>Omega-3 fatty acids have important physiological properties that
-                    include anti-inflammatory, antiarrhythmic and antithrombotic properties.<sup>2</sup>
-                </p>
-                <p>
-                    Numerous reviews have summarised the cardiovascular benefits of fish and fish oil consumption
-                    in the primary<sup>3</sup> and secondary<sup>4</sup> prevention of cardiovascular conditions.
-                    Research on nutrient intakes has shown that regular consumption of omega-3 fats significantly
-                    lowers heart-disease risk.<sup>3,4</sup> For example, a report of a cohort from the Nurses
-                    Health Study<sup>5</sup> showed that women who ate two-to-four servings of fish a week
-                    reduced heart disease risk by 30 per cent. Further, it has been shown that omega–3s reduce
-                    blood pressure and heart rate, lower blood triglycerides and increase HDL cholesterol, and
-                    make blood less likely to form clots and create life-threatening thromboses.<sup>5</sup>
-                </p>
-                <p>
-                    <strong>Plant Sterols for Healthy Blood Cholesterol and Triglyceride Support</strong>
-                </p>
-                <p>
-                    Plant sterols were first described for their cholesterol lowering effects in the 1950’s, when they
-                    were isolated from vegetable fats/oils and pine trees and were chemically analyzed for their
-                    effectiveness. Plant sterol and stanols can lower blood cholesterol by decreasing intestinal
-                    absorption of cholesterol. Given that sterols and stanols structurally resemble cholesterol,
-                    they interfere with micellar solubilisation of dietary and biliary cholesterol present in the
-                    intestinal lumen and therefore less cholesterol is absorbed into the systemic circulation.
-                    <sup>6-8</sup> Besides lowering serum LDL-C concentrations, it has been shown that plant sterol
-                    and stanol esters lower serum TAG levels, particularly in subjects with the metabolic syndrome
-                    who are characterized by elevated TAG concentrations. The mechanism of lowering TAGs has
-                    theoretically been proposed to be due to either acting on enhanced clearance from the circulation
-                    or decreased TAG appearance in the circulation.<sup>9</sup> Furthermore, murine studies have shown
-                    that plant sterols and stanols can protect against a high fat, high cholesterol diet-induced
-                    non-alcoholic steatohepatitis (NASH) – liver inflammation but not from liver fatty acid
-                    accumulation. <sup>10</sup>
-                </p>
-                <p>
-                    A meta-analysis of 41 trials concluded that on average, an intake of 1.5-2.0 g/day of stanol and
-                    sterols decreased LDL-C by 10%.<sup>11</sup> An additional study of 59 clinical studies concluded
-                    that plant sterol containing products reduced LDL concentrations but the reduction was related to
-                    individuals\' baseline LDL levels, food carrier, and frequency and time of intake.<sup>12</sup>
-                    Both studies similarly concluded that ingesting greater than 2.5 grams per day of plant sterols
-                    and stanols did not add any greater benefits of lowering a greater percentage of blood cholesterol.
-                    <sup>11,12</sup>
-                </p>
-                <p>
-                    <strong>Omega-3 Fatty Acids combined with Plant Sterols</strong>
-                </p>
-                <p>
-                    A recent randomized, double-blind, placebo-controlled, parallel efficacy study investigated the
-                    dose-response relation between a low dose (&lt;2 g/d) of EPA + DHA from fish oil combined with
-                    plant sterols and the affect on serum TAGs and LDL-C levels.<sup>13</sup>A total of 247
-                    participants were included in the study and randomised to either the control group or 1 of 4
-                    interventions containing a fixed amount of plant sterols (2.5 g/d) and varying amounts of EPA +
-                    DHA (0-1.8 g/d) for 4 weeks. The authors reported that a combination of EPA + DHA from fish oil
-                    and plant sterols decreases serum TAGs concentrations in a dose-dependent manner (9-16%) while
-                    also decreasing LDL-C concentrations (≈ 13%) in a population with elevated cholesterol but normal
-                    TAG levels.<sup>13</sup>
-                </p>
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
+                    "
+                    <strong>STANDARD INDICATIONS</strong>
 
-                <p>
-                    <ul>
-                        <li>May help to reduce intestinal absorption of cholesterol from dietary and biliary sources.</li>
-                        <li>May assist in the maintenance of serum cholesterol and triglyceride levels within the normal range in healthy individuals.</li>
-                        <li>May assist in maintenance of a healthy LDL:HDL cholesterol ratio. </li>
-                    </ul>
-                </p>
+                    <p>
+                        <ul>
+                            <li>May help to reduce intestinal absorption of cholesterol from dietary sources.</li>
+                            <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
+                            <li>May assist in the maintenance of cholesterol within the normal range in healthy individuals.</li>
+                            <li>May assist in the maintenance of cholesterol within the normal/healthy range in healthy individuals and improve the LDL:HDL ratio.</li>
+                            <li>May assist in the maintenance of a normal/healthy LDL:HDL cholesterol ratio.</li>
+                        </ul>
+                    </p>
 
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
+                    <strong>SPECIFIC INDICATIONS</strong>
 
-                <p>
-                    <ul>
-                        <li>Those needing to maintain healthy cholesterol levels whilst prescribed cholesterol lowering medications.</li>
-                        <li>Those adhering to lifestyle interventions consisting of prudent nutritional practices and physical activity.</li>
-                    </ul>
-                </p>
-                ',
+                    <p>
+                        <ul>
+                            <li>Vegetable oil phytosterol esters (plant sterols) may help maintain normal healthy cholesterol levels in healthy individuals.</li>
+                            <li>Vegetable oil phytosterol esters (plant sterols) may assist in the improvement of the LDL:HDL ratio as well as reducing oxidation of LDL cholesterol.</li>
+                            <li>Vegetable oil phytosterol esters (plant sterols) may help reduce intestinal absorption of cholesterol from dietary sources.</li>
+                            <li>Contains Omega-3 triglyceride essential fatty acids which may support healthy function of the cardiovascular system.</li>
+                            <li>Omega-3 fatty acids stabilise the electrical activity of cardiac myocytes by inhibiting sarcolemmal ion channels, resulting in a prolonged relative refractory period.</li>
+                            <li>Omega-3 fatty acids support healthy cardiovascular and endothelial function in healthy individuals.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 500 mg of omega 3 per day to maintain healthy cardiovascular function in healthy individuals.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 1000 mg per day omega 3 oils in those with documented heart conditions.</li>
+                            <li>Omega-3 fatty acids are incorporated into cell membranes, and increasing the amount of polyunsaturated fatty acids in the membranes increases its fluidity and deformability.</li>
+                            <li>Omega-3 fatty acids are essential because they are not synthesised by the body and must be obtained through diet or supplementation.</li>
+                            <li>Omega 3 fatty acids support healthy cholesterol and triglyceride levels in healthy individuals.</li>
+                            <li>Omega 3 fatty acids help maintain normal blood coagulation function in healthy individuals .</li>
+                            <li>Omega 3 fatty acids may result in a favourable change in high density lipoprotein (HDL) levels in healthy individuals.</li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        <strong>SPECIFIC CONDITIONS</strong>
+                    </p>
+
+                    <p>
+                        No specific conditions included on record.
+                    </p>
+
+                    <p>
+                        <strong>WARNINGS</strong>
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li>Not recommended for use by pregnant and lactating women (or words to that effect). There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
+                        </ul>
+                    </p>
+                ",
                 'references' =>
                     '
                 <ol class="medlab_product_reference_list">
@@ -1308,95 +1229,57 @@ class ModifyProduct extends Command
                 </p>
                 ',
                 'practitioner_summary' =>
-                    '
-                <p>
-                    <strong>Omega-3 Fatty Acids and the Cardiovascular System</strong>
-                </p>
-                <p>
-                    Important fats that enhance the functional physiology of the cardiovascular system are
-                    alpha–linolenic acid (ALA), the parent compound of the omega–3 fatty acid family, and
-                    linoleic acid (LA), the parent compound of the omega–6 family. ALA and LA are essential
-                    fatty acids obtained from the diet, as they cannot be synthesised. Omega–3 fatty acids
-                    consist of the long-chain, polyunsaturated fatty acids (PUFA) docosahexaenoic acid (DHA)
-                    and eicosapentaenoic acid (EPA) that are of marine origin with oily fish being the richest
-                    dietary source.<sup>1</sup>Omega-3 fatty acids have important physiological properties that
-                    include anti-inflammatory, antiarrhythmic and antithrombotic properties.<sup>2</sup>
-                </p>
-                <p>
-                    Numerous reviews have summarised the cardiovascular benefits of fish and fish oil consumption
-                    in the primary<sup>3</sup> and secondary<sup>4</sup> prevention of cardiovascular conditions.
-                    Research on nutrient intakes has shown that regular consumption of omega-3 fats significantly
-                    lowers heart-disease risk.<sup>3,4</sup> For example, a report of a cohort from the Nurses
-                    Health Study<sup>5</sup> showed that women who ate two-to-four servings of fish a week
-                    reduced heart disease risk by 30 per cent. Further, it has been shown that omega–3s reduce
-                    blood pressure and heart rate, lower blood triglycerides and increase HDL cholesterol, and
-                    make blood less likely to form clots and create life-threatening thromboses.<sup>5</sup>
-                </p>
-                <p>
-                    <strong>Plant Sterols for Healthy Blood Cholesterol and Triglyceride Support</strong>
-                </p>
-                <p>
-                    Plant sterols were first described for their cholesterol lowering effects in the 1950’s, when they
-                    were isolated from vegetable fats/oils and pine trees and were chemically analyzed for their
-                    effectiveness. Plant sterol and stanols can lower blood cholesterol by decreasing intestinal
-                    absorption of cholesterol. Given that sterols and stanols structurally resemble cholesterol,
-                    they interfere with micellar solubilisation of dietary and biliary cholesterol present in the
-                    intestinal lumen and therefore less cholesterol is absorbed into the systemic circulation.
-                    <sup>6-8</sup> Besides lowering serum LDL-C concentrations, it has been shown that plant sterol
-                    and stanol esters lower serum TAG levels, particularly in subjects with the metabolic syndrome
-                    who are characterized by elevated TAG concentrations. The mechanism of lowering TAGs has
-                    theoretically been proposed to be due to either acting on enhanced clearance from the circulation
-                    or decreased TAG appearance in the circulation.<sup>9</sup> Furthermore, murine studies have shown
-                    that plant sterols and stanols can protect against a high fat, high cholesterol diet-induced
-                    non-alcoholic steatohepatitis (NASH) – liver inflammation but not from liver fatty acid
-                    accumulation. <sup>10</sup>
-                </p>
-                <p>
-                    A meta-analysis of 41 trials concluded that on average, an intake of 1.5-2.0 g/day of stanol and
-                    sterols decreased LDL-C by 10%.<sup>11</sup> An additional study of 59 clinical studies concluded
-                    that plant sterol containing products reduced LDL concentrations but the reduction was related to
-                    individuals\' baseline LDL levels, food carrier, and frequency and time of intake.<sup>12</sup>
-                    Both studies similarly concluded that ingesting greater than 2.5 grams per day of plant sterols
-                    and stanols did not add any greater benefits of lowering a greater percentage of blood cholesterol.
-                    <sup>11,12</sup>
-                </p>
-                <p>
-                    <strong>Omega-3 Fatty Acids combined with Plant Sterols</strong>
-                </p>
-                <p>
-                    A recent randomized, double-blind, placebo-controlled, parallel efficacy study investigated the
-                    dose-response relation between a low dose (&lt;2 g/d) of EPA + DHA from fish oil combined with
-                    plant sterols and the affect on serum TAGs and LDL-C levels.<sup>13</sup>A total of 247
-                    participants were included in the study and randomised to either the control group or 1 of 4
-                    interventions containing a fixed amount of plant sterols (2.5 g/d) and varying amounts of EPA +
-                    DHA (0-1.8 g/d) for 4 weeks. The authors reported that a combination of EPA + DHA from fish oil
-                    and plant sterols decreases serum TAGs concentrations in a dose-dependent manner (9-16%) while
-                    also decreasing LDL-C concentrations (≈ 13%) in a population with elevated cholesterol but normal
-                    TAG levels.<sup>13</sup>
-                </p>
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
+                    "
+                    <strong>STANDARD INDICATIONS</strong>
 
-                <p>
-                    <ul>
-                        <li>May help to reduce intestinal absorption of cholesterol from dietary and biliary sources.</li>
-                        <li>May assist in the maintenance of serum cholesterol and triglyceride levels within the normal range in healthy individuals.</li>
-                        <li>May assist in maintenance of a healthy LDL:HDL cholesterol ratio. </li>
-                    </ul>
-                </p>
+                    <p>
+                        <ul>
+                            <li>May help to reduce intestinal absorption of cholesterol from dietary sources.</li>
+                            <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
+                            <li>May assist in the maintenance of cholesterol within the normal range in healthy individuals.</li>
+                            <li>May assist in the maintenance of cholesterol within the normal/healthy range in healthy individuals and improve the LDL:HDL ratio.</li>
+                            <li>May assist in the maintenance of a normal/healthy LDL:HDL cholesterol ratio.</li>
+                        </ul>
+                    </p>
 
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
+                    <strong>SPECIFIC INDICATIONS</strong>
 
-                <p>
-                    <ul>
-                        <li>Those needing to maintain healthy cholesterol levels whilst prescribed cholesterol lowering medications.</li>
-                        <li>Those adhering to lifestyle interventions consisting of prudent nutritional practices and physical activity.</li>
-                    </ul>
-                </p>
-                ',
+                    <p>
+                        <ul>
+                            <li>Vegetable oil phytosterol esters (plant sterols) may help maintain normal healthy cholesterol levels in healthy individuals.</li>
+                            <li>Vegetable oil phytosterol esters (plant sterols) may assist in the improvement of the LDL:HDL ratio as well as reducing oxidation of LDL cholesterol.</li>
+                            <li>Vegetable oil phytosterol esters (plant sterols) may help reduce intestinal absorption of cholesterol from dietary sources.</li>
+                            <li>Contains Omega-3 triglyceride essential fatty acids which may support healthy function of the cardiovascular system.</li>
+                            <li>Omega-3 fatty acids stabilise the electrical activity of cardiac myocytes by inhibiting sarcolemmal ion channels, resulting in a prolonged relative refractory period.</li>
+                            <li>Omega-3 fatty acids support healthy cardiovascular and endothelial function in healthy individuals.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 500 mg of omega 3 per day to maintain healthy cardiovascular function in healthy individuals.</li>
+                            <li>The Australian Heart Foundation Position Statement recommends 1000 mg per day omega 3 oils in those with documented heart conditions.</li>
+                            <li>Omega-3 fatty acids are incorporated into cell membranes, and increasing the amount of polyunsaturated fatty acids in the membranes increases its fluidity and deformability.</li>
+                            <li>Omega-3 fatty acids are essential because they are not synthesised by the body and must be obtained through diet or supplementation.</li>
+                            <li>Omega 3 fatty acids support healthy cholesterol and triglyceride levels in healthy individuals.</li>
+                            <li>Omega 3 fatty acids help maintain normal blood coagulation function in healthy individuals .</li>
+                            <li>Omega 3 fatty acids may result in a favourable change in high density lipoprotein (HDL) levels in healthy individuals.</li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        <strong>SPECIFIC CONDITIONS</strong>
+                    </p>
+
+                    <p>
+                        No specific conditions included on record.
+                    </p>
+
+                    <p>
+                        <strong>WARNINGS</strong>
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li>Not recommended for use by pregnant and lactating women (or words to that effect). There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
+                        </ul>
+                    </p>
+                ",
                 'references' =>
                     '
                 <ol class="medlab_product_reference_list">
