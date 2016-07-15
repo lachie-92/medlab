@@ -103,6 +103,7 @@
                         <li>Those adhering to lifestyle interventions consisting of prudent nutritional practices and physical activity.</li>
                     </ul>
                     </p>
+                    <hr>
 
                     <ol class="medlab_product_reference_list">
                         <li>Vitetta L, Sali A.  Omega–3 Fatty Acids PUFA. PART I. <em>J Comp Med</em> 2006; 5(6):52-59.</li>

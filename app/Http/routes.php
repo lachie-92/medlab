@@ -404,6 +404,38 @@ Route::get('/education/practitioner-education/why-activated-b12', function () {
     return view('pages.education.practitioner-education.why-activated-b12.index');
 });
 
+Route::get('/education/practitioner-education/supporting-your-young-one', function () {
+    return view('pages.education.practitioner-education.supporting-your-young-one.index');
+});
+
+Route::get('/education/practitioner-education/hica-use-and-understanding', function () {
+    return view('pages.education.practitioner-education.hica-use-and-understanding.index');
+});
+
+Route::get('/education/practitioner-education/support-healthy-gastrointestinal-function', function () {
+    return view('pages.education.practitioner-education.support-healthy-gastrointestinal-function.index');
+});
+
+Route::get('/education/practitioner-education/ascorbic-acid-and-glutathione', function () {
+    return view('pages.education.practitioner-education.ascorbic-acid-and-glutathione.index');
+});
+
+Route::get('/education/practitioner-education/role-of-b12', function () {
+    return view('pages.education.practitioner-education.role-of-b12.index');
+});
+
+Route::get('/education/practitioner-education/is-vitamin-d3-essential', function () {
+    return view('pages.education.practitioner-education.is-vitamin-d3-essential.index');
+});
+
+Route::get('/education/practitioner-education/new-concept-of-oral-rehydration', function () {
+    return view('pages.education.practitioner-education.new-concept-of-oral-rehydration.index');
+});
+
+Route::get('/education/practitioner-education/efficacy-of-saccharomyces-boulardii', function () {
+    return view('pages.education.practitioner-education.efficacy-of-saccharomyces-boulardii.index');
+});
+
 
 
 
