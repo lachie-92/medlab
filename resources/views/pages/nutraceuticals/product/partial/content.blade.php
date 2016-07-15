@@ -227,7 +227,7 @@
             @endif
 
 
-                        <!--
+            <!--
             --  Technical Button
             -->
             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
@@ -236,22 +236,12 @@
                             <div class="panel-heading medlab_panel_title">
                                 PRACTITIONER INFORMATION
                             </div>
-                            <div class="panel-body medlab_panel_content" style="text-align: justify">
+                            <div class="col-md-offset-2 col-sm-offset-2">
+                                <div class="panel-body medlab_panel_content" style="text-align: justify">
 
-                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg">IMPORTANT PRACTIONER EDUCATIONAL INFORMATION HERE</button>
+                                    <button type="button" class="btn btn-primary practitioner_info_btn" link="/TESTING">IMPORTANT PRACTIONER EDUCATIONAL INFORMATION HERE</button>
 
-                                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                                    <div class="modal-dialog modal-lg">
-                                        <div class="modal-content">
-                                            <p style="text-align: center;">
-                                                You are now leaving the product section of The Medlab website</br>
-                                                and are being redirected to the Technical/Scientific area</br>
-                                                <a href="medlab.co">Click here to continue</a>
-                                            </p>
-                                        </div>
-                                    </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>

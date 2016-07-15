@@ -7,6 +7,12 @@
             $('#product_modal').modal('show');
         });
 
+        $(".practitioner_info_btn").on("click", function() {
+
+            $('#practitioner_info_link').attr('href', $(this).attr('link'));
+            $('#practitioner_info_modal').modal('show');
+        });
+
     })();
 
 </script>
