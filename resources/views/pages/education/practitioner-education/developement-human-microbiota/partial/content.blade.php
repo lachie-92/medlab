@@ -78,7 +78,7 @@
                     <p>Alterations in the GIT microbiome is reported in numerous conditions such as obesity, type 2 diabetes mellitus, inflammatory bowel conditions, depression etc. For example overweight pregnant women demonstrate low numbers of Bifidobacterium and Bacteroides species compared to normal weight pregnant women.5 It is apparent that the maternal GIT microbiome provides the cue for foetal and neonate colonisation via the proposed bacterial translocation to breast milk, placenta and amniotic fluid. If the mother therefore has a dysbiotic gut, it will impact on the type of bacteria available for colonisation of the infant. Research has shown that supplementing women during their pregnancy with probiotics can lead to those selected species colonisation in the infants gut. Further studies have shown that administering Lactobacillus rhamnosus to mothers 4 weeks before delivery and 3 weeks after delivery induced specific changes in the transfer and initial establishment of Bifidobacteria in neonates compared to those that received placebo.5,6 The administration of probiotics during pregnancy and after birth is supported by numerous research papers, particularly with L. rhamnosus and various Bifidobacteruim species, however the results are not consistent. Furthermore, the GIT microbiome in the neonate is responsible for re-establishing a TH1 to TH2 balance, with a stimulation of TH17 and TReg Cells involved in infant immune maturation.2
                     </p>
 
-                    <h2>Clinical Summary:</h2>
+                    <h4>Clinical Summary:</h4>
 
                     <p>Who Will Benefit</p>
 

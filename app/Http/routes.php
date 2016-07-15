@@ -380,6 +380,31 @@ Route::get('/education/practitioner-education/developement-human-microbiota', fu
     return view('pages.education.practitioner-education.developement-human-microbiota.index');
 });
 
+Route::get('/education/practitioner-education/poor-digestive', function () {
+    return view('pages.education.practitioner-education.poor-digestive.index');
+});
+
+Route::get('/education/practitioner-education/human-microbial-interface', function () {
+    return view('pages.education.practitioner-education.human-microbial-interface.index');
+});
+
+Route::get('/education/practitioner-education/magnesium-bisglycinate', function () {
+    return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
+});
+
+Route::get('/education/practitioner-education/coenzyme-q10s-uqiquinol', function () {
+    return view('pages.education.practitioner-education.coenzyme-q10s-uqiquinol.index');
+});
+
+Route::get('/education/practitioner-education/omega-3-fatty-acids', function () {
+    return view('pages.education.practitioner-education.omega-3-fatty-acids.index');
+});
+
+Route::get('/education/practitioner-education/why-activated-b12', function () {
+    return view('pages.education.practitioner-education.why-activated-b12.index');
+});
+
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////
