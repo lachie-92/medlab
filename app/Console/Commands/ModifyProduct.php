@@ -1479,266 +1479,92 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    The microbiome evolves within a healthy host from birth to death, constantly re-adjusting to maintain
-                    a homeostatic balance with the host&#39;s immune system. Continued evolution of the human microbiome after
-                    birth is governed by host factors such as both the adaptive and innate immune system and external
-                    factors such as diet, medication, environmental exposure&#39;s and illness. It was previously believed that
-                    the in utero environment was sterile and that an infant is exposed to the bacterial assault during the
-                    birthing process.<sup>1</sup> This notion has now been debunked. Colonization of the mucosa in the digestive,
-                    respiratory, urogenital tracts and the skin likely occurs before the time of birth when a newborn is
-                    exposed to the mother&#39;s microbiota.  Recent studies suggest the presence of a microbiome within the
-                    placenta and foetal meconium with exposure to antenatal sources of commensal bacterial and the seeding
-                    of the infant varying by length of gestation. This would help explain the variations in bacterial
-                    colonization between full-term and pre-term infants.<sup>1</sup>
-                </p>
-                <p>
-                    The mode of delivery and whether an infant is breast or bottle fed plays a major role on early
-                    colonization patterns of the neonatal gut microbiota, with breast milk containing its own microbiome
-                    but also mediators that can direct inflammatory responses to pathogens in the gut (see table 1). The
-                    infant gastrointestinal microbial profile is relatively simple in contrast to that of adults and is
-                    unstable until the age of approximately 3 years when it establishes its adult form. During this time
-                    many factors have considerable effect on the composition and determination of the microbial
-                    community.<sup>1,2</sup> Even after the microbiome is well established in healthy infants, dysbiosis, or shifts
-                    in microbial composition or diversity, can occur in the setting of dietary changes, antibiotic exposure
-                    or infection. Dysbiotic conditions can favour invasion and growth of pathogenic species and can disrupt
-                    the finely tuned regulatory circuits of the immune system that maintain a system of pro- and
-                    anti-inflammatory checks and balances.The manipulation of the infant microbiota with the use of
-                    pre- and probiotics can have a significant impact with long lasting results.<sup>1</sup>
-                </p>
-
-                <p>
-                    <strong>Table 1. Major differences in neonatal gut colonization by type of feeding.<sup>1</sup></strong>
-                </p>
-
-                <table cellspacing="0" cellpadding="0" border="1">
-                    <tbody>
-                        <tr>
-                            <td width="213" valign="top">
-                                <p>
-                                    <strong>Breast Fed</strong>
-                                </p>
-                            </td>
-                            <td width="213" valign="top">
-                                <p>
-                                    <strong>Formula Fed</strong>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="213" valign="top">
-                                <p>
-                                    <em>Bifidobacteria</em>
-                                </p>
-                            </td>
-                            <td width="213" valign="top">
-                                <p>
-                                    <em>Bifidobacteria species</em>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="213" valign="top">
-                                <p>
-                                    <em>Enterobacteria species*</em>
-                                </p>
-                            </td>
-                            <td width="213" valign="top">
-                                <p>
-                                    <em>Escherichia coli</em>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="213" valign="top">
-                                <p>
-
-                                </p>
-                            </td>
-                            <td width="213" valign="top">
-                                <p>
-                                    <em>Clostridium difficile</em>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="213" valign="top">
-                                <p>
-
-                                </p>
-                            </td>
-                            <td width="213" valign="top">
-                                <p>
-                                    <em>Bacteroides species</em>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="213" valign="top">
-                                <p>
-
-                                </p>
-                            </td>
-                            <td width="213" valign="top">
-                                <p>
-                                    <em>Prevotella species</em>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="213" valign="top">
-                                <p>
-
-                                </p>
-                            </td>
-                            <td width="213" valign="top">
-                                <p>
-                                    <em>Lactobacillus species</em>
-                                </p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
-                <p>
-                    <strong>
-                        *Breast-fed infants have more colonization with Bifidobacteria species than their formula-fed counterparts
-                    </strong>
-                </p>
-
-                <p>
-                    <em>Probiotic Species for Infants</em>
-                </p>
-
-                <p>
-                    Clinical evidence from a recent Cochrane Review conclude that the use of multi-species probiotics from
-                    the <em>Lactobacillus, Bifidobacterium and Streptococcus</em> genera have unequivocally demonstrated clinical
-                    evidence for preventing severe necrotising enterocolitis (NEC) and all cause mortality in preterm
-                    infants, to which the authors concluded that the evidence strongly supports a change in practice.<sup>3</sup>
-                    <em>Saccharomyces boulardii</em> has been extensively researched for the treatment of diarrhoea in both children
-                    and adults and has shown a clinically significant benefit in reducing duration of acute infectious
-                    diarrhoea in children by up to 24 hours and mean hospital stay by 36 hours. The percentage of
-                    diarrhoea-free children in the <em>Saccharomyces</em> group was significantly larger after 48 and 72 hours when
-                    compared to the control group.<sup>4</sup> Furthermore, <em>S. boulardii</em> stimulates host innate immune responses to
-                    pathogens via secretory IgA release, stimulates small intestinal release of digestive enzymes, produces
-                    anti-inflammatory molecules and secretes polyamines that regulate host gene expression and protein
-                    synthesis.<sup>5</sup>
-                </p>
-
-                <p>
-                    Breast milk oligosaccharides selectively nourish <em>Bifidobacterium</em> microbiota with species such as
-                    <em>Bifidobacterium infantis</em> being isolated from breast-fed infants.  <em>B. infantis</em> colonizes the infant
-                    gut mucosal lining assisting with pathogen elimination, improving epithelial tight junction homeostasis
-                    decreasing  gut permeability and inducing host anti-inflammatory cytokine production. <em>Bifidobacteria
-                    infantis</em> is a natural commensal isolated from breast-fed infants.<sup>6</sup> <em>Bifidobacterium longum</em> is a common
-                    commensal in breast milk.
-                </p>
-
-                <p>
-                    <em>Lactoferrin</em>
-                </p>
-
-                <p>
-                    Lactoferrin is the second most abundant protein in human breast milk, and is also secreted in tears,
-                    saliva, intestinal mucus, genital secretions and in granules of neutrophils. It is a glycoprotein
-                    belonging to the transferrin family of iron-binding proteins. As a multifunctional protein it
-                    demonstrates potent anti-microbial, anti-viral, anti-inflammatory and immunomodulatory activity
-                    providing a defence mechanism for the mammalian body.  The bactericidal effect of lactoferrin is in
-                    part due to its ability to bind iron that is essential for pathogenic bacterial growth resulting in
-                    bacteriostasis. Furthermore, lactoferrin disrupts the integrity of pathogenic bacterial cell walls by
-                    binding to lipopolysaccharides causing cell wall degradation.<sup>7</sup> Clinical evidence from a recent Cochrane
-                    Review demonstrated the therapeutic activity of lactoferrin for the prevention of sepsis and NEC in
-                    preterm infants.<sup>8</sup>
-                </p>
-
-                <p>
-                    <em>Prebiotics</em>
-                </p>
-
-                <p>
-                    Prebiotics are selectively fermented compounds, naturally produced in the body or provided in the diet,
-                    that promote specific beneficial effects to the composition and activity of the gastrointestinal
-                    microbiota. Prebiotics in breast milk consist of milk glycans comprising free oligosaccharides,
-                    glycoproteins and glycolipids that drive the health of the infant gut.<sup>9</sup> Dietary sources of prebiotics
-                    include oligosaccharides, inulin and resistant starches. A recent systematic review and meta-analysis
-                    concluded that available evidence suggests that the preventative use of prebiotics decreases the rate
-                    of infections requiring antibiotic therapy in infants and children aged 0-24 months with one study
-                    indicating that prebiotics may also be effective in decreasing the rate of overall infections.<sup>10</sup>
-                    Furthermore, a recent Cochrane Review found that there is some evidence that a prebiotic supplement
-                    added to infant feeds may prevent eczema, however further research is needed.<sup>11</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
+               
+               <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Assist in the management and provide relief of symptoms of eczema. <sup>11</sup></li>
-                        <li>Support healthy digestive function. <sup>12</sup></li>
-                        <li>Assist in the management of allergies. <sup>2,11</sup></li>
-                        <li>Aid in the maintenance and improvement of general wellbeing. <sup>8,12,13</sup></li>
-                        <li>Help to maintain immune function. <sup>2,3,11-13</sup></li>
-                        <li>Relieve symptoms of diarrhoea. <sup>12</sup></li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Relief of the symptoms of eczema. [Warning S required]</li>
+                        <li>May assist in the management of allergies. [Warning S required]</li>
+                        <li>Helps maintain healthy digestive function.</li>
+                        <li>May assist in the management of eczema. [Warning S required]</li>
+                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Suitable for pregnant women.</li>
-                        <li>Suitable for breast-fed and formula fed infants.</li>
-                        <li>Suitable for toddlers and older children.</li>
+                        <li>Enteral supplementation of multi-strain probiotics have shown to decrease the occurrence of necrotising enterocolitis in preterm infants. </li>
+                        <li>Clinical research demonstrates Lactoferrin alone or in combination with Lactobacillus rhamnosus decreases the occurrence of necrotizing enterocolitis in preterm infants. </li>
+                        <li>Supports a healthy immune system. </li>
+                        <li>Helps to maintain immune function. </li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile </li>
+                        <li>Lactoferrin is naturally found in colostrum and human milk and is a component of the innate immune response providing broad-spectrum anti-microbial and anti-viral activity.</li> 
+                        <li>The probiotic species have demonstrated ability to develop and maintain healthy digestive function, growth and immunological tolerance that may assist in the management of allergies including eczema. </li>
+
                     </ul>
                 </p>
-                ',
-                'references' =>
-                    '
+                                           
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                <ul></ul>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
+                    <li>Derived from cows milk. </li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect). </li>
+
+                    </ul>
+
+                </p>
+
+               
+                \',
+                \'references\' =>
+                    \'
                 <ol class="medlab_product_reference_list">
-                    <li>Gritz EC, Bhandari V. The human neonatal gut microbiome: a brief review. <em>Frontiers Pediatr</em> 2015;3:1.</li>
-                    <li>Jain N, Walker WA. Diet and host-microbial crosstalk in postnatal intestinal immune homeostasis. <em>Nat Rev Gastroenterol Hepatol</em> 2015;12:14.</li>
-                    <li>Alfaleh K, Anabrees J. Probiotics for prevention of necrotizing enterocolitis in preterm infants. <em>Cochrane Database Syst Rev</em> 2014;4.</li>
-                    <li>Dinleyici EC, et al. Saccharomyces boulardii CNCM I-745 reduces the duration of diarrhoea, length of emergency care and hospital stay in children with acute diarrhoea. <em>Benef Microbes</em> 2015 6;415.</li>
-                    <li>Buts JP, De Keyser N. Effects of Saccharomyces boulardii on Intestinal Mucosa. <em>Dig Dis Sci</em> 2006;51:1485.</li>
-                    <li>Chichlowski M, et al. Bifidobacteria isolated from infants and cultured on human milk oligosaccharides affect intestinal epithelial function. <em>J Pediatr Gastroenterol Nutr</em> 2012;55:321.</li>
-                    <li>Ochoa TJ, Cleary TG. Effect of lactoferrin on enteric pathogens. <em>Biochimie</em> 2009;91:30.</li>
-                    <li>Abrams PM, et al. Oral lactoferrin for the prevention of sepsis and necrotizing enterocolitis in preterm infants. <em>Cochrane Database Syst Rev</em> 2015;2.</li>
-                    <li>Pacheco AR, et al. The impact of the milk glycobiome on the neonate gut microbiota. <em>Annu Rev Anim Biosci</em> 2015;3:419.</li>
-                    <li>Lohner S, et al. Prebiotics in healthy infants and children for prevention of acute infectious diseases: a systematic review and meta-analysis. <em>Nutr Rev</em> 2014;72:523.</li>
-                    <li>Osborn DA< Sinn JKH. Prebiotics in infants for prevention of allergy. <em>Cochrane Database Syst Rev</em> 2013;3.</li>
-                    <li>Turroni F, et al. Diversity of Bifidobacteria within the infant gut microbiota. <em>PLoS ONE</em> 2012;7:e36957.</li>
-                    <li>Walker WA, Lyengar SR. Breast milk, microbiota and intestinal immune homeostasis. <em>Pediatr Res</em> 2015;77:220.</li>
+                    <li>Crane F. Biochemical functions of CoQ10. <em>J Am Coll Nutr</em> 2001;20:591-598.</li>
+                    <li>Kon M et al. Reducing exercise-induced muscular injury in Kendo athletes with supplementation of CoQ10. <em>Br Nutr</em> 2008;100:903-909.</li>
+                    <li>Giuseppe C et al. Effect of CoQ10 on myopathic symptoms in patients treated with statins. <em>Am J Cardiol</em> 2007;99:1409-1412. </li>
+                    <li>Ishizuka A et al. Effects of administration of Bifidobacterium animalis ssp. lactis GCL2505 on defecation frequency and bifidobacterial microbiota composition in humans. <em>J Biosci Bioeng</em> 2012;113:587-91. </li>
+                    <li>de Vrese M & Schrezenmeir J. Probiotics, prebiotics, and synbiotics. <em>Adv Biochem Eng Biotechnol</em> 2008;111:1-66. </li>
+                    <li>Agarwal R et al. Pathogenic role of magnesium deficiency in ophthalmic diseases. <em>Biometals</em> 2013 [Epub ahead of print].</li>
+                    <li>Dongarra L et al. Mucosal immunology and probiotics. <em>Curr Allergy Asthma Rep</em> 2013;13:19-26. </li>
+                    <li>Shambaugh GE. Pyrimidine biosynthesis. <em>AJCN</em> 1979;32:1290 –1297.</li>
+                    <li>Traut TW, Jones ME. Uracil metabolism--UMP synthesis from orotic acid or uridine and conversion of uracil to beta-alanine: enzymes and cDNAs. <em>Prog Nucleic Acids Res Mol Biol</em> 1996;53:1-78.</li>
+                    <li>Moyer JD, Henderson JF. Salvage of uridine in the mouse. Effect of uridine phosphorylase pre-treatment. <em>Biochem Pharmacol</em> 1985;34:101–105.</li>
+                    <li>Löffler M, Fairbanks LD, Zameitat E, Marinaki AM, Simmonds HA. Pyrimidine pathways in health and disease. <em>Trends Mol Med</em> 2005;11(9):430-7.</li>
+                    <li>Fuke C, Krikorian SA, Couris RR. Coenzyme Q10: a review of essential functions and clinical trials. <em>US Pharmacist</em> 2000;28-41.</li>
+                    <li>Hodgson JM, Watts GF, Playford DA, Burke V, Croft KD. Coenzyme Q10 improves blood pressure and glycaemic control: a controlled trial in subjects with type 2 diabetes. <em>Eur J Clin Nutr</em> 2002;56:1137-42.</li>
+                    <li>Langsjoen PH, Langsjoen AM. The clinical use of HMG CoA-reductase inhibitors and the associated depletion of coenzyme Q10. A review of animal and human publications. <em>Biofactors</em> 2003;18:101-11.</li>
+                    <li>Vitetta L, Manuel R, Zhou JY, et al. The overarching influence of the gut microbiome on end-organ function: the role of live probiotic cultures. <em>Pharmaceuticals (Basel)</em> 2014;7(9):954-89.</li>
+                    <li>Morelli L, Capurso L. FAO/WHO Guidelines on Probiotics: 10 years on. <em>J Clin Gastroenterol</em> 2012;46(1): S1-S2.</li>
+                    <li>Timmerman HM, Koning CJ, Mulder L, Rombouts FM, Beynen AC: Monostrain, multistrain and multispecies probiotics--A comparison of functionality and efficacy. <em>Int J Food Microbiol</em> 2004;96:219-233.</li>
+                    <li>Vitetta L, Briskey D, Hayes E, Shing C, Peake J: A review of the pharmacobiotic regulation of gastrointestinal inflammation by probiotics, commensal bacteria and prebiotics. <em>Inflammopharmacology</em> 2012;20:251-266.</li>
                 </ol>
-                ',
-                'free_from' =>
-                    '
-                <p class="medlab_product_content_sub_title">
-                    Gluten and Casein Free
-                </p>
-                <p class="medlab_product_content_sub_title">
-                    Vegetarian Friendly
-                </p>
-                <p class="medlab_product_content_sub_title">
-                    No artificial colours, flavours or sweeteners
-                </p>
-                <p class="medlab_product_content_sub_title">
-                    Refrigerate to maintain stability
-                </p>
-                ',
-                'interactions' =>
-                    '
-                <p>
-                    Some medicines may interfere with Biotic Jnr.&trade;. These include:
-                </p>
+                
+                \'interactions\' =>
+                    \'
+                Some medicines may interfere with Biotic Jnr.&trade;. These include:
+                    <li>Antibiotics</li>
 
-                <p>
-                    <ul>
-                        <li>Antibiotics</li>
-                    </ul>
-                </p>
+                </p></br>
+               
                 ',
                 'dosage_information' =>
                     '
@@ -1971,106 +1797,67 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    It is only within the last decade that a complex microbiome was discovered in the placenta, amniotic fluid and
-                    breast milk, which were once believed to be sterile. Infants were only thought to be exposed to microbes during birth,
-                    i.e. the mother’s vaginal microbiome or that of the hospital staff and surgical environment when delivered via cesarean
-                    section. The evolution of the infant gut microbiome does however begin <em>in utero</em>. Continued evolution of the microbiome
-                    after birth is influenced by numerous factors including diet, medications, toxins, illness and other stressors.<sup>1,2</sup>
-                </p>
-
-                <p>
-                    <strong><em>In Utero Exposure to Bacteria</em></strong>
-                </p>
-
-                <p>
-                    Colonisation of the mucosa of the digestive, respiratory, urogenital tracts and the skin begins before birth.
-                    The placental microbiome has recently been characterised and comprises non-pathogenic commensal microbiota from
-                    the Firmicutes, Tenericutes, Proteobacteria, Bacteroides and Fusobacteria phyla, which do share some
-                    similarities of the oral microbiome.<sup>2,3</sup> During the first week of life, a full term infant is largely
-                    colonised by bacteria from the Actinobacteria, Proteobacteria, Bacteroides and much less by the Firmicutes.
-                    Firmicutes and Tenericutes, however, dominate the gut microbiota of a pre-term infant. It is understood that
-                    the exposure to antenatal sources of commensal bacteria, varies by length of gestation. During the third trimester
-                    of pregnancy the bacterial density in the placenta and also that of the breast milk significantly increases.
-                    Further, at this time the foetus begins to swallow large amounts of amniotic fluid that harbours commensal
-                    bacteria (see Figure 1).<sup>1,2</sup>
-                </p>
-
-                <p>
-                    <img alt="Human Mammary Microbiota" src="/img/products/bioticnatal/bioticnatal_figure1.jpg" class="img-responsive" title="Human Mammary Microbiota"><br>
-                    <strong>Figure 1.</strong> Schematic representation of the acquisition and development of the human mammary microbiota.<sup>1</sup>
-                </p>
-
-                <p>
-                    <strong><em>Breast Milk Microbiome</em></strong>
-                </p>
-
-                <p>
-                    Breast milk not only provides bioactive molecules to the infant, including: immunocompetent cells, immunoglobulins,
-                    fatty acids, oligosaccharides, lactoferrin and antimicrobial peptides, but constitutes one of the main sources of
-                    bacteria to the breast fed infant gut and a baby consuming approximately 800 mL/day of milk would ingest between
-                    1 x10<sup>5</sup> – 1 x 10<sup>7</sup> bacteria per day. The oligosaccharides play a vital role in driving the
-                    diversity of the infant gut microbiota.<sup>1</sup> Potential sources of bacteria present in human colostrum and milk
-                    are proposed to be through the Enteromammary pathway, based on a plausible scientific basis. Dendritic cells (DC) are
-                    able to penetrate the gut epithelium, extending dendrites into the gut lumen and directly sample/collect the bacteria.
-                    Intestinal DCs and macrophages can retain small numbers of live commensal bacteria for several days in the mesenteric
-                    lymph nodes. DCs can then translocate these bacteria to other body sites including the lactating mammary gland.<sup>1,4</sup>
-                    The proposed method of bacterial transfer from the maternal GIT to the mammary gland is shown in Figure 2.
-                </p>
-
-                <p>
-                    <img alt="Enteromammary Pathway" src="/img/products/bioticnatal/bioticnatal_figure2.jpg" class="img-responsive" title="Enteromammary Pathway"><br>
-                    <strong>Figure 2. Enteromammary Pathway: </strong> Dendritic cells in the lamina propria send dendrites into the maternal gut lumen via
-                    tight junctions and trap commensal gut bacteria and transport them back to the lamina propria and from here to mesenteric lymph nodes.
-                    Once inside dendritic cells and/or macrophages, gut bacteria can spread to other locations such as the mammary gland and therefore into
-                    breast milk and possibly the placenta, as there is a circulation of lymphocytes within the mucosal-associated lymphoid system.<sup>4</sup>
-                </p>
-
-                <p>
-                    <em>Staphylococcus</em> and <em>Streptococcus</em> are among the most abundant genera found in breast milk.
-                    Lactic acid bacteria in breast milk generates an anaerobic environment in the neonate gut by consuming oxygen, promoting
-                    <em>Bifidobacterium</em> growth and later for several intestinal strains after weaning. The milk microbiota is
-                    vital for the neonates immune and GIT maturation. Without bacteria this simply does not occur.<sup>4</sup> There are
-                    large differences in neonatal gut colonisation between breastfed and formula fed infants. It has been demonstrated that
-                    term breast fed infants are dominated by <em>Bifidobacteria</em> species but decreased <em>Enterobacteria</em> species,
-                    whereas formula fed infants demonstrate a more diverse array of bacteria including <em>Escherichia coli, Clostridium, Bacteroides, Prevotella
-                    </em> and <em>Lactobacillus</em> species.<sup>2</sup>
-                </p>
-
-                <p>
-                    <strong><em>Maternal Dysbiosis</em></strong>
-                </p>
-
-                <p>
-                    Alterations in the GIT microbiome is reported in numerous conditions such as obesity, type 2 diabetes mellitus, inflammatory bowel conditions,
-                    depression etc. For example overweight pregnant women demonstrate low numbers of <em>Bifidobacterium</em> and <em>Bacteroides</em> species compared
-                    to normal weight pregnant women.<sup>5</sup> It is apparent that the maternal GIT microbiome provides the cue for foetal and neonate colonisation
-                    via the proposed bacterial translocation to breast milk, placenta and amniotic fluid. If the mother therefore has a dysbiotic gut, it will impact
-                    on the type of bacteria available for colonisation of the infant. Research has shown that supplementing women during their pregnancy with probiotics
-                    can lead to those selected species colonisation in the infants gut. Further studies have shown that administering <em>Lactobacillus rhamnosus</em>
-                    to mothers 4 weeks before delivery and 3 weeks after delivery induced specific changes in the transfer and initial establishment of <em>Bifidobacteria</em>
-                    in neonates compared to those that received placebo.<sup>5,6</sup> The administration of probiotics during pregnancy and after birth is supported by
-                    numerous research papers, particularly with <em>L. rhamnosus</em> and various <em>Bifidobacteruim</em> species, however the results are not consistent.
-                    Furthermore, the GIT microbiome in the neonate is responsible for re-establishing a T<sub>H</sub>1 to T<sub>H</sub>2 balance, with a stimulation of
-                    T<sub>H</sub>17 and T<sub>Reg</sub> Cells involved in infant immune maturation.<sup>2</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    Who will benefit:
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Pregnant and breast feeding mothers.</li>
-                        <li>Women planning on becoming pregnant.</li>
-                        <li>Women experiencing vaginosis.</li>
-                        <li>Women with gastrointestinal dysbiosis and symptoms of gastrointestinal discomfort.</li>
+                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>May assist in the management of allergies. [Warning S required]</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being. </li>
+                        <li>Treatment of mild digestive disorders. [Warning S required]</li>
+                        <li>May assist in the management of eczema. [Warning S required]</li>
+                        <li>Aids digestion. </li>
+
                     </ul>
                 </p>
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
+                <p>
+                    <ul>
+                        <li>May help to mature and maintain healthy immune function</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile </li>
+                        <li>Lactoferrin is naturally found in colostrum and human milk and is a component of the innate immune response providing broad-spectrum anti-microbial and anti-viral activity </li>
+                        <li>The placental microbiome is closely related to that of the mother\'s microbiome</li>
+                        <li>Commensal bacteria found in breast milk include species from the Streptococcus, Bifidobacterium and Lactobacillus genera </li>
+                        <li>At least some of the bacteria present in the maternal gut is thought to reach the mammary gland through an endogenous route, called the enteromammary pathway and likely contributes to the bacterial composition of breast milk </li>
+                        <li>Saccharomyces boulardii may help to support intestinal secretory IgA release by the host\'s immune system</li>
+                        <li>Saccharomyces boulardii demonstrates probiotic activity assisting with the maintenance of healthy commensal bacterial growth and viability </li>
+                        <li>Saccharomyces boulardii may help to mediate inflammatory mediators in the gastrointestinal tract </li>
+                        <li>Saccharomyces boulardii produces metabolites that have a trophic effect on the intestinal mucosa</li>
+                        <li>Lactoferrin in combination with Lactobacillus rhamnosus may assist with a healthy gastrointestinal tract in infants </li>
+                        <li>A multispecies probiotic may assist to maintain healthy digestive function, growth, development and immunological tolerance that may assist in the management of atopic conditions </li>
+                        <li>Saccharomyces boulardii may relieve the severity and duration of diarrhoea due to various triggers in children and adults </li>
+
+
+                    </ul>
+                </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
+                    <li>Derived from cows milk
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -2298,67 +2085,56 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    Several factors are known to contribute to the development of poor digestive function including
-                    stress, medications, poor eating habits and dietary choices, dysbiosis, ageing, illness,
-                    injury/trauma and toxic exposure.<sup>1,2</sup> Symptoms of digestive dysfunction can have an debilitating
-                    impact on an individuals quality of life. Symptoms range in severity and can include indigestion,
-                    reflux, heartburn, constipation, diarrhoea, nausea, abdominal pain and bloating, steatorrhoea,
-                    flatulence, unintentional weight loss and undigested food particles in the stool.<sup>2</sup> In conjunction
-                    with addressing dietary and lifestyle choices; therapeutic options available to reduce symptomology
-                    and improve digestive function and nutrient absorption include probiotic bacterial species and
-                    digestive enzymes.
-                </p>
-                <p>
-                    Commensal gastrointestinal tract (GIT) microbiota play a critical role in digestive function
-                    contributing to extensive metabolism of dietary compounds (and drugs), regulating energy metabolism
-                    and maintaining healthy GIT mucosal function and immune modulation.<sup>3</sup> Alteration of the GIT
-                    bacteria can occur through stress, dietary changes, medication use, inflammatory conditions and
-                    illness. There is extensive evidence to support the supplementation of probiotics for improving
-                    digestive function, reducing symptoms and improving GIT barrier function.<sup>4,5,6</sup>
-                </p>
-                <p>
-                    Digestive enzymes available for supplementation include pharmaceutical grade enzymes such as Creon
-                    and Creon Forte, which are porcine sourced, therefore not suitable for vegetarians.  Also available
-                    are fungal (from Aspergillus oryzae and Rhizopus oryzae) and plant-derived (bromelain and papain)
-                    enzymes. Plant derived proteolytic enzymes include bromelain (sourced from Ananas comosus) and
-                    papain (sourced from Carica papaya). Aspergillus oryzae and Rhizopus oryzae are filamentous
-                    fungi that secrete vast amounts of digestive enzymes such as amylase, protease and lipase.<sup>7,8</sup>
-                    Commensal bacteria are also capable of producing enzymes that assist with digestion.<sup>9</sup> Proteolytic
-                    enzymes breakdown proteins into polypeptides, dipeptides and amino acids; amylolytic enzymes
-                    (amylase) hydrolyze starches and other carbohydrates (not including cellulose) into disaccharides
-                    and trisaccharides and lipolytic enzymes (lipase) hydrolyze fats into fatty acids and
-                    monoglycerides.<sup>1</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    EnBiotic&trade; is formulated to assist digestive function and nutrient absorption.
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Support digestion of dietary proteins, carbohydrates and lipids.<sup>11,12</sup></li>
-                        <li>Assist with supporting healthy digestive function.<sup>11</sup></li>
-                        <li>Aid in the management of indigestion.<sup>12</sup></li>
-                        <li>Help relieve gastrointestinal discomfort.<sup>13,14</sup></li>
-                        <li>Assist in the management of altered bowel habits.<sup>15,16</sup></li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Aids digestion.</li>
+                        <li>Helps maintain healthy digestive function. </li>
+
+
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Specific Use:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>To assist with digestion of dietary proteins, carbohydrates and lipids;</li>
-                        <li>For relief of gastrointestinal discomfort including bloating and altered bowel habits.</li>
+                        <li>Relieves gastrointestinal discomfort</li>
+                        <li>Aspergillus oryzae (fungal) - derived amylase enzymes may assist in the digestion of dietary carbohydrates</li>
+                        <li>Rhizopus oryzae (fungal) - derived lipase enzymes may assist in the digestion of dietary lipids (fats)</li>
+                        <li>Aspergillus oryzae (fungal) - derived protease enzymes may assist in the digestion of dietary proteins</li>
+                        <li>Supports skin health</li>
+                        <li>Supports and assists with a healthy gastrointestinal microbial profile</li>
+                        <li>Ananas comosus and Carica papaya (plant) - derived proteolytic enzymes may assist with the digestion of dietary proteins Supports healthy immune function</li>
+                        <li>Helps to maintain healthy skin </li>
                     </ul>
                 </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>        
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -2605,67 +2381,56 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    Several factors are known to contribute to the development of poor digestive function including
-                    stress, medications, poor eating habits and dietary choices, dysbiosis, ageing, illness,
-                    injury/trauma and toxic exposure.<sup>1,2</sup> Symptoms of digestive dysfunction can have an debilitating
-                    impact on an individuals quality of life. Symptoms range in severity and can include indigestion,
-                    reflux, heartburn, constipation, diarrhoea, nausea, abdominal pain and bloating, steatorrhoea,
-                    flatulence, unintentional weight loss and undigested food particles in the stool.<sup>2</sup> In conjunction
-                    with addressing dietary and lifestyle choices; therapeutic options available to reduce symptomology
-                    and improve digestive function and nutrient absorption include probiotic bacterial species and
-                    digestive enzymes.
-                </p>
-                <p>
-                    Commensal gastrointestinal tract (GIT) microbiota play a critical role in digestive function
-                    contributing to extensive metabolism of dietary compounds (and drugs), regulating energy metabolism
-                    and maintaining healthy GIT mucosal function and immune modulation.<sup>3</sup> Alteration of the GIT
-                    bacteria can occur through stress, dietary changes, medication use, inflammatory conditions and
-                    illness. There is extensive evidence to support the supplementation of probiotics for improving
-                    digestive function, reducing symptoms and improving GIT barrier function.<sup>4,5,6</sup>
-                </p>
-                <p>
-                    Digestive enzymes available for supplementation include pharmaceutical grade enzymes such as Creon
-                    and Creon Forte, which are porcine sourced, therefore not suitable for vegetarians.  Also available
-                    are fungal (from Aspergillus oryzae and Rhizopus oryzae) and plant-derived (bromelain and papain)
-                    enzymes. Plant derived proteolytic enzymes include bromelain (sourced from Ananas comosus) and
-                    papain (sourced from Carica papaya). Aspergillus oryzae and Rhizopus oryzae are filamentous
-                    fungi that secrete vast amounts of digestive enzymes such as amylase, protease and lipase.<sup>7,8</sup>
-                    Commensal bacteria are also capable of producing enzymes that assist with digestion.<sup>9</sup> Proteolytic
-                    enzymes breakdown proteins into polypeptides, dipeptides and amino acids; amylolytic enzymes
-                    (amylase) hydrolyze starches and other carbohydrates (not including cellulose) into disaccharides
-                    and trisaccharides and lipolytic enzymes (lipase) hydrolyze fats into fatty acids and
-                    monoglycerides.<sup>1</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    EnBiotic&trade; is formulated to assist digestive function and nutrient absorption.
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Support digestion of dietary proteins, carbohydrates and lipids.<sup>11,12</sup></li>
-                        <li>Assist with supporting healthy digestive function.<sup>11</sup></li>
-                        <li>Aid in the management of indigestion.<sup>12</sup></li>
-                        <li>Help relieve gastrointestinal discomfort.<sup>13,14</sup></li>
-                        <li>Assist in the management of altered bowel habits.<sup>15,16</sup></li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Aids digestion.</li>
+                        <li>Helps maintain healthy digestive function. </li>
+
+
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Specific Use:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>To assist with digestion of dietary proteins, carbohydrates and lipids;</li>
-                        <li>For relief of gastrointestinal discomfort including bloating and altered bowel habits.</li>
+                        <li>Relieves gastrointestinal discomfort</li>
+                        <li>Aspergillus oryzae (fungal) - derived amylase enzymes may assist in the digestion of dietary carbohydrates</li>
+                        <li>Rhizopus oryzae (fungal) - derived lipase enzymes may assist in the digestion of dietary lipids (fats)</li>
+                        <li>Aspergillus oryzae (fungal) - derived protease enzymes may assist in the digestion of dietary proteins</li>
+                        <li>Supports skin health</li>
+                        <li>Supports and assists with a healthy gastrointestinal microbial profile</li>
+                        <li>Ananas comosus and Carica papaya (plant) - derived proteolytic enzymes may assist with the digestion of dietary proteins Supports healthy immune function</li>
+                        <li>Helps to maintain healthy skin </li>
                     </ul>
                 </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>        
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -2922,101 +2687,59 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    A French microbiologist, Henri Boulard discovered the beneficial yeast <em>Saccharomyces boulardii</em>
-                    in 1920. When he was visiting IndoChina he noticed that certain people who drank a special tea did
-                    not develop cholera during an outbreak. He isolated the agent in the fruit tea responsible for the
-                    therapeutic effects, being S. boulardii.<sup>1</sup> <em>S. boulardii</em> has several different
-                    mechanisms of action including luminal action, trophic action and mucosal anti-inflammatory
-                    signalling effects. Within the intestinal lumen, <em>S. boulardii</em> may interfere with
-                    pathogenic toxins, preserve cellular physiology, interfere with pathogen attachment, interact
-                    with normal microbiota and assist in re-establishing short chain fatty acid levels.
-                    <em>S. boulardii </em>may also act as an immune regulator, both within the lumen and systemically.
-                    Factors that disrupt the normal barrier function of commensal bacteria, such as antibiotic use or
-                    surgery, results in host susceptibility to pathogen colonization until the normal microbiota can
-                    become re-established. Typically it takes six to eight weeks for normal microbiota to recover after
-                    antibiotic use but when <em>S. boulardii</em> is supplemented, normal microbiota is re-established
-                    rapidly.<sup>1</sup>Furthermore, <em>S. boulardii</em> has proven effective in treating
-                    antibiotic-associated diarrhoea, <em>Clostridium difficile</em> infections, reducing side-effects
-                    of triple therapy to treat <em>Helicobacter pylori</em>, acute diarrhoea, travellers diarrhoea,
-                    Irritable Bowel Syndrome (IBS) and inflammatory bowel disease (IBD). <em>S. boulardii</em> has
-                    also been assessed for efficacy in treating <em>Giardiasis</em> when combined with metronidazole
-                    resulting in significantly less detection of <em>giardia </em>cysts compared to placebo.<sup>1-3</sup>
-                </p>
-                <p>
-                    Arabinogalactans are high molecular weight, highly branched, water-soluble polysaccharides
-                    containing units of D-galactose and L-arabinose. Arabinogalactans from Larch have been shown to
-                    stimulate natural killer cell cytotoxicity <em>in vitro</em> with animal studies demonstrating
-                    increases in white blood cell counts i.e. neutrophils and eosinophil’s.<sup>4</sup> ResistAid&trade;
-                    is a proprietary arabinogalactan extracted from Larch (<em>Larix laricina</em>) supplied by Lonza
-                    Ltd, Switzerland. A number of human clinical studies have demonstrated ResistAid&#39;s&trade;
-                    immunomodulatory activity. Udani 2010 demonstrated a daily dose of 4.5 g significantly increased
-                    IgG antibody response of healthy volunteers to the pneumococcal vaccine when compared to
-                    placebo.<sup>4</sup> In a more recent study Udani 2013 demonstrated that ResistAid&trade; at a dose
-                    of 1.5 g daily significantly increased the IgG antibody response to tetanus vaccine compared to
-                    placebo.<sup>5</sup> ResistAid&trade; has clinical evidence of being well tolerated in healthy
-                    individuals with no demonstrable side-effects.<sup>6</sup>
-                </p>
-                <p>
-                    Glutamine is the most abundant amino acid in the body and plays a central role in inter-organ
-                    carbon and nitrogen flux. Glutamine is considered a non-essential amino acid because it is
-                    synthesized endogenously, however it can be depleted rapidly in certain clinical settings
-                    particularly in response to injury, infection, IBD and short bowel syndrome.<sup>7,8</sup>
-                    Glutamine is an important fuel for rapidly dividing cells such as enterocytes, colonocytes and
-                    immune cells as it is critical for the biosynthesis of nucleotides required for cell replication
-                    and hexosamines. Glutamine and nucleosides act synergistically to promote differentiation and
-                    proliferation of intestinal epithelial cells.<sup>8</sup> Furthermore, glucosamine is reported to
-                    enhance the immunological barrier due to its trophic action on the immune system and its ability
-                    to decreased bacterial translocation.<sup>7</sup>
-                </p>
-                <p>
-                    Peppermint leaf and peppermint oil have traditionally been considered to have anti-spasmodic,
-                    anti-emetic, carminative and anti-microbial properties. Peppermint is indicated to treat a
-                    variety of digestive disorders such as flatulence, diarrhoea, indigestion, nausea and vomiting,
-                    and as a spasmolytic to reduce gas and cramping.<sup>9</sup> Peppermint is reported to block
-                    calcium channels resulting in gastrointestinal smooth muscle relaxation with a 2008 meta-analysis
-                    supporting the use of peppermint for providing short-term relief of discomfort and abdominal pain
-                    in IBS patients.<sup>10</sup>
-                </p>
-                <p>
-                    Cocoa is naturally rich in polyphenols that have been reported to modulate the gastrointestinal
-                    tract. Plasma and urine of chocolate eaters led to the discovery of distinct metabolic profiles
-                    according to the behavioural/psychological dietary preference for chocolate products. The
-                    metabolism of cocoa polyphenols can induce selective bacterial growth, i.e.
-                    <em>Bifidobacterium spp</em>, <em>Clostridium coccoides-Eubacterium rectale</em> group
-                    and <em>Escherichia coli</em> and significantly inhibit the growth of the
-                    <em>Clostridium histolyticum</em> group. Further, bacterial fermentation of the insoluble
-                    material of cocoa is associated with an increase in <em>Lactobacilli</em> and
-                    <em>Bifidobacterium</em> species as well as butyrate production.<sup>11</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Support healthy gastrointestinal tract function and physiology </li>
-                        <li>Help maintain healthy digestive function and relieve gastrointestinal  discomfort </li>
-                        <li>Support optimal immune function</li>
-                        <li>Relieve symptoms of medically diagnosed Irritable Bowel Syndrome</li>
+                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>May assist in the management of medically diagnosed irritable bowel syndrome </li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome \Helps maintain healthy digestive function.</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being. </li>
+
+
+
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>
-                            Those requiring relief from gastrointestinal complaints such as abdominal pain and
-                            bloating, flatulence, diarrhoea and/or constipation
-                        </li>
-                        <li>Those with intestinal permeability</li>
-                        <li>Those requiring prebiotic support for gastrointestinal microbial health</li>
+                        <li>Short-chain fatty acids produced from fermentation of arabinogalactan (ResistAid) supports healthy immune function in healthy individuals </li>
+                        <li>Relieves gastrointestinal discomfort such as abdominal pain, bloating, gas and altered bowel habits </li>
+                        <li>ResistAid is a proprietary natural immune support ingredient. It consists of the soluble fibre Arabinogalactan and bioactive flavonoids with clinical evidence of immune modulating properties that may support healthy immune function via various mechanisms. </li>
+                        <li>Arabinogalactan (ResistAid) is a prebiotic and produces short-chain fatty acids upon fermentation by gut bacteria, maintaining healthy colonic mucosal structure and function </li>
+                        <li>Saccharomyces boulardii is indicated for assisting with symptoms of diarrhoea due to various triggers and supports a healthy gastrointestinal microbial profile and healthy immune system in healthy individuals </li>
+                        <li>L-glutamine is an amino acid that improves trophism (nourishment and function) of enterocytes and colonocytes; enhances the immunological barrier due to its trophic action on the immune system and decreases bacterial translocation and so helps maintain healthy healthy digestive function.</li>
+                        <li>Peppermint (Mentha piperita) contains active chemical constituents that provide antiemetic, antispasmodic and anti-microbial activity.</li>
+                        <li>Helps to maintain healthy skin </li>
                     </ul>
                 </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
+                    <li>Derived from cows milk
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -3228,122 +2951,75 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    Manuka-C&trade; is a novel combination of ingredients to support optimal immune system function containing a blend of three
-                    ascorbates to be gentle on the stomach. Ascorbic acid and glutathione are essential nutrients for optimal immune function,<sup>1-3</sup>
-                    ensuring effective anti-microbial and anti-inflammatory activity of white blood cells (WBC)<sup>2,4</sup> with glutathione aiding
-                    the physiological role of ascorbic acid recycling and activity within the cell. <sup>4-7</sup> Ascorbic acid together with zinc
-                    is also required for wound healing and healthy connective tissue function.<sup>1,3,8</sup> Manuka honey has been used for centuries
-                    in the treatment of infections having anti-microbial and anti-inflammatory activity.<sup>9-11</sup>
-                </p>
-
-                <p>
-                    <strong>Ascorbic Acid:</strong>
-                </p>
-
-                <p>
-                    Ascorbic acid is a water-soluble vitamin essential for healthy immune system activity and can only be obtained from the
-                    diet due to lack of endogenous synthesis in humans. It is an important catalyst for extensive biochemical reactions and
-                    enzymatic processes, and further is a vital redox cofactor.<sup>3</sup> Pharmacokinetic data demonstrates that plasma ascorbic
-                    acid levels are tightly regulated, which significantly impacts on the bioavailability of orally administered vitamin C
-                    supplements.<sup>1</sup> Optimum bioavailability of ascorbic acid occurs between 200 – 500 mg per day and as the oral dosage
-                    increases, bioavailability decreases and excess ascorbic acid is excreted in urine. Plasma ascorbic acid levels plateau at a
-                    dose between 500 – 1000 mg and does not increase with increasing doses (see Figure 1).<sup>1</sup> Data demonstrates that
-                    circulating WBCs become saturated at an intake of 100 mg per day. Ascorbic acid bioavailability in plasma is near 100% at a
-                    single dose of 200 mg but at higher oral vitamin C doses, bioavailability declines significantly with a 1250 mg dose resulting
-                    in less than 50% bioavailability (see Figure 2).<sup>1</sup> As the oral dose of ascorbic acid increases so does its excretion
-                    in urine (see Figure 3). Elevated doses may have adverse consequences as a 1000 mg dose has been shown to elevate urine uric
-                    acid and oxalate levels.  High doses of ascorbic acid are not recommended, as there is no clear benefit of excess excreted
-                    or unabsorbed vitamin C.<sup>1</sup> Physiologically, ascorbic acid is required for the effective anti-microbial function of
-                    WBCs acting as a reducing agent. It is also a key compensatory factor in the regulation of plasma glutathione concentration.<sup>7</sup>
-                    The prophylactic use of ascorbic acid may reduce the incidence, duration and severity of the common cold. <sup>8,12</sup>
-                </p>
-                <br>
-                <p>
-                    <img alt="Figure 1-3" src="/img/products/manuka-c/manuka_figure1-3.png" class="img-responsive"><br>
-                </p>
-
-                <p>
-                    <strong>Glutathione:</strong>
-                </p>
-
-                <p>
-                    Glutathione is an intrinsic tripeptide essential for optimal immune function; this is exemplified predominantly in
-                    its capacity to facilitate cellular protection and repair as a vital cofactor in the redox process.<sup>2,6</sup>
-                    Glutathione is critical for the physiological role of ascorbic acid in white blood cell anti-microbial activity.
-                    When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form dehydroascorbic acid that is
-                    transported into the neutrophil and rapidly reduces back to ascorbic acid within the cell by the redox enzyme
-                    glutaredoxin that requires glutathione as a cofactor.<sup>13</sup> As a result of the recycling of ascorbic acid,
-                    the internal concentration of ascorbic acid within the WBC increases 10-fold in which it functions to quench oxidants
-                    generated during phagocytosis, a natural and controlled physiological process (see Figure 4).<sup>13</sup>
-                </p>
-
-                <p>
-                    <img alt="Figure 4" src="/img/products/manuka-c/manuka_figure4.png" width="400px;" class="img-responsive center-block"><br>
-                    <strong>Figure 4. Dehydroascorbic acid (DHA) and ascorbic acid (AA) transport and recycling in neutrophils.<sup>7</sup></strong>
-                    AA and DHA are transported differently into the cell. With activation (i.e. bacterial exposure), neutrophils secrete reactive
-                    oxygen species that oxidize extracellular AA to DHA that is then rapidly transported into the neutrophil via the glucose
-                    transporters, GLUT1 and GLUT3. Intracellular DHA is immediately reduced to AA via Glutaredoxin (GRX), a glutathione requiring redox enzyme.
-                    As a result of DHA transport and reduction, a 10-fold higher AA internal concentration is achieved compared to activity of the AA
-                    transporter alone. AA may quench oxidants generated during phagocytosis, a regulated physiological occurrence.
-                </p>
-                <p>
-                    GSH: reduced glutathione; GSSG: oxidized glutathione; GRD: glutathione reductase
-                </p>
-                <br>
-
-                <p>
-                    <strong>Zinc:</strong>
-                </p>
-
-                <p>
-                    Zinc is necessary for numerous metabolic functions, particularly gene expression; cell growth and differentiation.<sup>8</sup>
-                    It is a critical nutrient for immune function due to its role in supporting a range of immune reactions.<sup>14</sup> Zinc is
-                    a vital component of many proteins, over 300 enzymes; and is regarded as a key nutrient in the support of cellular mediators
-                    of innate immunity.<sup>14</sup> Zinc functions in the maturation of T cells and is also responsible for the activity of
-                    natural killer cells as well as waste management in WBC.<sup>15</sup> Zinc together with ascorbic acid is shown to produce
-                    additive effects in supporting immune function; and together have shown to be effective in reducing the severity
-                    and/or duration of the common cold.<sup>8</sup>
-                </p>
-
-                <p>
-                    <strong>Manuka Honey:</strong>
-                </p>
-
-                <p>
-                    Manuka honey has been used as a traditional anti-microbial therapy for the treatment of infection.<sup>11</sup> Honey has
-                    well documented anti-bacterial activity,<sup>9</sup> together with anti-viral and anti-fungal properties.<sup>16</sup>
-                    The anti-inflammatory effects of Manuka honey are effective in assisting the recovery from the common cold;<sup>17</sup>
-                    as well as treating symptoms of upper-respiratory tract infections.<sup>18</sup> Emerging evidence has illustrated that
-                    honey added to oral rehydration solution (ORS) improved recovery in children following episodes of diarrheal illness.<sup>10</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    Who will benefit:
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Those requiring immune support.</li>
-                        <li>Those seeking symptomatic relief from upper respiratory tract infections.</li>
-                        <li>Those requiring dietary vitamin C support.</li>
-                        <li>For healthy collagen production.</li>
+                        <li>Treatment of symptoms of mild infections of upper respiratory tract. [Warnings S and COLD required]</li>
+                        <li>For the symptomatic relief of recurrent upper respiratory tract infections. [Warnings S and COLD required]</li>
+                        <li>Relief of symptoms of mild upper respiratory infections. [Warnings S and COLD required]</li>
+                        <li>For the symptomatic relief of upper respiratory tract infections. [Warnings S and COLD required]</li>
+                        <li>May assist in the management of upper respiratory tract infections. [Warnings S and COLD required]</li>
                     </ul>
                 </p>
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
+                <p>
+                    <ul>
+                        <li>May assist in supporting and maintaining healthy immune function</li>
+                        <li>The combination of vitamin C and zinc supports healthy connective tissue function</li>
+                        <li>Vitamin C assists with normal iron metabolism</li>
+                        <li>Requirements for vitamin C may be increased during times of stress</li>
+                        <li>Zinc may assist in the healing of minor skin wounds</li>
+                        <li>Vitamin C is a vital cofactor for several enzymatic reactions in the body</li>
+                        <li>Vitamin C is required for the antimicrobial activity of white blood cells</li>
+                        <li>Dehydroascorbic acid is immediately reduced to ascorbic acid upon entering the cell which is mediated by two major pathways; chemical reduction by glutathione and enzymatic reduction using glutaredoxin, a glutathione-dependent enzyme.</li>
+                        <li>Glutathione is vital constituent of cells throughout the body, acting as a redox buffer and as a cofactor for signal transduction </li>
+                        <li>Honey has traditionally been used as a therapy to help heal wounds and conditions of the gut</li>
+                        <li>Honey is well documented to have anti-microbial, anti-viral and anti-fungal activity </li>
+                        <li>When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form dehydroascorbic acid, which is transported into the neutrophil and rapidly reduced to ascorbic acid by the protein glutaredoxin. As a result of this recycling of extracellular ascorbic acid, the neutrophil internal concentration of ascorbic acid increases 10-fold</li>
+                        <li>Ascorbic acid is transported into the cell by sodium-dependent vitamin C transporters SVCT1 and SVCT2, one or both of which are found in most tissues. Dehydroascorbic acid is transported by glucose transporters GLUT1 and GLUT3, and, in insulin-sensitive tissues, also by GLUT4. </li>
+                        <li>Neutrophils, monocytes and lymphocytes become saturated with vitamin C when dosed at 100 mg per day and demonstrate a concentration at least 14-fold higher than plasma vitamin C </li>
+                        <li>Bioavailability of vitamin C decreases with increasing dosage. Bioavailability is demonstrated to be complete at a dose of 200 mg daily whereas at higher doses at 1250 mg daily, bioavailability declines to less than 50% </li>
+                        <li>Vitamin C daily doses above 400 mg have no evident value as with increasing doses the bioavailability decreases and excess vitamin C is excreted in urine </li>
+                        <li>Plateau plasma vitamin C is close to maximum when dosed at 200 mg daily with plasma concentrations near saturation at 400 mg daily. Complete plasma saturation occurrs at 1000 mg daily but at the expense of decreased bioavailability increased urinary excretion </li>
+                        <li>At vitamin C doses of 1000 mg daily, urine uric acid and oxalate may become elevated </li>
+                        <li>At doses greater than 100 mg/day, plasma concentrations reach a plateau but at doses greater than 400 mg/day, further increases in plasma concentrations are minimal </li>
+                        <li>Tight control of plasma vitamin C levels are due to absorption (bioavailability), tissue transport, renal reabsorption and excretion and utilisation </li>
+                    </ul>
+                </p>
+                
+                               
 
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
                 <p>
                     <strong>WARNINGS</strong>
                 </p>
 
                 <p>
-                    Not to be used in children under 2 years of age without medical advice. Not suitable for infants under
-                    the age of twelve months. Adults only. Not recommended for use by pregnant and lactating women. Vitamin
-                    supplements should not replace a balanced diet. Contains sugars. Always read the label. Use only as directed.
+                    <li>(If medicine contains one sugar) contains [insert name of sugar] OR (If medicine contains two or more sugars) Contains sugars [or words to that effect].</li>
+                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
+                    <li>Not recommended for use by pregnant and lactating women (or words to that effect).</li>
+                    <li>Adults only (or words to that effect).</li>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
+                    <li>Not suitable for infants under the age of twelve months (or words to that effect).</li>
+                    <li>Adults only. OR Not to be used in children under two years of age without medical advice (or words to that effect). </li>
+
+
                 </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -3622,108 +3298,61 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    Probiotics are living organisms found in food and dietary supplements, which upon ingestion can
-                    improve the health of the host beyond their inherent basic nutritional content.<sup>9</sup>
-                </p>
-
-                <p>
-                    The gastrointestinal (GIT) mucosal surface is a complex and interactional environment, which is
-                    continuously exposed to a range of commensal microorganisms. The human-microbial gastrointestinal
-                    interface is an ecosystem that participates in a variety of important roles in human health and
-                    disease.<sup>10, 11</sup>
-                </p>
-
-                <p>
-                    The microbiome interacts with the human host’s GIT by providing the necessary prompts for the
-                    development of regulated pro- and anti-inflammatory signals, that overall promote immunological
-                    tolerance as well as metabolic and inflammatory homeostasis. This then, exerting regulatory control
-                    over local and extra-intestinal activities (e.g. skin, liver, brain).<sup>10, 11</sup>
-                </p>
-
-                <p>
-                    To ensure proper immune-digestive efficiency and overall intestinal function, a balance in the
-                    overall composition of the gut microbiota would seem to be a necessary prerequisite throughout a
-                    lifetime.  The continued understanding of this functionality presents a view of the GIT that is
-                    wide ranging in health importance and with implications in a variety of health issues from
-                    immunological tolerance, obesity and metabolic disorders.<sup>11, 12</sup>
-                </p>
-
-                <p>
-                    The number of bacterial cells in the body exceed human cells by a factor of 10 to 1, with the
-                    largest concentration being in the GIT.<sup>12</sup> Hence, it would not be unexpected that such a
-                    concentration of microorganisms in the GIT may have strong correlations with colonic
-                    conditions such as Inflammatory Bowel Diseases (IBDs), constipation, obesity, chronic diseases
-                    of metabolism (e.g., Type II Diabetes Mellitus) and some cancers.
-                </p>
-
-                <p>
-                    Recent research has focused on elucidating the inter-relationships that may exist between
-                    the GIT microbiome and its host in health and disease.<sup>9,13</sup> It is reported that the GIT
-                    microbiome is being continuously compromised with factors such as over consumption of
-                    dietary fat, <sup>10, 11</sup> gut-stressing physical exercise,<sup>12</sup> increasing urbanisation <sup>14</sup> and
-                    medical therapies.<sup>15</sup>
-                </p>
-
-                <p>
-                    Recent studies for example, have shown that a short course of antibiotics can be the source of
-                    long-term changes in the gut microbiome.<sup>16</sup> This suggests that antibiotic administration in early
-                    life could permanently and adversely alter the gut microbiome. This in conjunction with continued
-                    exacerbations of the gut commensal microbiome driven by adverse lifestyle choices may predispose
-                    to the development of chronic diseases.<sup>12</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    MultiBiotic&trade; may help to promote optimal gastrointestinal care and immune function.
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Help maintain a healthy gastrointestinal microbial profile.<sup>1</sup></li>
-                        <li>Promote general well being and a healthy immune system.<sup>2,3</sup></li>
-                        <li>Relieve gastrointestinal discomfort.<sup>1</sup></li>
-                        <li>Assist in managing symptoms of medically diagnosed Irritable Bowel Syndrome.<sup>4,5</sup></li>
-                        <li>Provide symptomatic relief of altered bowel habits.<sup>5</sup></li>
-                        <li>Help relieve symptoms of mild upper respiratory tract infections.<sup>6</sup></li>
-                        <li>Support healthy cholesterol levels in healthy individuals.<sup>7</sup></li>
-                        <li>Support and maintain healthy skin.<sup>8</sup></li>
+                        <li>Relief of symptoms of mild upper respiratory infections. [Warnings S and COLD required]  </li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Helps maintain healthy digestive function. </li>
+                        <li>May assist in the management of medically diagnosed irritable bowel syndrome</li>
+                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>Aids digestion.</li>
+                        <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
+                        
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Specific Use:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>To support healthy immune function;</li>
-                        <li>For symptoms of medically diagnosed Irritable Bowel Syndrome;</li>
-                        <li>To restore gastrointestinal microbial balance after certain medication use; and;</li>
-                        <li>For relief of gastrointestinal discomfort.</li>
+                        <li>Relieves gastrointestinal discomfort</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile</li>
+                        <li>Supports a healthy immune system</li>
+                        <li>Helps to maintain healthy skin</li>
+                        <li>Supports skin health</li>
+                        <li>Saccharomyces boulardii may relieve the severity and duration of diarrhoea due to various triggers in children and adults</li>    
                     </ul>
+                </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
                 </p>
 
                 <p>
-                    <strong>Potential Claims:</strong>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>Help maintain healthy digestive function.</li>
-                        <li>Relieve gastrointestinal discomfort.</li>
-                        <li>For the maintenance of a healthy gastrointestinal microbial profile.</li>
-                        <li>Assist in managing symptoms of medically diagnosed irritable bowel syndrome.</li>
-                        <li>Provide symptomatic relief of constipation and diarrhoea.</li>
-                        <li>Relieve the symptoms of mild upper respiratory tract infections.</li>
-                        <li>Support healthy cholesterol levels.</li>
-                        <li>Support and maintain healthy skin.</li>
-                        <li>Promote general well being.</li>
-                    </ul>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).</li>
+                    <li>Adults only. OR Not to be used in children under two years of age without medical advice (or words to that effect). </li>
+
+
                 </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -3979,108 +3608,61 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    Probiotics are living organisms found in food and dietary supplements, which upon ingestion can
-                    improve the health of the host beyond their inherent basic nutritional content.<sup>9</sup>
-                </p>
-
-                <p>
-                    The gastrointestinal (GIT) mucosal surface is a complex and interactional environment, which is
-                    continuously exposed to a range of commensal microorganisms. The human-microbial gastrointestinal
-                    interface is an ecosystem that participates in a variety of important roles in human health and
-                    disease.<sup>10, 11</sup>
-                </p>
-
-                <p>
-                    The microbiome interacts with the human host’s GIT by providing the necessary prompts for the
-                    development of regulated pro- and anti-inflammatory signals, that overall promote immunological
-                    tolerance as well as metabolic and inflammatory homeostasis. This then, exerting regulatory control
-                    over local and extra-intestinal activities (e.g. skin, liver, brain).<sup>10, 11</sup>
-                </p>
-
-                <p>
-                    To ensure proper immune-digestive efficiency and overall intestinal function, a balance in the
-                    overall composition of the gut microbiota would seem to be a necessary prerequisite throughout a
-                    lifetime.  The continued understanding of this functionality presents a view of the GIT that is
-                    wide ranging in health importance and with implications in a variety of health issues from
-                    immunological tolerance, obesity and metabolic disorders.<sup>11, 12</sup>
-                </p>
-
-                <p>
-                    The number of bacterial cells in the body exceed human cells by a factor of 10 to 1, with the
-                    largest concentration being in the GIT.<sup>12</sup> Hence, it would not be unexpected that such a
-                    concentration of microorganisms in the GIT may have strong correlations with colonic
-                    conditions such as Inflammatory Bowel Diseases (IBDs), constipation, obesity, chronic diseases
-                    of metabolism (e.g., Type II Diabetes Mellitus) and some cancers.
-                </p>
-
-                <p>
-                    Recent research has focused on elucidating the inter-relationships that may exist between
-                    the GIT microbiome and its host in health and disease.<sup>9,13</sup> It is reported that the GIT
-                    microbiome is being continuously compromised with factors such as over consumption of
-                    dietary fat, <sup>10, 11</sup> gut-stressing physical exercise,<sup>12</sup> increasing urbanisation <sup>14</sup> and
-                    medical therapies.<sup>15</sup>
-                </p>
-
-                <p>
-                    Recent studies for example, have shown that a short course of antibiotics can be the source of
-                    long-term changes in the gut microbiome.<sup>16</sup> This suggests that antibiotic administration in early
-                    life could permanently and adversely alter the gut microbiome. This in conjunction with continued
-                    exacerbations of the gut commensal microbiome driven by adverse lifestyle choices may predispose
-                    to the development of chronic diseases.<sup>12</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    MultiBiotic&trade; may help to promote optimal gastrointestinal care and immune function.
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Help maintain a healthy gastrointestinal microbial profile.<sup>1</sup></li>
-                        <li>Promote general well being and a healthy immune system.<sup>2,3</sup></li>
-                        <li>Relieve gastrointestinal discomfort.<sup>1</sup></li>
-                        <li>Assist in managing symptoms of medically diagnosed Irritable Bowel Syndrome.<sup>4,5</sup></li>
-                        <li>Provide symptomatic relief of altered bowel habits.<sup>5</sup></li>
-                        <li>Help relieve symptoms of mild upper respiratory tract infections.<sup>6</sup></li>
-                        <li>Support healthy cholesterol levels in healthy individuals.<sup>7</sup></li>
-                        <li>Support and maintain healthy skin.<sup>8</sup></li>
+                        <li>Relief of symptoms of mild upper respiratory infections. [Warnings S and COLD required]  </li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Helps maintain healthy digestive function. </li>
+                        <li>May assist in the management of medically diagnosed irritable bowel syndrome</li>
+                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>Aids digestion.</li>
+                        <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
+                        
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Specific Use:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>To support healthy immune function;</li>
-                        <li>For symptoms of medically diagnosed Irritable Bowel Syndrome;</li>
-                        <li>To restore gastrointestinal microbial balance after certain medication use; and;</li>
-                        <li>For relief of gastrointestinal discomfort.</li>
+                        <li>Relieves gastrointestinal discomfort</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile</li>
+                        <li>Supports a healthy immune system</li>
+                        <li>Helps to maintain healthy skin</li>
+                        <li>Supports skin health</li>
+                        <li>Saccharomyces boulardii may relieve the severity and duration of diarrhoea due to various triggers in children and adults</li>    
                     </ul>
+                </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
                 </p>
 
                 <p>
-                    <strong>Potential Claims:</strong>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>Help maintain healthy digestive function.</li>
-                        <li>Relieve gastrointestinal discomfort.</li>
-                        <li>For the maintenance of a healthy gastrointestinal microbial profile.</li>
-                        <li>Assist in managing symptoms of medically diagnosed irritable bowel syndrome.</li>
-                        <li>Provide symptomatic relief of constipation and diarrhoea.</li>
-                        <li>Relieve the symptoms of mild upper respiratory tract infections.</li>
-                        <li>Support healthy cholesterol levels.</li>
-                        <li>Support and maintain healthy skin.</li>
-                        <li>Promote general well being.</li>
-                    </ul>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).</li>
+                    <li>Adults only. OR Not to be used in children under two years of age without medical advice (or words to that effect). </li>
+
+
                 </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -4338,92 +3920,64 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    Vitamin B12 is one of the most complex vitamins in regards to its absorption and transport within the
-                    body and depends critically on a very tightly regulated transport system. Vitamin B12 is continually
-                    partnered with binding proteins throughout the digestive tract and blood stream and then requires a binder
-                    specific cellular receptor for intracellular transport. Intrinsic factor (IF), which is released from the
-                    stomach and is required to mediate transport of B12 into enterocytes in the ileum, is saturable, the
-                    rate at which varies inversely with the amount of B12 ingested. The IF-mediated transport rarely allows
-                    more than 1 to 2 &micro;g of B12 to be absorbed at any one time, therefore high doses quickly exceed the absorptive
-                    capacity of the body, with unabsorbed B12 being excreted in the faeces. Nonspecific and linear non-saturable
-                    diffusion does occur, in which a receptor is not required, however this fraction is extremely small and
-                    estimated to be approximately 1%.<sup>1</sup>
-                </p>
-
-                <p>
-                    <strong>NanoCelle&trade; Delivery of Vitamin B12</strong>
-                </p>
-
-                <p>
-                    A novel way to bypass the limited absorptive capacity of vitamin B12 in the gastrointestinal tract (GIT) is to
-                    utilize the rich blood supply of the buccal mucosa. The buccal mucosa is non-keratinized and is therefore more permeable
-                    to water-soluble particles than keratinized epithelium such as the hard palate. The buccal mucosa is 40-50 cell layers
-                    thick, and compared to intestinal cells, may also have less tight junctions but a higher level of lipid intercellular matrix.<sup>1</sup>
-                    Once the NanoCelle&trade; molecule diffuses through the mucus layer and aqueous boundary layer on the surface of the epithelium,
-                    it may then transverse across the epithelium via passive diffusion (See Figure 1).<sup>2</sup> There are no B12 receptors on
-                    oral epithelium cells i.e. such as the cubam receptor on ileum enterocytes that facilitate the entry of IF-bound cobalamin
-                    into the enterocytes for transport into the blood stream.
-                </p>
-
-                <p>
-                    <img class="img-responsive" alt="Oro-Buccal Nutrient Delievery" src="/img/products/nanocelle_activated_b12/act_b12_figure1.png"><br>
-                    <strong>Figure 1. Formation of drug/nutrient-loaded micelle.<sup>2</sup></strong>
-                </p>
-
-                <p>
-                    <strong>Function of Methylcobalamin</strong>
-                </p>
-
-                <p>
-                    Vitamin B12 (Cobalamin &ndash; Cbl) exists in two active forms, methylcobalamin (MeCbl) and adenosylcobalamin (AdoCbl)
-                    that participate in specific physiological processes in the cell. MeCbl is a cofactor for the cytosolic
-                    methionine synthase enzyme and AdoCbl is the cofactor for the mitochondrial methylmalonyl-CoA mutase.
-                    In the cytosol, MeCbl is involved in transferring its methyl group to homocysteine to form methionine,
-                    which is part of the S-adenosyl methionine cycle. Elevated serum homocysteine levels are associated with
-                    increased risk of heart attack, stroke, blood clots and cognitive impairment.<sup>4, 5</sup> AdoCbl is
-                    a key component of the tricarboxylic acid (TCA) pathway of carbohydrate metabolism, catalyzing the isomerization
-                    of methylmalonyl-CoA to succinyl-CoA resulting in ATP generation in cells (see Figure 2).<sup>6, 7</sup>
-                    Methionine is required for the synthesis of myelin, therefore MeCbl is required for healthy nerve function.
-                    Further, while AdoCbl and CNCbl can increase DNA-methylation by methyltransferase, MeCbl is the most efficient
-                    compound.<sup>6</sup>
-                </p>
-
-                <p>
-                    <img class="img-responsive" alt="Methylcobalamin Cylcles" src="/img/products/nanocelle_activated_b12/act_b12_figure2.jpg"><br>
-                    <strong>Figure 2. Methylcobalamin acts in the cytoplasm where it is involved in the Methionine cycle and
-                    Adenosylcobalamin in the mitochondria where it is involved in the Krebs cycle.<sup>7</sup></strong>
-
-                </p>
-
-                <p>
-                    Both hydroxy- (HOCbl) and cyanocobalamin (CNCbl) are able to convert to both the methyl- and adenosylcobalamin forms.
-                    It has been shown that this conversion can occur just after supplementation in the blood stream. There are some rare
-                    genetic conditions in which cyanocobalamin cannot be converted to the active forms.<sup>6, 7</sup> Both hydroxy-
-                    (HOCbl) and cyanocobalamin (CNCbl) are able to convert to both the methyl- and adenosylcobalamin forms.
-                    It has been shown that this conversion can occur just after supplementation in the blood stream.
-                    There are some rare genetic conditions in which cyanocobalamin cannot be converted to the active forms.<sup>6, 7</sup>
-                    All forms of Cbl appear to be absorbed and efficient in treating vitamin B12 deficiency.
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    Who will benefit:
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Those needing to target their homocysteine levels.</li>
-                        <li>Those with dietary vitamin B12 deficiency.</li>
-                        <li>Vegans, vegetarians and the elderly.</li>
-                        <li>Those taking certain medications such as proton pump inhibitors and metformin.</li>
-                        <li>Those with achlorhydria, gastritis and those who have undergone gastrectomy.</li>
-                        <li>Those who cannot convert cobalamin to methylcobalamin.</li>
+                    <li>Helps maintain normal blood/blood tonic (Note: These claims are appropriate for folic acid, vitamin B12 and iron, but must not imply anaemic conditions) </li>
+                    <li>Source of vitamin B12. Can assist in maintaining normal blood. Blood tonic.</li>
+                    <li>Source of vitamin B12. Can assist in maintaining normal blood.</li>
+                    <li>May assist in the management of dietary vitamin B12 deficiency. </li>
+
+                        
                     </ul>
                 </p>
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
+                <p>
+                    <ul>
+                        <li>The NanoCelle delivery platform produces a nanoparticle-sized molecule that enhances nutrient absorption and bioavailability.</li>
+                        <li>The vitamin B12 nanoparticles have an average size between 100 nm to 300 nm (0.1-0.3 microns)</li>
+                        <li>Vitamin B12 is a cofactor involved in the methylation cycle that involves protein and DNA methylation and synthesis of nucleotides (purines and pyrimidines)</li>
+                        <li>Vitamin B12 is essential for DNA synthesis. </li>
+                        <li>Methionine is required for the synthesis of myelin and therefore vitamin B12 is required for healthy myelin production and nerve impulses.</li>
+                        <li>Vitamin B12 is required for red blood cell production (erythropoiesis) and other haematological cells.</li>
+                        <li>Vitamin B12 is a mitochondrial enzyme cofactor involved in the synthesis of succinyl-CoA from amino acids and fatty acids which then enters the tricarboxylic acid (TCA) cycle for energy (ATP) production in cells.</li>
+                        <li>Vitamin B12 is an essential cofactor for the conversion of homocysteine to methionine.</li>
+                        <li>Vitamin B12 may assist in lowering plasma homocysteine levels.</li>
+                        <li>Vitamin B12 supports healthy neurological function.</li>
+                        <li>Suitable for population groups at increased risk of vitamin B12 deficiency, including strict vegetarians and vegans, due to dietary vitamin B12 being obtained from foods of animal origin including meat, fish, dairy and eggs.</li>
+                        <li>Suitable for population groups at increased risk of vitamin B12 deficiency including the elderly who are reported to have lower serum concentrations of vitamin B12 than their younger counter parts. Low stomach acid secretion reported in the elderly results in decreased bioavailability of vitamin B12 from food.</li>
+                        <li>Methylcobalamin is a biologically active form of vitamin B12. </li>    
+                    </ul>
+                </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <li>(If the medicine contains one sorbate) Contains [insert name of sorbate] OR (if medicine contains two or more sorbates) Contains sorbates [or words to that effect].</li>
+                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
+
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -4589,113 +4143,53 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    Oral cyanocobalamin supplementation exists in the free unbound state and is absorbed across the
-                    gastrointestinal mucosa by passive diffusion, but only to the extent of approximately 1% over a
-                    dosage range of 100 μg to 5 mg. Dietary B12 however, is protein bound and requires pepsin and
-                    stomach acid for its release and subsequent binding to intrinsic factor for absorption across the
-                    enterocytes.<sup>1</sup> Nanotechnology offers a form of oral drug delivery that enhances the absorptive
-                    process and allows the release of the chosen drug/nutrient in a controlled manner. The
-                    micellization of drugs and nutrients produces nano-sized particles consisting of an inner
-                    hydrophobic core (drug/nutrient combined with lipid carrier or is itself fat-soluble) with a
-                    hydrophilic outer shell (various surfactants) that interacts with the mucosal cells (Figure 1).
-                    NanoCelle&trade; B12 consists of cyanocobalamin combined with d-alpha tocopherol (vitamin E) to form
-                    the hydrophobic core coated with hydrophilic compounds obtaining a particle size approximately
-                    50 - 200 nm (0.05 – 0.2 micron) that is soluble in aqueous solution. The uptake of the micelle
-                    particles across the mucosal membrane and the extent of drug/nutrient absorption increases with
-                    decreasing particle size.<sup>2,3</sup>
-                </p>
-
-                <p>
-                    <img class="img-responsive" alt="Figure 1" src="/img/products/b12/B12figure1.png"><br>
-                    <strong>Figure 1. Formation of drug/nutrient-loaded micelle.<sup>2</sup></strong>
-                </p>
-
-                <p>
-                    <strong>NanoCelle&trade; B12: Hydrophobic polymer = d-alpha tocopherol; drug molecule = cyanocobalamin</strong>
-                </p>
-
-                <p>
-                    Vitamin B12 (Cobalamin) is an organometallic compound that contains cobalt in its chemical
-                    structure. Cyanocobalamin and hydroxycobalamin are relatively inert forms of B12 and must be
-                    metabolised to the biologically active forms as methylcobalamin and adenosylcobalamin within the
-                    cell cytosol and mitochondria respectively, which function as coenzymes for numerous biological
-                    pathways.<sup>4,5,6</sup> It is the R-group attached to the cobalt element that chemically differentiates the
-                    various forms of B12.<sup>4</sup>
-                </p>
-
-                <p>
-                    Cobalamin is involved in one-carbon transfer pathways in the form of methylcobalamin, which
-                    transfers methyl groups to homocysteine, converting it to methionine and is catalyzed by the
-                    methionine synthase enzyme (Figure 2). In addition to lowering serum homocysteine levels, the
-                    methionine produced is essential for protein synthesis and the synthesis of myelin that forms the
-                    insulating myelin sheath surrounding the axons of neurons. Myelin, and therefore B12, is essential
-                    for nerve transmission and proper functioning of the nervous system.<sup>4</sup> A deficiency of B12 may lead
-                    to the inhibition of methionine synthase activity causing methyltetrahhydrofolate (CH3-THF) to
-                    accumulate resulting in state of functional folate deficiency.<sup>6</sup>
-                </p>
-
-                <p>
-                    <img class="img-responsive" alt="Figure 2" src="/img/products/b12/B12figure2.png"><br>
-                    <strong>Figure 2. Cobalamin as a methyl carrier.<sup>6</sup></strong>
-                </p>
-
-                <p>
-                    <strong>SAM – S-adenyslmethionine; CH3-THF – methyltetrahydrofolate; THF- tetrahydrofolate</strong>
-                </p>
-
-                <p>
-                    Theactivation of folate by B12 is essential for DNA synthesis which is impacted by B12 deficiency.<sup>4</sup>
-                    Adenosylcobalamin is essential for the synthesis of succinyl-CoA within the mitochondria from amino
-                    acids and fatty acids, which then enters the tricarboxylic acid (TCA) cycle for energy (ATP)
-                    production in cells.<sup>6</sup>
-                </p>
-
-                <p>
-                    B12 is synthesized solely by bacteria or microorganisms, with gastrointestinal commensals such as
-                    Lactobacillus, Streptococcus and Bacteroides species known to produce and release B12 within the
-                    gut lumen, however not in sufficient amounts to maintain adequate serum levels.<sup>4</sup> Dietary B12
-                    deficiency is prevalent in both developing and Western countries, particularly the elderly,
-                    vegetarians, vegans and people with malabsorption issues causing functional deficiency (i.e.
-                    low stomach acid, inadequate synthesis of intrinsic factor, coeliac disease and inflammatory
-                    bowel disease).
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    NanoCelle&trade; B12 is a nano-particle formulation that may:
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Assist in the management of dietary vitamin B12 deficiency.<sup>1, 2</sup></li>
-                        <li>Enhance bioavailability through the nano-technology process.</li>
-                        <li>Aid in the synthesis of DNA.<sup>3</sup></li>
-                        <li>Support the methylation cycle and balance homocysteine levels.<sup>4, 6</sup></li>
-                        <li>Assist in the conversion of homocysteine to methionine.<sup>4, 5</sup></li>
-                        <li>Support healthy nerve function through the synthesis of myelin.<sup>3</sup></li>
-                        <li>Promote the mitochondrial energy production cycle.<sup>4, 6</sup></li>
-                        <li>Support the production of healthy red blo</li>
+                    <li>May assist in the management of dietary vitamin B12 deficiency.</li>
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Specific Use:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Healthy myelin and nerve function.<sup>3</sup></li>
-                        <li>An essential cofactor required for the methylation of homocysteine to methionine.<sup>4,5</sup></li>
-                        <li>
-                            Vitamin B12 is a cofactor involved the methylation cycle that involves protein and DNA
-                            methylation and synthesis of nucleotides (purines and pyrimidine’s).<sup>7</sup>
-                        </li>
+                        <li>The micellization process produces nanoparticle-sized molecules that enhances nutrient bioavailability</li>
+                        <li>Vitamin B12 is a cofactor involved in the methylation cycle that involves protein and DNA methylation and synthesis of nucleotides (purines and pyrimidines)</li>
+                        <li>Vitamin B12 is essential for DNA synthesis</li>
+                        <li>Vitamin B12 is an essential cofactor for the conversion of homocysteine to methionine</li>
+                        <li>Methionine is required for the synthesis of myelin and therefore vitamin B12 is required for healthy myelin production and nerve impulses.</li>
+                        <li>Vitamin B12 is required for red blood cell production (erythropoiesis) and other haematological cells.</li>
+                        <li>Vitamin B12 is a mitochondrial enzyme cofactor involved in the synthesis of succinyl-CoA from amino acids and fatty acids which then enters the tricarboxylic acid (TCA) cycle for energy (ATP) production in cells.</li>
                     </ul>
                 </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
+                    <li>(If the medicine contains one sorbate) Contains [insert name of sorbate] OR (if medicine contains two or more sorbates) Contains sorbates [or words to that effect].</li>
+
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -4873,126 +4367,55 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    In addition to its well-known classical effects in calcium/phosphate homeostasis, vitamin D is a
-                    potent regulator of many other vital physiological functions in the body beyond that of bone
-                    health such as immune regulation.<sup>1</sup> Vitamin D3 (cholecalciferol) is naturally synthesised in the
-                    skin and may contribute to 80-90% of the vitamin D supply within the body but this is ultimately
-                    dependent on factors such as sun exposure, geographic latitude, season, clothing habits,
-                    sunscreen use and skin complexion. Dietary sources of vitamin D3 are limited but include fatty
-                    fish, fish liver oil, beef liver, egg yolk and milk.<sup>1,2</sup> Cholecalciferol is biologically inert and
-                    must undergo two hydroxylation reactions, first within the liver to produce 25-hydroxyvitamin
-                    D [25(OH)D] also known as calcidiol, and then in the kidney to produce the active hormonal
-                    metabolite 1,25-dihydroxyvitamin D [1,25(OH)2D] also know as calcitriol.<sup>3,4</sup> Further,
-                    25(OH)D can be converted to 1,25(OH)2D in at least 10 extra-renal tissues including
-                    immune cells (macrophages, dendritic cells and B-lymphocytes) and also vascular smooth muscle
-                    cells and colonocytes.<sup>1</sup>
-                </p>
-
-                <p>
-                    As a lipid-soluble compound, orally ingested cholecalciferol (D3) is naturally emulsified into
-                    lipid droplets and combined with bile salts, phospholipids and cholesterol to form micelles that
-                    enable absorption across in the intestinal mucosa. A fraction of D3 enters enterocytes via passive
-                    diffusion when delivered at pharmacological doses, but the main intracellular transport of D3
-                    into the enterocyte is via binding the micelle to apical membrane transporters. Intestinal
-                    absorption of vitamin D3 varies between 55-99% (mean 78%) in healthy individuals<sup>2</sup> but is
-                    decreased in individuals with conditions of malabsorption such as cystic fibrosis, inflammatory
-                    bowel disease, coeliac disease, biliary obstruction, pancreatic dysfunction and intestinal
-                    resection.<sup>5,6</sup> Furthermore, disruption in the conversion of vitamin D metabolites to the active
-                    hormone will also impact vitamin D status within the body such as in chronic kidney disease.<sup>7</sup>
-                </p>
-
-                <p>
-                    The micellization process of drugs and nutrients prior to ingestion produces nano-sized particles
-                    consisting of an inner hydrophobic core (drug/nutrient combined with lipid carrier or is itself
-                    lipid-soluble) with a hydrophilic outer shell (various surfactants) creating a water-soluble
-                    solution that interacts with the mucosal cells. Figure 1 demonstrates an example of micellizing
-                    the fat-soluble compound, beta-carotene.
-                </p>
-
-                <p>
-                    <img class="img-responsive" alt="Figure 1" src="/img/products/d3/D3figure1.png"><br>
-                    <strong>
-                        Figure 1. (a) Micellized beta-carotene (a fat-soluble carotene) is completely soluble in water;
-                        (b) non-micellized beta-carotene is not water soluble and sits on the water surface.
-                    </strong>
-                </p>
-
-                <p>
-                    NanoCelle&trade; D3 consists of cholecalciferol forming the hydrophobic core coated with
-                    hydrophilic compounds to obtain a particle size approximately 50 - 200 nm (0.05 – 0.2 micron)
-                    that is soluble in aqueous solution (Figure 2). The uptake of the micelle particles across the
-                    mucosal membrane and the extent of drug/nutrient absorption increases with decreasing particle
-                    size.<sup>8,9</sup> Drug delivery via the oral mucosa by-passes the gastrointestinal tract
-                    and any conditions that may influence or inhibit its absorption across the intestinal mucosa.
-                </p>
-
-                <p>
-                    <img class="img-responsive" alt="Figure 2" src="/img/products/d3/D3figure2.png"><br>
-                    <strong>Figure 2. Formation of drug/nutrient-loaded micelle.<sup>7</sup></strong>
-                </p>
-
-                <p>
-                    <strong>NanoCelle&trade; D3: Hydrophobic polymer/drug molecule = cholecalciferol</strong>
-                </p>
-
-                <p>
-                    The secosteroid hormone 1,25(OH)2D is the biologically active form of vitamin D3 and initiates
-                    physiological responses of more than 36 cell types that possess the vitamin D receptor (VDR)
-                    on their cell membrane or in the cytosol, by regulating gene transcription and activating signal
-                    transduction pathways similar to other steroid hormones.Cholecalciferol itself does not bind to
-                    the VDR. It is estimated that the VDR can regulate the expression of 3% of the human
-                    genome.<sup>10</sup> It is well established that 1,25(OH)2D plays a vital role in adaptive
-                    and innate immune regulation from inducing the differentiation of monocytes into macrophages;
-                    increasing macrophage activity and cytotoxic activity; inducing the synthesis of the antibacterial
-                    proteins cathelicidin and beta-defensin; inducing IFN-gamma-mediated antimicrobial activity and
-                    regulating Th1, Th2, Treg and Th17 responses (Figure 3).<sup>11</sup>
-                </p>
-
-                <p>
-                    <img class="img-responsive" alt="Figure 3" src="/img/products/d3/D3figure3.png"><br>
-                    <strong>Figure 3. Vitamin D and innate and adaptive immune function.<sup>11</sup></strong>
-                </p>
-
-                <p>
-                    <strong>CYP27b1: 25-hydroxyvitamin D-1 alpha hydroxylase (converts 25(OH)D to 1,25(OH)2D); VDR: vitamin D receptor</strong>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    NanoCelle&trade; D3 is a nano-particle formulation that may:
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Assist in the management of medically confirmed vitamin D deficiency.<sup>1, 2</sup></li>
-                        <li>Enhance bioavailability through the nano-technology process.</li>
-                        <li>Aid in dietary calcium absorption and metabolism.<sup>3</sup></li>
-                        <li>Support proper cellular and immunological function.<sup>4</sup></li>
-                        <li>Increase serum vitamin D levels and bone mass density in vitamin D deficient individuals.<sup>5</sup></li>
-                        <li>Activate the transcription and transrepression of genes.<sup>6,7</sup></li>
-                        <li>Activate the synthesis of the antimicrobial peptides cathelicidin and beta-defensin synthesis from immune cells.<sup>7</sup></li>
-                        <li>Support proper innate and adaptive immune system function.<sup>7,8</sup></li>
-                        <li>Help to promote a healthy respiratory function.<sup>9</sup></li>
-                        <li>Reduce inflammatory responses and conditions within the body.<sup>4</sup></li>
-                        <li>Assist in healthy musculoskeletal health.<sup>5</sup></li>
+                    <li>Vitamin D helps calcium absorption (or words of like intent) and a diet deficient in calcium can lead to osteoporosis in later life.</li>
+                    <li>Prevention/treatment of vitamin [XX] and/or mineral [YY] and/or nutritional deficiencies (This indication is not be to used for the treatment of iron deficiency conditions).</li>
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Specific Use:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Vitamin D3 is essential proper cellular and immune (innate and adaptive) regulation via activation of the VDR.</li>
-                        <li>Supplementation may be required by individuals with malabsorption conditions.</li>
-                        <li>Vitamin D3 is essential for maintenance of bone mineralisation through the regulation of calcium and phosphorus homeostasis.</li>
+                        <li>Vitamin D3 is required for proper cellular and immunological function.</li>
+                        <li>Vitamin D3 supplementation increases serum vitamin D levels and bone mineral density (BMD) in vitamin D deficient individuals.</li>
+                        <li>Vitamin D3 binds to and activates the vitamin D receptor (VDR) that is responsible for the transcription and transrepression of genes.</li>
+                        <li>The VDR is a nuclear receptor found in immune and other cell types and is a control system for the innate immune system.</li>
+                        <li>Vitamin D3 may help to promote healthy respiratory function.</li>
+                        <li>Vitamin D3 is involved in the attenuation of inflammatory responses and conditions within the body.</li>
+                        <li>The micellization process produces nano-sized particles that enhances nutrient bioavailability.</li>
+                        <li>Vitamin D3 is associated with proper musculoskeletal health (bone and muscle fibres)</li>
                     </ul>
                 </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
+                    <li>(If the medicine contains one sorbate) Contains [insert name of sorbate] OR (if medicine contains two or more sorbates) Contains sorbates [or words to that effect].</li>
+
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -5019,7 +4442,7 @@ class ModifyProduct extends Command
                 'interactions' =>
                     '
                 <p>
-                    Some medicines may interfere with NanoCelle&trade; D3. These include:
+                    We advise NanoCelle™ D3 should not be given to patients currently taking:
                 </p>
 
                 <p>
@@ -5556,107 +4979,67 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    All tissues have a requisite for uridine. Uridine is an important nucleoside precursor in the
-                    pyrimidine salvage pathway.<sup>8,9,10</sup> Except for erythrocytes and the liver and kidney, which maintain
-                    de novo pyrimidine biosynthesis and supply other tissues with uridine for salvage, most normal
-                    tissues in adults rely on the salvage of uridine from plasma.<sup>9</sup>
-                </p>
-                <p>
-                    Uridine also participates in the regulation of several physiological and pathological
-                    processes.<sup>11</sup> In the absence of sugar, uridine can serve as an essential precursor for both
-                    carbohydrate metabolism and nucleic acid synthesis. Besides the direct salvage to pyrimidine
-                    nucleotides, the ribose moiety produced by the phosphorolysis of uridine can either enter the
-                    pentose cycle to meet cellular energy requirements or form phosphoribosyl pyrophosphate, which
-                    is used in the biosynthesis of purine nucleotides.11 In the nervous system, uridine acts as a
-                    physiological regulator of sleep function and demonstrates the ability to maintain brain metabolism
-                    during ischemia and severe hypoglycemia.
-                </p>
-                <p>
-                    Coenzyme Q10 (CoQ10) is a compound that is naturally found intracellularly and bound to organelle
-                    membranes such as for example the mitochondria, endoplasmic reticulum, and golgi apparatus.
-                    CoQ10 is found with the highest concentrations in tissues such as the heart, liver, kidneys, and
-                    pancreas. This compound is intricate to the production of adenosine triphosphate (ATP).
-                    ATP is essential to all bodily functions, including the generation of energy and a multitude of
-                    metabolic functions.<sup>12,13,14</sup>
-                </p>
-                <p>
-                    Over the past several decades, research has seen a refocus towards thinking and efforts directed
-                    in elucidating the critical inter–relationships that exist between the GIT microbiome and its host.
-                    This research has redefined the interactions between gut microbes and vertebrates, now recognising
-                    that the microbial active cohort and its mammalian host have shared co–evolutionary metabolic
-                    interactions that span millennia. Microbial interactions in the GIT provide the necessary cues for
-                    the development of regulated pro– and anti–inflammatory signals that promotes immunological
-                    tolerance, metabolic regulation and other factors which may then control local and extra–intestinal
-                    inflammation.<sup>15</sup> Furthermore, it is also becoming apparent that the GIT with its commensal cohort is
-                    a central regulator for the activities of end organs such as the kidneys, brain, adipose tissue,
-                    muscle and liver and as such may provide local prompts that are transmitted extra–intestinally to
-                    end organ sites.  A scientific insight therefore has emerged that plausibly links the GIT with the
-                    physiology of end organ function that may influence health maintenance or trigger and support a
-                    disease state. Maintaining a healthy GIT milieu and epithelium with the administration of
-                    probiotics may constitute a novel therapeutic strategy for health.
-                </p>
-                <p>
-                    Probiotics are those live bacterial cultures that are added to foods (e.g., yoghurts) and employed
-                    as dietary supplements, that when orally administered can improve the health of the host beyond
-                    their fundamental basic nutritional content.<sup>16</sup> Probiotic bacteria encompass those from different
-                    genera (as for example Lactobacilli, Bifidobacterium, Escherichia, Saccharomyces
-                    (a yeast), Streptococcus) giving rise to a variety of different species of each genera
-                    (i.e., Lactobacillus acidophilus; Lactobacillus bulgaricus, Lactobacillus rhamnosus); that lead to
-                    different strains within a species (i.e., Lactobacillus acidophilus La–1, Lactobacillus acidophilus
-                    NCFM). This taxonomic differentiation, importantly emphasizing that different strains from the same
-                    bacterial species can be different and may elaborate different physiological functions within the
-                    GIT<sup>17</sup> whilst exhibiting overlapping or specific therapeutic actions to different organ systems.<sup>18</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    NRGBiotic&trade; may improve mitochondrial function and intracellular energy production.
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Support intracellular energy production<sup>1</sup></li>
-                        <li>Help to assist in muscle cell recovery after exercise<sup>2</sup></li>
-                        <li>Assist with muscle action deficits due to low levels of Coenzyme Q10<sup>3</sup></li>
-                        <li>Support a healthy gastrointestinal microbial profile<sup>4</sup></li>
-                        <li>Help improve general health and wellbeing<sup>5</sup></li>
-                        <li>Support normal intracellular function with Magnesium Orotate<sup>6</sup></li>
-                        <li>Support a healthy immune system<sup>7</sup></li>
+                        <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                    </ul>
+                </p>
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
+                <p>
+                    <ul>
+                        <li>Supports energy production.</li>
+                        <li>Supports skin health.</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
+                        <li>Coenzyme Q10 is present in all cells and membranes and is critical for ATP (energy) production.</li>
+                    </ul>
+                </p>
+                
+                <p>
+                    Magnesium plays a significant role as a cofactor for more then 350 enzymes in the body and regulates 
+                    neuro-excitability and several ion channels.
+                </p>
+                
+                <p>
+                    <ul>
+                        <li>Magnesium orotate is required for normal intracellular function.</li>
+                        <li>Magnesium is required by most ATP-using enzymes in the form of Mg-ATP.</li>
+                        <li>May assist with muscle action deficits due to low levels of Coenzyme Q10.</li>
+                        <li>Supports a healthy immune system.</li>
+                        <li>Helps to maintain healthy skin.</li>
+                        <li>Helps to maintain proper muscle function.</li>
+                        <li>Helps to assist in muscle cell recovery after exercise.</li>
                     </ul>
                 </p>
 
+                
+
                 <p>
-                    <strong>Specific Use:</strong>
+                    <strong>SPECIFIC CONDITIONS</strong>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>Assist in muscle cell recovery after exercise.</li>
-                        <li>Support normal intracellular function with Magnesium Orotate.</li>
-                        <li>Support muscle function during and after exercise;</li>
-                        <li>Assist with muscle action deficits associated with low Coenzyme Q10 levels, and;</li>
-                        <li>Help improve intracellular energy production.</li>
-                    </ul>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
                 </p>
 
                 <p>
-                    <strong>Potential Claims:</strong>
+                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    Do not take while on warfarin therapy without medical advice.
+
                 </p>
 
-                <p>
-                    <ul>
-                        <li>Support cellular energy production.</li>
-                        <li>Help to assist in muscle cell repair and function after exercise.</li>
-                        <li>Assist with symptoms of Coenzyme Q10 deficiencies such as muscle pain.</li>
-                        <li>Support a healthy gastrointestinal microbial profile.</li>
-                        <li>Provide a source of magnesium to support cellular function.</li>
-                        <li>Help improve general health</li>
-                    </ul>
-                </p>
+               
                 ',
                 'references' =>
                     '
@@ -6189,128 +5572,54 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    The concept of an Oral Rehydration Solution (ORS) began in the late 1960’s when it was found that
-                    the sodium-coupled glucose transporter remains largely intact and continues to stimulate resorption
-                    of salts and water in patients infected with Vibrio cholera infection.<sup>1</sup> Clinical studies
-                    of ORS use in cholera patients confirmed that ORS therapy was effective in reducing mortality in
-                    children and adults with acute diarrhoeal disease. Shortly following this evidence, the
-                    World Health Organisation (WHO) was driving a major campaign to implement ORS worldwide.<sup>2</sup>
-                    The osmolarity, which is based on glucose and electrolyte concentrations in the solution,
-                    is imperative to the therapeutic success of an ORS. The original standard formula proposed by
-                    WHO in 1975 was 311 mmol/L but was amended in 2002 to 245 mmol/L. The reduced osmolarity formula
-                    in children demonstrated improved net water absorption, less vomiting, less stool output, shorter
-                    duration of illness and less need for intravenous fluids.<sup>1</sup>
-                </p>
-                <p>
-                    <strong>Electrolyte Composition</strong>
-                </p>
-                <p>
-                    The composition of an ORS includes glucose, sodium, potassium, chloride and citrate, all of which
-                    play an imperative role. Further considerations when treating dehydration associated in particular
-                    with diarrhoea include zinc and selected probiotic species that offer a unique therapeutic role
-                    in such situations. Glucose and sodium are vital to an ORS formulation. In patients with diarrhoea,
-                    the nutrient-independent sodium absorption across the brush border membrane of intestinal
-                    epithelial cells is impaired; however the coupled transport of sodium and glucose is preserved,
-                    allowing absorption of salt and passive absorption of water provided by the ORS (see Figure 1).
-                    Furthermore, glucose administration maintains blood glucose levels and sodium stimulates drinking,
-                    renal absorption and maintains extracellular fluid volume.<sup>1</sup>
-                </p>
-                <p>
-                    Potassium is a major cation in intracellular fluid and the balance of potassium in the
-                    extracellular versus intracellular space has important effects on neural transmission, muscle
-                    contraction and vascular tone. Chloride is the major anion lost in sweat and when combined with
-                    sodium and glucose, it stimulates maximal water and sodium absorption across the jejunum.<sup>3</sup>
-                    Citrate is used to correct metabolic acidosis due to watery diarrhoea and is used instead of
-                    bicarbonate due to its stability.<sup>4</sup>
-                </p>
-                <p>
-                    <img class="img-responsive" alt="Figure 1" src="/img/products/orsbiotic/ors_pic_1.png">
-                </p>
-                <p>
-                    <strong>Figure 1. Coupled transport of sodium and glucose in intestinal epithelial cells.</strong>
-                </p>
-                <p>
-                    <strong>Zinc</strong>
-                </p>
-                <p>
-                    In 2004 WHO recommended for zinc to be added to ORS in children under the age of 5 years due to
-                    it reducing duration and severity of diarrhoea, having a greater effect in malnourished children.
-                    The mechanism of zinc for the treatment of diarrhoea is not completely understood but the role
-                    of zinc may be due to regulation of intestinal fluid transport and mucosal integrity, modulation
-                    of expression of genes encoding important zinc-dependent enzymes like cytokines that play a role
-                    in immune modulation.<sup>5</sup> Zinc supplementation in children provides a 26% reduction in
-                    the estimated relative risk of diarrhoea lasting beyond three days and is particularly indicated
-                    for low- and middle-income countries/communities.<sup>6</sup>
-                </p>
-                <p>
-                    <strong>Probiotic Bacteria</strong>
-                </p>
-                <p>
-                    There is extensive evidence for the use of specific probiotic bacterial species for the treatment
-                    of various triggers of diarrhoea. Two recent Cochrane reviews provide undisputed evidence for
-                    their use in such situations. The use of probiotics in acute infectious diarrhoea was analysed
-                    from 63 trials that included 8014 patients. The authors concluded that probiotics reduced the
-                    duration of diarrhoea by approx. 25 hours and reduced stool frequency by one to two days.<sup>7</sup>
-                    Further, another systematic review assessed 23 trials including 4213 patients and concluded that
-                    when patients were given probiotics concomitantly, it reduced the risk of developing Clostridium
-                    difficile-associated diarrhoea (CDAD) by 64% and also reduced the symptoms of CDAD such as
-                    abdominal cramping, nausea, fever, soft stool, flatulence and taste disturbance.<sup>8</sup> From
-                    these reviews, Saccharomyces boulardii and Lactobacillus gasseri particularly stood out has
-                    having therapeutic efficacy for treating diarrhoea.
-                </p>
-                <p>
-                    In addition to the immune modulating activity of Saccharomyces boulardii i.e. sIgA stimulation,
-                    it has also demonstrated in rat models to increase the expression of the sodium glucose
-                    cotransporter SGLT-1 which is of great importance in acute and chronic diarrhoeas as this
-                    is the transporter responsible for moving sodium, glucose, other electrolytes (from ORS)
-                    and water from the gastrointestinal lumen into the blood stream, assisting with the prevention
-                    of dehydration.<sup>9</sup> Lactobacillus gasseri provides therapeutic action for diarrhoea in that it
-                    demonstrates immunomodulating activity via stimulation of host sIgA and cytokines that are
-                    directed towards to pathogens and also secretes anti-microbial and anti-viral metabolites that
-                    competitively exclude pathogens that may prove beneficial in cases of infectious diarrhoea.<sup>10</sup>
-                    Lactobacillus plantarum also secretes anti-microbial and anti-viral metabolites and has
-                    demonstrated anti-microbial activity against Group B Streptococcus. L. plantarum may have a
-                    preventative effect on milder gastrointestinal symptoms during treatment with antibiotics such
-                    as loose watery stools and nausea.<sup>11,12</sup> Bifidobacterium breve may also provide therapeutic activity
-                    when treating diarrhoea due to its ability to protect against pathogens due to its cell surface
-                    exopolysaccharides and its immunomodulating activity (cytokine and antibody stimulation) that
-                    has proven effective ex vivo from breast fed infants against enteropathogenic bacteria such as
-                    selected strains from Salmonella, Shigella and Escherichia coli.<sup>13,14</sup>
-                </p>
-                <p>
-                    In conclusion, the addition of zinc and selected probiotic bacteria to an approved ORS osmolarity
-                    formulation as outlined by the WHO; provides a scientifically valid treatment option for patients
-                    diagnosed with acute or chronic diarrhoea due to antibiotic use, Clostridium difficile infection,
-                    other infectious pathogens, bowel disorders, allergies and intolerances to foods and medications
-                    such as NSAIDs, chemotherapy and radiation. Furthermore, ORSBiotic&trade; would be effective in
-                    preventing dehydration while exercising and potentially the development of gut permeability
-                    that is seen with athletes training in hot and humid conditions.<sup>15</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Replace water and electrolytes lost due to vomiting, diarrhoea, heavy sweating, fever, vigorous exercise and other dehydrating conditions<sup>1</sup></li>
-                        <li>Supplementary zinc benefits children with diarrhoea <sup>8</sup></li>
-                        <li>The co-transport of glucose with sodium accelerates water  absorption<sup>9</sup></li>
-                        <li>Selected probiotic species maintain healthy gastrointestinal  homeostasis and permeability<sup>10</sup></li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Those requiring rehydration due to vomiting and diarrhoea</li>
-                        <li>Those requiring rehydration after vigorous exercise and heavy  sweating</li>
+                        <li>Helps replace water and electrolytes lost due to vomiting, diarrhoea, heavy sweating, fever, vigorous exercise and other dehydrating conditions.</li>
+                        <li>Probiotic species from the genera Saccharomyces, Lactobacillus and Bifidobacterium have clinical evidence for providing therapeutic support for various triggers of diarrhoea including infectious agents, antibiotic-associated, Clostridium difficile-associated, irritable bowel syndrome, inflammatory bowel syndrome and malabsorption causes and may therefore help to reduce the frequency and duration of diarrhoea.</li>
+                        <li>Saccharomyces, Lactobacillus and Bifidobacterium help maintain healthy gastrointestinal homeostasis and permeability.</li>
+                        <li>Supplementary zinc benefits children with diarrhoea because it is a vital micronutrient essential for protein synthesis, cell growth and differentiation, immune function and intestinal transport of water and electrolytes. Clinical research demonstrates zinc reduces severity and duration of diarrhoea in children.</li>
+                        <li>Zinc deficiency is associated with an increased risk of gastrointestinal infections, adverse effects on the structure and function of the gastrointestinal tract and impaired immune function.</li>
+                        <li>Supports a healthy immune system</li>
                     </ul>
                 </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    (If medicine contains one sugar) contains [insert name of sugar] OR (If medicine contains two or more sugars) Contains sugars [or words to that effect].<br>
+                    WARNING: May be dangerous if taken in large amounts or for a long period. OR WARNING: Contains zinc which may be dangerous if taken in large amounts or for a long period (or words to that effect).<br>
+                    If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -6642,152 +5951,64 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    <em>Saccharomyces cerevisiae ssp. boulardii</em> was discovered in 1920 by Henri Boulard, who isolated the yeast
-                    from the skins of lychee and mangosteen fruit when visiting IndoChina. During a cholera outbreak he noticed
-                    that the people who drank tea made from these fruit skins did not contract the infection. Over the last few decades,
-                    interest in the therapeutic applications of using SB has increased with now well over 53 randomised controlled
-                    clinical studies published in peer reviewed journals that encompass over 8000 participants, both adults and children
-                    to assess safety and efficacy. Of these clinical trials, over 80% have found clinically significant efficacy for
-                    SB when supplemented for various conditions.<sup>1</sup>
-                </p>
-
-                <p>
-                    SB is an anaerobic yeast which is absent from the natural gut microbiota and does not permanently colonise
-                    the gastrointestinal tract (GIT) after supplementation. SB will achieve a steady-state concentration in the
-                    large bowel after 3 days of supplementation and is not detected in faeces within one week after discontinuing.
-                    It is stable at room temperature 24&deg;C but thrives at 37&deg;C i.e. body temperature and has a high tolerance to
-                    low pH and bile acids.<sup>1,2</sup> Furthermore, another advantage of SB as a probiotic yeast is that it is antibiotic
-                    resistant due to being a fungi and also they do not exchange DNA with bacteria.<sup>2</sup> SB can therefore be supplemented
-                    simultaneously with antibiotic therapy and assist with managing symptoms such as antibiotic associated diarrhoea.
-                    The predominant therapeutic effect of SB is associated with treating diarrhoea due to various causes, including
-                    antibiotic, infectious including <em>Clostridium difficile</em>, viral and parasitic, travelers diarrrhoea and diarrhoea
-                    induced by inflammatory GIT conditions.
-                </p>
-
-                <p>
-                    <strong>Efficacy of <em>Saccharomyces boulardii</em> for Diarrhoea:</strong>
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>
-                           <strong><em>Acute Infectious Diarrhoea</em></strong>
-                        </li>
+                        <li>May assist in the management of medically diagnosed irritable bowel syndrome.</li>
+                        <li>Treatment of mild digestive disorders. [Warning S required]</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Aids digestion.</li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
+                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>Helps maintain healthy digestive function.</li>
                     </ul>
                 </p>
-
-                <p>
-                    Extensive clinical studies have assessed the efficacy of SB in treating diarrhoea due to infectious causes.
-                    A recent systematic review and meta-analysis found that SB significantly reduced the duration of diarrhoea
-                    due to acute infection by approximately 24 hours and that of hospitalization by up to 20 hours.<sup>3</sup> The authors
-                    assessed 381 articles and 19 clinical trials with 17 of the studies performed in children from 3 months and older.
-                    The dose of SB varied between 250 and 750 mg. From an evidence-based recommendation, the World Gastroenterology
-                    Organization states that SB is not only useful in reducing the severity and duration (approximately 1 day) of acute
-                    infectious diarrhoea in children, but is also safe.<sup>3</sup> Furthermore, SB supports regeneration of the intestinal commensal
-                    bacterial cohort after episodes of diarrhoea such as increasing SCFA-producing bacteria, <em>Bacteroides</em> and
-                    <em>Prevotella</em> genera.<sup>2</sup>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>
-                            <strong><em>Clostridium difficile infection and associated diarrhoea</em></strong>
-                        </li>
+                        <li>Assists in the management of mild digestive disturbances including bloating, flatulence and digestive discomfort </li>
+                        <li>May be used as a prophylactic for, or to support the relief of symptoms of infectious, antibiotic associated and traveller\'s diarrhoea </li>
+                        <li>Helps to support healthy immune function </li>
+                        <li>Saccharomyces boulardii may competitively inhibit the binding of Candida albicans to the gastrointestinal mucosa </li>
+                        <li>May help to reduce inflammatory mediators originating in the gastrointestinal tract </li>
+                        <li>May assismulating secretion of disaccharidase brush border enzymes - sucrase, lactase and maltase assisting in the digestion and absorption of associated dietary compounds </li>
+                        <li>Saccharomyces boulardii aids in the stimulation of secretory IgA release in the gastrointestinal tract that then targets potential pathogens </li>
+                        <li>Saccahromyces boulardii produces protein digesting enzymes (protease) that has shown in in vitro studies the ability to degrade/destroy Clostridium difficile toxin A and B </li>
+                        <li>In vitro research demonstrates that Saccharomyces boulardii can block pathogen toxin receptor sites or can act as a decoy receptor for pathogenic toxins </li>
+                        <li>Saccharomyces boulardii assists in preservation of tight junctions between enterocytes and colonocytes that may help to reduce gut permeability and the translocation of bacteria from the gut lumen to the blood stream </li>
+                        <li>Research has demonstrated that when giving Saccharomyces boulardii at the same time as antibiotics that the normal microbiota is re-established more rapidly than when antibiotics are given without Saccharomyces boulardii </li>
+                        <li>Saccharomyces boulardii increases the production of short chain fatty acids that function as signalling molecules to the body </li>
+
                     </ul>
                 </p>
+                
+                               
 
                 <p>
-                    <em>Clostridium difficile</em> infection is strongly associated with antibiotic use, particularly in the hospital
-                    setting but is also prevalent in the community setting. A recent Cochrane review reported that by co-prescribing
-                    probiotic’s, importantly including SB, with antibiotics reduces the risk of contracting <em>C. difficile</em> infection by
-                    up to 64% than when compared to that of a placebo.<sup>4</sup> It has been demonstrated that SB directly degrades <em>C.
-                    difficile</em> toxin A and B via its release of protease enzymes. Further SB stimulates sIgA release in the intestine
-                    regulating host immune responses and also is associated with higher serum IgG levels to <em>C. difficile
-                    toxins</em> A and B.<sup>1</sup>
+                    <strong>SPECIFIC CONDITIONS</strong>
                 </p>
 
                 <p>
-                    <ul>
-                        <li>
-                            <strong><em>Antibiotic-associated diarrhoea (AAD)</em></strong>
-                        </li>
-                    </ul>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
                 </p>
 
                 <p>
-                    AAD can occur within a few hours after administering antibiotics for up to several months after ceasing treatment.
-                    The prevalence of AAD varies from 5% to 30% in paediatrics and as high as 80% in very young hospitalized children.
-                    In adults the prevalence ranges from 5% to 70%.<sup>5</sup> As SB is a yeast it is not affected by antibiotics. Furthermore,
-                    when co-prescribed, SB promotes the re-establishment of a normal commensal microbial cohort at a faster rate than
-                    when antibiotics are prescribed without SB.<sup>1,2</sup>
+                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).
+
                 </p>
 
-                <p>
-                    <ul>
-                        <li>
-                            <strong><em>Irritable Bowel Syndrome (IBS)</em></strong>
-                        </li>
-                    </ul>
-                </p>
-
-                <p>
-                    A number of studies have been conducted assessing the efficacy of SB in treating the symptoms of IBS.
-                    A recent study demonstrated that supplementing IBS-diarrhoea dominant patients with SB (200 mg t.i.d. for 30 days)
-                    alone or together with mesalazine (anti-inflammatory drug) significantly reduced symptom scores of stool frequency,
-                    stool form and consistency, abdominal pain and bloating (p < 0.003).<sup>6</sup> Other studies have also shown that SB
-                    (750 mg - 1000 mg per day for 4-6 weeks) significantly decreases pro-inflammatory cytokines and improves
-                    quality of life (QoL) in IBS-D patients.<sup>7,8</sup>
-                </p>
-
-                <p>
-                    <ul>
-                        <li>
-                            <strong><em>Gastrointestinal Function and Integrity</em></strong>
-                        </li>
-                    </ul>
-                </p>
-
-                <p>
-                    Research has shown that SB regulates host immune responses by acting as an immune stimulant or by reducing
-                    inflammatory cytokines. SB stimulates the release of sIgA in the intestine which targets pathogenic bacteria
-                    present; it is associated with increased serum IgG to C. <em>difficile</em> toxins and interferes with NF-&kappa;B signaling.
-                    SB is able to promote SCFA synthesis; restore fluid transport pathways within the intestine i.e. the sodium-glucose
-                    transporter which is important for rehydration during diarrhoea and vomiting; preserve tight junction integrity;
-                    stimulate protein and energy production and aid in enterocyte maturation via stimulating the release of spermine and
-                    spermidine or other brush border enzymes. SB is also capable in preventing the growth of <sup>Candida albicans</sup> and other
-                    pathogens such as <em>Salmonella</em> and <em>Yersinia</em>.<sup>1,2</sup>
-                </p>
-
-                <p>
-                    <img alt="Effects of Difference Pathogens" src="/img/products/sb_5b/sb5b_figure1.png" class="img-responsive"><br>
-                    <strong>Figure 1. Multiple potential mechanisms of action of <em>Saccharomyces boulardii</em>.<sup>1</sup></strong>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    Who will benefit:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Those with symptoms of diarrhoea due to various triggers including:</li>
-                            <ul style="list-style-type: circle">
-                                <li>Infectious (bacteria, virus, parasitic).</li>
-                                <li>Traveler’s diarrhoea.</li>
-                                <li>Anti-biotic use.</li>
-                                <li>Bowel disorders.</li>
-                            </ul>
-                        <li>Those with mild digestive disturbances including bloating, flatulence and digestive discomfort.</li>
-                        <li>Those with medically diagnosed Irritable Bowel Syndrome – particularly diarrhoea predominant.</li>
-                        <li>Those with <em>Candida</em> infection (thrush).</li>
-                        <li>Those taking anti-biotics.</li>
-                        <li>Those wanting to assist healthy digestive and immune function.</li>
-                    </ul>
-                </p>
+               
                 ',
                 'references' =>
                     '
@@ -6983,64 +6204,57 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    A significant body of research has been conducted demonstrating digestive and colonic health
-                    benefits of High Amylose Maize Starch (HAMS) with research also showing metabolic advantages.<sup>1</sup>
-                    Resistant starch is the total amount of starch, and the products of starch degradation that
-                    resists digestion in the small intestine. Hi-Maize demonstrates numerous health benefits
-                    such as increasing satiety and helping with weight control, assisting with glycaemic
-                    management and promoting digestive health. Hi-Maize demonstrates increased satiety compared
-                    to other forms of fibre helping people to feel fuller in the hours after consuming it<sup>2</sup> and
-                    has also shown to help people eat less after 2 hours<sup>3</sup> as well over the proceeding 24 hours.<sup>4</sup>
-                    Hi-Maize consumption has been shown to increase insulin sensitivity in healthy people,<sup>5,6</sup>
-                    in people with type 2 diabetes<sup>7</sup> and in individuals with insulin resistance.<sup>8-10</sup> Furthermore,
-                    as a prebiotic, Hi-Maize supports beneficial bacterial growth and activity, increasing
-                    short-chain fatty acid production and  assisting with normal intestinal function.<sup>11-13</sup>
-                </p>
-                <p>
-                    Leucine has a unique role in metabolic regulation beyond the fundamental role of being an
-                    amino acid, a substrate for the synthesis of proteins. Leucine has a direct link to the
-                    maintenance of glucose homeostasis by enhancing the recycling of glucose via the glucose-alanine
-                    cycle and stimulates muscle protein synthesis through the insulin-signaling cascade during
-                    catabolic periods such as fasting or energy restriction.<sup>14,15</sup> Further, leucine supplementation
-                    stimulates recovery of muscle protein synthesis after exercise. The mechanisms of leucine
-                    appear to contribute to a metabolic advantage during weight loss.<sup>15</sup> Acetyl-L-Carnitine is
-                    crucial for beta-oxidation, facilitating the transport of long-chain fatty acids across the
-                    mitochondrial membrane for oxidation. When combined with weight loss motivation, the beneficial
-                    effects of L-Carnitine are amplified including significant body weight loss and a decrement of
-                    serum triglyceride levels when compared to participants supplementing with L-Carnitine but
-                    being assigned to a non-motived group for weight loss.<sup>16</sup> DL-α-hydroxy isocaproic acid (HICA)
-                    is an end product of leucine metabolism in human tissues such as muscle and connective tissue
-                    and is considered an anti-catabolic substance. HICA has demonstrated to increase whole lean
-                    body mass in healthy athletes and also decreased whole body delayed-onset muscle soreness
-                    (DOMS) symptoms.<sup>17</sup> The Medlab Lactobacilli plantarum (Med 25) and Lactobacillus paracasei
-                    (Med 24) have demonstrated the highest production of HICA when co-cultured with leucine.
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Increase satiety and assist with weight management<sup>4</sup></li>
-                        <li>Modulate carbohydrate and lipid metabolism<sup>2,5</sup></li>
-                        <li>Promote digestive health<sup>6,7</sup></li>
-                        <li>Regulate blood-glucose levels & skeletal muscle protein synthesis in  healthy individuals<sup>1,2</sup></li>
-                        <li>Promote HICA synthesis indicated to increase lean muscle mass<sup>3</sup></li>
-                        <li>Modulate energy expenditure in healthy individuals<sup>8</sup></li>
+                        <li>May aid or assist weight loss by suppression of appetite in conjunction with (or as part of) a kilojoule/calorie controlled eating plan.</li>
+                        <li>Maintain/support healthy energy levels.</li>
+                        <li>May help enhance/improve/promote/increase energy levels.</li>
+                        <li>May assist in the maintenance of normal healthy blood sugar/glucose balance in healthy individuals.</li>
+                        <li>May assist in the maintenance of normal healthy blood sugar/glucose levels in healthy individuals.</li>
+                        <li>Treatment of mild digestive disorders. [Warning S required]</li>
+                        <li>Helps maintain healthy digestive function.</li>
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Those seeking weight management support and lean body mass support</li>
+                        <li>Hi-Maize resistant starch increases satiety and so helps to reduce hunger.</li>
+                        <li>Hi-Maize resistant starch is a prebiotic and produces short-chain fatty acids upon fermentation by gut bacteria, maintaining healthy colonic mucosal structure and function.</li>
+                        <li>Hi-Maize resistant starch helps to maintain healthy blood glucose levels in healthy individuals.</li>
+                        <li>Leucine has a unique role in the metabolic regulation of healthy blood glucose levels and in regulating skeletal muscle protein synthesis and enhancing mitochondrial function.</li>
+                        <li>Lactobacillus plantarum (Med 25) and Lactobacillus paracasei (Med 24) naturally synthesise alpha-hydroxy isocaproic acid (HICA) from leucine which is indicated to increase lean muscle mass.</li>
+                        <li>L-carnitine modulates energy expenditure in healthy individuals.</li>
+                        <li>L-carnitine is responsible for beta-oxidation of long-chain fatty acids and plays a key role in mitochondrial energy production and function.</li>
                     </ul>
                 </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
@@ -7272,64 +6486,57 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    A significant body of research has been conducted demonstrating digestive and colonic health
-                    benefits of High Amylose Maize Starch (HAMS) with research also showing metabolic advantages.<sup>1</sup>
-                    Resistant starch is the total amount of starch, and the products of starch degradation that
-                    resists digestion in the small intestine. Hi-Maize demonstrates numerous health benefits
-                    such as increasing satiety and helping with weight control, assisting with glycaemic
-                    management and promoting digestive health. Hi-Maize demonstrates increased satiety compared
-                    to other forms of fibre helping people to feel fuller in the hours after consuming it<sup>2</sup> and
-                    has also shown to help people eat less after 2 hours<sup>3</sup> as well over the proceeding 24 hours.<sup>4</sup>
-                    Hi-Maize consumption has been shown to increase insulin sensitivity in healthy people,<sup>5,6</sup>
-                    in people with type 2 diabetes<sup>7</sup> and in individuals with insulin resistance.<sup>8-10</sup> Furthermore,
-                    as a prebiotic, Hi-Maize supports beneficial bacterial growth and activity, increasing
-                    short-chain fatty acid production and  assisting with normal intestinal function.<sup>11-13</sup>
-                </p>
-                <p>
-                    Leucine has a unique role in metabolic regulation beyond the fundamental role of being an
-                    amino acid, a substrate for the synthesis of proteins. Leucine has a direct link to the
-                    maintenance of glucose homeostasis by enhancing the recycling of glucose via the glucose-alanine
-                    cycle and stimulates muscle protein synthesis through the insulin-signaling cascade during
-                    catabolic periods such as fasting or energy restriction.<sup>14,15</sup> Further, leucine supplementation
-                    stimulates recovery of muscle protein synthesis after exercise. The mechanisms of leucine
-                    appear to contribute to a metabolic advantage during weight loss.<sup>15</sup> Acetyl-L-Carnitine is
-                    crucial for beta-oxidation, facilitating the transport of long-chain fatty acids across the
-                    mitochondrial membrane for oxidation. When combined with weight loss motivation, the beneficial
-                    effects of L-Carnitine are amplified including significant body weight loss and a decrement of
-                    serum triglyceride levels when compared to participants supplementing with L-Carnitine but
-                    being assigned to a non-motived group for weight loss.<sup>16</sup> DL-α-hydroxy isocaproic acid (HICA)
-                    is an end product of leucine metabolism in human tissues such as muscle and connective tissue
-                    and is considered an anti-catabolic substance. HICA has demonstrated to increase whole lean
-                    body mass in healthy athletes and also decreased whole body delayed-onset muscle soreness
-                    (DOMS) symptoms.<sup>17</sup> The Medlab Lactobacilli plantarum (Med 25) and Lactobacillus paracasei
-                    (Med 24) have demonstrated the highest production of HICA when co-cultured with leucine.
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Increase satiety and assist with weight management<sup>4</sup></li>
-                        <li>Modulate carbohydrate and lipid metabolism<sup>2,5</sup></li>
-                        <li>Promote digestive health<sup>6,7</sup></li>
-                        <li>Regulate blood-glucose levels & skeletal muscle protein synthesis in  healthy individuals<sup>1,2</sup></li>
-                        <li>Promote HICA synthesis indicated to increase lean muscle mass<sup>3</sup></li>
-                        <li>Modulate energy expenditure in healthy individuals<sup>8</sup></li>
+                        <li>May aid or assist weight loss by suppression of appetite in conjunction with (or as part of) a kilojoule/calorie controlled eating plan.</li>
+                        <li>Maintain/support healthy energy levels.</li>
+                        <li>May help enhance/improve/promote/increase energy levels.</li>
+                        <li>May assist in the maintenance of normal healthy blood sugar/glucose balance in healthy individuals.</li>
+                        <li>May assist in the maintenance of normal healthy blood sugar/glucose levels in healthy individuals.</li>
+                        <li>Treatment of mild digestive disorders. [Warning S required]</li>
+                        <li>Helps maintain healthy digestive function.</li>
                     </ul>
                 </p>
-
-                <p>
-                    <strong>Who will benefit:</strong>
-                </p>
-
+                
+                <strong>SPECIFIC INDICATIONS</strong>
+                
                 <p>
                     <ul>
-                        <li>Those seeking weight management support and lean body mass support</li>
+                        <li>Hi-Maize resistant starch increases satiety and so helps to reduce hunger.</li>
+                        <li>Hi-Maize resistant starch is a prebiotic and produces short-chain fatty acids upon fermentation by gut bacteria, maintaining healthy colonic mucosal structure and function.</li>
+                        <li>Hi-Maize resistant starch helps to maintain healthy blood glucose levels in healthy individuals.</li>
+                        <li>Leucine has a unique role in the metabolic regulation of healthy blood glucose levels and in regulating skeletal muscle protein synthesis and enhancing mitochondrial function.</li>
+                        <li>Lactobacillus plantarum (Med 25) and Lactobacillus paracasei (Med 24) naturally synthesise alpha-hydroxy isocaproic acid (HICA) from leucine which is indicated to increase lean muscle mass.</li>
+                        <li>L-carnitine modulates energy expenditure in healthy individuals.</li>
+                        <li>L-carnitine is responsible for beta-oxidation of long-chain fatty acids and plays a key role in mitochondrial energy production and function.</li>
                     </ul>
                 </p>
+                
+                               
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+                
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+
+                </p>
+
+               
                 ',
                 'references' =>
                     '
