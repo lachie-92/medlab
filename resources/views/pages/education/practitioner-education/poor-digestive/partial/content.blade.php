@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     POOR DIGESTIVE
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>POOR DIGESTIVE</strong>
                     </h3>
 
@@ -41,10 +41,6 @@
                     with digestion.<sup>9</sup> Proteolytic enzymes breakdown proteins into polypeptides, dipeptides and amino acids; amylolytic enzymes (amylase) hydrolyze starches and other
                     carbohydrates (not including cellulose) into disaccharides and trisaccharides and lipolytic enzymes (lipase) hydrolyze fats into fatty acids and monoglycerides.<sup>1</sup>
                     </p>
-
-
-
-
 
                     <hr>
                     <strong>References</strong><br>

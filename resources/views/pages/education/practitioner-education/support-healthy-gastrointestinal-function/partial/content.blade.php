@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     SUPPORT HEALTHY GASTROINTESTINAL FUNCTION
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>SUPPORT HEALTHY GASTROINTESTINAL FUNCTION</strong>
                     </h3>
 
@@ -86,9 +86,10 @@
                         <em>Bifidobacterium</em> species as well as butyrate production.<sup>11</sup>
                     </p>
 
-                    <p>
-                        <strong>Clinical Summary:</strong>
-                    </p>
+                    <br>
+                    <h4>
+                        Clinical Summary:
+                    </h4>
 
                     <p>
                         <ul>
@@ -100,7 +101,7 @@
                     </p>
 
                     <p>
-                        <strong>Who will benefit:</strong>
+                        Who will benefit:
                     </p>
 
                     <p>
@@ -116,8 +117,8 @@
 
 
                     <hr>
-                    <strong>References</strong><br>
-                    <br>
+                        <strong>References</strong><br>
+                        <br>
                         <ol class="medlab_product_reference_list">
                             <li>McFarland L. Systematic review and meta-analysis of Saccharomyces boulardii in adult patients. <em>World J Gastroenterol</em>2010;16:2202. </li>
                             <li>Pineton de Chambrun G, et al. A randomised clinical trial with Saccharomyces cerevisiae versus placebo in Irritable Bowel Syndrome. <em>Dig and Liver Dis</em> 2015;47:119.</li>

@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     OMEGA 3 FATTY ACIDS AND THE CARDIOVASCULAR SYSTEM
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>OMEGA 3 FATTY ACIDS AND THE CARDIOVASCULAR SYSTEM
                         </strong>
                     </h3>
@@ -39,9 +39,11 @@
                         blood pressure and heart rate, lower blood triglycerides and increase HDL cholesterol, and
                         make blood less likely to form clots and create life-threatening thromboses.<sup>5</sup>
                     </p>
-                    <p>
-                        <strong>Plant Sterols for Healthy Blood Cholesterol and Triglyceride Support</strong>
-                    </p>
+
+                    <br>
+                    <h4>
+                        Plant Sterols for Healthy Blood Cholesterol and Triglyceride Support
+                    </h4>
                     <p>
                         Plant sterols were first described for their cholesterol lowering effects in the 1950’s, when they
                         were isolated from vegetable fats/oils and pine trees and were chemically analyzed for their
@@ -56,7 +58,7 @@
                         or decreased TAG appearance in the circulation.<sup>9</sup> Furthermore, murine studies have shown
                         that plant sterols and stanols can protect against a high fat, high cholesterol diet-induced
                         non-alcoholic steatohepatitis (NASH) – liver inflammation but not from liver fatty acid
-                        accumulation. <sup>10</sup>
+                        accumulation.<sup>10</sup>
                     </p>
                     <p>
                         A meta-analysis of 41 trials concluded that on average, an intake of 1.5-2.0 g/day of stanol and
@@ -64,12 +66,13 @@
                         that plant sterol containing products reduced LDL concentrations but the reduction was related to
                         individuals\' baseline LDL levels, food carrier, and frequency and time of intake.<sup>12</sup>
                         Both studies similarly concluded that ingesting greater than 2.5 grams per day of plant sterols
-                        and stanols did not add any greater benefits of lowering a greater percentage of blood cholesterol.
-                        <sup>11,12</sup>
+                        and stanols did not add any greater benefits of lowering a greater percentage of blood cholesterol.<sup>11,12</sup>
                     </p>
-                    <p>
-                        <strong>Omega-3 Fatty Acids combined with Plant Sterols</strong>
-                    </p>
+
+                    <br>
+                    <h4>
+                        Omega-3 Fatty Acids combined with Plant Sterols
+                    </h4>
                     <p>
                         A recent randomized, double-blind, placebo-controlled, parallel efficacy study investigated the
                         dose-response relation between a low dose (&lt;2 g/d) of EPA + DHA from fish oil combined with
@@ -81,9 +84,11 @@
                         also decreasing LDL-C concentrations (≈ 13%) in a population with elevated cholesterol but normal
                         TAG levels.<sup>13</sup>
                     </p>
-                    <p>
-                        <strong>Clinical Summary:</strong>
-                    </p>
+
+                    <br>
+                    <h4>
+                        Clinical Summary:
+                    </h4>
 
                     <p>
                     <ul>
@@ -94,7 +99,7 @@
                     </p>
 
                     <p>
-                        <strong>Who will benefit:</strong>
+                        Who will benefit:
                     </p>
 
                     <p>
@@ -103,8 +108,10 @@
                         <li>Those adhering to lifestyle interventions consisting of prudent nutritional practices and physical activity.</li>
                     </ul>
                     </p>
-                    <hr>
 
+                    <hr>
+                    <strong>References</strong><br>
+                    <br>
                     <ol class="medlab_product_reference_list">
                         <li>Vitetta L, Sali A.  Omega–3 Fatty Acids PUFA. PART I. <em>J Comp Med</em> 2006; 5(6):52-59.</li>
                         <li>Jain AP, et al. Omega-3 fatty acids and cardiovascular disease. <em>Eur Rev Med Pharmacol Sci</em> 2015; 19:441-445.</li>

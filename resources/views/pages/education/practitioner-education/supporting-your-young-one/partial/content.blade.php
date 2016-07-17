@@ -11,113 +11,235 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    SUPPORT HEALTHY GASTROINTESTINAL FUNCTION
+                    SUPPORT YOUR YOUNG ONE
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
-                        <strong>SUPPORT HEALTHY GASTROINTESTINAL FUNCTION</strong>
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
+                        <strong>SUPPORT YOUR YOUNG ONE</strong>
                     </h3>
 
                     <p>
-                        A French microbiologist, Henri Boulard discovered the beneficial yeast <em>Saccharomyces boulardii</em>
-                        in 1920. When he was visiting IndoChina he noticed that certain people who drank a special tea did
-                        not develop cholera during an outbreak. He isolated the agent in the fruit tea responsible for the
-                        therapeutic effects, being S. boulardii.<sup>1</sup> <em>S. boulardii</em> has several different
-                        mechanisms of action including luminal action, trophic action and mucosal anti-inflammatory
-                        signalling effects. Within the intestinal lumen, <em>S. boulardii</em> may interfere with
-                        pathogenic toxins, preserve cellular physiology, interfere with pathogen attachment, interact
-                        with normal microbiota and assist in re-establishing short chain fatty acid levels.
-                        <em>S. boulardii </em>may also act as an immune regulator, both within the lumen and systemically.
-                        Factors that disrupt the normal barrier function of commensal bacteria, such as antibiotic use or
-                        surgery, results in host susceptibility to pathogen colonization until the normal microbiota can
-                        become re-established. Typically it takes six to eight weeks for normal microbiota to recover after
-                        antibiotic use but when <em>S. boulardii</em> is supplemented, normal microbiota is re-established
-                        rapidly.<sup>1</sup>Furthermore, <em>S. boulardii</em> has proven effective in treating
-                        antibiotic-associated diarrhoea, <em>Clostridium difficile</em> infections, reducing side-effects
-                        of triple therapy to treat <em>Helicobacter pylori</em>, acute diarrhoea, travellers diarrhoea,
-                        Irritable Bowel Syndrome (IBS) and inflammatory bowel disease (IBD). <em>S. boulardii</em> has
-                        also been assessed for efficacy in treating <em>Giardiasis</em> when combined with metronidazole
-                        resulting in significantly less detection of <em>giardia </em>cysts compared to placebo.<sup>1-3</sup>
+                        The microbiome evolves within a healthy host from birth to death, constantly re-adjusting to maintain
+                        a homeostatic balance with the host&#39;s immune system. Continued evolution of the human microbiome after
+                        birth is governed by host factors such as both the adaptive and innate immune system and external
+                        factors such as diet, medication, environmental exposure&#39;s and illness. It was previously believed that
+                        the in utero environment was sterile and that an infant is exposed to the bacterial assault during the
+                        birthing process.<sup>1</sup> This notion has now been debunked. Colonization of the mucosa in the digestive,
+                        respiratory, urogenital tracts and the skin likely occurs before the time of birth when a newborn is
+                        exposed to the mother&#39;s microbiota.  Recent studies suggest the presence of a microbiome within the
+                        placenta and foetal meconium with exposure to antenatal sources of commensal bacterial and the seeding
+                        of the infant varying by length of gestation. This would help explain the variations in bacterial
+                        colonization between full-term and pre-term infants.<sup>1</sup>
                     </p>
                     <p>
-                        Arabinogalactans are high molecular weight, highly branched, water-soluble polysaccharides
-                        containing units of D-galactose and L-arabinose. Arabinogalactans from Larch have been shown to
-                        stimulate natural killer cell cytotoxicity <em>in vitro</em> with animal studies demonstrating
-                        increases in white blood cell counts i.e. neutrophils and eosinophil’s.<sup>4</sup> ResistAid&trade;
-                        is a proprietary arabinogalactan extracted from Larch (<em>Larix laricina</em>) supplied by Lonza
-                        Ltd, Switzerland. A number of human clinical studies have demonstrated ResistAid&#39;s&trade;
-                        immunomodulatory activity. Udani 2010 demonstrated a daily dose of 4.5 g significantly increased
-                        IgG antibody response of healthy volunteers to the pneumococcal vaccine when compared to
-                        placebo.<sup>4</sup> In a more recent study Udani 2013 demonstrated that ResistAid&trade; at a dose
-                        of 1.5 g daily significantly increased the IgG antibody response to tetanus vaccine compared to
-                        placebo.<sup>5</sup> ResistAid&trade; has clinical evidence of being well tolerated in healthy
-                        individuals with no demonstrable side-effects.<sup>6</sup>
+                        The mode of delivery and whether an infant is breast or bottle fed plays a major role on early
+                        colonization patterns of the neonatal gut microbiota, with breast milk containing its own microbiome
+                        but also mediators that can direct inflammatory responses to pathogens in the gut (see table 1). The
+                        infant gastrointestinal microbial profile is relatively simple in contrast to that of adults and is
+                        unstable until the age of approximately 3 years when it establishes its adult form. During this time
+                        many factors have considerable effect on the composition and determination of the microbial
+                        community.<sup>1,2</sup> Even after the microbiome is well established in healthy infants, dysbiosis, or shifts
+                        in microbial composition or diversity, can occur in the setting of dietary changes, antibiotic exposure
+                        or infection. Dysbiotic conditions can favour invasion and growth of pathogenic species and can disrupt
+                        the finely tuned regulatory circuits of the immune system that maintain a system of pro- and
+                        anti-inflammatory checks and balances.The manipulation of the infant microbiota with the use of
+                        pre- and probiotics can have a significant impact with long lasting results.<sup>1</sup>
                     </p>
-                    <p>
-                        Glutamine is the most abundant amino acid in the body and plays a central role in inter-organ
-                        carbon and nitrogen flux. Glutamine is considered a non-essential amino acid because it is
-                        synthesized endogenously, however it can be depleted rapidly in certain clinical settings
-                        particularly in response to injury, infection, IBD and short bowel syndrome.<sup>7,8</sup>
-                        Glutamine is an important fuel for rapidly dividing cells such as enterocytes, colonocytes and
-                        immune cells as it is critical for the biosynthesis of nucleotides required for cell replication
-                        and hexosamines. Glutamine and nucleosides act synergistically to promote differentiation and
-                        proliferation of intestinal epithelial cells.<sup>8</sup> Furthermore, glucosamine is reported to
-                        enhance the immunological barrier due to its trophic action on the immune system and its ability
-                        to decreased bacterial translocation.<sup>7</sup>
+
+                    <br>
+                    <p style="text-align: center">
+                        <strong>Table 1.</strong> Major differences in neonatal gut colonization by type of feeding.<sup>1</sup>
                     </p>
-                    <p>
-                        Peppermint leaf and peppermint oil have traditionally been considered to have anti-spasmodic,
-                        anti-emetic, carminative and anti-microbial properties. Peppermint is indicated to treat a
-                        variety of digestive disorders such as flatulence, diarrhoea, indigestion, nausea and vomiting,
-                        and as a spasmolytic to reduce gas and cramping.<sup>9</sup> Peppermint is reported to block
-                        calcium channels resulting in gastrointestinal smooth muscle relaxation with a 2008 meta-analysis
-                        supporting the use of peppermint for providing short-term relief of discomfort and abdominal pain
-                        in IBS patients.<sup>10</sup>
+                    <table style="margin-left: auto; margin-right: auto;" cellspacing="0" cellpadding="0" border="1">
+                        <tbody>
+                        <tr>
+                            <td width="213" valign="top">
+                                <p>
+                                    <strong>Breast Fed</strong>
+                                </p>
+                            </td>
+                            <td width="213" valign="top">
+                                <p>
+                                    <strong>Formula Fed</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="213" valign="top">
+                                <p>
+                                    <em>Bifidobacteria</em>
+                                </p>
+                            </td>
+                            <td width="213" valign="top">
+                                <p>
+                                    <em>Bifidobacteria species</em>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="213" valign="top">
+                                <p>
+                                    <em>Enterobacteria species*</em>
+                                </p>
+                            </td>
+                            <td width="213" valign="top">
+                                <p>
+                                    <em>Escherichia coli</em>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="213" valign="top">
+                                <p>
+
+                                </p>
+                            </td>
+                            <td width="213" valign="top">
+                                <p>
+                                    <em>Clostridium difficile</em>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="213" valign="top">
+                                <p>
+
+                                </p>
+                            </td>
+                            <td width="213" valign="top">
+                                <p>
+                                    <em>Bacteroides species</em>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="213" valign="top">
+                                <p>
+
+                                </p>
+                            </td>
+                            <td width="213" valign="top">
+                                <p>
+                                    <em>Prevotella species</em>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="213" valign="top">
+                                <p>
+
+                                </p>
+                            </td>
+                            <td width="213" valign="top">
+                                <p>
+                                    <em>Lactobacillus species</em>
+                                </p>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <p style="text-align: center">
+                        *Breast-fed infants have more colonization with Bifidobacteria species than their formula-fed counterparts
                     </p>
+
+                    <br>
+                    <h4>
+                        Probiotic Species for Infants
+                    </h4>
+
                     <p>
-                        Cocoa is naturally rich in polyphenols that have been reported to modulate the gastrointestinal
-                        tract. Plasma and urine of chocolate eaters led to the discovery of distinct metabolic profiles
-                        according to the behavioural/psychological dietary preference for chocolate products. The
-                        metabolism of cocoa polyphenols can induce selective bacterial growth, i.e.
-                        <em>Bifidobacterium spp</em>, <em>Clostridium coccoides-Eubacterium rectale</em> group
-                        and <em>Escherichia coli</em> and significantly inhibit the growth of the
-                        <em>Clostridium histolyticum</em> group. Further, bacterial fermentation of the insoluble
-                        material of cocoa is associated with an increase in <em>Lactobacilli</em> and
-                        <em>Bifidobacterium</em> species as well as butyrate production.<sup>11</sup>
+                        Clinical evidence from a recent Cochrane Review conclude that the use of multi-species probiotics from
+                        the <em>Lactobacillus, Bifidobacterium and Streptococcus</em> genera have unequivocally demonstrated clinical
+                        evidence for preventing severe necrotising enterocolitis (NEC) and all cause mortality in preterm
+                        infants, to which the authors concluded that the evidence strongly supports a change in practice.<sup>3</sup>
+                        <em>Saccharomyces boulardii</em> has been extensively researched for the treatment of diarrhoea in both children
+                        and adults and has shown a clinically significant benefit in reducing duration of acute infectious
+                        diarrhoea in children by up to 24 hours and mean hospital stay by 36 hours. The percentage of
+                        diarrhoea-free children in the <em>Saccharomyces</em> group was significantly larger after 48 and 72 hours when
+                        compared to the control group.<sup>4</sup> Furthermore, <em>S. boulardii</em> stimulates host innate immune responses to
+                        pathogens via secretory IgA release, stimulates small intestinal release of digestive enzymes, produces
+                        anti-inflammatory molecules and secretes polyamines that regulate host gene expression and protein
+                        synthesis.<sup>5</sup>
                     </p>
 
                     <p>
-                        <strong>Clinical Summary:</strong>
+                        Breast milk oligosaccharides selectively nourish <em>Bifidobacterium</em> microbiota with species such as
+                        <em>Bifidobacterium infantis</em> being isolated from breast-fed infants.  <em>B. infantis</em> colonizes the infant
+                        gut mucosal lining assisting with pathogen elimination, improving epithelial tight junction homeostasis
+                        decreasing  gut permeability and inducing host anti-inflammatory cytokine production. <em>Bifidobacteria
+                            infantis</em> is a natural commensal isolated from breast-fed infants.<sup>6</sup> <em>Bifidobacterium longum</em> is a common
+                        commensal in breast milk.
+                    </p>
+
+
+                    <br>
+                    <h4>
+                        <em>Lactoferrin</em>
+                    </h4>
+
+                    <p>
+                        Lactoferrin is the second most abundant protein in human breast milk, and is also secreted in tears,
+                        saliva, intestinal mucus, genital secretions and in granules of neutrophils. It is a glycoprotein
+                        belonging to the transferrin family of iron-binding proteins. As a multifunctional protein it
+                        demonstrates potent anti-microbial, anti-viral, anti-inflammatory and immunomodulatory activity
+                        providing a defence mechanism for the mammalian body.  The bactericidal effect of lactoferrin is in
+                        part due to its ability to bind iron that is essential for pathogenic bacterial growth resulting in
+                        bacteriostasis. Furthermore, lactoferrin disrupts the integrity of pathogenic bacterial cell walls by
+                        binding to lipopolysaccharides causing cell wall degradation.<sup>7</sup> Clinical evidence from a recent Cochrane
+                        Review demonstrated the therapeutic activity of lactoferrin for the prevention of sepsis and NEC in
+                        preterm infants.<sup>8</sup>
+                    </p>
+
+                    <br>
+                    <h4>
+                        <em>Prebiotics</em>
+                    </h4>
+
+                    <p>
+                        Prebiotics are selectively fermented compounds, naturally produced in the body or provided in the diet,
+                        that promote specific beneficial effects to the composition and activity of the gastrointestinal
+                        microbiota. Prebiotics in breast milk consist of milk glycans comprising free oligosaccharides,
+                        glycoproteins and glycolipids that drive the health of the infant gut.<sup>9</sup> Dietary sources of prebiotics
+                        include oligosaccharides, inulin and resistant starches. A recent systematic review and meta-analysis
+                        concluded that available evidence suggests that the preventative use of prebiotics decreases the rate
+                        of infections requiring antibiotic therapy in infants and children aged 0-24 months with one study
+                        indicating that prebiotics may also be effective in decreasing the rate of overall infections.<sup>10</sup>
+                        Furthermore, a recent Cochrane Review found that there is some evidence that a prebiotic supplement
+                        added to infant feeds may prevent eczema, however further research is needed.<sup>11</sup>
+                    </p>
+
+                    <br>
+                    <h4>
+                        Clinical Summary:
+                    </h4>
+
+                    <p>
+                    <ul>
+                        <li>Assist in the management and provide relief of symptoms of eczema. <sup>11</sup></li>
+                        <li>Support healthy digestive function. <sup>12</sup></li>
+                        <li>Assist in the management of allergies. <sup>2,11</sup></li>
+                        <li>Aid in the maintenance and improvement of general wellbeing. <sup>8,12,13</sup></li>
+                        <li>Help to maintain immune function. <sup>2,3,11-13</sup></li>
+                        <li>Relieve symptoms of diarrhoea. <sup>12</sup></li>
+                    </ul>
                     </p>
 
                     <p>
-                        <ul>
-                            <li>Support healthy gastrointestinal tract function and physiology </li>
-                            <li>Help maintain healthy digestive function and relieve gastrointestinal  discomfort </li>
-                            <li>Support optimal immune function</li>
-                            <li>Relieve symptoms of medically diagnosed Irritable Bowel Syndrome</li>
-                        </ul>
+                        Who will benefit:
                     </p>
 
                     <p>
-                        <strong>Who will benefit:</strong>
-                    </p>
-
-                    <p>
-                        <ul>
-                            <li>
-                                Those requiring relief from gastrointestinal complaints such as abdominal pain and
-                                bloating, flatulence, diarrhoea and/or constipation
-                            </li>
-                            <li>Those with intestinal permeability</li>
-                            <li>Those requiring prebiotic support for gastrointestinal microbial health</li>
-                        </ul>
+                    <ul>
+                        <li>Suitable for pregnant women.</li>
+                        <li>Suitable for breast-fed and formula fed infants.</li>
+                        <li>Suitable for toddlers and older children.</li>
+                    </ul>
                     </p>
 
 
                     <hr>
-                    <strong>References</strong><br>
-                    <br>
+                        <strong>References</strong><br>
+                        <br>
                         <ol class="medlab_product_reference_list">
                             <li>McFarland L. Systematic review and meta-analysis of Saccharomyces boulardii in adult patients. <em>World J Gastroenterol</em>2010;16:2202. </li>
                             <li>Pineton de Chambrun G, et al. A randomised clinical trial with Saccharomyces cerevisiae versus placebo in Irritable Bowel Syndrome. <em>Dig and Liver Dis</em> 2015;47:119.</li>

@@ -11,11 +11,11 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    IMPORTANCE OF URIDINE
+                    THE HUMAN-MICROBIAL GASTROINTESTINAL INTERFACE IS AN ECOSYSTEM
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
-                        <strong>IMPORTANCE OF URIDINE</strong>
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
+                        <strong>THE HUMAN-MICROBIAL GASTROINTESTINAL INTERFACE IS AN ECOSYSTEM</strong>
                     </h3>
 
                     <p>
@@ -57,21 +57,21 @@
                     of the gut commensal microbiome driven by adverse lifestyle choices may predispose to the development of chronic diseases.<sup>12</sup>
                     </p>
 
-
+                    <br>
                     <h4>Clinical Summary</h4>
 
                     <p>MultiBiotic&trade; may help to promote optimal gastrointestinal care and immune function.</p>
 
                     <p>
 
-                    <li>Help maintain a healthy gastrointestinal microbial profile.1</li>
-                    <li>Promote general well being and a healthy immune system.2,3</li>
-                    <li>Relieve gastrointestinal discomfort.1</li>
-                    <li>Assist in managing symptoms of medically diagnosed Irritable Bowel Syndrome.4,5</li>
-                    <li>Provide symptomatic relief of altered bowel habits.5</li>
-                    <li>Help relieve symptoms of mild upper respiratory tract infections.6</li>
-                    <li>Support healthy cholesterol levels in healthy individuals.7</li>
-                    <li>Support and maintain healthy skin.8</li>
+                    <li>Help maintain a healthy gastrointestinal microbial profile.<sup>1</sup></li>
+                    <li>Promote general well being and a healthy immune system.<sup>2,3</sup></li>
+                    <li>Relieve gastrointestinal discomfort.<sup>1</sup></li>
+                    <li>Assist in managing symptoms of medically diagnosed Irritable Bowel Syndrome.<sup>4,5</sup></li>
+                    <li>Provide symptomatic relief of altered bowel habits.<sup>5</sup></li>
+                    <li>Help relieve symptoms of mild upper respiratory tract infections.<sup>6</sup></li>
+                    <li>Support healthy cholesterol levels in healthy individuals.<sup>7</sup></li>
+                    <li>Support and maintain healthy skin.<sup>8</sup></li>
 
                     </p>
 
@@ -79,7 +79,7 @@
 
                     <p>
 
-                        <li>To support healthy immune function;</li>
+                    <li>To support healthy immune function;</li>
                     <li>For symptoms of medically diagnosed Irritable Bowel Syndrome;</li>
                     <li>To restore gastrointestinal microbial balance after certain medication use; and;</li>
                     <li>For relief of gastrointestinal discomfort.</li>
@@ -91,20 +91,16 @@
                     <p>
 
                         <li>Help maintain healthy digestive function.</li>
-                    <li>Relieve gastrointestinal discomfort.</li>
-                    <li>For the maintenance of a healthy gastrointestinal microbial profile.</li>
-                    <li>Assist in managing symptoms of medically diagnosed irritable bowel syndrome.</li>
-                    <li>Provide symptomatic relief of constipation and diarrhoea.</li>
-                    <li>Relieve the symptoms of mild upper respiratory tract infections.</li>
-                    <li>Support healthy cholesterol levels.</li>
-                    <li>Support and maintain healthy skin.</li>
-                    <li>Promote general well being.</li>
+                        <li>Relieve gastrointestinal discomfort.</li>
+                        <li>For the maintenance of a healthy gastrointestinal microbial profile.</li>
+                        <li>Assist in managing symptoms of medically diagnosed irritable bowel syndrome.</li>
+                        <li>Provide symptomatic relief of constipation and diarrhoea.</li>
+                        <li>Relieve the symptoms of mild upper respiratory tract infections.</li>
+                        <li>Support healthy cholesterol levels.</li>
+                        <li>Support and maintain healthy skin.</li>
+                        <li>Promote general well being.</li>
 
                     </p>
-
-
-
-
 
                     <hr>
                     <strong>References</strong><br>

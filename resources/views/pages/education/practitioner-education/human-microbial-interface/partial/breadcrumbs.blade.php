@@ -9,7 +9,7 @@
             <li><a class="medlab_breadcrumbs_link" href="/">Home</a></li>
             <li><a class="medlab_breadcrumbs_link" href="/">Education</a></li>
             <li><a class="medlab_breadcrumbs_link" href="/">Practitioner Education</a></li>
-            <li class="active medlab_breadcrumbs_text">The Human-Microbial Gastrointestinal....</li>
+            <li class="active medlab_breadcrumbs_text">The Human-Microbial Gastrointestinal...</li>
         </ol>
     </div>
 </div>

@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     IMPORTANCE OF URIDINE
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>IMPORTANCE OF URIDINE</strong>
                     </h3>
 

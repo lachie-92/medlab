@@ -12,10 +12,9 @@
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
                     ROLE OF B12
-
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>ROLE OF B12</strong>
                     </h3>
 
@@ -36,15 +35,14 @@
                         decreasing particle size.<sup>2,3</sup>
                     </p>
 
-                    <p>
-                        <img class="img-responsive" alt="Figure 1" src="/img/products/b12/B12figure1.png"><br>
-                        <strong>Figure 1. Formation of drug/nutrient-loaded micelle.<sup>2</sup></strong>
+                    <img class="img-responsive center-block" alt="Figure 1" src="/img/products/b12/B12figure1.png">
+                    <p style="text-align: center">
+                        <strong>Figure 1.</strong> Formation of drug/nutrient-loaded micelle.<sup>2</sup><br>
+                        NanoCelle&trade; B12: Hydrophobic polymer = d-alpha tocopherol<br>
+                        Drug molecule = cyanocobalamin
                     </p>
 
-                    <p>
-                        <strong>NanoCelle&trade; B12: Hydrophobic polymer = d-alpha tocopherol; drug molecule = cyanocobalamin</strong>
-                    </p>
-
+                    <br>
                     <p>
                         Vitamin B12 (Cobalamin) is an organometallic compound that contains cobalt in its chemical
                         structure. Cyanocobalamin and hydroxycobalamin are relatively inert forms of B12 and must be
@@ -65,14 +63,14 @@
                         accumulate resulting in state of functional folate deficiency.<sup>6</sup>
                     </p>
 
-                    <p>
-                        <img class="img-responsive" alt="Figure 2" src="/img/products/b12/B12figure2.png"><br>
-                        <strong>Figure 2. Cobalamin as a methyl carrier.<sup>6</sup></strong>
+                    <img class="img-responsive center-block" alt="Figure 2" src="/img/products/b12/B12figure2.png">
+                    <p style="text-align: center">
+                        <strong>Figure 2.</strong> Cobalamin as a methyl carrier.<sup>6</sup><br>
+                        SAM = S-adenyslmethionine<br>
+                        CH3-THF = methyltetrahydrofolate<br>
+                        THF = tetrahydrofolate
                     </p>
-
-                    <p>
-                        <strong>SAM – S-adenyslmethionine; CH3-THF – methyltetrahydrofolate; THF- tetrahydrofolate</strong>
-                    </p>
+                    <br>
 
                     <p>
                         Theactivation of folate by B12 is essential for DNA synthesis which is impacted by B12 deficiency.<sup>4</sup>
@@ -91,9 +89,10 @@
                         bowel disease).
                     </p>
 
-                    <p>
-                        <strong>Clinical Summary:</strong>
-                    </p>
+                    <br>
+                    <h4>
+                        Clinical Summary:
+                    </h4>
 
                     <p>
                         NanoCelle&trade; B12 is a nano-particle formulation that may:
@@ -113,7 +112,7 @@
                     </p>
 
                     <p>
-                        <strong>Specific Use:</strong>
+                        Specific Use:
                     </p>
 
                     <p>
@@ -127,14 +126,16 @@
                     </ul>
                     </p>
                     <hr>
-                    <ol class="medlab_product_reference_list">
-                        <li>Castelli MC, Wong DF, Friedman K, Riley MG. Pharmacokinetics of oral cyanocobalamin formulated with sodium N-[8-(2-hydroxybenzoyl) amino] capprylate (SNAC): An open-label, randomized, single-dose, parallel-group study in health male subjects. <em>Clinical Therapeutics</em> 2011;33:934 – 945.</li>
-                        <li>Xu W, Ling P, Zhang T. Polymeric micelles, a promising drug delivery system to enhance bioavailability of poorly water-soluble drugs. <em>J Drug Deliv</em> 2013;2013:340315.</li>
-                        <li>Francis MF, Cristea M, Winnik FM. Polymeric micelles for oral drug delivery: why and how. <em>Pure Appl Chem</em> 2004;76:1321-1335.</li>
-                        <li>Pawlak R, James PS, Raj S, Cullum-Dugan D, Lucus D. Understanding Vitamin B12. <em>American Journal of Lifestyle Medicine</em> 2013;7:60-65.</li>
-                        <li>Takahashi-Iniguez T, Garcia-Hernandez E, Arrenguin-Espinosa R, Flores ME. Review: Role of vitamin B12 on methylmalllonyl-CoA mutase activity. <em>Biomedicine & Biotechnology</em> 2012;13:423-437.</li>
-                        <li>Depeint F, Bruce WR, Shangari N, Mehta R, O’Brien PJ. Mitochondrial function and toxicity: Role of B vitamins on the one-carbon transfer pathways. <em>Cehmico-Biological Interactions</em> 2006;163:113-132.</li>
-                    </ol>
+                        <strong>References</strong><br>
+                        <br>
+                        <ol class="medlab_product_reference_list">
+                            <li>Castelli MC, Wong DF, Friedman K, Riley MG. Pharmacokinetics of oral cyanocobalamin formulated with sodium N-[8-(2-hydroxybenzoyl) amino] capprylate (SNAC): An open-label, randomized, single-dose, parallel-group study in health male subjects. <em>Clinical Therapeutics</em> 2011;33:934 – 945.</li>
+                            <li>Xu W, Ling P, Zhang T. Polymeric micelles, a promising drug delivery system to enhance bioavailability of poorly water-soluble drugs. <em>J Drug Deliv</em> 2013;2013:340315.</li>
+                            <li>Francis MF, Cristea M, Winnik FM. Polymeric micelles for oral drug delivery: why and how. <em>Pure Appl Chem</em> 2004;76:1321-1335.</li>
+                            <li>Pawlak R, James PS, Raj S, Cullum-Dugan D, Lucus D. Understanding Vitamin B12. <em>American Journal of Lifestyle Medicine</em> 2013;7:60-65.</li>
+                            <li>Takahashi-Iniguez T, Garcia-Hernandez E, Arrenguin-Espinosa R, Flores ME. Review: Role of vitamin B12 on methylmalllonyl-CoA mutase activity. <em>Biomedicine & Biotechnology</em> 2012;13:423-437.</li>
+                            <li>Depeint F, Bruce WR, Shangari N, Mehta R, O’Brien PJ. Mitochondrial function and toxicity: Role of B vitamins on the one-carbon transfer pathways. <em>Cehmico-Biological Interactions</em> 2006;163:113-132.</li>
+                        </ol>
                     <hr>
 
                 </div>

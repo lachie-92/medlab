@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     WHY AN ACTIVATED FORM OF B12?
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>WHY AN ACTIVATED FORM OF B12?</strong>
                     </h3>
 
@@ -64,8 +64,6 @@
                     bacterial species can be different and may elaborate different physiological functions within the GIT<sup>17</sup> whilst exhibiting
                     overlapping or specific therapeutic actions to different organ systems.<sup>18</sup>
                     </p>
-
-
 
 
                     <hr>

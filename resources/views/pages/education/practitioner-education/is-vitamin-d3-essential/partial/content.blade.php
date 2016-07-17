@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     IS VITAMIN D3 ESSENTIAL
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>IS VITAMIN D3 ESSENTIAL</strong>
                     </h3>
 
@@ -138,7 +138,10 @@
                         <li>Vitamin D3 is essential for maintenance of bone mineralisation through the regulation of calcium and phosphorus homeostasis.</li>
                     </ul>
                     </p>
+
                     <hr>
+                    <strong>References</strong><br>
+                    <br>
                     <ol class="medlab_product_reference_list">
                         <li>Zitterman A, Gummert JF. Nonclassical Vitamin D Actions. <em>Nutrients</em> 2010;2:408-425.</li>
                         <li>Reboul E. Intestinal absorption of vitamin D: from the meal to the enterocyte. <em>Food Funct</em> 2014 [Epub ahead of print].</li>

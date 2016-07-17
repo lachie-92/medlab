@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     MAGNESIUM BISGLYCINATE
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>MAGNESIUM BISGLYCINATE</strong>
                     </h3>
 
@@ -163,9 +163,6 @@
                         <li>Those who wish to improve their cognitive performance and mood. </li>
                     </ul>
                     </p>
-
-
-
 
                     <hr>
                     <strong>References</strong><br>

@@ -424,6 +424,7 @@ Route::get('/education/practitioner-education/role-of-b12', function () {
     return view('pages.education.practitioner-education.role-of-b12.index');
 });
 
+//3 more to confirm
 Route::get('/education/practitioner-education/is-vitamin-d3-essential', function () {
     return view('pages.education.practitioner-education.is-vitamin-d3-essential.index');
 });

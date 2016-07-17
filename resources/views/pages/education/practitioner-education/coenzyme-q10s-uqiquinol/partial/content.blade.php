@@ -13,14 +13,14 @@
                 <div class="panel-heading medlab_panel_title">
                     COENZYME Q10S AS UBIQUINOL FOR CARDIOVASCULAR HEALTH
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>COENZYME Q10S AS UBIQUINOL FOR CARDIOVASCULAR HEALTH</strong>
                     </h3>
 
-                    <p>
-                        <strong>Omega-3 Fatty Acids and the Cardiovascular System</strong>
-                    </p>
+                    <h4>
+                        Omega-3 Fatty Acids and the Cardiovascular System
+                    </h4>
                     <p>
                         Important fats that enhance the functional physiology of the cardiovascular system are
                         alpha–linolenic acid (ALA), the parent compound of the omega–3 fatty acid family, and
@@ -41,9 +41,11 @@
                         blood pressure and heart rate, lower blood triglycerides and increase HDL cholesterol, and
                         make blood less likely to form clots and create life-threatening thromboses.<sup>5</sup>
                     </p>
-                    <p>
-                        <strong>Omega-3 Fatty Acids and the Neurocognitive System</strong>
-                    </p>
+
+                    <br>
+                    <h4>
+                        Omega-3 Fatty Acids and the Neurocognitive System
+                    </h4>
                     <p>
                         As a predominant structural component of neural membranes in the brain and retina, DHA has
                         demonstrated to have a positive effect on membrane fluidity and permeability, receptor
@@ -64,9 +66,11 @@
                         suggests a possible association between omega–3 fatty acids and reduced risk of
                         dementia.<sup>9,10</sup>
                     </p>
-                    <p>
-                        <strong>Coenzyme Q10 as Ubiquinol for Cardiovascular Health</strong>
-                    </p>
+
+                    <br>
+                    <h4>
+                        Coenzyme Q10 as Ubiquinol for Cardiovascular Health
+                    </h4>
                     <p>
                         There is nothing more critical for all anabolic and catabolic cellular functions than an adequate,
                         constant supply of bioenergy.<sup>11</sup> Coenzyme Q10 (CoQ10) plays a central role in cellular
@@ -91,30 +95,35 @@
                         disorders of ageing including chronic heart failure, hypertension and endothelial
                         dysfunction.<sup>12</sup>
                     </p>
+
+                    <br>
+                    <h4>
+                        Clinical Summary:
+                    </h4>
+
                     <p>
-                        <strong>Clinical Summary:</strong>
+                        <ul>
+                            <li>Aids, assists or helps in the maintenance or improvement of general well-being</li>
+                            <li>Supports healthy cardiovascular and neurocognitive health</li>
+                            <li>Supports healthy cholesterol and triglyceride levels in healthy individuals</li>
+                            <li>Supports healthy endothelial and blood coagulation function in healthy individuals</li>
+                        </ul>
                     </p>
 
                     <p>
-                    <ul>
-                        <li>Aids, assists or helps in the maintenance or improvement of general well-being</li>
-                        <li>Supports healthy cardiovascular and neurocognitive health</li>
-                        <li>Supports healthy cholesterol and triglyceride levels in healthy individuals</li>
-                        <li>Supports healthy endothelial and blood coagulation function in healthy individuals</li>
-                    </ul>
+                        Who will benefit
                     </p>
 
                     <p>
-                        <strong>Who will benefit:</strong>
+                        <ul>
+                            <li>Those requiring cardiovascular support</li>
+                            <li>Those requiring neurocognitive support</li>
+                        </ul>
                     </p>
 
-                    <p>
-                    <ul>
-                        <li>Those requiring cardiovascular support</li>
-                        <li>Those requiring neurocognitive support</li>
-                    </ul>
-                    </p>
-
+                    <hr>
+                    <strong>References</strong><br>
+                    <br>
                     <ol class="medlab_product_reference_list">
                         <li>Vitetta L, Sali A.  Omega–3 Fatty Acids PUFA. PART I. <em>J Comp Med</em> 2006; 5(6):52-59.</li>
                         <li>Jain AP, et al. Omega-3 fatty acids and cardiovascular disease. <em>Eur Rev Med Pharmacol Sci</em> 2015; 19:441-445.</li>

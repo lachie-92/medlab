@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     ASCORBIC ACID & GLUTATHIONE
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>ASCORBIC ACID & GLUTATHIONE</strong>
                     </h3>
 
@@ -27,9 +27,10 @@
                         in the treatment of infections having anti-microbial and anti-inflammatory activity.<sup>9-11</sup>
                     </p>
 
-                    <p>
-                        <strong>Ascorbic Acid:</strong>
-                    </p>
+                    <br>
+                    <h4>
+                        Ascorbic Acid:
+                    </h4>
 
                     <p>
                         Ascorbic acid is a water-soluble vitamin essential for healthy immune system activity and can only be obtained from the
@@ -53,9 +54,9 @@
                         <img alt="Figure 1-3" src="/img/products/manuka-c/manuka_figure1-3.png" class="img-responsive"><br>
                     </p>
 
-                    <p>
-                        <strong>Glutathione:</strong>
-                    </p>
+                    <h4>
+                        Glutathione:
+                    </h4>
 
                     <p>
                         Glutathione is an intrinsic tripeptide essential for optimal immune function; this is exemplified predominantly in
@@ -80,11 +81,11 @@
                     <p>
                         GSH: reduced glutathione; GSSG: oxidized glutathione; GRD: glutathione reductase
                     </p>
-                    <br>
 
-                    <p>
-                        <strong>Zinc:</strong>
-                    </p>
+                    <br>
+                    <h4>
+                        Zinc:
+                    </h4>
 
                     <p>
                         Zinc is necessary for numerous metabolic functions, particularly gene expression; cell growth and differentiation.<sup>8</sup>
@@ -96,9 +97,10 @@
                         and/or duration of the common cold.<sup>8</sup>
                     </p>
 
-                    <p>
-                        <strong>Manuka Honey:</strong>
-                    </p>
+                    <br>
+                    <h4>
+                        Manuka Honey:
+                    </h4>
 
                     <p>
                         Manuka honey has been used as a traditional anti-microbial therapy for the treatment of infection.<sup>11</sup> Honey has
@@ -108,9 +110,10 @@
                         honey added to oral rehydration solution (ORS) improved recovery in children following episodes of diarrheal illness.<sup>10</sup>
                     </p>
 
-                    <p>
-                        <strong>Clinical Summary:</strong>
-                    </p>
+                    <br>
+                    <h4>
+                        Clinical Summary
+                    </h4>
 
                     <p>
                         Who will benefit:
@@ -125,6 +128,7 @@
                     </ul>
                     </p>
 
+                    <br>
                     <p>
                         <strong>WARNINGS</strong>
                     </p>
@@ -135,6 +139,9 @@
                         supplements should not replace a balanced diet. Contains sugars. Always read the label. Use only as directed.
                     </p>
 
+                    <hr>
+                    <strong>References</strong><br>
+                    <br>
                     <ol class="medlab_product_reference_list">
                         <li>Levine M, Conry-Cantilena C, Wang Y, et al. Vitamin C pharmacokinetics in healthy volunteers: evidence for a recommended dietary allowance. <em>PNAS</em> 1996; 93:3704-3709.</li>
                         <li>Johnston C, Meyer S, Srilakshmi JC. Vitamin C Elevates Red Blood Cell Glutathione in Healthy Adults. <em>Am J Clin Nutr</em> 1993; 58:103-105.</li>

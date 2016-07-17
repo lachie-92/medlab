@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     EFFICACY OF SACCHAROMYCES BOULARDII FOR
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>EFFICACY OF SACCHAROMYCES BOULARDII FOR</strong>
                     </h3>
 
@@ -166,7 +166,8 @@
                     </p>
 
                     <hr>
-
+                    <strong>References</strong><br>
+                    <br>
                     <ol class="medlab_product_reference_list">
                         <li>McFarland LV. Systematic review and meta-analysis of <em>Saccharomyces boulardii</em> in adult patients. <em>World J Gastroenterol</em> 2010;16:2202-2222.</li>
                         <li>More MI, Swidsinski A. <em>Saccharomyces boulardii</em> CNCM I-745 supports regeneration of the intestinal microbiota after diarrhoeic dysbiosis – a review. <em>Clin Exp Gastroenterol</em> 2015;8:237-255.</li>

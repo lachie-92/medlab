@@ -13,8 +13,8 @@
                 <div class="panel-heading medlab_panel_title">
                     HICA USE & UNDERSTANDING
                 </div>
-                <div class="panel-body medlab_panel_content">
-                    <h3 style="text-align: center">
+                <div class="panel-body medlab_panel_content" style="text-align: justify">
+                    <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
                         <strong>HICA USE & UNDERSTANDING</strong>
                     </h3>
 
@@ -86,9 +86,10 @@
                         <em>Bifidobacterium</em> species as well as butyrate production.<sup>11</sup>
                     </p>
 
-                    <p>
-                        <strong>Clinical Summary:</strong>
-                    </p>
+                    <br>
+                    <h4>
+                        Clinical Summary:
+                    </h4>
 
                     <p>
                     <ul>
@@ -100,7 +101,7 @@
                     </p>
 
                     <p>
-                        <strong>Who will benefit:</strong>
+                        Who will benefit:
                     </p>
 
                     <p>
