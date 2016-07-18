@@ -157,7 +157,11 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="panel panel-primary medlab_panel">
                         <div class="panel-heading medlab_panel_title">
-                            AS PER ARTG PUBLIC SUMARY:
+                            @if ( $product->product_name_index == "NOS" )
+                                FEATURES
+                            @else
+                                AS PER ARTG PUBLIC SUMARY:
+                            @endif
                         </div>
                         <div class="panel-body medlab_panel_content" style="text-align: justify">
 
