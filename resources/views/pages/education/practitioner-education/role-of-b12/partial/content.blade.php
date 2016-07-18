@@ -25,19 +25,19 @@
                         stomach acid for its release and subsequent binding to intrinsic factor for absorption across the
                         enterocytes.<sup>1</sup> Nanotechnology offers a form of oral drug delivery that enhances the absorptive
                         process and allows the release of the chosen drug/nutrient in a controlled manner. The
-                        micellization of drugs and nutrients produces nano-sized particles consisting of an inner
+                        nanocellisation of drugs and nutrients produces nano-sized particles consisting of an inner
                         hydrophobic core (drug/nutrient combined with lipid carrier or is itself fat-soluble) with a
                         hydrophilic outer shell (various surfactants) that interacts with the mucosal cells (Figure 1).
                         NanoCelle&trade; B12 consists of cyanocobalamin combined with d-alpha tocopherol (vitamin E) to form
                         the hydrophobic core coated with hydrophilic compounds obtaining a particle size approximately
-                        50 - 200 nm (0.05 – 0.2 micron) that is soluble in aqueous solution. The uptake of the micelle
+                        50 - 200 nm (0.05 – 0.2 micron) that is soluble in aqueous solution. The uptake of the nanocelle&trade;
                         particles across the mucosal membrane and the extent of drug/nutrient absorption increases with
                         decreasing particle size.<sup>2,3</sup>
                     </p>
 
                     <img class="img-responsive center-block" alt="Figure 1" src="/img/products/b12/B12figure1.png">
                     <p style="text-align: center">
-                        <strong>Figure 1.</strong> Formation of drug/nutrient-loaded micelle.<sup>2</sup><br>
+                        <strong>Figure 1.</strong> Formation of drug/nutrient-loaded Nanocelle&trade;.<sup>2</sup><br>
                         NanoCelle&trade; B12: Hydrophobic polymer = d-alpha tocopherol<br>
                         Drug molecule = cyanocobalamin
                     </p>
