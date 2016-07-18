@@ -194,7 +194,7 @@ class ModifyProduct extends Command
                 'side_effects' =>
                     '
                     <p>
-                        Magnesium supplementation is well tolerated and safe for most people but may cause stomach upset,
+                        Magnesium supplementation is well tolerated for most people but may cause stomach upset,
                         diarrhoea, nausea and vomiting in some individuals.
                     </p>
                     <p>
@@ -498,7 +498,7 @@ class ModifyProduct extends Command
                 'side_effects' =>
                     '
                 <p>
-                    Consuming Fish Oils and CoQ10 is likely safe for most people but may cause minor side effects.
+                    Consuming Fish Oils and CoQ10 is likely well tolerated by most people but may cause minor side effects.
                     <sup>30,31</sup> Your patients should not be alarmed by this list of possible side effects
                     as they may not experience any of them, but as their healthcare practitioner symptom should
                     be monitored:
