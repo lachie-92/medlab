@@ -776,7 +776,7 @@ class ModifyProduct extends Command
                 'side_effects' =>
                     '
                 <p>
-                    Consuming Fish Oils and CoQ10 is likely tolerated by most people but may cause minor side effects.
+                    Consuming Fish Oils and CoQ10 is likely well tolerated by most people but may cause minor side effects.
                     <sup>30,31</sup> Your patients should not be alarmed by this list of possible side effects
                     as they may not experience any of them, but as their healthcare practitioner symptom should
                     be monitored:
@@ -1046,7 +1046,7 @@ class ModifyProduct extends Command
                 'side_effects' =>
                     '
                 <p>
-                    Consuming Fish Oils and Plant Sterols is likely safe for most people but may cause minor side
+                    Consuming Fish Oils and Plant Sterols is likely well tolerated by most people but may cause minor side
                     effects. Your patients should not be alarmed by this list of possible side effects as they may not
                     experience any of them, but as their healthcare practitioner symptom should be monitored:
                 </p>
@@ -1301,7 +1301,7 @@ class ModifyProduct extends Command
                 'side_effects' =>
                     '
                 <p>
-                    Consuming Fish Oils and Plant Sterols is likely safe for most people but may cause minor side
+                    Consuming Fish Oils and Plant Sterols is likely well tolerated by most people but may cause minor side
                     effects. Your patients should not be alarmed by this list of possible side effects as they may not
                     experience any of them, but as their healthcare practitioner symptom should be monitored:
                 </p>
@@ -1888,7 +1888,7 @@ class ModifyProduct extends Command
                 'side_effects' =>
                     '
                 <p>
-                    Probiotics and lactoferrin are safe during pregnancy. Gastrointestinal symptoms such as bloating and discomfort may occur but is temporary.
+                    Probiotics and lactoferrin are well tolerated during pregnancy. Gastrointestinal symptoms such as bloating and discomfort may occur but is temporary.
                 </p>
                 <p>
                     You can also refer to the CMI for this product for symptoms and side effects.
@@ -5930,9 +5930,9 @@ class ModifyProduct extends Command
                 'side_effects' =>
                     '
                 <p>
-                    SB has shown to be safe in adults when taken orally for up to 15 month’s duration. It can cause flatulence
+                    SB has shown to be well tolerated in adults when taken orally for up to 15 month’s duration. It can cause flatulence
                     in some people. Infrequent cases of fungaemia have been reported in case reports but only in patients with
-                    serious diseases in which they have been hospitalised. SB has shown to be safe in children when taken orally
+                    serious diseases in which they have been hospitalised. SB has shown to be well tolerated in children when taken orally
                     appropriately. However, a healthcare practitioner should evaluate diarrhoea in children before using SB 5B&trade;.
                 </p>
                 <p>
