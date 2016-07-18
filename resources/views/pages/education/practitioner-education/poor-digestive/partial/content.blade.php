@@ -11,11 +11,11 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    POOR DIGESTIVE
+                    POOR DIGESTIVE FUNCTION
                 </div>
                 <div class="panel-body medlab_panel_content" style="text-align: justify">
                     <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
-                        <strong>POOR DIGESTIVE</strong>
+                        <strong>POOR DIGESTIVE FUNCTION</strong>
                     </h3>
 
                     <p>

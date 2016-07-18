@@ -1479,8 +1479,9 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-               
-               <strong>STANDARD INDICATIONS</strong>
+                
+                
+                <strong>STANDARD INDICATIONS</strong>
                 
                 <p>
                     <ul>
@@ -1498,17 +1499,17 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Enteral supplementation of multi-strain probiotics have shown to decrease the occurrence of necrotising enterocolitis in preterm infants. </li>
-                        <li>Clinical research demonstrates Lactoferrin alone or in combination with Lactobacillus rhamnosus decreases the occurrence of necrotizing enterocolitis in preterm infants. </li>
-                        <li>Supports a healthy immune system. </li>
-                        <li>Helps to maintain immune function. </li>
-                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile </li>
-                        <li>Lactoferrin is naturally found in colostrum and human milk and is a component of the innate immune response providing broad-spectrum anti-microbial and anti-viral activity.</li> 
-                        <li>The probiotic species have demonstrated ability to develop and maintain healthy digestive function, growth and immunological tolerance that may assist in the management of allergies including eczema. </li>
-
+                        <li>Enteral supplementation of multi-strain probiotics have shown to decrease the occurrence of necrotising enterocolitis in preterm infants.</li>
+                        <li>Clinical research demonstrates Lactoferrin alone or in combination with Lactobacillus rhamnosus decreases the occurrence of necrotizing enterocolitis in preterm infants.</li>
+                        <li>Supports a healthy immune system.</li>
+                        <li>Helps to maintain immune function.</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
+                        <li>Lactoferrin is naturally found in colostrum and human milk and is a component of the innate immune response providing broad-spectrum anti-microbial and anti-viral activity.</li>
+                        <li>The probiotic species have demonstrated ability to develop and maintain healthy digestive function, growth and immunological tolerance that may assist in the management of allergies including eczema.</li>
                     </ul>
                 </p>
-                                           
+                
+                               
 
                 <p>
                     <strong>SPECIFIC CONDITIONS</strong>
@@ -1524,19 +1525,16 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                <ul></ul>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
-                    <li>Derived from cows milk. </li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect). </li>
-
-                    </ul>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
+                    <li>Derived from cows milk
 
                 </p>
 
                
-                \',
-                \'references\' =>
-                    \'
+                ',
+                'references' =>
+                    '
                 <ol class="medlab_product_reference_list">
                     <li>Crane F. Biochemical functions of CoQ10. <em>J Am Coll Nutr</em> 2001;20:591-598.</li>
                     <li>Kon M et al. Reducing exercise-induced muscular injury in Kendo athletes with supplementation of CoQ10. <em>Br Nutr</em> 2008;100:903-909.</li>
@@ -1557,14 +1555,31 @@ class ModifyProduct extends Command
                     <li>Timmerman HM, Koning CJ, Mulder L, Rombouts FM, Beynen AC: Monostrain, multistrain and multispecies probiotics--A comparison of functionality and efficacy. <em>Int J Food Microbiol</em> 2004;96:219-233.</li>
                     <li>Vitetta L, Briskey D, Hayes E, Shing C, Peake J: A review of the pharmacobiotic regulation of gastrointestinal inflammation by probiotics, commensal bacteria and prebiotics. <em>Inflammopharmacology</em> 2012;20:251-266.</li>
                 </ol>
-                
-                \'interactions\' =>
-                    \'
-                Some medicines may interfere with Biotic Jnr.&trade;. These include:
-                    <li>Antibiotics</li>
 
-                </p></br>
-               
+                ',
+                'side_effects' =>
+                    '
+                <p>
+                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
+                </p>
+                <p>
+                    If symptoms persist parents should consult their healthcare practitioner. If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.
+                </p>
+                <p>
+                Lactoferrin in Biotic Jnr.™ is derived from cow\'s milk and contains less than 0.1% Lactose.
+                </p>
+                <p>
+                    You can also refer to the CMI for this product for symptoms and side effects.
+                </p>
+                ',
+                'interactions' =>
+                    '
+                <p>
+                    Some medicines may interfere with Biotic Jnr.&trade;. These include:
+                    <li>Antibiotics</li>
+                </p>
+                
+                
                 ',
                 'dosage_information' =>
                     '

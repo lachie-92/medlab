@@ -11,11 +11,11 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    EFFICACY OF SACCHAROMYCES BOULARDII FOR
+                    EFFICACY OF SACCHAROMYCES BOULARDII
                 </div>
                 <div class="panel-body medlab_panel_content" style="text-align: justify">
                     <h3 style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
-                        <strong>EFFICACY OF SACCHAROMYCES BOULARDII FOR</strong>
+                        <strong>EFFICACY OF SACCHAROMYCES BOULARDII</strong>
                     </h3>
 
                     <p>
@@ -131,7 +131,7 @@
                         SB is able to promote SCFA synthesis; restore fluid transport pathways within the intestine i.e. the sodium-glucose
                         transporter which is important for rehydration during diarrhoea and vomiting; preserve tight junction integrity;
                         stimulate protein and energy production and aid in enterocyte maturation via stimulating the release of spermine and
-                        spermidine or other brush border enzymes. SB is also capable in preventing the growth of <sup>Candida albicans</sup> and other
+                        spermidine or other brush border enzymes. SB is also capable in preventing the growth of <em>Candida albicans</em> and other
                         pathogens such as <em>Salmonella</em> and <em>Yersinia</em>.<sup>1,2</sup>
                     </p>
 

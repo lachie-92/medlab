@@ -74,7 +74,7 @@
                     <p>
                         Staphylococcus and Streptococcus are among the most abundant genera found in breast milk. Lactic acid bacteria in breast milk generates
                         an anaerobic environment in the neonate gut by consuming oxygen, promoting Bifidobacterium growth and later for several intestinal
-                        strains after weaning. The milk microbiota is vital for the neonates immune and GIT maturation. Without bacteria this simply does
+                        strains after weaning. The milk microbiota is vital for the neonates immune and GIT maturation, without bacteria this simply does
                         not occur.<sup>4</sup> There are large differences in neonatal gut colonisation between breastfed and formula fed infants. It has
                         been demonstrated that term breast fed infants are dominated by Bifidobacteria species but decreased Enterobacteria species, whereas
                         formula fed infants demonstrate a more diverse array of bacteria including Escherichia coli, Clostridium, Bacteroides,
