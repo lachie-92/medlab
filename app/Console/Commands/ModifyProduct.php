@@ -4607,121 +4607,24 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                <p>
-                    <strong>L-Arginine</strong>
-                </p>
-
-                <p>
-                    L-arginine is a semi-essential amino acid with numerous metabolic roles within the body. It is a building block for proteins
-                    (hormones, histones, collagen and intra-cellular structural proteins) and the synthesis of creatine – the high-phosphate energy
-                    stores in cells. L-arginine is the precursor to nitric oxide (NO) synthesis, an important cellular signaling molecule involved
-                    in many physiological processes and is most well known as a powerful vasodilator of blood vessels that regulates
-                    blood flow (see Figure 1). NO also has anti-inflammatory, anti-microbial and anti-viral activity, playing an important role in
-                    immunological function.<sup>1-3</sup> Endothelium-derived NO causes vasorelaxation and inhibits platelet adhesion and aggregation, thus
-                    maintaining blood fluidity and preventing thrombosis.<sup>4,5</sup> Platelets also produce NO that inhibits platelet aggregation, adhesion to
-                    vascular endothelium, recruitment to growing thrombi and the formation of leukocyte-platelet aggregates.
-                    Endothelial dysfunction is a common trait of essentially all cardiovascular risk factors. Impaired NO-mediated endothelial function
-                    is characteristic of cardiovascular diseases, correlates with risk factor profiles and is an independent predictor of adverse cardiac
-                    events.<sup>3</sup> Ageing is associated with an increase in atherothrombotic conditions, including. hypertension, and it has been suggested
-                    that there is an age-related decline in nitric oxide (NO) production in arterial endothelium and platelets. It has been reported that exogenous
-                    administration of L-arginine restores NO bioavailability.<sup>3</sup>
-                </p>
-
-                <p>
-                    <img alt="How L-Arginine Works in the Body" src="/img/products/nos/nos_figure1.png" class="img-responsive"><br>
-                    <strong>Figure 1. Metabolic pathways of L-arginine.<sup>6</sup></strong> NO, nitric oxide; NOS, nitric oxide synthase.
-                </p>
-
-                <p>
-                    <strong>Creatine</strong>
-                </p>
-
-                <p>
-                    Extensive research has been conducted on the ergogenic effects of creatine on improving physical and cognitive
-                    performance and increasing fat free mass, however the exact mechanisms are not clear.<sup>7</sup> Creatine increases cellular
-                    phosphocreatine content and together act as an intracellular buffer for adenosine triphosphate (ATP) and also as an
-                    energy shuttle for the movement of high-energy phosphates from mitochondrial sites of production to cytoplasmic sites
-                    of utilisation in a variety of cells and creatine must be continuously replenished (see Figure 2).<sup>8</sup>
-                    Creatine can be synthesised in the body from arginine and glycine, but muscle cells cannot synthesise creatine and so
-                    depend on the uptake from the circulation which can further be promoted by exercise.<sup>7,8</sup> Creatine is particularly found
-                    in cells with high and fluctuating energy demands, such as skeletal muscle and the heart.<sup>9</sup> The ergogenic affects of
-                    creatine are evident for high-intensity exercise of short duration and has been shown to increase muscle mass when
-                    combined with an exercise program.<sup>7,9</sup>
-                </p>
-
-                <p>
-                    <img alt="Muscle Metabolism" src="/img/products/nos/nos_figure2.png" class="img-responsive"><br>
-                    <strong>Figure 2. Some ATP is stored in a resting muscle and as contraction starts it is used up in seconds and more ATP
-                    is generated from creatine phosphate.<sup>10</sup></strong> ATP - adenosine triphosphate.
-                </p>
-
-                <p>
-                    <strong>Beta-Alanine</strong>
-                </p>
-
-                <p>
-                    Beta-alanine is a non-essential amino acid and the rate-limiting precursor to carnosine synthesis in muscle cells,
-                    an important physiological buffer that readily accepts protons during contraction-induced acidosis. Supplementation
-                    of beta-alanine is required to achieve the active daily dose required to significantly elevate intramuscular carnosine
-                    and it increases dose-dependently. Increasing muscle carnosine concentration may improve athletic performance in exercise
-                    tasks that accrue a high level of muscle acidosis, improving high-intensity intermittent exercise performance and time to fatigue.
-                    Carnosine is also involved in maintaining ATP stores in muscle cells and skeletal muscle cell contraction.<sup>11,12</sup>
-                    When combined with creatine, there is an additive effect on reducing fatigue and training intensity.<sup>12</sup>
-                </p>
-
-                <p>
-                    <strong>Tyrosine and Vitamins</strong>
-                </p>
-
-                <p>
-                    Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance;
-                    namely dopamine, noradrenaline and adrenaline. Tyrosine may aid in mental activity and in improving cognitive performance under
-                    stressful conditions due to its direct role in increasing catecholamine synthesis in the brain.<sup>13</sup> The B vitamins are involved in
-                    the transformation of dietary energy sources such as carbohydrates, fats and proteins into cellular energy in the form of ATP,
-                    functioning as cofactors and coenzymes for numerous enzymatic reactions. Vitamin C is required for the synthesis of catecholamine
-                    hormones, dopamine, adrenaline and noradrenaline.<sup>14</sup>
-                </p>
-
-                <p>
-                    <strong>Guarana Seed Powder</strong>
-                </p>
-
-                <p>
-                    Caffeine is widely used as an enhancement for athletic performance via its broad range of metabolic, hormonal and physiologic effects.
-                    Guarana is a natural source of caffeine. Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.
-                    Mechanisms include stimulation of the sympathetic nervous system, increase intracellular Ca<sup>2+</sup> concentrations and spare
-                    glycogen via increasing lipolysis.<sup>15</sup> Furthermore, caffeine affects cognition, mood and alertness via binding to adenosine
-                    receptors in the brain. Adenosine, a neuromodulator, binds to adenosine receptors and slows nerve cell activity, whereas caffeine
-                    blocks adenosine receptors and speeds up the activity of cells.<sup>15,16</sup> Research has demonstrated that small to moderate doses
-                    (i.e. 3 – 6 mg•kg-1) of caffeine has superior ergogenic effectiveness than higher doses (9 mg•kg-1) and also reduces any negative side-effects.<sup>15</sup>
-                </p>
-
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    Who will benefit:
-                </p>
-
-                <p>
-                    <ul>
-                        <li>Those wanting to improve exercise performance and time to fatigue</li>
-                        <li>Those wanting to improve cognitive performance</li>
-                        <li>Those wanting to improve cellular energy metabolism</li>
-                        <li>Those wanting to improve blood flow, tissue oxygenation and blood pressure</li>
-                        <li>The aging population who may demonstrate reduced ability to synthesise NO</li>
-                    </ul>
-                </p>
+                <ul>
+                <li>L-arginine is the precursor to nitric oxide (NO) synthesis, an important cellular signaling molecule involved in many physiological processes and is most well known as a powerful vasodilator of blood vessels that regulates blood flow.</li>
+                <li>The ergogenic affects of creatine are evident for high-intensity exercise of short duration and have been shown to increase muscle mass when combined with an exercise program.</li>
+                <li>Supplementation of beta-alanine is required to achieve the active daily dose required to significantly elevate intramuscular carnosine and it increases dose-dependently.  Increasing muscle carnosine concentration may improve athletic performance in exercise tasks that accrue a high level of muscle acidosis, improving high-intensity intermittent exercise performance and time to fatigue.</li>
+                <li>Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance; namely dopamine, noradrenalineand adrenaline.</li>
+                <li>Caffeine is widely used as an enhancement for athletic personmance via its broad range of metabolic, hormonal and physiologic effects. Guarana is a natural source of caffeine.  Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.</li>
+                
+                
+                </ul>
 
                 <p>
                     <strong>WARNINGS</strong>
                 </p>
 
                 <p>
-                    Not to be used as a sole source of nutrition. Should be used in conjunction with a balanced diet and appropriate exercise program.
-                    Not suitable for children under 15 years of age or pregnant women. Should only be used under medical or dietetic supervision.
-                    Contains not less than 30 mg of caffeine per serve.
+                    Not to be used as a sole source of nutrition.  Should be used in conjunction with a balanced diet and appropriate exercise program.  Not suitable for 
+                    children under 15 years of age or pregnant women.  Should only be used under medical or dietetic supervision.  Contains not less than 30mg of caffeine 
+                    per serve.
                 </p>
                 ',
                 'references' =>
@@ -4747,21 +4650,7 @@ class ModifyProduct extends Command
                 ',
                 'side_effects' =>
                     '
-                <p>
-                    <ul>
-                        <li>Caffeine may cause side-effects in some individuals including dizziness, headache, jitteriness, nervousness, insomnia and gastrointestinal distress.</li>
-                        <li>Beta-alanine may cause paraesthesia - pins and needles of the skin in some individuals.</li>
-                        <li>Creatine may cause muscles to retain water. Do not supplement creatine in individuals with kidney disease.</li>
-                        <li>Do not supplement L-arginine in individuals with Guanidinoacetate methyltransferase deficiency and avoid in people with herpes virus.</li>
-                        <li>
-                            L-arginine may decrease blood pressure therefore caution is required in individuals taking blood pressure medications. Medications that
-                            increase blood flow to the heart (Nitrates) interact with L-arginine.
-                        </li>
-                        <li>
-                            Tyrosine may decrease how much levodopa the body absorbs and it is advised to not combine the two.
-                        </li>
-                    </ul>
-                </p>
+                
                 ',
                 'interactions' =>
                     '
@@ -6737,6 +6626,12 @@ class ModifyProduct extends Command
                 'thumb_image_path' => '/img/products/w8biotic/thumb_w8biotic.png',
                 'in_stock' => true
             ],
+
+            /*
+
+
+
+
             [
                 'product_name_index' => "Immune-5 Vanilla",
                 'austl_number' => '276097',
@@ -7418,9 +7313,7 @@ class ModifyProduct extends Command
             'in_stock' => true,
             'slug' => 'immune-5-raspberry'
             ]
-
-
-
+            */
 
         ];
 

@@ -467,7 +467,6 @@ Route::get('/education/practitioner-education/nanocelle-b12', function () {
     return view('pages.education.practitioner-education.role-of-b12.index');
 });
 
-//3 more to confirm
 //Nanocelle D3
 Route::get('/education/practitioner-education/nanocelle-d3', function () {
     return view('pages.education.practitioner-education.is-vitamin-d3-essential.index');
@@ -481,6 +480,11 @@ Route::get('/education/practitioner-education/orsbiotic', function () {
 //SB5B
 Route::get('/education/practitioner-education/SB-5B', function () {
     return view('pages.education.practitioner-education.efficacy-of-saccharomyces-boulardii.index');
+});
+
+//NOS
+Route::get('/education/practitioner-education/NOS', function () {
+    return view('pages.education.practitioner-education.nitric-oxide-for-sport-performance.index');
 });
 
 
