@@ -55,10 +55,10 @@
                         sites, being the major excitatory neurotransmitter in the CNS.<sup>11</sup> See Figure 1.
                     </p>
                     <p>
-                        <img class="img-responsive" src="/img/products/12mg_optima/GABA_Glutamate_fig1.jpg" alt="">
+                        <img class="img-responsive center-block" src="/img/products/12mg_optima/GABA_Glutamate_fig1.jpg" alt="" style="width:600px;">
                     </p>
-                    <p>
-                        <strong>Fig 1. Neurotransmitter signalling<sup>12</sup></strong>
+                    <p style="text-align: center">
+                        <strong>Figure 1.</strong> Neurotransmitter signalling<sup>12</sup>
                     </p>
                     <p>
                         <strong>Glycine</strong>
@@ -82,10 +82,10 @@
                         precursor for GABA production using vitamin B6 as a cofactor.<sup>15-19</sup>
                     </p>
                     <p>
-                        <img class="img-responsive" src="/img/products/12mg_optima/Mgoptima_Fig2.jpg" alt="">
+                        <img class="img-responsive center-block" src="/img/products/12mg_optima/Mgoptima_Fig2.jpg" alt="" style="width:300px;">
                     </p>
-                    <p>
-                        <strong>Fig 2. GABA is synthesized from Glutamine and Glutamate<sup>20</sup></strong>
+                    <p style="text-align: center">
+                        <strong>Figure 2.</strong> GABA is synthesized from Glutamine and Glutamate<sup>20</sup>
                     </p>
                     <p>
                         <strong>L-Theanine</strong>
@@ -130,6 +130,7 @@
                         directly inhibited by zinc whereas GABA release from the presynapse can be potentiated
                         (see Figure 1).<sup>28</sup>
                     </p>
+                    <br>
                     <p>
                         <strong>Clinical Summary:</strong>
                     </p>
