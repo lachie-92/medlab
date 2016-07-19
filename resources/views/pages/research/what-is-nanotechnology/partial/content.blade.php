@@ -168,6 +168,9 @@
                     <p style="text-align: justify;">
                         Comparative blood work
                     </p>
+                    <p style="text-align: justify;">
+                        HREC Number: 003/032014
+                    </p>
                     <br>
                     <img class="img-responsive" src="/img/research/nanocelle5.png" style="width:600px" title="B12 Comparative blood work"/>
                     <img class="img-responsive" src="/img/research/nanocelle6.png" style="width:600px" title="B12 Comparative blood work"/>
