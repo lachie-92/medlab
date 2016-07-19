@@ -1525,8 +1525,8 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
+                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect). If diarrhoea persists, seek medical advice</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).</li>
                     <li>Derived from cows milk
 
                 </p>
@@ -2710,7 +2710,8 @@ class ModifyProduct extends Command
                     <ul>
                         <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
                         <li>May assist in the management of medically diagnosed irritable bowel syndrome </li>
-                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome \Helps maintain healthy digestive function.</li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
+                        <li>Helps maintain healthy digestive function.</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being. </li>
 
 
