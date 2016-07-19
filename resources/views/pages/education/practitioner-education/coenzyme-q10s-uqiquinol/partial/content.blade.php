@@ -18,9 +18,10 @@
                         <strong>COENZYME Q10S AS UBIQUINOL FOR CARDIOVASCULAR HEALTH</strong>
                     </h3>
 
-                    <h4>
-                        Omega-3 Fatty Acids and the Cardiovascular System
-                    </h4>
+                    <p>
+                        <strong>Omega-3 Fatty Acids and the Cardiovascular System</strong>
+                    </p>
+
                     <p>
                         Important fats that enhance the functional physiology of the cardiovascular system are
                         alpha–linolenic acid (ALA), the parent compound of the omega–3 fatty acid family, and
@@ -42,10 +43,9 @@
                         make blood less likely to form clots and create life-threatening thromboses.<sup>5</sup>
                     </p>
 
-                    <br>
-                    <h4>
-                        Omega-3 Fatty Acids and the Neurocognitive System
-                    </h4>
+                    <p>
+                        <strong>Omega-3 Fatty Acids and the Neurocognitive System</strong>
+                    </p>
                     <p>
                         As a predominant structural component of neural membranes in the brain and retina, DHA has
                         demonstrated to have a positive effect on membrane fluidity and permeability, receptor
@@ -67,10 +67,9 @@
                         dementia.<sup>9,10</sup>
                     </p>
 
-                    <br>
-                    <h4>
-                        Coenzyme Q10 as Ubiquinol for Cardiovascular Health
-                    </h4>
+                    <p>
+                        <strong>Coenzyme Q10 as Ubiquinol for Cardiovascular Health</strong>
+                    </p>
                     <p>
                         There is nothing more critical for all anabolic and catabolic cellular functions than an adequate,
                         constant supply of bioenergy.<sup>11</sup> Coenzyme Q10 (CoQ10) plays a central role in cellular
@@ -97,9 +96,9 @@
                     </p>
 
                     <br>
-                    <h4>
-                        Clinical Summary:
-                    </h4>
+                    <p>
+                        <strong>Clinical Summary:</strong>
+                    </p>
 
                     <p>
                         <ul>
@@ -111,7 +110,7 @@
                     </p>
 
                     <p>
-                        Who will benefit
+                        <strong>Who will benefit</strong>
                     </p>
 
                     <p>

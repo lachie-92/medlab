@@ -42,11 +42,10 @@
                     <br>
                     <img class="img-responsive center-block" width="500px;" src="/img/practitioner-education/human-mammary-microbiota.png" title="Schematic representation of the acquisition and development of the human mammary microbiota.">
                     <p style="text-align: center"><strong>Figure 1.</strong> Schematic representation of the acquisition and development of the human mammary microbiota.<sup>1</sup></p>
-                    <br>
 
-                    <h4>
-                        Breast Milk Microbiome
-                    </h4>
+                    <p>
+                        <strong>Breast Milk Microbiome</strong>
+                    </p>
 
                     <p>
                         Breast milk not only provides bioactive molecules to the infant, including: immunocompetent cells, immunoglobulins, fatty acids,
@@ -61,7 +60,7 @@
                     </p>
 
 
-                    <img class="img-responsive center-block" width="500px;" src="/img/practitioner-education/enteromammary-pathway.png" title="Enteromammary Pathway">
+                    <img class="img-responsive center-block" width="800px;" src="/img/practitioner-education/enteromammary-pathway.png" title="Enteromammary Pathway">
                     <div class="container-fluid">
                         <p>
                             <strong>Figure 2.</strong> Enteromammary Pathway: Dendritic cells in the lamina propria send dendrites into the maternal gut lumen via tight junctions
@@ -81,10 +80,9 @@
                         Prevotella and Lactobacillus species.<sup>2</sup>
                     </p>
 
-                    <br>
-                    <h4>
-                        Maternal Dysbiosis
-                    </h4>
+                    <p>
+                        <strong>Maternal Dysbiosis</strong>
+                    </p>
 
                     <p>
                         Alterations in the GIT microbiome is reported in numerous conditions such as obesity, type 2 diabetes mellitus, inflammatory bowel
@@ -101,9 +99,9 @@
                     </p>
 
                     <br>
-                    <h4>Clinical Summary:</h4>
+                    <p><strong>Clinical Summary:</strong></p>
 
-                    <p>Who Will Benefit</p>
+                    <p><strong>Who Will Benefit</strong></p>
 
                     <p>
 

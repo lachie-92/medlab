@@ -40,10 +40,9 @@
                         make blood less likely to form clots and create life-threatening thromboses.<sup>5</sup>
                     </p>
 
-                    <br>
-                    <h4>
-                        Plant Sterols for Healthy Blood Cholesterol and Triglyceride Support
-                    </h4>
+                    <p>
+                        <strong>Plant Sterols for Healthy Blood Cholesterol and Triglyceride Support</strong>
+                    </p>
                     <p>
                         Plant sterols were first described for their cholesterol lowering effects in the 1950’s, when they
                         were isolated from vegetable fats/oils and pine trees and were chemically analyzed for their
@@ -69,10 +68,9 @@
                         and stanols did not add any greater benefits of lowering a greater percentage of blood cholesterol.<sup>11,12</sup>
                     </p>
 
-                    <br>
-                    <h4>
-                        Omega-3 Fatty Acids combined with Plant Sterols
-                    </h4>
+                    <p>
+                        <strong>Omega-3 Fatty Acids combined with Plant Sterols</strong>
+                    </p>
                     <p>
                         A recent randomized, double-blind, placebo-controlled, parallel efficacy study investigated the
                         dose-response relation between a low dose (&lt;2 g/d) of EPA + DHA from fish oil combined with
@@ -86,9 +84,9 @@
                     </p>
 
                     <br>
-                    <h4>
-                        Clinical Summary:
-                    </h4>
+                    <p>
+                        <strong>Clinical Summary:</strong>
+                    </p>
 
                     <p>
                     <ul>
@@ -99,7 +97,7 @@
                     </p>
 
                     <p>
-                        Who will benefit:
+                        <strong>Who will benefit:</strong>
                     </p>
 
                     <p>

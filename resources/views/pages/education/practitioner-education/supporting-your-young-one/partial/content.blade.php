@@ -46,7 +46,6 @@
                         pre- and probiotics can have a significant impact with long lasting results.<sup>1</sup>
                     </p>
 
-                    <br>
                     <p style="text-align: center">
                         <strong>Table 1.</strong> Major differences in neonatal gut colonization by type of feeding.<sup>1</sup>
                     </p>
@@ -142,10 +141,9 @@
                         *Breast-fed infants have more colonization with Bifidobacteria species than their formula-fed counterparts
                     </p>
 
-                    <br>
-                    <h4>
-                        Probiotic Species for Infants
-                    </h4>
+                    <p>
+                        <strong>Probiotic Species for Infants</strong>
+                    </p>
 
                     <p>
                         Clinical evidence from a recent Cochrane Review conclude that the use of multi-species probiotics from
@@ -171,11 +169,9 @@
                         commensal in breast milk.
                     </p>
 
-
-                    <br>
-                    <h4>
-                        <em>Lactoferrin</em>
-                    </h4>
+                    <p>
+                        <strong><em>Lactoferrin</em></strong>
+                    </p>
 
                     <p>
                         Lactoferrin is the second most abundant protein in human breast milk, and is also secreted in tears,
@@ -190,10 +186,9 @@
                         preterm infants.<sup>8</sup>
                     </p>
 
-                    <br>
-                    <h4>
-                        <em>Prebiotics</em>
-                    </h4>
+                    <p>
+                        <strong><em>Prebiotics</em></strong>
+                    </p>
 
                     <p>
                         Prebiotics are selectively fermented compounds, naturally produced in the body or provided in the diet,
@@ -209,9 +204,9 @@
                     </p>
 
                     <br>
-                    <h4>
-                        Clinical Summary:
-                    </h4>
+                    <p>
+                        <strong>Clinical Summary:</strong>
+                    </p>
 
                     <p>
                     <ul>
@@ -225,7 +220,7 @@
                     </p>
 
                     <p>
-                        Who will benefit:
+                        <strong>Who will benefit:</strong>
                     </p>
 
                     <p>
