@@ -372,6 +372,9 @@ Route::get('/efficacy/vitamin-d-your-best-defence', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
+Route::get('/education/practitioner-education/{product_slug}', 'PractitionerOnlyController@redirect_practitioner_education');
+
+/*
 //NRGBiotic 60s
 Route::get('/education/practitioner-education/nrgbiotic-60s', function () {
     return view('pages.education.practitioner-education.importance-of-uridine.index');
@@ -487,7 +490,7 @@ Route::get('/education/practitioner-education/NOS', function () {
     return view('pages.education.practitioner-education.nitric-oxide-for-sport-performance.index');
 });
 
-
+*/
 
 
 

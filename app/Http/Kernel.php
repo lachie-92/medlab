@@ -32,6 +32,7 @@ class Kernel extends HttpKernel
         'authAdmin' => \App\Http\Middleware\AuthenticateAdmin::class,
         'authNotAdmin' => \App\Http\Middleware\AuthenticateNotAdmin::class,
         'shoppingCartNotEmpty' => \App\Http\Middleware\ShoppingCartNotEmpty::class,
-        'userStatusActive' => \App\Http\Middleware\UserStatusActive::class
+        'userStatusActive' => \App\Http\Middleware\UserStatusActive::class,
+        'authPractitioner' => \App\Http\Middleware\AuthenticatePractitioner::class,
     ];
 }
