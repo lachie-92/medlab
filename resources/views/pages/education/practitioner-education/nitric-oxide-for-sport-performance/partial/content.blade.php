@@ -39,7 +39,9 @@
                     </p>
 
                     <p>
-                        <img alt="How L-Arginine Works in the Body" src="/img/products/nos/nos_figure1.png" class="img-responsive"><br>
+                        <img alt="How L-Arginine Works in the Body" src="/img/products/nos/nos_figure1.png" class="img-responsive center-block" style="width: 1000px;">
+                    </p>
+                    <p style="text-align: center">
                         <strong>Figure 1. Metabolic pathways of L-arginine.<sup>6</sup></strong> NO, nitric oxide; NOS, nitric oxide synthase.
                     </p>
 
@@ -61,9 +63,12 @@
                     </p>
 
                     <p>
-                        <img alt="Muscle Metabolism" src="/img/products/nos/nos_figure2.png" class="img-responsive"><br>
-                        <strong>Figure 2. Some ATP is stored in a resting muscle and as contraction starts it is used up in seconds and more ATP
-                            is generated from creatine phosphate.<sup>10</sup></strong> ATP - adenosine triphosphate.
+                        <img alt="Muscle Metabolism" src="/img/products/nos/nos_figure2.png" class="img-responsive center-block" style="width: 1000px;">
+                    </p>
+                    <p style="text-align: center">
+                        <strong>Figure 2.</strong> Some ATP is stored in a resting muscle and as contraction starts it is used up in seconds and more ATP
+                            is generated from creatine phosphate.<sup>10</sup><br>
+                        ATP - adenosine triphosphate.
                     </p>
 
                     <p>
@@ -108,7 +113,8 @@
                     </p>
 
                     <hr>
-
+                    <strong>References</strong><br>
+                    <br>
                     <ol class="medlab_product_reference_list">
                         <li>Hristina K, Langerholc T, Trapecar M. Novel metabolic roles of L-arginine in body energy metabolism and possible clinical applications. <em>J Nutr, Health & Aging</em> 2014;18:213-18.</li>
                         <li>Zhao Y, Vanhoutte PM, Leung, SWS. Vascular nitric oxide: beyond eNOS. <em>J Pharmacol Sci </em> 2015;129:83-94.</li>

@@ -24,19 +24,19 @@
 
                     <p>
                     The gastrointestinal (GIT) mucosal surface is a complex and interactional environment, which is continuously exposed to a range of commensal microorganisms.
-                    The human-microbial gastrointestinal interface is an ecosystem that participates in a variety of important roles in human health and disease.<sup>10, 11</sup>
+                    The human-microbial gastrointestinal interface is an ecosystem that participates in a variety of important roles in human health and disease.<sup>10,11</sup>
                     </p>
 
                     <p>
                     The microbiome interacts with the human host’s GIT by providing the necessary prompts for the development of regulated pro- and anti-inflammatory signals,
                     that overall promote immunological tolerance as well as metabolic and inflammatory homeostasis. This then, exerting regulatory control over local and
-                    extra-intestinal activities (e.g. skin, liver, brain).<sup>10, 11</sup>
+                    extra-intestinal activities (e.g. skin, liver, brain).<sup>10,11</sup>
                     </p>
 
                     <p>
                     To ensure proper immune-digestive efficiency and overall intestinal function, a balance in the overall composition of the gut microbiota would seem to be a
                     necessary prerequisite throughout a lifetime. The continued understanding of this functionality presents a view of the GIT that is wide ranging in health
-                    importance and with implications in a variety of health issues from immunological tolerance, obesity and metabolic disorders.<sup>11, 12</sup>
+                    importance and with implications in a variety of health issues from immunological tolerance, obesity and metabolic disorders.<sup>11,12</sup>
                     </p>
 
                     <p>
@@ -47,8 +47,8 @@
 
                     <p>
                     Recent research has focused on elucidating the inter-relationships that may exist between the GIT microbiome and its host in health and disease.<sup>9,13</sup> It
-                    is reported that the GIT microbiome is being continuously compromised with factors such as over consumption of dietary fat, <sup>10,11</sup> gut-stressing physical
-                    exercise,<sup>12</sup> increasing urbanisation <sup>14</sup> and medical therapies.<sup>15</sup>
+                    is reported that the GIT microbiome is being continuously compromised with factors such as over consumption of dietary fat,<sup>10,11</sup> gut-stressing physical
+                    exercise,<sup>12</sup> increasing urbanisation<sup>14</sup> and medical therapies.<sup>15</sup>
                     </p>
 
                     <p>
@@ -58,7 +58,7 @@
                     </p>
 
                     <br>
-                    <h4>Clinical Summary</h4>
+                    <p><strong>Clinical Summary</strong></p>
 
                     <p>MultiBiotic&trade; may help to promote optimal gastrointestinal care and immune function.</p>
 
@@ -75,7 +75,7 @@
 
                     </p>
 
-                    <p>Specific Use:</p>
+                    <p><strong>Specific Use:</strong></p>
 
                     <p>
 
@@ -86,7 +86,7 @@
 
                     </p>
 
-                    <p>Potential Claims</p>
+                    <p><strong>Potential Claims:</strong></p>
 
                     <p>
 

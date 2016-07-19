@@ -55,13 +55,18 @@
                         the fat-soluble compound, beta-carotene.
                     </p>
 
+                    <br>
                     <p>
-                        <img class="img-responsive" alt="Figure 1" src="/img/products/d3/D3figure1.png"><br>
-                        <strong>
-                            Figure 1. (a) Micellized beta-carotene (a fat-soluble carotene) is completely soluble in water;
-                            (b) non-micellized beta-carotene is not water soluble and sits on the water surface.
-                        </strong>
+                        <img class="img-responsive center-block" alt="Figure 1" src="/img/products/d3/D3figure1.png" style="width: 600px;">
                     </p>
+                    <p style="text-align: center">
+                        <strong>Figure 1.</strong> (a) Micellized beta-carotene (a fat-soluble carotene) is completely soluble in water;
+
+                    </p>
+                    <p style="text-align: center">
+                        (b) non-micellized beta-carotene is not water soluble and sits on the water surface.
+                    </p>
+                    <br>
 
                     <p>
                         NanoCelle&trade; D3 consists of cholecalciferol forming the hydrophobic core coated with
@@ -73,13 +78,18 @@
                     </p>
 
                     <p>
-                        <img class="img-responsive" alt="Figure 2" src="/img/products/d3/D3figure2.png"><br>
-                        <strong>Figure 2. Formation of drug/nutrient-loaded micelle.<sup>7</sup></strong>
+                        <img class="img-responsive center-block" alt="Figure 2" src="/img/products/d3/D3figure2.png">
                     </p>
-
-                    <p>
-                        <strong>NanoCelle&trade; D3: Hydrophobic polymer/drug molecule = cholecalciferol</strong>
+                    <p style="text-align: center">
+                        <strong>Figure 2.</strong> Formation of drug/nutrient-loaded micelle.<sup>7</sup>
                     </p>
+                    <p style="text-align: center">
+                        NanoCelle&trade; D3: Hydrophobic polymer
+                    </p>
+                    <p style="text-align: center">
+                        Drug molecule = cholecalciferol
+                    </p>
+                    <br>
 
                     <p>
                         The secosteroid hormone 1,25(OH)2D is the biologically active form of vitamin D3 and initiates
@@ -94,15 +104,21 @@
                         regulating Th1, Th2, Treg and Th17 responses (Figure 3).<sup>11</sup>
                     </p>
 
+                    <br>
                     <p>
-                        <img class="img-responsive" alt="Figure 3" src="/img/products/d3/D3figure3.png"><br>
-                        <strong>Figure 3. Vitamin D and innate and adaptive immune function.<sup>11</sup></strong>
+                        <img class="img-responsive center-block" alt="Figure 3" src="/img/products/d3/D3figure3.png">
+                    </p>
+                    <p style="text-align: center">
+                        <strong>Figure 3.</strong> Vitamin D and innate and adaptive immune function.<sup>11</sup>
+                    </p>
+                    <p style="text-align: center">
+                        CYP27b1: 25-hydroxyvitamin D-1 alpha hydroxylase (converts 25(OH)D to 1,25(OH)2D);
+                    </p>
+                    <p style="text-align: center">
+                        VDR: vitamin D receptor
                     </p>
 
-                    <p>
-                        <strong>CYP27b1: 25-hydroxyvitamin D-1 alpha hydroxylase (converts 25(OH)D to 1,25(OH)2D); VDR: vitamin D receptor</strong>
-                    </p>
-
+                    <br>
                     <p>
                         <strong>Clinical Summary:</strong>
                     </p>

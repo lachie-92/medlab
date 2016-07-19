@@ -54,10 +54,10 @@
                         bicarbonate due to its stability.<sup>4</sup>
                     </p>
                     <p>
-                        <img class="img-responsive" alt="Figure 1" src="/img/products/orsbiotic/ors_pic_1.png">
+                        <img class="img-responsive center-block" alt="Figure 1" src="/img/products/orsbiotic/ors_pic_1.png">
                     </p>
-                    <p>
-                        <strong>Figure 1. Coupled transport of sodium and glucose in intestinal epithelial cells.</strong>
+                    <p style="text-align: center;">
+                        <strong>Figure 1.</strong> Coupled transport of sodium and glucose in intestinal epithelial cells.
                     </p>
                     <p>
                         <strong>Zinc</strong>
@@ -116,7 +116,7 @@
                         preventing dehydration while exercising and potentially the development of gut permeability
                         that is seen with athletes training in hot and humid conditions.<sup>15</sup>
                     </p>
-
+                    <br>
                     <p>
                         <strong>Clinical Summary:</strong>
                     </p>
@@ -142,7 +142,8 @@
                     </p>
 
                     <hr>
-
+                    <strong>References</strong><br>
+                    <br>
                     <ol class="medlab_product_reference_list">
                         <li>Duggan C, et al. Composition of oral rehydration solution. <em>JAMA</em> 2004;291:2628.</li>
                         <li>Farthing MJG. Oral Rehydration: An evolving solution. <em>J Pediat Gastroenterol Nutr</em> 2002;34:S64.</li>

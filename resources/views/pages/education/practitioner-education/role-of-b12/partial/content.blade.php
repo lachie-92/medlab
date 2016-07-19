@@ -90,9 +90,9 @@
                     </p>
 
                     <br>
-                    <h4>
-                        Clinical Summary:
-                    </h4>
+                    <p>
+                        <strong>Clinical Summary:</strong>
+                    </p>
 
                     <p>
                         NanoCelle&trade; B12 is a nano-particle formulation that may:
@@ -112,7 +112,7 @@
                     </p>
 
                     <p>
-                        Specific Use:
+                        <strong>Specific Use:</strong>
                     </p>
 
                     <p>

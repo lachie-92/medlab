@@ -87,9 +87,9 @@
                     </p>
 
                     <br>
-                    <h4>
-                        Clinical Summary:
-                    </h4>
+                    <p>
+                        <strong>Clinical Summary:</strong>
+                    </p>
 
                     <p>
                         <ul>
@@ -101,7 +101,7 @@
                     </p>
 
                     <p>
-                        Who will benefit:
+                        <strong>Who will benefit:</strong>
                     </p>
 
                     <p>

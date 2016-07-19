@@ -27,10 +27,9 @@
                         in the treatment of infections having anti-microbial and anti-inflammatory activity.<sup>9-11</sup>
                     </p>
 
-                    <br>
-                    <h4>
-                        Ascorbic Acid:
-                    </h4>
+                    <p>
+                        <strong>Ascorbic Acid:</strong>
+                    </p>
 
                     <p>
                         Ascorbic acid is a water-soluble vitamin essential for healthy immune system activity and can only be obtained from the
@@ -51,12 +50,12 @@
                     </p>
                     <br>
                     <p>
-                        <img alt="Figure 1-3" src="/img/products/manuka-c/manuka_figure1-3.png" class="img-responsive"><br>
+                        <img alt="Figure 1-3" src="/img/products/manuka-c/manuka_figure1-3.png" class="img-responsive center-block" style="width: 900px;"><br>
                     </p>
 
-                    <h4>
-                        Glutathione:
-                    </h4>
+                    <p>
+                        <strong>Glutathione:</strong>
+                    </p>
 
                     <p>
                         Glutathione is an intrinsic tripeptide essential for optimal immune function; this is exemplified predominantly in
@@ -82,10 +81,9 @@
                         GSH: reduced glutathione; GSSG: oxidized glutathione; GRD: glutathione reductase
                     </p>
 
-                    <br>
-                    <h4>
-                        Zinc:
-                    </h4>
+                    <p>
+                        <strong>Zinc:</strong>
+                    </p>
 
                     <p>
                         Zinc is necessary for numerous metabolic functions, particularly gene expression; cell growth and differentiation.<sup>8</sup>
@@ -97,10 +95,9 @@
                         and/or duration of the common cold.<sup>8</sup>
                     </p>
 
-                    <br>
-                    <h4>
-                        Manuka Honey:
-                    </h4>
+                    <p>
+                        <strong>Manuka Honey:</strong>
+                    </p>
 
                     <p>
                         Manuka honey has been used as a traditional anti-microbial therapy for the treatment of infection.<sup>11</sup> Honey has
@@ -111,12 +108,12 @@
                     </p>
 
                     <br>
-                    <h4>
-                        Clinical Summary
-                    </h4>
+                    <p>
+                        <strong>Clinical Summary:</strong>
+                    </p>
 
                     <p>
-                        Who will benefit:
+                        <strong>Who will benefit:</strong>
                     </p>
 
                     <p>

@@ -136,8 +136,10 @@
                     </p>
 
                     <p>
-                        <img alt="Effects of Difference Pathogens" src="/img/products/sb_5b/sb5b_figure1.png" class="img-responsive"><br>
-                        <strong>Figure 1. Multiple potential mechanisms of action of <em>Saccharomyces boulardii</em>.<sup>1</sup></strong>
+                        <img alt="Effects of Difference Pathogens" src="/img/products/sb_5b/sb5b_figure1.png" class="img-responsive center-block">
+                    </p>
+                    <p style="text-align: center">
+                        <strong>Figure 1.</strong> Multiple potential mechanisms of action of <em>Saccharomyces boulardii</em>.<sup>1</sup>
                     </p>
 
                     <p>
@@ -145,7 +147,7 @@
                     </p>
 
                     <p>
-                        Who will benefit:
+                        <strong>Who will benefit:</strong>
                     </p>
 
                     <p>

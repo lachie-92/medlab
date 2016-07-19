@@ -110,7 +110,7 @@
                     </p>
 
                     <p>
-                        <strong>Who will benefit</strong>
+                        <strong>Who will benefit:</strong>
                     </p>
 
                     <p>

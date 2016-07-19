@@ -101,7 +101,7 @@
                     <br>
                     <p><strong>Clinical Summary:</strong></p>
 
-                    <p><strong>Who Will Benefit</strong></p>
+                    <p><strong>Who Will Benefit:</strong></p>
 
                     <p>
 
