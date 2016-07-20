@@ -71,13 +71,12 @@
                         REGISTER FOR A PRACTITIONER ACCOUNT TODAY
                     </div>
                     <div class="medlab_news_item_body">
-                        <br>
                         <p>
                             <a href="https://goo.gl/aGHsdZ" target="_blank">
                                 <img alt="Register for a practitioner account"
                                      src="/img/news/pracacc_register.jpg"
                                      title="Register for a practitioner account"
-                                     width="100%"
+                                     width="500px;"
                                      class="img-responsive center-block">
                             </a>
                         </p>
