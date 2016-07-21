@@ -126,7 +126,6 @@
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             Professor Luis Vitetta presents Medlab Seminar in: Sydney, Melbourne, Gold Coast, Perth and Brisbane to our Health Practitioners.<br>
                         </h2>
-                        Proving to be a great event with seats filling up fast.</br>
                         <br>
                         <img alt="Medlab Seminars"
                              src="/img/news/Medlab_Seminar.jpg"
@@ -154,8 +153,8 @@
                             The conference aims to connect medical and health practitioners in Australia, as they come together
                             to learn and understand more about integrative and preventative approaches to treatment and medicine.
                             This is to address the future health crises caused by 21st century lifestyle habits and keep people
-                            living a quality life for longer.  Medlab will be exhibiting at booth 15 and both Professor Luis Vitetta
-                            and Dr Samantha Coulson will be presenting at this event.
+                            living a quality life for longer. Medlab will be exhibiting at booth 15 and Professor Luis Vitetta
+                            will be presenting at this event.
                         </p>
                         <br><br>
 
