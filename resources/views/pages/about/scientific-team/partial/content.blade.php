@@ -73,25 +73,6 @@
                         to speak at local and international conferences.
                     </p>
                     <h3>
-                        <strong>Dr Samantha Coulson</strong>
-                    </h3>
-                    <p>
-                        <strong>Senior Scientist, Head of Pharmacovigilance &amp; Regulatory Affairs</strong>
-                    </p>
-                    <p>
-                        <img style="float: left; margin-right: 10px;" title="Samantha Coulson Portrait" src="/img/about/DSC_1068_1.jpeg" alt="Samantha Coulson Portrait" width="125">
-                    </p>
-                    <p style="text-align: justify;">
-                        Samantha holds a Bachelor degree in Health Science, Graduate Certificate in Research
-                        Commercialisation and a PhD in Medicine from the University of Queensland School of Medicine
-                        based at the Princess Alexandra Hospital in Brisbane. Her PhD involved assessing the microbiota
-                        profile of patients with osteoarthritis and the effect arthritic supplements, i.e. green-lipped
-                        mussel and glucosamine, had on gut bacterial profiles in relation to therapeutic efficacy.
-                    </p>
-                    <p style="text-align: justify;">
-                        At Medlab Samantha's researches the human microbiome and its role in health and disease.
-                    </p>
-                    <h3>
                         <strong>Dr Rachel Manuel</strong>
                     </h3>
                     <p>
