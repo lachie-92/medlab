@@ -160,7 +160,7 @@
                             @if ( $product->product_name_index == "NOS" )
                                 FEATURES
                             @else
-                                AS PER ARTG PUBLIC SUMARY:
+                                AS PER ARTG PUBLIC SUMMARY:
                             @endif
                         </div>
                         <div class="panel-body medlab_panel_content" style="text-align: justify">
