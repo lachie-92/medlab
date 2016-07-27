@@ -94,21 +94,7 @@
                     <br>
                     <p style="padding-left: 30px;">
                         <strong>Senior Scientist Dr Samantha Coulson</strong>
-                    </p>
-                    <div style="padding-left: 30px;">
-                        <p>
-                            <img style="float: left; margin-right: 10px;" title="Samantha Coulson Portrait" src="/img/about/DSC_1068_1.jpeg" alt="Samantha Coulson Portrait" width="100">
-                        </p>
-                        <p style="text-align: justify;">
-                            Samantha holds a PhD in Medicine from The University of Queensland, School of Medicine and
-                            currently holds an Honorary Senior Research position at The University of Sydney,
-                            Sydney Medical School. Samantha is Senior Scientist at Medlab Clinical managing all
-                            aspects of drug and probiotic formulation development and together with Prof Luis Vitetta
-                            supervises all research projects and publications undertaken at Medlab. Further she is an
-                            associate advisor/supervisor for a number of PhD&nbsp;candidates. She is both a National
-                            and International Presenter at Scientific conferences in the field of the human microbiome
-                            and its interaction with the human host.
-                        </p>
+                    
                     </div>
                     <br>
                     <h3>
