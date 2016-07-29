@@ -47,13 +47,11 @@ class UpdateDeal extends Command
     {
         Model::unguard();
 
-        /*
         DB::statement("SET foreign_key_checks = 0");
         Buy_One_Get_One_Free::truncate();
         Price_Discount::truncate();
         Promotion::truncate();
         DB::statement("SET foreign_key_checks = 1");
-        */
 
         $buy_one_get_one_free_deals = [
 
@@ -120,10 +118,81 @@ class UpdateDeal extends Command
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
-
+            //AUGUST
+            [
+                'product' => "GastroDaily",
+                'name' => "August 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "12Mg Optima Relax",
+                'name' => "August 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "BioClean EPA:DHA + CoQ10 60s",
+                'name' => "August 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => 'BioClean EPA:DHA + Plant Sterols 60s',
+                'name' => "August 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => 'NanoCelle D3',
+                'name' => "August 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 2 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2016 23:59:59'),
+                'minimum_qty' => '2',
+                'bonus_qty' => '1'
+            ],
         ];
 
         $discount_deals = [
+            [
+                'product' => 'SB 5B',
+                'name' => "August 2016 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% Off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2016 23:59:59'),
+                'discount_percentage' => '30'
+            ],
         ];
 
 
