@@ -62,7 +62,7 @@
                                                     <span class="medlab_product_info_price_box_label">
                                                         Price:
                                                     </span>
-                                                    ${!! $product->price_wholesale !!}
+                                                    ${!! number_format($product->price_wholesale, 2) !!}
                                                     <span style="font-size: 12px; color: #555;">
                                                         WS
                                                     </span>
@@ -70,7 +70,7 @@
                                                     <span class="medlab_product_info_price_box_label">
                                                         Price:
                                                     </span>
-                                                    ${!! round($product->price_retail*11/10, 2) !!}
+                                                    ${!! number_format($product->price_retail*11/10, 2) !!}
                                                 @else
 
                                                 @endif
