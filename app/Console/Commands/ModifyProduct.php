@@ -1772,8 +1772,8 @@ class ModifyProduct extends Command
                     You can also refer to the CMI for this product for symptoms and side-effects.
                 </p>
                 ",
-                'price_retail' => 57.12,
-                'price_wholesale' => 38.08,
+                'price_retail' => 41.50,
+                'price_wholesale' => 24.95,
                 'image_path' => '/img/products/boitic_jnr/bioticjnr.png',
                 'thumb_image_path' => '/img/products/boitic_jnr/thumb_bioticjnr.png',
                 'in_stock' => true
