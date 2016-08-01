@@ -123,17 +123,6 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            Professor Luis Vitetta presents Medlab Seminar in: Sydney, Melbourne, Gold Coast, Perth and Brisbane to our Health Practitioners.<br>
-                        </h2>
-                        <br>
-                        <img alt="Medlab Seminars"
-                             src="/img/news/Medlab_Seminar.jpg"
-                             title="Medlab Seminars"
-                             width="600px"
-                             class="img-responsive center-block">
-                        <br><br>
-
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             <a href="https://www.a5m.net/events/category/annual-conference" target="_blank" class="medlab_news_content_link">
@@ -156,6 +145,24 @@
                             living a quality life for longer. Medlab will be exhibiting at booth 15 and Professor Luis Vitetta
                             will be presenting at this event.
                         </p>
+                        <br><br>
+
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                            <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">
+                                Professor Luis Vitetta will be presenting at the Annual RACGP 'GP 16’ in Perth.</br>
+                                We look froward to seeing you there - visit our Practitioner Consultants at booth 203.
+                            </a>
+                        </h2>
+                        <p>
+                            <a href="http://gp16.com.au/" target="_blank">
+                                <img alt="10th Annual A5M Conference"
+                                     src="/img/news/RACGP16.png"
+                                     title="RACGP"
+                                     width="600px"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+
                         <br><br>
 
 
@@ -345,32 +352,22 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="https://nutritionmedicine.org.au/" target="_blank">
+                                <a href="https://www.a5m.net/events/category/annual-conference" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        Dr Samantha Coulson will be contributing to the scientific program.
+                                        Prof Luis Vitetta will be contributing to the scientific program.
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%"  alt="Diet and Gut Health " src="/img/news/Apr2016_nutrition_in_medicine.png" target="blank">
+                                        <img width="100%"  alt="Diet and Gut Health " src="/img/news/A5M_banner.jpg" target="blank">
                                     </div>
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.gpce.com.au/" target="_blank">
+                                <a href="http://www.gp16.com.au/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        Prof Luis Vitetta and Dr Samantha Coulson will be contributing to the scientific program.
+                                        Prof Luis Vitetta will be contributing to the scientific program.
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%" alt="Diet and Gut Health " src="/img/news/May2016_gpce_sydney.jpg" target="_blank" >
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.iddst.com/iddstkorea2016/" target="_blank">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        Mr Sean Hall will be contributing to the scientific program in South Korea.
-                                    </div>
-                                    <div class="media-left media-middle">
-                                        <img width="100%" alt="Diet and Gut Health " src="/img/news/IDDST.png" target="_blank" >
+                                        <img width="100%" alt="Diet and Gut Health " src="/img/news/RACGP16.png" target="_blank" >
                                     </div>
                                 </a>
                             </li>
