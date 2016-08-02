@@ -92,9 +92,7 @@
                         </p>
                     </div>
                     <br>
-                    <p style="padding-left: 30px;">
-                        <strong>Senior Scientist Dr Samantha Coulson</strong>
-                    
+                                        
                     </div>
                     <br>
                     <h3>
