@@ -125,24 +125,7 @@
                         diagnosed with type 2 diabetes.
                     </p>
                     <br>
-                    <h3>
-                        <strong>Dr Laura Lum</strong>
-                    </h3>
-                    <p>
-                        <strong>Psychologist, Nutritionist, Research Scientist</strong>
-                    </p>
-                    <p style="text-align: justify;">
-                        <img style="float: left; margin-right: 10px;" title="Laura Lum Portrait" src="/img/about/Laura_Lum.png" alt="Laura Lum Portrait" width="125">
-                    </p>
-                    <p style="text-align: justify;">
-                        Laura is a GAPS<sup>TM</sup> Nutritionist and Registered Psychologist with the Australian
-                        Psychological Society and Australian Health Practitioner Regulation Agency. She runs
-                        clinics which integrate psychological treatment with digestive health, nutritional and
-                        lifestyle protocols. Laura completed a Bachelor of Science in Psychology at UCL in London,
-                        UK with a First Class Honours Degree and a PhD in Counselling and Psychotherapeutic
-                        Psychology at the University of Surrey, UK where she undertook research into Personality
-                        and Emotional Intelligence.
-                    </p>
+                    
                 </div>
             </div>
         </div>
