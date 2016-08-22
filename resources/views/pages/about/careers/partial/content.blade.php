@@ -166,7 +166,7 @@
 
 
                     <a name="PractitionerConsultantFieldRep"></a>
-                    <h3>Practitioner Consultant - Field Rep, Gold Coast</h3>
+                    <h3>Practitioner Consultant Field Rep Gold Coast</h3>
                     <li>Full Time / Permanent</li>
                     <li>Career Growth</li></br>
                     <p>Due to a rapid increase in market share we are seeking a highly ambitious Practitioner Consultant Field Rep to join our extremely motivated and successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
