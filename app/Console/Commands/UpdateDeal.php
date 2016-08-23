@@ -55,70 +55,7 @@ class UpdateDeal extends Command
 
         $buy_one_get_one_free_deals = [
 
-            //
-            //July
-            //
-            [
-                'product' => "NanoCelle B12",
-                'name' => "July 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "SB 5B",
-                'name' => "July 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "NanoCelle Activated B12",
-                'name' => "July 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "NanoCelle D3",
-                'name' => "July 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "Manuka-C",
-                'name' => "July 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            //AUGUST
+            //Till End of AUGUST
             [
                 'product' => "GastroDaily",
                 'name' => "August 2016 Deals",
@@ -177,6 +114,20 @@ class UpdateDeal extends Command
                 'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2016 23:59:59'),
                 'minimum_qty' => '2',
+                'bonus_qty' => '1'
+            ],
+
+            //Till End of Sep
+            [
+                'product' => 'NanoCelle D3 + K2',
+                'name' => "New Product Special",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
+                'minimum_qty' => '4',
                 'bonus_qty' => '1'
             ],
         ];
