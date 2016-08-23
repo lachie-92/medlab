@@ -83,6 +83,9 @@ class PractitionerOnlyController extends Controller
             case "NOS":
                 return view('pages.education.practitioner-education.nitric-oxide-for-sport-performance.index');
                 break;
+            case "nanocelle-d3-k2":
+                return view('pages.education.practitioner-education.mechanisms-of-d3-and-k2.index');
+                break;
             default:
                 return view('errors.404');
         }

@@ -6331,6 +6331,299 @@ class ModifyProduct extends Command
                 'thumb_image_path' => '/img/products/w8biotic/thumb_w8biotic.png',
                 'in_stock' => true
             ],
+            [
+                'product_name_index' => 'NanoCelle D3 + K2',
+                'austl_number' => '273824',
+                'product_name' => "NanoCelle&trade; D3 + K2",
+                'short_description' =>
+                    '
+                    <h4 class="medlab_product_content_title">NanoCelle&trade; D3 + K2</h4>
+                    <p>
+                        <strong>PATENT PENDING</strong>
+                    </p>
+                    <p>
+                        NanoCelle&trade; D3 + K2 is indicated to sustain mineral homeostasis
+                        facilitating optimal immune function, cardiovascular health and bone metabolism, and to assist
+                        in the management of medically diagnosed vitamin D deficiency.
+                    </p>
+                ',
+                'patent' =>
+                    '
+                    <p>
+                        <strong>PATENT PENDING</strong>
+                    </p>
+                    <p>
+                        Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                    </p>
+                ',
+                'general_summary' =>
+                    '
+                    <p>
+                        NanoCelle&trade; D3 + K2 is developed from patent-protected nanocellization
+                        technology that produces Vitamin D3 and Vitamin K2 submicron nanoparticles that are easily absorbed
+                        across the oral mucosal epithelia.<sup>1</sup> NanoCelle&trade; D3 + K2 is
+                        indicated to sustain mineral homeostasis facilitating optimal immune function, cardiovascular health
+                        and bone metabolism, and to assist in the management of medically diagnosed vitamin D deficiency.
+                        Vitamin D3 is essential for cellular and immunological function and is also essential for skeletal
+                        muscle maintenance and regeneration given its primary physiological role is the absorption and binding
+                        of calcium within the body.<sup>2,3</sup> Vitamin K2 belongs to a group of fat-soluble vitamins that is
+                        essential in the body for the synthesis of specific proteins required to initiate the process of blood
+                        coagulation in the response to an injury and to optimize the integrity of blood vessels and bones.<sup>4</sup>
+                    </p>
+                ',
+                'practitioner_summary' =>
+                    '
+                    <p>
+                        <strong>STANDARD INDICATIONS</strong>
+                    </p>
+                    <p>
+                        Prevention/treatment of vitamin and/or mineral and/or nutritional deficiencie (NOTE: This indication
+                        is not for the treatment of iron deficiency conditions). Vitamin D helps calcium absorption and a
+                        diet deficient in calcium can lead to osteoporosis in later life.
+                    </p>
+                    <br>
+                    <p>
+                        <strong>SPECIFIC INDICATIONS</strong>
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li>
+                                Vitamin D is required for proper cellular and immunological function Vitamin D3
+                                supplementation may increase serum vitamin D levels and bone mineral density (BMD) in
+                                vitamin D deficient individuals.
+                            </li>
+                            <li>
+                                Vitamin D3 binds to and activates the vitamin D receptor (VDR) that is responsible for
+                                the transcription and transrepression of genes.
+                            </li>
+                            <li>
+                                The VDR is a nuclear receptor found in immune cells and other cell types and is a control
+                                system for the innate immune system.
+                            </li>
+                            <li>
+                                Vitamin D3 binds to the VDR in immune cells and activates the transcription of cathelicidin
+                                and beta-defensin that are antimicrobial peptides.
+                            </li>
+                            <li>
+                                Vitamin D3 may help to promote healthy respiratory function.
+                            </li>
+                            <li>
+                                Vitamin D3 is involved in the attenuation of inflammatory responses and conditions within the body.
+                            </li>
+                            <li>
+                                The micellization process produces nano-sized particles that enhances nutrient absorption
+                                and bioavailability.
+                            </li>
+                            <li>
+                                Vitamin D3 is associated with musculoskeletal health (bone and muscle fibres).
+                            </li>
+                            <li>
+                                Vitamin K2 (menaquinone-7) supplementation may improve serum vitamin K status and may
+                                help to reduce bone loss in postmenopausal women Vitamin K is required for the post translational
+                                carboxylation of glutamate into gamma-carboxyglutamate (Gla) residues in Gla-proteins that are
+                                required for blood coagulation and bone mineralization.
+                            </li>
+                            <li>
+                                Vitamin K2 serves as an obligatory cofactor for an essential carboxylase enzyme
+                                that activates seven protein components of the blood-coagulation cascade.
+                            </li>
+                            <li>
+                                Vitamin K is required for the carboxylation of two proteins essential for normal
+                                bone metabolism, osteocalcin and matrix Gla protein.
+                            </li>
+                            <li>
+                                Long term use of menaquinone-7 may improve arterial stiffness in health postmenopausal women,
+                                especially in women having high arterial stiffness.
+                            </li>
+                            <li>
+                                A number of blood coagulation factors including coagulation factors II (prothrombin), VII,
+                                IX and X are well known examples of Gla-containing proteins (vitamin K dependent) which
+                                are synthesised in the liver.
+                            </li>
+                            <li>
+                                Osteocalcin, a bone specific protein synthesised by osteoblasts, and matrix Gla protein
+                                synthesised in blood vessel and bone are Gla-containing proteins (vitamin K dependent)
+                                synthesised at extra-hepatic sites.
+                            </li>
+                            <li>
+                                Menaquinone-7 is a long chain menaquinone found in fermented foods and at particularly
+                                high levels in natto.
+                            </li>
+                            <li>
+                                The effects of long chain menaquinone-7 in normal blood coagulation is greater and
+                                longer lasting than vitamin K1 found in leafy green vegetables and MK-4 that
+                                is found in animal products.
+                            </li>
+                        </ul>
+                    </p>
+                    <br>
+                    <p>
+                        <strong>SPECIFIC CONDITIONS</strong>
+                    </p>
+                    <p>
+                        No specific conditions included on record.
+                    </p>
+                    <br>
+                    <p>
+                        <strong>WARNINGS</strong>
+                    </p>
+                    <p>
+                        <ul>
+                            <li>Contains potassium sorbate.</li>
+                            <li>Vitamin supplements should not replace a balanced diet.</li>
+                        </ul>
+                    </p>
+                    <p>
+                        NanoCelle&trade; D3 + K2 is not suitable for individuals with:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>Hypercalcaemia</li>
+                            <li>Hypervitaminosis D</li>
+                            <li>Malabsorption syndrome</li>
+                            <li>Kidney disease</li>
+                            <li>Liver disease</li>
+                            <li>Clotting disorder</li>
+                            <li>Blood disease</li>
+                        </ul>
+                    </p>
+
+                ',
+                'interactions' =>
+                    '
+                    <p>
+                        Some medicines may interfere with NanoCelleTM D3 + K2. These include:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>Calcitriol medications</li>
+                            <li>Corticosteroid medication such as prednisone</li>
+                            <li>Weight loss drug Orlistat</li>
+                            <li>Cholesterol lowering medications such as Cholestyramine and Thiazide</li>
+                            <li>Diuretic medications</li>
+                            <li>Blood thinner medications such as Warfarin, Coumadin and Heparin</li>
+                            <li>Anticoagulant / Thrombolytic medications</li>
+                            <li>Antihypertensive agents</li>
+                            <li>Seizure medications such as Phenobarbital and Dilantin</li>
+                            <li>Immunosuppressant therapies</li>
+                        </ul>
+                    </p>
+                    <p>
+                        These medicines may be affected by NanoCelle&trade; D3 + K2 or may affect
+                        how well it works. You may need to take different amounts of your medicine, or you may need to
+                        take different medicines. Your doctor or practitioner will advise you.
+                    </p>
+                ',
+
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+                    <p>
+                        Spray 300 µl dose (2 sprays) on the inside cheek of the mouth once per day before a meal,
+                        or as directed by your healthcare practitioner.
+                    </p>
+                ',
+
+                'ingredients' =>
+                    '
+                    <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>
+                                        <strong>ACTIVE INGREDIENTS</strong>
+                                    </p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>
+                                        <strong>Each 0.3 mL Dose (2 sprays) Contains:</strong>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Vitamin D3 (as cholecalciferol)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>25 µg (1000 IU)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Vitamin K2 (as menaquinone-7)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>25 µg (1000 IU)</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p>
+                                        <strong>Excipient Ingredients</strong>
+                                    </p>
+                                    <p>Citric acid</p>
+                                    <p>Potassium sorbate</p>
+                                    <p>Peppermint oil</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                ',
+                'cmi' =>
+                    '
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3K2/English.pdf"target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                ',
+                'free_from' =>
+                    '
+                    <p class="medlab_product_content_sub_title">
+                        No artificial colours, flavours or sweeteners
+                    </p>
+                ',
+                'side_effects' =>
+                    "
+                    <p>
+                        NanoCelle&trade; D3 + K2 has low risk side effects when taken as directed. If you experience any
+                        of the following symptoms after taking a dose of NanoCelle&trade; D3 + K2, tell your healthcare professional.
+                    </p>
+                    <p>
+                        These symptoms may be from an allergic, or adverse reaction and may inbclude:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>Difficulty breathing</li>
+                            <li>Cough</li>
+                            <li>Swelling of the face and throat</li>
+                            <li>Skin rash</li>
+                            <li>Itching</li>
+                            <li>Abnormal colour to skin, blotching or bruising</li>
+                            <li>Bleeding</li>
+                            <li>Sudden onset of unexplained pain</li>
+                            <li>Nausea</li>
+                            <li>Diarrhoea / Vomiting</li>
+                        </ul>
+                    </p>
+                    <p>
+                        If experienced, please seek prompt medical attention.
+                    </p>
+                    <p>
+                        <strong>Please refer to the CMI for this product for side effects.</strong>
+                    </p>
+                ",
+                'price_retail' => 24.77,
+                'price_wholesale' => 16.5,
+                'image_path' => '/img/products/nanocelle_d3k2/nanocelle_d3k2.png',
+                'thumb_image_path' => '/img/products/nanocelle_d3k2/nanocelle_d3k2_thumb.png',
+                'in_stock' => true,
+                'slug' => 'nanocelle-d3-k2'
+            ],
 
             /*
 
