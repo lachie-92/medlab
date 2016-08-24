@@ -6361,14 +6361,14 @@ class ModifyProduct extends Command
                     <p>
                         NanoCelle&trade; D3 + K2 is developed from patent-protected nanocellization
                         technology that produces Vitamin D3 and Vitamin K2 submicron nanoparticles that are easily absorbed
-                        across the oral mucosal epithelia.<sup>1</sup> NanoCelle&trade; D3 + K2 is
+                        across the oral mucosal epithelia. NanoCelle&trade; D3 + K2 is
                         indicated to sustain mineral homeostasis facilitating optimal immune function, cardiovascular health
                         and bone metabolism, and to assist in the management of medically diagnosed vitamin D deficiency.
                         Vitamin D3 is essential for cellular and immunological function and is also essential for skeletal
                         muscle maintenance and regeneration given its primary physiological role is the absorption and binding
-                        of calcium within the body.<sup>2,3</sup> Vitamin K2 belongs to a group of fat-soluble vitamins that is
+                        of calcium within the body. Vitamin K2 belongs to a group of fat-soluble vitamins that is
                         essential in the body for the synthesis of specific proteins required to initiate the process of blood
-                        coagulation in the response to an injury and to optimize the integrity of blood vessels and bones.<sup>4</sup>
+                        coagulation in the response to an injury and to optimize the integrity of blood vessels and bones.
                     </p>
                 ',
                 'practitioner_summary' =>
