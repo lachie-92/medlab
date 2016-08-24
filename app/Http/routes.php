@@ -149,9 +149,6 @@ Route::get('/education/practitioner-education', function () {
     return view('pages.education.practitioner-education.index');
 });
 
-Route::get('/education/practitioner-education/test', function () {
-    return view('pages.education.practitioner-education.test.index');
-});
 
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -367,6 +364,10 @@ Route::get('/efficacy/optimising-immunity-in-preparation-for-cold-and-flu-season
 
 Route::get('/efficacy/vitamin-d-your-best-defence', function () {
     return view('pages.efficacy.vitamin-d-your-best-defence.index');
+});
+
+Route::get('/efficacy/efficacy', function () {
+    return view('pages.efficacy.efficacy.index');
 });
 
 

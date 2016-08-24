@@ -125,15 +125,16 @@
 
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            <a href="https://www.a5m.net/events/category/annual-conference" target="_blank" class="medlab_news_content_link">
-                                We are excited to announce our involvement in the upcoming AustralAsian Academy of Anti-Ageing Medicine (A5M)’s 10th Annual Conference, being held in Melbourne 6-7 August 2016.<br>
+                            <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">
+                                Professor Luis Vitetta Keynote speaker: The challenge of the microbiome in human health and disease</br>
+                                Tania Palacios (Sydney U PhD scholar):   Administration of probiotics that shift the intestinal microbiome to improve inflammatory biomarkers in adults with pre-diabetes and Type 2 Diabetes mellitus
                             </a>
                         </h2>
                         <p>
-                            <a href="https://www.a5m.net/events/category/annual-conference" target="_blank">
-                                <img alt="10th Annual A5M Conference"
-                                     src="/img/news/A5M_banner.jpg"
-                                     title="10th Annual A5M Conference"
+                            <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank">
+                                <img alt="Theo Murphy Australian Frontiers Of Science"
+                                     src="/img/news/theo_murphy_australian_frontiers_of_science.jpg"
+                                     title="Theo Murphy Australian Frontiers Of Science"
                                      width="600px"
                                      class="img-responsive center-block">
                             </a>
