@@ -508,3 +508,7 @@ Route::get('/education/practitioner-education/NOS', function () {
 Route::get('/contact', 'ContactController@getShowContactInformation');
 
 Route::post('/contact', 'ContactController@postSendEnquiryEmail');
+
+Route::get('/mytest', function () {
+    return view('ultilities.iframe.test');
+});

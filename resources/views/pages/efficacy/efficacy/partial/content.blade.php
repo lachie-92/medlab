@@ -15,7 +15,7 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
-                    <iframe src="http://data.axmag.com/data/201608/20160815/U148672_F394811/index.html" width=100% height="900" scr="" frameborder="0" allowfullscreen></iframe>
+                    <iframe src="https://www.medlab.co/mytest" width=100% height="900" scr="" frameborder="0" allowfullscreen></iframe>
 
                 </div>
             </div>
