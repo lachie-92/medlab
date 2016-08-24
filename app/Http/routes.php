@@ -149,7 +149,7 @@ Route::get('/education/practitioner-education', function () {
     return view('pages.education.practitioner-education.index');
 });
 
-Route::get('/education/test', function () {
+Route::get('/education/practitioner-education/test', function () {
     return view('pages.education.practitioner-education.test.index');
 });
 
