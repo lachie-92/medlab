@@ -18,7 +18,6 @@
                         <strong>test</strong>
                     </h3>
 
-                    <iframe src="http://data.axmag.com/data/201608/20160815/U148672_F394811/index.html" width=100% height="600" scr="" frameborder="0" allowfullscreen></iframe>
 
 
                 </div>
