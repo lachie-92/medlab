@@ -6556,7 +6556,7 @@ class ModifyProduct extends Command
                                     <p>Vitamin K2 (as menaquinone-7)</p>
                                 </td>
                                 <td width="136" valign="top">
-                                    <p>25 µg (1000 IU)</p>
+                                    <p>45 µg</p>
                                 </td>
                             </tr>
                             <tr>
