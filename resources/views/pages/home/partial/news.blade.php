@@ -352,22 +352,22 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="https://www.a5m.net/events/category/annual-conference" target="_blank">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        Prof Luis Vitetta will be contributing to the scientific program.
-                                    </div>
-                                    <div class="media-left media-middle">
-                                        <img width="100%"  alt="Diet and Gut Health " src="/img/news/A5M_banner.jpg" target="blank">
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="medlab_news_sidebar_list_item">
                                 <a href="http://www.gp16.com.au/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
                                         Prof Luis Vitetta will be contributing to the scientific program.
                                     </div>
                                     <div class="media-left media-middle">
                                         <img width="100%" alt="Diet and Gut Health " src="/img/news/RACGP16.png" target="_blank" >
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank">
+                                    <div class="medlab_news_sidebar_list_item_title">
+                                        Talia Palacios will be contributing to the scientific program.
+                                    </div>
+                                    <div class="media-left media-middle">
+                                        <img width="100%"  alt="Diet and Gut Health " src="/img/news/theo_murphy_australian_frontiers_of_science.jpg" target="blank">
                                     </div>
                                 </a>
                             </li>
