@@ -126,8 +126,9 @@
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">
-                                Professor Luis Vitetta Keynote speaker: The challenge of the microbiome in human health and disease</br>
-                                Tania Palacios (Sydney U PhD scholar):   Administration of probiotics that shift the intestinal microbiome to improve inflammatory biomarkers in adults with pre-diabetes and Type 2 Diabetes mellitus
+
+                                Professor Luis Vitetta will be a keynote speaker and Talia Palacios (Sydney University PhD Scholor) will be making a presentation at the 2016 Theo Murphey Australian Frontiers of Science Symposium.
+
                             </a>
                         </h2>
                         <p>
@@ -361,7 +362,7 @@
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        Talia Palacios will be contributing to the scientific program.
+                                        Professor Luis Vitetta & Talia Palacios will be contributing to the scientific program.
                                     </div>
                                     <div class="media-left media-middle">
                                         <img width="100%"  alt="Diet and Gut Health " src="/img/news/theo_murphy_australian_frontiers_of_science.jpg" target="blank">
