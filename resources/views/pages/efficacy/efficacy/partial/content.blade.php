@@ -15,8 +15,7 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
-                    <embed src="http://data.axmag.com/data/201608/20160815/U148672_F394811/index.html" quality="high" width="100%" height="100%"; scale="noscale" align="TL" salign="TL" allowFullScreen="true" type="application/x-shockwave-flash"></embed>
-                </div>
+                    <iframe src="//cdn.flipsnack.com/widget/flipsnackwidget.html?hash=fdhjlz770&bgcolor=EEEEEE&t=1472103713" width="100%" height="1000" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>                </div>
             </div>
         </div>
     </div>
