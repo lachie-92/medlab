@@ -6625,31 +6625,20 @@ class ModifyProduct extends Command
                 'slug' => 'nanocelle-d3-k2'
             ],
 
-            /*
-
-
-
-
             [
                 'product_name_index' => "Immune-5 Vanilla",
                 'austl_number' => '276097',
-                'product_name' => 'Immune-5&trade; Vanilla ',
+                'product_name' => 'Immune-5&trade; Vanilla',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Immune-5&trade; Vanilla </small></h4>
+                <h4 class="medlab_product_content_title">Immune-5&trade; Vanilla</small></h4>
                 <p>
-                    <strong></strong>
-                </p>
-                <p>
-                    Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with 
-                    two specific probiotic species shown to assist with immune function and assist with upper respiratory tract infections. 
+                    Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with
+                    two specific probiotic species shown to assist with immune function and assist with upper respiratory tract infections.
                 </p>
                 ',
                 'patent' =>
                     '
-                <p>
-                    <strong></strong>
-                </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>
@@ -6657,155 +6646,119 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                 <p>
-                    Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with two specific 
-                    probiotic species shown to assist with immune function and assist with upper respiratory tract infections. ResistAid&trade; is a 
-                    prebiotic soluble fibre with immune modulating properties while Lactoferrin is a naturally occurring protein found in the body 
-                    with broad spectrum anti-microbial and anti-viral activity. Colostrum provides important innate immune supporting proteins 
+                    Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with two specific
+                    probiotic species shown to assist with immune function and assist with upper respiratory tract infections. ResistAid&trade; is a
+                    prebiotic soluble fibre with immune modulating properties while Lactoferrin is a naturally occurring protein found in the body
+                    with broad spectrum anti-microbial and anti-viral activity. Colostrum provides important innate immune supporting proteins
                     including the antibody IgG that both activates and modulate the body defence processes.
-
                 </p>
                 ',
                 'practitioner_summary' =>
-                    '
-                
+                    "
                 <p>
-                    <strong>Lactoferrin:</strong>
+                    <strong>STANDARD INDICATIONS</strong>
                 </p>
-
-                
                 <p>
-                    Lactoferrin is an abundant protein found in breast milk, and is secreted in tears, saliva, intestinal mucus, genital secretions 
-                    and in found in granules of neutrophils. Lactoferrin is a glycoprotein belonging to the transferrin family of iron-binding 
-                    proteins. As a multifunctional protein it demonstrates potent anti-microbial, anti-viral, anti-fungal, anti-inflammatory and 
-                    immunomodulatory activity providing an effective defense mechanism for the mammalian body.<sup>1</sup> The bactericidal effect of lactoferrin 
-                    is in part due to its ability to bind to and withhold iron that is essential for pathogenic bacterial growth, resulting in 
-                    bacteriostatic effects. <sup>2</sup> Furthermore, lactoferrin disrupts the integrity of pathogenic bacterial cell walls by binding to 
-                    lipopolysaccharides causing cell wall degradation.<sup>1</sup> Clinical evidence from a recent Cochrane review demonstrated the therapeutic 
-                    activity of lactoferrin for the prevention of sepsis and NEC in preterm infants.<sup>3</sup>
-
+                    <ul>
+                        <li>
+                            Treatment of symptoms of mild infections of upper respiratory tract
+                        </li>
+                        <li>
+                            Helps maintain healthy digestive function
+                        </li>
+                        <li>
+                            Aids, assists or helps in the maintenance or improvement of general well-being
+                        </li>
+                        <li>
+                            Relief of symptoms of mild upper respiratory infections
+                        </li>
+                        <li>
+                            For the symptomatic relief of upper respiratory tract infections
+                        </li>
+                        <li>
+                            May assist in the management of upper respiratory tract infections
+                        </li>
+                    </ul>
                 </p>
-
+                <br>
                 <p>
-                    <strong>Colostrum:</strong>
-                 </p>   
-                  <p>   
-                    Often described as the first food of life, colostrum is a sweet sticky mammary secretion produced 
-                    by mammals generally during the 24-48-hour perinatal period to provide essential immune-building nutrients to the offspring. 
-                    Containing vital antibodies, vitamins and proteins, colostrum particularly of bovine origin has been used in the treatment and 
-                    prevention of infectious diseases.<sup>4</sup> The diverse immune-enhancing factors of colostrum prove to have significant beneficial 
-                    therapeutic applications, particularly due to its rich supply of immunoglobulin Ig (IgG).<sup>2</sup> Clinical trials have shown 
-                    therapeutic benefit from the use of bovine colostrum in patients suffering chronic infection and pain; as well as being an 
-                    effective prophylactic for gram negative sepsis, influenza and severe diarrhea.<sup>4,5</sup> It has also been shown to prevent gastric 
-                    damage in patients using nonsteroidal anti-inflammatory medications; and not only proves to be a substance with superior 
-                    immunological activity but is also an optimum dietary supplement.<sup>5,6</sup> There is some evidence which implies that a colostrum 
-                    supplement is beneficial to those who are immunocompromised suffering from a severe diarrheal illness.<sup>6</sup>
-
-                </p>
-                
-
-                <p>
-                    <strong>Arabinogalactan:</strong>
-                </p>
-
-                <p>
-                    Arabinogalactans are highly branched, water-soluble polysaccharides with a high molecular weight that are found in a wide 
-                    variety of plants. Arabinogalactans specifically from Larch are an excellent dietary fiber supplement that are capable of 
-                    increasing beneficial gastrointestinal (GI) commensal bacteria as well as short-chain fatty acid production.<sup>7,8</sup> As an 
-                    effective defense against the common cold infection, Larch arabinogalactan has also been shown in animal studies to 
-                    stimulate natural killer cell cytotoxicity in vitro, demonstrating an increase in white blood cell counts i.e. neutrophils 
-                    and eosinophil’s.<sup>9,10</sup> ResistAid&trade; is a proprietary arabinogalactan extracted from Larch (Larix laricina) supplied by Lonza 
-                    Ltd, Switzerland. A number of human clinical studies have demonstrated ResistAids’&trade; immunomodulatory activity in which a 
-                    daily dose of 4.5 g significantly increased IgG antibody response of healthy volunteers to the pneumonia vaccine when 
-                    compared to placebo.<sup>10</sup> In a more recent study Udani 2013 demonstrated that ResistAid™ at a dose of 1.5 g daily significantly 
-                    increased the IgG antibody response to tetanus vaccine compared to placebo.<sup>11</sup> ResistAid&trade; has clinical evidence of being 
-                    well tolerated in healthy individuals with no demonstrable side-effects.<sup>10,12</sup>
-
-                </p>
-                
-                <strong>Lactobacillus paracasei and Bifidobacterium lactis</strong>
-
-                <p>
-                    The GI commensal microbiota significantly influences the health of the host, supported by extensive scientific evidence. 
-                    Whilst there are numerous publications exemplifying the range of positive benefits of probiotic bacteria, the mechanisms 
-                    by which they benefit health and the specific species and strains are of a growing interest within the scientific community.<sup>13 </sup>
-                    A recent Cochrane review examined clinical studies assessing live microorganism intervention in cold and flu treatment, 
-                    and found that probiotic bacteria including various Lactobacillus and Bifidobacterium species were effective in reducing the 
-                    symptoms of acute upper respiratory tract infections.<sup>14 Two clinical trials demonstrated that daily consumption of a
-                    probiotic product containing Lactobacillus paracasei increased the antibody response (IgG) to influenza vaccination in elderly 
-                    participants.<sup>15, 16</sup> Additional research has shown that consumption of probiotics containing both Lactobacillus paracasei and 
-                    Bifidobacterium lactis increases the antigen-specific immune response (IgG and sIgA) of patients receiving the influenza vaccine, 
-                    further supporting their immune modulatory effects.<sup>16</sup>  The results from two systematic reviews demonstrated that the use of 
-                    probiotics in children is effective in diminishing the incidence and the severity of the symptoms of upper respiratory tract 
-                    infections.<sup>17,18</sup>
-
-                </p>
-                
-               
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    Who will benefit:
+                    <strong>SPECIFIC INDICATIONS</strong>
                 </p>
 
                 <p>
                     <ul>
-                        <li>Suitable for the whole family (2 years and under require professional advice prior to using)</li>
-                        <li>Those requiring immune support</li>
-                        <li>Those undergoing stressful events</li>
-                        <li>Those seeking to ease the severity and duration of the common cold</li>
-                        <li>Those seeking symptomatic relief from upper respiratory tract infections</li>
-                        <li>Those receiving influenza immunisation</li>
+                        <li>
+                            May assist in supporting and maintaining healthy immune function. Short-chain fatty acids
+                            produced from the metabolism of Arabinogalactan (ResistAid&trade;) supports healthy immune
+                            function in healthy individuals.
+                        </li>
+                        <li>
+                            Arabinogalactan (ResistAid) is a prebiotic and produces short-chain fatty acids upon
+                            metabolism by gut bacteria, maintaining healthy colonic mucosal structure and function.
+                        </li>
+                        <li>
+                            Lactoferrin is naturally found in colostrum and human milk and is a component of the
+                            innate immune response providing broad-spectrum anti-microbial and anti-viral activity.
+                        </li>
+                        <li>
+                            Lactoferrin combined with bovine milk-derived IgG immunoglobulins may decrease the
+                            incidence of colds and may also reduce the duration of cold associated symptoms.
+                        </li>
+                        <li>
+                            Colostrum and IgG immunoglobulins provide important innate immune supporting proteins that
+                            modulate the body's defence processes and provide anti-bacterial effects.
+                        </li>
+                        <li>
+                            Bovine colostrum is a rich source of immune factors, growth factors and bioactive proteins
+                            which may support healthy immune function.
+                        </li>
+                        <li>
+                            Immunoglobulins (Ig) are protein molecules that function as antibodies against many
+                            pathogenic and potentially pathogenic microorganisms, such as bacteria and viruses.
+                        </li>
+                        <li>
+                            The functional activities of IgG molecules, such as bactericidal effect mediated by
+                            complement, viral neutralisation, inactivation of toxins and opsonisation, are important
+                            for the development of an effective immune response against a large range of microorganisms
+                            and their toxic products.
+                        </li>
+                        <li>
+                            Arabinogalactan may increase the body's IgG antibody immune response to bacterial antigens.
+                        </li>
+                        <li>
+                            Lactobacillus paracasei and Bifidobacterium animalis ssp. lactis have shown to enhance both
+                            mucosal and systemic antibody (IgG and salivary IgA) responses to various vaccine challenges
+                            in healthy individuals.
+                        </li>
+                        <li>
+                            Lactobacillus paracasei and Bifidobacterium animalis ssp. lactis may improve specific immune
+                            responses and influence immune regulation.
+                        </li>
+                        <li>
+                            Vegetables and MK-4 that is found in animal products .
+                        </li>
                     </ul>
                 </p>
-
+                <br>
                 <p>
                     <strong>WARNINGS</strong>
                 </p>
-
-                <p>
-                    Not to be used in children under two years of age except on health professional advice. Colostrum is 
-                    derived from cow’s milk and contains lactose and cow’s milk proteins. Vitamin supplements should not replace a balanced diet. 
-                </p>
-                ',
-                'references' =>
-                    '
-                <ol class="medlab_product_reference_list">
-
-                 <li>Ochoa T,  Cleary T. Effect of lactoferrin on enteric pathogens. <em>Biochimie, 2009;91:30</em></li>
-                 <li>Vitetta L, Coulson S, et al. ‘The Clinical Efficacy of a Bovine lactoferrin/whey Protein Ig-Rich Fraction (Lf/IgF) for the Common Cold: A Double Blind Randomized Study‘  <em>Complementary therapies in medicine</em> 2013;21:164</li>
-                 <li>Pammi M, Abrams S. ‘Oral lactoferrin for the prevention of sepsis and necrotizing enterocolitis in preterm infants.’ <em>The Cochrane Database of Systematic Reviews</em>, 2015:CD007137.</li>
-                 <li>Waaga-Gasser A. ‘Bovine Colostrum--Therapeutic Synergism Involving Immunomodulation, Nutritional Supplementation and Antibacterial Action?‘ <em>International journal of clinical pharmacology and therapeutics</em> 2007;45:191</li>
-                 <li>Struff W, Sprotte G. ‘Bovine Colostrum as a Biologic in Clinical Medicine: A Review. Part I: Biotechnological Standards, Pharmacodynamic and Pharmacokinetic Characteristics and Principles of Treatment‘ <em>International journal of clinical pharmacology and therapeutics</em> 2007:45;193</li>
-                 <li>Struff, W. G. and G. Sprotte, ‘Bovine Colostrum as a Biologic in Clinical Medicine: A Review--Part II: Clinical Studies‘ (2008) <em>46 International journal of clinical pharmacology and therapeutics 211</em></li>
-                 <li>Kelly, G. S., ‘Larch Arabinogalactan: Clinical Relevance of a Novel Immune-Enhancing Polysaccharide‘ (1999) <em>4 Altern Med Rev 96</em></li>
-                 <li>‘Larch Arabinogalactan‘ (2000) <em>5 Altern Med Rev 463</em></li>
-                 <li>Riede L, Grube B, & Gruenwald J. ‘Larch Arabinogalactan Effects on Reducing Incidence of Upper Respiratory Infections‘ (2013) <em>29 Cur Med Res Opinion 251</em></li>
-                 <li> Udani, Jay K. et al, ‘Proprietary Arabinogalactan Extract Increases Antibody Response to the Pneumonia Vaccine: A Randomized, Double-Blind, Placebo-Controlled, Pilot Study in Healthy Volunteers‘ (2010) <em>9 Nutri Journ 32</em></li>
-                 <li>Udani, Jay K., ‘Immunomodulatory Effects of ResistAid™: A Randomized, Double-Blind, Placebo-Controlled, Multidose Study‘ (2013) <em>32 J Ameri Coll of Nutr 331</em></li>
-                 <li>Grube B, &Riede L. ‘Tolerability of a Proprietary Larch Arabinogalactan Extract: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial in Healthy Subjects’.  <em>Food and Nutrition Sciences</em>, 2012, 3, 1533-1538 </li>
-                 <li>Ashraf R, Shah N. Immune System Stimulation by Probiotic Microorganisms.</li>
-                 <li>Critical Reviews in Food Science and Nutrition  2014:1;54</li>
-                 <li>Hao, Qiukui et al, ‘Probiotics for Preventing Acute Upper Respiratory Tract Infections‘ (2011) <em>Cochr Database Syst Rev CD006895</em></li>
-                 <li>Boge, Thierry et al, ‘A Probiotic Fermented Dairy Drink Improves Antibody Response to Influenza Vaccination in the Elderly in Two Randomised Controlled Trials‘ (2009) <em>27 Vaccine 5677</em></li>
-                 <li>Rizzardini, Giuliano et al, ‘Evaluation of the Immune Benefits of Two Probiotic Strains Bifidobacterium Animalis Ssp. Lactis, BB-12® and Lactobacillus Paracasei Ssp. Paracasei, L. Casei 431® in an Influenza Vaccination Model: A Randomised, Double-Blind, Placebo-Controlled Study‘ (2012) <em>107 The Brit J Nutr 876</em></li>
-                 <li>King S, et al. ‘Effectiveness of Probiotics on the Duration of Illness in Healthy Children and Adults Who Develop Common Acute Respiratory Infectious Conditions: A Systematic Review and Meta-Analysis‘  <em>Brit J of nutr.</em> 2014;112:41</li>
-                 <li>Ozen M, Kocabas G, Dinleyici E. ‘Probiotics for the Prevention of Pediatric Upper Respiratory Tract Infections: A Systematic Review‘ <em>Exp Opin Biol Ther</em> (2015) 15</li>
-
-                </ol>
-                ',
-                'side_effects' =>
-                    '
                 <p>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Bovine colostrum powder is derived from cow's milk and may contain lactose.</li>
+                        <li>This product is not suitable for use in children under the age of 12 months except on professional medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
-                ',
+                ",
+                'side_effects' =>
+                    "
+                <p>
+                    If symptoms persist consult your healthcare practitioner. Not to be used in children under two years of
+                    age except on professional health advice. Colostrum is derived from cow’s milk and contains lactose and cow's
+                    milk proteins.
+                </p>
+                ",
                 'interactions' =>
                     '
                 ',
@@ -6815,7 +6768,7 @@ class ModifyProduct extends Command
                     Direction of Use:
                 </h4>
                 <p>
-                    Mix one (1) level teaspoon (5g) into 100-200 mL of water and drink immediately, two (2) times per day or as directed by your healthcare practitioner.  
+                    Mix one (1) level teaspoon (5g) into 100-200 mL of water and drink immediately, two (2) times per day or as directed by your healthcare practitioner.
                 </p>
                 ',
                 'ingredients' =>
@@ -6873,7 +6826,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Arabinogalactactan (RestAid&trade;)
+                                    Arabinogalactactan
                                 </p>
                             </td>
                             <td>
@@ -6885,7 +6838,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Lactobacillus paracasei (Med24)
+                                    Lactobacillus paracasei
                                 </p>
                             </td>
                             <td>
@@ -6897,7 +6850,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Bifidobacterium animalis ssp. lactis (Med 13)
+                                    Bifidobacterium lactis
                                 </p>
                             </td>
                             <td>
@@ -6906,14 +6859,14 @@ class ModifyProduct extends Command
                                 </p>
                             </td>
                         </tr>
-                       
+
                         <tr>
                             <td colspan="2">
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
                                 <p>Maltodextrin</p>
-                                <p>silica</p>
+                                <p>Silica</p>
                                 <p>Stevia</p>
                                 <p>Natural Vanilla Flavour</p>
                             </td>
@@ -6925,33 +6878,9 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/English.pdf"target="_blank">
+                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Immune-5/English.pdf"target="_blank">
                         Click Here For English CMI
                     </a>
-                </p>
-                <p>
-                <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Arabic.pdf"target="_blank">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Spanish.pdf"target="_blank">Traducción en español</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Russian.pdf"target="_blank">Перевод на русском языке</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Japanese.pdf"target="_blank">日本語翻訳</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Italian.pdf"target="_blank">Traduzione italiana</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Chinese.pdf" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -6972,195 +6901,153 @@ class ModifyProduct extends Command
             ],
 
             [
-            'product_name_index' => "Immune-5 Raspberry",
-            'austl_number' => '276104',
-            'product_name' => 'Immune-5&trade; Raspbery',
-            'short_description' =>
-                '
+                'product_name_index' => "Immune-5 Raspberry",
+                'austl_number' => '276104',
+                'product_name' => 'Immune-5&trade; Raspbery',
+                'short_description' =>
+                    '
                 <h4 class="medlab_product_content_title">Immune-5&trade; Raspberry</small></h4>
                 <p>
-                    <strong></strong>
-                </p>
-                <p>
-                    Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with 
-                    two specific probiotic species shown to assist with immune function and assist with upper respiratory tract infections. 
+                    Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with
+                    two specific probiotic species shown to assist with immune function and assist with upper respiratory tract infections.
                 </p>
                 ',
-            'patent' =>
-                '
-                <p>
-                    <strong></strong>
-                </p>
+                'patent' =>
+                    '
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>
                 ',
-            'general_summary' =>
-                '
+                'general_summary' =>
+                    '
                 <p>
-                    Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with two specific 
-                    probiotic species shown to assist with immune function and assist with upper respiratory tract infections. ResistAid&trade; is a 
-                    prebiotic soluble fibre with immune modulating properties while Lactoferrin is a naturally occurring protein found in the body 
-                    with broad spectrum anti-microbial and anti-viral activity. Colostrum provides important innate immune supporting proteins 
+                    Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with two specific
+                    probiotic species shown to assist with immune function and assist with upper respiratory tract infections. ResistAid&trade; is a
+                    prebiotic soluble fibre with immune modulating properties while Lactoferrin is a naturally occurring protein found in the body
+                    with broad spectrum anti-microbial and anti-viral activity. Colostrum provides important innate immune supporting proteins
                     including the antibody IgG that both activates and modulate the body defence processes.
-
                 </p>
                 ',
-            'practitioner_summary' =>
-                '
-                
+                'practitioner_summary' =>
+                    "
                 <p>
-                    <strong>Lactoferrin:</strong>
+                    <strong>STANDARD INDICATIONS</strong>
                 </p>
-
-                
                 <p>
-                    Lactoferrin is an abundant protein found in breast milk, and is secreted in tears, saliva, intestinal mucus, genital secretions 
-                    and in found in granules of neutrophils. Lactoferrin is a glycoprotein belonging to the transferrin family of iron-binding 
-                    proteins. As a multifunctional protein it demonstrates potent anti-microbial, anti-viral, anti-fungal, anti-inflammatory and 
-                    immunomodulatory activity providing an effective defense mechanism for the mammalian body.<sup>1</sup> The bactericidal effect of lactoferrin 
-                    is in part due to its ability to bind to and withhold iron that is essential for pathogenic bacterial growth, resulting in 
-                    bacteriostatic effects. <sup>2</sup> Furthermore, lactoferrin disrupts the integrity of pathogenic bacterial cell walls by binding to 
-                    lipopolysaccharides causing cell wall degradation.<sup>1</sup> Clinical evidence from a recent Cochrane review demonstrated the therapeutic 
-                    activity of lactoferrin for the prevention of sepsis and NEC in preterm infants.<sup>3</sup>
-
+                    <ul>
+                        <li>
+                            Treatment of symptoms of mild infections of upper respiratory tract
+                        </li>
+                        <li>
+                            Helps maintain healthy digestive function
+                        </li>
+                        <li>
+                            Aids, assists or helps in the maintenance or improvement of general well-being
+                        </li>
+                        <li>
+                            Relief of symptoms of mild upper respiratory infections
+                        </li>
+                        <li>
+                            For the symptomatic relief of upper respiratory tract infections
+                        </li>
+                        <li>
+                            May assist in the management of upper respiratory tract infections
+                        </li>
+                    </ul>
                 </p>
-
+                <br>
                 <p>
-                    <strong>Colostrum:</strong>
-                 </p>   
-                  <p>   
-                    Often described as the first food of life, colostrum is a sweet sticky mammary secretion produced 
-                    by mammals generally during the 24-48-hour perinatal period to provide essential immune-building nutrients to the offspring. 
-                    Containing vital antibodies, vitamins and proteins, colostrum particularly of bovine origin has been used in the treatment and 
-                    prevention of infectious diseases.<sup>4</sup> The diverse immune-enhancing factors of colostrum prove to have significant beneficial 
-                    therapeutic applications, particularly due to its rich supply of immunoglobulin Ig (IgG).<sup>2</sup> Clinical trials have shown 
-                    therapeutic benefit from the use of bovine colostrum in patients suffering chronic infection and pain; as well as being an 
-                    effective prophylactic for gram negative sepsis, influenza and severe diarrhea.<sup>4,5</sup> It has also been shown to prevent gastric 
-                    damage in patients using nonsteroidal anti-inflammatory medications; and not only proves to be a substance with superior 
-                    immunological activity but is also an optimum dietary supplement.<sup>5,6</sup> There is some evidence which implies that a colostrum 
-                    supplement is beneficial to those who are immunocompromised suffering from a severe diarrheal illness.<sup>6</sup>
-
-                </p>
-                
-
-                <p>
-                    <strong>Arabinogalactan:</strong>
-                </p>
-
-                <p>
-                    Arabinogalactans are highly branched, water-soluble polysaccharides with a high molecular weight that are found in a wide 
-                    variety of plants. Arabinogalactans specifically from Larch are an excellent dietary fiber supplement that are capable of 
-                    increasing beneficial gastrointestinal (GI) commensal bacteria as well as short-chain fatty acid production.<sup>7,8</sup> As an 
-                    effective defense against the common cold infection, Larch arabinogalactan has also been shown in animal studies to 
-                    stimulate natural killer cell cytotoxicity in vitro, demonstrating an increase in white blood cell counts i.e. neutrophils 
-                    and eosinophil’s.<sup>9,10</sup> ResistAid&trade; is a proprietary arabinogalactan extracted from Larch (Larix laricina) supplied by Lonza 
-                    Ltd, Switzerland. A number of human clinical studies have demonstrated ResistAids’&trade; immunomodulatory activity in which a 
-                    daily dose of 4.5 g significantly increased IgG antibody response of healthy volunteers to the pneumonia vaccine when 
-                    compared to placebo.<sup>10</sup> In a more recent study Udani 2013 demonstrated that ResistAid™ at a dose of 1.5 g daily significantly 
-                    increased the IgG antibody response to tetanus vaccine compared to placebo.<sup>11</sup> ResistAid&trade; has clinical evidence of being 
-                    well tolerated in healthy individuals with no demonstrable side-effects.<sup>10,12</sup>
-
-                </p>
-                
-                <strong>Lactobacillus paracasei and Bifidobacterium lactis</strong>
-
-                <p>
-                    The GI commensal microbiota significantly influences the health of the host, supported by extensive scientific evidence. 
-                    Whilst there are numerous publications exemplifying the range of positive benefits of probiotic bacteria, the mechanisms 
-                    by which they benefit health and the specific species and strains are of a growing interest within the scientific community.<sup>13 </sup>
-                    A recent Cochrane review examined clinical studies assessing live microorganism intervention in cold and flu treatment, 
-                    and found that probiotic bacteria including various Lactobacillus and Bifidobacterium species were effective in reducing the 
-                    symptoms of acute upper respiratory tract infections.<sup>14 Two clinical trials demonstrated that daily consumption of a
-                    probiotic product containing Lactobacillus paracasei increased the antibody response (IgG) to influenza vaccination in elderly 
-                    participants.<sup>15, 16</sup> Additional research has shown that consumption of probiotics containing both Lactobacillus paracasei and 
-                    Bifidobacterium lactis increases the antigen-specific immune response (IgG and sIgA) of patients receiving the influenza vaccine, 
-                    further supporting their immune modulatory effects.<sup>16</sup>  The results from two systematic reviews demonstrated that the use of 
-                    probiotics in children is effective in diminishing the incidence and the severity of the symptoms of upper respiratory tract 
-                    infections.<sup>17,18</sup>
-
-                </p>
-                
-               
-                <p>
-                    <strong>Clinical Summary:</strong>
-                </p>
-
-                <p>
-                    Who will benefit:
+                    <strong>SPECIFIC INDICATIONS</strong>
                 </p>
 
                 <p>
                     <ul>
-                        <li>Suitable for the whole family (2 years and under require professional advice prior to using)</li>
-                        <li>Those requiring immune support</li>
-                        <li>Those undergoing stressful events</li>
-                        <li>Those seeking to ease the severity and duration of the common cold</li>
-                        <li>Those seeking symptomatic relief from upper respiratory tract infections</li>
-                        <li>Those receiving influenza immunisation</li>
+                        <li>
+                            May assist in supporting and maintaining healthy immune function. Short-chain fatty acids
+                            produced from the metabolism of Arabinogalactan (ResistAid&trade;) supports healthy immune
+                            function in healthy individuals.
+                        </li>
+                        <li>
+                            Arabinogalactan (ResistAid) is a prebiotic and produces short-chain fatty acids upon
+                            metabolism by gut bacteria, maintaining healthy colonic mucosal structure and function.
+                        </li>
+                        <li>
+                            Lactoferrin is naturally found in colostrum and human milk and is a component of the
+                            innate immune response providing broad-spectrum anti-microbial and anti-viral activity.
+                        </li>
+                        <li>
+                            Lactoferrin combined with bovine milk-derived IgG immunoglobulins may decrease the
+                            incidence of colds and may also reduce the duration of cold associated symptoms.
+                        </li>
+                        <li>
+                            Colostrum and IgG immunoglobulins provide important innate immune supporting proteins that
+                            modulate the body's defence processes and provide anti-bacterial effects.
+                        </li>
+                        <li>
+                            Bovine colostrum is a rich source of immune factors, growth factors and bioactive proteins
+                            which may support healthy immune function.
+                        </li>
+                        <li>
+                            Immunoglobulins (Ig) are protein molecules that function as antibodies against many
+                            pathogenic and potentially pathogenic microorganisms, such as bacteria and viruses.
+                        </li>
+                        <li>
+                            The functional activities of IgG molecules, such as bactericidal effect mediated by
+                            complement, viral neutralisation, inactivation of toxins and opsonisation, are important
+                            for the development of an effective immune response against a large range of microorganisms
+                            and their toxic products.
+                        </li>
+                        <li>
+                            Arabinogalactan may increase the body's IgG antibody immune response to bacterial antigens.
+                        </li>
+                        <li>
+                            Lactobacillus paracasei and Bifidobacterium animalis ssp. lactis have shown to enhance both
+                            mucosal and systemic antibody (IgG and salivary IgA) responses to various vaccine challenges
+                            in healthy individuals.
+                        </li>
+                        <li>
+                            Lactobacillus paracasei and Bifidobacterium animalis ssp. lactis may improve specific immune
+                            responses and influence immune regulation.
+                        </li>
+                        <li>
+                            Vegetables and MK-4 that is found in animal products .
+                        </li>
                     </ul>
                 </p>
-
+                <br>
                 <p>
                     <strong>WARNINGS</strong>
                 </p>
-
-                <p>
-                    Not to be used in children under two years of age except on health professional advice. Colostrum is 
-                    derived from cow’s milk and contains lactose and cow’s milk proteins. Vitamin supplements should not replace a balanced diet. 
-                </p>
-                ',
-                'references' =>
-                    '
-                <ol class="medlab_product_reference_list">
-
-                 <li>Ochoa T,  Cleary T. Effect of lactoferrin on enteric pathogens. <em>Biochimie, 2009;91:30</em></li>
-                 <li>Vitetta L, Coulson S, et al. ‘The Clinical Efficacy of a Bovine lactoferrin/whey Protein Ig-Rich Fraction (Lf/IgF) for the Common Cold: A Double Blind Randomized Study‘  <em>Complementary therapies in medicine</em> 2013;21:164</li>
-                 <li>Pammi M, Abrams S. ‘Oral lactoferrin for the prevention of sepsis and necrotizing enterocolitis in preterm infants.’ <em>The Cochrane Database of Systematic Reviews</em>, 2015:CD007137.</li>
-                 <li>Waaga-Gasser A. ‘Bovine Colostrum--Therapeutic Synergism Involving Immunomodulation, Nutritional Supplementation and Antibacterial Action?‘ <em>International journal of clinical pharmacology and therapeutics</em> 2007;45:191</li>
-                 <li>Struff W, Sprotte G. ‘Bovine Colostrum as a Biologic in Clinical Medicine: A Review. Part I: Biotechnological Standards, Pharmacodynamic and Pharmacokinetic Characteristics and Principles of Treatment‘ <em>International journal of clinical pharmacology and therapeutics</em> 2007:45;193</li>
-                 <li>Struff, W. G. and G. Sprotte, ‘Bovine Colostrum as a Biologic in Clinical Medicine: A Review--Part II: Clinical Studies‘ (2008) <em>46 International journal of clinical pharmacology and therapeutics 211</em></li>
-                 <li>Kelly, G. S., ‘Larch Arabinogalactan: Clinical Relevance of a Novel Immune-Enhancing Polysaccharide‘ (1999) <em>4 Altern Med Rev 96</em></li>
-                 <li>‘Larch Arabinogalactan‘ (2000) <em>5 Altern Med Rev 463</em></li>
-                 <li>Riede L, Grube B, & Gruenwald J. ‘Larch Arabinogalactan Effects on Reducing Incidence of Upper Respiratory Infections‘ (2013) <em>29 Cur Med Res Opinion 251</em></li>
-                 <li> Udani, Jay K. et al, ‘Proprietary Arabinogalactan Extract Increases Antibody Response to the Pneumonia Vaccine: A Randomized, Double-Blind, Placebo-Controlled, Pilot Study in Healthy Volunteers‘ (2010) <em>9 Nutri Journ 32</em></li>
-                 <li>Udani, Jay K., ‘Immunomodulatory Effects of ResistAid™: A Randomized, Double-Blind, Placebo-Controlled, Multidose Study‘ (2013) <em>32 J Ameri Coll of Nutr 331</em></li>
-                 <li>Grube B, &Riede L. ‘Tolerability of a Proprietary Larch Arabinogalactan Extract: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial in Healthy Subjects’.  <em>Food and Nutrition Sciences</em>, 2012, 3, 1533-1538 </li>
-                 <li>Ashraf R, Shah N. Immune System Stimulation by Probiotic Microorganisms.</li>
-                 <li>Critical Reviews in Food Science and Nutrition  2014:1;54</li>
-                 <li>Hao, Qiukui et al, ‘Probiotics for Preventing Acute Upper Respiratory Tract Infections‘ (2011) <em>Cochr Database Syst Rev CD006895</em></li>
-                 <li>Boge, Thierry et al, ‘A Probiotic Fermented Dairy Drink Improves Antibody Response to Influenza Vaccination in the Elderly in Two Randomised Controlled Trials‘ (2009) <em>27 Vaccine 5677</em></li>
-                 <li>Rizzardini, Giuliano et al, ‘Evaluation of the Immune Benefits of Two Probiotic Strains Bifidobacterium Animalis Ssp. Lactis, BB-12® and Lactobacillus Paracasei Ssp. Paracasei, L. Casei 431® in an Influenza Vaccination Model: A Randomised, Double-Blind, Placebo-Controlled Study‘ (2012) <em>107 The Brit J Nutr 876</em></li>
-                 <li>King S, et al. ‘Effectiveness of Probiotics on the Duration of Illness in Healthy Children and Adults Who Develop Common Acute Respiratory Infectious Conditions: A Systematic Review and Meta-Analysis‘  <em>Brit J of nutr.</em> 2014;112:41</li>
-                 <li>Ozen M, Kocabas G, Dinleyici E. ‘Probiotics for the Prevention of Pediatric Upper Respiratory Tract Infections: A Systematic Review‘ <em>Exp Opin Biol Ther</em> (2015) 15</li>
-
-                </ol>
-                ',
-            'side_effects' =>
-                '
                 <p>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Bovine colostrum powder is derived from cow's milk and may contain lactose.</li>
+                        <li>This product is not suitable for use in children under the age of 12 months except on professional medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
+                ",
+                'side_effects' =>
+                    "
+                <p>
+                    If symptoms persist consult your healthcare practitioner. Not to be used in children under two years of
+                    age except on professional health advice. Colostrum is derived from cow’s milk and contains lactose and cow's
+                    milk proteins.
+                </p>
+                ",
+                'interactions' =>
+                    '
                 ',
-            'interactions' =>
-                '
-                ',
-            'dosage_information' =>
-                '
+                'dosage_information' =>
+                    '
                 <h4 class="medlab_product_content_title">
                     Direction of Use:
                 </h4>
                 <p>
-                    Mix one (1) level teaspoon (5g) into 100-200 mL of water and drink immediately, two (2) times per day or as directed by your healthcare practitioner.  
+                    Mix one (1) level teaspoon (5g) into 100-200 mL of water and drink immediately, two (2) times per day or as directed by your healthcare practitioner.
                 </p>
                 ',
-            'ingredients' =>
-                '
+                'ingredients' =>
+                    '
                 <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
                     <tbody>
                         <tr>
@@ -7214,7 +7101,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Arabinogalactactan (RestAid&trade;)
+                                    Arabinogalactactan
                                 </p>
                             </td>
                             <td>
@@ -7226,7 +7113,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Lactobacillus paracasei (Med24)
+                                    Lactobacillus paracasei
                                 </p>
                             </td>
                             <td>
@@ -7238,7 +7125,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Bifidobacterium animalis ssp. lactis (Med 13)
+                                    Bifidobacterium lactis
                                 </p>
                             </td>
                             <td>
@@ -7247,14 +7134,14 @@ class ModifyProduct extends Command
                                 </p>
                             </td>
                         </tr>
-                       
+
                         <tr>
                             <td colspan="2">
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
                                 <p>Maltodextrin</p>
-                                <p>silica</p>
+                                <p>Silica</p>
                                 <p>Stevia</p>
                                 <p>Natural Raspberry Flavour</p>
                             </td>
@@ -7262,41 +7149,17 @@ class ModifyProduct extends Command
                     </tbody>
                 </table>
                 ',
-            'cmi' =>
-                '
+                'cmi' =>
+                    '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/English.pdf"target="_blank">
+                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Immune-5/English.pdf"target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
-                <p>
-                <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Arabic.pdf"target="_blank">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Spanish.pdf"target="_blank">Traducción en español</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Russian.pdf"target="_blank">Перевод на русском языке</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Japanese.pdf"target="_blank">日本語翻訳</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Italian.pdf"target="_blank">Traduzione italiana</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Chinese.pdf" target="_blank">中文翻译</a>
-                </p>
                 ',
-            'free_from' =>
-                '
+                'free_from' =>
+                    '
                 <p class="medlab_product_content_sub_title">
                     Contains No Artificial Colours, Flavours or Sweeteners
                 </p>
@@ -7304,14 +7167,13 @@ class ModifyProduct extends Command
                     Suitable for Vegetarians
                 </p>
                 ',
-            'price_retail' => 45.75,
-            'price_wholesale' => 30.50,
-            'image_path' => '/img/products/immune-5/Immune-5-raspberry.png',
-            'thumb_image_path' => '/img/products/immune-5/Immune-5-raspberry_thumb.png',
-            'in_stock' => true,
-            'slug' => 'immune-5-raspberry'
+                'price_retail' => 45.75,
+                'price_wholesale' => 30.50,
+                'image_path' => '/img/products/immune-5/Immune-5-raspberry.png',
+                'thumb_image_path' => '/img/products/immune-5/Immune-5-raspberry_thumb.png',
+                'in_stock' => true,
+                'slug' => 'immune-5-raspberry'
             ]
-            */
 
         ];
 

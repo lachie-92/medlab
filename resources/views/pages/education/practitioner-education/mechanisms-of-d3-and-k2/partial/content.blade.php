@@ -72,6 +72,9 @@
                         <img class="img-responsive center-block" alt="Figure 3. Oro-Buccal Nutrient Delivery" src="/img/products/nanocelle_d3k2/oro_buccal_nutrient_delivery.jpg">
                     </p>
                     <p>
+                        <strong>Clinical Summary:</strong>
+                    </p>
+                    <p>
                         <strong>Who will benefit:</strong>
                     </p>
 

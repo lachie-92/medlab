@@ -86,6 +86,12 @@ class PractitionerOnlyController extends Controller
             case "nanocelle-d3-k2":
                 return view('pages.education.practitioner-education.mechanisms-of-d3-and-k2.index');
                 break;
+            case "immune-5-vanilla":
+                return view('pages.education.practitioner-education.immune-modulating-properties.index');
+                break;
+            case "immune-5-raspberry":
+                return view('pages.education.practitioner-education.immune-modulating-properties.index');
+                break;
             default:
                 return view('errors.404');
         }

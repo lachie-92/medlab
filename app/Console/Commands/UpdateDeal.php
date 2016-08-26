@@ -130,6 +130,30 @@ class UpdateDeal extends Command
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
             ],
+            [
+                'product' => 'Immune-5 Vanilla',
+                'name' => "New Product Special",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => 'Immune-5 Raspberry',
+                'name' => "New Product Special",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
         ];
 
         $discount_deals = [

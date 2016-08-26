@@ -38,6 +38,7 @@
                     <a href="/education/practitioner-education/SB-5B">EFFICACY OF SACCHAROMYCES BOULARDII</a></br>
                     <a href="/education/practitioner-education/w8biotic-lemon-and-lime">HICA USE & UNDERSTANDING</a></br>
                     <a href="/education/practitioner-education/nanocelle-d3-k2">MECHANISMS OF ACTION FOR VITAMIN D3 AND K2</a></br>
+                    <a href="/education/practitioner-education/immune-5-vanilla">IMMUNE MODULATING PROPERTIES</a></br>
                 </p>
 
 
