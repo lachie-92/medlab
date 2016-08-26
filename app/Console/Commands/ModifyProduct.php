@@ -6647,7 +6647,7 @@ class ModifyProduct extends Command
                     '
                 <p>
                     Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with two specific
-                    probiotic species shown to assist with immune function and assist with upper respiratory tract infections. ResistAid&trade; is a
+                    probiotic species shown to assist with immune function and may assist with upper respiratory tract infections. ResistAid&trade; is a
                     prebiotic soluble fibre with immune modulating properties while Lactoferrin is a naturally occurring protein found in the body
                     with broad spectrum anti-microbial and anti-viral activity. Colostrum provides important innate immune supporting proteins
                     including the antibody IgG that both activates and modulate the body defence processes.
@@ -6678,6 +6678,9 @@ class ModifyProduct extends Command
                         <li>
                             May assist in the management of upper respiratory tract infections
                         </li>
+                        <li>
+                            Relief of the symptons of colds
+                         </li>
                     </ul>
                 </p>
                 <br>
@@ -6746,7 +6749,7 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>Bovine colostrum powder is derived from cow's milk and may contain lactose.</li>
-                        <li>This product is not suitable for use in children under the age of 12 months except on professional medical advice.</li>
+                        <li>This product is not suitable for use in children under the age of 2 years except on professional medical advice.</li>
                         <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
@@ -6838,7 +6841,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Lactobacillus paracasei
+                                    Lactobacillus paracasei (MED 24)
                                 </p>
                             </td>
                             <td>
@@ -6850,7 +6853,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Bifidobacterium lactis
+                                    Bifidobacterium lactis (MED 13)
                                 </p>
                             </td>
                             <td>
@@ -6922,7 +6925,7 @@ class ModifyProduct extends Command
                     '
                 <p>
                     Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with two specific
-                    probiotic species shown to assist with immune function and assist with upper respiratory tract infections. ResistAid&trade; is a
+                    probiotic species shown to assist with immune function and may assist with upper respiratory tract infections. ResistAid&trade; is a
                     prebiotic soluble fibre with immune modulating properties while Lactoferrin is a naturally occurring protein found in the body
                     with broad spectrum anti-microbial and anti-viral activity. Colostrum provides important innate immune supporting proteins
                     including the antibody IgG that both activates and modulate the body defence processes.
@@ -7021,7 +7024,7 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>Bovine colostrum powder is derived from cow's milk and may contain lactose.</li>
-                        <li>This product is not suitable for use in children under the age of 12 months except on professional medical advice.</li>
+                        <li>This product is not suitable for use in children under the age of 2 years except on professional medical advice.</li>
                         <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
@@ -7113,7 +7116,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Lactobacillus paracasei
+                                    Lactobacillus paracasei (MED 24)
                                 </p>
                             </td>
                             <td>
@@ -7125,7 +7128,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Bifidobacterium lactis
+                                    Bifidobacterium lactis (MED 13)
                                 </p>
                             </td>
                             <td>
