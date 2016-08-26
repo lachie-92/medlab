@@ -15,7 +15,12 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
-                    <iframe src="//cdn.flipsnack.com/widget/flipsnackwidget.html?hash=fdhjlz770&bgcolor=EEEEEE&t=1472103713" width="100%" height="1000" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>                </div>
+
+                    <iframe src="//cdn.flipsnack.com/widget/flipsnackwidget.html?hash=fdhjlz770&bgcolor=EEEEEE&t=1472103713" width="100%" height="900" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>                </div>
+
+
+
+
             </div>
         </div>
     </div>
