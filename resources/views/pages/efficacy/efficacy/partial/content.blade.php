@@ -11,7 +11,7 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    efficacy
+                    Medlab Efficacy
                 </div>
                 <div class="panel-body medlab_panel_content">
 
