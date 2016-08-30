@@ -154,9 +154,47 @@ class UpdateDeal extends Command
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
             ],
+            [
+                'product' => 'ORSBiotic',
+                'name' => "September 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => 'W8Biotic Lemon & Lime',
+                'name' => "September 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 2 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
+                'minimum_qty' => '2',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => 'W8Biotic Strawberries & Cream',
+                'name' => "September 2016 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 2 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
+                'minimum_qty' => '2',
+                'bonus_qty' => '1'
+            ],
         ];
 
         $discount_deals = [
+
+            //Till End of AUGUST
             [
                 'product' => 'SB 5B',
                 'name' => "August 2016 Deals",
@@ -166,6 +204,19 @@ class UpdateDeal extends Command
                 'isActive' => true,
                 'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2016 23:59:59'),
+                'discount_percentage' => '30'
+            ],
+
+            //Till End of September
+            [
+                'product' => 'NOS',
+                'name' => "September 2016 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% Off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
                 'discount_percentage' => '30'
             ],
         ];
