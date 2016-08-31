@@ -4279,8 +4279,8 @@ class ModifyProduct extends Command
                     Suitable for Vegetarians
                 </p>
                 ',
-                'price_retail' => 25.89,
-                'price_wholesale' => 17.26,
+                'price_retail' => 21.77,
+                'price_wholesale' => 14.50,
                 'image_path' => '/img/products/nanocelle_d3/d3_1.jpg',
                 'thumb_image_path' => '/img/products/nanocelle_d3/thumb_d3_1.jpg',
                 'in_stock' => true
