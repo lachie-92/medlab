@@ -123,6 +123,42 @@
                     </div>
                     <div class="medlab_news_item_body">
 
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+
+                            Saturday 5th November 2016, Sofitel Hotel Auckland, New Zealand.
+                            Professor Luis Vitetta will be a keynote speaker: Gut Microbiome and Evidence Based Interventions for Chronic Diseases.
+                            Other topics include functional pathology testing for gut and methylation.
+
+                        </h2>
+                        <p>
+                            For more information or to register for a place today, email: <a href="mailto:info@nutrisearch.co.nz">info@nutrisearch.co.nz</a>
+                        </p>
+                        <p>
+                            <img alt="Nutrisearch"
+                                 src="/img/news/nutrisearch.png"
+                                 title="Nutrisearch"
+                                 width="600px"
+                                 class="img-responsive center-block">
+                        </p>
+                        <br><br>
+
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                            <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">
+                                Professor Luis Vitetta will be presenting at the Annual RACGP 'GP 16’ in Perth.</br>
+                                We look froward to seeing you there - visit our Practitioner Consultants at booth 203.
+                            </a>
+                        </h2>
+                        <p>
+                            <a href="http://gp16.com.au/" target="_blank">
+                                <img alt="10th Annual A5M Conference"
+                                     src="/img/news/RACGP16.png"
+                                     title="RACGP"
+                                     width="600px"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+
+                        <br><br>
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">
@@ -350,12 +386,22 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
                             <li class="medlab_news_sidebar_list_item">
+                                <div class="medlab_news_sidebar_list_item_title">
+                                    (NZ) Professor Luis Vitetta will be contributing to the scientific program:
+                                    Gut Microbiome and Evidence Based Interventions for Chronic Diseases.
+                                </div>
+                                <div>Register by email: <a href="mailto:info@nutrisearch.co.nz">info@nutrisearch.co.nz</a></div>
+                                <div class="media-left media-middle">
+                                    <img width="100%" alt="Nutrisearch" src="/img/news/nutrisearch.png">
+                                </div>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
                                 <a href="http://www.gp16.com.au/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
                                         Prof Luis Vitetta will be contributing to the scientific program.
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%" alt="Diet and Gut Health " src="/img/news/RACGP16.png" target="_blank" >
+                                        <img width="100%" alt="GP16 Perth" src="/img/news/RACGP16.png">
                                     </div>
                                 </a>
                             </li>
@@ -365,7 +411,7 @@
                                         Professor Luis Vitetta & Talia Palacios will be contributing to the scientific program.
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%"  alt="Diet and Gut Health " src="/img/news/theo_murphy_australian_frontiers_of_science.jpg" target="blank">
+                                        <img width="100%"  alt="Microbiome" src="/img/news/theo_murphy_australian_frontiers_of_science.jpg">
                                     </div>
                                 </a>
                             </li>
