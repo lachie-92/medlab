@@ -16,13 +16,50 @@
                     </div>
                     <div class="medlab_news_item_body">
 
+                        <img src="/img/products/nanocelle_d3k2/nanocelle_d3k2_thumb.png" alt="NanoCelle D3 + K2 Featured product" height="150" width="auto" style="float: right;"/>
+                        <h2 class="medlab_news_content_title">
+                            <a href="/nutraceuticals/products/nanocelle-d3-k2" class="medlab_news_content_link">
+                                New - NanoCelle D3 + K2
+                            </a>
+                        </h2>
+                        <p class="medlab_news_content_paragraph" style="text-align: justify">
+                            NanoCelle™ D3 + K2 is developed from patent-protected nanocellization technology that produces
+                            Vitamin D3 and Vitamin K2 submicron nanoparticles that are easily absorbed across the oral
+                            mucosal epithelia. NanoCelle™ D3 + K2 is indicated to sustain mineral homeostasis facilitating
+                            optimal immune function, cardiovascular health and bone metabolism, and to assist in the
+                            management of medically diagnosed vitamin D deficiency.
+                        </p>
+                        <p class="medlab_news_content_paragraph">
+                            <a href="/nutraceuticals/products/nanocelle-d3-k2" class="medlab_news_content_link">More Information</a>
+                        </p>
+
+
+                        <img src='/img/products/immune-5/Immune-5-vanilla_thumb.png' alt="Immune-5 product" height="150" width="auto" style="float: right;"/>
+                        <h2 class="medlab_news_content_title">
+                            <a href="/nutraceuticals/products/immune-5-vanilla" class="medlab_news_content_link">
+                                New - Immune-5™ Vanilla or Raspberry
+                            </a>
+                        </h2>
+                        <p class="medlab_news_content_paragraph" style="text-align: justify">
+                            Immune-5™ is a scientifically-based comprehensive formula containing two specific probiotic
+                            species shown to assist with immune function and may assist with upper respiratory tract
+                            infections. ResistAid™ is a prebiotic soluble fibre while Lactoferrin is a naturally occurring
+                            protein found in the body with broad spectrum anti-microbial and anti-viral activity.
+                            Colostrum provides important innate immune supporting proteins including the antibody IgG
+                            that both activates and modulates the body defence processes.
+                        </p>
+                        <p class="medlab_news_content_paragraph">
+                            <a href="/nutraceuticals/products/immune-5-vanilla" class="medlab_news_content_link">More Information</a>
+                        </p>
+                        
+
                         <img src="/img/products/manuka-c/mauka-c_thumb.png" alt="Manuka-C Featured product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/manuka-c" class="medlab_news_content_link">
                                 New - Manuka-C&trade;
                             </a>
                         </h2>
-                        <p class="medlab_news_content_paragraph">
+                        <p class="medlab_news_content_paragraph" style="text-align: justify">
                             Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
                             ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder. Ascorbic acid
                             and zinc are vital for the optimal functioning of the immune system including the anti-microbial activity of white
@@ -30,35 +67,6 @@
                         </p>
                         <p class="medlab_news_content_paragraph">
                             <a href="/nutraceuticals/products/manuka-c" class="medlab_news_content_link">More Information</a>
-                        </p>
-
-                        <img src="/img/products/nos/nos_thumb.png" alt="NOS Featured product" height="150" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/nos" class="medlab_news_content_link">
-                                New - NOS <small>Nitric Oxide Support</small>
-                            </a>
-                        </h2>
-                        <p class="medlab_news_content_paragraph">
-                            A targeted pre-exercise sports food containing a selection of evidence-based ingredients combined to support
-                            and optimise exercise performance. Creatine, L-arginine and the B vitamins support energy production during
-                            strenuous exercise while beta-alanine helps to increase muscle carnosine levels.
-                        </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/nos" class="medlab_news_content_link">More Information</a>
-                        </p>
-                        <img src="/img/products/sb_5b/sb5b_thumb.png" alt="SB5B Featured product" height="150" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/sb-5b" class="medlab_news_content_link">
-                                New - SB 5B&trade;
-                            </a>
-                        </h2>
-                        <p class="medlab_news_content_paragraph">
-                            Saccharomyces cerevisiae ssp. boulardii (SB) is a beneficial probiotic yeast that helps to maintain gastrointestinal
-                            function and integrity by supporting a healthy gut microbial profile. SB 5B™ assists in supporting healthy immune
-                            function and may help to reduce inflammatory mediators in the gastrointestinal tract.
-                        </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/sb-5b" class="medlab_news_content_link">More Information</a>
                         </p>
 
                     </div>
@@ -143,24 +151,6 @@
                         <br><br>
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">
-                                Professor Luis Vitetta will be presenting at the Annual RACGP 'GP 16’ in Perth.</br>
-                                We look froward to seeing you there - visit our Practitioner Consultants at booth 203.
-                            </a>
-                        </h2>
-                        <p>
-                            <a href="http://gp16.com.au/" target="_blank">
-                                <img alt="10th Annual A5M Conference"
-                                     src="/img/news/RACGP16.png"
-                                     title="RACGP"
-                                     width="600px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-
-                        <br><br>
-
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">
 
                                 Professor Luis Vitetta will be a keynote speaker and Talia Palacios (Sydney University PhD Scholor) will be making a presentation at the 2016 Theo Murphey Australian Frontiers of Science Symposium.
@@ -175,9 +165,6 @@
                                      width="600px"
                                      class="img-responsive center-block">
                             </a>
-                        </p>
-                        <p style="text-align: justify">
-
                         </p>
                         <br><br>
 
