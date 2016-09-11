@@ -370,6 +370,10 @@ Route::get('/efficacy/efficacy', function () {
     return view('pages.efficacy.efficacy.index');
 });
 
+Route::get('/efficacy/magazine_sn16', function () {
+    return view('pages.efficacy.magazine_sn16.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
