@@ -123,6 +123,37 @@
             </div>
 
 
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        Medlab Effiacy Magazine
+                    </div>
+                    <div class="medlab_news_item_body">
+
+                        <p>
+                            <a
+                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                    href="/efficacy/magazine_sn16"
+                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                    href="#"
+                                    @else
+                                    href="/account/login"
+                                    @endif
+                                    target="_blank">
+
+                                <img alt="Medlab Efficacy Magazine Edition 1"
+                                     src="/img/news/efficacyfrontpage.png"
+                                     title="Medlab Efficacy Magazine Edition 1"
+                                     width="450px"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
@@ -153,7 +184,7 @@
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">
 
-                                Professor Luis Vitetta will be a keynote speaker and Talia Palacios (Sydney University PhD Scholor) will be making a presentation at the 2016 Theo Murphey Australian Frontiers of Science Symposium.
+                                Professor Luis Vitetta will be a keynote speaker and Talia Palacios (Sydney University PhD Scholor) will be making a presentation at the 2016 Theo Murphy Australian Frontiers of Science Symposium.
 
                             </a>
                         </h2>
