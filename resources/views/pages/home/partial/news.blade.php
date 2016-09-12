@@ -92,36 +92,6 @@
                 </div>
             </div>
 
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        MEDLAB WEBINAR
-                    </div>
-                    <div class="medlab_news_item_body">
-
-                        <p>
-                            <a
-                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="http://goo.gl/fUusyh"
-                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                    href="#"
-                                    @else
-                                    href="/account/login"
-                                    @endif
-                                    target="_blank">
-
-                                <img alt="Understanding the Clinical Application of NanoCelle"
-                                     src="/img/news/Medlab_nanocelle_webinar.jpeg"
-                                     title="Understanding the Clinical Application of NanoCelle"
-                                     width="450px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
@@ -152,6 +122,38 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        MEDLAB WEBINAR
+                    </div>
+                    <div class="medlab_news_item_body">
+
+                        <p>
+                            <a
+                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                    href="http://goo.gl/fUusyh"
+                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                    href="#"
+                                    @else
+                                    href="/account/login"
+                                    @endif
+                                    target="_blank">
+
+                                <img alt="Understanding the Clinical Application of NanoCelle"
+                                     src="/img/news/Medlab_nanocelle_webinar.jpeg"
+                                     title="Understanding the Clinical Application of NanoCelle"
+                                     width="450px"
+                                     class="img-responsive center-block">
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
 
 
 
