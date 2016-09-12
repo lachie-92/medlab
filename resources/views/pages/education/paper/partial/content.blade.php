@@ -28,6 +28,16 @@
                     </p>
 
                     <p>
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/27612466" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Schloss JM, Colosimo M, Airey C, Masci P, Linnane AW, Vitetta L, </strong>
+                                A randomised, placebo-controlled trial assessing the efficacy of an oral B group vitamin in preventing the development of chemotherapy-induced peripheral neuropathy (CIPN).
+                                <em>Support Care Cancer.</em> 2016 Sep 9.
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
                         <a href="http://www.mdpi.com/journal/jcm/special_issues/human_microbiome" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 Journal of Clinical Medicine / Special Issue "Advances in Human Microbiome”  :   Guest Editor: <strong>Professor Luis Vitetta</strong>
