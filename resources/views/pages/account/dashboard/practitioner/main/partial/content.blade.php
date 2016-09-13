@@ -46,6 +46,42 @@
                 </div>
             </div>
 
+
+            <!--
+            -- Efficacy magazine
+            -->
+            <div class="panel panel-primary medlab_panel">
+                <div class="panel-heading medlab_panel_title">
+                    Efficacy Magazine
+                </div>
+                <div class="panel-body">
+
+
+                        <p>
+                            <a
+                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                    href="/efficacy/magazine_sn16"
+                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                    href="#"
+                                    @else
+                                    href="/account/login"
+                                    @endif
+                                    target="_blank">
+
+                                <img alt="Medlab Efficacy Magazine Edition 1"
+                                     src="/img/news/EFFICACY Mag Web Banner 600x600 SEPT16 FINAL.jpg"
+                                     title="Medlab Efficacy Magazine Edition 1"
+                                     width="200px"
+                                     class="img-responsive">
+                            </a>
+                        </p>
+
+                    <p> Medlab Efficacy Edition 1</p>
+
+
+            </div>
+                </div>
+
             <!--
             -- Order Summary
             -->
