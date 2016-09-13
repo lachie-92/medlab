@@ -124,38 +124,6 @@
                 </div>
             </div>
 
-
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        Medlab Effiacy Magazine
-                    </div>
-                    <div class="medlab_news_item_body">
-
-                        <p>
-                            <a
-                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="/efficacy/magazine_sn16"
-                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                    href="#"
-                                    @else
-                                    href="/account/login"
-                                    @endif
-                                    target="_blank">
-
-                                <img alt="Medlab Efficacy Magazine Edition 1"
-                                     src="/img/news/EFFICACY Mag Web Banner 600x600 SEPT16 FINAL.jpg"
-                                     title="Medlab Efficacy Magazine Edition 1"
-                                     width="450px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
@@ -197,21 +165,20 @@
                     <div class="medlab_news_item_body">
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-
-                            Saturday 5th November 2016, Sofitel Hotel Auckland, New Zealand.
-                            Professor Luis Vitetta will be a keynote speaker: Gut Microbiome and Evidence Based Interventions for Chronic Diseases.
-                            Other topics include functional pathology testing for gut and methylation.
-
+                            <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank" class="medlab_news_content_link">
+                                Saturday 5th November 2016, Sofitel Hotel Auckland, New Zealand.
+                                Professor Luis Vitetta will be a keynote speaker: Gut Microbiome and Evidence Based Interventions for Chronic Diseases.
+                                Other topics include functional pathology testing for gut and methylation.
+                            </a>
                         </h2>
                         <p>
-                            For more information or to register for a place today, email: <a href="mailto:info@nutrisearch.co.nz">info@nutrisearch.co.nz</a>
-                        </p>
-                        <p>
-                            <img alt="Nutrisearch"
-                                 src="/img/news/nutrisearch.png"
-                                 title="Nutrisearch"
-                                 width="600px"
-                                 class="img-responsive center-block">
+                            <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank" class="medlab_news_content_link">
+                                <img alt="Nutrisearch"
+                                     src="/img/news/nutrisearch.png"
+                                     title="Nutrisearch"
+                                     width="600px"
+                                     class="img-responsive center-block">
+                            </a>
                         </p>
                         <br><br>
 
@@ -438,14 +405,15 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
                             <li class="medlab_news_sidebar_list_item">
-                                <div class="medlab_news_sidebar_list_item_title">
-                                    (NZ) Professor Luis Vitetta will be contributing to the scientific program:
-                                    Gut Microbiome and Evidence Based Interventions for Chronic Diseases.
-                                </div>
-                                <div>Register by email: <a href="mailto:info@nutrisearch.co.nz">info@nutrisearch.co.nz</a></div>
-                                <div class="media-left media-middle">
-                                    <img width="100%" alt="Nutrisearch" src="/img/news/nutrisearch.png">
-                                </div>
+                                <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank">
+                                    <div class="medlab_news_sidebar_list_item_title">
+                                        (NZ) Professor Luis Vitetta will be contributing to the scientific program:
+                                        Gut Microbiome and Evidence Based Interventions for Chronic Diseases.
+                                    </div>
+                                    <div class="media-left media-middle">
+                                        <img width="100%" alt="Nutrisearch" src="/img/news/nutrisearch.png">
+                                    </div>
+                                </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://www.gp16.com.au/" target="_blank">
