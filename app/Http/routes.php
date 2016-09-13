@@ -374,6 +374,10 @@ Route::get('/efficacy/magazine_sn16', function () {
     return view('pages.efficacy.magazine_sn16.index');
 });
 
+Route::get('/efficacy/magazine_preview', function () {
+    return view('pages.efficacy.magazine_preview.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
