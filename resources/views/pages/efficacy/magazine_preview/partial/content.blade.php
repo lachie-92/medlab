@@ -39,6 +39,19 @@
                                     </a>
                                 </p>
 
+                                <p>New Efficacy Magazine - Available Exclusively Online</p>
+                                <p>Issue 1: September - November 2016</p>
+
+                                <p>As we move to quarterly edition of our Practitioner-only Efficacy Magazine several times the size of previous editions, we’ve also made the decision to move to an environmentally-friendly digital format.</p>
+
+                                <p>At Medlab Clinical, we pride ourseleves on being ethically responsible in everything we do, with Efficacy being no exception.</p>
+
+                                <p>This new digital format will also allow us to create more interactive content such as website and article links along with educational videos.</p>
+
+                                <p>Our new Efficacy Magazine compitable with android and apple computers, tablets and phones.</p>
+
+                                <p>Available to all healthcare practitioners when you register or log in to our website today.</p>
+
                             </div>
 
 
