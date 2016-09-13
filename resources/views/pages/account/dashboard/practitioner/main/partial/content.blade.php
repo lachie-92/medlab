@@ -58,25 +58,19 @@
 
 
                         <p>
-                            <a
-                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="/efficacy/magazine_sn16"
-                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                    href="#"
-                                    @else
-                                    href="/account/login"
-                                    @endif
-                                    target="_blank">
+                            <a href="/efficacy/magazine_sn16" target="_blank">
 
                                 <img alt="Medlab Efficacy Magazine Edition 1"
                                      src="/img/news/EFFICACY Mag Web Banner 600x600 SEPT16 FINAL.jpg"
                                      title="Medlab Efficacy Magazine Edition 1"
                                      width="200px"
                                      class="img-responsive">
+
                             </a>
                         </p>
 
-                    <p> Medlab Efficacy Edition 1</p>
+                    <p>Medlab Efficacy Edition 1: September - November 2016</p>
+                    <p>Medlab's exclusive online magazine - <a href="/efficacy/magazine_sn16">view here</a></p>
 
 
             </div>
