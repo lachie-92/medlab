@@ -48,9 +48,9 @@
 
                                 <p>This new digital format will also allow us to create more interactive content such as website and article links along with educational videos.</p>
 
-                                <p>Our new Efficacy Magazine compitable with android and apple computers, tablets and phones.</p>
+                                <p>Our new Efficacy Magazine is compatible with android and apple computers, tablets and phones.</p>
 
-                                <p>Available to all healthcare practitioners when you register or log in to our website today.</p>
+                                <p>Available to all healthcare practitioners when you <a href="/account/login">register or log in</a> to our website today.</p>
 
                             </div>
 
