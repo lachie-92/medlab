@@ -63,7 +63,7 @@
                                 <img alt="Medlab Efficacy Magazine Edition 1"
                                      src="/img/news/EFFICACY Mag Web Banner 600x600 SEPT16 FINAL.jpg"
                                      title="Medlab Efficacy Magazine Edition 1"
-                                     width="200px"
+                                     width="350px"
                                      class="img-responsive">
 
                             </a>
