@@ -44,7 +44,7 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        FEATURED PRODUCT
+                        FEATURED PRODUCTS
                     </div>
                     <div class="medlab_news_item_body">
 
@@ -85,21 +85,7 @@
                         </p>
                         
 
-                        <img src="/img/products/manuka-c/mauka-c_thumb.png" alt="Manuka-C Featured product" height="150" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/manuka-c" class="medlab_news_content_link">
-                                New - Manuka-C&trade;
-                            </a>
-                        </h2>
-                        <p class="medlab_news_content_paragraph" style="text-align: justify">
-                            Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
-                            ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder. Ascorbic acid
-                            and zinc are vital for the optimal functioning of the immune system including the anti-microbial activity of white
-                            blood cells and are also important for wound healing.
-                        </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/manuka-c" class="medlab_news_content_link">More Information</a>
-                        </p>
+
 
                     </div>
                 </div>
@@ -157,7 +143,7 @@
             <div class="medlab_news_item">
             <div class="medlab_news_item_content_wrapper">
                 <div class="medlab_news_item_title">
-                    UPCOMING CONFERENCES
+                    FEATURED CONFERENCE
                 </div>
                 <div class="medlab_news_item_body">
 
@@ -177,66 +163,7 @@
                         <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">More Information</a>
                     </p>
 
-                    <img src="/img/news/nutrisearch.png" alt="Nutrisearch" height="auto" width="250" style="float: right;"/>
-                    <h2 class="medlab_news_content_title">
-                        <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank" class="medlab_news_content_link">
-                            NutriSearch
-                        </a>
-                    </h2>
-                    <p class="medlab_news_content_paragraph" >
-                        When: 5th November 2016, 2016</br>
-                        Where: Sofitel Hotel, Auckland, New Zealand</br>
-                        Professor Luis Vitetta will be a keynote speaker: Gut Microbiome and Evidence Based Interventions for Chronic Diseases.</br>
-                        Other topics include functional pathology testing for gut and methylation.
-                    </p>
-                    <p class="medlab_news_content_paragraph">
-                        <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank" class="medlab_news_content_link">More Information</a>
-                    </p>
 
-                    <img src="/img/news/GPCE-2016.jpg" alt="GPCE2016" height="auto" width="250" style="float: right;"/>
-                    <h2 class="medlab_news_content_title">
-                        <a href=" http://www.gpce.com.au/melbourne/" target="_blank" class="medlab_news_content_link">
-                            GPCE Melbourne
-                        </a>
-                    </h2>
-                    <p class="medlab_news_content_paragraph" >
-                        When: 11 - 13th November 2016</br>
-                        Where: Melbourne Convention & Exhibition Centre, Melbourne</br>
-                        Prof Luis Vitetta will be contributing to the scientific program
-                    </p>
-                    <p class="medlab_news_content_paragraph">
-                        <a href="http://www.gpce.com.au/melbourne/" target="_blank" class="medlab_news_content_link">More Information</a>
-                    </p>
-
-                    <img src="/img/news/3rd symp.png" alt="NIIM" height="auto" width="250" style="float: right;"/>
-                    <h2 class="medlab_news_content_title">
-                        <a href="https://www.niim.com.au/events/niim-3rd-annual-symposium-advances-integrative-medicine" target="_blank" class="medlab_news_content_link">
-                            NIIM 3rd Annual Symposium
-                        </a>
-                    </h2>
-                    <p class="medlab_news_content_paragraph" >
-                        When: 25 - 26th November, 2016</br>
-                        Where: Amora Hotel Riverwalk, Melbourne</br>
-                        Prof Luis Vitetta will be contributing to the scientific program
-                    </p>
-                    <p class="medlab_news_content_paragraph">
-                        <a href="https://www.niim.com.au/events/niim-3rd-annual-symposium-advances-integrative-medicine" target="_blank" class="medlab_news_content_link">More Information</a>
-                    </p>
-
-                    <img src="/img/news/theo_murphy_australian_frontiers_of_science.jpg" alt="NIIM" height="auto" width="250" style="float: right;"/>
-                    <h2 class="medlab_news_content_title">
-                        <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">
-                            Academy of Science, Frontiers of Science
-                        </a>
-                    </h2>
-                    <p class="medlab_news_content_paragraph" >
-                        When: 30th November, 2016</br>
-                        Where: Mercure Grosvenor Hotel, South Australia</br>
-                        Prof Luis Vitetta and Talia Palacious will contribute to the scientific program
-                    </p>
-                    <p class="medlab_news_content_paragraph">
-                        <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">More Information</a>
-                    </p>
 
 
 
