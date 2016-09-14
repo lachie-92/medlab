@@ -154,6 +154,97 @@
                 </div>
             </div>
 
+            <div class="medlab_news_item">
+            <div class="medlab_news_item_content_wrapper">
+                <div class="medlab_news_item_title">
+                    UPCOMING CONFERENCES
+                </div>
+                <div class="medlab_news_item_body">
+
+                    <img src="/img/news/RACGP16.png" alt="RACGP16" height="auto" width="250" style="float: right;"/>
+                    <h2 class="medlab_news_content_title">
+                        <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">
+                            GP16
+                        </a>
+                    </h2>
+                    <p class="medlab_news_content_paragraph" >
+                        When: 29 September - 1 October, 2016</br>
+                        Where: Perth Convention and Exhibition Centre, Perth</br>
+                        Professor Luis Vitetta will be presenting at the Annual RACGP 'GP 16’ in Perth.</br>
+                        We look froward to seeing you there - visit our Practitioner Consultants at booth 203.
+                    </p>
+                    <p class="medlab_news_content_paragraph">
+                        <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">More Information</a>
+                    </p>
+
+                    <img src="/img/news/nutrisearch.png" alt="Nutrisearch" height="auto" width="250" style="float: right;"/>
+                    <h2 class="medlab_news_content_title">
+                        <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank" class="medlab_news_content_link">
+                            NutriSearch
+                        </a>
+                    </h2>
+                    <p class="medlab_news_content_paragraph" >
+                        When: 5th November 2016, 2016</br>
+                        Where: Sofitel Hotel, Auckland, New Zealand</br>
+                        Professor Luis Vitetta will be a keynote speaker: Gut Microbiome and Evidence Based Interventions for Chronic Diseases.</br>
+                        Other topics include functional pathology testing for gut and methylation.
+                    </p>
+                    <p class="medlab_news_content_paragraph">
+                        <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank" class="medlab_news_content_link">More Information</a>
+                    </p>
+
+                    <img src="/img/news/GPCE-2016.jpg" alt="GPCE2016" height="auto" width="250" style="float: right;"/>
+                    <h2 class="medlab_news_content_title">
+                        <a href=" http://www.gpce.com.au/melbourne/" target="_blank" class="medlab_news_content_link">
+                            GPCE Melbourne
+                        </a>
+                    </h2>
+                    <p class="medlab_news_content_paragraph" >
+                        When: 11 - 13th November 2016</br>
+                        Where: Melbourne Convention & Exhibition Centre, Melbourne</br>
+                        Prof Luis Vitetta will be contributing to the scientific program
+                    </p>
+                    <p class="medlab_news_content_paragraph">
+                        <a href="http://www.gpce.com.au/melbourne/" target="_blank" class="medlab_news_content_link">More Information</a>
+                    </p>
+
+                    <img src="/img/news/3rd symp.png" alt="NIIM" height="auto" width="250" style="float: right;"/>
+                    <h2 class="medlab_news_content_title">
+                        <a href="https://www.niim.com.au/events/niim-3rd-annual-symposium-advances-integrative-medicine" target="_blank" class="medlab_news_content_link">
+                            NIIM 3rd Annual Symposium
+                        </a>
+                    </h2>
+                    <p class="medlab_news_content_paragraph" >
+                        When: 25 - 26th November, 2016</br>
+                        Where: Amora Hotel Riverwalk, Melbourne</br>
+                        Prof Luis Vitetta will be contributing to the scientific program
+                    </p>
+                    <p class="medlab_news_content_paragraph">
+                        <a href="https://www.niim.com.au/events/niim-3rd-annual-symposium-advances-integrative-medicine" target="_blank" class="medlab_news_content_link">More Information</a>
+                    </p>
+
+                    <img src="/img/news/theo_murphy_australian_frontiers_of_science.jpg" alt="NIIM" height="auto" width="250" style="float: right;"/>
+                    <h2 class="medlab_news_content_title">
+                        <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">
+                            Academy of Science, Frontiers of Science
+                        </a>
+                    </h2>
+                    <p class="medlab_news_content_paragraph" >
+                        When: 30th November, 2016</br>
+                        Where: Mercure Grosvenor Hotel, South Australia</br>
+                        Prof Luis Vitetta and Talia Palacious will contribute to the scientific program
+                    </p>
+                    <p class="medlab_news_content_paragraph">
+                        <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">More Information</a>
+                    </p>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
 
 
 
@@ -164,59 +255,7 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank" class="medlab_news_content_link">
-                                Saturday 5th November 2016, Sofitel Hotel Auckland, New Zealand.
-                                Professor Luis Vitetta will be a keynote speaker: Gut Microbiome and Evidence Based Interventions for Chronic Diseases.
-                                Other topics include functional pathology testing for gut and methylation.
-                            </a>
-                        </h2>
-                        <p>
-                            <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank" class="medlab_news_content_link">
-                                <img alt="Nutrisearch"
-                                     src="/img/news/nutrisearch.png"
-                                     title="Nutrisearch"
-                                     width="600px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-                        <br><br>
-
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank" class="medlab_news_content_link">
-
-                                Professor Luis Vitetta will be a keynote speaker and Talia Palacios (Sydney University PhD Scholor) will be making a presentation at the 2016 Theo Murphy Australian Frontiers of Science Symposium.
-
-                            </a>
-                        </h2>
-                        <p>
-                            <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank">
-                                <img alt="Theo Murphy Australian Frontiers Of Science"
-                                     src="/img/news/theo_murphy_australian_frontiers_of_science.jpg"
-                                     title="Theo Murphy Australian Frontiers Of Science"
-                                     width="600px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-                        <br><br>
-
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">
-                                Professor Luis Vitetta will be presenting at the Annual RACGP 'GP 16’ in Perth.</br>
-                                We look froward to seeing you there - visit our Practitioner Consultants at booth 203.
-                            </a>
-                        </h2>
-                        <p>
-                            <a href="http://gp16.com.au/" target="_blank">
-                                <img alt="10th Annual A5M Conference"
-                                     src="/img/news/RACGP16.png"
-                                     title="RACGP"
-                                     width="600px"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-
-                        <br><br>
+                        
 
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
