@@ -255,7 +255,7 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        
+
 
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
@@ -443,11 +443,23 @@
                     </div>
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
+
+                            <li class="medlab_news_sidebar_list_item">
+                                <a href="http://gp16.com.au/" target="_blank">
+                                    <div class="medlab_news_sidebar_list_item_title">
+                                        GP16 (Perth), 29 Sept - 1 October 2016</br>
+                                        Professor Luis Vitetta
+                                    </div>
+                                    <div class="media-left media-middle">
+                                        <img width="100%" alt="GP16" src="/img/news/RACGP16.png">
+                                    </div>
+                                </a>
+                            </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        (NZ) Professor Luis Vitetta will be contributing to the scientific program:
-                                        Gut Microbiome and Evidence Based Interventions for Chronic Diseases.
+                                        NutriSearch (NZ), 5th November 2016</br>
+                                        Professor Luis Vitetta
                                     </div>
                                     <div class="media-left media-middle">
                                         <img width="100%" alt="Nutrisearch" src="/img/news/nutrisearch.png">
@@ -455,19 +467,32 @@
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.gp16.com.au/" target="_blank">
+                                <a href="http://www.gpce.com.au/melbourne/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        Prof Luis Vitetta will be contributing to the scientific program.
+                                        GPCE (Melbourne), 11 - 13th November, 2016</br>
+                                        Professor Luis Vitetta
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%" alt="GP16 Perth" src="/img/news/RACGP16.png">
+                                        <img width="100%"  alt="Microbiome" src="/img/news/GPCE-2016.jpg">
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <a href="https://www.niim.com.au/events/niim-3rd-annual-symposium-advances-integrative-medicine" target="_blank">
+                                    <div class="medlab_news_sidebar_list_item_title">
+                                        NIIM 3rd Annual Symposium (Melbourne), 25 - 26th November, 2016</br>
+                                        Professor Luis Vitetta
+                                    </div>
+                                    <div class="media-left media-middle">
+                                        <img width="100%"  alt="Microbiome" src="/img/news/3rd symp.png">
                                     </div>
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        Professor Luis Vitetta & Talia Palacios will be contributing to the scientific program.
+                                        Academy of Science, Frontiers of Science (Adelaide), 20th November 2016</br>
+                                        Professor Luis Vitetta & Talia Palacios
                                     </div>
                                     <div class="media-left media-middle">
                                         <img width="100%"  alt="Microbiome" src="/img/news/theo_murphy_australian_frontiers_of_science.jpg">
