@@ -51,7 +51,7 @@
                         <div class="medlab_news_sidebar_item">
                             <div class="medlab_news_item_content_wrapper">
                                 <div class="medlab_news_sidebar_item_title">
-                                    Past Medlab Efficacy Magazine
+                                    Medlab Efficacy Articles
                                 </div>
                                 <div class="medlab_news_sidebar_item_body">
                                     <ul class="medlab_news_sidebar_list media-list">
