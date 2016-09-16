@@ -17,8 +17,12 @@
                     </div>
                     <div class="medlab_news_item_body">
 
+
+
+                        <div class="col-md-8 col-sm-12 col-xs-12">
+
                         <p>
-                            <a
+                        <a
                                     @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
                                     href="/efficacy/magazine_sn16"
                                     @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
@@ -36,7 +40,27 @@
                             </a>
                         </p>
 
-                    </div>
+                        </div>
+                            <div class="col-md-4 col-sm-12 col-xs-12">
+
+
+                                <h2 style="text-align:center;">Medlab's New Efficacy Magazine</h2>
+                                <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
+                                <p style="text-align:center;">Issue 1: September - November 2016</p>
+                                <p style="text-align:center;">A Focus on the Gut-Brain Connection</p>
+                                </br>
+
+
+
+                            </div>
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+
+
+                        <p style="text-align:center;">Medlab’s quartely magazine designed to educate and update Practitioners with Medlab research and industry advancements with a variety of contributing authors. <a href="/account/login">Register or log in</a> to view today.</p>
+
+                            </div>
+                            </div>
                 </div>
             </div>
 
