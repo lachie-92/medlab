@@ -442,7 +442,7 @@
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        Academy of Science, Frontiers of Science (Adelaide), 20th November 2016</br>
+                                        Academy of Science, Frontiers of Science (Adelaide), 29th November 2016</br>
                                         Professor Luis Vitetta & Talia Palacios
                                     </div>
                                     <div class="media-left media-middle">
