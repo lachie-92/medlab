@@ -15,186 +15,245 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
-                    <p>
-                        <span style="font-size: medium;">
-                            Please register here to express your interest for our up and coming clinical trials. You
-                            will hear from us shortly
-                        </span>
-                    </p>
 
-                    <p>
-                        <button class="btn btn-sm btn-success"
-                                onclick="location.href = 'https://medlabforms.wufoo.com/forms/zcy0ove1c8rrdy';"
-                                type="button">Express Your Interest
-                        </button>
-                    </p>
 
                     <hr>
 
                     <h2>Current Clinical Trials</h2>
 
-                    <div style="width: 89%;">
+                    <div style="width: 100%;">
                         <table class="table table-striped table-bordered table-responsive">
                             <tbody>
                             <tr>
-                                <th>Study Code</th>
-                                <th>Inclusion Criteria</th>
-                                <th>Visit Schedule</th>
-                                <th>Location</th>
-                                <th>Status</th>
+                                <th><h4>CLINICAL TRIALS</h4></th>
+                                <th><h4>HREC Reference number</h4></th>
+                                <th><h4>CTN submitted to TGA on</h4></th>
+                                <th><h4>NEAF initiated online on</h4></th>
+                                <th><h4>DATE of HREC approval</h4></th>
+                                <th><h4>ANZCTR</h4></th>
+                                <th><h4>STATUS</h4></th>
+                                <th><h4>Website</h4></th>
                             </tr>
 
                             <tr>
-                                <td align="left">Pre Diabetes</td>
+                                <td align="left">Vitamin D3 Hormone Blood Level Study in Healthy Adult Volunteers</td>
+                                <td align="left">0008E</td>
+                                <td align="left">19/09/2013</td>
+                                <td align="left">7/09/2013</td>
+                                <td align="left">6/02/2014</td>
+                                <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001027404&isBasic=True" target="_blank">ACTRN12616001027404</a></td>
+                                <td align="left">Recruiting Closed</td>
                                 <td align="left">
-                                    <ol>
-                                        <li>
-                                            Participants must demonstrate IFG &ndash; defined as fasting glucose 6.1-6.9
-                                            mmol/L.
-                                        </li>
-                                        <li>
-                                            Participants agree to undergo venepuncture on multiple occasions as per
-                                            protocol, in addition not changing diet or exercise patterns over the 12
-                                            weeks study period.
-                                        </li>
-                                        <li>
-                                            A score above 6 in the Australian Type 2 Diabetes Risk Assessment Tool
-                                            (AUSDRISK) questionnaire.
-                                        </li>
-                                        <li>
-                                            The use of Metformin is permitted
-                                        </li>
-                                    </ol>
-                                </td>
-                                <td align="left">
-                                    Once every four weeks for twelve weeks
-                                </td>
-                                <td align="left">
-                                    Sydney
-                                </td>
-                                <td align="left">
-                                    <p>
-                                        Recruiting
-                                    </p>
                                     <p>
                                         <button class="btn btn-sm btn-success"
-                                                onclick="location.href = 'https://medlabforms.wufoo.com/forms/z1n24bua0ujq55t';"
-                                                type="button">Register
+                                                onclick="window.location.href = '';"
+                                                type="button">More Info
                                         </button>
                                     </p>
                                 </td>
                             </tr>
 
                             <tr>
+                                <td align="left"> Vitamin B12 Blood Level Absorption Study in Healthy Adult Volunteers</td>
+                                <td align="left">0013E</td>
+                                <td align="left">CT-2014-CTN-00485-0-v1</td>
+                                <td align="left">26/05/2014</td>
+                                <td align="left">22/05/2014</td>
+                                <td align="left"><a href =" " target="_blank">ACTRN12616001326482</a></td>
+                                <td align="left">Recruiting Closed</td>
                                 <td align="left">
-                                    Depression
-                                </td>
-                                <td align="left">
-                                    <ol>
-                                        <li>
-                                            Be depressed, even though you are taking SSRI antidepressant medication as
-                                            prescribed by your doctor
-                                        </li>
-                                        <li>
-                                            Currently be under the management of a medical practitioner e.g. your family
-                                            doctor or a psychiatrist
-                                        </li>
-                                        <li>
-                                            Have a history of depression that has not responded well to medication, with
-                                            at least 2 previous episodes
-                                        </li>
-                                        <li>
-                                            Be over 18 years of age and have the capacity to provide informed consent
-                                        </li>
-                                        <li>
-                                            Not be subject to a mental health or guardianship order
-                                        </li>
-                                        <li>
-                                            Not have serious physical health problems
-                                        </li>
-                                        <li>
-                                            Have the willingness and ability to comply with assessment protocols of the
-                                            study
-                                        </li>
-                                        <li>
-                                            Not be a high suicide risk
-                                        </li>
-                                        <li>
-                                            Be prepared to be contacted for checks by the researcher to monitor your
-                                            mental health status
-                                        </li>
-                                        <li>
-                                            Not have a diagnosis of schizophrenia or bi-polar disorder or mania
-                                        </li>
-                                        <li>
-                                            Not be substance dependent for a minimum of 6 weeks from volunteering to
-                                            participate
-                                        </li>
-                                        <li>
-                                            Agree to provide your medical practitioner's contact details to us as
-                                            well as permission to contact them if necessary.
-                                        </li>
-                                    </ol>
-                                </td>
-                                <td align="left">
-                                    Once every two months for four months
-                                </td>
-                                <td align="left">
-                                    Brisbane
-                                </td>
-                                <td align="left">
-                                    <p>
-                                        Recruiting
-                                    </p>
                                     <p>
                                         <button class="btn btn-sm btn-success"
-                                                onclick="location.href = 'https://medlabforms.wufoo.com/forms/z11zs6zr0dnrci9';"
-                                                type="button">Register
+                                                onclick="location.href = '';"
+                                                type="button">More Info
                                         </button>
                                     </p>
                                 </td>
                             </tr>
 
                             <tr>
+                                <td align="left">Coenzyme Q10 Absorption Studies in Healthy Adult Volunteers</td>
+                                <td align="left">0014E</td>
+                                <td align="left">CT-2014-CTN-00484-0-v1</td>
+                                <td align="left">26/03/2014</td>
+                                <td align="left">22/05/2014</td>
+                                <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001037493&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12616001037493</a></td>
+                                <td align="left">Recruiting Closed</td>
                                 <td align="left">
-                                    Multi-strain probiotic
-                                </td>
-                                <td align="left">
-                                    <ol>
-                                        <li>
-                                            Adults (&ge; 18 years of age) with Pre-diabetes or recently diagnosed with
-                                            T2DM (no more than 12 months).
-                                        </li>
-                                        <li>
-                                            BMI equal or greater than 30 kg/m<sup>2</sup>.
-                                        </li>
-                                        <li>
-                                            Treated by diet alone or diet plus metformin.
-                                        </li>
-                                        <li>
-                                            Willing to adhere study protocol (no yogurt, fermented food, dietary
-                                            supplements, probiotics or prebiotics) for the study duration.
-                                        </li>
-                                    </ol>
-                                </td>
-                                <td align="left">
-                                    Four visits during twelve weeks
-                                </td>
-                                <td align="left">
-                                    Sydney
-                                </td>
-                                <td align="left">
-                                    <p>
-                                        Recruiting
-                                    </p>
                                     <p>
                                         <button class="btn btn-sm btn-success"
-                                                onclick="location.href = 'https://medlabforms.wufoo.com/forms/z16mgz2202ehbre';"
-                                                type="button">Register
+                                                onclick="location.href = '';"
+                                                type="button">More Info
                                         </button>
                                     </p>
                                 </td>
                             </tr>
+
+                            <tr>
+                                <td align="left">A Phase IIA Double-Blind Placebo Controlled Clinical Trial Investigating the Efficacy and Safety of Arborvitae Health and Wellbeing Supplement in Improving Blood Glucose Levels in Pre-Diabetes Participants</td>
+                                <td align="left">0017E</td>
+                                <td align="left">1/08/2014</td>
+                                <td align="left">1/08/2014</td>
+                                <td align="left">14/08/2014</td>
+                                <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615000224527&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615000224527</a></td>
+                                <td align="left">Recruiting</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">A Motivational Electronic Intervention Study for Patients Diagnosed with Type 2 Diabetes Mellitus (T2DM) (not currently prescribed on insulin)</td>
+                                <td align="left">0019E</td>
+                                <td align="left">9/02/2015</td>
+                                <td align="left">01/08/14 (NIIM NEAF)</td>
+                                <td align="left">16/02/2015</td>
+                                <td align="left"><a href =" http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615000233527&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615000233527</a></td>
+                                <td align="left">Recruiting</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">A Phase 0 Open-Labelled Clinical Trial to Investigate the Safety of a Micro-dose of Nanocelle Insulin Formulation Administered Oro-buccally in Healthy Adult Volunteers</td>
+                                <td align="left">0027E_2015</td>
+                                <td align="left">15/09/2015</td>
+                                <td align="left">27/09/15 (NIIM NEAF)</td>
+                                <td align="left">15/09/2015</td>
+                                <td align="left"><a href ="ttp://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001072404&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12616001072404</a></td>
+                                <td align="left">Recruiting Closed</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">A Phase 0 Open-Labelled Clinical Trial to Investigate the Safety of a Micro-dose of a Nanocelle Atorvastatin Formulation Administered Oro-buccally in Healthy Adult Volunteers</td>
+                                <td align="left">0028E_2015</td>
+                                <td align="left">CT-2015-CTN-03087-1 v3</td>
+                                <td align="left">-</td>
+                                <td align="left">7/01/2016</td>
+                                <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615001285549&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615001285549</a></td>
+                                <td align="left">Recruiting</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">A Phase 0 Open-Labelled Single Group Clinical Trial to Investigate the Safety of a Micro-dose of a Nanocelle Cannabis Formulation Administered Oro-buccally to Healthy Adult Volunteers</td>
+                                <td align="left">0030E_2016</td>
+                                <td align="left">-</td>
+                                <td align="left">21/01/16 (NIIM NEAF)</td>
+                                <td align="left">16/02/2016</td>
+                                <td align="left">Pending CTN</td>
+                                <td align="left">Recruiting Closed</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">A Phase IIA Randomised Placebo Controlled Adjunctive Antiemetic Therapy With a Cannabinoid Extract in Preventing Chemotherapy-induced Nausea and Vomiting in Patients With Cancer Receiving Moderately to Highly Emetogenic Chemotherapy</td>
+                                <td align="left">-</td>
+                                <td align="left">-</td>
+                                <td align="left">-</td>
+                                <td align="left">-</td>
+                                <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615000414516&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615000414516</a></td>
+                                <td align="left">Recruiting Closed</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">An Open Label Pilot Comparative Clinical Trial of Dehydroepiandrosterone (DHEA) Efficacy Administered as a Troche versus Oral Strips in Males with Adrenal Fatigue</td>
+                                <td align="left">0034E_2016</td>
+                                <td align="left">-</td>
+                                <td align="left">0034E_2016</td>
+                                <td align="left">1/04/2016</td>
+                                <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001048471&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12616001048471</a></td>
+                                <td align="left">Recruiting</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">The Effect of a Multi-strain Probiotic on Metabolic Biomarkers in Pre-diabetic Adults</td>
+                                <td align="left">X14-0369 & HREC/14/RPAH/492</td>
+                                <td align="left">14/06/2015</td>
+                                <td align="left">20/10/2014</td>
+                                <td align="left">22/04/2015</td>
+                                <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12613001378718&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12613001378718</a></td>
+                                <td align="left">Recruiting Closed</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td align="left">A Randomised Placebo Controlled Clinical Trial Investigating the role of Orotate and Probiotics Co-administered with Antidepressant Medications for the Management of Treatment Resistant Depression</td>
+                                <td align="left">not yet submitted</td>
+                                <td align="left">not yet submitted</td>
+                                <td align="left">not yet submitted</td>
+                                <td align="left">not yet submitted</td>
+                                <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616000401459p&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12616000401459p</a></td>
+                                <td align="left">Recruiting Closed</td>
+                                <td align="left">
+                                    <p>
+                                        <button class="btn btn-sm btn-success"
+                                                onclick="location.href = '';"
+                                                type="button">More Info
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+
+
+
+
 
                             </tbody>
                         </table>
