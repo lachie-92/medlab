@@ -17,9 +17,7 @@
 
 
 
-                    <hr>
-
-                    <h2>Current Clinical Trials</h2>
+                    
 
                     <div style="width: 100%;">
                         <table class="table table-striped table-bordered table-responsive">
