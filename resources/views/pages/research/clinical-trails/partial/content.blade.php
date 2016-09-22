@@ -17,9 +17,9 @@
 
 
 
-                    
 
-                    <div style="width: 100%;">
+
+                    <div style="width: 100%; overflow-x: auto;">
                         <table class="table table-striped table-bordered table-responsive">
                             <tbody>
                             <tr>
