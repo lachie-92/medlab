@@ -30,7 +30,7 @@
                                 <th><h4>DATE of HREC approval</h4></th>
                                 <th><h4>ANZCTR</h4></th>
                                 <th><h4>STATUS</h4></th>
-                                <th><h4>Website</h4></th>
+                                <!-- <th><h4>Website</h4></th> -->
                             </tr>
 
                             <tr>
@@ -41,14 +41,14 @@
                                 <td align="left">6/02/2014</td>
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001027404&isBasic=True" target="_blank">ACTRN12616001027404</a></td>
                                 <td align="left">Recruiting Closed</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="window.location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -59,14 +59,14 @@
                                 <td align="left">22/05/2014</td>
                                 <td align="left"><a href =" " target="_blank">ACTRN12616001326482</a></td>
                                 <td align="left">Recruiting Closed</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -77,14 +77,14 @@
                                 <td align="left">22/05/2014</td>
                                 <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001037493&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12616001037493</a></td>
                                 <td align="left">Recruiting Closed</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -95,14 +95,14 @@
                                 <td align="left">14/08/2014</td>
                                 <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615000224527&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615000224527</a></td>
                                 <td align="left">Recruiting</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -113,14 +113,14 @@
                                 <td align="left">16/02/2015</td>
                                 <td align="left"><a href =" http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615000233527&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615000233527</a></td>
                                 <td align="left">Recruiting</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -131,14 +131,14 @@
                                 <td align="left">15/09/2015</td>
                                 <td align="left"><a href ="ttp://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001072404&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12616001072404</a></td>
                                 <td align="left">Recruiting Closed</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -149,14 +149,14 @@
                                 <td align="left">7/01/2016</td>
                                 <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615001285549&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615001285549</a></td>
                                 <td align="left">Recruiting</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -167,14 +167,14 @@
                                 <td align="left">16/02/2016</td>
                                 <td align="left">Pending CTN</td>
                                 <td align="left">Recruiting Closed</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -185,14 +185,14 @@
                                 <td align="left">-</td>
                                 <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615000414516&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615000414516</a></td>
                                 <td align="left">Recruiting Closed</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -203,14 +203,14 @@
                                 <td align="left">1/04/2016</td>
                                 <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001048471&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12616001048471</a></td>
                                 <td align="left">Recruiting</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -221,14 +221,14 @@
                                 <td align="left">22/04/2015</td>
                                 <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12613001378718&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12613001378718</a></td>
                                 <td align="left">Recruiting Closed</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
                             <tr>
@@ -239,14 +239,14 @@
                                 <td align="left">not yet submitted</td>
                                 <td align="left"><a href ="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616000401459p&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12616000401459p</a></td>
                                 <td align="left">Recruiting Closed</td>
-                                <td align="left">
+                                <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
                                                 onclick="location.href = '';"
                                                 type="button">More Info
                                         </button>
                                     </p>
-                                </td>
+                                </td> -->
                             </tr>
 
 
