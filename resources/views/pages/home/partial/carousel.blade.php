@@ -69,12 +69,12 @@
     <table class="medlab_carousel_bottom_panel_table">
         <tbody>
         <tr>
-            <td class="medlab_carousel_bottom_panel_column1">Research / Innovation</td>
-            <td class="medlab_carousel_bottom_panel_column2">100% Satisfaction</td>
+            <td class="medlab_carousel_bottom_panel_column1">Research & Innovation</td>
+            <td class="medlab_carousel_bottom_panel_column2">High Quality Nutraceuticals</td>
 
             <td class="medlab_carousel_bottom_panel_column3">
                 <a href="/contact">
-                    <div class="medlab_carousel_bottom_panel_column3_link">Ask a Question!</div>
+                    <div class="medlab_carousel_bottom_panel_column3_link">Contact Us Here</div>
                 </a>
             </td>
         </tr>

@@ -221,6 +221,7 @@
                         Contact Details
                     </h4>
                     <div>
+                        <label>Office Hours: </label> 8:30am - 5pm EST <br>
                         <label>Toll Free: </label> 1300 369 570 <br>
                         <label>Phone: </label> 02 8188 0311 <br>
                         <label>Fax: </label> 02 9699 3347 <br>
@@ -237,8 +238,11 @@
                     <a href="http://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-vimeo-square"></i>
                     </a>
-                    <a href="https://vimeo.com/user30326229" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
-                        <i class="fa fa-linkedin"></i>
+                    <a href="https://www.instagram.com/medlab_clinical/" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/medlabclinical" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
+                        <i class="fa fa-twitter"></i>
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">

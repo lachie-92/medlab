@@ -23,8 +23,11 @@
                 <a href="https://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" target="_blank" class="medlab_navbar_login_item">
                     <i class="fa fa-linkedin"></i>
                 </a>
-                <a href="https://vimeo.com/user30326229" target="_blank" class="medlab_navbar_login_item">
-                    <i class="fa fa-vimeo-square"></i>
+                <a href="https://www.instagram.com/medlab_clinical/" target="_blank" class="medlab_navbar_login_item">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/medlabclinical" target="_blank" class="medlab_navbar_login_item">
+                    <i class="fa fa-twitter"></i>
                 </a>
             </li>
         </ul>
