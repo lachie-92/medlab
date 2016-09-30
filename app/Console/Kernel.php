@@ -20,7 +20,6 @@ class Kernel extends ConsoleKernel
         \App\Console\Commands\ModifyProduct::class,
         \App\Console\Commands\UploadProduct::class,
         \App\Console\Commands\UpdateDeal::class,
-        \App\Console\Commands\UpdateCategory::class,
 
     ];
 

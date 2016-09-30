@@ -49,6 +49,7 @@ class UpdateCategory extends Command
                 'BioClean EPA:DHA + CoQ10 120s',
                 'BioClean EPA:DHA + CoQ10 60s',
                 'GastroDaily',
+                'Enbiotic 120\'s',
                 'Enbiotic 60\'s',
                 'SB 5B',
 
@@ -67,6 +68,7 @@ class UpdateCategory extends Command
             'Endocrine Support' => [
                 'W8Biotic Lemon & Lime',
                 'W8Biotic Strawberries & Cream',
+                'Enbiotic 120\'s',
                 'Enbiotic 60\'s',
                 'Manuka-C'
             ],
@@ -80,6 +82,7 @@ class UpdateCategory extends Command
                 'ORSBiotic',
                 'NRGBiotic 120\'s',
                 'NRGBiotic 60\'s',
+                'Enbiotic 120\'s',
                 'Enbiotic 60\'s',
                 'SB 5B',
                 'BioticNatal'
@@ -92,9 +95,7 @@ class UpdateCategory extends Command
                 'ORSBiotic',
                 'SB 5B',
                 'BioticNatal',
-                'Manuka-C',
-                'Immune-5 Vanilla',
-                'Immune-5 Raspberry'
+                'Manuka-C'
             ],
             'Infants and Toddlers' => [
                 'Biotic Jnr.',
@@ -137,15 +138,11 @@ class UpdateCategory extends Command
                 'BioClean EPA:DHA + Plant Sterols 60s',
                 'BioClean EPA:DHA + CoQ10 120s',
                 'BioClean EPA:DHA + CoQ10 60s',
-                'Manuka-C',
-                'Immune-5 Vanilla',
-                'Immune-5 Raspberry'
+                'Manuka-C'
             ],
             'Support for Pregnancy' => [
                 'Biotic Jnr.',
-                'BioticNatal',
-                'Immune-5 Vanilla',
-                'Immune-5 Raspberry'
+                'BioticNatal'
             ],
             'Support for Seniors' => [
                 '12Mg Optima Relax',
@@ -156,9 +153,7 @@ class UpdateCategory extends Command
                 'NRGBiotic 120\'s',
                 'NRGBiotic 60\'s',
                 'NanoCelle Activated B12',
-                'Manuka-C',
-                'Immune-5 Vanilla',
-                'Immune-5 Raspberry'
+                'Manuka-C'
             ],
             'Support for Teenagers' => [
                 '12Mg Optima Relax',
@@ -175,9 +170,7 @@ class UpdateCategory extends Command
                 'BioClean EPA:DHA + CoQ10 120s',
                 'BioClean EPA:DHA + CoQ10 60s',
                 'BioticNatal',
-                'Manuka-C',
-                'Immune-5 Vanilla',
-                'Immune-5 Raspberry'
+                'Manuka-C'
             ],
             'Urogenital Support' => [
                 'MultiBiotic 60\'s',
