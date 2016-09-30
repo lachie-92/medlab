@@ -83,10 +83,24 @@
                                     <span class="medlab_product_info_price_box_label">
                                         Price:
                                     </span>
-                                    ${!! $product->price_wholesale !!}
-                                    <span style="font-size: 12px; color: #555;">
-                                        WS
-                                    </span>
+                                    @if(count($product->promotions->where('type', 'price_discount')) == 1)
+                                        <span style="text-decoration: line-through;">
+                                            ${!! number_format($product->price_wholesale, 2) !!}
+                                        </span>
+                                        <span style="font-size: 12px; color: #555;">
+                                            WS
+                                        </span>
+                                        <br>
+                                        ${!! number_format($product->price_wholesale - $product->price_wholesale*$product->promotions->where('type', 'price_discount')->first()->price_discount->discount_percentage/100, 2) !!}
+                                        <span style="font-size: 12px; color: #555;">
+                                            WS
+                                        </span>
+                                    @else
+                                        ${!! number_format($product->price_wholesale, 2) !!}
+                                        <span style="font-size: 12px; color: #555;">
+                                            WS
+                                        </span>
+                                    @endif
                                 @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                     <span class="medlab_product_info_price_box_label">
                                         Price:

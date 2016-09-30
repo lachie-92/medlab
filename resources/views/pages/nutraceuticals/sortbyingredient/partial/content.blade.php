@@ -51,7 +51,7 @@
                                                 @if (Auth::guest() == false)
                                                     @if ($promotion->isEligibleForPromotion(Auth::user()->group))
                                                         <div class="alert alert-success" role="alert" style="margin-bottom:3px;">
-                                                            <b>{{ $promotion->name . ": " . $promotion->description }}</b>
+                                                            <b>{{ $promotion->name . " - " . $promotion->description }}</b>
                                                         </div>
                                                     @endif
                                                 @endif
