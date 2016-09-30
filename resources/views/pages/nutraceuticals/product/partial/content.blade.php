@@ -83,7 +83,8 @@
                                     <span class="medlab_product_info_price_box_label">
                                         Price:
                                     </span>
-                                    @if(count($product->promotions->where('type', 'price_discount')) == 1)
+                                    <?php $active_discount_promotions = $product->promotions->where('isActive', 1)->filter(function($item){ return \Carbon\Carbon::now()->gte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->starting_date)) && \Carbon\Carbon::now()->lte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->end_date)); })->where('type', 'price_discount') ?>
+                                    @if(count($active_discount_promotions) == 1)
                                         <span style="text-decoration: line-through;">
                                             ${!! number_format($product->price_wholesale, 2) !!}
                                         </span>
@@ -91,7 +92,7 @@
                                             WS
                                         </span>
                                         <br>
-                                        ${!! number_format($product->price_wholesale - $product->price_wholesale*$product->promotions->where('type', 'price_discount')->first()->price_discount->discount_percentage/100, 2) !!}
+                                        ${!! number_format($product->price_wholesale - $product->price_wholesale*$active_discount_promotions->first()->price_discount->discount_percentage/100, 2) !!}
                                         <span style="font-size: 12px; color: #555;">
                                             WS
                                         </span>
