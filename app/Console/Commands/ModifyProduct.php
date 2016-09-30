@@ -6906,7 +6906,7 @@ class ModifyProduct extends Command
             [
                 'product_name_index' => "Immune-5 Raspberry",
                 'austl_number' => '276104',
-                'product_name' => 'Immune-5&trade; Raspbery',
+                'product_name' => 'Immune-5&trade; Raspberry',
                 'short_description' =>
                     '
                 <h4 class="medlab_product_content_title">Immune-5&trade; Raspberry</small></h4>
