@@ -57,8 +57,8 @@
                                 <td align="left">CT-2014-CTN-00485-0-v1</td>
                                 <td align="left">26/05/2014</td>
                                 <td align="left">22/05/2014</td>
-                                <td align="left"><a href =" " target="_blank">ACTRN12616001326482</a></td>
-                                <td align="left">Recruiting Closed</td>
+                                <td align="left"><a href ="https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=371518" target="_blank">ACTRN12616001326482</a></td>
+                                <td align="left">Recruiting</td>
                                 <!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
