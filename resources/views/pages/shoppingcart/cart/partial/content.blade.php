@@ -108,7 +108,7 @@
                     <tr>
                         <th></th>
                         <th style="text-align: right">
-                            Free Shipping for Orders over ${{ round($shoppingCart->amountRequiredForFreeShipping*11/10, 2) }} (inc. GST)
+                            Free Shipping for Orders over ${{ $shoppingCart->amountRequiredForFreeShipping }} (inc. GST)
                         </th>
                     </tr>
                     <tr>

@@ -21,7 +21,7 @@ class ShoppingCart {
      *
      * @var double
      */
-    public $amountRequiredForFreeShipping = 150;
+    public $amountRequiredForFreeShipping = 165;
 
     /**
      * Tax rate
