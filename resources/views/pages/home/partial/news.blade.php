@@ -11,17 +11,6 @@
         <div class="col-md-8 col-sm-12 col-xs-12">
 
             <div class="medlab_news_item">
-
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        WEBSITE MAINTENANCE
-                    </div>
-                    <div class="medlab_news_item_body">
-                    <p>The Medlab Clinical website will be undergoing maintenance over the next 48 hours, we apologise for any inconvenience</p>
-                    </div>
-
-                </div>
-
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
                         Medlab Efficacy Magazine
