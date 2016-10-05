@@ -3630,7 +3630,7 @@ class ModifyProduct extends Command
                 <p>
                     NanoCelle&trade; Activated B12 may assist in the management of dietary vitamin B12 deficiency as may occur
                     in vegetarians, vegans, the elderly, and those taking certain medications that lower stomach acid.
-                    Methylcobalamin is a biologically active form of vitamin B12 that is involved in the methylation of
+                    Mecobalamin is a biologically active form of vitamin B12 that is involved in the methylation of
                     homocysteine to methionine, therefore helping to lower serum homocysteine levels. Vitamin B12 is required
                     for red blood cell production, synthesis of myelin that is vital to healthy neurological function and
                     DNA methylation. NanoCelle&trade; delivers nanoparticle-sized molecules of the vitamin for absorption across
@@ -3671,7 +3671,7 @@ class ModifyProduct extends Command
                         <li>Vitamin B12 supports healthy neurological function.</li>
                         <li>Suitable for population groups at increased risk of vitamin B12 deficiency, including strict vegetarians and vegans, due to dietary vitamin B12 being obtained from foods of animal origin including meat, fish, dairy and eggs.</li>
                         <li>Suitable for population groups at increased risk of vitamin B12 deficiency including the elderly who are reported to have lower serum concentrations of vitamin B12 than their younger counter parts. Low stomach acid secretion reported in the elderly results in decreased bioavailability of vitamin B12 from food.</li>
-                        <li>Methylcobalamin is a biologically active form of vitamin B12. </li>    
+                        <li>Mecobalamin is a biologically active form of vitamin B12. </li>    
                     </ul>
                 </p>
                 
@@ -3752,7 +3752,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Co-methylcobalamin</p>
+                                <p>Co-Mecobalamin</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1000 mcg</p>
