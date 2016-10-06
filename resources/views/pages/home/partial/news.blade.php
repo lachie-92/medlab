@@ -142,27 +142,20 @@
                     FEATURED CONFERENCE
                 </div>
                 <div class="medlab_news_item_body">
-
-                    <img src="/img/news/RACGP16.png" alt="RACGP16" height="auto" width="250" style="float: right;"/>
                     <h2 class="medlab_news_content_title">
-                        <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">
-                            GP16
-                        </a>
+                        A5M: Intestinal Health Workshop (Sydney)
                     </h2>
-                    <p class="medlab_news_content_paragraph" >
-                        When: 29 September - 1 October, 2016</br>
-                        Where: Perth Convention and Exhibition Centre, Perth</br>
-                        Professor Luis Vitetta will be presenting at the Annual RACGP 'GP 16’ in Perth.</br>
-                        We look froward to seeing you there - visit our Practitioner Consultants at booth 203.
+                    <p>
+                        <img src="/img/news/A5M_Workshop_Oct_2016.jpg" alt="A5M_Workshop" height="auto" width="100%"/>
+                    </p>
+                    <p>
+                        When: Sunday 16th October, 2016</br>
+                        Where: Pullman Hyde Park, Sydney</br>
+                        Professor Luis Vitetta and a host of researchers will present the latest information and findings on the Intestinal Microbiome with clinical case studies.
                     </p>
                     <p class="medlab_news_content_paragraph">
-                        <a href="http://gp16.com.au/" target="_blank" class="medlab_news_content_link">More Information</a>
+                        <a href="https://s3.amazonaws.com/medlab-pdfs/Conference/PAYMENT+DETAILS+MICROBIOME+WORKSHOP.pdf" target="_blank" class="medlab_news_content_link">Click Here</a>, for the program and a Medlab Special Offer - Half price Registration!
                     </p>
-
-
-
-
-
 
                 </div>
             </div>
@@ -371,13 +364,13 @@
                         <ul class="medlab_news_sidebar_list media-list">
 
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="http://gp16.com.au/" target="_blank">
+                                <a href="https://s3.amazonaws.com/medlab-pdfs/Conference/PAYMENT+DETAILS+MICROBIOME+WORKSHOP.pdf" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        GP16 (Perth), 29 Sept - 1 October 2016</br>
+                                        A5M: Intestinal Health Workshop (Sydney), 16th October, 2016</br>
                                         Professor Luis Vitetta
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%" alt="GP16" src="/img/news/RACGP16.png">
+                                        <img width="100%" alt="A5M Workshop" src="/img/news/A5M_Workshop_Oct_2016.jpg">
                                     </div>
                                 </a>
                             </li>
