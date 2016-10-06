@@ -143,7 +143,7 @@
                 </div>
                 <div class="medlab_news_item_body">
                     <h2 class="medlab_news_content_title">
-                        A5M: Intestinal Health Workshop (Sydney)
+                        A5M: Intestinal Health Workshop
                     </h2>
                     <p>
                         <img src="/img/news/A5M_Workshop_Oct_2016.jpg" alt="A5M_Workshop" height="auto" width="100%"/>
