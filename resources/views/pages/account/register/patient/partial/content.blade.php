@@ -320,7 +320,7 @@
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Post Code</th></tr>
-                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_postcode" placeholder="Post Code" value="{{ old('practitioner_not_found_postcode') }}"></td></tr>
+                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_postcode" id="practitioner_not_found_postcode" placeholder="Post Code" value="{{ old('practitioner_not_found_postcode') }}"></td></tr>
                                                     </table>
                                                 </div>
                                             </div>
@@ -328,13 +328,13 @@
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Practitioner Name</th></tr>
-                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_practitioner_name" placeholder="Title First Name Last Name" value="{{ old('practitioner_not_found_practitioner_name') }}"></td></tr>
+                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_practitioner_name" id="practitioner_not_found_practitioner_name" placeholder="Title First Name Last Name" value="{{ old('practitioner_not_found_practitioner_name') }}"></td></tr>
                                                     </table>
                                                 </div>
                                                 <div class="col-md-6 col-sm-6">
                                                     <table style="width:100%;">
                                                         <tr><th class="medlab_registration_form_section_subtitle">Practitioner Clinic</th></tr>
-                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_clinic" placeholder="Practitioner Clinic" value="{{ old('practitioner_not_found_clinic') }}"></td></tr>
+                                                        <tr><td><input type="text" class="form-control" name="practitioner_not_found_clinic" id="practitioner_not_found_clinic"  placeholder="Practitioner Clinic" value="{{ old('practitioner_not_found_clinic') }}"></td></tr>
                                                     </table>
                                                 </div>
                                             </div>

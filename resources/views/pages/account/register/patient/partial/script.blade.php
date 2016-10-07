@@ -21,6 +21,13 @@
             } else {
                 $("#practitioner_manual_handling").collapse("hide");
             }
+
+            $("#practitioner_not_found_state_select").val($("#practitioner_state_select").val());
+            $("#practitioner_not_found_country").val($("#practitioner_country_select").val());
+            $("#practitioner_not_found_postcode").val($("#practitioner_postcode").val());
+            $("#practitioner_not_found_clinic").val($("#practitioner_clinic").val());
+            $("#practitioner_not_found_practitioner_name").val($("#practitioner_first_name").val() + " " + $("#practitioner_last_name").val());
+
         });
 
         $('#find_practitioner_btn').click(function(e) {
