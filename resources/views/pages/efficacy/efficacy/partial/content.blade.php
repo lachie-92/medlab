@@ -74,7 +74,7 @@
                                         <li class="medlab_news_sidebar_list_item">
                                             <a href="/efficacy/human-ageing">
                                                 <div class="media-left media-middle">
-                                                    <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/news/Medlab_nanocelle_webinar.jpeg" target="_blank" >
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/efficacy/efficacy/human_ageing.jpg" target="_blank" >
                                                 </div>
                                                 <div class="media-body">
                                                     <div class="medlab_news_sidebar_list_item_title">
@@ -90,7 +90,7 @@
                                         <li class="medlab_news_sidebar_list_item">
                                             <a href="/efficacy/optimising-skeletal-muscle-function">
                                                 <div class="media-left media-middle">
-                                                    <img class="medlab_news_sidebar_list_item_image" alt="Unlocking the Clinical benefits of NRGBiotic" src="/img/news/MedlabNRG_webinar.jpg" target="_blank" >
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="Unlocking the Clinical benefits of NRGBiotic" src="/img/efficacy/efficacy/optimising skeletal muscle.jpg" target="_blank" >
                                                 </div>
                                                 <div class="media-body">
                                                     <div class="medlab_news_sidebar_list_item_title">
@@ -105,14 +105,14 @@
                                         <li class="medlab_news_sidebar_list_item">
                                             <a href="/efficacy/obesity-intestinal-inflammation-and-probiotics">
                                                 <div class="media-left media-middle">
-                                                    <img class="medlab_news_sidebar_list_item_image" alt="Depression and The Gut Microbiome" src="/img/news/medlab_depressionwebinar.jpg" target="_blank" >
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="Depression and The Gut Microbiome" src="/img/efficacy/efficacy/obesity, intestinal inflammation.jpg" target="_blank" >
                                                 </div>
                                                 <div class="media-body">
                                                     <div class="medlab_news_sidebar_list_item_title">
                                                         Obesity, Intestinal Inflammation and Probiotics
                                                     </div>
                                                     <div class="medlab_news_sidebar_list_item_body">
-                                                        Dr Samantha Coulson and Professor Luis Vitetta
+                                                        Professor Luis Vitetta and Dr Samantha Coulson
 
                                                     </div>
                                                 </div>
@@ -121,14 +121,14 @@
                                         <li class="medlab_news_sidebar_list_item">
                                             <a href="/efficacy/role-of-bacteria-in-git-conditions">
                                                 <div class="media-left media-middle">
-                                                    <img class="medlab_news_sidebar_list_item_image" alt="High Fat Diet, Probiotics and NAFLD" src="/img/news/Medlab_HFD_NALFD_Webinar.jpg" target="blank">
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="High Fat Diet, Probiotics and NAFLD" src="/img/efficacy/efficacy/role of bacteria.jpg" target="blank">
                                                 </div>
                                                 <div class="media-body">
                                                     <div class="medlab_news_sidebar_list_item_title">
                                                         Role of Bacteria in Gastrointestinal Conditions
                                                     </div>
                                                     <div class="medlab_news_sidebar_list_item_body">
-                                                        Dr Samantha Coulson, Professor Luis Vitetta
+                                                        Professor Luis Vitetta and Dr Samantha Coulson
                                                     </div>
                                                 </div>
                                             </a>
@@ -136,14 +136,14 @@
                                         <li class="medlab_news_sidebar_list_item">
                                             <a href="/efficacy/optimising-immunity-in-preparation-for-cold-and-flu-season">
                                                 <div class="media-left media-middle">
-                                                    <img class="medlab_news_sidebar_list_item_image" alt="Probiotics and Gut Health" src="/img/news/Medlab_Probiotic_and_Gut_Health_Webinar.jpg" target="_blank" >
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="Probiotics and Gut Health" src="/img/efficacy/efficacy/optimising immunity.jpg" target="_blank" >
                                                 </div>
                                                 <div class="media-body">
                                                     <div class="medlab_news_sidebar_list_item_title">
                                                         Optimising Immunity in preparation for cold and flu season
                                                     </div>
                                                     <div class="medlab_news_sidebar_list_item_body">
-                                                        Dr Samantha Coulson, Professor Luis Vitetta and Isabelle Ibrahim
+                                                        Professor Luis Vitetta, Dr Samantha Coulson and Isabelle Ibrahim
                                                     </div>
                                                 </div>
                                             </a>
@@ -151,7 +151,7 @@
                                         <li class="medlab_news_sidebar_list_item">
                                             <a href="/efficacy/vitamin-d-your-best-defence">
                                                 <div class="media-left media-middle">
-                                                    <img class="medlab_news_sidebar_list_item_image" alt="Probiotics and Gut Health" src="/img/news/Medlab_Probiotic_and_Gut_Health_Webinar.jpg" target="_blank" >
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="Probiotics and Gut Health" src="/img/efficacy/efficacy/vitamin D.jpg" target="_blank" >
                                                 </div>
                                                 <div class="media-body">
                                                     <div class="medlab_news_sidebar_list_item_title">
