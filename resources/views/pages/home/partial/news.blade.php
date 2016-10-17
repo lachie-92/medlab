@@ -143,19 +143,17 @@
                 </div>
                 <div class="medlab_news_item_body">
                     <h2 class="medlab_news_content_title">
-                        A5M: Intestinal Health Workshop
+                        7th World Congress on Targeting Mitochondria
                     </h2>
                     <p>
-                        <img src="/img/news/A5M_Workshop_Oct_2016.jpg" alt="A5M_Workshop" height="auto" width="100%"/>
+                        <img src="/img/news/targetingmitochondria.png" alt="Targeting Mitochondria" height="auto" width="100%"/>
                     </p>
                     <p>
-                        When: Sunday 16th October, 2016</br>
-                        Where: Pullman Hyde Park, Sydney</br>
-                        Professor Luis Vitetta and a host of researchers will present the latest information and findings on the Intestinal Microbiome with clinical case studies.
+                        When: 24th-26th October, 2016</br>
+                        Where: Berlin, Germany</br>
+                        Professor Luis Vitetta to present: Nephrotoxic effects of cis-diamminedichloroplatinium II (cisplatin) can be ameliorated using Coenzyme Q10.
                     </p>
-                    <p class="medlab_news_content_paragraph">
-                        <a href="https://s3.amazonaws.com/medlab-pdfs/Conference/PAYMENT+DETAILS+MICROBIOME+WORKSHOP.pdf" target="_blank" class="medlab_news_content_link">Click Here</a>, for the program and a Medlab Special Offer - Half price Registration!
-                    </p>
+
 
                 </div>
             </div>
@@ -363,17 +361,6 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
 
-                            <li class="medlab_news_sidebar_list_item">
-                                <a href="https://s3.amazonaws.com/medlab-pdfs/Conference/PAYMENT+DETAILS+MICROBIOME+WORKSHOP.pdf" target="_blank">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        A5M: Intestinal Health Workshop (Sydney), 16th October, 2016</br>
-                                        Professor Luis Vitetta
-                                    </div>
-                                    <div class="media-left media-middle">
-                                        <img width="100%" alt="A5M Workshop" src="/img/news/A5M_Workshop_Oct_2016.jpg">
-                                    </div>
-                                </a>
-                            </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://www.targetting-mitochondria.com" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
