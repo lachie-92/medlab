@@ -65,7 +65,10 @@ class PractitionerOnlyController extends Controller
             case "gastrodaily":
                 return view('pages.education.practitioner-education.support-healthy-gastrointestinal-function.index');
                 break;
-            case "manuka-c":
+            case "manuka-c-105g":
+                return view('pages.education.practitioner-education.ascorbic-acid-and-glutathione.index');
+                break;
+            case "manuka-c-210g":
                 return view('pages.education.practitioner-education.ascorbic-acid-and-glutathione.index');
                 break;
             case "nanocelle-b12":

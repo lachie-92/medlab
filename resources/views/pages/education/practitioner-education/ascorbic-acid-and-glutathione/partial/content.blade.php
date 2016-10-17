@@ -50,7 +50,7 @@
                     </p>
                     <br>
                     <p>
-                        <img alt="Figure 1-3" src="/img/products/manuka-c/manuka_figure1-3.png" class="img-responsive center-block" style="width: 900px;"><br>
+                        <img alt="Figure 1-3" src="/img/practitioner-education/ascorbic_acid.png" class="img-responsive center-block" style="width: 900px;"><br>
                     </p>
 
                     <p>
@@ -69,7 +69,7 @@
                     </p>
 
                     <p>
-                        <img alt="Figure 4" src="/img/products/manuka-c/manuka_figure4.png" width="400px;" class="img-responsive center-block"><br>
+                        <img alt="Figure 4" src="/img/practitioner-education/glutathione.png" width="400px;" class="img-responsive center-block"><br>
                         <strong>Figure 4. Dehydroascorbic acid (DHA) and ascorbic acid (AA) transport and recycling in neutrophils.<sup>7</sup></strong>
                         AA and DHA are transported differently into the cell. With activation (i.e. bacterial exposure), neutrophils secrete reactive
                         oxygen species that oxidize extracellular AA to DHA that is then rapidly transported into the neutrophil via the glucose
