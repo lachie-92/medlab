@@ -13,6 +13,23 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
+                        PHONE LINE UPGRADES
+                    </div>
+                    <div class="medlab_news_item_body">
+
+                        <p>There may be slight disruptions to the phone lines at Medlab today due to an upgrade. If you experience any issues please contact your Customer Relationship Manager on their mobile or email.</p>
+                        <p>We apologise for any inconvieniences and appreciate your patience</p>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
                         Medlab Efficacy Magazine
                     </div>
                     <div class="medlab_news_item_body">
