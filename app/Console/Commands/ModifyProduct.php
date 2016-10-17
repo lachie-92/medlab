@@ -3980,8 +3980,7 @@ class ModifyProduct extends Command
                     homocysteine to methionine, therefore helping to lower serum homocysteine levels. Vitamin B12 is required
                     for red blood cell production, synthesis of myelin that is vital to healthy neurological function and
                     DNA methylation. NanoCelle&trade; delivers nanoparticle-sized molecules of the vitamin for absorption across
-                    the oral buccal mucosa, bypassing the gastrointestinal tract and greatly enhancing nutrient absorption
-                    with superior bioavailability.
+                    the oral buccal mucosa, bypassing the gastrointestinal tract.
                 </p>
                 ',
                 'practitioner_summary' =>
