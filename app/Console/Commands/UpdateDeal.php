@@ -55,96 +55,23 @@ class UpdateDeal extends Command
 
         $buy_one_get_one_free_deals = [
 
-
-            //Till End of Sep
+            //Till End of October
             [
-                'product' => 'NanoCelle D3 + K2',
-                'name' => "New Product Special",
+                'product' => 'Manuka-C 210g',
+                'name' => "October 2016 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/10/2016 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 23:59:59'),
                 'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => 'Immune-5 Vanilla',
-                'name' => "New Product Special",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => 'Immune-5 Raspberry',
-                'name' => "New Product Special",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => 'ORSBiotic',
-                'name' => "September 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => 'W8Biotic Lemon & Lime',
-                'name' => "September 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 2 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
-                'minimum_qty' => '2',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => 'W8Biotic Strawberries & Cream',
-                'name' => "September 2016 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 2 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
-                'minimum_qty' => '2',
                 'bonus_qty' => '1'
             ],
         ];
 
         $discount_deals = [
 
-            //Till End of September
-            [
-                'product' => 'NOS',
-                'name' => "September 2016 Deals",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '30% Off',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2016 23:59:59'),
-                'discount_percentage' => '30'
-            ],
 
             //Till End of October
             [
