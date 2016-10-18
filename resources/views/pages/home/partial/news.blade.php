@@ -8,8 +8,10 @@
         <!--
         -- News Main
         -->
+
         <div class="col-md-8 col-sm-12 col-xs-12">
 
+        <!-- ANY URGENT UPDATES
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
@@ -24,7 +26,7 @@
                     </div>
                 </div>
             </div>
-
+            -->
 
 
             <div class="medlab_news_item">
