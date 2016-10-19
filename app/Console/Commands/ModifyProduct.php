@@ -380,7 +380,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 29.32,
                 'image_path' => '/img/products/12mg_optima/mg_optima_relax_150g.jpeg',
                 'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_150g.jpeg',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'BioClean EPA:DHA + CoQ10 120s',
@@ -658,7 +657,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 34.95,
                 'image_path' => '/img/products/bioclean_epa_dha_coq10_120s/bioclean_epadha_coq10_120s.png',
                 'thumb_image_path' => '/img/products/bioclean_epa_dha_coq10_120s/thumb_bioclean_epadha_coq10_120s.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'BioClean EPA:DHA + CoQ10 60s',
@@ -936,7 +934,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 19.95,
                 'image_path' => '/img/products/bioclean_epa_dha_coq10_60s/bioclean_epadha_coq10_60s.png',
                 'thumb_image_path' => '/img/products/bioclean_epa_dha_coq10_60s/thumb_bioclean_epadha_coq10_60s.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 120s',
@@ -1191,7 +1188,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 29.95,
                 'image_path' => '/img/products/bioclean_epa_dha_plant_sterols_120s/bioclean_epadha_plant_sterols_120s.png',
                 'thumb_image_path' => '/img/products/bioclean_epa_dha_plant_sterols_120s/thumb_bioclean_epadha_plant_sterols_120s.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'BioClean EPA:DHA + Plant Sterols 60s',
@@ -1446,7 +1442,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 16.95,
                 'image_path' => '/img/products/bioclean_epa_dha_plant_sterols_60s/bioclean_epadha_plant_sterols_60s.png',
                 'thumb_image_path' => '/img/products/bioclean_epa_dha_plant_sterols_60s/thumb_bioclean_epadha_plant_sterols_60s.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'Biotic Jnr.',
@@ -1776,7 +1771,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 24.95,
                 'image_path' => '/img/products/boitic_jnr/bioticjnr.png',
                 'thumb_image_path' => '/img/products/boitic_jnr/thumb_bioticjnr.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => "BioticNatal",
@@ -2061,7 +2055,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 35.95,
                 'image_path' => '/img/products/bioticnatal/bioticnatal.jpg',
                 'thumb_image_path' => '/img/products/bioticnatal/bioticnatal_thumb.jpg',
-                'in_stock' => true,
                 'slug' => 'bioticnatal'
             ],
             [
@@ -2358,7 +2351,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 27.91,
                 'image_path' => '/img/products/enbiotic_60s/enbiotic-60s_1.jpg',
                 'thumb_image_path' => '/img/products/enbiotic_60s/thumb_enbiotic-60s_1.jpg',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'GastroDaily',
@@ -2632,7 +2624,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 28.57,
                 'image_path' => '/img/products/gastrodaily/gastro.png',
                 'thumb_image_path' => '/img/products/gastrodaily/thumb_gastro.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => "Manuka-C",
@@ -2977,7 +2968,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 19.25,
                 'image_path' => '/img/products/manuka-c-105g/manuka-c.png',
                 'thumb_image_path' => '/img/products/manuka-c-105g/mauka-c_thumb.png',
-                'in_stock' => true,
                 'slug' => 'manuka-c-105g'
             ],
             [
@@ -3323,7 +3313,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 29.95,
                 'image_path' => '/img/products/manuka-c-210g/manuka-c.png',
                 'thumb_image_path' => '/img/products/manuka-c-210g/manuka-c_thumb.png',
-                'in_stock' => true,
                 'slug' => 'manuka-c-210g'
             ],
             [
@@ -3634,7 +3623,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 19.26,
                 'image_path' => '/img/products/multibiotic_30s/multibiotic-30s-3d-bottle-master-sept14-v1_10_2_1.jpg',
                 'thumb_image_path' => '/img/products/multibiotic_30s/thumb_multibiotic-30s-3d-bottle-master-sept14-v1_10_2_1.jpg',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => "MultiBiotic 60's",
@@ -3944,7 +3932,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 34.76,
                 'image_path' => '/img/products/multibiotic_60s/multibiotic-60s-3d-bottle-master-sept14-v1.jpg',
                 'thumb_image_path' => '/img/products/multibiotic_60s/thumb_multibiotic-60s-3d-bottle-master-sept14-v1.jpg',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => "NanoCelle Activated B12",
@@ -4168,7 +4155,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 15.90,
                 'image_path' => '/img/products/nanocelle_activated_b12/activated_b12.png',
                 'thumb_image_path' => '/img/products/nanocelle_activated_b12/activated_b12_thumb.png',
-                'in_stock' => true,
                 'slug' => 'nanocelle-activated-b12'
             ],
             [
@@ -4387,7 +4373,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 14.91,
                 'image_path' => '/img/products/nanocelle_b12/b12_bottle_rough_cut_1.jpg',
                 'thumb_image_path' => '/img/products/nanocelle_b12/thumb_b12_bottle_rough_cut_1.jpg',
-                'in_stock' => false
             ],
             [
                 'product_name_index' => 'NanoCelle D3',
@@ -4628,7 +4613,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 14.50,
                 'image_path' => '/img/products/nanocelle_d3/d3_1.jpg',
                 'thumb_image_path' => '/img/products/nanocelle_d3/thumb_d3_1.jpg',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => "NOS",
@@ -4893,7 +4877,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 24.40,
                 'image_path' => '/img/products/nos/nos.png',
                 'thumb_image_path' => '/img/products/nos/nos_thumb.png',
-                'in_stock' => true,
                 'slug' => 'NOS'
             ],
             [
@@ -5185,7 +5168,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 30.98,
                 'image_path' => '/img/products/ngrbiotic_60s/nrgbiotic-60s-3d-bottle-master-sept14-v1_10_2_1.jpg',
                 'thumb_image_path' => '/img/products/ngrbiotic_60s/thumb_nrgbiotic-60s-3d-bottle-master-sept14-v1_10_2_1.jpg',
-                'in_stock' => false
             ],
             [
                 'product_name_index' => "NRGBiotic 120's",
@@ -5480,7 +5462,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 54.58,
                 'image_path' => '/img/products/ngrbiotic_120s/nrgbiotic-120s-bottle-jun15.jpg',
                 'thumb_image_path' => '/img/products/ngrbiotic_120s/thumb_nrgbiotic-120s-bottle-jun15.jpg',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'ORSBiotic',
@@ -5871,7 +5852,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 20.06,
                 'image_path' => '/img/products/orsbiotic/orsbiotic.png',
                 'thumb_image_path' => '/img/products/orsbiotic/thumb_orsbiotic.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => "SB 5B",
@@ -6109,7 +6089,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 27.80,
                 'image_path' => '/img/products/sb_5b/sb5b.png',
                 'thumb_image_path' => '/img/products/sb_5b/sb5b_thumb.png',
-                'in_stock' => true,
                 'slug' => 'SB-5B'
             ],
             [
@@ -6392,7 +6371,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 29.44,
                 'image_path' => '/img/products/w8biotic/w8biotic.png',
                 'thumb_image_path' => '/img/products/w8biotic/thumb_w8biotic.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'W8Biotic Lemon & Lime',
@@ -6674,7 +6652,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 29.44,
                 'image_path' => '/img/products/w8biotic/w8biotic.png',
                 'thumb_image_path' => '/img/products/w8biotic/thumb_w8biotic.png',
-                'in_stock' => true
             ],
             [
                 'product_name_index' => 'NanoCelle D3 + K2',
@@ -6966,7 +6943,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 16.5,
                 'image_path' => '/img/products/nanocelle_d3k2/nanocelle_d3k2.png',
                 'thumb_image_path' => '/img/products/nanocelle_d3k2/nanocelle_d3k2_thumb.png',
-                'in_stock' => true,
                 'slug' => 'nanocelle-d3-k2'
             ],
 
@@ -7244,7 +7220,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 30.50,
                 'image_path' => '/img/products/immune-5/Immune-5-vanilla.png',
                 'thumb_image_path' => '/img/products/immune-5/Immune-5-vanilla_thumb.png',
-                'in_stock' => true,
                 'slug' => 'immune-5-vanilla'
             ],
 
@@ -7519,7 +7494,6 @@ class ModifyProduct extends Command
                 'price_wholesale' => 30.50,
                 'image_path' => '/img/products/immune-5/Immune-5-raspberry.png',
                 'thumb_image_path' => '/img/products/immune-5/Immune-5-raspberry_thumb.png',
-                'in_stock' => true,
                 'slug' => 'immune-5-raspberry'
             ]
 
@@ -7591,9 +7565,10 @@ class ModifyProduct extends Command
         if(!empty($modify_array['free_from'])) {
             $product->free_from = $modify_array['free_from'];
         }
+        /*
         if(!empty($modify_array['in_stock'])) {
             $product->in_stock = $modify_array['in_stock'];
-        }
+        }*/
         if(!empty($modify_array['patent'])) {
             $product->patent = $modify_array['patent'];
         }
