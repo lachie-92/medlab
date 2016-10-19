@@ -6886,9 +6886,13 @@ class ModifyProduct extends Command
                                     <p>
                                         <strong>Excipient Ingredients</strong>
                                     </p>
+                                    <p>PEG-40 Caster Oil</p>
+                                    <p>Glycerol</p>
+                                    <p>Peppermint oil</p>
                                     <p>Citric acid</p>
                                     <p>Potassium sorbate</p>
-                                    <p>Peppermint oil</p>
+                                    <p>Steviol Glycosides</p>
+                                    <p>Water - Purified</p>
                                 </td>
                             </tr>
                         </tbody>
