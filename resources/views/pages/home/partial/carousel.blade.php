@@ -74,7 +74,7 @@
 
             <td class="medlab_carousel_bottom_panel_column3">
                 <a href="/contact">
-                    <div class="medlab_carousel_bottom_panel_column3_link">Contact Us Here</div>
+                    <div class="medlab_carousel_bottom_panel_column3_link" style="font-size: larger">Contact Us Here</div>
                 </a>
             </td>
         </tr>
