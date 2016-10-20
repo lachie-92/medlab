@@ -4084,7 +4084,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Co-Mecobalamin</p>
+                                <p>Mecobalamin</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1000 mcg</p>
@@ -4095,13 +4095,13 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Citric acid</p>
-                                <p>PEG-40 hydrogenated castor oil</p>
-                                <p>Glycerol</p>
-                                <p>Peppermint oil</p>
-                                <p>Potassium sorbate</p>
-                                <p>Stevia</p>
                                 <p>Water</p>
+                                <p>Modified vegetable oil</p>
+                                <p>Glycerol</p>
+                                <p>Anhydrous citric acid</p>
+                                <p>Potassium sorbate</p>
+                                <p>Steviol glycosides</p>
+                                <p>Peppermint oil</p>
                                 <p>D-alpha tocopherol</p>
                                 <p>Soy oil</p>
                             </td>
@@ -4313,13 +4313,13 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Citric acid</p>
-                                <p>PEG-40 hydrogenated castor oil</p>
-                                <p>Glycerol</p>
-                                <p>Peppermint oil</p>
-                                <p>Potassium sorbate</p>
-                                <p>Stevia</p>
                                 <p>Water</p>
+                                <p>Modified vegetable oil</p>
+                                <p>Glycerol</p>
+                                <p>Anhydrous citric acid</p>
+                                <p>Potassium sorbate</p>
+                                <p>Steviol glycosides</p>
+                                <p>Peppermint oil</p>
                                 <p>D-alpha tocopherol</p>
                                 <p>Soy oil</p>
                             </td>
@@ -4553,14 +4553,13 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Citric acid</p>
-                                <p>PEG-40 hydrogenated castor oil</p>
-                                <p>Glycerol</p>
-                                <p>Peppermint oil</p>
-                                <p>Potassium sorbate</p>
-                                <p>Stevia</p>
                                 <p>Water</p>
-                                <p>D-alpha tocopherol</p>
+                                <p>Modified vegetable oil</p>
+                                <p>Glycerol</p>
+                                <p>Anhydrous citric acid</p>
+                                <p>Potassium sorbate</p>
+                                <p>Steviol glycosides</p>
+                                <p>Peppermint oil</p>
                                 <p>Maize oil</p>
                             </td>
                         </tr>
@@ -6886,13 +6885,15 @@ class ModifyProduct extends Command
                                     <p>
                                         <strong>Excipient Ingredients</strong>
                                     </p>
-                                    <p>PEG-40 Caster Oil</p>
+                                    <p>Water</p>
+                                    <p>Modified vegetable oil</p>
                                     <p>Glycerol</p>
-                                    <p>Peppermint oil</p>
-                                    <p>Citric acid</p>
+                                    <p>Anhydrous citric acid</p>
                                     <p>Potassium sorbate</p>
-                                    <p>Steviol Glycosides</p>
-                                    <p>Water - Purified</p>
+                                    <p>Steviol glycosides</p>
+                                    <p>Peppermint oil</p>
+                                    <p>Maize oil</p>
+                                    <p>Olive oil</p>
                                 </td>
                             </tr>
                         </tbody>
