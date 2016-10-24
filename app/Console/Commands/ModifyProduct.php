@@ -2626,7 +2626,7 @@ class ModifyProduct extends Command
                 'thumb_image_path' => '/img/products/gastrodaily/thumb_gastro.png',
             ],
             [
-                'product_name_index' => "Manuka-C",
+                'product_name_index' => "Manuka-C 105g",
                 'austl_number' => '274057',
                 'product_name' => 'Manuka-C&trade; 105g',
                 'short_description' =>
