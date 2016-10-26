@@ -157,12 +157,6 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/efficacy">Magazine & Articles</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/human-ageing">Human Ageing</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/optimising-skeletal-muscle-function">Optimising Skeletal...</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/obesity-intestinal-inflammation-and-probiotics">Obesity, Intestinal...</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/role-of-bacteria-in-git-conditions">Role of Bacteria...</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/optimising-immunity-in-preparation-for-cold-and-flu-season">Optimising Immunity...</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/efficacy/vitamin-d-your-best-defence">Vitamin D</a></li>
                     </ul>
                 </li>
             </ul>
