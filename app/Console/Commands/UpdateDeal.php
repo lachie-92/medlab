@@ -77,7 +77,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
@@ -89,7 +89,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
@@ -101,7 +101,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
@@ -113,7 +113,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
@@ -125,7 +125,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
@@ -137,7 +137,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
@@ -410,7 +410,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => '30% Discount',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'discount_percentage' => '30'
             ],
@@ -421,7 +421,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => '30% Discount',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'discount_percentage' => '30'
             ],
@@ -432,7 +432,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => '30% Discount',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'discount_percentage' => '30'
             ],
@@ -443,7 +443,7 @@ class UpdateDeal extends Command
                 'apply_to_group' => 'Practitioner',
                 'description' => '30% Discount',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2016 00:00:00'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/11/2016 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2016 23:59:59'),
                 'discount_percentage' => '30'
             ],
