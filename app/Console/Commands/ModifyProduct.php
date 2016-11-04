@@ -315,13 +315,12 @@ class ModifyProduct extends Command
                                     <p>
                                         <strong>Excipient Ingredients</strong>
                                     </p>
-                                    <p>Silica</p>
-                                    <p>Malic acid</p>
-                                    <p>Silica</p>
-                                    <p>Lemon lime flavour</p>
-                                    <p>Stevia</p>
-                                    <p>Citric acid</p>
                                     <p>Maltodextrin</p>
+                                    <p>Malic acid</p>
+                                    <p>Lemon lime flavour</p>
+                                    <p>Citric acid</p>
+                                    <p>Stevia</p>
+                                    <p>Silica</p>
                                 </td>
                             </tr>
                         </tbody>
@@ -603,8 +602,11 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Gelatin capsules</p>
+                                <p>Gelatin</p>
                                 <p>Vanillin</p>
+                                <p>Glycerol</p>
+                                <p>Titanium oxide</p>
+                                <p>Iron oxide red</p>
                             </td>
                         </tr>
                     </tbody>
@@ -880,8 +882,11 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Gelatin capsules</p>
+                                <p>Gelatin</p>
                                 <p>Vanillin</p>
+                                <p>Glycerol</p>
+                                <p>Titanium oxide</p>
+                                <p>Iron oxide red</p>
                             </td>
                         </tr>
                     </tbody>
@@ -1134,8 +1139,11 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Gelatin capsules</p>
+                                <p>Gelatin</p>
                                 <p>Vanillin</p>
+                                <p>Glycerol</p>
+                                <p>Titanium oxide</p>
+                                <p>Iron oxide red</p>
                             </td>
                         </tr>
                     </tbody>
@@ -1388,8 +1396,11 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Gelatin capsules</p>
+                                <p>Gelatin</p>
                                 <p>Vanillin</p>
+                                <p>Glycerol</p>
+                                <p>Titanium oxide</p>
+                                <p>Iron oxide red</p>
                             </td>
                         </tr>
                     </tbody>
@@ -2294,8 +2305,9 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Silica</p>
                                 <p>Maltodextrin</p>
+                                <p>Silica</p>
+                                <p>Magnesium stearate</p>
                             </td>
                         </tr>
                     </tbody>
@@ -3567,8 +3579,9 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Silica</p>
                                 <p>Maltodextrin</p>
+                                <p>Silica</p>
+                                <p>Magnesium stearate</p>
                             </td>
                         </tr>
                     </tbody>
@@ -3876,8 +3889,9 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Silica</p>
                                 <p>Maltodextrin</p>
+                                <p>Silica</p>
+                                <p>Magnesium stearate</p>
                             </td>
                         </tr>
                     </tbody>
@@ -5111,8 +5125,9 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Silica</p>
                                 <p>Maltodextrin</p>
+                                <p>Silica</p>
+                                <p>Magnesium stearate</p>
                             </td>
                         </tr>
                     </tbody>
@@ -5405,8 +5420,9 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Silica</p>
                                 <p>Maltodextrin</p>
+                                <p>Silica</p>
+                                <p>Magnesium stearate</p>
                             </td>
                         </tr>
                     </tbody>
@@ -5790,10 +5806,11 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
+                                <p>Flavours</p>
                                 <p>Silica</p>
                                 <p>Stevia</p>
                                 <p>Carrot powder</p>
-                                <p>Flavours</p>
+                                <p>Thaumatin</p>
                             </td>
                         </tr>
                     </tbody>
@@ -6029,10 +6046,10 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Cellulose-microcrystalline</p>
+                                <p>Cellulose</p>
                                 <p>Calcium hydrogen phosphate</p>
-                                <p>Silica</p>
                                 <p>Magnesium stearate</p>
+                                <p>Silica</p>
                             </td>
                         </tr>
                     </tbody>
@@ -6308,11 +6325,11 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Silica</p>
-                                <p>Thaumatin</p>
+                                <p>Strawberries and cream flavour</p>
                                 <p>Malic acid</p>
                                 <p>Stevia</p>
-                                <p>Strawberries and cream flavour</p>
+                                <p>Silica</p>
+                                <p>Thaumatin</p>
                             </td>
                         </tr>
                     </tbody>
@@ -6589,11 +6606,11 @@ class ModifyProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Silica</p>
-                                <p>Thaumatin</p>
+                                <p>Lemon lime flavour</p>
                                 <p>Malic acid</p>
                                 <p>Stevia</p>
-                                <p>lemon lime flavour</p>
+                                <p>Silica</p>
+                                <p>Thaumatin</p>
                             </td>
                         </tr>
                     </tbody>
@@ -7195,9 +7212,9 @@ class ModifyProduct extends Command
                                     <strong>Excipient Ingredients</strong>
                                 </p>
                                 <p>Maltodextrin</p>
-                                <p>Silica</p>
-                                <p>Stevia</p>
                                 <p>Natural Vanilla Flavour</p>
+                                <p>Stevia</p>
+                                <p>Silica</p>
                             </td>
                         </tr>
                     </tbody>
@@ -7469,9 +7486,9 @@ class ModifyProduct extends Command
                                     <strong>Excipient Ingredients</strong>
                                 </p>
                                 <p>Maltodextrin</p>
-                                <p>Silica</p>
-                                <p>Stevia</p>
                                 <p>Natural Raspberry Flavour</p>
+                                <p>Stevia</p>
+                                <p>Silica</p>
                             </td>
                         </tr>
                     </tbody>
