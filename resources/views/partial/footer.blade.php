@@ -223,7 +223,8 @@
                     <div>
                         <label>Office Hours: </label> 8:30am - 5pm EST <br>
                         <label>Toll Free: </label> 1300 369 570 <br>
-                        <label>Phone: </label> 02 8188 0311 <br>
+                        <label>Main Phone: </label> 02 8188 0311 <br>
+                        <label>Phone: </label> 02 8004 4572 <br>
                         <label>Fax: </label> 02 9699 3347 <br>
                         <label>Email: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="mailto:hello@medlab.co">hello@medlab.co</a> <br>
                     </div>
