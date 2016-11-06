@@ -19,7 +19,8 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <p>There may be slight disruptions to the phone lines at Medlab today due to an upgrade. If you experience any issues please contact your Customer Relationship Manager on their mobile or email.</p>
+                        <p>There may be slight disruptions to the phone lines at Medlab today due to an upgrade.</p>
+                        <p>Please contact Medlab on our secondary Phone Number: 0280044572</p>
                         <p>We apologise for any inconveniences and appreciate your patience</p>
                         
 
