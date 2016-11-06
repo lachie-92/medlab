@@ -398,6 +398,15 @@
                         </span>
                     </p>
 
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L. </strong>
+                            Nephrotoxic effects of cis-diamminedichloroplatinium II (cisplatin) can be ameliorated using Coenzyme Q10 (CoQ10),
+                            7th World Congress on Targeting Mitochondria. Oct 24–26, 2016. Berlin, Germany.
+                        </span>
+                    </p>
+
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Coulson S,</strong>

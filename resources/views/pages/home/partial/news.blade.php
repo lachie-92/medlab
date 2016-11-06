@@ -11,7 +11,7 @@
 
         <div class="col-md-8 col-sm-12 col-xs-12">
 
-        <!--ANY URGENT UPDATES
+        ANY URGENT UPDATES
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-        -->
+
 
 
             <div class="medlab_news_item">
@@ -165,7 +165,7 @@
                         7th World Congress on Targeting Mitochondria
                     </h2>
                     <p>
-                        <img src="/img/news/targetingmitochondria.png" alt="Targeting Mitochondria" height="auto" width="100%"/>
+                        <img src="/img/news/nutrisearch.png" alt="Targeting Mitochondria" height="auto" width="100%"/>
                     </p>
                     <p>
                         When: 24th-26th October, 2016</br>
@@ -380,17 +380,7 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
 
-                            <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.targetting-mitochondria.com" target="_blank">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        7<sup>th</sup> World Congress on Targeting Mitochondria (Berlin, GER), 24th-26th October, 2016</br>
-                                        Professor Luis Vitetta
-                                    </div>
-                                    <div class="media-left media-middle">
-                                        <img width="100%" alt="Targeting Mitochondria" src="/img/news/targetingmitochondria.png">
-                                    </div>
-                                </a>
-                            </li>
+
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
