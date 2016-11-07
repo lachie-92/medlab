@@ -11,7 +11,7 @@
 
         <div class="col-md-8 col-sm-12 col-xs-12">
 
-        <!--ANY URGENT UPDATES-->
+        <!--ANY URGENT UPDATES
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
@@ -22,11 +22,13 @@
                         <p>There may be slight disruptions to the phone lines at Medlab today due to an upgrade.</p>
                         <p>Please contact Medlab on our secondary Phone Number: 0280044572</p>
                         <p>We apologise for any inconveniences and appreciate your patience</p>
-                        
+
 
                     </div>
                 </div>
             </div>
+
+            -->
 
 
 
