@@ -165,15 +165,15 @@
                 </div>
                 <div class="medlab_news_item_body">
                     <h2 class="medlab_news_content_title">
-                        7th World Congress on Targeting Mitochondria
+                        GPCE Melbourne
                     </h2>
                     <p>
-                        <img src="/img/news/nutrisearch.png" alt="Targeting Mitochondria" height="auto" width="100%"/>
+                        <img src="/img/news/GPCE-2016.jpg" alt="GPCE Melbourne" height="auto" width="100%"/>
                     </p>
                     <p>
-                        When: 24th-26th October, 2016</br>
-                        Where: Berlin, Germany</br>
-                        Professor Luis Vitetta to present: Nephrotoxic effects of cis-diamminedichloroplatinium II (cisplatin) can be ameliorated using Coenzyme Q10.
+                        When: 11-13th November 2016</br>
+                        Where: Melbourne Conference and Exhibition Centre</br>
+                        Professor Luis Vitetta will be presenting ’The Role of the Gastrointestinal Microbiome in Metabolic Disorders. Meet our Medlab Practitioner Consultants at booth 2214.
                     </p>
 
 
@@ -384,17 +384,7 @@
                         <ul class="medlab_news_sidebar_list media-list">
 
 
-                            <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.nutrisearch.co.nz/events/next-event/" target="_blank">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        NutriSearch (NZ), 5th November 2016</br>
-                                        Professor Luis Vitetta
-                                    </div>
-                                    <div class="media-left media-middle">
-                                        <img width="100%" alt="Nutrisearch" src="/img/news/nutrisearch.png">
-                                    </div>
-                                </a>
-                            </li>
+
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://www.gpce.com.au/melbourne/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
