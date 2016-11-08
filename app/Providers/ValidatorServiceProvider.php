@@ -21,6 +21,9 @@ class ValidatorServiceProvider extends ServiceProvider
         Validator::extend('validCountry', 'App\Medlab\Validators\AddressValidator@validCountry');
         Validator::replacer('validCountry', 'App\Medlab\Validators\AddressValidator@validCountryError');
 
+        Validator::extend('validDeliveryOption', 'App\Medlab\Validators\AddressValidator@validDeliveryOption');
+        Validator::replacer('validDeliveryOption', 'App\Medlab\Validators\AddressValidator@validDeliveryOptionError');
+
         Validator::extend('validTitle', 'App\Medlab\Validators\RegisterValidator@validTitle');
         Validator::replacer('validTitle', 'App\Medlab\Validators\RegisterValidator@validTitleError');
 

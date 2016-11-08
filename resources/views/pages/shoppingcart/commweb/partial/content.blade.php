@@ -40,13 +40,21 @@
                                 My Delivery Address
                             </li>
                             <li class="list-group-item">
-                                {{ $order->shipping_address_title }}
-                                {{ $order->shipping_address_first_name }}
-                                {{ $order->shipping_address_last_name }} <br>
-                                {{ $order->shipping_address_street }} <br>
-                                {{ $order->shipping_address_suburb }} {{ $order->shipping_address_state }} {{ $order->shipping_address_postcode }} <br>
-                                {{ $order->shipping_address_country }} <br>
-                                Phone: {{ $order->shipping_address_phone }}
+                                <div class="row">
+                                    <div class="col-md-6 col-sm-12">
+                                        {{ $order->shipping_address_title }}
+                                        {{ $order->shipping_address_first_name }}
+                                        {{ $order->shipping_address_last_name }} <br>
+                                        {{ $order->shipping_address_street }} <br>
+                                        {{ $order->shipping_address_suburb }} {{ $order->shipping_address_state }} {{ $order->shipping_address_postcode }} <br>
+                                        {{ $order->shipping_address_country }} <br>
+                                        Phone: {{ $order->shipping_address_phone }}
+                                    </div>
+                                    <div class="col-md-6 col-sm-12" style="word-wrap: break-word">
+                                        Delivery Instruction: <br>
+                                        {{ $order->delivery_instruction }}
+                                    </div>
+                                </div>
                             </li>
                         </ul>
 

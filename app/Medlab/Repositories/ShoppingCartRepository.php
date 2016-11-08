@@ -56,6 +56,7 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $shippingAddress['state'] = '';
         $shippingAddress['country'] = '';
         $shippingAddress['phone'] = '';
+        $shippingAddress['delivery_instruction'] = '';
 
         $accountAddress = $user->customer->customer_addresses->where('type', 'Account')->first();
         $accountMobile = $user->customer->customer_numbers->where('type', 'Account Mobile')->first();
@@ -147,6 +148,7 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $order->shipping_address_state = $shippingAddress['state'];
         $order->shipping_address_country = $shippingAddress['country'];
         $order->shipping_address_phone = $shippingAddress['phone'];
+        $order->delivery_instruction = $shippingAddress['delivery_instruction'];
 
         $order->billing_address_title = $billingAddress['title'];
         $order->billing_address_first_name = $billingAddress['first_name'];

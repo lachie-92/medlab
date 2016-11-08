@@ -34,6 +34,8 @@ class ShoppingCartUpdateAddressRequest extends Request
             'shipping_country' => 'required|validCountry',
             'shipping_postcode' => 'required|digits:4',
             'shipping_phone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),
+            'delivery_option' => 'required|validDeliveryOption',
+            'delivery_instruction' => 'max:200',
             'billing_title' => 'required|validTitle|max:10',
             'billing_first_name' => 'required|max:30',
             'billing_last_name' => 'required|max:30',

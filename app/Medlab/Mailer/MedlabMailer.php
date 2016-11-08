@@ -10,7 +10,19 @@ use View;
 class MedlabMailer
 {
 
-    public $AdminEmailAddress = 'hello@medlab.co';
+    /**
+     * Website Admin Email Address
+     *
+     * @var Mailer
+     */
+    public $adminEmailAddress;
+
+    /**
+     * Email Address for notifying New Orders
+     *
+     * @var Mailer
+     */
+    public $orderEmailAddress;
 
     /**
      * Laravel Mailer
@@ -36,12 +48,14 @@ class MedlabMailer
     {
         $this->mail = $mail;
         $this->mandrill = $mandrill;
+        $this->adminEmailAddress = env('MAIL_ADMIN_ADDRESS', 'hello@medlab.co');
+        $this->orderEmailAddress = env('MAIL_ORDER_ADDRESS', 'sales@medlab.co');
     }
 
     public function sendPasswordResetNoticeToAdmin($user)
     {
-        $from = $this->AdminEmailAddress;
-        $to = $this->AdminEmailAddress;
+        $from = $this->adminEmailAddress;
+        $to = $this->adminEmailAddress;
 
         $this->mail->queue('emails.password_reset_received', compact('user'), function($message) use ($from, $to) {
 
@@ -64,7 +78,7 @@ class MedlabMailer
             $template_content = array();
             $message = array(
                 'subject' => 'Medlab - Your Registration has been received',
-                'from_email' => $this->AdminEmailAddress,
+                'from_email' => $this->adminEmailAddress,
                 'from_name' => 'Medlab',
                 'to' => array(
                     array(
@@ -73,7 +87,7 @@ class MedlabMailer
                         'type' => 'to'
                     )
                 ),
-                'headers' => array('Reply-To' => $this->AdminEmailAddress),
+                'headers' => array('Reply-To' => $this->adminEmailAddress),
                 'important' => false,
                 'track_opens' => null,
                 'track_clicks' => null,
@@ -129,8 +143,8 @@ class MedlabMailer
      */
     public function sendRegistrationReceivedNoticeToAdmin($registration)
     {
-        $from = $this->AdminEmailAddress;
-        $to = $this->AdminEmailAddress;
+        $from = $this->adminEmailAddress;
+        $to = $this->adminEmailAddress;
 
         $this->mail->queue('emails.new_registration_received', compact('registration'), function($message) use ($registration, $from, $to) {
 
@@ -147,7 +161,7 @@ class MedlabMailer
      */
     public function sendRegistrationApprovalEmail($registration)
     {
-        $from = $this->AdminEmailAddress;
+        $from = $this->adminEmailAddress;
 
         $this->mail->queue('emails.registration_approved', compact('registration'), function($message) use ($registration, $from) {
 
@@ -164,7 +178,7 @@ class MedlabMailer
      */
     public function sendEnquiryEmail($enquiry)
     {
-        $to = $this->AdminEmailAddress;
+        $to = $this->adminEmailAddress;
 
         $data = array();
         $data['enquiry'] = serialize($enquiry);
@@ -184,8 +198,8 @@ class MedlabMailer
      */
     public function sendOrderReceivedNoticeToAdmin($order)
     {
-        $from = $this->AdminEmailAddress;
-        $to = 'sales@medlab.co';
+        $from = $this->adminEmailAddress;
+        $to = $this->orderEmailAddress;
 
         $data = array();
         $data['order'] = serialize($order);
@@ -208,7 +222,7 @@ class MedlabMailer
             $template_content = array();
             $message = array(
                 'subject' => 'Medlab - Order Received #' . $order->id,
-                'from_email' => $this->AdminEmailAddress,
+                'from_email' => $this->adminEmailAddress,
                 'from_name' => 'Medlab',
                 'to' => array(
                     array(
@@ -217,7 +231,7 @@ class MedlabMailer
                         'type' => 'to'
                     )
                 ),
-                'headers' => array('Reply-To' => $this->AdminEmailAddress),
+                'headers' => array('Reply-To' => $this->adminEmailAddress),
                 'important' => false,
                 'track_opens' => null,
                 'track_clicks' => null,
@@ -303,6 +317,10 @@ class MedlabMailer
                         'content' => $order->shipping_address_phone
                     ),
                     array(
+                        'name' => 'DELIVERY_INSTRUCTION',
+                        'content' => $order->delivery_instruction
+                    ),
+                    array(
                         'name' => 'BILL_TITLE',
                         'content' => $order->billing_address_title
                     ),
@@ -352,8 +370,8 @@ class MedlabMailer
 
     public function sendCommWebReceiptErrorToAdmin($errorMessages)
     {
-        $from = $this->AdminEmailAddress;
-        $to = $this->AdminEmailAddress;
+        $from = $this->adminEmailAddress;
+        $to = $this->adminEmailAddress;
 
         $data = array();
         $data['errorMessages'] = serialize($errorMessages);

@@ -50,4 +50,27 @@ class AddressValidator
     {
         return 'Invalid State';
     }
+
+    public function validDeliveryOption($attribute, $value, $parameters)
+    {
+        $deliveryOptionList = [
+            'Signature Required',
+            'Leave just out of the weather',
+            'Leave near the front door',
+            'Follow the Delivery Instruction'
+        ];
+
+        $isValid = false;
+
+        if (in_array($value, $deliveryOptionList)) {
+            $isValid = true;
+        }
+
+        return $isValid;
+    }
+
+    public function validDeliveryOptionError($message, $attribute, $rule, $parameters)
+    {
+        return 'Invalid Delivery Option';
+    }
 }

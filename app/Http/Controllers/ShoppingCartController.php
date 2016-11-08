@@ -120,7 +120,9 @@ class ShoppingCartController extends Controller
             'shipping_state',
             'shipping_country',
             'shipping_postcode',
-            'shipping_phone'
+            'shipping_phone',
+            'delivery_option',
+            'delivery_instruction'
         ]);
 
         $billingAddress = $request->only([

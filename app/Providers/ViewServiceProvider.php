@@ -111,6 +111,7 @@ class ViewServiceProvider extends ServiceProvider
             $view->with('auState', $this->createAuStateList());
             $view->with('nzRegion', $this->createNzRegionList());
             $view->with('titleList', $this->createTitleList());
+            $view->with('deliveryOptionList', $this->createDeliveryOptionList());
         });
 
         //

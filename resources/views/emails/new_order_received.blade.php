@@ -14,7 +14,7 @@
 </p>
 
 <p>
-    Please login into the <a href="{{ url('/account/') }}" mc:disable-tracking>Admin page</a> to see more details.
+    Please login into the <a href="https://echelon.medlab.co" mc:disable-tracking>Admin page</a> to see more details.
 </p>
 
 <br>
@@ -55,6 +55,16 @@
             {{ $order['billing_address_street'] }} <br>
             {{ $order['billing_address_suburb'] }} {{ $order['billing_address_state'] }} {{ $order['billing_address_postcode'] }} <br>
             {{ $order['billing_address_country'] }} <br>
+        </td>
+    </tr>
+    <tr>
+        <th colspan="3">
+            Delivery Instruction
+        </th>
+    </tr>
+    <tr>
+        <td colspan="3">
+            {{ $order['delivery_instruction'] }}
         </td>
     </tr>
     </tbody>

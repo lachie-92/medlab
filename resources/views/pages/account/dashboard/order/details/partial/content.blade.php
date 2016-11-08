@@ -89,6 +89,23 @@
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-info">
+                                    Delivery Instruction
+                                </li>
+                                <li class="list-group-item" style="background-color: transparent; word-wrap: break-word">
+                                    @if(empty($order->delivery_instruction))
+                                        None
+                                    @else
+                                        {{ $order->delivery_instruction }}
+                                    @endif
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                     <!--
                     -- Order Items
                     -->
