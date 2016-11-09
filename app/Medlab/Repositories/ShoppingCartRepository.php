@@ -56,6 +56,7 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $shippingAddress['state'] = '';
         $shippingAddress['country'] = '';
         $shippingAddress['phone'] = '';
+        $shippingAddress['delivery_option'] = 'Signature Required';
         $shippingAddress['delivery_instruction'] = '';
 
         $accountAddress = $user->customer->customer_addresses->where('type', 'Account')->first();

@@ -116,7 +116,7 @@
                                     <tr><th class="medlab_registration_form_section_subtitle">Delivery</th></tr>
                                     <tr>
                                         <td>
-                                            {!! Form::select('delivery_option', $deliveryOptionList, old('delivery_option', 'Signature Required'), ['class' => 'form-control']) !!}
+                                            {!! Form::select('delivery_option', $deliveryOptionList, old('delivery_option', $shoppingCart->shippingAddress['delivery_option']), ['class' => 'form-control']) !!}
                                         </td>
                                     </tr>
                                 </table>

@@ -304,6 +304,7 @@ class ShoppingCart {
         $shippingAddress['country'] = $update['shipping_country'];
         $shippingAddress['postcode'] = $update['shipping_postcode'];
         $shippingAddress['phone'] = $update['shipping_phone'];
+        $shippingAddress['delivery_option'] = $update['delivery_option'];
 
         if(empty($update['delivery_instruction']) == true) {
             $shippingAddress['delivery_instruction'] = $update['delivery_option'];
