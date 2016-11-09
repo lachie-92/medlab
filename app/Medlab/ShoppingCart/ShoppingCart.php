@@ -304,7 +304,13 @@ class ShoppingCart {
         $shippingAddress['country'] = $update['shipping_country'];
         $shippingAddress['postcode'] = $update['shipping_postcode'];
         $shippingAddress['phone'] = $update['shipping_phone'];
-        $shippingAddress['delivery_instruction'] = $update['delivery_option'] . ' - ' . $update['delivery_instruction'];
+
+        if(empty($update['delivery_instruction']) == true) {
+            $shippingAddress['delivery_instruction'] = $update['delivery_option'];
+        }
+        else {
+            $shippingAddress['delivery_instruction'] = $update['delivery_option'] . ' - ' . $update['delivery_instruction'];
+        }
 
         $this->shippingAddress = $shippingAddress;
         session()->put('shippingAddress', $this->shippingAddress);
