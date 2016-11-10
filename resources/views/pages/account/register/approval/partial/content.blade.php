@@ -18,9 +18,9 @@
                     <div class="alert alert-info" style="text-align: center">
                         Please wait for our Staff to approve your application.
                         <br><br>
-                        You'll receive an email within 1 or 2 working days, once your account has been activated
+                        You'll receive an email within 1 or 2 working days, once your account has been activated.
                         <br><br>
-                        If you have any enquiry regarding your medlab account, please don't hesitate to contact us at 1300 369 570.
+                        If you have any enquiries regarding your Medlab account, please don't hesitate to contact us at 1300 369 570.
                     </div>
                     <div style="text-align: center">
                         <a class="btn btn-default" href="/">confirm</a>
