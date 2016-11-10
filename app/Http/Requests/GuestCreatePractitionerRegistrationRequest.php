@@ -44,9 +44,10 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'telephone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),
             'mobile_phone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),
             'agree' => 'boolean|accepted',
-
-            'been_bankrupt' => 'required_if:credit_application,1',
-            'been_refused_credit' => 'required_if:credit_application,1',
+            'credit_application' => 'boolean|required',
+            'been_bankrupt' => 'boolean|required_if:credit_application,1',
+            'been_refused_credit' => 'boolean|required_if:credit_application,1',
+            'patient_billing' => 'boolean|required',
 
         ];
     }
