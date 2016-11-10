@@ -168,12 +168,12 @@
                         GPCE Melbourne
                     </h2>
                     <p>
-                        <img src="/img/news/GPCE-2016.jpg" alt="GPCE Melbourne" height="auto" width="100%"/>
+                        <img src="/img/news/niim3rdannualsymposium.png" alt="GPCE Melbourne" height="auto" width="100%"/>
                     </p>
                     <p>
                         When: 11-13th November 2016</br>
-                        Where: Melbourne Conference and Exhibition Centre</br>
-                        Professor Luis Vitetta will be presenting ’The Role of the Gastrointestinal Microbiome in Metabolic Disorders. Meet our Medlab Practitioner Consultants at booth 2214.
+                        Where: Amora Hotel Riverwalk, Richmond, Melbourne</br>
+                        Special Registration Offer for Medlab Practitioners: Receive 10% off when purchase online using code ‘Medlab'
                     </p>
 
 
@@ -397,13 +397,13 @@
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="https://www.niim.com.au/events/niim-3rd-annual-symposium-advances-integrative-medicine" target="_blank">
+                                <a href="http://www.niim.com.au/symposium" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
                                         NIIM 3rd Annual Symposium (Melbourne), 25 - 26th November, 2016</br>
                                         Professor Luis Vitetta
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%"  alt="Microbiome" src="/img/news/3rd symp.png">
+                                        <img width="100%"  alt="Microbiome" src="/img/news/niim3rdannualsymposium.png">
                                     </div>
                                 </a>
                             </li>
