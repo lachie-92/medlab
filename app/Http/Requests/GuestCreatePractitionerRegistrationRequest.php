@@ -43,7 +43,11 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'postcode' => 'required|digits:4',
             'telephone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),
             'mobile_phone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),
-            'agree' => 'boolean|accepted'
+            'agree' => 'boolean|accepted',
+
+            'been_bankrupt' => 'required_if:credit_application,1',
+            'been_refused_credit' => 'required_if:credit_application,1',
+
         ];
     }
 
@@ -51,6 +55,8 @@ class GuestCreatePractitionerRegistrationRequest extends Request
     {
         return [
             'agree.accepted' => 'Please accept the terms of use',
+            'been_bankrupt.required_if' => 'Please answer the question regarding Bankruptcy for your Credit Application',
+            'been_refused_credit.required_if' => 'Please answer the question regarding Credit for your Credit Application'
         ];
     }
 }

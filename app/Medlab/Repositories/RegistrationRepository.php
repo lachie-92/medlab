@@ -80,6 +80,14 @@ class RegistrationRepository implements RegistrationRepositoryInterface
      */
     public function createPractitionerRegistrationForGuest($request)
     {
+        $been_bankrupt = null;
+        $been_refused_credit = null;
+
+        if(intval($request->credit_application) == 1) {
+            $been_bankrupt = intval($request->been_bankrupt);
+            $been_refused_credit = intval($request->been_refused_credit);
+        }
+
         $registration = Practitioner_Registration::create([
             'title' => $request->title,
             'email' => $request->email,
@@ -99,7 +107,11 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'postcode' => $request->postcode,
             'telephone' => $request->telephone,
             'mobile_phone' => $request->mobile_phone,
-            'approval' => null
+            'approval' => null,
+            'credit_application' => intval($request->credit_application),
+            'been_bankrupt' => $been_bankrupt,
+            'been_refused_credit' => $been_refused_credit,
+            'patient_billing' => intval($request->patient_billing),
         ]);
 
         return $registration;

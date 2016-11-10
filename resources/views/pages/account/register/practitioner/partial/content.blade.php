@@ -237,6 +237,79 @@
                             </div>
                         </div>
 
+                        <div class="row">
+                            <div class="container-fluid">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="well" style="background-color: transparent; background-image: none">
+                                        <h4 class="medlab_registration_form_section_title">Credit Application</h4>
+                                        <br>
+                                        <div class = "row">
+                                            <div class="col-md-4 col-sm-7">
+                                                <b>I/We would like to apply for a credit account:</b>
+                                            </div>
+                                            <div class="col-md-8 col-sm-5">
+                                                {!! Form::radio('credit_application', 1, null) !!}&nbsp;<b>Yes</b>&nbsp;&nbsp;&nbsp;
+                                                {!! Form::radio('credit_application', 0, true) !!}&nbsp;<b>No</b>
+                                            </div>
+                                        </div>
+
+                                        <div id="collapsible">
+                                            <div class = "row" style="margin: 10px 0 10px 10px;">
+                                                <div class="col-md-5 col-sm-7">
+                                                    Have any of the individuals above been declared Bankrupt?
+                                                </div>
+                                                <div class="col-md-7 col-sm-5">
+                                                    {!! Form::radio('been_bankrupt', 1, null) !!}&nbsp;Yes&nbsp;&nbsp;&nbsp;
+                                                    {!! Form::radio('been_bankrupt', 0, null) !!}&nbsp;No
+                                                </div>
+                                            </div>
+                                            <div class = "row" style="margin: 10px 0 10px 10px;">
+                                                <div class="col-md-5 col-sm-7">
+                                                    Has the business ever been refused credit?
+                                                </div>
+                                                <div class="col-md-7 col-sm-5">
+                                                    {!! Form::radio('been_refused_credit', 1, null) !!}&nbsp;Yes&nbsp;&nbsp;&nbsp;
+                                                    {!! Form::radio('been_refused_credit', 0, null) !!}&nbsp;No
+                                                </div>
+                                            </div>
+                                            <div class="well">
+                                                <p>
+                                                    <b>Credit Application Declaration</b><br>
+                                                    I/We hereby apply for credit with Medlab Clinical Limited and certify that the information supplied
+                                                    in this application is true and correct. I/We authorise Medlab Clinical Limited to conduct a Credit
+                                                    History Check with an external Credit Agency. I/We understand that all information will be treated as
+                                                    confidential and will not be supplied to any other organisation.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="container-fluid">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="well" style="background-color: transparent; background-image: none">
+                                        <h4 class="medlab_registration_form_section_title">Patient Billing</h4>
+                                        <br>
+                                        <p>
+                                            If you do not have a dispensary and are interested in patient billing, a Medlab Practitioner consultant will be in contact with you.
+                                        </p>
+                                        <div class = "row">
+                                            <div class="col-md-4 col-sm-7">
+                                                <b>I would like to set-up a patient billing account:</b>
+                                            </div>
+                                            <div class="col-md-8 col-sm-5">
+                                                {!! Form::radio('patient_billing', 1, null) !!}&nbsp;<b>Yes</b>&nbsp;&nbsp;&nbsp;
+                                                {!! Form::radio('patient_billing', 0, true) !!}&nbsp;<b>No</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="row">
                             <div class="container-fluid">
@@ -293,4 +366,3 @@
 
     </div>
 </div>
-
