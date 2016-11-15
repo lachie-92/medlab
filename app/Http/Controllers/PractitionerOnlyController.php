@@ -35,7 +35,10 @@ class PractitionerOnlyController extends Controller
             case "multibiotic-60s":
                 return view('pages.education.practitioner-education.human-microbial-interface.index');
                 break;
-            case "12mg-optima-relax":
+            case "12mg-optima-relax-150g":
+                return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
+                break;
+            case "12mg-optima-relax-300g":
                 return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
                 break;
             case "bioclean-epa-dha-coq10-60s":
