@@ -382,7 +382,7 @@ class ModifyProduct extends Command
                 'slug' => '12mg-optima-relax-150g'
             ],
             [
-                'product_name_index' => '12Mg Optima Relax 300',
+                'product_name_index' => '12Mg Optima Relax 300g',
                 'austl_number' => '262421',
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 300g',
                 'short_description' =>
