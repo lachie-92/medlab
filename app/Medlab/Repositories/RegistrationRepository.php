@@ -114,7 +114,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'been_bankrupt' => $been_bankrupt,
             'been_refused_credit' => $been_refused_credit,
             'patient_billing' => intval($request->patient_billing),
-            'is_owner' => intval($request->is_owner),
+            'is_owner' => $is_owner
         ]);
 
         return $registration;
