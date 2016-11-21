@@ -28,6 +28,16 @@
                     </p>
 
                     <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/27854317" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Vitetta L, Saltzman ET, Nikov T, Ibrahim I, Hall S. </strong>
+                                Modulating the Gut Micro-Environment in the Treatment of Intestinal Parasites.
+                                <em>J Clin Med 2016;5(11).pii: E102</em>
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
                         <a href="http://www.ncbi.nlm.nih.gov/pubmed/27612466" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Schloss JM, Colosimo M, Airey C, Masci P, Linnane AW, Vitetta L, </strong>
