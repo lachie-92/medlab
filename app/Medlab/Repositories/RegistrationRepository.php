@@ -82,10 +82,12 @@ class RegistrationRepository implements RegistrationRepositoryInterface
     {
         $been_bankrupt = null;
         $been_refused_credit = null;
+        $is_owner = null;
 
         if(intval($request->credit_application) == 1) {
             $been_bankrupt = intval($request->been_bankrupt);
             $been_refused_credit = intval($request->been_refused_credit);
+            $is_owner = intval($request->been_refused_credit);
         }
 
         $registration = Practitioner_Registration::create([
@@ -112,6 +114,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'been_bankrupt' => $been_bankrupt,
             'been_refused_credit' => $been_refused_credit,
             'patient_billing' => intval($request->patient_billing),
+            'is_owner' => intval($request->is_owner),
         ]);
 
         return $registration;

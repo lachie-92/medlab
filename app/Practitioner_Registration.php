@@ -18,7 +18,7 @@ class Practitioner_Registration extends Model
         'primary_profession', 'association_type', 'street', 'suburb',
         'state', 'country', 'postcode',
         'telephone', 'mobile_phone', 'business_number',
-        'credit_application', 'been_bankrupt', 'been_refused_credit', 'patient_billing'
+        'credit_application', 'been_bankrupt', 'been_refused_credit', 'patient_billing', 'is_owner'
     ];
     protected $dates = ['approval', 'deleted_at'];
 

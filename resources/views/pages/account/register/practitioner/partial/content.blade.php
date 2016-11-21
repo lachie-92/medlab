@@ -256,6 +256,15 @@
                                         <div id="collapsible">
                                             <div class = "row" style="margin: 10px 0 10px 10px;">
                                                 <div class="col-md-5 col-sm-7">
+                                                    Are you the registered owner of the business?
+                                                </div>
+                                                <div class="col-md-7 col-sm-5">
+                                                    {!! Form::radio('is_owner', 1, null) !!}&nbsp;Yes&nbsp;&nbsp;&nbsp;
+                                                    {!! Form::radio('is_owner', 0, null) !!}&nbsp;No
+                                                </div>
+                                            </div>
+                                            <div class = "row" style="margin: 10px 0 10px 10px;">
+                                                <div class="col-md-5 col-sm-7">
                                                     Have any of the individuals above been declared Bankrupt?
                                                 </div>
                                                 <div class="col-md-7 col-sm-5">

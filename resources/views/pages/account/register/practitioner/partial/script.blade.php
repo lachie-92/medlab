@@ -13,6 +13,9 @@
             $('#collapsible').removeClass('collapse');
         }
         else if($(this).val() == 0) {
+            $('input[name=is_owner]:radio').prop('checked', false);
+            $('input[name=been_bankrupt]:radio').prop('checked', false);
+            $('input[name=been_refused_credit]:radio').prop('checked', false);
             $('#collapsible').addClass('collapse');
         }
     });
