@@ -165,13 +165,13 @@
                 </div>
                 <div class="medlab_news_item_body">
                     <h2 class="medlab_news_content_title">
-                        GPCE Melbourne
+                        NIIM 3rd Annual Symposium
                     </h2>
                     <p>
                         <img src="/img/news/niim3rdannualsymposium.png" alt="GPCE Melbourne" height="auto" width="100%"/>
                     </p>
                     <p>
-                        When: 11-13th November 2016</br>
+                        When: Friday 25th November 2016</br>
                         Where: Amora Hotel Riverwalk, Richmond, Melbourne</br>
                         Special Registration Offer for Medlab Practitioners: Receive 10% off when purchase online using code ‘Medlab'
                     </p>
@@ -385,17 +385,7 @@
 
 
 
-                            <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.gpce.com.au/melbourne/" target="_blank">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        GPCE (Melbourne), 11 - 13th November, 2016</br>
-                                        Professor Luis Vitetta
-                                    </div>
-                                    <div class="media-left media-middle">
-                                        <img width="100%"  alt="Microbiome" src="/img/news/GPCE-2016.jpg">
-                                    </div>
-                                </a>
-                            </li>
+
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://www.niim.com.au/symposium" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
