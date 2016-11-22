@@ -48,7 +48,7 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'been_bankrupt' => 'boolean|required_if:credit_application,1',
             'been_refused_credit' => 'boolean|required_if:credit_application,1',
             'patient_billing' => 'boolean|required',
-            'is_owner' => 'boolean|required_if:credit_application,1|same:credit_application',
+            'is_owner' => 'boolean|required_if:credit_application,1',
         ];
     }
 
@@ -59,7 +59,6 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'been_bankrupt.required_if' => 'Please answer the question regarding Bankruptcy for your Credit Application',
             'been_refused_credit.required_if' => 'Please answer the question regarding Credit for your Credit Application',
             'is_owner.required_if' => 'Please answer the question regarding Owner of business for your Credit Application',
-            'is_owner.same' => 'Sorry, you must be the owner of the business to apply for Credit Application'
         ];
     }
 }

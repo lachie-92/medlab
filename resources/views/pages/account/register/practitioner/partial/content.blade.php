@@ -253,7 +253,7 @@
                                             </div>
                                         </div>
 
-                                        <div id="collapsible">
+                                        <div id="credit_app_collapse">
                                             <div class = "row" style="margin: 10px 0 10px 10px;">
                                                 <div class="col-md-5 col-sm-7">
                                                     Are you the registered owner of the business?
@@ -261,6 +261,13 @@
                                                 <div class="col-md-7 col-sm-5">
                                                     {!! Form::radio('is_owner', 1, null) !!}&nbsp;Yes&nbsp;&nbsp;&nbsp;
                                                     {!! Form::radio('is_owner', 0, null) !!}&nbsp;No
+                                                </div>
+                                            </div>
+                                            <div id="is_owner_collapse" class="row" style="margin: 10px 0 10px 10px;">
+                                                <div class="well">
+                                                    <p>
+                                                        We will require authorisation from the business owner to proceed with credit account set-up.
+                                                    </p>
                                                 </div>
                                             </div>
                                             <div class = "row" style="margin: 10px 0 10px 10px;">
