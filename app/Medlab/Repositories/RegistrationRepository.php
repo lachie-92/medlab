@@ -87,7 +87,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
         if(intval($request->credit_application) == 1) {
             $been_bankrupt = intval($request->been_bankrupt);
             $been_refused_credit = intval($request->been_refused_credit);
-            $is_owner = intval($request->been_refused_credit);
+            $is_owner = intval($request->is_owner);
         }
 
         $registration = Practitioner_Registration::create([
