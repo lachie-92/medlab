@@ -107,6 +107,48 @@ class CommWebBilling implements BillingInterface
 
     public function generateBillingUrl($paymentRequest)
     {
+        //$this->generateMD5Url($paymentRequest);
+        $this->generateSHA256Url($paymentRequest);
+
+        return $this->vpc_url;
+    }
+
+    public function generateSHA256Url($paymentRequest)
+    {
+        $hashData = "";
+        ksort($paymentRequest); // sort the fields in ascending order
+
+        $appendAmp = 0;
+        foreach($paymentRequest as $key => $value) {
+
+            // Only include fields that are not empty
+            if (strlen($value) > 0) {
+
+                // Create URL String
+                if ($appendAmp == 0) {
+                    $this->vpc_url .= urlencode($key) . '=' . urlencode($value);
+                    $appendAmp = 1;
+                }
+                else {
+                    $this->vpc_url .= '&' . urlencode($key) . '=' . urlencode($value);
+                }
+
+                // Create hash data
+                if (substr($key, 0,4)=="vpc_" || substr($key,0,5) =="user_") {
+                    $hashData .= $key . '=' . $value . '&';
+                }
+            }
+        }
+
+        $hashData = rtrim($hashData, '&'); // Remove the & at the end of hash data
+        $hashOutput = strtoupper(hash_hmac('sha256', $hashData, pack('H*', $this->secure_hash_secret)));
+        $this->vpc_url .= "&vpc_SecureHash=" . $hashOutput  . "&vpc_SecureHashType=SHA256";
+
+        return $this->vpc_url;
+    }
+
+    public function generateMD5Url($paymentRequest)
+    {
         $md5HashData = $this->secure_hash_secret;
         ksort($paymentRequest);
 
@@ -135,11 +177,39 @@ class CommWebBilling implements BillingInterface
 
     public function validateSecureHash($receiptSecureHash, $receiptContents)
     {
+        //$isValidSecureHash = $this->validateMD5SecureHash($receiptSecureHash, $receiptContents);
+        $isValidSecureHash = $this->validateSHA256SecureHash($receiptSecureHash, $receiptContents);
+
+        return $isValidSecureHash;
+    }
+
+    public function validateSHA256SecureHash($receiptSecureHash, $receiptContents)
+    {
+        $hashData = '';
+
+        // Create hash data
+        foreach($receiptContents as $key => $value) {
+            if ($key != "vpc_SecureHash" && $key != "vpc_SecureHashType" && strlen($value) > 0) {
+                $hashData .= $key . '=' . $value . '&';
+            }
+        }
+
+        $hashData = rtrim($hashData, '&'); // Remove the & at the end of hash data
+        $hashOutput = strtoupper(hash_hmac('sha256', $hashData, pack('H*', $this->secure_hash_secret)));
+        if (strtoupper($receiptSecureHash) == $hashOutput) {
+            return true;
+        }
+
+        return false;
+    }
+
+    public function validateMD5SecureHash($receiptSecureHash, $receiptContents)
+    {
         $md5HashData = $this->secure_hash_secret;
 
         // sort all the incoming vpc response fields and leave out any with no value
         foreach($receiptContents as $key => $value) {
-            if ($key != "vpc_Secure_Hash" or strlen($value) > 0) {
+            if ($key != "vpc_SecureHash" or strlen($value) > 0) {
                 $md5HashData .= $value;
             }
         }
