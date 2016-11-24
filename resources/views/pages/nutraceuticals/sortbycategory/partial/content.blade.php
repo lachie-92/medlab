@@ -18,7 +18,7 @@
                 <div class="col-md-4 col-sm-4 col-xs-6">
                     <a href="/nutraceuticals/categories/{{ $category->slug }}">
                         <div class="panel panel-primary medlab_panel">
-                            <div class="panel-heading medlab_panel_image_title">
+                            <div class="panel-heading medlab_panel_image_title eq_height">
                                 {{ strtoupper($category->category_name) }}
                             </div>
                             <div class="panel-body medlab_panel_image">
