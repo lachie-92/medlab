@@ -40,12 +40,12 @@
                             <div class="panel-body medlab_panel_content collapse" id="ingredient{{ $ingredient->id }}">
                                 @foreach($ingredient->products as $product)
                                     <div class="row">
-                                        <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <div class="col-md-3 col-sm-3 col-xs-12">
                                             <a href="/nutraceuticals/products/{{ $product->slug }}">
-                                                <img alt="missing picture" src="{{ $product->thumb_image_path }}">
+                                                <img alt="missing picture" src="{{ $product->thumb_image_path }}" class="center-block">
                                             </a>
                                         </div>
-                                        <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="col-md-6 col-sm-6 col-xs-12" style="text-align: justify">
                                             {!! $product->short_description !!}
                                             @foreach ($product->promotions as $promotion)
                                                 @if (Auth::guest() == false)
@@ -57,7 +57,7 @@
                                                 @endif
                                             @endforeach
                                         </div>
-                                        <div class="col-md-3 col-sm-3 col-xs-3">
+                                        <div class="col-md-3 col-sm-3 col-xs-12">
                                             <div class="medlab_product_list_main_shopping_box">
                                                 <div class="medlab_product_info_price_box">
                                                     <span class="medlab_product_info_price_box_price">
@@ -105,9 +105,11 @@
                                                         </button>
                                                     </form>
                                                 @else
-                                                    <button class="btn btn-sm medlab_product_list_main_shopping_box_button_add" title="Add to Cart" type="submit" disabled>
-                                                        Out of Stock
-                                                    </button>
+                                                    <div>
+                                                        <button class="btn btn-sm medlab_product_list_main_shopping_box_button_add" title="Add to Cart" type="submit" disabled>
+                                                            Out of Stock
+                                                        </button>
+                                                    </div>
                                                 @endif
 
                                                 <button class="btn btn-info btn-sm medlab_product_list_main_shopping_box_button_info" onClick="location.href='/nutraceuticals/products/{{ $product->slug }}'">
