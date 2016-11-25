@@ -345,6 +345,14 @@ Route::get('/about/careers', function () {
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
+Route::group(['middleware' => 'authPractitioner'], function () {
+
+    Route::get('/efficacy/magazine_sn16', function () {
+        return view('pages.efficacy.magazine_sn16.index');
+    });
+
+});
+
 Route::get('/efficacy/human-ageing', function () {
     return view('pages.efficacy.human-ageing.index');
 });
@@ -373,9 +381,6 @@ Route::get('/efficacy/efficacy', function () {
     return view('pages.efficacy.efficacy.index');
 });
 
-Route::get('/efficacy/magazine_sn16', function () {
-    return view('pages.efficacy.magazine_sn16.index');
-});
 
 Route::get('/efficacy/magazine_preview', function () {
     return view('pages.efficacy.magazine_preview.index');
@@ -384,130 +389,13 @@ Route::get('/efficacy/magazine_preview', function () {
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
-// Practitioner Education pages
+// Practitioner Only pages
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
 Route::get('/education/practitioner-education/{product_slug}', 'PractitionerOnlyController@redirect_practitioner_education');
 
-/*
-//NRGBiotic 60s
-Route::get('/education/practitioner-education/nrgbiotic-60s', function () {
-    return view('pages.education.practitioner-education.importance-of-uridine.index');
-});
-
-//NRGBiotic 120s
-Route::get('/education/practitioner-education/nrgbiotic-120s', function () {
-    return view('pages.education.practitioner-education.importance-of-uridine.index');
-});
-
-//Biotic Natal
-Route::get('/education/practitioner-education/bioticnatal', function () {
-    return view('pages.education.practitioner-education.developement-human-microbiota.index');
-});
-
-//Enbiotic 60s
-Route::get('/education/practitioner-education/enbiotic-60s', function () {
-    return view('pages.education.practitioner-education.poor-digestive.index');
-});
-
-//Enbiotic 120s
-Route::get('/education/practitioner-education/enbiotic-120s', function () {
-    return view('pages.education.practitioner-education.poor-digestive.index');
-});
-
-//Multibiotic 30s
-Route::get('/education/practitioner-education/multibiotic-30s', function () {
-    return view('pages.education.practitioner-education.human-microbial-interface.index');
-});
-
-//Multibiotic 60s
-Route::get('/education/practitioner-education/multibiotic-60s', function () {
-    return view('pages.education.practitioner-education.human-microbial-interface.index');
-});
-
-//12mg Optima
-Route::get('/education/practitioner-education/12mg-optima-relax', function () {
-    return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
-});
-
-//Bioclean COQ10 60s
-Route::get('/education/practitioner-education/bioclean-epa-dha-coq10-60s', function () {
-    return view('pages.education.practitioner-education.coenzyme-q10s-uqiquinol.index');
-});
-
-//Bioclean COQ10 120s
-Route::get('/education/practitioner-education/bioclean-epa-dha-coq10-120s', function () {
-    return view('pages.education.practitioner-education.coenzyme-q10s-uqiquinol.index');
-});
-
-//Bioclean Plant Sterols 60s
-Route::get('/education/practitioner-education/bioclean-epa-dha-plant-sterols-60s', function () {
-    return view('pages.education.practitioner-education.omega-3-fatty-acids.index');
-});
-
-//Bioclean Plant Sterols 120s
-Route::get('/education/practitioner-education/bioclean-epa-dha-plant-sterols-120s', function () {
-    return view('pages.education.practitioner-education.omega-3-fatty-acids.index');
-});
-
-//Nanocelle Activated B12
-Route::get('/education/practitioner-education/nanocelle-activated-b12', function () {
-    return view('pages.education.practitioner-education.why-activated-b12.index');
-});
-
-//Biotic JNR
-Route::get('/education/practitioner-education/biotic-jnr', function () {
-    return view('pages.education.practitioner-education.supporting-your-young-one.index');
-});
-
-//W8Biotic L&L
-Route::get('/education/practitioner-education/w8biotic-lemon-and-lime', function () {
-    return view('pages.education.practitioner-education.hica-use-and-understanding.index');
-});
-
-//W8Biotic S&C
-Route::get('/education/practitioner-education/w8biotic-strawberries-and-cream', function () {
-    return view('pages.education.practitioner-education.hica-use-and-understanding.index');
-});
-
-//Gastrodaily
-Route::get('/education/practitioner-education/gastrodaily', function () {
-    return view('pages.education.practitioner-education.support-healthy-gastrointestinal-function.index');
-});
-
-//Manuka C
-Route::get('/education/practitioner-education/manuka-c', function () {
-    return view('pages.education.practitioner-education.ascorbic-acid-and-glutathione.index');
-});
-
-//Nanocelle B12
-Route::get('/education/practitioner-education/nanocelle-b12', function () {
-    return view('pages.education.practitioner-education.role-of-b12.index');
-});
-
-//Nanocelle D3
-Route::get('/education/practitioner-education/nanocelle-d3', function () {
-    return view('pages.education.practitioner-education.is-vitamin-d3-essential.index');
-});
-
-//ORSBiotic
-Route::get('/education/practitioner-education/orsbiotic', function () {
-    return view('pages.education.practitioner-education.new-concept-of-oral-rehydration.index');
-});
-
-//SB5B
-Route::get('/education/practitioner-education/SB-5B', function () {
-    return view('pages.education.practitioner-education.efficacy-of-saccharomyces-boulardii.index');
-});
-
-//NOS
-Route::get('/education/practitioner-education/NOS', function () {
-    return view('pages.education.practitioner-education.nitric-oxide-for-sport-performance.index');
-});
-
-*/
-
+Route::get('/nutraceuticals/products/{product_slug}/cmi/{language}', "PractitionerOnlyController@redirect_cmi");
 
 
 ///////////////////////////////////////////////////////////////////////////////////

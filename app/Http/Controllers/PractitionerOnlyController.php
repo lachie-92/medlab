@@ -132,16 +132,19 @@ class PractitionerOnlyController extends Controller
                 break;
             case "12mg-optima-relax-150g":
                 $file_path = "/img/products/12mg_optima/cmi/" . $language . ".pdf";
-                return view('pages.nutraceuticals.cmi.', compact('file_path'));
+                return view('pages.nutraceuticals.cmi.index', compact('file_path'));
                 break;
             case "12mg-optima-relax-300g":
-                return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
+                $file_path = "/img/products/12mg_optima/cmi/" . $language . ".pdf";
+                return view('pages.nutraceuticals.cmi.index', compact('file_path'));
                 break;
             case "bioclean-epa-dha-coq10-60s":
-                return view('pages.education.practitioner-education.coenzyme-q10s-uqiquinol.index');
+                $file_path = "/img/products/bioclean_epa_dha_coq10_60s/cmi/" . $language . ".pdf";
+                return view('pages.nutraceuticals.cmi.index', compact('file_path'));
                 break;
             case "bioclean-epa-dha-coq10-120s":
-                return view('pages.education.practitioner-education.coenzyme-q10s-uqiquinol.index');
+                $file_path = "/img/products/bioclean-epa-dha-coq10-60s/cmi/" . $language . ".pdf";
+                return view('pages.nutraceuticals.cmi.index', compact('file_path'));
                 break;
             case "bioclean-epa-dha-plant-sterols-60s":
                 return view('pages.education.practitioner-education.omega-3-fatty-acids.index');
