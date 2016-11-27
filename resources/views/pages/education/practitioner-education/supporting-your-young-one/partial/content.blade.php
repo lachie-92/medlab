@@ -236,7 +236,7 @@
                         <strong>References</strong><br>
                         <br>
                         <ol class="medlab_product_reference_list">
-                            <li>1.	Gritz EC, Bhandari V. The human neonatal gut microbiome: a brief review. <em>Frontiers Pediatr</em> 2015;3:1.</li>
+                            <li>Gritz EC, Bhandari V. The human neonatal gut microbiome: a brief review. <em>Frontiers Pediatr</em> 2015;3:1.</li>
                             <li>Jain N, Walker WA. Diet and host-microbial crosstalk in postnatal intestinal immune homeostasis. <em>Nat Rev Gastroenterol Hepatol</em> 2015;12:14.</li>
                             <li>Alfaleh K, Anabrees J. Probiotics for prevention of necrotizing enterocolitis in preterm infants. <em>Cochrane Database Syst Rev</em> 2014;4.</li>
                             <li>Dinleyici EC, et al. Saccharomyces boulardii CNCM I-745 reduces the duration of diarrhoea, length of emergency care and hospital stay in children with acute diarrhoea. <em>Benef Microbes</em> 2015 6;415.</li>
