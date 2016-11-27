@@ -285,6 +285,11 @@ Route::get('/research/medlab-cell-line', function () {
     return view('pages.research.medlab-cell-line.index');
 });
 
+Route::get('/research/splash', function () {
+    return view('pages.research.splash.index');
+});
+
+
 
 
 

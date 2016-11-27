@@ -236,17 +236,21 @@
                         <strong>References</strong><br>
                         <br>
                         <ol class="medlab_product_reference_list">
-                            <li>McFarland L. Systematic review and meta-analysis of Saccharomyces boulardii in adult patients. <em>World J Gastroenterol</em>2010;16:2202. </li>
-                            <li>Pineton de Chambrun G, et al. A randomised clinical trial with Saccharomyces cerevisiae versus placebo in Irritable Bowel Syndrome. <em>Dig and Liver Dis</em> 2015;47:119.</li>
-                            <li>Kelesidis T, Pothoulakis C. Efficacy and safety of the probiotic Saccharomyces boulardii for the prevention and therapy of gastrointestinal disorders. <em>Therap Adv Gastroenterol</em> 2012;5:111. </li>
-                            <li>Udani JK, et al. Proprietary arabinogalactan extract increases antibody response to the pneumonia vaccine: a randomized double-blind, placebo-controlled pilot  study in health volunteers. <em>Nutr J</em> 2010;9:32.</li>
-                            <li>Udani JK. Immunomodulatory effects of ResistAid<sup>TM</sup>: A randomized, double-blind, placebo-controlled, multi dose study. <em>J Am Coll Nutr</em> 2013;32:331. </li>
-                            <li>Grube B, et al. Tolerability of a Proprietary Larch Arabinogalactan Extract: a randomized, double-blind, placebo-controlled clinical trial in healthy subjects. <em>Food Nutr Sci</em> 2012;3:1533.</li>
-                            <li>Garcia-de-Lorenzo A, et al. Clinical Evidence for the Enteral Nutritional Support with Glutamine: A Systematic Review. <em>Nutrition</em> 2003;19:9. </li>
-                            <li>Neu J, et al. Intestinal mucosal defense system, Part 1. Consensus recommendation for immunonutrients. <em>J Pediatr</em> 2013;162:S56.</li>
-                            <li>Gardiner P. Peppermint (Mentha piperita). <em>Longwood Herbal Task Force </em>2000;1-22.  </li>
-                            <li>Wall GC, et al. Irritable bowel syndrome: a concise review of current treatment concepts. <em>World J Gastroenterol</em> 2014;20:8796.</li>
-                            <li>Moco S, etr al. Metabolomics view on gut microbiome modulation by polyphenol rich foods. <em>J Proteome Res</em> 2012;11:4781.</li>
+                            <li>1.	Gritz EC, Bhandari V. The human neonatal gut microbiome: a brief review. <em>Frontiers Pediatr</em> 2015;3:1.</li>
+                            <li>Jain N, Walker WA. Diet and host-microbial crosstalk in postnatal intestinal immune homeostasis. <em>Nat Rev Gastroenterol Hepatol</em> 2015;12:14.</li>
+                            <li>Alfaleh K, Anabrees J. Probiotics for prevention of necrotizing enterocolitis in preterm infants. <em>Cochrane Database Syst Rev</em> 2014;4.</li>
+                            <li>Dinleyici EC, et al. Saccharomyces boulardii CNCM I-745 reduces the duration of diarrhoea, length of emergency care and hospital stay in children with acute diarrhoea. <em>Benef Microbes</em> 2015 6;415.</li>
+                            <li>Buts JP, De Keyser N. Effects of Saccharomyces boulardii on Intestinal Mucosa. <em>Dig Dis Sci</em> 2006;51:1485.</li>
+                            <li>Chichlowski M, et al. Bifidobacteria isolated from infants and cultured on human milk oligosaccharides affect intestinal epithelial function. <em>J Pediatr Gastroenterol Nutr</em> 2012;55:321.</li>
+                            <li>Ochoa TJ, Cleary TG. Effect of lactoferrin on enteric pathogens. <em>Biochimie</em> 2009;91:30.</li>
+                            <li>Abrams PM, et al. Oral lactoferrin for the prevention of sepsis and necrotizing enterocolitis in preterm infants. <em>Cochrane Database Syst Rev</em> 2015;2.</li>
+                            <li>Pacheco AR, et al. The impact of the milk glycobiome on the neonate gut microbiota. <em>Annu Rev Anim Biosci</em> 2015;3:419.</li>
+                            <li>Lohner S, et al. Prebiotics in healthy infants and children for prevention of acute infectious diseases: a systematic review and meta-analysis. <em>Nutr Rev</em> 2014;72:523.</li>
+                            <li>Osborn DA< Sinn JKH. Prebiotics in infants for prevention of allergy. <em>Cochrane Database Syst Rev</em> 2013;3.</li>
+                            <li>Turroni F, et al. Diversity of Bifidobacteria within the infant gut microbiota. <em>PLoS ONE</em> 2012;7:e36957.</li>
+                            <li>Walker WA, Lyengar SR. Breast milk, microbiota and intestinal immune homeostasis. <em>Pediatr Res</em> 2015;77:220.</li>
+
+
                         </ol>
                     <hr>
 
