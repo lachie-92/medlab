@@ -947,38 +947,38 @@ class ModifyProduct extends Command
                 'cmi' =>
                     '
                     <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s/cmi/arabic" target="_blank">الترجمة العربية </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Spanish.pdf" target="_blank">Traducción en español</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s/cmi/spanish" target="_blank">Traducción en español</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s/cmi/russian" target="_blank">Перевод на русском языке</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Japanese.pdf" target="_blank">日本語翻訳</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s/cmi/japanese" target="_blank">日本語翻訳</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/French.pdf" target="_blank">Traduction en français</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s/cmi/french" target="_blank">Traduction en français</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Chinese.pdf" target="_blank">中文翻译</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s/cmi/chinese" target="_blank">中文翻译</a>
                     </p>
                     <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Italian.pdf" target="_blank">Traduzione italiana</a>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s/cmi/italian" target="_blank">Traduzione italiana</a>
                     </p>
                 ',
                 'free_from' =>
@@ -1228,37 +1228,37 @@ class ModifyProduct extends Command
                     '
                     <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s/cmi/arabic" target="_blank">الترجمة العربية </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Spanish.pdf" target="_blank">Traducción en español</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s/cmi/spanish" target="_blank">Traducción en español</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s/cmi/russian" target="_blank">Перевод на русском языке</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Japanese.pdf" target="_blank">日本語翻訳</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s/cmi/japanese" target="_blank">日本語翻訳</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/French.pdf" target="_blank">Traduction en français</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s/cmi/french" target="_blank">Traduction en français</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Chinese.pdf" target="_blank">中文翻译</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s/cmi/chinese" target="_blank">中文翻译</a>
                     </p>
                     <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanCoQ1/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s/cmi/italian" target="_blank">Traduzione italiana</a>
                     </p>
                 ',
                 'free_from' =>
@@ -1485,37 +1485,37 @@ class ModifyProduct extends Command
                     '
                     <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s/cmi/arabic" target="_blank">الترجمة العربية </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Spanish.pdf" target="_blank">Traducción en español</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s/cmi/spanish" target="_blank">Traducción en español</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s/cmi/russian" target="_blank">Перевод на русском языке</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Japanese.pdf" target="_blank">日本語翻訳</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s/cmi/japanese" target="_blank">日本語翻訳</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/French.pdf" target="_blank">Traduction en français</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s/cmi/french" target="_blank">Traduction en français</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Chinese.pdf" target="_blank">中文翻译</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s/cmi/chinese" target="_blank">中文翻译</a>
                     </p>
                     <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s/cmi/italian" target="_blank">Traduzione italiana</a>
                     </p>
                 ',
                 'free_from' =>
@@ -1742,37 +1742,37 @@ class ModifyProduct extends Command
                     '
                     <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s/cmi/arabic" target="_blank">الترجمة العربية </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Spanish.pdf" target="_blank">Traducción en español</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s/cmi/spanish" target="_blank">Traducción en español</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s/cmi/russian" target="_blank">Перевод на русском языке</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Japanese.pdf" target="_blank">日本語翻訳</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s/cmi/japanese" target="_blank">日本語翻訳</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/French.pdf" target="_blank">Traduction en français</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s/cmi/french" target="_blank">Traduction en français</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Chinese.pdf" target="_blank">中文翻译</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s/cmi/chinese" target="_blank">中文翻译</a>
                     </p>
                     <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioCleanPlant/Italian.pdf" target="_blank">Traduzione italiana</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s/cmi/italian" target="_blank">Traduzione italiana</a>
                     </p>
                 ',
                 'free_from' =>
@@ -2041,37 +2041,37 @@ class ModifyProduct extends Command
                     '
                     <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/biotic-jnr/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/biotic-jnr/cmi/arabic" target="_blank">الترجمة العربية </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Spanish.pdf" target="_blank">Traducción en español</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/biotic-jnr/cmi/spanish" target="_blank">Traducción en español</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/biotic-jnr/cmi/russian" target="_blank">Перевод на русском языке</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Japanese.pdf" target="_blank">日本語翻訳</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/biotic-jnr/cmi/japanese" target="_blank">日本語翻訳</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/French.pdf" target="_blank">Traduction en français</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/biotic-jnr/cmi/french" target="_blank">Traduction en français</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/Chinese.pdf" target="_blank">中文翻译</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/biotic-jnr/cmi/chinese" target="_blank">中文翻译</a>
                     </p>
                     <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticJnr/TraditionalChinese.pdf" target="_blank">中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/biotic-jnr/cmi/traditional_chinese" target="_blank">中文翻譯</a>
                     </p>
                 ',
                 'free_from' =>
@@ -2112,8 +2112,8 @@ class ModifyProduct extends Command
                 ",
                 'price_retail' => 37.73,
                 'price_wholesale' => 24.95,
-                'image_path' => '/img/products/boitic_jnr/bioticjnr.png',
-                'thumb_image_path' => '/img/products/boitic_jnr/thumb_bioticjnr.png',
+                'image_path' => '/img/products/biotic_jnr/biotic_jnr.png',
+                'thumb_image_path' => '/img/products/biotic_jnr/thumb_biotic_jnr.png',
             ],
             [
                 'product_name_index' => "BioticNatal",
@@ -2349,37 +2349,37 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/English.pdf"target="_blank">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/bioticnatal/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Arabic.pdf"target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioticnatal/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Spanish.pdf">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioticnatal/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Russian.pdf"target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioticnatal/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Japanese.pdf"target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioticnatal/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/French.pdf"target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioticnatal/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Chinese.pdf"target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioticnatal/cmi/chinese"target="_blank">中文翻译</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/BioticNatal/Italian.pdf"target="_blank">Traduzione italiana</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/bioticnatal/cmi/italian"target="_blank">Traduzione italiana</a>
                 </p>
                 ',
                 'free_from' =>
@@ -2648,36 +2648,35 @@ class ModifyProduct extends Command
                 'cmi' =>
                     '
                     <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/enbiotic-60s/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/enbiotic-60s/cmi/arabic" target="_blank">الترجمة العربية </a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Spanish.pdf" target="_blank">Traducción en español</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/enbiotic-60s/cmi/spanish" target="_blank">Traducción en español</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/enbiotic-60s/cmi/russian" target="_blank">Перевод на русском языке</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/enbiotic-60s/cmi/japanese" target="_blank">日本語翻訳</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/French.pdf" target="_blank">Traduction en français</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/enbiotic-60s/cmi/french" target="_blank">Traduction en français</a>
                     </p>
                     <p>
                         <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Enbiotic/Chinese.pdf" target="_blank">中文翻译</a>
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/enbiotic-60s/cmi/chinese" target="_blank">中文翻译</a>
                     </p>
-                    <p>
                 ',
                 'free_from' =>
                     '
@@ -2923,33 +2922,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/gastrodaily/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/gastrodaily/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/gastrodaily/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Spanish.pdf" target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/gastrodaily/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/gastrodaily/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/gastrodaily/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Gastrodaily/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/gastrodaily/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -3267,33 +3266,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/English.pdf"target="_blank">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-105g/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                 <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Arabic.pdf"target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-105g/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Spanish.pdf"target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-105g/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Russian.pdf"target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-105g/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Japanese.pdf"target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-105g/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Italian.pdf"target="_blank">Traduzione italiana</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-105g/cmi/italian" target="_blank">Traduzione italiana</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-105g/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -3612,33 +3611,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/English.pdf"target="_blank">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-210g/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                 <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Arabic.pdf"target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-210g/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Spanish.pdf"target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-210g/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Russian.pdf"target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-210g/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Japanese.pdf"target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-210g/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Italian.pdf"target="_blank">Traduzione italiana</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-210g/cmi/italian" target="_blank">Traduzione italiana</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Manuka-C/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/manuka-c-210g/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -3923,33 +3922,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/multibiotic-30s/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-30s/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Russion.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-30s/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Spanish.pdf" target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-30s/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-30s/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-30s/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-30s/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -4233,33 +4232,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/multibiotic-60s/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-60s/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Russion.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-60s/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Spanish.pdf" target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-60s/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-60s/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-60s/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Multibiotic/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/multibiotic-60s/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -4459,33 +4458,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                 <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/English.pdf" target="_blank">
+                <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-activated-b12/cmi/english" target="_blank">
                     Click Here For English CMI
                 </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-activated-b12/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-activated-b12/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-activated-b12/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-activated-b12/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-activated-b12/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 <p>
                 <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleActivatedB12/Italian.pdf" target="_blank">Traduzione italiana</a>
+                <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-activated-b12/cmi/italian" target="_blank">Traduzione italiana</a>
                 </p>
                 ',
                 'free_from' =>
@@ -4677,33 +4676,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/nanocelle-b12/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-b12/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-b12/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Spanish.pdf" target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-b12/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-b12/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-b12/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleB12/Traditional_Chinese.pdf" target="_blank">中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-b12/cmi/traditional_chinese" target="_blank">中文翻譯</a>
                 </p>
                 ',
                 'free_from' =>
@@ -4916,33 +4915,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/nanocelle-d3/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-d3/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-d3/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3/Spanish.pdf" target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-d3/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-d3/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-d3/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3/Traditional_Chinese.pdf" target="_blank">中文翻譯</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-d3/cmi/traditional_chinese" target="_blank">中文翻譯</a>
                 </p>
                 ',
                 'free_from' =>
@@ -5469,33 +5468,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/nrgbiotic-60s/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-60s/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Russion.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-60s/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Spanish.pdf" target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-60s/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-60s/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-60s/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-60s/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -5762,37 +5761,37 @@ class ModifyProduct extends Command
                 ',
                 'cmi' =>
                     '
-                <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Russion.pdf" target="_blank">Перевод на русском языке</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Spanish.pdf" target="_blank">Traducción en español</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/French.pdf" target="_blank">Traduction en français</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/NRGBiotic/Chinese.pdf" target="_blank">中文翻译</a>
-                </p>
-                ',
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link"href="/nutraceuticals/products/nrgbiotic-120s/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-120s/cmi/arabic" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-120s/cmi/russian" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-120s/cmi/spanish" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-120s/cmi/japanese" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-120s/cmi/french" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/nrgbiotic-120s/cmi/chinese" target="_blank">中文翻译</a>
+                    </p>
+                    ',
                 'free_from' =>
                     '
                 <p class="medlab_product_content_sub_title">
@@ -6152,33 +6151,33 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/orsbiotic/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/russian" target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Spanish.pdf" target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/japanese" target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/ORSBiotic/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -6391,37 +6390,37 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/SB5B/English.pdf"target="_blank">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/SB-5B/cmi/english"target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Arabic.pdf"target="_blank">الترجمة العربية </a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/SB-5B/cmi/arabic"target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Spanish.pdf"target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/SB-5B/cmi/spanish"target="_blank">Traducción en español</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Russian.pdf"target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/SB-5B/cmi/russian"target="_blank">Перевод на русском языке</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Japanese.pdf"target="_blank">日本語翻訳</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/SB-5B/cmi/japanese"target="_blank">日本語翻訳</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/French.pdf"target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/SB-5B/cmi/french"target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Chinese.pdf"target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/SB-5B/cmi/chinese"target="_blank">中文翻译</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/SB5B/Italian.pdf"target="_blank">Traduzione italiana</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/SB-5B/cmi/italian"target="_blank">Traduzione italiana</a>
                 </p>
                 ',
                 'free_from' =>
@@ -6671,33 +6670,29 @@ class ModifyProduct extends Command
                     '
                 <p>
                     <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/English.pdf" target="_blank">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-strawberries-and-cream/cmi/english" target="_blank">
                         Click Here For English CMI
                     </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-strawberries-and-cream/cmi/arabic" target="_blank">الترجمة العربية </a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Spanish.pdf" target="_blank">Traducción en español</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-strawberries-and-cream/cmi/spanish" target="_blank">Traducción en español</a>
                 </p>
                 <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Japanese.pdf" target="_blank">日本語翻訳</a>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-strawberries-and-cream/cmi/italian" target="_blank">Traduzione italiana</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/French.pdf" target="_blank">Traduction en français</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-strawberries-and-cream/cmi/french" target="_blank">Traduction en français</a>
                 </p>
                 <p>
                     <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Chinese.pdf" target="_blank">中文翻译</a>
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-strawberries-and-cream/cmi/chinese" target="_blank">中文翻译</a>
                 </p>
                 ',
                 'free_from' =>
@@ -6950,37 +6945,37 @@ class ModifyProduct extends Command
                 ',
                 'cmi' =>
                     '
-                <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/English.pdf" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Spanish.pdf" target="_blank">Traducción en español</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Japanese.pdf" target="_blank">日本語翻訳</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/French.pdf" target="_blank">Traduction en français</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/W8Biotic/Chinese.pdf" target="_blank">中文翻译</a>
-                </p>
-                ',
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-lemon-and-lime/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-lemon-and-lime/cmi/arabic" target="_blank">الترجمة العربية </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-lemon-and-lime/cmi/russian" target="_blank">Перевод на русском языке</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-lemon-and-lime/cmi/spanish" target="_blank">Traducción en español</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-lemon-and-lime/cmi/japanese" target="_blank">日本語翻訳</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-lemon-and-lime/cmi/french" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/w8biotic-lemon-and-lime/cmi/traditional_chinese" target="_blank">中文翻譯</a>
+                    </p>
+                    ',
                 'free_from' =>
                     '
                 <p class="medlab_product_content_sub_title">
@@ -7252,7 +7247,7 @@ class ModifyProduct extends Command
                     '
                     <p>
                         <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                        <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/NanoCelleD3K2/English.pdf"target="_blank">
+                        <a class="medlab_panel_content_link"href="/nutraceuticals/products/nanocelle-d3-k2/cmi/english"target="_blank">
                             Click Here For English CMI
                         </a>
                     </p>
@@ -7554,12 +7549,12 @@ class ModifyProduct extends Command
                 ',
                 'cmi' =>
                     '
-                <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Immune-5/English.pdf"target="_blank">
-                        Click Here For English CMI
-                    </a>
-                </p>
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/immune-5-vanilla/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
                 ',
                 'free_from' =>
                     '
@@ -7828,13 +7823,13 @@ class ModifyProduct extends Command
                 ',
                 'cmi' =>
                     '
-                <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="https://s3.amazonaws.com/medlab-pdfs/Immune-5/English.pdf"target="_blank">
-                        Click Here For English CMI
-                    </a>
-                </p>
-                ',
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/immune-5-raspberry/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                    ',
                 'free_from' =>
                     '
                 <p class="medlab_product_content_sub_title">

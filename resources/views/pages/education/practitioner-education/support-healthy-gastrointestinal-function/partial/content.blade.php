@@ -117,21 +117,21 @@
 
 
                     <hr>
-                        <strong>References</strong><br>
-                        <br>
-                        <ol class="medlab_product_reference_list">
-                            <li>McFarland L. Systematic review and meta-analysis of Saccharomyces boulardii in adult patients. <em>World J Gastroenterol</em>2010;16:2202. </li>
-                            <li>Pineton de Chambrun G, et al. A randomised clinical trial with Saccharomyces cerevisiae versus placebo in Irritable Bowel Syndrome. <em>Dig and Liver Dis</em> 2015;47:119.</li>
-                            <li>Kelesidis T, Pothoulakis C. Efficacy and safety of the probiotic Saccharomyces boulardii for the prevention and therapy of gastrointestinal disorders. <em>Therap Adv Gastroenterol</em> 2012;5:111. </li>
-                            <li>Udani JK, et al. Proprietary arabinogalactan extract increases antibody response to the pneumonia vaccine: a randomized double-blind, placebo-controlled pilot  study in health volunteers. <em>Nutr J</em> 2010;9:32.</li>
-                            <li>Udani JK. Immunomodulatory effects of ResistAid<sup>TM</sup>: A randomized, double-blind, placebo-controlled, multi dose study. <em>J Am Coll Nutr</em> 2013;32:331. </li>
-                            <li>Grube B, et al. Tolerability of a Proprietary Larch Arabinogalactan Extract: a randomized, double-blind, placebo-controlled clinical trial in healthy subjects. <em>Food Nutr Sci</em> 2012;3:1533.</li>
-                            <li>Garcia-de-Lorenzo A, et al. Clinical Evidence for the Enteral Nutritional Support with Glutamine: A Systematic Review. <em>Nutrition</em> 2003;19:9. </li>
-                            <li>Neu J, et al. Intestinal mucosal defense system, Part 1. Consensus recommendation for immunonutrients. <em>J Pediatr</em> 2013;162:S56.</li>
-                            <li>Gardiner P. Peppermint (Mentha piperita). <em>Longwood Herbal Task Force </em>2000;1-22.  </li>
-                            <li>Wall GC, et al. Irritable bowel syndrome: a concise review of current treatment concepts. <em>World J Gastroenterol</em> 2014;20:8796.</li>
-                            <li>Moco S, etr al. Metabolomics view on gut microbiome modulation by polyphenol rich foods. <em>J Proteome Res</em> 2012;11:4781.</li>
-                        </ol>
+                    <strong>References</strong><br>
+                    <br>
+                    <ol class="medlab_product_reference_list">
+                        <li>McFarland L. Systematic review and meta-analysis of Saccharomyces boulardii in adult patients. <em>World J Gastroenterol</em> 2010;16:2202.</li>
+                        <li>Pineton de Chambrun G, et al. A randomised clinical trial with Saccharomyces cerevisiae versus placebo in Irritable Bowel Syndrome. <em>Dig and Liver Dis</em> 2015;47:119.</li>
+                        <li>Kelesidis T, Pothoulakis C. Efficacy and safety of the probiotic Saccharomyces boulardii for the prevention and therapy of gastrointestinal disorders. <em>Therap Adv Gastroenterol</em> 2012;5:111.</li>
+                        <li>Udani JK, et al. Proprietary arabinogalactan extract increases antibody response to the pneumonia vaccine: a randomized double-blind, placebo-controlled pilot study in health volunteers. <em>Nutr J</em> 2010;9:32.</li>
+                        <li>Udani JK. Immunomodulatory effects of ResistAid<sup>TM</sup>: A randomized, double-blind, placebo-controlled, multi dose study. <em>J Am Coll Nutr</em> 2013;32:331.</li>
+                        <li>Grube B, et al. Tolerability of a Proprietary Larch Arabinogalactan Extract: a randomized, double-blind, placebo-controlled clinical trial in healthy subjects. <em>Food Nutr Sci</em> 2012;3:1533.</li>
+                        <li>Garcia-de-Lorenzo A, et al. Clinical Evidence for the Enteral Nutritional Support with Glutamine: A Systematic Review. <em>Nutrition</em> 2003;19:9.</li>
+                        <li>Neu J, et al. Intestinal mucosal defense system, Part 1. Consensus recommendation for immunonutrients. <em>J Pediatr</em> 2013;162:S56.</li>
+                        <li>Gardiner P. Peppermint (Mentha piperita). <em>Longwood Herbal Task Force </em>2000;1-22.</li>
+                        <li>Wall GC, et al. Irritable bowel syndrome: a concise review of current treatment concepts. <em>World J Gastroenterol</em> 2014;20:8796.</li>
+                        <li>Moco S, etr al. Metabolomics view on gut microbiome modulation by polyphenol rich foods. <em>J Proteome Res</em> 2012;11:4781.</li>
+                    </ol>
                     <hr>
 
                 </div>
