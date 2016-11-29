@@ -7251,7 +7251,15 @@ class ModifyProduct extends Command
                             Click Here For English CMI
                         </a>
                     </p>
-                ',
+                    <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-d3-k2/cmi/french" target="_blank">Traduction en français</a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/nanocelle-d3-k2/cmi/chinese" target="_blank">中文翻译</a>
+                    </p>
+                    ',
                 'free_from' =>
                     '
                     <p class="medlab_product_content_sub_title">
@@ -7555,6 +7563,10 @@ class ModifyProduct extends Command
                             Click Here For English CMI
                         </a>
                     </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/immune-5-vanilla/cmi/spanish" target="_blank">Traducción en español</a>
+                    </p>
                 ',
                 'free_from' =>
                     '
@@ -7828,6 +7840,10 @@ class ModifyProduct extends Command
                         <a class="medlab_panel_content_link" href="/nutraceuticals/products/immune-5-raspberry/cmi/english" target="_blank">
                             Click Here For English CMI
                         </a>
+                    </p>
+                    <p>
+                        <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/immune-5-raspberry/cmi/spanish" target="_blank">Traducción en español</a>
                     </p>
                     ',
                 'free_from' =>
