@@ -7,67 +7,127 @@
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
             <!--
-            -- Research
+            -- About Medlab
             -->
-            <div class="panel panel-primary medlab_panel">
-                <div class="panel-heading medlab_panel_title">
-                    Medlab Research
-                </div>
-                <div class="panel-body medlab_panel_content">
 
 
-                    <div class="row">
 
-                        <div class="col-md-6">
-                            <img src="/img/research/Atorvastatin.JPG" width = "100%"  style="margin:20px 0px">
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+
+                <div class="medlab_news_item">
+                    <div class="medlab_news_item_content_wrapper">
+                        <div class="medlab_news_item_title">
+                            Research
                         </div>
-
-                        <div class="col-md-6">
-                            <img src="/img/research/Atorvastatin.JPG" width = "100%"  style="margin:20px 0px">
+                        <div class="medlab_news_item_body">
+                            <div class="media-middle media-middle">
+                                <img width="100%"  alt="Microbiome" src="/img/research/Luis_Tony.jpg">
+                            </div>
                         </div>
-
                     </div>
-
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <img src="/img/research/Atorvastatin.JPG" width = "100%" style="margin:20px 0px">
-                        </div>
-
-                        <div class="col-md-6">
-                            <img src="/img/research/Atorvastatin.JPG" width = "100%"  style="margin:20px 0px">
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <img src="/img/research/Atorvastatin.JPG" width = "100%" style="margin:20px 0px">
-                        </div>
-
-                        <div class="col-md-6">
-                            <img src="/img/research/Atorvastatin.JPG" width = "100%"  style="margin:20px 0px">
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-md-6">
-                            <img src="/img/research/Atorvastatin.JPG" width = "100%" style="margin:20px 0px">
-                        </div>
-
-                        <div class="col-md-6">
-                            <img src="/img/research/Atorvastatin.JPG" width = "100%"  style="margin:20px 0px">
-                        </div>
-
-                    </div>
-
-
-
                 </div>
             </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+
+                <div class="medlab_news_item">
+                    <div class="medlab_news_item_content_wrapper">
+                        <div class="medlab_news_item_title">
+                            Medlab's Cell Lines
+                        </div>
+                        <div class="medlab_news_item_body">
+                            <div class="media-middle media-middle">
+                                <img width="100%"  alt="Microbiome" src="/img/research/Luis_Tony.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+
+                <div class="medlab_news_item">
+                    <div class="medlab_news_item_content_wrapper">
+                        <div class="medlab_news_item_title">
+                            Medlab Delivery Platform
+                        </div>
+                        <div class="medlab_news_item_body">
+                            <div class="media-middle media-middle">
+                                <img width="100%"  alt="Microbiome" src="/img/research/Luis_Tony.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+
+                <div class="medlab_news_item">
+                    <div class="medlab_news_item_content_wrapper">
+                        <div class="medlab_news_item_title">
+                            Why Medlab
+                        </div>
+                        <div class="medlab_news_item_body">
+                            <div class="media-middle media-middle">
+                                <img width="100%"  alt="Microbiome" src="/img/research/Luis_Tony.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12 col-xs-12">
+
+                <div class="medlab_news_item">
+                    <div class="medlab_news_item_content_wrapper">
+                        <div class="medlab_news_item_title">
+                            The Medlab Solution
+                        </div>
+                        <div class="medlab_news_item_body">
+                            <div class="media-middle media-middle">
+                                <img width="100%"  alt="Microbiome" src="/img/research/Luis_Tony.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+
+                <div class="medlab_news_item">
+                    <div class="medlab_news_item_content_wrapper">
+                        <div class="medlab_news_item_title">
+                            Patents
+                        </div>
+                        <div class="medlab_news_item_body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+
+                <div class="medlab_news_item">
+                    <div class="medlab_news_item_content_wrapper">
+                        <div class="medlab_news_item_title">
+                            Clinical Trials
+                        </div>
+                        <div class="medlab_news_item_body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
         </div>
     </div>
 </div>
