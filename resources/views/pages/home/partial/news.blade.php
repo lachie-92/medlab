@@ -165,15 +165,15 @@
                 </div>
                 <div class="medlab_news_item_body">
                     <h2 class="medlab_news_content_title">
-                        NIIM 3rd Annual Symposium
+                        Academy of Science,  Frontiers of Science
                     </h2>
                     <p>
-                        <img src="/img/news/niim3rdannualsymposium.png" alt="GPCE Melbourne" height="auto" width="100%"/>
+                        <img src="/img/news/theo_murphy_australian_frontiers_of_science.jpg" alt="Microbiome" height="auto" width="100%"/>
                     </p>
                     <p>
-                        When: Friday 25th November 2016</br>
-                        Where: Amora Hotel Riverwalk, Richmond, Melbourne</br>
-                        Special Registration Offer for Medlab Practitioners: Receive 10% off when purchase online using code ‘Medlab'
+                        When: Tuesday 29th Nov - Thursday 1st Dec 2016</br>
+                        Where: Mercure Grosvenor Hotel, 125 North Terrace, South Australia</br>
+                        Professor Luis Vitetta & Talia Palacios
                     </p>
 
 
@@ -382,21 +382,8 @@
                     </div>
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
+                            
 
-
-
-
-                            <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.niim.com.au/symposium" target="_blank">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        NIIM 3rd Annual Symposium (Melbourne), 25 - 26th November, 2016</br>
-                                        Professor Luis Vitetta
-                                    </div>
-                                    <div class="media-left media-middle">
-                                        <img width="100%"  alt="Microbiome" src="/img/news/niim3rdannualsymposium.png">
-                                    </div>
-                                </a>
-                            </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
