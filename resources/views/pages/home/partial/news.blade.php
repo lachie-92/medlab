@@ -382,7 +382,7 @@
                     </div>
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
-                            
+
 
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="https://www.science.org.au/news-and-events/events/microbiome-exploring-role-microorganisms-ecosystem-processes-and-health" target="_blank">
@@ -395,6 +395,17 @@
                                     </div>
                                 </a>
                             </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <a href="http://conference.acnem.org" target="_blank">
+                                    <div class="medlab_news_sidebar_list_item_title">
+                                        Title: ACNEM 7th Science of Nutrition in Medicine Conference</br>
+                                    </div>
+                                    <div class="media-left media-middle">
+                                        <img width="100%"  alt="ACNEM 2017" src="/img/news/acnem2017.png">
+                                    </div>
+                                </a>
+                            </li>
+
                         </ul>
                     </div>
                 </div>
