@@ -77,6 +77,9 @@ class PractitionerOnlyController extends Controller
             case "manuka-c-210g":
                 return view('pages.education.practitioner-education.ascorbic-acid-and-glutathione.index');
                 break;
+            case "manuka-c":
+                return view('pages.education.practitioner-education.ascorbic-acid-and-glutathione.index');
+                break;
             case "nanocelle-b12":
                 return view('pages.education.practitioner-education.role-of-b12.index');
                 break;
