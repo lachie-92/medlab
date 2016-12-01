@@ -21,7 +21,7 @@
                     <div class="medlab_news_item">
                         <div class="medlab_news_item_content_wrapper">
                             <div class="medlab_news_item_title">
-                                Efficacy Podcast
+                                Trust Your Gut Podcast
                             </div>
                             <div class="medlab_news_item_body">
                                 <div class="media-middle media-middle">
