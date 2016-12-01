@@ -12,6 +12,12 @@
 
 
 
+            <audio controls>
+                <source src="/img/podcast/boredtodeath.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+
 
             <div class="col-md-6 col-sm-12 col-xs-12">
 
