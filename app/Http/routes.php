@@ -404,7 +404,11 @@ Route::get('/efficacy/magazine_preview', function () {
 
 Route::get('/education/practitioner-education/{product_slug}', 'PractitionerOnlyController@redirect_practitioner_education');
 
-Route::get('/nutraceuticals/products/{product_slug}/cmi/{language}', "PractitionerOnlyController@redirect_cmi");
+Route::get('/nutraceuticals/products/{productSlug}/cmi/{language}', "PractitionerOnlyController@redirect_cmi")
+    ->where('language', '^(arabic|chinese|english|french|italian|japanese|russian|spanish|traditional_chinese)$');
+
+Route::get('/nutraceuticals/products/{productSlug}/info/{language}', 'PractitionerOnlyController@getProductCMI')
+    ->where('language', '^(arabic|chinese|english|french|italian|japanese|russian|spanish|traditional_chinese)$');
 
 
 ///////////////////////////////////////////////////////////////////////////////////

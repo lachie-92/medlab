@@ -109,6 +109,23 @@ class PractitionerOnlyController extends Controller
         }
     }
 
+    public function redirect_cmi($productSlug, $language)
+    {
+        $productSlug = $productSlug->slug;
+        $file_path = "/nutraceuticals/products/" . $productSlug . "/info/" . $language;
+
+        return view('pages.nutraceuticals.cmi.index', compact('file_path'));
+    }
+
+    public function getProductCMI($productSlug, $language)
+    {
+        $productSlug = $productSlug->slug;
+        $cmiFilePath = 'cmi/' . $productSlug . '/' . $language . '.pdf';
+
+        return response()->download(storage_path($cmiFilePath), null, [], null);
+    }
+
+    /*
     public function redirect_cmi($product_slug, $language) {
 
         switch($product_slug) {
@@ -224,4 +241,5 @@ class PractitionerOnlyController extends Controller
                 return view('errors.404');
         }
     }
+    */
 }
