@@ -15,6 +15,7 @@
 
             <div class="col-md-6 col-sm-12 col-xs-12">
 
+                <a href="/research">
                 <div class="medlab_news_item">
                     <div class="medlab_news_item_content_wrapper">
                         <div class="medlab_news_item_title">
@@ -27,10 +28,12 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-md-6 col-sm-12 col-xs-12">
 
+                <a href="/research/medlab-cell-line">
                 <div class="medlab_news_item">
                     <div class="medlab_news_item_content_wrapper">
                         <div class="medlab_news_item_title">
@@ -43,10 +46,12 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-md-4 col-sm-12 col-xs-12">
 
+                <a href="/research/medlab-delivery-platform">
                 <div class="medlab_news_item">
                     <div class="medlab_news_item_content_wrapper">
                         <div class="medlab_news_item_title">
@@ -59,11 +64,12 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
 
             <div class="col-md-4 col-sm-12 col-xs-12">
-
+                <a href="/research/why-medlab">
                 <div class="medlab_news_item">
                     <div class="medlab_news_item_content_wrapper">
                         <div class="medlab_news_item_title">
@@ -76,10 +82,11 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-md-4 col-sm-12 col-xs-12">
-
+                <a href="/research/the-medlab-solution">
                 <div class="medlab_news_item">
                     <div class="medlab_news_item_content_wrapper">
                         <div class="medlab_news_item_title">
@@ -92,10 +99,11 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-md-6 col-sm-12 col-xs-12">
-
+                <a href="/research/patents">
                 <div class="medlab_news_item">
                     <div class="medlab_news_item_content_wrapper">
                         <div class="medlab_news_item_title">
@@ -106,10 +114,11 @@
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
 
             <div class="col-md-6 col-sm-12 col-xs-12">
-
+                <a href="/research/clinical-trails">
                 <div class="medlab_news_item">
                     <div class="medlab_news_item_content_wrapper">
                         <div class="medlab_news_item_title">
@@ -120,6 +129,7 @@
                         </div>
                     </div>
                 </div>
+                    </a>
             </div>
 
 

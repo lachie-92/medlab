@@ -63,6 +63,42 @@
                         </div>
 
 
+
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                        <div class="medlab_news_sidebar_item">
+                            <div class="medlab_news_item_content_wrapper">
+                                <div class="medlab_news_sidebar_item_title">
+                                    Past Medlab Efficacy Magazine's
+                                </div>
+                                <div class="medlab_news_sidebar_item_body">
+                                    <ul class="medlab_news_sidebar_list media-list">
+                                        <li class="medlab_news_sidebar_list_item">
+                                            <a href="#">
+                                                <div class="media-left media-middle">
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/news/EFFICACY Mag Web Banner 600x600 SEPT16 FINAL.jpg" target="_blank" >
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="medlab_news_sidebar_list_item_title">
+                                                        A Focus on the Gut-Brain Connection
+                                                    </div>
+                                                    <div class="medlab_news_sidebar_list_item_body">
+                                                        Issue 1: September - November 2016
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
                     <div class="col-md-4 col-sm-12 col-xs-12">
                         <div class="medlab_news_sidebar_item">
                             <div class="medlab_news_item_content_wrapper">
@@ -172,6 +208,9 @@
 
 
                     </div>
+
+
+
 
 
             </div>
