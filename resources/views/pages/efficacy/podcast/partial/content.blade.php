@@ -11,11 +11,38 @@
             -->
 
 
+            <div class="col-md-3">
 
-            <audio controls>
-                <source src="/img/podcast/boredtodeath.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
+                </div>
+
+
+            <div class="col-md-6 col-sm-12 col-xs-12">
+
+                    <div class="medlab_news_item">
+                        <div class="medlab_news_item_content_wrapper">
+                            <div class="medlab_news_item_title">
+                                Efficacy Podcast
+                            </div>
+                            <div class="medlab_news_item_body">
+                                <div class="media-middle media-middle">
+                                    <audio controls>
+                                        <source src="/img/podcast/medlabpodcast001.mp3" type="audio/mpeg">
+                                        Your browser does not support the audio element.
+                                    </audio>
+
+                                    <img width="100%"  alt="Microbiome" src="/img/efficacy/efficacy/Trust Your Gut-2.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-md-3">
+
+            </div>
+
+
+
 
 
 
