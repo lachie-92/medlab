@@ -61,7 +61,7 @@
                             <a href="/efficacy/magazine_sn16" target="_blank">
 
                                 <img alt="Medlab Efficacy Magazine Edition 1"
-                                     src="/img/news/EFFICACY Mag Web Banner 600x600 SEPT16 FINAL.jpg"
+                                     src="/img/efficacy/efficacy/yearinreview.jpg"
                                      title="Medlab Efficacy Magazine Edition 1"
                                      width="350px"
                                      class="img-responsive">

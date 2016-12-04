@@ -14,7 +14,7 @@
                     Medlab Efficacy Magazine Edition 1
                 </div>
                 <div class="panel-body medlab_panel_content">
-                    <iframe src="//cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ftpfgj99v&bgcolor=EEEEEE&t=1473635435" width="100%" height="900pz" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                    <iframe src="https://cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ftmyd8sac&bgcolor=EEEEEE&t=1480887805" width="100%" height="900pz" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                     <br><br>
                     <div class="container-fluid">
                         <div class="well well-sm" style="text-align: justify;">

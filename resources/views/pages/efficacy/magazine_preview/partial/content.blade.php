@@ -32,8 +32,8 @@
                                             target="_blank">
 
                                         <img alt="Medlab Efficacy Magazine Edition 1"
-                                             src="/img/news/EFFICACY Mag Web Banner 600x600 SEPT16 FINAL.jpg"
-                                             title="Medlab Efficacy Magazine Edition 1"
+                                             src="/img/efficacy/efficacy/yearinreview.jpg"
+                                             title="Medlab Efficacy Magazine Edition 2"
                                              width="450px"
                                              class="img-responsive center-block">
                                     </a>
@@ -41,12 +41,11 @@
 
                                 <h1 style="text-align:center;">Medlab's New Efficacy Magazine</h1>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
-                                <p style="text-align:center;">Issue 1: September - November 2016</p>
-                                <p style="text-align:center;">A Focus on the Gut-Brain Connection</p>
+                                <p style="text-align:center;">Issue 1: December 2016 – February 2017</p>
+                                <p style="text-align:center;">A year in review: Research Update</p>
                                 </br>
-                                <p style="text-align:center;">We welcome you to view our new online Efficacy Magazine – much larger in size than previous newsletters, this Issue incorporates articles from health care practitioners within our community and key authorities and researchers – Professor Luis Vitetta and Dr Matthew Bambling. You will also find Medlab's latest research and company updates included.</p>
-                                <p style="text-align:center;">Available exclusively online, we’ve also made the decision to move to an environmentally-friendly digital format. At Medlab Clinical, we pride ourseleves on being ethically responsible in everything we do, with Efficacy being no exception. This new digital format will also allow us to create more interactive content such as website and article links along with educational videos.</p>
-                                <p style="text-align:center;">Our new Efficacy Magazine is compatible with microsoft, android and apple computers, tablets and phones.</p>
+                                <p style="text-align:center;">Efficacy™ is designed to educate and update Practitioners with Medlab research developments, company progression and the latest industry advancements with a variety of contributing authors.</p>
+                                <p style="text-align:center;">Available exclusively online, Efficacy™ can now host a variety of interactive content in an environmentally-friendly format. Efficacy™ Magazine is compatible with Microsoft, android and apple computers, tablets and phones.</p>
                                 <p style="text-align:center;">Available to all healthcare practitioners when you <a href="/account/login">register or log in</a> today.</p>
 
 
