@@ -69,7 +69,7 @@
                             </a>
                         </p>
 
-                    <p>Medlab Efficacy Edition 1: September - November 2016</p>
+                    <p>Medlab Efficacy Edition 2: December 2016 - February 2017</p>
                     <p>Medlab's exclusive online magazine - <a href="/efficacy/magazine_sn16">view here</a></p>
 
 
