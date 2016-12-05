@@ -42,7 +42,7 @@
                                 </p>
                                 <h1 style="text-align:center;">Medlab's New Efficacy Magazine</h1>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
-                                <p style="text-align:center;">Issue 1: December 2016 – February 2017</p>
+                                <p style="text-align:center;">Issue 2: December 2016 – February 2017</p>
                                 <p style="text-align:center;">A year in review: Research Update</p>
                                 </br>
                                 <p style="text-align:center;">Efficacy™ is designed to educate and update Practitioners with Medlab research developments, company progression and the latest industry advancements with a variety of contributing authors.</p>
