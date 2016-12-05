@@ -11,7 +11,7 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Medlab Efficacy Magazine Edition 1
+                    Medlab Efficacy Magazine Edition 2
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <iframe src="https://cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ftmyd8sac&bgcolor=EEEEEE&t=1480887805" width="100%" height="900pz" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>
