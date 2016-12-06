@@ -23,7 +23,7 @@
                                 <p>
                                     <a
                                             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                            href="/efficacy/magazine_sn16"
+                                            href="/efficacy/magazine_df16"
                                             @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                             href="#"
                                             @else
