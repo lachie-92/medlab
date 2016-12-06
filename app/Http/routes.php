@@ -356,6 +356,10 @@ Route::group(['middleware' => 'authPractitioner'], function () {
         return view('pages.efficacy.magazine_sn16.index');
     });
 
+    Route::get('/efficacy/magazine_df16', function () {
+        return view('pages.efficacy.magazine_df16.index');
+    });
+
     Route::get('/efficacy/podcast', function () {
         return view('pages.efficacy.podcast.index');
     });

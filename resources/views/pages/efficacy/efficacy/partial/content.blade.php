@@ -25,7 +25,7 @@
                                 <p>
                                     <a
                                             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                            href="/efficacy/magazine_sn16"
+                                            href="/efficacy/magazine_df16"
                                             @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                             href="#"
                                             @else
@@ -68,7 +68,7 @@
                                 <div class="medlab_news_sidebar_item_body">
                                     <ul class="medlab_news_sidebar_list media-list">
                                         <li class="medlab_news_sidebar_list_item">
-                                            <a href="//cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ftpfgj99v&bgcolor=EEEEEE&t=1473635435">
+                                            <a href="/efficacy/magazine_sn16">
                                                 <div class="media-left media-middle">
                                                     <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/news/EFFICACY Mag Web Banner 600x600 SEPT16 FINAL.jpg" target="_blank" >
                                                 </div>
