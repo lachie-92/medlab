@@ -86,6 +86,21 @@
                 </div>
             </div>
 
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        Medlab's Holiday Opening Hours
+                    </div>
+                    <div class="medlab_news_item_body">
+
+                        <p>
+                            <img src="/img/news/medlab_seasonhours.jpg" alt="Microbiome" height="auto" width="100%"/>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
