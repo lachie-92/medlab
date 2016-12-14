@@ -124,9 +124,13 @@ class NutraceuticalsController extends Controller
             'q' => array('regex:/^([A-Z]|Show All)$/')
         ]);
 
-        $ingredientList = $this->createSortList(
-            ['A', 'B', 'C', 'L', 'M', 'P', 'S', 'Show All']
-        );
+        $ingredientList = $this->createSortList([
+            'A', 'B', 'C', 'D', 'E', 'F',
+            'G', 'H', 'I', 'J', 'K', 'L',
+            'M', 'N', 'O', 'P', 'Q', 'R',
+            'S', 'T', 'U', 'V', 'W', 'X',
+            'Y', 'Z', 'Show All'
+        ]);
 
         // If q not exits, default is Show All
         $searchLetter = $request->get('q', 'Show All');

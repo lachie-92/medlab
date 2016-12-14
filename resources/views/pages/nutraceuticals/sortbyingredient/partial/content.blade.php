@@ -63,7 +63,8 @@
                                                     <span class="medlab_product_info_price_box_price">
                                                         @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
                                                             <span class="medlab_product_info_price_box_label">
-                                                            Price:
+                                                                Price:
+                                                            </span>
                                                             <?php $active_discount_promotions = $product->promotions->where('isActive', 1)->filter(function($item){ return \Carbon\Carbon::now()->gte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->starting_date)) && \Carbon\Carbon::now()->lte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->end_date)); })->where('type', 'price_discount') ?>
                                                             @if(count($active_discount_promotions) == 1)
                                                                 <span style="text-decoration: line-through;">
