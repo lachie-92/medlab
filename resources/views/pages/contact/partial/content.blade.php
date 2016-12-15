@@ -95,6 +95,19 @@
         <div class="col-md-6 col-sm-12 col-xs-12">
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
+                    Medlab's Holiday Opening Hours
+                </div>
+                <div class="panel-body">
+                    <img src="/img/news/medlab_seasonhours.jpg" class="img-responsive center-block" alt="Season Opening Hours" height="auto" width="100%"/>
+                </div>
+            </div>
+        </div>
+        <!--
+        -- Google Map
+        -->
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="panel panel-primary medlab_panel">
+                <div class="panel-heading medlab_panel_title">
                     MAP
                 </div>
                 <div class="panel-body">
@@ -102,5 +115,6 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
