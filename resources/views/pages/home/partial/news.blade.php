@@ -94,7 +94,7 @@
                     <div class="medlab_news_item_body">
 
                         <p>
-                            <img src="/img/news/medlab_seasonhours.jpg" alt="Microbiome" height="auto" width="100%"/>
+                            <img src="/img/news/medlab_seasonhours.jpg" class="img-responsive center-block" alt="Season Opening Hours" height="auto" width="75%"/>
                         </p>
 
                     </div>
