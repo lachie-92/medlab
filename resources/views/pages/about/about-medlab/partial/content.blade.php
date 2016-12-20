@@ -23,7 +23,7 @@
                     </p>
                     <p>
                         There are <a class="medlab_panel_content_link" href="/research">5 core research programs</a>
-                        that are at various stages of investigation, Medlab Clinical research believe that the
+                        that are at various stages of investigation, Medlab Clinical researchers believe that the
                         company is at the forefront of new bio-therapeutic discoveries, and, as such posits to
                         progress its laboratory and clinical research that can bridge unmet needs in the ever
                         increasing global trends in chronic diseases.
