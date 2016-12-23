@@ -50,6 +50,9 @@ class PractitionerOnlyController extends Controller
             case "12mg-optima-relax-300g":
                 return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
                 break;
+            case "12mg-optima-relax-300g-lemon-lime":
+                return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
+                break;
             case "bioclean-epa-dha-coq10-60s":
                 return view('pages.education.practitioner-education.coenzyme-q10s-uqiquinol.index');
                 break;
