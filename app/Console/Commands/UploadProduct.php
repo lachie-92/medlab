@@ -24,12 +24,12 @@ class UploadProduct extends Command
         Model::unguard();
 
         Product::create([
-            'product_name_index' => '12Mg Optima Relax 300',
+            'product_name_index' => '12Mg Optima Relax 150g Citrus Tea',
             'austl_number' => '262421',
-            'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 300g',
+            'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea',
             'short_description' =>
                 '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 300g</h4>
+                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea</h4>
                     <p>
                         Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
@@ -301,41 +301,13 @@ class UploadProduct extends Command
                     ',
             'cmi' =>
                 '
-                        <p>
-                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/English.pdf" target="_blank">
+                    <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea/cmi/english" target="_blank">
                             Click Here For English CMI
                         </a>
-                        </p>
-                        <p>
-                            <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                            <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Arabic.pdf" target="_blank">الترجمة العربية </a>
-                        </p>
-                        <p>
-                            <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                            <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Spanish.pdf">Traducción en español</a>
-                        </p>
-                        <p>
-                            <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                            <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Russian.pdf" target="_blank">Перевод на русском языке</a>
-                        </p>
-                        <p>
-                            <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                            <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Japanese.pdf" target="_blank">日本語翻訳</a>
-                        </p>
-                        <p>
-                            <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                            <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/French.pdf" target="_blank">Traduction en français</a>
-                        </p>
-                        <p>
-                            <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                            <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Chinese.pdf" target="_blank">中文翻译</a>
-                        </p>
-                        <p>
-                        <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
-                        <a class="medlab_panel_content_link" href="https://s3.amazonaws.com/medlab-pdfs/Mg-Optima/Italian.pdf" target="_blank">Traduzione italiana</a>
-                        </p>
-                    ',
+                    </p>
+                ',
             'free_from' =>
                 '
                     <p class="medlab_product_content_sub_title">
@@ -348,11 +320,11 @@ class UploadProduct extends Command
                         No artificial colours, flavours or sweeteners
                     </p>
                     ',
-            'price_retail' => 71.98,
-            'price_wholesale' => 47.99,
-            'image_path' => '/img/products/12mg_optima/mg_optima_relax_300g.jpeg',
-            'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_300g.jpeg',
-            'slug' => '12mg-optima-relax-300g',
+            'price_retail' => 44.01,
+            'price_wholesale' => 29.32,
+            'image_path' => '/img/products/12mg_optima/mg_optima_relax_150g_citrus_tea.jpg',
+            'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_150g_citrus_tea.png',
+            'slug' => '12mg-optima-relax-150g-citrus-tea',
             'in_stock' => true,
         ]);
         

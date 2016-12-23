@@ -41,6 +41,12 @@ class PractitionerOnlyController extends Controller
             case "12mg-optima-relax-150g":
                 return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
                 break;
+            case "12mg-optima-relax-150g-lemon-lime":
+                return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
+                break;
+            case "12mg-optima-relax-150g-citrus-tea":
+                return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
+                break;
             case "12mg-optima-relax-300g":
                 return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
                 break;
