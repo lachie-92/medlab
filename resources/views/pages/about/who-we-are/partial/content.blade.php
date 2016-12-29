@@ -18,9 +18,8 @@
                         <strong>Medlab Clinical</strong>
                     </h3>
                     <p style="text-align: justify;">
-                        Medlab Clinical Ltd (Medlab) was formed by Sean Hall after he sold his family's companies
-                        <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">FIT-BioCeuticals Limited</a>
-                        and Hall Drug Technologies to <a class="medlab_panel_content_link" href="https://www.blackmores.com.au/">Blackmores Limited</a>
+                        Medlab Clinical Ltd (Medlab) was formed by Sean Hall after he sold his family's companies FIT-BioCeuticals Limited
+                        and Hall Drug Technologies to Blackmores Limited
                         on the first of July 2012.
                     </p>
                     <p style="text-align: justify;">

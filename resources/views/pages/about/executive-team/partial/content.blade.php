@@ -33,9 +33,8 @@
                     <p style="text-align: justify;">
                         Sean was a founder of <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">
                         FIT-BioCeuticals</a>. Under his management and guidance BioCeuticals became the most
-                        innovative, research driven, practitioner brand in Australia. For his sale of
-                        <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">FIT-BioCeuticals</a>
-                        to <a class="medlab_panel_content_link" href="https://www.blackmores.com.au/">Blackmores</a>
+                        innovative, research driven, practitioner brand in Australia. For his sale of FIT-BioCeuticals
+                        to Blackmores
                         in 2012, Sean was nominated as a finalist in the inaugural Australian Exit CEO of the Year
                         Award. Sean is a Board Member of the International Probiotics Association.
                     </p>
@@ -50,8 +49,7 @@
                     </p>
                     <p style="text-align: justify;">
                         Alan Dworkin is a chartered accountant with over 18 years experience in the tax, retail,
-                        resources and nutraceutical sectors. Alan was the CFO and Company Secretary of
-                        <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">FIT-Bioceuticals</a>
+                        resources and nutraceutical sectors. Alan was the CFO and Company Secretary of FIT-Bioceuticals
                         for over six years. Alan has also had experience in ASX listed companies within the resources
                         sector, most recently as Company Secretary of Uramet Minerals.
                     </p>
