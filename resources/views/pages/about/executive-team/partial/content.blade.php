@@ -31,8 +31,8 @@
                         strong commercialisation opportunities.
                     </p>
                     <p style="text-align: justify;">
-                        Sean was a founder of <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">
-                        FIT-BioCeuticals</a>. Under his management and guidance BioCeuticals became the most
+                        Sean was a founder of 
+                        FIT-BioCeuticals. Under his management and guidance BioCeuticals became the most
                         innovative, research driven, practitioner brand in Australia. For his sale of FIT-BioCeuticals
                         to Blackmores
                         in 2012, Sean was nominated as a finalist in the inaugural Australian Exit CEO of the Year
