@@ -86,20 +86,7 @@
                 </div>
             </div>
 
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        Medlab's Holiday Opening Hours
-                    </div>
-                    <div class="medlab_news_item_body">
 
-                        <p>
-                            <img src="/img/news/medlab_seasonhours.jpg" class="img-responsive center-block" alt="Season Opening Hours" height="auto" width="75%"/>
-                        </p>
-
-                    </div>
-                </div>
-            </div>
 
 
             <div class="medlab_news_item">
@@ -180,14 +167,14 @@
                 </div>
                 <div class="medlab_news_item_body">
                     <h2 class="medlab_news_content_title">
-                        ACNEM 7th Science of Nutrition in Medicine Conference
+                        Healthed Annual Women’s & Childrens Health 2017
                     </h2>
                     <p>
-                        <img src="/img/news/acnem2017.png" alt="Microbiome" height="auto" width="100%"/>
+                        <img src="/img/news/WCH17-banner.jpg" alt="Microbiome" height="auto" width="100%"/>
                     </p>
                     <p>
-                        When: 13th - 14th May 2017 </br>
-                        Where: The Pullman, Albert Park, Melbourne</br>
+                        When:  Saturday 18th February 2017 </br>
+                        Where: ICC Sydney Convention Centre, NSW</br>
                     </p>
 
 
@@ -402,10 +389,10 @@
                             <li class="medlab_news_sidebar_list_item">
                                 <a href="http://conference.acnem.org" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        ACNEM 7th Science of Nutrition in Medicine Conference</br>
+                                        Healthed Annual Women’s & Childrens Health 2017</br>
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%"  alt="ACNEM 2017" src="/img/news/acnem2017.png">
+                                        <img width="100%"  alt="ACNEM 2017" src="/img/news/WCH17-banner.jpg">
                                     </div>
                                 </a>
                             </li>
