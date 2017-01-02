@@ -16,48 +16,43 @@
             <li data-target="#medlab-carousel" data-slide-to="6"></li>
             <li data-target="#medlab-carousel" data-slide-to="7"></li>
             <li data-target="#medlab-carousel" data-slide-to="8"></li>
-            <li data-target="#medlab-carousel" data-slide-to="9"></li>
         </ol>
 
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="medlab_carousel_image" src="/img/carousel/christmas2017_banner.jpg" alt="1">
+                <img class="medlab_carousel_image" src="/img/carousel/manuka-c.jpg" alt="1">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/manuka-c.jpg" alt="2">
+                <img class="medlab_carousel_image" src="/img/carousel/NOS.jpg" alt="2">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/NOS.jpg" alt="3">
+                <img class="medlab_carousel_image" src="/img/carousel/MgOptimaRelax.jpg" alt="3">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/MgOptimaRelax.jpg" alt="4">
+                <img class="medlab_carousel_image" src="/img/carousel/W8Biotic.jpg" alt="4">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/W8Biotic.jpg" alt="5">
+                <img class="medlab_carousel_image" src="/img/carousel/immune-5.jpg" alt="5">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/immune-5.jpg" alt="6">
+                <img class="medlab_carousel_image" src="/img/carousel/5.jpg" alt="6">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/5.jpg" alt="7">
+                <img class="medlab_carousel_image" src="/img/carousel/6.jpg" alt="7">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/6.jpg" alt="8">
+                <img class="medlab_carousel_image" src="/img/carousel/7.jpg" alt="8">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/7.jpg" alt="9">
-                <div class="carousel-caption"></div>
-            </div>
-            <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/8.jpg" alt="10">
+                <img class="medlab_carousel_image" src="/img/carousel/8.jpg" alt="9">
                 <div class="carousel-caption"></div>
             </div>
         </div>
