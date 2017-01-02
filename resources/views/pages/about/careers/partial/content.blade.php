@@ -22,7 +22,6 @@
                     <hr>
                     <h4>Positions Available</h4>
                     <a href="#DigitalMarketingCoordinator">Digital Marketing Coordinator</a></br>
-                    <a href="#ClientRelationshipManager">Client Relationship Manager</a></br>
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
 
 
@@ -80,7 +79,7 @@
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Digital Marketing Coordinator">recruit@medlab.co</a></p>
                     <hr>
 
-
+<!--
                     <a name="ClientRelationshipManager"></a>
                     <h3>Client Relationship Manager</h3>
                     <li>Client Relationship Manager</li>
@@ -123,7 +122,7 @@
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Client Relationship Manager">recruit@medlab.co</a></p>
                     <hr>
-
+-->
 
                     <a name="ClientRelationshipConsultant"></a>
                     <h3>Client Relationship Consultant</h3>
