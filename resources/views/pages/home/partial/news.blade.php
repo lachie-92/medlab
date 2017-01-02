@@ -387,7 +387,7 @@
 
 
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="http://conference.acnem.org" target="_blank">
+                                <a href="http://www.healthed.com.au/seminars/swh17/" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
                                         Healthed Annual Women’s & Childrens Health 2017</br>
                                     </div>
