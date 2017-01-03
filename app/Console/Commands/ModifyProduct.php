@@ -92,19 +92,19 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Help reduce effects of mild anxiety and nervous tension. [Warning S required]</li>
-                            <li>For the symptomatic relief of stress disorders. [Warning S required]</li>
-                            <li>May assist in the management of stress disorders. [Warning S required]</li>
-                            <li>Beneficial during times of stress. [Warning S required]</li>
-                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. [Warning S required]</li>
+                            <li>Help reduce effects of mild anxiety and nervous tension.</li>
+                            <li>For the symptomatic relief of stress disorders.</li>
+                            <li>May assist in the management of stress disorders.</li>
+                            <li>Beneficial during times of stress.</li>
+                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress.</li>
                             <li>Non-vitamin active ingredients may improve stress adaptation.</li>
-                            <li>Herbal blend which helps relieve stress of study or work. [Warning S required]</li>
+                            <li>Herbal blend which helps relieve stress of study or work.</li>
                             <li>May help reduce the frequency of migraines.</li>
-                            <li>Helps relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
-                            <li>Relief of muscular aches and pains. [Warning S required]</li>
-                            <li>May assist in the management of anxiety. [Warning S required]</li>
-                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
-                            <li>For the symptomatic relief of anxiety. [Warning S required]</li>
+                            <li>Helps relieve nervous tension, stress and mild anxiety.</li>
+                            <li>Relief of muscular aches and pains.</li>
+                            <li>May assist in the management of anxiety.</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety.</li>
+                            <li>For the symptomatic relief of anxiety.</li>
                         </ul>
                     </p>
 
@@ -396,19 +396,19 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Help reduce effects of mild anxiety and nervous tension. [Warning S required]</li>
-                            <li>For the symptomatic relief of stress disorders. [Warning S required]</li>
-                            <li>May assist in the management of stress disorders. [Warning S required]</li>
-                            <li>Beneficial during times of stress. [Warning S required]</li>
-                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. [Warning S required]</li>
+                            <li>Help reduce effects of mild anxiety and nervous tension.</li>
+                            <li>For the symptomatic relief of stress disorders.</li>
+                            <li>May assist in the management of stress disorders.</li>
+                            <li>Beneficial during times of stress.</li>
+                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress.</li>
                             <li>Non-vitamin active ingredients may improve stress adaptation.</li>
-                            <li>Herbal blend which helps relieve stress of study or work. [Warning S required]</li>
+                            <li>Herbal blend which helps relieve stress of study or work.</li>
                             <li>May help reduce the frequency of migraines.</li>
-                            <li>Helps relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
-                            <li>Relief of muscular aches and pains. [Warning S required]</li>
-                            <li>May assist in the management of anxiety. [Warning S required]</li>
-                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
-                            <li>For the symptomatic relief of anxiety. [Warning S required]</li>
+                            <li>Helps relieve nervous tension, stress and mild anxiety.</li>
+                            <li>Relief of muscular aches and pains.</li>
+                            <li>May assist in the management of anxiety.</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety.</li>
+                            <li>For the symptomatic relief of anxiety.</li>
                         </ul>
                     </p>
 
@@ -727,19 +727,19 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Help reduce effects of mild anxiety and nervous tension. [Warning S required]</li>
-                            <li>For the symptomatic relief of stress disorders. [Warning S required]</li>
-                            <li>May assist in the management of stress disorders. [Warning S required]</li>
-                            <li>Beneficial during times of stress. [Warning S required]</li>
-                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. [Warning S required]</li>
+                            <li>Help reduce effects of mild anxiety and nervous tension.</li>
+                            <li>For the symptomatic relief of stress disorders.</li>
+                            <li>May assist in the management of stress disorders.</li>
+                            <li>Beneficial during times of stress.</li>
+                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress.</li>
                             <li>Non-vitamin active ingredients may improve stress adaptation.</li>
-                            <li>Herbal blend which helps relieve stress of study or work. [Warning S required]</li>
+                            <li>Herbal blend which helps relieve stress of study or work.</li>
                             <li>May help reduce the frequency of migraines.</li>
-                            <li>Helps relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
-                            <li>Relief of muscular aches and pains. [Warning S required]</li>
-                            <li>May assist in the management of anxiety. [Warning S required]</li>
-                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
-                            <li>For the symptomatic relief of anxiety. [Warning S required]</li>
+                            <li>Helps relieve nervous tension, stress and mild anxiety.</li>
+                            <li>Relief of muscular aches and pains.</li>
+                            <li>May assist in the management of anxiety.</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety.</li>
+                            <li>For the symptomatic relief of anxiety.</li>
                         </ul>
                     </p>
 
@@ -2128,11 +2128,11 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
-                        <li>Relief of the symptoms of eczema. [Warning S required]</li>
-                        <li>May assist in the management of allergies. [Warning S required]</li>
+                        <li>Relief of the symptoms of eczema.</li>
+                        <li>May assist in the management of allergies.</li>
                         <li>Helps maintain healthy digestive function.</li>
-                        <li>May assist in the management of eczema. [Warning S required]</li>
-                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>May assist in the management of eczema.</li>
+                        <li>Relief or treatment of diarrhoea.</li>
 
                     </ul>
                 </p>
@@ -2459,11 +2459,11 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
-                        <li>May assist in the management of allergies. [Warning S required]</li>
+                        <li>Relief or treatment of diarrhoea.</li>
+                        <li>May assist in the management of allergies.</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being. </li>
-                        <li>Treatment of mild digestive disorders. [Warning S required]</li>
-                        <li>May assist in the management of eczema. [Warning S required]</li>
+                        <li>Treatment of mild digestive disorders.</li>
+                        <li>May assist in the management of eczema.</li>
                         <li>Aids digestion. </li>
 
                     </ul>
@@ -3051,7 +3051,7 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>Relief or treatment of diarrhoea.</li>
                         <li>May assist in the management of medically diagnosed irritable bowel syndrome </li>
                         <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
                         <li>Helps maintain healthy digestive function.</li>
@@ -3315,11 +3315,11 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Treatment of symptoms of mild infections of upper respiratory tract. [Warnings S and COLD required]</li>
-                        <li>For the symptomatic relief of recurrent upper respiratory tract infections. [Warnings S and COLD required]</li>
-                        <li>Relief of symptoms of mild upper respiratory infections. [Warnings S and COLD required]</li>
-                        <li>For the symptomatic relief of upper respiratory tract infections. [Warnings S and COLD required]</li>
-                        <li>May assist in the management of upper respiratory tract infections. [Warnings S and COLD required]</li>
+                        <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
+                        <li>For the symptomatic relief of recurrent upper respiratory tract infections.</li>
+                        <li>Relief of symptoms of mild upper respiratory infections.</li>
+                        <li>For the symptomatic relief of upper respiratory tract infections.</li>
+                        <li>May assist in the management of upper respiratory tract infections.</li>
                     </ul>
                 </p>
                 
@@ -3660,11 +3660,11 @@ class ModifyProduct extends Command
 
                 <p>
                     <ul>
-                        <li>Treatment of symptoms of mild infections of upper respiratory tract. [Warnings S and COLD required]</li>
-                        <li>For the symptomatic relief of recurrent upper respiratory tract infections. [Warnings S and COLD required]</li>
-                        <li>Relief of symptoms of mild upper respiratory infections. [Warnings S and COLD required]</li>
-                        <li>For the symptomatic relief of upper respiratory tract infections. [Warnings S and COLD required]</li>
-                        <li>May assist in the management of upper respiratory tract infections. [Warnings S and COLD required]</li>
+                        <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
+                        <li>For the symptomatic relief of recurrent upper respiratory tract infections.</li>
+                        <li>Relief of symptoms of mild upper respiratory infections.</li>
+                        <li>For the symptomatic relief of upper respiratory tract infections.</li>
+                        <li>May assist in the management of upper respiratory tract infections.</li>
                     </ul>
                 </p>
 
@@ -4006,12 +4006,12 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relief of symptoms of mild upper respiratory infections. [Warnings S and COLD required]  </li>
+                        <li>Relief of symptoms of mild upper respiratory infections.  </li>
                         <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
                         <li>Helps maintain healthy digestive function. </li>
                         <li>May assist in the management of medically diagnosed irritable bowel syndrome</li>
-                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>Relief or treatment of diarrhoea.</li>
                         <li>Aids digestion.</li>
                         <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
                         
@@ -4316,12 +4316,12 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relief of symptoms of mild upper respiratory infections. [Warnings S and COLD required]  </li>
+                        <li>Relief of symptoms of mild upper respiratory infections.  </li>
                         <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
                         <li>Helps maintain healthy digestive function. </li>
                         <li>May assist in the management of medically diagnosed irritable bowel syndrome</li>
-                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>Relief or treatment of diarrhoea.</li>
                         <li>Aids digestion.</li>
                         <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
                         
@@ -6164,7 +6164,7 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
-                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>Relief or treatment of diarrhoea.</li>
                     </ul>
                 </p>
                 
@@ -6543,11 +6543,11 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>May assist in the management of medically diagnosed irritable bowel syndrome.</li>
-                        <li>Treatment of mild digestive disorders. [Warning S required]</li>
+                        <li>Treatment of mild digestive disorders.</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
                         <li>Aids digestion.</li>
                         <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
-                        <li>Relief or treatment of diarrhoea. [Warning DIAR required]</li>
+                        <li>Relief or treatment of diarrhoea.</li>
                         <li>Helps maintain healthy digestive function.</li>
                     </ul>
                 </p>
@@ -6799,7 +6799,7 @@ class ModifyProduct extends Command
                         <li>May help enhance/improve/promote/increase energy levels.</li>
                         <li>May assist in the maintenance of normal healthy blood sugar/glucose balance in healthy individuals.</li>
                         <li>May assist in the maintenance of normal healthy blood sugar/glucose levels in healthy individuals.</li>
-                        <li>Treatment of mild digestive disorders. [Warning S required]</li>
+                        <li>Treatment of mild digestive disorders.</li>
                         <li>Helps maintain healthy digestive function.</li>
                     </ul>
                 </p>
@@ -7076,7 +7076,7 @@ class ModifyProduct extends Command
                         <li>May help enhance/improve/promote/increase energy levels.</li>
                         <li>May assist in the maintenance of normal healthy blood sugar/glucose balance in healthy individuals.</li>
                         <li>May assist in the maintenance of normal healthy blood sugar/glucose levels in healthy individuals.</li>
-                        <li>Treatment of mild digestive disorders. [Warning S required]</li>
+                        <li>Treatment of mild digestive disorders.</li>
                         <li>Helps maintain healthy digestive function.</li>
                     </ul>
                 </p>
