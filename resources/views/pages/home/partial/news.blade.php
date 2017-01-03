@@ -96,40 +96,33 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <img src="/img/products/nanocelle_d3k2/nanocelle_d3k2_thumb.png" alt="NanoCelle D3 + K2 Featured product" height="150" width="auto" style="float: right;"/>
+                        <img src="/img/products/12mg_optima/mg_optima_relax_150g_citrus_tea.jpg" alt="Mg Optima™ Relax Featured product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/nanocelle-d3-k2" class="medlab_news_content_link">
-                                New - NanoCelle D3 + K2
+                            <a href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea" class="medlab_news_content_link">
+                                New Flavour ‘Citrus Tea’ - <sup>12</sup>Mg Optima™ Relax
                             </a>
                         </h2>
                         <p class="medlab_news_content_paragraph" style="text-align: justify">
-                            NanoCelle™ D3 + K2 is developed from patent-protected nanocellization technology that produces
-                            Vitamin D3 and Vitamin K2 submicron nanoparticles that are easily absorbed across the oral
-                            mucosal epithelia. NanoCelle™ D3 + K2 is indicated to sustain mineral homeostasis facilitating
-                            optimal immune function, cardiovascular health and bone metabolism, and to assist in the
-                            management of medically diagnosed vitamin D deficiency.
+                            <sup>12</sup>Mg Optima™ Relax contains evidenced-based ingredients to support the natural metabolic pathways
+                            for gamma-aminobutyric acid (GABA) production and activity, indicated to promote relaxation during times of stress.
                         </p>
                         <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/nanocelle-d3-k2" class="medlab_news_content_link">More Information</a>
+                            <a href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea" class="medlab_news_content_link">More Information</a>
                         </p>
 
 
-                        <img src='/img/products/immune-5/Immune-5-vanilla_thumb.png' alt="Immune-5 product" height="150" width="auto" style="float: right;"/>
+                        <img src='/img/products/orsbiotic/orsbiotic.png' alt="ORSBiotic product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/immune-5-vanilla" class="medlab_news_content_link">
-                                New - Immune-5™ Vanilla or Raspberry
+                            <a href="/nutraceuticals/products/orsbiotic" class="medlab_news_content_link">
+                                Rehydrate with ORSBiotic™
                             </a>
                         </h2>
                         <p class="medlab_news_content_paragraph" style="text-align: justify">
-                            Immune-5™ is a scientifically-based comprehensive formula containing two specific probiotic
-                            species shown to assist with immune function and may assist with upper respiratory tract
-                            infections. ResistAid™ is a prebiotic soluble fibre while Lactoferrin is a naturally occurring
-                            protein found in the body with broad spectrum anti-microbial and anti-viral activity.
-                            Colostrum provides important innate immune supporting proteins including the antibody IgG
-                            that both activates and modulates the body defence processes.
+                            ORSBiotic™ is an Oral Rehydration Solution to replace fluids lost due to vomiting, diarrhoea and strenuous physical activity,
+                            providing essential electrolytes together with selected probiotic species to provide therapeutic support for various triggers of diarrhoea and associated symptoms.
                         </p>
                         <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/immune-5-vanilla" class="medlab_news_content_link">More Information</a>
+                            <a href="/nutraceuticals/products/orsbiotic" class="medlab_news_content_link">More Information</a>
                         </p>
                         
 
