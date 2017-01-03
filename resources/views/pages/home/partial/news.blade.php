@@ -99,7 +99,7 @@
                         <img src="/img/products/12mg_optima/mg_optima_relax_150g_citrus_tea.jpg" alt="Mg Optima™ Relax Featured product" height="150" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
                             <a href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea" class="medlab_news_content_link">
-                                New Flavour ‘Citrus Tea’ - <sup>12</sup>Mg Optima™ Relax
+                                New Flavour ‘Citrus Tea’ - <sup>12</sup>Mg Optima™ Relax 150g
                             </a>
                         </h2>
                         <p class="medlab_news_content_paragraph" style="text-align: justify">
