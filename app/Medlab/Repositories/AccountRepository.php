@@ -39,6 +39,18 @@ class AccountRepository implements AccountRepositoryInterface
     }
 
     /**
+     * Update the password for the given user
+     *
+     * @param $request
+     * @param $user
+     */
+    public function updateUserPassword($request, $user)
+    {
+        $user->password = bcrypt($request->new_password);
+        $user->save();
+    }
+
+    /**
      * Update the news letter status for the given user
      *
      * @param $request

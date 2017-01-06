@@ -76,6 +76,8 @@ Route::get('/account/edit', 'AccountController@getEdit');
 
 Route::post('/account/edit/email', 'AccountController@postEmail');
 
+Route::post('/account/edit/password', 'AccountController@postPassword');
+
 Route::post('/account/edit/newsletter', 'AccountController@postNewsletter');
 
 Route::post('/account/edit/address', 'AccountController@postAddress');

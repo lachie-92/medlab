@@ -29,7 +29,7 @@ class GuestCreatePatientRegistrationRequest extends Request
             'email' => 'required|email|max:255|unique:users',
             'first_name' => 'required|max:30',
             'last_name' => 'required|max:30',
-            'password' => 'required|confirmed|min:6',
+            'password' => 'required|confirmed|min:6|max:255',
             'street_address_one' => 'required|max:50',
             'street_address_two' => 'required|max:50',
             'state' => 'required|validState|max:30',

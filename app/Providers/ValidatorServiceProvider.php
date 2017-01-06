@@ -15,6 +15,9 @@ class ValidatorServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        Validator::extend('validMatchUserPassword', 'App\Medlab\Validators\AccountValidator@validMatchUserPassword');
+        Validator::replacer('validMatchUserPassword', 'App\Medlab\Validators\AccountValidator@validMatchUserPasswordError');
+
         Validator::extend('validState', 'App\Medlab\Validators\AddressValidator@validState');
         Validator::replacer('validState', 'App\Medlab\Validators\AddressValidator@validStateError');
 

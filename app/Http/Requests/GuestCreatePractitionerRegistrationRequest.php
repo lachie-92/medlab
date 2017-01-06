@@ -29,7 +29,7 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'email' => 'required|email|max:255|unique:users',
             'first_name' => 'required|max:30',
             'last_name' => 'required|max:30',
-            'password' => 'required|confirmed|min:6',
+            'password' => 'required|confirmed|min:6|max:255',
             'clinic_name' => 'required:max:50',
             'business_type' => 'required|validBusinessType',
             'business_number' => 'required|numeric',

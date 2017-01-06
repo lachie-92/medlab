@@ -383,4 +383,22 @@ class MedlabMailer
                 ->subject('Medlab - Received a CommWeb Receipt with Error');
         });
     }
+
+    public function sendNotificationToAdmin($title, $message, $data = '')
+    {
+        $from = $this->adminEmailAddress;
+        $to = $this->adminEmailAddress;
+
+        $data = array();
+        $data['data'] = serialize($data);
+        $data['body'] = $message;
+        $data['title'] = $title;
+
+        $this->mail->queue('emails.admin_notification', $data, function($messageToSend) use ($from, $to, $title) {
+
+            $messageToSend->from($from)
+                ->to($to)
+                ->subject($title);
+        });
+    }
 }

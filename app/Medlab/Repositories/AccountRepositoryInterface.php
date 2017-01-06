@@ -9,6 +9,7 @@ interface AccountRepositoryInterface
     //
     public function getLatestOrdersForUser($user);
     public function updateUserEmail($request, $user);
+    public function updateUserPassword($request, $user);
     public function updateUserNewsLetter($request, $user);
     public function updateUserAddress($request, $user);
     public function getOrderListForCurrentUser();

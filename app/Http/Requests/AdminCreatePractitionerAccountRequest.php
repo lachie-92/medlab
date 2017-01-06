@@ -47,7 +47,7 @@ class AdminCreatePractitionerAccountRequest extends Request
             'first_name' => 'required|max:30',
             'last_name' => 'required|max:30',
             'change_password' => 'boolean',
-            'password' => 'confirmed|min:6',
+            'password' => 'confirmed|min:6|max:255',
             'association_number' => array('required','regex:/^[0-9]+$/', 'max:20'),
             'association_type' => 'required|max:50',
             'telephone' => array('required','regex:/^[0-9 ]+$/', 'max:20'),

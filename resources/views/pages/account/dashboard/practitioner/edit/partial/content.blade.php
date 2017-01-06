@@ -216,6 +216,45 @@
                             </div>
 
                             <!--
+                            -- Password Box
+                            -->
+                            <div class="col-md-12 col-sm-12">
+                                <div class="well" style="background-color: transparent; background-image: none">
+                                    <form class="form-horizontal" role="form" method="POST" action="/account/edit/password">
+                                        <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                                        <div class="row">
+                                            <h4 class="medlab_dashboard_info_section_title">Change Password</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Current Password</th></tr>
+                                                    <tr><td><input type="password" class="form-control" name="password" placeholder="Password"></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">New Password</th></tr>
+                                                    <tr><td><input type="password" class="form-control" name="new_password" placeholder="New Password"></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Confirm New Password</th></tr>
+                                                    <tr><td><input type="password" class="form-control" name="new_password_confirmation" placeholder="New Password"></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <button id="address_update_btn" class="btn btn-default btn-block" type="submit" style="margin-top: 20px">
+                                            Change Password
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <!--
                             -- Edit Address Box
                             -->
                             <?php $customer_address = $user->customer->customer_addresses->where('type', 'Account')->first(); ?>
@@ -321,7 +360,7 @@
                                             </div>
                                         </div>
                                         <button id="address_update_btn" class="btn btn-default btn-block" type="submit" style="margin-top: 20px">
-                                            Update
+                                            Update Address
                                         </button>
                                     </form>
                                 </div>

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\CustomerAddressUpdateRequest;
 use App\Http\Requests\OrderViewDetailsRequest;
+use App\Medlab\Mailer\MedlabMailer;
 use App\Medlab\Repositories\AccountRepositoryInterface;
 use Illuminate\Http\Request;
 use App\Http\Requests;
@@ -100,6 +101,30 @@ class AccountController extends Controller
         $this->repository->updateUserEmail($request, $user);
 
         return redirect('/account/edit')->with(['message' => 'Email has been updated']);
+    }
+
+    /**
+     * Update the password for the current user
+     *
+     * @param Request $request
+     * @param MedlabMailer $mailer
+     * @return \Illuminate\Http\RedirectResponse
+     */
+    public function postPassword(Request $request, MedlabMailer $mailer)
+    {
+        $this->validate($request, [
+            'password' => 'required|max:255|validMatchUserPassword',
+            'new_password' => 'required|confirmed|min:6|max:255'
+        ]);
+
+        $user = $this->user;
+        $this->repository->updateUserPassword($request, $user);
+
+        $title = 'Medlab - A User has changed his Password';
+        $message = $user->email . ' has changed his Password from account dashboard.';
+        $mailer->sendNotificationToAdmin($title, $message);
+
+        return redirect('/account/edit')->with(['message' => 'Password has been updated']);
     }
 
     /**
