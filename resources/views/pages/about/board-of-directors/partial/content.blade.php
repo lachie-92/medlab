@@ -34,12 +34,11 @@
                         Michael has a long history in the management and building of successful nutritional companies.
                         He sold Bioglan Limited to AusPharm Limited (1980s), built HealthComm USA with Dr Jeffrey
                         Bland, relaunched VitaPlex Pty Ltd then sold to Health Minders Limited, built PharmaFoods
-                        Pty Ltd and sold it to <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">FIT-BioCeuticals Limited</a>.
+                        Pty Ltd and sold it to FIT-BioCeuticals Limited.
                     </p>
                     <p style="text-align: justify;">
-                        Together with Sean Hall, Michael sold <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">FIT-BioCeuticals Limited</a>
-                        to <a class="medlab_panel_content_link" href="https://www.blackmores.com.au/">Blackmores</a>
-                        Limited in 2012.
+                        Together with Sean Hall, Michael sold FIT-BioCeuticals Limited
+                        to Blackmores Limited in 2012.
                     </p>
                     <h3 style="text-align: justify;">
                         <strong>Sean Hall</strong>
@@ -60,12 +59,10 @@
                         passion is leading his researchers into novel areas and strong commercialisation opportunities.
                     </p>
                     <p style="text-align: justify;">
-                        Sean was a founder of <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">FIT-BioCeuticals</a>.
-                        Under his management and guidance <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">BioCeuticals</a>
+                        Sean was a founder of FIT-BioCeuticals.
+                        Under his management and guidance BioCeuticals
                         became the most innovative, research driven, practitioner brand in Australia. For his sale of
-                        <a class="medlab_panel_content_link" href="https://www.bioceuticals.com.au/">FIT-BioCeuticals</a>
-                        to <a class="medlab_panel_content_link" href="https://www.blackmores.com.au/">Blackmores</a> in
-                        2012, Sean was a finalist in the inaugural Australian Exit CEO of the Year Award. Sean is a
+                        FIT-BioCeuticals to Blackmores in 2012, Sean was a finalist in the inaugural Australian Exit CEO of the Year Award. Sean is a
                         Board Member of the International Probiotics Association (IPA).
                     </p>
                     <h3 style="text-align: justify;">
