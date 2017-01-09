@@ -58,7 +58,7 @@
 
 
                         <p>
-                            <a href="/efficacy/magazine_sn16" target="_blank">
+                            <a href="/efficacy/magazine_df16" target="_blank">
 
                                 <img alt="Medlab Efficacy Magazine Edition 1"
                                      src="/img/efficacy/efficacy/yearinreview.jpg"

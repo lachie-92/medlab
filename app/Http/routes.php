@@ -103,8 +103,11 @@ Route::get('/nutraceuticals/categories/{categorySlug}', 'NutraceuticalsControlle
 
 Route::get('/nutraceuticals/ingredients', 'NutraceuticalsController@ingredients');
 
-Route::get('/nutraceuticals/faq', 'NutraceuticalsController@faq');
+Route::group(['middleware' => 'authPractitioner'], function () {
 
+    Route::get('/nutraceuticals/praceducationalresource', 'NutraceuticalsController@faq');
+
+});
 
 ///////////////////////////////////////////////////////////////////////////////////
 //

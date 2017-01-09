@@ -124,7 +124,7 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/products">Name</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/categories">Categories</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/ingredients">Ingredients</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/faq">Product FAQ</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/praceducationalresource">Practitioner Educational Resource</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

@@ -62,6 +62,21 @@
                     </div>
                 </div>
             </div>
+            <!--
+            --  Product Manual
+            -->
+            <div class="col-md-12 col-sm-6 col-xs-6">
+                <div class="panel panel-primary medlab_panel medlab_product_list_side_bar_panel">
+                    <div class="panel-body medlab_panel_content medlab_product_list_side_bar_panel_content">
+                        <div class="medlab_product_list_side_bar_content_title">
+                            PRACTITIONER EDUCATIONAL RESOURCE
+                            <a href="/nutraceuticals/faq">
+                            <img width="100%" src="/img/products/shippingandpayment/praceducationresource.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
