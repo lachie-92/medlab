@@ -383,7 +383,7 @@
                                 <a href="http://www.healthed.com.au/seminars/swh17/" target="_blank">
 
                                     <div class="media-left media-middle">
-                                        <a href="/nutraceuticals/practitionereducation">
+                                        <a href="/nutraceuticals/praceducationalresource">
                                             <img width="100%" src="/img/products/shippingandpayment/praceducationresource.png">
                                         </a>
                                     </div>
