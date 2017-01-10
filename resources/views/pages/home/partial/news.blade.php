@@ -372,6 +372,33 @@
             <div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_sidebar_item_title">
+                        Practitioner Educational Resource
+                    </div>
+                    <div class="medlab_news_sidebar_item_body">
+                        <ul class="medlab_news_sidebar_list media-list">
+
+
+
+                            <li class="medlab_news_sidebar_list_item">
+                                <a href="http://www.healthed.com.au/seminars/swh17/" target="_blank">
+
+                                    <div class="media-left media-middle">
+                                        <a href="/nutraceuticals/practitionereducation">
+                                            <img width="100%" src="/img/products/shippingandpayment/praceducationresource.png">
+                                        </a>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="medlab_news_sidebar_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_sidebar_item_title">
                         UPCOMING CONFERENCES
                     </div>
                     <div class="medlab_news_sidebar_item_body">

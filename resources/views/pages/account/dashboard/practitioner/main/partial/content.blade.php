@@ -51,10 +51,16 @@
             -- Efficacy magazine
             -->
             <div class="panel panel-primary medlab_panel">
+
+
+
+
                 <div class="panel-heading medlab_panel_title">
-                    Efficacy Magazine
+                    Medlab Resources
                 </div>
                 <div class="panel-body">
+
+                    <div class="col-md-6 col-sm-6 col-xm-12">
 
 
                         <p>
@@ -69,8 +75,32 @@
                             </a>
                         </p>
 
-                    <p>Medlab Efficacy Edition 2: December 2016 - February 2017</p>
-                    <p>Medlab's exclusive online magazine - <a href="/efficacy/magazine_sn16">view here</a></p>
+                        <p>Medlab Efficacy Edition 2: December 2016 - February 2017</p>
+                        <p>Medlab's exclusive online magazine - <a href="/efficacy/magazine_sn16">view here</a></p>
+
+
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xm-12">
+
+
+                        <p>
+                            <a href="/nutraceuticals/praceducationalresource" target="_blank">
+
+                                <img alt="Practitioner Educational Resource"
+                                     src="/img/news/praceducation.png"
+                                     title="Practitioner Educational Resource"
+                                     width="350px"
+                                     class="img-responsive">
+
+                            </a>
+                        </p>
+
+                        <p>Medlab's Practitioner Educational Resource</p>
+                        <p>Available to all healthcare practitioners - <a href="/nutraceuticals/praceducationalresource">view here</a></p>
+
+
+
+                    </div>
 
 
             </div>
