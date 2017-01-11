@@ -152,7 +152,7 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner (or words to that effect).
+                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
                     </p>
                 ',
                 'references' =>
@@ -456,7 +456,7 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner (or words to that effect).
+                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
                     </p>
                 ',
                 'references' =>
@@ -787,7 +787,7 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner (or words to that effect).
+                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
                     </p>
                 ',
                 'references' =>
@@ -1107,7 +1107,7 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Do not take while on warfarin therapy without medical advice.  If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
+                            <li>Do not take while on warfarin therapy without medical advice.  If symptoms persist consult your healthcare practitioner.</li>
                         </ul>
                     </p>
                 ",
@@ -1387,7 +1387,7 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Do not take while on warfarin therapy without medical advice.  If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
+                            <li>Do not take while on warfarin therapy without medical advice.  If symptoms persist consult your healthcare practitioner.</li>
                         </ul>
                     </p>
                 ",
@@ -1659,7 +1659,7 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Not recommended for use by pregnant and lactating women (or words to that effect). There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
+                            <li>Not recommended for use by pregnant and lactating women. There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
                         </ul>
                     </p>
                 ",
@@ -1916,7 +1916,7 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Not recommended for use by pregnant and lactating women (or words to that effect). There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
+                            <li>Not recommended for use by pregnant and lactating women. There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
                         </ul>
                     </p>
                 ",
@@ -2167,8 +2167,8 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect). If diarrhoea persists, seek medical advice</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).</li>
+                    <li>If symptoms persist consult your healthcare practitioner. If diarrhoea persists, seek medical advice</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
                     <li>Derived from cows milk
 
                 </p>
@@ -2507,7 +2507,7 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>
+                    <li>If symptoms persist consult your healthcare practitioner.</li>
                     <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
                     <li>Derived from cows milk
 
@@ -2785,7 +2785,7 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>        
+                    <li>If symptoms persist consult your healthcare practitioner.</li>
 
                 </p>
 
@@ -3093,7 +3093,7 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect)</li>
+                    <li>If symptoms persist consult your healthcare practitioner.</li>
                     <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
                     <li>Derived from cows milk
                 </p>
@@ -3368,11 +3368,11 @@ class ModifyProduct extends Command
                 <p>
                     <li>(If medicine contains one sugar) contains [insert name of sugar] OR (If medicine contains two or more sugars) Contains sugars [or words to that effect].</li>
                     <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
-                    <li>Not recommended for use by pregnant and lactating women (or words to that effect).</li>
-                    <li>Adults only (or words to that effect).</li>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
-                    <li>Not suitable for infants under the age of twelve months (or words to that effect).</li>
-                    <li>Adults only. OR Not to be used in children under two years of age without medical advice (or words to that effect). </li>
+                    <li>Not recommended for use by pregnant and lactating women.</li>
+                    <li>Adults only.</li>
+                    <li>If symptoms persist consult your healthcare practitioner.</li>
+                    <li>Not suitable for infants under the age of twelve months.</li>
+                    <li>Adults only. OR Not to be used in children under two years of age without medical advice. </li>
 
 
                 </p>
@@ -3713,11 +3713,11 @@ class ModifyProduct extends Command
                 <p>
                     <li>(If medicine contains one sugar) contains [insert name of sugar] OR (If medicine contains two or more sugars) Contains sugars [or words to that effect].</li>
                     <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
-                    <li>Not recommended for use by pregnant and lactating women (or words to that effect).</li>
-                    <li>Adults only (or words to that effect).</li>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
-                    <li>Not suitable for infants under the age of twelve months (or words to that effect).</li>
-                    <li>Adults only. OR Not to be used in children under two years of age without medical advice (or words to that effect). </li>
+                    <li>Not recommended for use by pregnant and lactating women.</li>
+                    <li>Adults only.</li>
+                    <li>If symptoms persist consult your healthcare practitioner.</li>
+                    <li>Not suitable for infants under the age of twelve months.</li>
+                    <li>Adults only. OR Not to be used in children under two years of age without medical advice. </li>
 
 
                 </p>
@@ -4046,9 +4046,9 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).</li>
-                    <li>Adults only. OR Not to be used in children under two years of age without medical advice (or words to that effect). </li>
+                    <li>If symptoms persist consult your healthcare practitioner.</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                    <li>Adults only. OR Not to be used in children under two years of age without medical advice. </li>
 
 
                 </p>
@@ -4355,9 +4355,9 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner (or words to that effect).</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).</li>
-                    <li>Adults only. OR Not to be used in children under two years of age without medical advice (or words to that effect). </li>
+                    <li>If symptoms persist consult your healthcare practitioner.</li>
+                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                    <li>Adults only. OR Not to be used in children under two years of age without medical advice. </li>
 
 
                 </p>
@@ -5617,7 +5617,7 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    If symptoms persist consult your healthcare practitioner.</br>
                     Do not take while on warfarin therapy without medical advice.
 
                 </p>
@@ -5908,7 +5908,7 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    If symptoms persist consult your healthcare practitioner.</br>
                     Do not take while on warfarin therapy without medical advice.
 
                 </p>
@@ -6195,10 +6195,10 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    If symptoms persist consult your healthcare practitioner.</br>
                     (If medicine contains one sugar) contains [insert name of sugar] OR (If medicine contains two or more sugars) Contains sugars [or words to that effect].<br>
-                    WARNING: May be dangerous if taken in large amounts or for a long period. OR WARNING: Contains zinc which may be dangerous if taken in large amounts or for a long period (or words to that effect).<br>
-                    If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).
+                    WARNING: May be dangerous if taken in large amounts or for a long period. OR WARNING: Contains zinc which may be dangerous if taken in large amounts or for a long period.<br>
+                    If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.
 
                 </p>
 
@@ -6586,8 +6586,8 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
-                    If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice (or words to that effect).
+                    If symptoms persist consult your healthcare practitioner.</br>
+                    If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.
 
                 </p>
 
@@ -6832,7 +6832,7 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    If symptoms persist consult your healthcare practitioner.</br>
 
                 </p>
 
@@ -7109,7 +7109,7 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner (or words to that effect)</br>
+                    If symptoms persist consult your healthcare practitioner.</br>
 
                 </p>
 
