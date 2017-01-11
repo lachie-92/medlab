@@ -4027,7 +4027,6 @@ class ModifyProduct extends Command
                         <li>Supports a healthy immune system</li>
                         <li>Helps to maintain healthy skin</li>
                         <li>Supports skin health</li>
-                        <li>Saccharomyces boulardii may relieve the severity and duration of diarrhoea due to various triggers in children and adults</li>    
                     </ul>
                 </p>
                 
@@ -4337,7 +4336,6 @@ class ModifyProduct extends Command
                         <li>Supports a healthy immune system</li>
                         <li>Helps to maintain healthy skin</li>
                         <li>Supports skin health</li>
-                        <li>Saccharomyces boulardii may relieve the severity and duration of diarrhoea due to various triggers in children and adults</li>    
                     </ul>
                 </p>
                 
