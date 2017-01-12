@@ -1237,7 +1237,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td valign="top" width="273">
-                                <p style="padding-left: 30px;">Ubiquinol (Coenzyme Q10)</p>
+                                <p>Ubiquinol (Coenzyme Q10)</p>
                             </td>
                             <td valign="top" width="136">
                                 <p>50 mg</p>
@@ -1518,7 +1518,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td valign="top" width="273">
-                                <p style="padding-left: 30px;">Ubiquinol (Coenzyme Q10)</p>
+                                <p>Ubiquinol (Coenzyme Q10)</p>
                             </td>
                             <td valign="top" width="136">
                                 <p>50 mg</p>
@@ -1775,7 +1775,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td valign="top" width="273">
-                                <p style="padding-left: 30px;">
+                                <p>
                                     Vegetable oil phytosterol esters (Plant Sterols)
                                 </p>
                             </td>
@@ -2034,7 +2034,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td valign="top" width="273">
-                                <p style="padding-left: 30px;">
+                                <p>
                                     Vegetable oil phytosterol esters (Plant Sterols)
                                 </p>
                             </td>
@@ -6309,7 +6309,7 @@ class ModifyProduct extends Command
                                 <p><em>Lactobacillus plantarum </em>(Med 25)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>12 billion</p>
+                                <p>2 billion</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
