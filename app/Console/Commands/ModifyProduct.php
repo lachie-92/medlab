@@ -258,6 +258,14 @@ class ModifyProduct extends Command
                                 </td>
                             </tr>
                             <tr>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. elemental magnesium</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>264mg</p>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td width="273" valign="top">
                                     <p>L-glutamine</p>
                                 </td>
@@ -282,8 +290,8 @@ class ModifyProduct extends Command
                                 </td>
                             </tr>
                             <tr>
-                                <td width="273" valign="top">
-                                    <p>L-theanine</p>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. L-theanine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>NLT 100mg</p>
@@ -565,6 +573,14 @@ class ModifyProduct extends Command
                                 </td>
                             </tr>
                             <tr>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. elemental magnesium</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>264mg</p>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td width="273" valign="top">
                                     <p>L-glutamine</p>
                                 </td>
@@ -589,8 +605,8 @@ class ModifyProduct extends Command
                                 </td>
                             </tr>
                             <tr>
-                                <td width="273" valign="top">
-                                    <p>L-theanine</p>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. L-theanine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>NLT 100mg</p>
@@ -931,8 +947,8 @@ class ModifyProduct extends Command
                                 </td>
                             </tr>
                             <tr>
-                                <td width="273" valign="top">
-                                    <p>L-theanine</p>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. L-theanine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>NLT 100mg</p>
