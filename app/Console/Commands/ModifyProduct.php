@@ -152,7 +152,10 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
+                        <ul>
+                            <li>Vitamin supplements should not replace a balanced diet.</li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
+                        </ul>
                     </p>
                 ',
                 'references' =>
@@ -456,7 +459,10 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
+                        <ul>
+                            <li>Vitamin supplements should not replace a balanced diet.</li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
+                        </ul>
                     </p>
                 ',
                 'references' =>
@@ -787,7 +793,10 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
+                        <ul>
+                            <li>Vitamin supplements should not replace a balanced diet.</li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
+                        </ul>
                     </p>
                 ',
                 'references' =>
@@ -1107,7 +1116,8 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Do not take while on warfarin therapy without medical advice.  If symptoms persist consult your healthcare practitioner.</li>
+                            <li>Do not take while on warfarin therapy without medical advice. <li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
                         </ul>
                     </p>
                 ",
@@ -1387,7 +1397,8 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Do not take while on warfarin therapy without medical advice.  If symptoms persist consult your healthcare practitioner.</li>
+                            <li>Do not take while on warfarin therapy without medical advice. </li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
                         </ul>
                     </p>
                 ",
@@ -1659,7 +1670,9 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Not recommended for use by pregnant and lactating women. There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
+                            <li>Not recommended for use by pregnant and lactating women.</li>
+                            <li>There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
                         </ul>
                     </p>
                 ",
@@ -1916,7 +1929,9 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Not recommended for use by pregnant and lactating women. There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
+                            <li>Not recommended for use by pregnant and lactating women.<li>
+                            <li>There is no benefit from taking more than 3g/day of phytosterols from all sources.</li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
                         </ul>
                     </p>
                 ",
@@ -2167,10 +2182,11 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
-                    <li>Derived from cows milk
-
+                    <ul>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                        <li>Derived from cows milk.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -2507,10 +2523,11 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
-                    <li>Derived from cows milk
-
+                    <ul>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
+                        <li>Derived from cows milk.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -2785,8 +2802,9 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner.</li>
-
+                    <ul>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -3093,9 +3111,11 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
-                    <li>Derived from cows milk
+                    <ul>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
+                        <li>Derived from cows milk.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -3366,14 +3386,14 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>Contains Manuka Honey.</li>
-                    <li>Vitamin supplements should not replace a balanced diet.</li>
-                    <li>Not recommended for use by pregnant and lactating women.</li>
-                    <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>Not suitable for infants under the age of twelve months. Adults only.</li>
-                    <li>Not to be used in children under two years of age without medical advice. </li>
-
-
+                    <ul>
+                        <li>Contains Manuka Honey.</li>
+                        <li>Vitamin supplements should not replace a balanced diet.</li>
+                        <li>Not recommended for use by pregnant and lactating women.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                        <li>Not suitable for infants under the age of twelve months. Adults only.</li>
+                        <li>Not to be used in children under two years of age without medical advice. </li>
+                    </ul>
                 </p>
 
                
@@ -3704,20 +3724,19 @@ class ModifyProduct extends Command
                     No specific conditions included on record.
                 </p>
 
-
                 <p>
                     <strong>WARNINGS</strong>
                 </p>
 
                 <p>
-                    <li>Contains Manuka Honey.</li>
-                    <li>Vitamin supplements should not replace a balanced diet.</li>
-                    <li>Not recommended for use by pregnant and lactating women.</li>
-                    <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>Not suitable for infants under the age of twelve months. Adults only.</li>
-                    <li>Not to be used in children under two years of age without medical advice. </li>
-
-
+                    <ul>
+                        <li>Contains Manuka Honey.</li>
+                        <li>Vitamin supplements should not replace a balanced diet.</li>
+                        <li>Not recommended for use by pregnant and lactating women.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                        <li>Not suitable for infants under the age of twelve months. Adults only.</li>
+                        <li>Not to be used in children under two years of age without medical advice.</li>
+                    </ul>
                 </p>
 
 
@@ -4044,14 +4063,12 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
-                    <li>Not to be used in children under two years of age without medical advice. </li>
-
-
+                    <ul>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                        <li>Not to be used in children under two years of age without medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
-
-               
                 ',
                 'references' =>
                     '
@@ -5071,7 +5088,7 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                    <li>Vitamin D helps calcium absorption (or words of like intent) and a diet deficient in calcium can lead to osteoporosis in later life.</li>
+                    <li>Vitamin D helps calcium absorption, and a diet deficient in calcium can lead to osteoporosis in later life.</li>
                     <li>Prevention/treatment of vitamin D and/or nutritional deficiency.</li>
                     </ul>
                 </p>
@@ -5107,10 +5124,10 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>Vitamin supplements should not replace a balanced diet.</li>
-                    <li>Contains potassium sorbate.</li>
-
-
+                    <ul>
+                        <li>Vitamin supplements should not replace a balanced diet.</li>
+                        <li>Contains potassium sorbate.</li>
+                    </ul>
                 </p>
 
                
@@ -5618,9 +5635,10 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner.</br>
-                    Do not take while on warfarin therapy without medical advice.
-
+                    <ul>
+                        <li>Do not take while on warfarin therapy without medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -5909,9 +5927,10 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner.</br>
-                    Do not take while on warfarin therapy without medical advice.
-
+                    <ul>
+                        <li>Do not take while on warfarin therapy without medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -6199,8 +6218,8 @@ class ModifyProduct extends Command
                     <ul>
                         <li>Contains sugar (glucose).</li>
                         <li>Contains zinc which may be dangerous if taken in large amounts or for a long period.</li>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
                         <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
                 ',
@@ -6586,9 +6605,10 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner.</br>
-                    If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.
-
+                    <ul>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -6832,8 +6852,9 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner.</br>
-
+                    <ul>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -7109,8 +7130,9 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner.</br>
-
+                    <ul>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
