@@ -1421,7 +1421,7 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Do not take while on warfarin therapy without medical advice. </li>
+                            <li>Do not take while on warfarin therapy without medical advice.</li>
                             <li>If symptoms persist consult your healthcare practitioner.</li>
                         </ul>
                     </p>
