@@ -254,7 +254,7 @@ class ModifyProduct extends Command
                                     <p>(bislgycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
-                                    <p>150mg</p>
+                                    <p>1,875mg</p>
                                 </td>
                             </tr>
                             <tr>
@@ -561,7 +561,7 @@ class ModifyProduct extends Command
                                     <p>(bislgycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
-                                    <p>150mg</p>
+                                    <p>1,875mg</p>
                                 </td>
                             </tr>
                             <tr>
@@ -895,7 +895,15 @@ class ModifyProduct extends Command
                                     <p>(bislgycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
-                                    <p>150mg</p>
+                                    <p>1,875mg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. elemental magnesium</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>264mg</p>
                                 </td>
                             </tr>
                             <tr>
@@ -3084,10 +3092,10 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Short-chain fatty acids produced from fermentation of arabinogalactan (ResistAid) supports healthy immune function in healthy individuals </li>
+                        <li>Short-chain fatty acids produced from fermentation of Arabinogalactan (ResistAid&trade;) supports healthy immune function in healthy individuals </li>
                         <li>Relieves gastrointestinal discomfort such as abdominal pain, bloating, gas and altered bowel habits </li>
                         <li>ResistAid is a proprietary natural immune support ingredient. It consists of the soluble fibre Arabinogalactan and bioactive flavonoids with clinical evidence of immune modulating properties that may support healthy immune function via various mechanisms. </li>
-                        <li>Arabinogalactan (ResistAid) is a prebiotic and produces short-chain fatty acids upon fermentation by gut bacteria, maintaining healthy colonic mucosal structure and function </li>
+                        <li>Arabinogalactan (ResistAid&trade;) is a prebiotic and produces short-chain fatty acids upon fermentation by gut bacteria, maintaining healthy colonic mucosal structure and function </li>
                         <li>Saccharomyces boulardii is indicated for assisting with symptoms of diarrhoea due to various triggers and supports a healthy gastrointestinal microbial profile and healthy immune system in healthy individuals </li>
                         <li>L-glutamine is an amino acid that improves trophism (nourishment and function) of enterocytes and colonocytes; enhances the immunological barrier due to its trophic action on the immune system and decreases bacterial translocation and so helps maintain healthy healthy digestive function.</li>
                         <li>Peppermint (Mentha piperita) contains active chemical constituents that provide antiemetic, antispasmodic and anti-microbial activity.</li>
@@ -7697,7 +7705,7 @@ class ModifyProduct extends Command
                             function in healthy individuals.
                         </li>
                         <li>
-                            Arabinogalactan (ResistAid) is a prebiotic and produces short-chain fatty acids upon
+                            Arabinogalactan (ResistAid&trade;) is a prebiotic and produces short-chain fatty acids upon
                             metabolism by gut bacteria, maintaining healthy colonic mucosal structure and function.
                         </li>
                         <li>
@@ -7830,7 +7838,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Arabinogalactactan
+                                    Arabinogalactan (ResistAid&trade;)
                                 </p>
                             </td>
                             <td>
@@ -7975,7 +7983,7 @@ class ModifyProduct extends Command
                             function in healthy individuals.
                         </li>
                         <li>
-                            Arabinogalactan (ResistAid) is a prebiotic and produces short-chain fatty acids upon
+                            Arabinogalactan (ResistAid&trade;) is a prebiotic and produces short-chain fatty acids upon
                             metabolism by gut bacteria, maintaining healthy colonic mucosal structure and function.
                         </li>
                         <li>
@@ -8108,7 +8116,7 @@ class ModifyProduct extends Command
                         <tr>
                             <td>
                                 <p>
-                                    Arabinogalactactan
+                                    Arabinogalactan (ResistAid&trade;)
                                 </p>
                             </td>
                             <td>
