@@ -4641,12 +4641,7 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                    <li>Helps maintain normal blood/blood tonic (Note: These claims are appropriate for folic acid, vitamin B12 and iron, but must not imply anaemic conditions) </li>
-                    <li>Source of vitamin B12. Can assist in maintaining normal blood. Blood tonic.</li>
-                    <li>Source of vitamin B12. Can assist in maintaining normal blood.</li>
-                    <li>May assist in the management of dietary vitamin B12 deficiency. </li>
-
-                        
+                        <li>May assist in the management of dietary vitamin B12 deficiency.</li>
                     </ul>
                 </p>
                 
@@ -4748,7 +4743,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Mecobalamin</p>
+                                <p>Vitamin B12 (as Mecobalamin)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1000 mcg</p>
@@ -7370,8 +7365,7 @@ class ModifyProduct extends Command
                         <strong>STANDARD INDICATIONS</strong>
                     </p>
                     <p>
-                        Prevention/treatment of vitamin and/or mineral and/or nutritional deficiency (NOTE: This indication
-                        is not for the treatment of iron deficiency conditions). Vitamin D helps calcium absorption and a
+                        Prevention/treatment of vitamin D3 and/or K2 nutritional deficiency. Vitamin D helps calcium absorption and a
                         diet deficient in calcium can lead to osteoporosis in later life.
                     </p>
                     <br>
