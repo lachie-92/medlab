@@ -24,7 +24,7 @@
                                 {!! strtoupper($product->product_name) !!}<br>
                             </span>
                             @if ( !empty($product->austl_number) )
-                                ARTG L {{ $product->austl_number }}
+                                AUST L {{ $product->austl_number }}
                             @endif
                         </p>
                     </div>
