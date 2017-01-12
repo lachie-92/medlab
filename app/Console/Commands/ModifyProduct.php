@@ -2167,7 +2167,7 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner. If diarrhoea persists, seek medical advice</li>
+                    <li>If symptoms persist consult your healthcare practitioner.</li>
                     <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
                     <li>Derived from cows milk
 
@@ -3366,13 +3366,12 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>(If medicine contains one sugar) contains [insert name of sugar] OR (If medicine contains two or more sugars) Contains sugars [or words to that effect].</li>
+                    <li>Contains Manuka Honey.</li>
                     <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
                     <li>Not recommended for use by pregnant and lactating women.</li>
-                    <li>Adults only.</li>
                     <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>Not suitable for infants under the age of twelve months.</li>
-                    <li>Adults only. OR Not to be used in children under two years of age without medical advice. </li>
+                    <li>Not suitable for infants under the age of twelve months. Adults only.</li>
+                    <li>Not to be used in children under two years of age without medical advice. </li>
 
 
                 </p>
@@ -3711,13 +3710,12 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>(If medicine contains one sugar) contains [insert name of sugar] OR (If medicine contains two or more sugars) Contains sugars [or words to that effect].</li>
+                    <li>Contains Manuka Honey.</li>
                     <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
                     <li>Not recommended for use by pregnant and lactating women.</li>
-                    <li>Adults only.</li>
                     <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>Not suitable for infants under the age of twelve months.</li>
-                    <li>Adults only. OR Not to be used in children under two years of age without medical advice. </li>
+                    <li>Not suitable for infants under the age of twelve months. Adults only.</li>
+                    <li>Not to be used in children under two years of age without medical advice. </li>
 
 
                 </p>
@@ -4048,7 +4046,7 @@ class ModifyProduct extends Command
                 <p>
                     <li>If symptoms persist consult your healthcare practitioner.</li>
                     <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
-                    <li>Adults only. OR Not to be used in children under two years of age without medical advice. </li>
+                    <li>Not to be used in children under two years of age without medical advice. </li>
 
 
                 </p>
@@ -4357,7 +4355,7 @@ class ModifyProduct extends Command
                 <p>
                     <li>If symptoms persist consult your healthcare practitioner.</li>
                     <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
-                    <li>Adults only. OR Not to be used in children under two years of age without medical advice. </li>
+                    <li>Not to be used in children under two years of age without medical advice. </li>
 
 
                 </p>
@@ -6195,14 +6193,13 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    If symptoms persist consult your healthcare practitioner.</br>
-                    (If medicine contains one sugar) contains [insert name of sugar] OR (If medicine contains two or more sugars) Contains sugars [or words to that effect].<br>
-                    WARNING: May be dangerous if taken in large amounts or for a long period. OR WARNING: Contains zinc which may be dangerous if taken in large amounts or for a long period.<br>
-                    If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.
-
+                    <ul>
+                        <li>Contains sugar (glucose).</li>
+                        <li>Contains zinc which may be dangerous if taken in large amounts or for a long period.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                    </ul>
                 </p>
-
-               
                 ',
                 'references' =>
                     '
@@ -7718,7 +7715,7 @@ class ModifyProduct extends Command
                             responses and influence immune regulation.
                         </li>
                         <li>
-                            Vegetables and MK-4 that is found in animal products .
+                            Vegetables and MK-4 that is found in animal products.
                         </li>
                     </ul>
                 </p>
@@ -7996,7 +7993,7 @@ class ModifyProduct extends Command
                             responses and influence immune regulation.
                         </li>
                         <li>
-                            Vegetables and MK-4 that is found in animal products .
+                            Vegetables and MK-4 that is found in animal products.
                         </li>
                     </ul>
                 </p>
