@@ -152,7 +152,7 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
+                        Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
                     </p>
                 ',
                 'references' =>
@@ -456,7 +456,7 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
+                        Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
                     </p>
                 ',
                 'references' =>
@@ -787,7 +787,7 @@ class ModifyProduct extends Command
                     </p>
 
                     <p>
-                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
+                        Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner.
                     </p>
                 ',
                 'references' =>
@@ -3367,7 +3367,7 @@ class ModifyProduct extends Command
 
                 <p>
                     <li>Contains Manuka Honey.</li>
-                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
+                    <li>Vitamin supplements should not replace a balanced diet.</li>
                     <li>Not recommended for use by pregnant and lactating women.</li>
                     <li>If symptoms persist consult your healthcare practitioner.</li>
                     <li>Not suitable for infants under the age of twelve months. Adults only.</li>
@@ -3711,7 +3711,7 @@ class ModifyProduct extends Command
 
                 <p>
                     <li>Contains Manuka Honey.</li>
-                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
+                    <li>Vitamin supplements should not replace a balanced diet.</li>
                     <li>Not recommended for use by pregnant and lactating women.</li>
                     <li>If symptoms persist consult your healthcare practitioner.</li>
                     <li>Not suitable for infants under the age of twelve months. Adults only.</li>
@@ -4668,8 +4668,11 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>(If the medicine contains one sorbate) Contains [insert name of sorbate] OR (if medicine contains two or more sorbates) Contains sorbates [or words to that effect].</li>
-                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
+                    <ul>
+                        <li>Contains potassium sorbate.</li>
+                        <li>Vitamin supplements should not replace a balanced diet.</li>
+                    </ul>
+
 
 
                 </p>
@@ -4879,8 +4882,8 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
-                    <li>(If the medicine contains one sorbate) Contains [insert name of sorbate] OR (if medicine contains two or more sorbates) Contains sorbates [or words to that effect].</li>
+                    <li>Vitamin supplements should not replace a balanced diet.</li>
+                    <li>Contains potassium sorbate.</li>
 
 
                 </p>
@@ -5069,7 +5072,7 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                     <li>Vitamin D helps calcium absorption (or words of like intent) and a diet deficient in calcium can lead to osteoporosis in later life.</li>
-                    <li>Prevention/treatment of vitamin [XX] and/or mineral [YY] and/or nutritional deficiencies (This indication is not be to used for the treatment of iron deficiency conditions).</li>
+                    <li>Prevention/treatment of vitamin D and/or nutritional deficiency.</li>
                     </ul>
                 </p>
                 
@@ -5104,8 +5107,8 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet.</li>
-                    <li>(If the medicine contains one sorbate) Contains [insert name of sorbate] OR (if medicine contains two or more sorbates) Contains sorbates [or words to that effect].</li>
+                    <li>Vitamin supplements should not replace a balanced diet.</li>
+                    <li>Contains potassium sorbate.</li>
 
 
                 </p>
@@ -7341,7 +7344,7 @@ class ModifyProduct extends Command
                         <strong>STANDARD INDICATIONS</strong>
                     </p>
                     <p>
-                        Prevention/treatment of vitamin and/or mineral and/or nutritional deficiencie (NOTE: This indication
+                        Prevention/treatment of vitamin and/or mineral and/or nutritional deficiency (NOTE: This indication
                         is not for the treatment of iron deficiency conditions). Vitamin D helps calcium absorption and a
                         diet deficient in calcium can lead to osteoporosis in later life.
                     </p>
