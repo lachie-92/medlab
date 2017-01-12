@@ -254,15 +254,7 @@ class ModifyProduct extends Command
                                     <p>(bislgycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
-                                    <p>1,875mg</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>Equiv. elemental magnesium</p>
-                                </td>
-                                <td width="136" valign="top">
-                                    <p>264mg</p>
+                                    <p>150mg</p>
                                 </td>
                             </tr>
                             <tr>
@@ -569,15 +561,7 @@ class ModifyProduct extends Command
                                     <p>(bislgycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
-                                    <p>1,875mg</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>Equiv. elemental magnesium</p>
-                                </td>
-                                <td width="136" valign="top">
-                                    <p>264mg</p>
+                                    <p>150mg</p>
                                 </td>
                             </tr>
                             <tr>
@@ -911,15 +895,7 @@ class ModifyProduct extends Command
                                     <p>(bislgycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
-                                    <p>1,875mg</p>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>Equiv. elemental magnesium</p>
-                                </td>
-                                <td width="136" valign="top">
-                                    <p>264mg</p>
+                                    <p>150mg</p>
                                 </td>
                             </tr>
                             <tr>
