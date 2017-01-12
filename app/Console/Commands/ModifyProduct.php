@@ -3392,7 +3392,8 @@ class ModifyProduct extends Command
                         <li>Not recommended for use by pregnant and lactating women.</li>
                         <li>If symptoms persist consult your healthcare practitioner.</li>
                         <li>Not suitable for infants under the age of twelve months. Adults only.</li>
-                        <li>Not to be used in children under two years of age without medical advice. </li>
+                        <li>Not to be used in children under two years of age without medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
 
@@ -3733,9 +3734,9 @@ class ModifyProduct extends Command
                         <li>Contains Manuka Honey.</li>
                         <li>Vitamin supplements should not replace a balanced diet.</li>
                         <li>Not recommended for use by pregnant and lactating women.</li>
-                        <li>If symptoms persist consult your healthcare practitioner.</li>
                         <li>Not suitable for infants under the age of twelve months. Adults only.</li>
                         <li>Not to be used in children under two years of age without medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
 
@@ -4370,11 +4371,11 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>If symptoms persist consult your healthcare practitioner.</li>
-                    <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
-                    <li>Not to be used in children under two years of age without medical advice. </li>
-
-
+                    <ul>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                        <li>Not to be used in children under two years of age without medical advice. </li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -4688,10 +4689,8 @@ class ModifyProduct extends Command
                     <ul>
                         <li>Contains potassium sorbate.</li>
                         <li>Vitamin supplements should not replace a balanced diet.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
-
-
-
                 </p>
 
                
@@ -4899,10 +4898,11 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    <li>Vitamin supplements should not replace a balanced diet.</li>
-                    <li>Contains potassium sorbate.</li>
-
-
+                    <ul>
+                        <li>Vitamin supplements should not replace a balanced diet.</li>
+                        <li>Contains potassium sorbate.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
                 </p>
 
                
@@ -5127,6 +5127,7 @@ class ModifyProduct extends Command
                     <ul>
                         <li>Vitamin supplements should not replace a balanced diet.</li>
                         <li>Contains potassium sorbate.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
 
@@ -5320,9 +5321,12 @@ class ModifyProduct extends Command
                 </p>
 
                 <p>
-                    Not to be used as a sole source of nutrition.  Should be used in conjunction with a balanced diet and appropriate exercise program.  Not suitable for 
-                    children under 15 years of age or pregnant women.  Should only be used under medical or dietetic supervision.  Contains not less than 30mg of caffeine 
-                    per serve.
+                    <ul>
+                       <li>Not to be used as a sole source of nutrition, should be used in conjunction with a balanced diet and appropriate exercise program.</li>
+                       <li>Not suitable for children under 15 years of age or pregnant women.</li>
+                       <li>Should only be used under medical or dietetic supervision.</li>
+                       <li>Contains not less than 30mg of caffeine per serve.</li>
+                    </ul>
                 </p>
                 ',
                 'references' =>
@@ -7461,6 +7465,7 @@ class ModifyProduct extends Command
                         <ul>
                             <li>Contains potassium sorbate.</li>
                             <li>Vitamin supplements should not replace a balanced diet.</li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
                         </ul>
                     </p>
                     <p>
