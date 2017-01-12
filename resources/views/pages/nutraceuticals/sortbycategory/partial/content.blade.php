@@ -70,7 +70,7 @@
                     <div class="panel-body medlab_panel_content medlab_product_list_side_bar_panel_content">
                         <div class="medlab_product_list_side_bar_content_title">
                             PRACTITIONER EDUCATIONAL RESOURCE
-                            <a href="/nutraceuticals/practitionereducation">
+                            <a href="/nutraceuticals/praceducationalresource">
                             <img width="100%" src="/img/products/shippingandpayment/praceducationresource.png">
                             </a>
                         </div>
