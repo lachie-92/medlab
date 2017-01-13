@@ -16,8 +16,10 @@
                 <div class="panel-body medlab_panel_content">
                     <iframe src="https://cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ft32xyam7&bgcolor=EEEEEE&t=1484003377" width="100%" height="900pz" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                     <br><br>
+                    <button type="button" class="btn btn-default"><a href="https://s3.amazonaws.com/medlab-pdfs/medlab+PRODUCT+MANUAL+FINAL+13JAN17.pdf" download>DOWNLOAD PRACTITIONER EDUCATIONAL RESOURCE HERE</a></button><br><br>
                     <div class="container-fluid">
                         <div class="well well-sm" style="text-align: justify;">
+
                             <p><strong>DISCLAIMER:</strong></p>
                             <p>Medlab PRACTITIONER EDUCATIONAL RESOURCE is published by Medlab Clinical Ltd for Practitioner educational purposes only.</p>
                             <p>It contains content pertaining to Medlab Clinical Ltd, its products, research and resources, with the aim to provide Practitioners with important information from all aspects of the company.</p>
