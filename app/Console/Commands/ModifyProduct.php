@@ -92,18 +92,17 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
+                            <li>May assist in the management of anxiety.</li>
+                            <li>Relief of muscular aches and pains.</li>
                             <li>Help reduce effects of mild anxiety and nervous tension.</li>
-                            <li>For the symptomatic relief of stress disorders.</li>
+                            <li>Herbal blend which helps relieve stress of study or work.</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. For the symptomatic relief of stress disorders.</li>
                             <li>May assist in the management of stress disorders.</li>
                             <li>Beneficial during times of stress.</li>
                             <li>Non-vitamin active ingredients in this product may be beneficial during times of stress.</li>
                             <li>Non-vitamin active ingredients may improve stress adaptation.</li>
-                            <li>Herbal blend which helps relieve stress of study or work.</li>
                             <li>May help reduce the frequency of migraines.</li>
                             <li>Helps relieve nervous tension, stress and mild anxiety.</li>
-                            <li>Relief of muscular aches and pains.</li>
-                            <li>May assist in the management of anxiety.</li>
-                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety.</li>
                             <li>For the symptomatic relief of anxiety.</li>
                         </ul>
                     </p>
@@ -400,18 +399,17 @@ class ModifyProduct extends Command
                     <p>
                         <ul>
                             <li>Help reduce effects of mild anxiety and nervous tension.</li>
-                            <li>For the symptomatic relief of stress disorders.</li>
-                            <li>May assist in the management of stress disorders.</li>
-                            <li>Beneficial during times of stress.</li>
-                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress.</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. For the symptomatic relief of stress disorders. </li>
+                            <li>May assist in the management of stress disorders. </li>
+                            <li>Beneficial during times of stress. </li>
+                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. </li>
                             <li>Non-vitamin active ingredients may improve stress adaptation.</li>
                             <li>Herbal blend which helps relieve stress of study or work.</li>
                             <li>May help reduce the frequency of migraines.</li>
-                            <li>Helps relieve nervous tension, stress and mild anxiety.</li>
-                            <li>Relief of muscular aches and pains.</li>
-                            <li>May assist in the management of anxiety.</li>
-                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety.</li>
-                            <li>For the symptomatic relief of anxiety.</li>
+                            <li>Helps relieve nervous tension, stress and mild anxiety. </li>
+                            <li>For the symptomatic relief of anxiety. </li>
+                            <li>May assist in the management of anxiety. </li>
+                            <li>Relief of muscular aches and pains. </li>
                         </ul>
                     </p>
 
@@ -729,23 +727,20 @@ class ModifyProduct extends Command
                     ',
                 'practitioner_summary' =>
                     '
-                    <strong>STANDARD INDICATIONS</strong>
-
                     <p>
                         <ul>
                             <li>Help reduce effects of mild anxiety and nervous tension.</li>
-                            <li>For the symptomatic relief of stress disorders.</li>
-                            <li>May assist in the management of stress disorders.</li>
-                            <li>Beneficial during times of stress.</li>
-                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress.</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. For the symptomatic relief of stress disorders. </li>
+                            <li>May assist in the management of stress disorders. </li>
+                            <li>Beneficial during times of stress. </li>
+                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. </li>
                             <li>Non-vitamin active ingredients may improve stress adaptation.</li>
                             <li>Herbal blend which helps relieve stress of study or work.</li>
                             <li>May help reduce the frequency of migraines.</li>
-                            <li>Helps relieve nervous tension, stress and mild anxiety.</li>
-                            <li>Relief of muscular aches and pains.</li>
-                            <li>May assist in the management of anxiety.</li>
-                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety.</li>
-                            <li>For the symptomatic relief of anxiety.</li>
+                            <li>Helps relieve nervous tension, stress and mild anxiety. </li>
+                            <li>For the symptomatic relief of anxiety. </li>
+                            <li>May assist in the management of anxiety. </li>
+                            <li>Relief of muscular aches and pains. </li>
                         </ul>
                     </p>
 
@@ -1068,11 +1063,11 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>May temporarily relieve joint pain/aches associated with mild arthritis.</li>
                             <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
-                            <li>May temporarily relieve swollen and aching joints associated with mild arthritis.</li>
-                            <li>May temporarily relieve joint inflammation/ swelling associated with mild arthritis.</li>
+                            <li>May temporarily relieve joint pain/aches associated with mild arthritis.</li>
                             <li>May help enhance/improve/promote/increase joint mobility in mild arthritis.</li>
+                            <li>May temporarily relieve joint inflammation/ swelling associated with mild arthritis.</li>
+                            <li>May temporarily relieve swollen and aching joints associated with mild arthritis.</li>
                         </ul>
                     </p>
 
@@ -1349,11 +1344,11 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>May temporarily relieve joint pain/aches associated with mild arthritis.</li>
                             <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
-                            <li>May temporarily relieve swollen and aching joints associated with mild arthritis.</li>
-                            <li>May temporarily relieve joint inflammation/ swelling associated with mild arthritis.</li>
+                            <li>May temporarily relieve joint pain/aches associated with mild arthritis.</li>
                             <li>May help enhance/improve/promote/increase joint mobility in mild arthritis.</li>
+                            <li>May temporarily relieve joint inflammation/ swelling associated with mild arthritis.</li>
+                            <li>May temporarily relieve swollen and aching joints associated with mild arthritis.</li>
                         </ul>
                     </p>
 
@@ -1628,10 +1623,10 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>May help to reduce intestinal absorption of cholesterol from dietary sources.</li>
-                            <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
-                            <li>May assist in the maintenance of cholesterol within the normal range in healthy individuals.</li>
                             <li>May assist in the maintenance of cholesterol within the normal/healthy range in healthy individuals and improve the LDL:HDL ratio.</li>
+                            <li>May assist in the maintenance of cholesterol within the normal range in healthy individuals.</li>
+                            <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
+                            <li>May help to reduce intestinal absorption of cholesterol from dietary sources.</li>
                             <li>May assist in the maintenance of a normal/healthy LDL:HDL cholesterol ratio.</li>
                         </ul>
                     </p>
@@ -1887,10 +1882,10 @@ class ModifyProduct extends Command
 
                     <p>
                         <ul>
-                            <li>May help to reduce intestinal absorption of cholesterol from dietary sources.</li>
-                            <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
-                            <li>May assist in the maintenance of cholesterol within the normal range in healthy individuals.</li>
                             <li>May assist in the maintenance of cholesterol within the normal/healthy range in healthy individuals and improve the LDL:HDL ratio.</li>
+                            <li>May assist in the maintenance of cholesterol within the normal range in healthy individuals.</li>
+                            <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
+                            <li>May help to reduce intestinal absorption of cholesterol from dietary sources.</li>
                             <li>May assist in the maintenance of a normal/healthy LDL:HDL cholesterol ratio.</li>
                         </ul>
                     </p>
@@ -2142,13 +2137,12 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
+                        <li>Relief or treatment of diarrhoea.</li>
+                        <li>Helps maintain healthy digestive function.</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
                         <li>Relief of the symptoms of eczema.</li>
                         <li>May assist in the management of allergies.</li>
-                        <li>Helps maintain healthy digestive function.</li>
                         <li>May assist in the management of eczema.</li>
-                        <li>Relief or treatment of diarrhoea.</li>
-
                     </ul>
                 </p>
                 
@@ -2475,13 +2469,12 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relief or treatment of diarrhoea.</li>
-                        <li>May assist in the management of allergies.</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being. </li>
-                        <li>Treatment of mild digestive disorders.</li>
-                        <li>May assist in the management of eczema.</li>
-                        <li>Aids digestion. </li>
-
+                        <li>May assist in the management of allergies.</li>
+                        <li>Relief or treatment of diarrhoea. </li>
+                        <li>May assist in the management of eczema. </li>
+                        <li>Aids digestion.</li>
+                        <li>Treatment of mild digestive disorders. </li>
                     </ul>
                 </p>
                 
@@ -2489,21 +2482,19 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>May help to mature and maintain healthy immune function</li>
-                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile </li>
-                        <li>Lactoferrin is naturally found in colostrum and human milk and is a component of the innate immune response providing broad-spectrum anti-microbial and anti-viral activity </li>
-                        <li>The placental microbiome is closely related to that of the mother\'s microbiome</li>
-                        <li>Commensal bacteria found in breast milk include species from the Streptococcus, Bifidobacterium and Lactobacillus genera </li>
-                        <li>At least some of the bacteria present in the maternal gut is thought to reach the mammary gland through an endogenous route, called the enteromammary pathway and likely contributes to the bacterial composition of breast milk </li>
-                        <li>Saccharomyces boulardii may help to support intestinal secretory IgA release by the host\'s immune system</li>
-                        <li>Saccharomyces boulardii demonstrates probiotic activity assisting with the maintenance of healthy commensal bacterial growth and viability </li>
-                        <li>Saccharomyces boulardii may help to mediate inflammatory mediators in the gastrointestinal tract </li>
-                        <li>Saccharomyces boulardii produces metabolites that have a trophic effect on the intestinal mucosa</li>
-                        <li>Lactoferrin in combination with Lactobacillus rhamnosus may assist with a healthy gastrointestinal tract in infants </li>
-                        <li>A multispecies probiotic may assist to maintain healthy digestive function, growth, development and immunological tolerance that may assist in the management of atopic conditions </li>
-                        <li>Saccharomyces boulardii may relieve the severity and duration of diarrhoea due to various triggers in children and adults </li>
-
-
+                        <li>May help to mature and maintain healthy immune function.</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile. </li>
+                        <li>Lactoferrin is naturally found in colostrum and human milk and is a component of the innate immune response providing broad-spectrum anti-microbial and anti-viral activity. </li>
+                        <li>The placental microbiome is closely related to that of the mother\'s microbiome.</li>
+                        <li>Commensal bacteria found in breast milk include species from the Streptococcus, Bifidobacterium and Lactobacillus genera. </li>
+                        <li>At least some of the bacteria present in the maternal gut is thought to reach the mammary gland through an endogenous route, called the enteromammary pathway and likely contributes to the bacterial composition of breast milk. </li>
+                        <li>Saccharomyces boulardii may help to support intestinal secretory IgA release by the host\'s immune system.</li>
+                        <li>Saccharomyces boulardii demonstrates probiotic activity assisting with the maintenance of healthy commensal bacterial growth and viability. </li>
+                        <li>Saccharomyces boulardii may help to mediate inflammatory mediators in the gastrointestinal tract. </li>
+                        <li>Saccharomyces boulardii produces metabolites that have a trophic effect on the intestinal mucosa.</li>
+                        <li>Lactoferrin in combination with Lactobacillus rhamnosus may assist with a healthy gastrointestinal tract in infants. </li>
+                        <li>A multispecies probiotic may assist to maintain healthy digestive function, growth, development and immunological tolerance that may assist in the management of atopic conditions. </li>
+                        <li>Saccharomyces boulardii may relieve the severity and duration of diarrhoea due to various triggers in children and adults. </li>
                     </ul>
                 </p>
                 
@@ -2763,11 +2754,9 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
+                        <li>Helps maintain healthy digestive function.</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
                         <li>Aids digestion.</li>
-                        <li>Helps maintain healthy digestive function. </li>
-
-
                     </ul>
                 </p>
                 
@@ -2775,18 +2764,16 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relieves gastrointestinal discomfort</li>
-                        <li>Aspergillus oryzae (fungal) - derived amylase enzymes may assist in the digestion of dietary carbohydrates</li>
-                        <li>Rhizopus oryzae (fungal) - derived lipase enzymes may assist in the digestion of dietary lipids (fats)</li>
-                        <li>Aspergillus oryzae (fungal) - derived protease enzymes may assist in the digestion of dietary proteins</li>
-                        <li>Supports skin health</li>
-                        <li>Supports and assists with a healthy gastrointestinal microbial profile</li>
-                        <li>Ananas comosus and Carica papaya (plant) - derived proteolytic enzymes may assist with the digestion of dietary proteins Supports healthy immune function</li>
-                        <li>Helps to maintain healthy skin </li>
+                        <li>Relieves gastrointestinal discomfort.</li>
+                        <li>Aspergillus oryzae (fungal) - derived amylase enzymes may assist in the digestion of dietary carbohydrates.</li>
+                        <li>Rhizopus oryzae (fungal) - derived lipase enzymes may assist in the digestion of dietary lipids (fats).</li>
+                        <li>Aspergillus oryzae (fungal) - derived protease enzymes may assist in the digestion of dietary proteins.</li>
+                        <li>Supports skin health.</li>
+                        <li>Supports and assists with a healthy gastrointestinal microbial profile.</li>
+                        <li>Ananas comosus and Carica papaya (plant) - derived proteolytic enzymes may assist with the digestion of dietary proteins Supports healthy immune function.</li>
+                        <li>Helps to maintain healthy skin.</li>
                     </ul>
                 </p>
-                
-                               
 
                 <p>
                     <strong>SPECIFIC CONDITIONS</strong>
@@ -3063,20 +3050,15 @@ class ModifyProduct extends Command
                 ',
                 'practitioner_summary' =>
                     '
-                
-                
                 <strong>STANDARD INDICATIONS</strong>
                 
                 <p>
                     <ul>
-                        <li>Relief or treatment of diarrhoea.</li>
-                        <li>May assist in the management of medically diagnosed irritable bowel syndrome </li>
-                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
                         <li>Helps maintain healthy digestive function.</li>
-                        <li>Aids, assists or helps in the maintenance or improvement of general well-being. </li>
-
-
-
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>May assist in the management of medically diagnosed irritable bowel syndrome.</li>
+                        <li>Relief or treatment of diarrhoea.</li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome.</li>
                     </ul>
                 </p>
                 
@@ -3084,18 +3066,15 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Short-chain fatty acids produced from fermentation of Arabinogalactan (ResistAid&trade;) supports healthy immune function in healthy individuals </li>
-                        <li>Relieves gastrointestinal discomfort such as abdominal pain, bloating, gas and altered bowel habits </li>
-                        <li>ResistAid is a proprietary natural immune support ingredient. It consists of the soluble fibre Arabinogalactan and bioactive flavonoids with clinical evidence of immune modulating properties that may support healthy immune function via various mechanisms. </li>
-                        <li>Arabinogalactan (ResistAid&trade;) is a prebiotic and produces short-chain fatty acids upon fermentation by gut bacteria, maintaining healthy colonic mucosal structure and function </li>
-                        <li>Saccharomyces boulardii is indicated for assisting with symptoms of diarrhoea due to various triggers and supports a healthy gastrointestinal microbial profile and healthy immune system in healthy individuals </li>
+                        <li>Short-chain fatty acids produced from fermentation of Arabinogalactan (ResistAid&trade;) supports healthy immune function in healthy individuals.</li>
+                        <li>Relieves gastrointestinal discomfort such as abdominal pain, bloating, gas and altered bowel habits.</li>
+                        <li>ResistAid is a proprietary natural immune support ingredient. It consists of the soluble fibre Arabinogalactan and bioactive flavonoids with clinical evidence of immune modulating properties that may support healthy immune function via various mechanisms.</li>
+                        <li>Arabinogalactan (ResistAid&trade;) is a prebiotic and produces short-chain fatty acids upon fermentation by gut bacteria, maintaining healthy colonic mucosal structure and function.</li>
+                        <li>Saccharomyces boulardii is indicated for assisting with symptoms of diarrhoea due to various triggers and supports a healthy gastrointestinal microbial profile and healthy immune system in healthy individuals.</li>
                         <li>L-glutamine is an amino acid that improves trophism (nourishment and function) of enterocytes and colonocytes; enhances the immunological barrier due to its trophic action on the immune system and decreases bacterial translocation and so helps maintain healthy healthy digestive function.</li>
                         <li>Peppermint (Mentha piperita) contains active chemical constituents that provide antiemetic, antispasmodic and anti-microbial activity.</li>
-                        <li>Helps to maintain healthy skin </li>
                     </ul>
                 </p>
-                
-                               
 
                 <p>
                     <strong>SPECIFIC CONDITIONS</strong>
@@ -3112,8 +3091,7 @@ class ModifyProduct extends Command
 
                 <p>
                     <ul>
-                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months; 12 hours in children under 3 years; 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
-                        <li>Derived from cows milk.</li>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3 - 6 years or 48 hours in children over 6 years and adults, seek medical advice.</li>
                         <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
@@ -3335,11 +3313,11 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
-                        <li>For the symptomatic relief of recurrent upper respiratory tract infections.</li>
-                        <li>Relief of symptoms of mild upper respiratory infections.</li>
                         <li>For the symptomatic relief of upper respiratory tract infections.</li>
+                        <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
+                        <li>Relief of symptoms of mild upper respiratory infections.</li>
                         <li>May assist in the management of upper respiratory tract infections.</li>
+                        <li>For the symptomatic relief of recurrent upper respiratory tract infections.</li>
                     </ul>
                 </p>
                 
@@ -3347,26 +3325,26 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>May assist in supporting and maintaining healthy immune function</li>
-                        <li>The combination of vitamin C and zinc supports healthy connective tissue function</li>
-                        <li>Vitamin C assists with normal iron metabolism</li>
-                        <li>Requirements for vitamin C may be increased during times of stress</li>
-                        <li>Zinc may assist in the healing of minor skin wounds</li>
-                        <li>Vitamin C is a vital cofactor for several enzymatic reactions in the body</li>
-                        <li>Vitamin C is required for the antimicrobial activity of white blood cells</li>
+                        <li>May assist in supporting and maintaining healthy immune function.</li>
+                        <li>The combination of vitamin C and zinc supports healthy connective tissue function.</li>
+                        <li>Vitamin C assists with normal iron metabolism.</li>
+                        <li>Requirements for vitamin C may be increased during times of stress.</li>
+                        <li>Zinc may assist in the healing of minor skin wounds.</li>
+                        <li>Vitamin C is a vital cofactor for several enzymatic reactions in the body.</li>
+                        <li>Vitamin C is required for the antimicrobial activity of white blood cells.</li>
                         <li>Dehydroascorbic acid is immediately reduced to ascorbic acid upon entering the cell which is mediated by two major pathways; chemical reduction by glutathione and enzymatic reduction using glutaredoxin, a glutathione-dependent enzyme.</li>
-                        <li>Glutathione is vital constituent of cells throughout the body, acting as a redox buffer and as a cofactor for signal transduction </li>
-                        <li>Honey has traditionally been used as a therapy to help heal wounds and conditions of the gut</li>
-                        <li>Honey is well documented to have anti-microbial, anti-viral and anti-fungal activity </li>
-                        <li>When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form dehydroascorbic acid, which is transported into the neutrophil and rapidly reduced to ascorbic acid by the protein glutaredoxin. As a result of this recycling of extracellular ascorbic acid, the neutrophil internal concentration of ascorbic acid increases 10-fold</li>
-                        <li>Ascorbic acid is transported into the cell by sodium-dependent vitamin C transporters SVCT1 and SVCT2, one or both of which are found in most tissues. Dehydroascorbic acid is transported by glucose transporters GLUT1 and GLUT3, and, in insulin-sensitive tissues, also by GLUT4. </li>
-                        <li>Neutrophils, monocytes and lymphocytes become saturated with vitamin C when dosed at 100 mg per day and demonstrate a concentration at least 14-fold higher than plasma vitamin C </li>
-                        <li>Bioavailability of vitamin C decreases with increasing dosage. Bioavailability is demonstrated to be complete at a dose of 200 mg daily whereas at higher doses at 1250 mg daily, bioavailability declines to less than 50% </li>
-                        <li>Vitamin C daily doses above 400 mg have no evident value as with increasing doses the bioavailability decreases and excess vitamin C is excreted in urine </li>
-                        <li>Plateau plasma vitamin C is close to maximum when dosed at 200 mg daily with plasma concentrations near saturation at 400 mg daily. Complete plasma saturation occurrs at 1000 mg daily but at the expense of decreased bioavailability increased urinary excretion </li>
-                        <li>At vitamin C doses of 1000 mg daily, urine uric acid and oxalate may become elevated </li>
-                        <li>At doses greater than 100 mg/day, plasma concentrations reach a plateau but at doses greater than 400 mg/day, further increases in plasma concentrations are minimal </li>
-                        <li>Tight control of plasma vitamin C levels are due to absorption (bioavailability), tissue transport, renal reabsorption and excretion and utilisation </li>
+                        <li>Glutathione is vital constituent of cells throughout the body, acting as a redox buffer and as a cofactor for signal transduction.</li>
+                        <li>Honey has traditionally been used as a therapy to help heal wounds and conditions of the gut.</li>
+                        <li>Honey is well documented to have anti-microbial, anti-viral and anti-fungal activity.</li>
+                        <li>When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form dehydroascorbic acid, which is transported into the neutrophil and rapidly reduced to ascorbic acid by the protein glutaredoxin. As a result of this recycling of extracellular ascorbic acid, the neutrophil internal concentration of ascorbic acid increases 10-fold.</li>
+                        <li>Ascorbic acid is transported into the cell by sodium-dependent vitamin C transporters SVCT1 and SVCT2, one or both of which are found in most tissues. Dehydroascorbic acid is transported by glucose transporters GLUT1 and GLUT3, and, in insulin-sensitive tissues, also by GLUT4.</li>
+                        <li>Neutrophils, monocytes and lymphocytes become saturated with vitamin C when dosed at 100 mg per day and demonstrate a concentration at least 14-fold higher than plasma vitamin C.</li>
+                        <li>Bioavailability of vitamin C decreases with increasing dosage. Bioavailability is demonstrated to be complete at a dose of 200 mg daily whereas at higher doses at 1250 mg daily, bioavailability declines to less than 50%.</li>
+                        <li>Vitamin C daily doses above 400 mg have no evident value as with increasing doses the bioavailability decreases and excess vitamin C is excreted in urine.</li>
+                        <li>Plateau plasma vitamin C is close to maximum when dosed at 200 mg daily with plasma concentrations near saturation at 400 mg daily. Complete plasma saturation occurrs at 1000 mg daily but at the expense of decreased bioavailability increased urinary excretion.</li>
+                        <li>At vitamin C doses of 1000 mg daily, urine uric acid and oxalate may become elevated.</li>
+                        <li>At doses greater than 100 mg/day, plasma concentrations reach a plateau but at doses greater than 400 mg/day, further increases in plasma concentrations are minimal.</li>
+                        <li>Tight control of plasma vitamin C levels are due to absorption (bioavailability), tissue transport, renal reabsorption and excretion and utilisation.</li>
                     </ul>
                 </p>
                 
@@ -3680,11 +3658,11 @@ class ModifyProduct extends Command
 
                 <p>
                     <ul>
-                        <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
-                        <li>For the symptomatic relief of recurrent upper respiratory tract infections.</li>
-                        <li>Relief of symptoms of mild upper respiratory infections.</li>
                         <li>For the symptomatic relief of upper respiratory tract infections.</li>
+                        <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
+                        <li>Relief of symptoms of mild upper respiratory infections.</li>
                         <li>May assist in the management of upper respiratory tract infections.</li>
+                        <li>For the symptomatic relief of recurrent upper respiratory tract infections.</li>
                     </ul>
                 </p>
 
@@ -3692,26 +3670,26 @@ class ModifyProduct extends Command
 
                 <p>
                     <ul>
-                        <li>May assist in supporting and maintaining healthy immune function</li>
-                        <li>The combination of vitamin C and zinc supports healthy connective tissue function</li>
-                        <li>Vitamin C assists with normal iron metabolism</li>
-                        <li>Requirements for vitamin C may be increased during times of stress</li>
-                        <li>Zinc may assist in the healing of minor skin wounds</li>
-                        <li>Vitamin C is a vital cofactor for several enzymatic reactions in the body</li>
-                        <li>Vitamin C is required for the antimicrobial activity of white blood cells</li>
+                        <li>May assist in supporting and maintaining healthy immune function.</li>
+                        <li>The combination of vitamin C and zinc supports healthy connective tissue function.</li>
+                        <li>Vitamin C assists with normal iron metabolism.</li>
+                        <li>Requirements for vitamin C may be increased during times of stress.</li>
+                        <li>Zinc may assist in the healing of minor skin wounds.</li>
+                        <li>Vitamin C is a vital cofactor for several enzymatic reactions in the body.</li>
+                        <li>Vitamin C is required for the antimicrobial activity of white blood cells.</li>
                         <li>Dehydroascorbic acid is immediately reduced to ascorbic acid upon entering the cell which is mediated by two major pathways; chemical reduction by glutathione and enzymatic reduction using glutaredoxin, a glutathione-dependent enzyme.</li>
-                        <li>Glutathione is vital constituent of cells throughout the body, acting as a redox buffer and as a cofactor for signal transduction </li>
-                        <li>Honey has traditionally been used as a therapy to help heal wounds and conditions of the gut</li>
-                        <li>Honey is well documented to have anti-microbial, anti-viral and anti-fungal activity </li>
-                        <li>When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form dehydroascorbic acid, which is transported into the neutrophil and rapidly reduced to ascorbic acid by the protein glutaredoxin. As a result of this recycling of extracellular ascorbic acid, the neutrophil internal concentration of ascorbic acid increases 10-fold</li>
-                        <li>Ascorbic acid is transported into the cell by sodium-dependent vitamin C transporters SVCT1 and SVCT2, one or both of which are found in most tissues. Dehydroascorbic acid is transported by glucose transporters GLUT1 and GLUT3, and, in insulin-sensitive tissues, also by GLUT4. </li>
-                        <li>Neutrophils, monocytes and lymphocytes become saturated with vitamin C when dosed at 100 mg per day and demonstrate a concentration at least 14-fold higher than plasma vitamin C </li>
-                        <li>Bioavailability of vitamin C decreases with increasing dosage. Bioavailability is demonstrated to be complete at a dose of 200 mg daily whereas at higher doses at 1250 mg daily, bioavailability declines to less than 50% </li>
-                        <li>Vitamin C daily doses above 400 mg have no evident value as with increasing doses the bioavailability decreases and excess vitamin C is excreted in urine </li>
-                        <li>Plateau plasma vitamin C is close to maximum when dosed at 200 mg daily with plasma concentrations near saturation at 400 mg daily. Complete plasma saturation occurrs at 1000 mg daily but at the expense of decreased bioavailability increased urinary excretion </li>
-                        <li>At vitamin C doses of 1000 mg daily, urine uric acid and oxalate may become elevated </li>
-                        <li>At doses greater than 100 mg/day, plasma concentrations reach a plateau but at doses greater than 400 mg/day, further increases in plasma concentrations are minimal </li>
-                        <li>Tight control of plasma vitamin C levels are due to absorption (bioavailability), tissue transport, renal reabsorption and excretion and utilisation </li>
+                        <li>Glutathione is vital constituent of cells throughout the body, acting as a redox buffer and as a cofactor for signal transduction.</li>
+                        <li>Honey has traditionally been used as a therapy to help heal wounds and conditions of the gut.</li>
+                        <li>Honey is well documented to have anti-microbial, anti-viral and anti-fungal activity.</li>
+                        <li>When exposed to bacteria, neutrophils oxidize extracellular ascorbic acid to form dehydroascorbic acid, which is transported into the neutrophil and rapidly reduced to ascorbic acid by the protein glutaredoxin. As a result of this recycling of extracellular ascorbic acid, the neutrophil internal concentration of ascorbic acid increases 10-fold.</li>
+                        <li>Ascorbic acid is transported into the cell by sodium-dependent vitamin C transporters SVCT1 and SVCT2, one or both of which are found in most tissues. Dehydroascorbic acid is transported by glucose transporters GLUT1 and GLUT3, and, in insulin-sensitive tissues, also by GLUT4.</li>
+                        <li>Neutrophils, monocytes and lymphocytes become saturated with vitamin C when dosed at 100 mg per day and demonstrate a concentration at least 14-fold higher than plasma vitamin C.</li>
+                        <li>Bioavailability of vitamin C decreases with increasing dosage. Bioavailability is demonstrated to be complete at a dose of 200 mg daily whereas at higher doses at 1250 mg daily, bioavailability declines to less than 50%.</li>
+                        <li>Vitamin C daily doses above 400 mg have no evident value as with increasing doses the bioavailability decreases and excess vitamin C is excreted in urine.</li>
+                        <li>Plateau plasma vitamin C is close to maximum when dosed at 200 mg daily with plasma concentrations near saturation at 400 mg daily. Complete plasma saturation occurrs at 1000 mg daily but at the expense of decreased bioavailability increased urinary excretion.</li>
+                        <li>At vitamin C doses of 1000 mg daily, urine uric acid and oxalate may become elevated.</li>
+                        <li>At doses greater than 100 mg/day, plasma concentrations reach a plateau but at doses greater than 400 mg/day, further increases in plasma concentrations are minimal.</li>
+                        <li>Tight control of plasma vitamin C levels are due to absorption (bioavailability), tissue transport, renal reabsorption and excretion and utilisation.</li>
                     </ul>
                 </p>
 
@@ -4024,27 +4002,27 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relief of symptoms of mild upper respiratory infections.  </li>
-                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
-                        <li>Helps maintain healthy digestive function. </li>
-                        <li>May assist in the management of medically diagnosed irritable bowel syndrome</li>
+                        <li>Relief of symptoms of mild upper respiratory infections.</li>
                         <li>Relief or treatment of diarrhoea.</li>
-                        <li>Aids digestion.</li>
+                        <li>Helps maintain healthy digestive function.</li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome.</li>
+                        <li>May assist in the management of medically diagnosed irritable bowel syndrome.</li>
                         <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
-                        
+                        <li>Aids digestion.</li>
                     </ul>
+
                 </p>
                 
                 <strong>SPECIFIC INDICATIONS</strong>
                 
                 <p>
                     <ul>
-                        <li>Relieves gastrointestinal discomfort</li>
-                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile</li>
-                        <li>Supports a healthy immune system</li>
-                        <li>Helps to maintain healthy skin</li>
-                        <li>Supports skin health</li>
+                        <li>Relieves gastrointestinal discomfort.</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
+                        <li>Supports a healthy immune system.</li>
+                        <li>Helps to maintain healthy skin.</li>
+                        <li>Supports skin health.</li>
                     </ul>
                 </p>
                 
@@ -4331,15 +4309,14 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relief of symptoms of mild upper respiratory infections.  </li>
-                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
                         <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
-                        <li>Helps maintain healthy digestive function. </li>
-                        <li>May assist in the management of medically diagnosed irritable bowel syndrome</li>
+                        <li>Relief of symptoms of mild upper respiratory infections.</li>
                         <li>Relief or treatment of diarrhoea.</li>
-                        <li>Aids digestion.</li>
+                        <li>Helps maintain healthy digestive function.</li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome.</li>
+                        <li>May assist in the management of medically diagnosed irritable bowel syndrome.</li>
                         <li>May assist in the maintenance of normal/healthy cholesterol levels in healthy individuals.</li>
-                        
+                        <li>Aids digestion.</li>
                     </ul>
                 </p>
                 
@@ -4347,11 +4324,11 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Relieves gastrointestinal discomfort</li>
-                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile</li>
-                        <li>Supports a healthy immune system</li>
-                        <li>Helps to maintain healthy skin</li>
-                        <li>Supports skin health</li>
+                        <li>Relieves gastrointestinal discomfort.</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
+                        <li>Supports a healthy immune system.</li>
+                        <li>Helps to maintain healthy skin.</li>
+                        <li>Supports skin health.</li>
                     </ul>
                 </p>
                 
@@ -4649,10 +4626,9 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>The NanoCelle delivery platform produces a nanoparticle-sized molecule that enhances nutrient absorption and bioavailability.</li>
-                        <li>The vitamin B12 nanoparticles have an average size between 100 nm to 300 nm (0.1-0.3 microns)</li>
-                        <li>Vitamin B12 is a cofactor involved in the methylation cycle that involves protein and DNA methylation and synthesis of nucleotides (purines and pyrimidines)</li>
-                        <li>Vitamin B12 is essential for DNA synthesis. </li>
+                        <li>The vitamin B12 nanoparticles have an average size between 100 nm to 300 nm (0.1-0.3 microns).</li>
+                        <li>Vitamin B12 is a cofactor involved in the methylation cycle that involves protein and DNA methylation and synthesis of nucleotides (purines and pyrimidines).</li>
+                        <li>Vitamin B12 is essential for DNA synthesis.</li>
                         <li>Methionine is required for the synthesis of myelin and therefore vitamin B12 is required for healthy myelin production and nerve impulses.</li>
                         <li>Vitamin B12 is required for red blood cell production (erythropoiesis) and other haematological cells.</li>
                         <li>Vitamin B12 is a mitochondrial enzyme cofactor involved in the synthesis of succinyl-CoA from amino acids and fatty acids which then enters the tricarboxylic acid (TCA) cycle for energy (ATP) production in cells.</li>
@@ -4660,8 +4636,8 @@ class ModifyProduct extends Command
                         <li>Vitamin B12 may assist in lowering plasma homocysteine levels.</li>
                         <li>Vitamin B12 supports healthy neurological function.</li>
                         <li>Suitable for population groups at increased risk of vitamin B12 deficiency, including strict vegetarians and vegans, due to dietary vitamin B12 being obtained from foods of animal origin including meat, fish, dairy and eggs.</li>
-                        <li>Suitable for population groups at increased risk of vitamin B12 deficiency including the elderly who are reported to have lower serum concentrations of vitamin B12 than their younger counter parts. Low stomach acid secretion reported in the elderly results in decreased bioavailability of vitamin B12 from food.</li>
-                        <li>Mecobalamin is a biologically active form of vitamin B12. </li>    
+                        <li>Suitable for population groups at increased risk of vitamin B12 deficiency, including the elderly who are reported to have lower serum concentrations of vitamin B12 than their younger counter parts. Low stomach acid secretion reported in the elderly results in decreased bioavailability of vitamin B12 from food.</li>
+                        <li>Methylcobalamin is a biologically active form of vitamin B12.</li>
                     </ul>
                 </p>
                 
@@ -4867,13 +4843,13 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>The micellization process produces nanoparticle-sized molecules that enhances nutrient bioavailability</li>
-                        <li>Vitamin B12 is a cofactor involved in the methylation cycle that involves protein and DNA methylation and synthesis of nucleotides (purines and pyrimidines)</li>
-                        <li>Vitamin B12 is essential for DNA synthesis</li>
-                        <li>Vitamin B12 is an essential cofactor for the conversion of homocysteine to methionine</li>
+                        <li>The micellization process produces nanoparticle-sized molecules that enhances nutrient bioavailability.</li>
+                        <li>Vitamin B12 is a cofactor involved in the methylation cycle that involves protein and DNA methylation and synthesis of nucleotides (purines and pyrimidines).</li>
+                        <li>Vitamin B12 is essential for DNA synthesis.</li>
+                        <li>Vitamin B12 is an essential cofactor for the conversion of homocysteine to methionine.</li>
                         <li>Methionine is required for the synthesis of myelin and therefore vitamin B12 is required for healthy myelin production and nerve impulses.</li>
-                        <li>Vitamin B12 is required for red blood cell production (erythropoiesis) and other haematological cells.</li>
                         <li>Vitamin B12 is a mitochondrial enzyme cofactor involved in the synthesis of succinyl-CoA from amino acids and fatty acids which then enters the tricarboxylic acid (TCA) cycle for energy (ATP) production in cells.</li>
+                        <li>Vitamin B12 is required for red blood cell production (erythropoiesis) and other haematological cells.</li>
                     </ul>
                 </p>
                 
@@ -5083,8 +5059,8 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                    <li>Vitamin D helps calcium absorption, and a diet deficient in calcium can lead to osteoporosis in later life.</li>
-                    <li>Prevention/treatment of vitamin D and/or nutritional deficiency.</li>
+                        <li>Vitamin D helps calcium absorption, and a diet deficient in calcium can lead to osteoporosis in later life.</li>
+                        <li>Prevention/treatment of vitamin D and/or nutritional deficiency.</li>
                     </ul>
                 </p>
                 
@@ -5099,7 +5075,7 @@ class ModifyProduct extends Command
                         <li>Vitamin D3 may help to promote healthy respiratory function.</li>
                         <li>Vitamin D3 is involved in the attenuation of inflammatory responses and conditions within the body.</li>
                         <li>The micellization process produces nano-sized particles that enhances nutrient bioavailability.</li>
-                        <li>Vitamin D3 is associated with proper musculoskeletal health (bone and muscle fibres)</li>
+                        <li>Vitamin D3 is associated with proper musculoskeletal health (bone and muscle fibres).</li>
                     </ul>
                 </p>
                 
@@ -5302,13 +5278,11 @@ class ModifyProduct extends Command
                 'practitioner_summary' =>
                     '
                 <ul>
-                <li>L-arginine is the precursor to nitric oxide (NO) synthesis, an important cellular signaling molecule involved in many physiological processes and is most well known as a powerful vasodilator of blood vessels that regulates blood flow.</li>
-                <li>The ergogenic affects of creatine are evident for high-intensity exercise of short duration and have been shown to increase muscle mass when combined with an exercise program.</li>
-                <li>Supplementation of beta-alanine is required to achieve the active daily dose required to significantly elevate intramuscular carnosine and it increases dose-dependently.  Increasing muscle carnosine concentration may improve athletic performance in exercise tasks that accrue a high level of muscle acidosis, improving high-intensity intermittent exercise performance and time to fatigue.</li>
-                <li>Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance; namely dopamine, noradrenalineand adrenaline.</li>
-                <li>Caffeine is widely used as an enhancement for athletic personmance via its broad range of metabolic, hormonal and physiologic effects. Guarana is a natural source of caffeine.  Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.</li>
-                
-                
+                    <li>L-arginine is the precursor to nitric oxide (NO) synthesis, an important cellular signaling molecule involved in many physiological processes and is most well known as a powerful vasodilator of blood vessels that regulates blood flow.</li>
+                    <li>The ergogenic affects of creatine are evident for high-intensity exercise of short duration and have been shown to increase muscle mass when combined with an exercise program.</li>
+                    <li>Supplementation of beta-alanine is required to achieve the active daily dose required to significantly elevate intramuscular carnosine and it increases dose-dependently.  Increasing muscle carnosine concentration may improve athletic performance in exercise tasks that accrue a high level of muscle acidosis, improving high-intensity intermittent exercise performance and time to fatigue.</li>
+                    <li>Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance; namely dopamine, noradrenalineand adrenaline.</li>
+                    <li>Caffeine is widely used as an enhancement for athletic personmance via its broad range of metabolic, hormonal and physiologic effects. Guarana is a natural source of caffeine.  Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.</li>
                 </ul>
 
                 <p>
@@ -5595,30 +5569,19 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>Supports energy production.</li>
-                        <li>Supports skin health.</li>
-                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
-                        <li>Coenzyme Q10 is present in all cells and membranes and is critical for ATP (energy) production.</li>
-                    </ul>
-                </p>
-                
-                <p>
-                    Magnesium plays a significant role as a cofactor for more then 350 enzymes in the body and regulates 
-                    neuro-excitability and several ion channels.
-                </p>
-                
-                <p>
-                    <ul>
-                        <li>Magnesium orotate is required for normal intracellular function.</li>
-                        <li>Magnesium is required by most ATP-using enzymes in the form of Mg-ATP.</li>
-                        <li>May assist with muscle action deficits due to low levels of Coenzyme Q10.</li>
-                        <li>Supports a healthy immune system.</li>
-                        <li>Helps to maintain healthy skin.</li>
                         <li>Helps to maintain proper muscle function.</li>
                         <li>Helps to assist in muscle cell recovery after exercise.</li>
+                        <li>Helps to maintain healthy skin.</li>
+                        <li>Supports a healthy immune system.</li>
+                        <li>May assist with muscle action deficits due to low levels of Coenzyme Q10.</li>
+                        <li>Magnesium is required by most ATP-using enzymes in the form of Mg-ATP.</li>
+                        <li>Magnesium orotate is required for normal intracellular function.</li>
+                        <li>Magnesium plays a significant role as a cofactor for more then 350 enzymes in the body and regulates neuro-excitability and several ion channels.</li>
+                        <li>Coenzyme Q10 is present in all cells and membranes and is critical for ATP (energy) production.</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
+                        <li>Supports skin health.</li>
                     </ul>
                 </p>
-
-                
 
                 <p>
                     <strong>SPECIFIC CONDITIONS</strong>
@@ -5887,26 +5850,17 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>Supports energy production.</li>
-                        <li>Supports skin health.</li>
-                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
-                        <li>Coenzyme Q10 is present in all cells and membranes and is critical for ATP (energy) production.</li>
-                    </ul>
-                </p>
-                
-                <p>
-                    Magnesium plays a significant role as a cofactor for more then 350 enzymes in the body and regulates 
-                    neuro-excitability and several ion channels.
-                </p>
-                
-                <p>
-                    <ul>
-                        <li>Magnesium orotate is required for normal intracellular function.</li>
-                        <li>Magnesium is required by most ATP-using enzymes in the form of Mg-ATP.</li>
-                        <li>May assist with muscle action deficits due to low levels of Coenzyme Q10.</li>
-                        <li>Supports a healthy immune system.</li>
-                        <li>Helps to maintain healthy skin.</li>
                         <li>Helps to maintain proper muscle function.</li>
                         <li>Helps to assist in muscle cell recovery after exercise.</li>
+                        <li>Helps to maintain healthy skin.</li>
+                        <li>Supports a healthy immune system.</li>
+                        <li>May assist with muscle action deficits due to low levels of Coenzyme Q10.</li>
+                        <li>Magnesium is required by most ATP-using enzymes in the form of Mg-ATP.</li>
+                        <li>Magnesium orotate is required for normal intracellular function.</li>
+                        <li>Magnesium plays a significant role as a cofactor for more then 350 enzymes in the body and regulates neuro-excitability and several ion channels.</li>
+                        <li>Coenzyme Q10 is present in all cells and membranes and is critical for ATP (energy) production.</li>
+                        <li>Supports and/or assists with a healthy gastrointestinal microbial profile.</li>
+                        <li>Supports skin health.</li>
                     </ul>
                 </p>
 
@@ -6194,7 +6148,7 @@ class ModifyProduct extends Command
                         <li>Saccharomyces, Lactobacillus and Bifidobacterium help maintain healthy gastrointestinal homeostasis and permeability.</li>
                         <li>Supplementary zinc benefits children with diarrhoea because it is a vital micronutrient essential for protein synthesis, cell growth and differentiation, immune function and intestinal transport of water and electrolytes. Clinical research demonstrates zinc reduces severity and duration of diarrhoea in children.</li>
                         <li>Zinc deficiency is associated with an increased risk of gastrointestinal infections, adverse effects on the structure and function of the gastrointestinal tract and impaired immune function.</li>
-                        <li>Supports a healthy immune system</li>
+                        <li>Supports a healthy immune system.</li>
                     </ul>
                 </p>
                 
@@ -6559,12 +6513,12 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>May assist in the management of medically diagnosed irritable bowel syndrome.</li>
-                        <li>Treatment of mild digestive disorders.</li>
-                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
-                        <li>Aids digestion.</li>
-                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome</li>
-                        <li>Relief or treatment of diarrhoea.</li>
+                        <li>For the symptomatic relief of medically diagnosed irritable bowel syndrome.</li>
                         <li>Helps maintain healthy digestive function.</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Relief or treatment of diarrhoea.</li>
+                        <li>Aids digestion.</li>
+                        <li>Treatment of mild digestive disorders.</li>
                     </ul>
                 </p>
                 
@@ -6572,18 +6526,18 @@ class ModifyProduct extends Command
                 
                 <p>
                     <ul>
-                        <li>Assists in the management of mild digestive disturbances including bloating, flatulence and digestive discomfort </li>
-                        <li>May be used as a prophylactic for, or to support the relief of symptoms of infectious, antibiotic associated and traveller\'s diarrhoea </li>
-                        <li>Helps to support healthy immune function </li>
-                        <li>Saccharomyces boulardii may competitively inhibit the binding of Candida albicans to the gastrointestinal mucosa </li>
-                        <li>May help to reduce inflammatory mediators originating in the gastrointestinal tract </li>
-                        <li>May assismulating secretion of disaccharidase brush border enzymes - sucrase, lactase and maltase assisting in the digestion and absorption of associated dietary compounds </li>
-                        <li>Saccharomyces boulardii aids in the stimulation of secretory IgA release in the gastrointestinal tract that then targets potential pathogens </li>
-                        <li>Saccahromyces boulardii produces protein digesting enzymes (protease) that has shown in in vitro studies the ability to degrade/destroy Clostridium difficile toxin A and B </li>
-                        <li>In vitro research demonstrates that Saccharomyces boulardii can block pathogen toxin receptor sites or can act as a decoy receptor for pathogenic toxins </li>
-                        <li>Saccharomyces boulardii assists in preservation of tight junctions between enterocytes and colonocytes that may help to reduce gut permeability and the translocation of bacteria from the gut lumen to the blood stream </li>
-                        <li>Research has demonstrated that when giving Saccharomyces boulardii at the same time as antibiotics that the normal microbiota is re-established more rapidly than when antibiotics are given without Saccharomyces boulardii </li>
-                        <li>Saccharomyces boulardii increases the production of short chain fatty acids that function as signalling molecules to the body </li>
+                        <li>Assists in the management of mild digestive disturbances including bloating, flatulence and digestive discomfort.</li>
+                        <li>May be used as a prophylactic for, or to support the relief of symptoms of infectious, antibiotic associated and traveller\'s diarrhoea.</li>
+                        <li>Helps to support healthy immune function.</li>
+                        <li>Saccharomyces boulardii may competitively inhibit the binding of Candida albicans to the gastrointestinal mucosa.</li>
+                        <li>May help to reduce inflammatory mediators originating in the gastrointestinal tract.</li>
+                        <li>May assismulating secretion of disaccharidase brush border enzymes - sucrase, lactase and maltase assisting in the digestion and absorption of associated dietary compounds.</li>
+                        <li>Saccharomyces boulardii aids in the stimulation of secretory IgA release in the gastrointestinal tract that then targets potential pathogens.</li>
+                        <li>Saccahromyces boulardii produces protein digesting enzymes (protease) that has shown in in vitro studies the ability to degrade/destroy Clostridium difficile toxin A and B.</li>
+                        <li>In vitro research demonstrates that Saccharomyces boulardii can block pathogen toxin receptor sites or can act as a decoy receptor for pathogenic toxins.</li>
+                        <li>Saccharomyces boulardii assists in preservation of tight junctions between enterocytes and colonocytes that may help to reduce gut permeability and the translocation of bacteria from the gut lumen to the blood stream.</li>
+                        <li>Research has demonstrated that when giving Saccharomyces boulardii at the same time as antibiotics that the normal microbiota is re-established more rapidly than when antibiotics are given without Saccharomyces boulardii.</li>
+                        <li>Saccharomyces boulardii increases the production of short chain fatty acids that function as signalling molecules to the body.</li>
 
                     </ul>
                 </p>
@@ -7376,8 +7330,10 @@ class ModifyProduct extends Command
                     <p>
                         <ul>
                             <li>
-                                Vitamin D is required for proper cellular and immunological function Vitamin D3
-                                supplementation may increase serum vitamin D levels and bone mineral density (BMD) in
+                                Vitamin D is required for proper cellular and immunological function.
+                            </li>
+                            <li>
+                                Vitamin D3 supplementation may increase serum vitamin D levels and bone mineral density (BMD) in
                                 vitamin D deficient individuals.
                             </li>
                             <li>
@@ -7407,9 +7363,11 @@ class ModifyProduct extends Command
                             </li>
                             <li>
                                 Vitamin K2 (menaquinone-7) supplementation may improve serum vitamin K status and may
-                                help to reduce bone loss in postmenopausal women Vitamin K is required for the post translational
-                                carboxylation of glutamate into gamma-carboxyglutamate (Gla) residues in Gla-proteins that are
-                                required for blood coagulation and bone mineralization.
+                                help to reduce bone loss in postmenopausal women.
+                            </li>
+                            <li>
+                                Vitamin K is required for the post translational carboxylation of glutamate into gamma-carboxyglutamate
+                                (Gla) residues in Gla-proteins that are required for blood coagulation and bone mineralization.
                             </li>
                             <li>
                                 Vitamin K2 serves as an obligatory cofactor for an essential carboxylase enzyme
@@ -7451,7 +7409,6 @@ class ModifyProduct extends Command
                     <p>
                         No specific conditions included on record.
                     </p>
-                    <br>
                     <p>
                         <strong>WARNINGS</strong>
                     </p>
@@ -7661,27 +7618,13 @@ class ModifyProduct extends Command
                 </p>
                 <p>
                     <ul>
-                        <li>
-                            Treatment of symptoms of mild infections of upper respiratory tract
-                        </li>
-                        <li>
-                            Helps maintain healthy digestive function
-                        </li>
-                        <li>
-                            Aids, assists or helps in the maintenance or improvement of general well-being
-                        </li>
-                        <li>
-                            Relief of symptoms of mild upper respiratory infections
-                        </li>
-                        <li>
-                            For the symptomatic relief of upper respiratory tract infections
-                        </li>
-                        <li>
-                            May assist in the management of upper respiratory tract infections
-                        </li>
-                        <li>
-                            Relief of the symptons of colds
-                         </li>
+                        <li>Relief of the symptoms of colds.</li>
+                        <li>Helps maintain healthy digestive function.</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Relief of symptoms of mild upper respiratory infections.</li>
+                        <li>For the symptomatic relief of upper respiratory tract infections.</li>
+                        <li>May assist in the management of upper respiratory tract infections.</li>
+                        <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
                     </ul>
                 </p>
                 <br>
@@ -7692,9 +7635,11 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>
-                            May assist in supporting and maintaining healthy immune function. Short-chain fatty acids
-                            produced from the metabolism of Arabinogalactan (ResistAid&trade;) supports healthy immune
-                            function in healthy individuals.
+                            May assist in supporting and maintaining healthy immune function.
+                        </li>
+                        <li>
+                            Short-chain fatty acids produced from the metabolism of Arabinogalactan (ResistAid&trade;)
+                            supports healthy immune function in healthy individuals.
                         </li>
                         <li>
                             Arabinogalactan (ResistAid&trade;) is a prebiotic and produces short-chain fatty acids upon
@@ -7737,9 +7682,6 @@ class ModifyProduct extends Command
                         <li>
                             Lactobacillus paracasei and Bifidobacterium animalis ssp. lactis may improve specific immune
                             responses and influence immune regulation.
-                        </li>
-                        <li>
-                            Vegetables and MK-4 that is found in animal products.
                         </li>
                     </ul>
                 </p>
@@ -7942,24 +7884,13 @@ class ModifyProduct extends Command
                 </p>
                 <p>
                     <ul>
-                        <li>
-                            Treatment of symptoms of mild infections of upper respiratory tract
-                        </li>
-                        <li>
-                            Helps maintain healthy digestive function
-                        </li>
-                        <li>
-                            Aids, assists or helps in the maintenance or improvement of general well-being
-                        </li>
-                        <li>
-                            Relief of symptoms of mild upper respiratory infections
-                        </li>
-                        <li>
-                            For the symptomatic relief of upper respiratory tract infections
-                        </li>
-                        <li>
-                            May assist in the management of upper respiratory tract infections
-                        </li>
+                        <li>May assist in the management of upper respiratory tract infections.</li>
+                        <li>Relief of the symptoms of colds.</li>
+                        <li>Helps maintain healthy digestive function.</li>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>For the symptomatic relief of upper respiratory tract infections.</li>
+                        <li>Relief of symptoms of mild upper respiratory infections.</li>
+                        <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
                     </ul>
                 </p>
                 <br>
@@ -7970,8 +7901,10 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>
-                            May assist in supporting and maintaining healthy immune function. Short-chain fatty acids
-                            produced from the metabolism of Arabinogalactan (ResistAid&trade;) supports healthy immune
+                            May assist in supporting and maintaining healthy immune function.
+                        </li>
+                        <li>
+                            Short-chain fatty acids produced from the metabolism of Arabinogalactan (ResistAid&trade;) supports healthy immune
                             function in healthy individuals.
                         </li>
                         <li>
@@ -7981,10 +7914,6 @@ class ModifyProduct extends Command
                         <li>
                             Lactoferrin is naturally found in colostrum and human milk and is a component of the
                             innate immune response providing broad-spectrum anti-microbial and anti-viral activity.
-                        </li>
-                        <li>
-                            Lactoferrin combined with bovine milk-derived IgG immunoglobulins may decrease the
-                            incidence of colds and may also reduce the duration of cold associated symptoms.
                         </li>
                         <li>
                             Colostrum and IgG immunoglobulins provide important innate immune supporting proteins that
@@ -8017,7 +7946,8 @@ class ModifyProduct extends Command
                             responses and influence immune regulation.
                         </li>
                         <li>
-                            Vegetables and MK-4 that is found in animal products.
+                            Lactoferrin combined with bovine milk-derived IgG immunoglobulins may decrease the
+                            incidence of colds and may also reduce the duration of cold associated symptoms.
                         </li>
                     </ul>
                 </p>
