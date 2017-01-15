@@ -21,6 +21,33 @@
                         </span>
                     </p>
 
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
+                            <strong>2017:</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28069054" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Palacios T, Vitetta L, Coulson S, Madigan CD, Denyer GS, Caterson ID. </strong>
+                                The effect of a novel probiotic on metabolic biomarkers in adults with prediabetes and recently diagnosed type 2 diabetes mellitus: study protocol for a randomized controlled trial.
+                                <em> Trials. 2017 Jan 9;18(1):7. </em>
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28080206" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Vitetta L, Coulson S, Thomsen M, Nguyen T, Hall S. </strong>
+                                Probiotics, D-Lactic Acidosis, Oxidative Stress and Strain Specificity. .
+                                <em>Gut Microbes. 2017 Jan 12:0. </em>
+                            </span>
+                        </a>
+                    </p>
+
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
                             <strong>2016:</strong>
