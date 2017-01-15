@@ -727,6 +727,7 @@ class ModifyProduct extends Command
                     ',
                 'practitioner_summary' =>
                     '
+                    <strong>STANDARD INDICATIONS</strong>
                     <p>
                         <ul>
                             <li>Help reduce effects of mild anxiety and nervous tension.</li>
