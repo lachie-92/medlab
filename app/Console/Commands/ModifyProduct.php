@@ -7953,7 +7953,6 @@ class ModifyProduct extends Command
                         </li>
                     </ul>
                 </p>
-                <br>
                 <p>
                     <strong>WARNINGS</strong>
                 </p>
