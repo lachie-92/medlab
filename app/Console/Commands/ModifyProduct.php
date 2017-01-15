@@ -7629,7 +7629,6 @@ class ModifyProduct extends Command
                         <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
                     </ul>
                 </p>
-                <br>
                 <p>
                     <strong>SPECIFIC INDICATIONS</strong>
                 </p>
@@ -7687,7 +7686,6 @@ class ModifyProduct extends Command
                         </li>
                     </ul>
                 </p>
-                <br>
                 <p>
                     <strong>WARNINGS</strong>
                 </p>
@@ -7895,7 +7893,6 @@ class ModifyProduct extends Command
                         <li>Treatment of symptoms of mild infections of upper respiratory tract.</li>
                     </ul>
                 </p>
-                <br>
                 <p>
                     <strong>SPECIFIC INDICATIONS</strong>
                 </p>
