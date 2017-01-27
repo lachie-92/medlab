@@ -32,7 +32,7 @@
 
 
 
-
+<!--
 
                     <a name="DigitalMarketingCoordinator"></a>
                     <h3>Digital Marketing Coordinator</h3>
@@ -79,7 +79,6 @@
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Digital Marketing Coordinator">recruit@medlab.co</a></p>
                     <hr>
 
-<!--
                     <a name="ClientRelationshipManager"></a>
                     <h3>Client Relationship Manager</h3>
                     <li>Client Relationship Manager</li>
