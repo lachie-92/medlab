@@ -21,7 +21,6 @@
                     </p>
                     <hr>
                     <h4>Positions Available</h4>
-                    <a href="#DigitalMarketingCoordinator">Digital Marketing Coordinator</a></br>
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
 
 
