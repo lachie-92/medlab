@@ -116,7 +116,7 @@
                             <br>
                             <br>
 
-                            a.<strong> DEPP.101</strong> - Medlab research staff collaborated with the University of Queensland, School of Medicine at the Mater Hospital Brisbane (Dr
+                            a.<strong> DEPP.101</strong> - Medlab research staff collaborated with the University of Queensland, School of Medicine at the Royal Brisbane and Women’s Hospital (Dr
                             Matthew Bambling), in recruiting participants with treatment-resistant depression for a single-group, 8-week study assessing the efficacy of SAMe
                             treatment therapy for symptoms of depression. Treatment-resistant participants were chosen to determine if an anti-depressant mechanism did indeed exist.
                             The outcome measures demonstrated a statistically significant improvement in depressive symptoms scores.
@@ -124,7 +124,7 @@
                             <br>
                             <br>
 
-                            b.<strong> DEPP.102</strong> - Medlab research staff collaborated with the University of Queensland, School of Medicine at the Mater Hospital Brisbane
+                            b.<strong> DEPP.102</strong> - Medlab research staff collaborated with the University of Queensland, School of Medicine at the Royal Brisbane and Women’s Hospital
                             (Dr Matthew Bambling), in recruiting participants with treatment-resistant depression for a single-group, 8-week study assessing the efficacy of a
                             patented novel treatment therapy for symptoms of depression. Treatment-resistant participants were chosen to determine if an anti-depressant mechanism
                             did indeed exist. The outcome measures demonstrated a statistically significant improvement in depressive symptom scores more so than SAMe (see Figure 1)
@@ -134,7 +134,7 @@
                             <br>
                             <br>
 
-                            c.<strong> DEPP.103</strong> - Medlab research staff in collaboration with The University of Queensland, School of Medicine at the Mater Hospital Brisbane (Dr
+                            c.<strong> DEPP.103</strong> - Medlab research staff in collaboration with The University of Queensland, School of Medicine at the Royal Brisbane and Women’s Hospital (Dr
                             Mathew Bambling), will recruit participants with treatment-resistant depression for a single-group, 12-week study to assess the efficacy of an evidence-based selection of
                             bacterial strains in treating symptoms of depression in combination with standard treatment. This will provide a platform to develop phase I and IIa/b studies in patients
                             with anxiety / mild to moderate depression.
@@ -142,7 +142,7 @@
                             <br>
                             <br>
 
-                            d.<strong> DEPP.104</strong> Medlab research staff in collaboration with The University of Queensland, School of Medicine at the Mater Hospital Brisbane (Dr Mathew Bambling),
+                            d.<strong> DEPP.104</strong> Medlab research staff in collaboration with The University of Queensland, School of Medicine at the Royal Brisbane and Women’s Hospital (Dr Mathew Bambling),
                             will recruit participants with treatment-resistant depression for a randomized, double-blinded placebo-controlled study for 12-weeks duration to assess the efficacy of
                             the compounds studied in project II combined with the probiotics studied in project III.
 
