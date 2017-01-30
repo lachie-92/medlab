@@ -128,7 +128,7 @@
                             (Dr Matthew Bambling), in recruiting participants with treatment-resistant depression for a single-group, 8-week study assessing the efficacy of a
                             patented novel treatment therapy for symptoms of depression. Treatment-resistant participants were chosen to determine if an anti-depressant mechanism
                             did indeed exist. The outcome measures demonstrated a statistically significant improvement in depressive symptom scores more so than SAMe (see Figure 1)
-                            providing scientific plausibility for a larger phase IIa double-blinded,placebo controlled study in patients with mild depression that is currently in design
+                            providing scientific plausibility for a larger phase IIa double-blinded, placebo controlled study in patients with mild depression that is currently in design
                             stage.
 
                             <br>
