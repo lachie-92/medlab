@@ -29,6 +29,26 @@
                     </p>
 
                     <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28080206" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Vitetta L, Coulson S, Thomsen M, Nguyen T, Hall S. </strong>
+                                Gut Microbes manuscript type: Commentary and views submission probiotics, D-Lactic acidosis, oxidative stress and strain specificity.
+                                <em> Gut Microbes. 2017 Jan 12:1-12. doi: 10.1080/19490976.2017.1279379. </em>
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28069054" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Palacios T, Vitetta L, Coulson S, Madigan CD, Denyer GS, Caterson ID. </strong>
+                                A combination of probiotics and magnesium orotate attenuate depression in a small SSRI resistant cohort: an intestinal anti-inflammatory response is suggested.
+                                <em> Inflammopharmacology. 2017 Feb 2. doi: 10.1007/s10787-017-0311-x</em>
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/28069054" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Palacios T, Vitetta L, Coulson S, Madigan CD, Denyer GS, Caterson ID. </strong>
@@ -39,9 +59,9 @@
                     </p>
 
                     <p>
-                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28080206" target="_blank">
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28155119" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
-                                <strong>Vitetta L, Coulson S, Thomsen M, Nguyen T, Hall S. </strong>
+                                <strong>Bambling M, Edwards SC, Hall S, Vitetta L. </strong>
                                 Probiotics, D-Lactic Acidosis, Oxidative Stress and Strain Specificity. .
                                 <em>Gut Microbes. 2017 Jan 12:0. </em>
                             </span>
@@ -52,6 +72,16 @@
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
                             <strong>2016:</strong>
                         </span>
+                    </p>
+
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28151252" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Colosimo M, Vitetta L.</strong>
+                                Chemotherapy-induced peripheral neuropathy management.
+                                <em>J Clin Oncol 2016 Jan 20;34(3_suppl):154.</em>
+                            </span>
+                        </a>
                     </p>
 
                     <p>
