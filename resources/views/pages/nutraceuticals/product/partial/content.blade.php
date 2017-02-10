@@ -302,7 +302,7 @@
                     <div class="panel-heading medlab_panel_title">
                         INGREDIENTS
                     </div>
-                    <div class="panel-body medlab_panel_content">
+                    <div class="panel-body medlab_panel_content" style="padding-bottom: 0;">
 
                         {!! $product->ingredients !!}
 
