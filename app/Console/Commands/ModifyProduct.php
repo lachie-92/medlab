@@ -323,7 +323,7 @@ class ModifyProduct extends Command
                                     <p>Citric acid</p>
                                     <p>Stevia</p>
                                     <p>Silica</p>
-                                    <strong>Note: Botanical extracts present in this formula may result in variations in colour and taste.</strong>
+                                    <strong>Note: Botanical extracts present in this product may result in variations in colour and taste from batch to batch.</strong>
                                 </td>
                             </tr>
                         </tbody>
@@ -630,7 +630,7 @@ class ModifyProduct extends Command
                                     <p>Citric acid</p>
                                     <p>Stevia</p>
                                     <p>Silica</p>
-                                    <strong>Note: Botanical extracts present in this formula may result in variations in colour and taste.</strong>
+                                    <strong>Note: Botanical extracts present in this product may result in variations in colour and taste from batch to batch.</strong>
                                 </td>
                             </tr>
                         </tbody>
@@ -963,7 +963,7 @@ class ModifyProduct extends Command
                                     <p>Citric acid</p>
                                     <p>Stevia</p>
                                     <p>Silica</p>
-                                    <strong>Note: Botanical extracts present in this formula may result in variations in colour and taste.</strong>
+                                    <strong>Note: Botanical extracts present in this product may result in variations in colour and taste from batch to batch.</strong>
                                 </td>
                             </tr>
                         </tbody>
