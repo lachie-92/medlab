@@ -250,7 +250,7 @@ class ModifyProduct extends Command
                             <tr>
                                 <td width="273" valign="top">
                                     <p>Magnesium as amino acid chelate TRAACS®</p>
-                                    <p>(bislgycinate chelate)</p>
+                                    <p>(bisglycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>150mg</p>
@@ -557,7 +557,7 @@ class ModifyProduct extends Command
                             <tr>
                                 <td width="273" valign="top">
                                     <p>Magnesium as amino acid chelate TRAACS®</p>
-                                    <p>(bislgycinate chelate)</p>
+                                    <p>(bisglycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>150mg</p>
@@ -890,7 +890,7 @@ class ModifyProduct extends Command
                             <tr>
                                 <td width="273" valign="top">
                                     <p>Magnesium as amino acid chelate TRAACS®</p>
-                                    <p>(bislgycinate chelate)</p>
+                                    <p>(bisglycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>150mg</p>
