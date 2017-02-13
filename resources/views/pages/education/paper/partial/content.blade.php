@@ -64,6 +64,7 @@
                         </span>
                     </p>
 
+                    <!--
                     <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/28151252" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
@@ -73,6 +74,7 @@
                             </span>
                         </a>
                     </p>
+                    -->
 
                     <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/27854317" target="_blank">
