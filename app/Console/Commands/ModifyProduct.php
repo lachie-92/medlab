@@ -1019,7 +1019,7 @@ class ModifyProduct extends Command
                     </p>
                     ',
                 'price_retail' => 71.98,
-                'price_wholesale' => 47.99,
+                'price_wholesale' => 47.00,
                 'image_path' => '/img/products/12mg_optima/mg_optima_relax_300g.jpeg',
                 'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_300g.jpeg',
                 'slug' => '12mg-optima-relax-300g-lemon-lime'
