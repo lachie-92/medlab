@@ -187,7 +187,7 @@
 
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                                Sean Hall (CEO) recently presented on Medlab's NanoCelle Delivery platform at The University of Sydney’s BioNano Technology and Biomedical Engineering summer school.</br>
+                                Sean Hall (CEO) recently presented on Medlab's NanoCelle Delivery platform at The University of Sydney’s BioNanoTechnology and Biomedical Engineering summer school.</br>
                         </h2>
                         <br>
                         <p>
