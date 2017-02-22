@@ -5286,8 +5286,8 @@ class ModifyProduct extends Command
                         <li>L-arginine is the precursor to nitric oxide (NO) synthesis, an important cellular signaling molecule involved in many physiological processes and is most well known as a powerful vasodilator of blood vessels that regulates blood flow.</li>
                         <li>The ergogenic affects of creatine are evident for high-intensity exercise of short duration and have been shown to increase muscle mass when combined with an exercise program.</li>
                         <li>Supplementation of beta-alanine is required to achieve the active daily dose required to significantly elevate intramuscular carnosine and it increases dose-dependently. Increasing muscle carnosine concentration may improve athletic performance in exercise tasks that accrue a high level of muscle acidosis, improving high-intensity intermittent exercise performance and time to fatigue.</li>
-                        <li>Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance; namely dopamine, noradrenalineand adrenaline.</li>
-                        <li>Caffeine is widely used as an enhancement for athletic personmance via its broad range of metabolic, hormonal and physiologic effects. Guarana is a natural source of caffeine. Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.</li>
+                        <li>Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance; namely dopamine, noradrenaline and adrenaline.</li>
+                        <li>Caffeine is widely used as an enhancement for athletic performance via its broad range of metabolic, hormonal and physiologic effects. Guarana is a natural source of caffeine. Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.</li>
                     </ul>
                 </p>
                 <p>
