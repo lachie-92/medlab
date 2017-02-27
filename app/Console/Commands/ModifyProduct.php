@@ -7227,15 +7227,15 @@ class ModifyProduct extends Command
                                     <p>
                                         <strong>Excipient Ingredients</strong>
                                     </p>
-                                    <p>Water</p>
+                                    <p>Water-purified</p>
+                                    <p>Steviol glycosides</p>
                                     <p>Modified vegetable oil</p>
                                     <p>Glycerol</p>
+                                    <p>Olive oil</p>
+                                    <p>Maize oil</p>
                                     <p>Anhydrous citric acid</p>
                                     <p>Potassium sorbate</p>
-                                    <p>Steviol glycosides</p>
                                     <p>Peppermint oil</p>
-                                    <p>Maize oil</p>
-                                    <p>Olive oil</p>
                                 </td>
                             </tr>
                         </tbody>
