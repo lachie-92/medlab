@@ -21,12 +21,63 @@
 
                             <div class="medlab_news_item_body">
 
+
+                                <div class="container">
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+
+                                        <a
+                                                @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                                href="/education/webinars/dehydration"
+                                                @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                                href="#"
+                                                @else
+                                                href="/account/login"
+                                                @endif
+                                                target="_blank">
+
+                                            <img alt="Dehydration: a reliable predictor of cognitive function in older adults"
+                                                 src="/img/webinar/medlab_dehydration_webinar.jpg"
+                                                 title="Dehydration: a reliable predictor of cognitive function in older adults"
+                                                 width="450px"
+                                                 class="img-responsive center-block">
+                                        </a>
+
+
+                                        </p>
+                                        <br>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+
+                                        <h2 style="text-align:center;">Dehydration: a reliable predictor of cognitive function in older adults</h2>
+                                        <p  style="text-align:center;">Presented by Professor Luis Vitetta</p>
+                                        <p  style="text-align:center;">Duration: 22 minutes</p>
+                                        <h3 style="text-align:center;">What you will learn in this webinar:</h3>
+                                        <ul >
+                                            <li>Water: a life medium</li>
+                                            <li>Dehydration of the elderly in General Practice
+                                                <ul>
+                                                    <li>Dehydration and Clinical Assessment</li>
+                                                    <li>Pathophysiology: body fluid balance required</li></ul></li>
+                                            <li>Why Older adults are at increased risk of Dehydration
+                                                <ul>
+                                                    <li>What is the best defense against dehydration</li>
+                                                </ul></li>
+                                            <li>Treatment Options
+                                                <ul>
+                                                    <li>Rehydration Options</li>
+                                                    <li>Symptomatic Therapy</li></ul></li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+
                                 <div class="container">
                                 <div class="col-md-5 col-sm-12 col-xs-12">
 
                                 <a
                                             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                            href="http://goo.gl/fUusyh"
+                                            href="/education/webinars/nanocelle"
                                             @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                             href="#"
                                             @else
@@ -49,6 +100,7 @@
 
                                         <h2 style="text-align:center;">Understanding the Clinical Applications of NanoCelle<sup>™</sup></h2>
                                         <p  style="text-align:center;">Presented by Professor Luis Vitetta</p>
+                                        <p  style="text-align:center;">Duration: 16 minutes</p>
                                         <h3 style="text-align:center;">What you will learn in this webinar:</h3>
                                         <ul >
                                             <li>What are nanoparticles, and their applications in medicine</li>
@@ -67,7 +119,7 @@
 
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                href="http://goo.gl/uhkgv7"
+                                                href="/education/webinars/nrgbiotic"
                                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                                 href="#"
                                                 @else
@@ -90,6 +142,7 @@
 
                                         <h2 style="text-align:center;">Unlocking the Clinical benefits of NRGBiotic</h2>                                            </h2>
                                         <p  style="text-align:center;">Presented by Dr Samantha Coulson</p>
+                                        <p  style="text-align:center;">Duration: 15 minutes</p>
                                         <p  style="text-align:center;">Unlock the benefits on one of Medlab's most prominent products.
                                             Currently undergoing clinical trial after a published pilot study was conducted. </p>
                                         <h3 style="text-align:center;"> Topics covered in this clinically relevant webinar include:</h3>
@@ -100,11 +153,7 @@
                                             <li>Brain-Gut Connection</li>
                                             <li>Depression and Published Pilot Trial and current trial</li>
                                         </ul>
-                                        <h3 style="text-align:center;"> Online exclusive:</h3>
-                                        <ul >
-                                            <li>Information packed and under 15 minutes!</li>
-                                            <li>Five easy multiple choice questions for your chance to win!</li>
-                                        </ul>
+
 
                                     </div>
                                 </div>
@@ -115,7 +164,7 @@
 
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                href="http://goo.gl/02ed6J"
+                                                href="/education/webinars/depression"
                                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                                 href="#"
                                                 @else
@@ -138,6 +187,7 @@
 
                                         <h2 style="text-align:center;">Depression and the Gut Microbiome</h2>
                                         <p  style="text-align:center;">Presented by Professor Luis Vitetta</p>
+                                        <p  style="text-align:center;">Duration: 25 minutes</p>
                                         <h3 style="text-align:center;">Topics covered in this clinically relevant webinar include:</h3>
                                         <ul >
                                             <li>Mental Health in the population</li>
@@ -146,13 +196,7 @@
                                             <li>Gut Microbiota in Depression</li>
                                             <li>Probiotics as an adjunct treatment option</li>
                                         </ul>
-                                        <h3 style="text-align:center;">Online exclusive:</h3>
 
-                                        <ul >
-                                            <li>Post-script: Medicinal Cannabis</li>
-                                            <li>Webinar Only Exclusive Offer!</li>
-
-                                        </ul>
 
                                     </div>
                                 </div>
@@ -164,7 +208,7 @@
 
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                href="http://goo.gl/uJHPxi"
+                                                href="/education/webinars/nafld"
                                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                                 href="#"
                                                 @else
@@ -172,9 +216,9 @@
                                                 @endif
                                                 target="_blank">
 
-                                            <img alt="Understanding the Clinical Application of NanoCelle"
+                                            <img alt="High Fat Diet, Probiotics and Non-Alcoholic Fatty Liver Disease"
                                                  src="/img/news/Medlab_HFD_NALFD_Webinar.jpg"
-                                                 title="Understanding the Clinical Application of NanoCelle"
+                                                 title="High Fat Diet, Probiotics and Non-Alcoholic Fatty Liver Disease"
                                                  width="450px"
                                                  class="img-responsive center-block">
                                         </a>
@@ -188,6 +232,7 @@
 
                                         <h2 style="text-align:center;">High Fat Diet, Probiotics and Non-Alcoholic Fatty Liver Disease</h2>
                                         <p  style="text-align:center;">Presented by Professor Luis Vitetta</p>
+                                        <p  style="text-align:center;">Duration: 27 minutes</p>
                                         <h3 style="text-align:center;">Key presentation features:</h3>
                                         <ul >
                                             <li>Epidemiology of Non-Alcoholic Fatty Liver Disease</li>
@@ -206,7 +251,7 @@
 
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                href="http://goo.gl/fBJJjj"
+                                                href="/education/webinars/probiotics"
                                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                                 href="#"
                                                 @else
@@ -229,8 +274,15 @@
 
                                         <h2 style="text-align:center;">Probiotics and Gut Health</h2>
                                         <p  style="text-align:center;">Presented by Professor Luis Vitetta</p>
+                                        <p  style="text-align:center;">Duration: 47 minutes</p>
                                         <p  style="text-align:center;">This webinar explores a range of topics including Bacteria, Dysbiosis and The Human Gut Microbiome and Medlab research. A great overall educational webinar.</p>
-
+                                        <h3 style="text-align:center;">Key presentation features:</h3>
+                                        <ul >
+                                            <li>Bacteria - how it impacts chronic disease</li>
+                                            <li>Gut Dysbiosis & Leaky Gut - understand these terms and treatments</li>
+                                            <li>Nutritional tips for Optimal Gut Health</li>
+                                            <li>And much much more...</li>
+                                        </ul>
 
                                     </div>
                                 </div>

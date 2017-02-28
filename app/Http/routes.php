@@ -157,6 +157,35 @@ Route::get('/education/practitioner-education', function () {
     return view('pages.education.practitioner-education.index');
 });
 
+Route::group(['middleware' => 'authPractitioner'], function () {
+
+
+    Route::get('/education/webinars/dehydration', function () {
+        return view('pages.education.webinars.dehydration.index');
+    });
+
+    Route::get('/education/webinars/depression', function () {
+        return view('pages.education.webinars.depression.index');
+    });
+
+    Route::get('/education/webinars/nafld', function () {
+        return view('pages.education.webinars.nafld.index');
+    });
+
+    Route::get('/education/webinars/nanocelle', function () {
+        return view('pages.education.webinars.nanocelle.index');
+    });
+
+    Route::get('/education/webinars/nrgbiotic', function () {
+        return view('pages.education.webinars.nrgbiotic.index');
+    });
+
+    Route::get('/education/webinars/probiotics', function () {
+        return view('pages.education.webinars.probiotics.index');
+    });
+
+});
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -368,6 +397,7 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     Route::get('/efficacy/podcast', function () {
         return view('pages.efficacy.podcast.index');
     });
+
 
 });
 
