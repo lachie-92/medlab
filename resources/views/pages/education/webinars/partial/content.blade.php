@@ -25,6 +25,8 @@
                                 <div class="container">
                                     <div class="col-md-5 col-sm-12 col-xs-12">
 
+
+
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
                                                 href="/education/webinars/dehydration"
@@ -71,7 +73,7 @@
 
                                     </div>
                                 </div>
-
+                                <hr>
                                 <div class="container">
                                 <div class="col-md-5 col-sm-12 col-xs-12">
 
