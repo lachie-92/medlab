@@ -15,9 +15,21 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
-                    <a href="/account/login"><button type="button" float="center" class="btn btn-success center-block">Educational webinars available to healthcare practitioners. Please click here to register or log in to view</button></a>
 
 
+
+                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+
+                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+
+                        <div class="center-block">
+                        <h3  style="text-align:center;">The following webinars are only available to Healthcare Practitioners. </h3>
+                        </div>
+                    @else
+                        <a href="/account/login"><button type="button" float="center" class="btn btn-success center-block">Educational webinars available to healthcare practitioners. Please click here to register or log in to view</button></a>
+                    @endif
+
+                       <hr>
 
                     <div class="medlab_news_item">
                         <div class="medlab_news_item_content_wrapper">
