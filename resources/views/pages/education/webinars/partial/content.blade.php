@@ -15,6 +15,9 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
+                    <a href="/account/login"><button type="button" float="center" class="btn btn-success center-block">Educational webinars available to healthcare practitioners. Please click here to register or log in to view</button></a>
+
+
 
                     <div class="medlab_news_item">
                         <div class="medlab_news_item_content_wrapper">
@@ -22,8 +25,16 @@
                             <div class="medlab_news_item_body">
 
 
+
+
+
+
+
                                 <div class="container">
                                     <div class="col-md-5 col-sm-12 col-xs-12">
+
+
+
 
 
 
