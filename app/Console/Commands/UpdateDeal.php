@@ -55,68 +55,6 @@ class UpdateDeal extends Command
 
         $buy_one_get_one_free_deals = [
 
-            // Till End of January
-            [
-                'product' => "Manuka-C 210g",
-                'name' => "January 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/01/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/01/2017 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "12Mg Optima Relax 300g Lemon Lime",
-                'name' => "January 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 3 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/01/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/01/2017 23:59:59'),
-                'minimum_qty' => '3',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "MultiBiotic 30's",
-                'name' => "January 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/01/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/01/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "GastroDaily",
-                'name' => "January 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/01/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/01/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "BioClean EPA:DHA + Plant Sterols 60s",
-                'name' => "January 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/01/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/01/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-
             //Till End of Feburary
             [
                 'product' => "NRGBiotic 60's",
@@ -165,7 +103,69 @@ class UpdateDeal extends Command
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '28/02/2017 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
-            ]
+            ],
+
+            //Till End of March
+            [
+                'product' => "BioticNatal",
+                'name' => "March 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Immune-5 Vanilla",
+                'name' => "March 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Immune-5 Raspberry",
+                'name' => "March 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Manuka-C 210g",
+                'name' => "March 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Manuka-C 105g",
+                'name' => "March 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
 
         ];
 
