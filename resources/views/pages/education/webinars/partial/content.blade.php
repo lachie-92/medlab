@@ -144,7 +144,7 @@
 
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                href="/education/webinars/nrgbiotic"
+                                                href="/education/webinars/nrgwebinar"
                                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                                 href="#"
                                                 @else

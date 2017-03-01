@@ -176,8 +176,8 @@ Route::group(['middleware' => 'authPractitioner'], function () {
         return view('pages.education.webinars.nanocelle.index');
     });
 
-    Route::get('/education/webinars/nrgbiotic', function () {
-        return view('pages.education.webinars.nrgbiotic.index');
+    Route::get('/education/webinars/nrgwebinar', function () {
+        return view('pages.education.webinars.nrgwebinar.index');
     });
 
     Route::get('/education/webinars/probiotics', function () {
