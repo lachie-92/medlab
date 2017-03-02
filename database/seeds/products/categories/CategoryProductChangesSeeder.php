@@ -169,7 +169,10 @@ class CategoryProductChangesSeeder extends Seeder
 
             foreach ($products_under_category as $product) {
 
-                $productList[$product]->categories()->attach($categoryList[$category]);
+                if(array_key_exists($product, $productList)) {
+                    $productList[$product]->categories()->attach($categoryList[$category]);
+                }
+
             }
         }
     }

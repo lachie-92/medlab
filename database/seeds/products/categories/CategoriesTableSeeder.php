@@ -25,6 +25,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/bone_3.jpeg',
+                'slug' => 'bone-health',
             ],
             'Digestion' => [
                 'description' =>
@@ -38,6 +39,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/digestive_1.jpg',
+                'slug' => 'digestion',
             ],
             'Cardiovascular' => [
                 'description' =>
@@ -51,6 +53,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/cardiovascular_1.jpg',
+                'slug' => 'cardiovascular',
             ],
             'Energy' => [
                 'description' =>
@@ -64,6 +67,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/Energy_1.jpg',
+                'slug' => 'energy',
             ],
             'Gastrointestinal Health' => [
                 'description' =>
@@ -77,6 +81,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/gastro_2.jpeg',
+                'slug' => 'gastrointestinal-health',
             ],
             'Immunity' => [
                 'description' =>
@@ -90,6 +95,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/immune_3.jpeg',
+                'slug' => 'immunity',
             ],
             'Inflammation' => [
                 'description' =>
@@ -103,6 +109,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/inflamation_1.jpeg',
+                'slug' => 'inflammation',
             ],
             'Kids' => [
                 'description' =>
@@ -116,6 +123,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/kids_3.jpeg',
+                'slug' => 'kids',
             ],
             'Mens' => [
                 'description' =>
@@ -129,6 +137,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/mens_1.jpg',
+                'slug' => 'mens',
             ],
             'Mitochondrial Function' => [
                 'description' =>
@@ -142,6 +151,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/mitochondria.jpeg',
+                'slug' => 'mitochondrial-function',
             ],
             'Nervous System' => [
                 'description' =>
@@ -155,6 +165,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/nervous_system_1.jpg',
+                'slug' => 'nervous-system',
             ],
             'Pregnancy' => [
                 'description' =>
@@ -168,6 +179,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/pregnancy_1.jpg',
+                'slug' => 'pregnancy',
             ],
             'Seniors' => [
                 'description' =>
@@ -181,6 +193,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/senior_1.jpeg',
+                'slug' => 'seniors',
             ],
             'Womens' => [
                 'description' =>
@@ -194,6 +207,7 @@ class CategoriesTableSeeder extends Seeder
                     </p>
                     ',
                 'image_path' => '/img/products/categories/Women_2.jpg',
+                'slug' => 'womens',
             ],
         ];
 
@@ -203,6 +217,7 @@ class CategoriesTableSeeder extends Seeder
                 'category_name' => $category,
                 'category_description' => $info['description'],
                 'image_path' => $info['image_path'],
+                'slug' => $info['slug'],
             ]);
         }
     }

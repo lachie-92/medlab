@@ -46,8 +46,10 @@ class ProductsSlugSeeder extends Seeder
 
         foreach ($product_and_slug as $product => $slug) {
 
-            $productList[$product]->slug = $slug;
-            $productList[$product]->save();
+            if(array_key_exists($product, $productList)) {
+                $productList[$product]->slug = $slug;
+                $productList[$product]->save();
+            }
         }
     }
 

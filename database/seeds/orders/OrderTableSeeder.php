@@ -14,8 +14,9 @@ class OrderTableSeeder extends Seeder
      */
     public function run()
     {
-        Order::create([
-            'user_id' => 3,
+
+        $new_order = Order::create([
+            'user_id' => $user->id,
             'shipping_address_title' => 'Test',
             'shipping_address_last_name' => 'Codeception',
             'shipping_address_street' => 'street',
@@ -38,11 +39,12 @@ class OrderTableSeeder extends Seeder
             'GST' => 32.36,
             'shipping_cost' => 11,
             'discount' => 96.61,
-            'grand_total' => 366.93
+            'grand_total' => 366.93,
+            'purchase_date' => \Carbon\Carbon::now()->format('Y-m-d H:i:s'),
         ]);
 
-        OrderedProduct::create([
-            'order_id' => 1000,
+        $biotic_jnr_line = OrderedProduct::create([
+            'order_id' => $new_order->id,
             'product_name' => 'Biotic Jnr.',
             'line_price' => 62.83,
             'line_quantity' => 3,
@@ -51,8 +53,8 @@ class OrderTableSeeder extends Seeder
             'line_total' => 188.49,
         ]);
 
-        OrderedProduct::create([
-            'order_id' => 1000,
+        $free_biotic_jnr_line = OrderedProduct::create([
+            'order_id' => $new_order->id,
             'product_name' => 'FREE - Biotic Jnr.',
             'line_price' => 62.83,
             'line_quantity' => 1,
@@ -61,8 +63,8 @@ class OrderTableSeeder extends Seeder
             'line_total' => 0,
         ]);
 
-        OrderedProduct::create([
-            'order_id' => 1000,
+        $enbiotic_line = OrderedProduct::create([
+            'order_id' => $new_order->id,
             'product_name' => 'Enbiotic 120\'s',
             'line_price' => 84.43,
             'line_quantity' => 2,
@@ -72,7 +74,7 @@ class OrderTableSeeder extends Seeder
         ]);
 
         OrderedProducts_Promotion::create([
-            'orderedProduct_id' => 1,
+            'orderedProduct_id' => $biotic_jnr_line->id,
             'promotion_name' => 'Biotic Jnr. Promotion',
             'type' => 'buy_one_get_one_free',
             'promotion_description' => 'Get one free for every three purchase',
@@ -80,7 +82,7 @@ class OrderTableSeeder extends Seeder
         ]);
 
         OrderedProducts_Promotion::create([
-            'orderedProduct_id' => 2,
+            'orderedProduct_id' => $free_biotic_jnr_line->id,
             'promotion_name' => 'Biotic Jnr. Promotion',
             'type' => 'buy_one_get_one_free',
             'promotion_description' => 'Get one free for every three purchase',
@@ -88,7 +90,7 @@ class OrderTableSeeder extends Seeder
         ]);
 
         OrderedProducts_Promotion::create([
-            'orderedProduct_id' => 3,
+            'orderedProduct_id' => $enbiotic_line->id,
             'promotion_name' => 'Enbiotic 120\'s Sales',
             'type' => 'price_discount',
             'promotion_description' => '20% off Enbiotic 120',

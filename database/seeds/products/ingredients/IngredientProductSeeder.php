@@ -89,7 +89,10 @@ class IngredientProductSeeder extends Seeder
 
             foreach ($products_under_ingredient_group as $product) {
 
-                $productList[$product]->ingredients()->attach($ingredientList[$ingredient_group]);
+                if(array_key_exists($product, $productList)) {
+                    $productList[$product]->ingredients()->attach($ingredientList[$ingredient_group]);
+                }
+
             }
         }
     }

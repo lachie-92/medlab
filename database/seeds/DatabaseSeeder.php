@@ -9,6 +9,10 @@ use App\Customer;
 use App\Customer_Address;
 use App\Customer_Email;
 use App\Customer_Number;
+use App\Ingredient_Product;
+use App\Order;
+use App\OrderedProduct;
+use App\OrderedProducts_Promotion;
 use App\Patient;
 use App\Patient_Registration;
 use App\Practitioner;
@@ -55,35 +59,40 @@ class DatabaseSeeder extends Seeder
         Buy_One_Get_One_Free::truncate();
         Price_Discount::truncate();
         Promotion::truncate();
+        Ingredient_Product::truncate();
         Product::truncate();
+        Ingredient_Product::truncate();
         Ingredient::truncate();
         Category::truncate();
+
+        OrderedProducts_Promotion::truncate();
+        OrderedProduct::truncate();
+        Order::truncate();
 
         DB::statement("SET foreign_key_checks = 1");
 
         $this->call(UserTableSeeder::class);
-        $this->call(StaffSeed::class);
-        $this->call(RegistrationTableSeeder::class);
+        //$this->call(RegistrationTableSeeder::class);
 
         $this->call(Biotic_Jnr_Seeder::class);
         $this->call(Enbiotic_120s_Seeder::class);
-        $this->call(Enbiotic_60s_Seeder::class);
-        $this->call(MultiBiotic_120s_Seeder::class);
+        //$this->call(Enbiotic_60s_Seeder::class);
+        //$this->call(MultiBiotic_120s_Seeder::class);
         $this->call(MultiBiotic_60s_Seeder::class);
-        $this->call(MultiBiotic_30s_Seeder::class);
+        //$this->call(MultiBiotic_30s_Seeder::class);
         $this->call(NRGBiotic_120s_Seeder::class);
-        $this->call(NRGBiotic_60s_Seeder::class);
-        $this->call(NanoCelle_B12_Seeder::class);
+        //$this->call(NRGBiotic_60s_Seeder::class);
+        //$this->call(NanoCelle_B12_Seeder::class);
         $this->call(NanoCelle_D3_Seeder::class);
-        $this->call(W8BioticLemonAndLime_Seeder::class);
-        $this->call(W8BioticStrawberriesAndCream_Seeder::class);
-        $this->call(ORSBiotic_Seeder::class);
-        $this->call(GastroDaily_Seeder::class);
-        $this->call(BioClean_EPA_DHA_CoQ10_120s_Seeder::class);
-        $this->call(BioClean_EPA_DHA_CoQ10_60s_Seeder::class);
-        $this->call(BioClean_EPA_DHA_Plant_Sterols_120s_Seeder::class);
-        $this->call(BioClean_EPA_DHA_Plant_Sterols_60s_Seeder::class);
-        $this->call(MgOptimaRelax_12_Seeder::class);
+        //$this->call(W8BioticLemonAndLime_Seeder::class);
+        //$this->call(W8BioticStrawberriesAndCream_Seeder::class);
+        //$this->call(ORSBiotic_Seeder::class);
+        //$this->call(GastroDaily_Seeder::class);
+        //$this->call(BioClean_EPA_DHA_CoQ10_120s_Seeder::class);
+        //$this->call(BioClean_EPA_DHA_CoQ10_60s_Seeder::class);
+        //$this->call(BioClean_EPA_DHA_Plant_Sterols_120s_Seeder::class);
+        //$this->call(BioClean_EPA_DHA_Plant_Sterols_60s_Seeder::class);
+        //$this->call(MgOptimaRelax_12_Seeder::class);
 
         $this->call(IngredientsTableSeeder::class);
         $this->call(IngredientProductSeeder::class);
@@ -95,7 +104,7 @@ class DatabaseSeeder extends Seeder
         $this->call(CategoriesChangesTableSeeder::class);
         $this->call(CategoryProductChangesSeeder::class);
         $this->call(ProductsSlugSeeder::class);
-        $this->call(CategoriesSlugSeeder::class);
+        //$this->call(CategoriesSlugSeeder::class);
 
         Model::reguard();
     }

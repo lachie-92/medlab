@@ -498,8 +498,8 @@ class Biotic_Jnr_Seeder extends Seeder
                 ",
             'price_retail' => 57.12,
             'price_wholesale' => 38.08,
-            'image_path' => '/img/products/boitic_jnr/bioticjnr.png',
-            'thumb_image_path' => '/img/products/boitic_jnr/thumb_bioticjnr.png',
+            'image_path' => '/img/products/biotic_jnr/biotic_jnr.png',
+            'thumb_image_path' => '/img/products/biotic_jnr/thumb_biotic_jnr.png',
             'in_stock' => true
         ]);
     }
