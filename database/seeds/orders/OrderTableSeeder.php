@@ -14,6 +14,7 @@ class OrderTableSeeder extends Seeder
      */
     public function run()
     {
+        $user = \App\User::where('email', 'patient@test.com')->first();
 
         $new_order = Order::create([
             'user_id' => $user->id,
