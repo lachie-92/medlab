@@ -160,14 +160,16 @@
                 </div>
                 <div class="medlab_news_item_body">
                     <h2 class="medlab_news_content_title">
-                        Healthed Annual Women’s & Childrens Health 2017
+                        General Practice Conference & Exhibition 2017
                     </h2>
                     <p>
-                        <img src="/img/news/WCH17-banner.jpg" alt="Microbiome" height="auto" width="100%"/>
+                        <img src="/img/news/GPCETWITTER_36.jpg" alt="Microbiome" height="auto" width="100%"/>
                     </p>
                     <p>
-                        When:  Saturday 18th February 2017 </br>
-                        Where: ICC Sydney Convention Centre, NSW</br>
+                        Professor Luis Vitetta will present on: 'Mitigating Chronic Disease' </br>
+                        Please visit Medlab at stand 1138.</br>
+                        When:  19-21 May, 2017 </br>
+                        Where: Sydney Showground, Sydney Olympic Park, NSW</br>
                     </p>
 
 
@@ -184,6 +186,47 @@
                         NEWS
                     </div>
                     <div class="medlab_news_item_body">
+
+
+
+                        <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                            Balmoral Swim 4 Cancer
+                        </h2>
+                            </a>
+                        <p>Medlab is proud to be sponsoring the Balmoral Swim for Cancer 2017 to raise funds for Children's Cancer Institute.</br>
+                            Registrations to join the swim are now open, so click the link below to help us raise funds for a great cause!
+                        </p>
+
+                        <br>
+                        <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
+                        <p>
+                            <img alt="Balmoral Swim"
+                                 src="/img/news/balmoral.jpg"
+                                 title="Balmoral Swim"
+                                 width="75%"
+                                 class="img-responsive center-block">
+
+                        </p>
+                        </a>
+                        <br><br>
+                        <a href="http://www.global-engage.com/event/probiotics-asia/" target="_blank" class="medlab_news_content_link">
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                            Sean Hall (CEO) in March 2017 presented at The 2nd Probiotics Congress: Asia on ‘Mitigating Chronic Disease’</br>
+                        </h2>
+
+                        <br>
+                        <p>
+
+                            <img alt="Probiotics Congress Asia"
+                                 src="/img/news/probiotics-congress.jpeg"
+                                 title="Probiotics Congress Asia"
+                                 width="75%"
+                                 class="img-responsive center-block">
+
+                        </p>
+                        </a>
+                        <br><br>
 
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
@@ -421,12 +464,12 @@
 
 
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.healthed.com.au/seminars/swh17/" target="_blank">
+                                <a href="http://www.gpce.com.au" target="_blank">
                                     <div class="medlab_news_sidebar_list_item_title">
-                                        Healthed Annual Women’s & Childrens Health 2017</br>
+                                        General Practice Conference & Exhibition 2017</br>
                                     </div>
                                     <div class="media-left media-middle">
-                                        <img width="100%"  alt="ACNEM 2017" src="/img/news/WCH17-banner.jpg">
+                                        <img width="100%"  alt="ACNEM 2017" src="/img/news/GPCEMREC_36.jpg">
                                     </div>
                                 </a>
                             </li>
