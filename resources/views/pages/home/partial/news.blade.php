@@ -66,7 +66,7 @@
                             <div class="col-md-4 col-sm-12 col-xs-12">
 
 
-                                <h2 style="text-align:center;">Medlab's New Efficacy Magazine</h2>
+                                <h2 style="text-align:center;">Medlab's New Efficacy<sup>TM</sup> Magazine</h2>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
                                 <p style="text-align:center;">Issue 3: March 2017 - March 2017</p>
                                 <p style="text-align:center;">Neonatal Health and Immunity</p>
