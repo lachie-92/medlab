@@ -5,3 +5,4 @@
 /.idea
 
 tests/_output/*
+*.sublime-*

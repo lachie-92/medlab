@@ -86,6 +86,31 @@ Route::get('/account/orders', 'AccountController@getOrdersOverview');
 
 Route::post('/account/orders/details', 'AccountController@postOrderDetails');
 
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Patient History Intake
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::group(['prefix' => '/account/patient-history'], function() {
+
+    Route::get('/', 'PatientHistoryController@index');
+
+    Route::get('new', 'PatientHistoryController@create');
+
+    Route::post('new/page{page}', [
+        'as' => 'account.patient-history.new.continue',
+        'uses' => 'PatientHistoryController@create'
+    ]);
+
+    Route::post('new', 'PatientHistoryController@save');
+
+    Route::get('edit/{id}', 'PatientHistoryController@edit');
+
+    Route::put('edit/{id}', 'PatientHistoryController@save');
+
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
