@@ -46,10 +46,15 @@ class PatientHistoryController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create($page = 1)
+    public function create(Request $request, $page = 1)
     {
         $user = $this->user;
         $orders = $this->repository->getLatestOrdersForUser($user);
-        return view('pages.account.patient-history.patient.edit.index', compact('page', 'user', 'orders'));
+
+        // Save input data to session
+        $intake = array_merge($request->session()->get('patient-history-intake', []), $request->all());
+        $request->session()->put('patient-history-intake', $intake);
+
+        return view('pages.account.patient-history.patient.edit.index', compact('page', 'user', 'orders', 'intake'));
     }
 }
