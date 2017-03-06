@@ -1,7 +1,5 @@
-<script type="text/javascript" src="/js/jquery.jqscribble.js"></script>
-
 <div class="row">
-    <form action="{{ route('account.patient-history.new.continue', 5) }}" method="POST">
+    <form action="{{ route('account.patient-history.new.continue', 5) }}" method="POST" id="page4">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
         <div class="col-md-12 col-sm-12">
@@ -95,7 +93,7 @@
                                                     </tr>
                                                     <tr>
                                                         <td><label>Bleeding</label>
-                                                            <img style="width:40px;height:40px" src="/img/account/patient-history/red.jpg">
+                                                            <img style="width:40px;height:40px" src="/img/account/patient-history/red.png">
                                                         </td>
                                                         <td colspan="4">
 
@@ -167,33 +165,30 @@
                                         </select>
                                         </div>
                                     </div>
-                                         <div class="row" style="padding-top:5px;">
-                                        <div class="col-md-3">
-                                        <div class="form-group">
-                                        <button onclick="javascript:drawImage();return false;" class="btn-info"><i class="fa fa-times"></i></button>
-                                        <button onclick="javascript:cUndo();return false;" class="btn-info"><i class="fa fa-undo"></i></button>
-                                        <button onclick="javascript:cRedo();return false;" class="btn-info"><i class="fa fa-repeat"></i></button>
-                                        <button onclick="javascript:UploadImage();" class="btn-info"><i class="fa fa-floppy-o"></i></button>
-                                        </div>
-
-                                        </div>
-                                        <div class="col-md-3">
-                                             <canvas id="myCanvas" width="200" height="500" style="cursor: pointer;"></canvas>
-
-                                            <input type="hidden" name="hdn_back" id="ContentPlaceHolder1_hdn_back">
-                                        </div>
+                                    <div class="row" style="padding-top:5px;">
                                         <div class="col-md-3">
                                             <div class="form-group">
-                                       <button onclick="javascript:drawImage1();return false;" class="btn-info"><i class="fa fa-times"></i></button>
-                                      <button onclick="javascript:cUndo1();return false;" class="btn-info"><i class="fa fa-undo"></i></button>
-                                       <button onclick="javascript:cRedo1();return false;" class="btn-info"><i class="fa fa-repeat"></i></button>
-                                       <button onclick="javascript:UploadImage1();" class="btn-info"><i class="fa fa-floppy-o"></i></button>
+                                                <button type="button" id="canvas-clear" class="btn-info"><i class="fa fa-times"></i></button>
+                                                <button type="button" id="canvas-undo" class="btn-info"><i class="fa fa-undo"></i></button>
+                                                <button type="button" id="canvas-redo" class="btn-info"><i class="fa fa-repeat"></i></button>
+                                                <button type="button" id="canvas-save" class="btn-info"><i class="fa fa-floppy-o"></i></button>
                                             </div>
                                         </div>
                                         <div class="col-md-3">
-                                             <canvas id="myCanvas1" width="200" height="500"></canvas>
-
-                                            <input type="hidden" name="hdn_font" id="ContentPlaceHolder1_hdn_font">
+                                            <input type="hidden" id="diagram_front" name="diagram_front" value="" />
+                                            <div id="canvas_diagram_front" style="width:200px;height:500px;"></div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group">
+                                                <button type="button" id="canvas-clear" class="btn-info"><i class="fa fa-times"></i></button>
+                                                <button type="button" id="canvas-undo" class="btn-info"><i class="fa fa-undo"></i></button>
+                                                <button type="button" id="canvas-redo" class="btn-info"><i class="fa fa-repeat"></i></button>
+                                                <button type="button" id="canvas-save" class="btn-info"><i class="fa fa-floppy-o"></i></button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <input type="hidden" id="diagram_back" name="diagram_back" value="" />
+                                            <div id="canvas_diagram_back" style="width:200px;height:500px;"></div>
                                         </div>
                                     </div>
 
