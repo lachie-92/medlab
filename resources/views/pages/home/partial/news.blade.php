@@ -211,7 +211,7 @@
                         </a>
                         <br><br>
 
-                        <p>Congratulations to Michael Thomsen on being the recipient of a Francis M Hooper RHD scholarship from the University of Sydney.</p>
+                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">Congratulations to Michael Thomsen on being the recipient of a Francis M Hooper RHD scholarship from the University of Sydney.</h2>
 
                         <br>
                             <p>
