@@ -210,6 +210,19 @@
                         </p>
                         </a>
                         <br><br>
+
+                        <p>Congratulations to Michael Thomsen on being the recipient of a Francis M Hooper RHD scholarship from the University of Sydney.</p>
+
+                        <br>
+                            <p>
+                                <img alt="Michael Thomsen"
+                                     src="/img/news/michaelthomsen.png"
+                                     title="Michael Thomsen"
+                                     width="100%"
+                                     class="img-responsive center-block">
+
+                            </p>
+                        <br><br>
                         <a href="http://www.global-engage.com/event/probiotics-asia/" target="_blank" class="medlab_news_content_link">
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             Sean Hall (CEO) in March 2017 presented at The 2nd Probiotics Congress: Asia on ‘Mitigating Chronic Disease’</br>
