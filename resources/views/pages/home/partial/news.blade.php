@@ -315,7 +315,32 @@
                             <li class="medlab_news_sidebar_list_item">
                                 <a
                                         @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                        href="http://goo.gl/fUusyh"
+                                        href="/education/webinars/dehydration"
+                                        @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                        href="#"
+                                        @else
+                                        href="/account/login"
+                                        @endif
+                                        target="_blank">
+
+                                    <div class="media-left media-middle">
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/webinar/medlab_dehydration_webinar.jpg" target="_blank" >
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="medlab_news_sidebar_list_item_title">
+                                            Understanding the Clinical Application of NanoCelle
+                                        </div>
+                                        <div class="medlab_news_sidebar_list_item_body">
+                                            Join Professor Luis Vitetta for this informative webinar.
+
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <a
+                                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                        href="/education/webinars/nanocelle"
                                         @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                         href="#"
                                         @else
@@ -340,7 +365,7 @@
                             <li class="medlab_news_sidebar_list_item">
                                 <a
                                         @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                        href="http://goo.gl/uhkgv7"
+                                        href="/education/webinars/nrgwebinar"
                                         @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                         href="#"
                                         @else
@@ -362,78 +387,6 @@
                                     </div>
                                 </a>
                             </li>
-                            <li class="medlab_news_sidebar_list_item">
-                                <a
-                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="http://goo.gl/02ed6J"
-                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                    href="#"
-                                    @else
-                                    href="/account/login"
-                                    @endif
-                                target="_blank">
-
-                                    <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Depression and The Gut Microbiome" src="/img/news/medlab_depressionwebinar.jpg" target="_blank" >
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="medlab_news_sidebar_list_item_title">
-                                            Depression and The Gut Microbiome
-                                        </div>
-                                        <div class="medlab_news_sidebar_list_item_body">
-                                            Join Professor Luis Vitetta for this informative webinar.
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="medlab_news_sidebar_list_item">
-                                <a
-                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="http://goo.gl/uJHPxi"
-                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                    href="#"
-                                    @else
-                                    href="/account/login"
-                                    @endif
-                                target="_blank">
-                                    <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="High Fat Diet, Probiotics and NAFLD" src="/img/news/Medlab_HFD_NALFD_Webinar.jpg" target="blank">
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="medlab_news_sidebar_list_item_title">
-                                            High Fat Diet, Probiotics and NAFLD
-                                        </div>
-                                        <div class="medlab_news_sidebar_list_item_body">
-                                            Join Professor Luis Vitetta for this informative webinar.
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="medlab_news_sidebar_list_item">
-                                <a
-                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="http://goo.gl/fBJJjj"
-                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                    href="#"
-                                    @else
-                                    href="/account/login"
-                                    @endif
-                                target="_blank">
-                                    <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Probiotics and Gut Health" src="/img/news/Medlab_Probiotic_and_Gut_Health_Webinar.jpg" target="_blank" >
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="medlab_news_sidebar_list_item_title">
-                                            Probiotics and Gut Health
-                                        </div>
-                                        <div class="medlab_news_sidebar_list_item_body">
-                                            Join Professor Luis Vitetta for this informative webinar.
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-
                         </ul>
                     </div>
                 </div>
