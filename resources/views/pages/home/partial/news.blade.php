@@ -68,7 +68,7 @@
 
                                 <h2 style="text-align:center;">Medlab's New Efficacy<sup>TM</sup> Magazine</h2>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
-                                <p style="text-align:center;">Issue 3: March 2017 - March 2017</p>
+                                <p style="text-align:center;">Issue 3: March 2017 - May 2017</p>
                                 <p style="text-align:center;">Neonatal Health and Immunity</p>
                                 </br>
 
@@ -79,7 +79,7 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
 
 
-                        <p style="text-align:center;">Medlab’s quartely magazine designed to educate and update Practitioners with Medlab research and industry advancements with a variety of contributing authors. <a href="/account/login">Register or log in</a> to view today.</p>
+                        <p style="text-align:center;">Medlab’s quarterly magazine designed to educate and update Practitioners with Medlab research and industry advancements with a variety of contributing authors. <a href="/account/login">Register or log in</a> to view today.</p>
 
                             </div>
                             </div>
