@@ -56,7 +56,7 @@
                     <br>
 
                     <p>
-                        <a href="/img/research/Researchprogression.jpg">
+                        <a href="/img/research/researchprogression.jpg">
                             <img class="img-responsive center-block" src="/img/research/Researchprogression.jpg" title="Research Progression"/>
                         </a>
                         <br>
