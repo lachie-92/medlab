@@ -57,7 +57,7 @@
 
                     <p>
                         <a href="/img/research/researchprogression.jpg">
-                            <img class="img-responsive center-block" src="/img/research/Researchprogression.jpg" title="Research Progression"/>
+                            <img class="img-responsive center-block" src="/img/research/researchprogression.jpg" title="Research Progression"/>
                         </a>
                         <br>
                         As at 9th March 2017
