@@ -87,6 +87,38 @@
             </div>
 
 
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        Featured News
+                    </div>
+                    <div class="medlab_news_item_body">
+
+
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+
+                            <a href="http://www.9news.com.au/national/2017/03/09/17/30/mouth-spray-developed-to-tackle-high-cholesterol/?ocid=9newsfb" target="_blank" class="medlab_news_content_link">
+                                <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                                    New NanoCelle<sup>TM</sup> NanoStat<sup>TM</sup> could help tackle high cholesterol
+                                </h2>
+                            </a>
+                            <div class="media-middle media-middle">
+
+                                <iframe src="https://player.vimeo.com/video/207709909" width="100%" height="400" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                            </div>
+                            <p>Featured on Channel Nine News on the 9th of March 2017</p>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
 
 
             <div class="medlab_news_item">
@@ -186,6 +218,7 @@
                         NEWS
                     </div>
                     <div class="medlab_news_item_body">
+
 
 
 
