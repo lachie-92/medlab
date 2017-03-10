@@ -135,7 +135,7 @@
                         </h2>
                         <p class="medlab_news_content_paragraph" style="text-align: justify">
                             <p>Want more information on Medlab’s sub-micron delivery platform NanoCelle<sup>TM</sup>? <a href="/research/medlab-delivery-platform">Cick here for more information.</a></p>
-                            Our <a href="/nutraceuticals/products?q=N">NanoCelle™ nutrcaeutical range</a> currently includes four vitamin oral-buccal sprays, that offer superior absorption to that of a capsule, tablet or emulsion.
+                            Our <a href="/nutraceuticals/products?q=N">NanoCelle™ nutraceutical range</a> currently includes four vitamin oral-buccal sprays, that offer superior absorption to that of a capsule, tablet or emulsion.
                         </p>
                         <p class="medlab_news_content_paragraph">
                             <a href="/research/medlab-delivery-platform" class="medlab_news_content_link">More Information</a>
