@@ -128,34 +128,21 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <img src="/img/products/12mg_optima/mg_optima_relax_150g_citrus_tea.jpg" alt="Mg Optima™ Relax Featured product" height="150" width="auto" style="float: right;"/>
+                        <img src="/img/products/NanoCelleRange_Medlab.jpg" alt="Mg Optima™ Relax Featured product" height="400" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea" class="medlab_news_content_link">
-                                New Flavour ‘Citrus Tea’ - <sup>12</sup>Mg Optima™ Relax 150g
-                            </a>
+                                NanoCelle<sup>TM</sup> Range
+
                         </h2>
                         <p class="medlab_news_content_paragraph" style="text-align: justify">
-                            <sup>12</sup>Mg Optima™ Relax contains evidenced-based ingredients to support the natural metabolic pathways
-                            for gamma-aminobutyric acid (GABA) production and activity, indicated to promote relaxation during times of stress.
+                            <p>Want more information on Medlab’s sub-micron delivery platform NanoCelle<sup>TM</sup>? <a href="/research/medlab-delivery-platform">Cick here for more information.</a></p>
+                            Our <a href="/nutraceuticals/products?q=N">NanoCelle™ nutrcaeutical range</a> currently includes four vitamin oral-buccal sprays, that offer superior absorption to that of a capsule, tablet or emulsion.
                         </p>
                         <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea" class="medlab_news_content_link">More Information</a>
+                            <a href="/research/medlab-delivery-platform" class="medlab_news_content_link">More Information</a>
                         </p>
 
 
-                        <img src='/img/products/orsbiotic/orsbiotic.png' alt="ORSBiotic product" height="150" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                            <a href="/nutraceuticals/products/orsbiotic" class="medlab_news_content_link">
-                                Rehydrate with ORSBiotic™
-                            </a>
-                        </h2>
-                        <p class="medlab_news_content_paragraph" style="text-align: justify">
-                            ORSBiotic™ is an Oral Rehydration Solution to replace fluids lost due to vomiting, diarrhoea and strenuous physical activity,
-                            providing essential electrolytes together with selected probiotic species to provide therapeutic support for various triggers of diarrhoea and associated symptoms.
-                        </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/nutraceuticals/products/orsbiotic" class="medlab_news_content_link">More Information</a>
-                        </p>
+
                         
 
 
