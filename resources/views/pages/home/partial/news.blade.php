@@ -130,7 +130,7 @@
 
                         <img src="/img/products/NanoCelleRange_Medlab.jpg" alt="Mg Optima™ Relax Featured product" height="400" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                                NanoCelle<sup>TM</sup> Range
+                                NanoCelle<sup>TM</sup> Range 
 
                         </h2>
                         <p class="medlab_news_content_paragraph" style="text-align: justify">
