@@ -4272,7 +4272,7 @@ class ModifyProduct extends Command
             [
                 'product_name_index' => "MultiBiotic 60's",
                 'austl_number' => '227562',
-                'product_name' => 'testMultiBiotic&trade; 60&#39;s',
+                'product_name' => 'MultiBiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
                 <h4 class="medlab_product_content_title">MultiBiotic&trade; 60&#39;s</h4>
