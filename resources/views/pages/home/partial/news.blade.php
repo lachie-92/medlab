@@ -348,7 +348,7 @@
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
-                                            Understanding the Clinical Application of NanoCelle
+                                            Dehydration: a reliable predictor of cognitive function in older adults
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">
                                             Join Professor Luis Vitetta for this informative webinar.
