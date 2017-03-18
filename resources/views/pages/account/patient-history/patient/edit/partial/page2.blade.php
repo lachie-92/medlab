@@ -33,209 +33,209 @@
                                         <br>
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="chk1" type="checkbox" name="chk1" value="Y" {{ array_get($intake, 'chk1')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_diabetes" type="checkbox" name="medicalhistory_diabetes" value="Y" {{ array_get($intake, 'medicalhistory_diabetes')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Diabetes</label>
+                                                <label for="medicalhistory_diabetes">Diabetes</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox1" type="checkbox" name="CheckBox1" value="Y" {{ array_get($intake, 'CheckBox1')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_heartmurmur" type="checkbox" name="medicalhistory_heartmurmur" value="Y" {{ array_get($intake, 'medicalhistory_heartmurmur')=="Y"?'checked="checked"':"" }}">
 
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Heart Murmur</label>
+                                                <label for="medicalhistory_heartmurmur">Heart Murmur</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox2" type="checkbox" name="CheckBox2" value="Y" {{ array_get($intake, 'CheckBox2')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_crohnsdisease" type="checkbox" name="medicalhistory_crohnsdisease" value="Y" {{ array_get($intake, 'medicalhistory_crohnsdisease')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Crohn’s Disease</label>
+                                                <label for="medicalhistory_crohnsdisease">Crohn’s Disease</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox10" type="checkbox" name="CheckBox10" value="Y" {{ array_get($intake, 'CheckBox10')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_highbloodpressure" type="checkbox" name="medicalhistory_highbloodpressure" value="Y" {{ array_get($intake, 'medicalhistory_highbloodpressure')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>High Blood Pressure</label>
+                                                <label for="medicalhistory_highbloodpressure">High Blood Pressure</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="CheckBox7" type="checkbox" name="CheckBox7" value="Y" {{ array_get($intake, 'CheckBox7')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_highcholesterol" type="checkbox" name="medicalhistory_highcholesterol" value="Y" {{ array_get($intake, 'medicalhistory_highcholesterol')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>High Cholesterol</label>
+                                                <label for="medicalhistory_highcholesterol">High Cholesterol</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox8" type="checkbox" name="CheckBox8" value="Y" {{ array_get($intake, 'CheckBox8')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_hypothyroidism" type="checkbox" name="medicalhistory_hypothyroidism" value="Y" {{ array_get($intake, 'medicalhistory_hypothyroidism')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Hypothyroidism</label>
+                                                <label for="medicalhistory_hypothyroidism">Hypothyroidism</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox9" type="checkbox" name="CheckBox9" value="Y" {{ array_get($intake, 'CheckBox9')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_goiter" type="checkbox" name="medicalhistory_goiter" value="Y" {{ array_get($intake, 'medicalhistory_goiter')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Goiter</label>
+                                                <label for="medicalhistory_goiter">Goiter</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox11" type="checkbox" name="CheckBox11" value="Y" {{ array_get($intake, 'CheckBox11')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_leukemia" type="checkbox" name="medicalhistory_leukemia" value="Y" {{ array_get($intake, 'medicalhistory_leukemia')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Leukemia</label>
+                                                <label for="medicalhistory_leukemia">Leukemia</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="CheckBox3" type="checkbox" name="CheckBox3" value="Y" {{ array_get($intake, 'CheckBox3')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_psoriasis" type="checkbox" name="medicalhistory_psoriasis" value="Y" {{ array_get($intake, 'medicalhistory_psoriasis')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Psoriasis</label>
+                                                <label for="medicalhistory_psoriasis">Psoriasis</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox4" type="checkbox" name="CheckBox4" value="Y" {{ array_get($intake, 'CheckBox4')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_angina" type="checkbox" name="medicalhistory_angina" value="Y" {{ array_get($intake, 'medicalhistory_angina')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Angina</label>
+                                                <label for="medicalhistory_angina">Angina</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox12" type="checkbox" name="CheckBox12" value="Y" {{ array_get($intake, 'CheckBox12')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_heartproblems" type="checkbox" name="medicalhistory_heartproblems" value="Y" {{ array_get($intake, 'medicalhistory_heartproblems')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Heart Problems</label>
+                                                <label for="medicalhistory_heartproblems">Heart Problems</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox13" type="checkbox" name="CheckBox13" value="Y" {{ array_get($intake, 'CheckBox13')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_pneumonia" type="checkbox" name="medicalhistory_pneumonia" value="Y" {{ array_get($intake, 'medicalhistory_pneumonia')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Pneumonia</label>
+                                                <label for="medicalhistory_pneumonia">Pneumonia</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="CheckBox14" type="checkbox" name="CheckBox14" value="Y" {{ array_get($intake, 'CheckBox14')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_pulmonaryembolism" type="checkbox" name="medicalhistory_pulmonaryembolism" value="Y" {{ array_get($intake, 'medicalhistory_pulmonaryembolism')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Pulmonary Embolism</label>
+                                                <label for="medicalhistory_pulmonaryembolism">Pulmonary Embolism</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox15" type="checkbox" name="CheckBox15" value="Y" {{ array_get($intake, 'CheckBox15')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_asthma" type="checkbox" name="medicalhistory_asthma" value="Y" {{ array_get($intake, 'medicalhistory_asthma')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Asthma</label>
+                                                <label for="medicalhistory_asthma">Asthma</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox16" type="checkbox" name="CheckBox16" value="Y" {{ array_get($intake, 'CheckBox16')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_emphysema" type="checkbox" name="medicalhistory_emphysema" value="Y" {{ array_get($intake, 'medicalhistory_emphysema')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Emphysema</label>
+                                                <label for="medicalhistory_emphysema">Emphysema</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox17" type="checkbox" name="CheckBox17" value="Y" {{ array_get($intake, 'CheckBox17')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_stroke" type="checkbox" name="medicalhistory_stroke" value="Y" {{ array_get($intake, 'medicalhistory_stroke')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Stroke</label>
+                                                <label for="medicalhistory_stroke">Stroke</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="CheckBox18" type="checkbox" name="CheckBox18" value="Y" {{ array_get($intake, 'CheckBox18')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_epilepsy" type="checkbox" name="medicalhistory_epilepsy" value="Y" {{ array_get($intake, 'medicalhistory_epilepsy')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Epilepsy (Seizures)</label>
+                                                <label for="medicalhistory_epilepsy">Epilepsy (Seizures)</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox19" type="checkbox" name="CheckBox19" value="Y" {{ array_get($intake, 'CheckBox19')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_cataracts" type="checkbox" name="medicalhistory_cataracts" value="Y" {{ array_get($intake, 'medicalhistory_cataracts')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Cataracts</label>
+                                                <label for="medicalhistory_cataracts">Cataracts</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox20" type="checkbox" name="CheckBox20" value="Y" {{ array_get($intake, 'CheckBox20')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_kidneydisease" type="checkbox" name="medicalhistory_kidneydisease" value="Y" {{ array_get($intake, 'medicalhistory_kidneydisease')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Kidney Disease</label>
+                                                <label for="medicalhistory_kidneydisease">Kidney Disease</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox21" type="checkbox" name="CheckBox21" value="Y" {{ array_get($intake, 'CheckBox21')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_kidneystones" type="checkbox" name="medicalhistory_kidneystones" value="Y" {{ array_get($intake, 'medicalhistory_kidneystones')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Kidney Stones</label>
+                                                <label for="medicalhistory_kidneystones">Kidney Stones</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="CheckBox22" type="checkbox" name="CheckBox22" value="Y" {{ array_get($intake, 'CheckBox22')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_colitis" type="checkbox" name="medicalhistory_colitis" value="Y" {{ array_get($intake, 'medicalhistory_colitis')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Colitis</label>
+                                                <label for="medicalhistory_colitis">Colitis</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox23" type="checkbox" name="CheckBox23" value="Y" {{ array_get($intake, 'CheckBox23')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_anemia" type="checkbox" name="medicalhistory_anemia" value="Y" {{ array_get($intake, 'medicalhistory_anemia')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Anemia</label>
+                                                <label for="medicalhistory_anemia">Anemia</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox24" type="checkbox" name="CheckBox24" value="Y" {{ array_get($intake, 'CheckBox24')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_jaundice" type="checkbox" name="medicalhistory_jaundice" value="Y" {{ array_get($intake, 'medicalhistory_jaundice')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Jaundice</label>
+                                                <label for="medicalhistory_jaundice">Jaundice</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox25" type="checkbox" name="CheckBox25" value="Y" {{ array_get($intake, 'CheckBox25')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_hepatitis" type="checkbox" name="medicalhistory_hepatitis" value="Y" {{ array_get($intake, 'medicalhistory_hepatitis')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Hepatitis</label>
+                                                <label for="medicalhistory_hepatitis">Hepatitis</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="CheckBox26" type="checkbox" name="CheckBox26" value="Y" {{ array_get($intake, 'CheckBox26')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_stomachpepticulcer" type="checkbox" name="medicalhistory_stomachpepticulcer" value="Y" {{ array_get($intake, 'medicalhistory_stomachpepticulcer')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Stomach or Peptic Ulcer</label>
+                                                <label for="medicalhistory_stomachpepticulcer">Stomach or Peptic Ulcer</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox27" type="checkbox" name="CheckBox27" value="Y" {{ array_get($intake, 'CheckBox27')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_rheumaticfever" type="checkbox" name="medicalhistory_rheumaticfever" value="Y" {{ array_get($intake, 'medicalhistory_rheumaticfever')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Rheumatic Fever</label>
+                                                <label for="medicalhistory_rheumaticfever">Rheumatic Fever</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox28" type="checkbox" name="CheckBox28" value="Y" {{ array_get($intake, 'CheckBox28')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_tuberculosis" type="checkbox" name="medicalhistory_tuberculosis" value="Y" {{ array_get($intake, 'medicalhistory_tuberculosis')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>Tuberculosis</label>
+                                                <label for="medicalhistory_tuberculosis">Tuberculosis</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox29" type="checkbox" name="CheckBox29" value="Y" {{ array_get($intake, 'CheckBox29')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_hivaids" type="checkbox" name="medicalhistory_hivaids" value="Y" {{ array_get($intake, 'medicalhistory_hivaids')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                                <label>HIV/AIDS</label>
+                                                <label for="medicalhistory_hivaids">HIV/AIDS</label>
                                         </div>
                                     </div>
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="CheckBox30" type="checkbox" name="CheckBox30" value="Y" {{ array_get($intake, 'CheckBox30')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_cancer" type="checkbox" name="medicalhistory_cancer" value="Y" {{ array_get($intake, 'medicalhistory_cancer')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                            <label>Cancer (type)</label>
+                                            <label for="medicalhistory_cancer">Cancer (type)</label>
                                         </div>
                                         <div class="col-md-3 col-sm-3">
-                                            <input name="txtcancer" type="text" id="txtcancer" class="form-control" value="{{ array_get($intake, 'txtcancer') }}">
+                                            <input name="medicalhistory_cancer_type" type="text" id="medicalhistory_cancer_type" class="form-control" value="{{ array_get($intake, 'medicalhistory_cancer_type') }}">
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="CheckBox33" type="checkbox" name="CheckBox33" value="Y" {{ array_get($intake, 'CheckBox33')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_otherstd" type="checkbox" name="medicalhistory_otherstd" value="Y" {{ array_get($intake, 'medicalhistory_otherstd')=="Y"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
-                                            <label>OTHER STD</label>
+                                            <label for="medicalhistory_otherstd">OTHER STD</label>
                                         </div>
                                         <div class="col-md-3 col-sm-3">
 
@@ -254,7 +254,7 @@
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12">
 
-                                            <textarea name="txtothermedical" rows="2" cols="20" id="txtothermedical" class="form-control">{{ array_get($intake, 'txtothermedical') }}</textarea>
+                                            <textarea name="medicalhistory_other" rows="2" cols="20" id="medicalhistory_other" class="form-control">{{ array_get($intake, 'medicalhistory_other') }}</textarea>
                                         </div>
                                     </div>
                                         <br>
@@ -283,13 +283,13 @@
                                             <div class="col-md-12">
                                                 <table id="ContentPlaceHolder1_chkedu" cellpadding="10">
                                                     <tbody><tr>
-                                                        <td><input id="ContentPlaceHolder1_chkedu_0" type="radio" name="chkedu" value="1" {{ array_get($intake, 'chkedu')==1?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chkedu_0">High School</label></td>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_0" type="radio" name="personalhistory_education" value="1" {{ array_get($intake, 'personalhistory_education')==1?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_0">High School</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_chkedu_1" type="radio" name="chkedu" value="2" {{ array_get($intake, 'chkedu')==2?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chkedu_1">College Graduate</label></td>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_1" type="radio" name="personalhistory_education" value="2" {{ array_get($intake, 'personalhistory_education')==2?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_1">College Graduate</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_chkedu_2" type="radio" name="chkedu" value="3" {{ array_get($intake, 'chkedu')==3?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chkedu_2">Some College</label></td>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_2" type="radio" name="personalhistory_education" value="3" {{ array_get($intake, 'personalhistory_education')==3?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_2">Some College</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_chkedu_3" type="radio" name="chkedu" value="4" {{ array_get($intake, 'chkedu')==4?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chkedu_3">Advanced Degree</label></td>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_3" type="radio" name="personalhistory_education" value="4" {{ array_get($intake, 'personalhistory_education')==4?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_3">Advanced Degree</label></td>
                                                     </tr>
                                                     </tbody></table>
                                             </div>
@@ -310,17 +310,17 @@
                                             <div class="col-md-12">
                                                 <table id="ContentPlaceHolder1_chk_marital" cellpadding="10">
                                                     <tbody><tr>
-                                                        <td><input id="ContentPlaceHolder1_chk_marital_0" type="radio" name="marital" value="1" {{ array_get($intake, 'marital')==1?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_marital_0">Married</label></td>
+                                                        <td><input id="ContentPlaceHolder1_chk_personalhistory_maritalstatus_0" type="radio" name="personalhistory_maritalstatus" value="1" {{ array_get($intake, 'personalhistory_maritalstatus')==1?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_personalhistory_maritalstatus_0">Married</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_chk_marital_1" type="radio" name="marital" value="2" {{ array_get($intake, 'marital')==2?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_marital_1">Divorced</label></td>
+                                                        <td><input id="ContentPlaceHolder1_chk_personalhistory_maritalstatus_1" type="radio" name="personalhistory_maritalstatus" value="2" {{ array_get($intake, 'personalhistory_maritalstatus')==2?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_personalhistory_maritalstatus_1">Divorced</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_chk_marital_2" type="radio" name="marital" value="3" {{ array_get($intake, 'marital')==3?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_marital_2">Widowed</label></td>
+                                                        <td><input id="ContentPlaceHolder1_chk_personalhistory_maritalstatus_2" type="radio" name="personalhistory_maritalstatus" value="3" {{ array_get($intake, 'personalhistory_maritalstatus')==3?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_personalhistory_maritalstatus_2">Widowed</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_chk_marital_3" type="radio" name="marital" value="4" {{ array_get($intake, 'marital')==4?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_marital_3">Separated</label></td>
+                                                        <td><input id="ContentPlaceHolder1_chk_personalhistory_maritalstatus_3" type="radio" name="personalhistory_maritalstatus" value="4" {{ array_get($intake, 'personalhistory_maritalstatus')==4?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_personalhistory_maritalstatus_3">Separated</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_chk_marital_4" type="radio" name="marital" value="5" {{ array_get($intake, 'marital')==5?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_marital_4">Never Married</label></td>
+                                                        <td><input id="ContentPlaceHolder1_chk_personalhistory_maritalstatus_4" type="radio" name="personalhistory_maritalstatus" value="5" {{ array_get($intake, 'personalhistory_maritalstatus')==5?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_personalhistory_maritalstatus_4">Never Married</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_chk_marital_5" type="radio" name="marital" value="6" {{ array_get($intake, 'marital')==6?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_marital_5">Partnered/Significant Other</label></td>
+                                                        <td><input id="ContentPlaceHolder1_chk_personalhistory_maritalstatus_5" type="radio" name="personalhistory_maritalstatus" value="6" {{ array_get($intake, 'personalhistory_maritalstatus')==6?'checked="checked"':"" }}><label for="ContentPlaceHolder1_chk_personalhistory_maritalstatus_5">Partnered/Significant Other</label></td>
                                                     </tr>
                                                     </tbody></table>
                                             </div>
@@ -360,7 +360,7 @@
 
                                             <table id="rdwrk" onclick="check()">
                                                 <tbody><tr>
-                                                    <td><input id="rdwrk_0" type="radio" name="rdwrk" value="1" {{ array_get($intake, 'rdwrk')==1?'checked="checked"':"" }}><label for="rdwrk_0">Yes</label></td><td><input id="rdwrk_1" type="radio" name="rdwrk" value="0" {{ array_get($intake, 'rdwrk')==0?'checked="checked"':"" }}><label for="rdwrk_1">No</label></td>
+                                                    <td><input id="personalhistory_currentlyworking_0" type="radio" name="personalhistory_currentlyworking" value="1" {{ array_get($intake, 'personalhistory_currentlyworking')==1?'checked="checked"':"" }}><label for="personalhistory_currentlyworking_0">Yes</label></td><td><input id="personalhistory_currentlyworking_1" type="radio" name="personalhistory_currentlyworking" value="0" {{ array_get($intake, 'personalhistory_currentlyworking')==0?'checked="checked"':"" }}><label for="personalhistory_currentlyworking_1">No</label></td>
                                                 </tr>
                                                 </tbody></table>
                                         </div>
@@ -368,7 +368,7 @@
                                             <label>Hours/week</label>
                                         </div>
                                         <div class="col-md-3 col-sm-3">
-                                            <input name="txtwork" type="text" id="txtwork" class="form-control" value="{{ array_get($intake, 'txtwork') }}">
+                                            <input name="personalhistory_workinghours" type="text" id="personalhistory_workinghours" class="form-control" value="{{ array_get($intake, 'personalhistory_workinghours') }}">
                                             </div>
                                         <div class="col-md-2 col-sm-2">
 
@@ -382,9 +382,9 @@
                                             </label>
                                         </div>
                                         <div class="col-md-3 col-sm-3">
-                                            <input id="CheckBox42" type="checkbox" name="CheckBox42" value="Y" {{ array_get($intake, 'CheckBox42')=="Y"?'checked="checked"':"" }}><label for="CheckBox42">retired</label>
-                                            <input id="CheckBox43" type="checkbox" name="CheckBox43" value="Y" {{ array_get($intake, 'CheckBox43')=="Y"?'checked="checked"':"" }}><label for="CheckBox43">disabled</label>
-                                            <input id="CheckBox44" type="checkbox" name="CheckBox44" value="Y" {{ array_get($intake, 'CheckBox44')=="Y"?'checked="checked"':"" }}><label for="CheckBox44">sick leave</label>
+                                            <input id="personalhistory_statusretired" type="checkbox" name="personalhistory_statusretired" value="Y" {{ array_get($intake, 'personalhistory_statusretired')=="Y"?'checked="checked"':"" }}><label for="personalhistory_statusretired">retired</label>
+                                            <input id="personalhistory_statusdisabled" type="checkbox" name="personalhistory_statusdisabled" value="Y" {{ array_get($intake, 'personalhistory_statusdisabled')=="Y"?'checked="checked"':"" }}><label for="personalhistory_statusdisabled">disabled</label>
+                                            <input id="personalhistory_statussickleave" type="checkbox" name="personalhistory_statussickleave" value="Y" {{ array_get($intake, 'personalhistory_statussickleave')=="Y"?'checked="checked"':"" }}><label for="personalhistory_statussickleave">sick leave</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
 
@@ -409,7 +409,7 @@
                                             <div class="col-md-3 col-sm-3">
                                                 <table id="rdpension" onchange="Check2()">
                                                     <tbody><tr>
-                                                        <td><input id="rdpension_0" type="radio" name="rdpension" value="1"  {{ array_get($intake, 'rdpension')==1?'checked="checked"':"" }}><label for="rdpension_0">Yes</label></td><td><input id="rdpension_1" type="radio" name="rdpension" value="0" {{ array_get($intake, 'rdpension')==0?'checked="checked"':"" }}><label for="rdpension_1">No</label></td>
+                                                        <td><input id="personalhistory_disabilitypension_0" type="radio" name="personalhistory_disabilitypension" value="1"  {{ array_get($intake, 'personalhistory_disabilitypension')==1?'checked="checked"':"" }}><label for="personalhistory_disabilitypension_0">Yes</label></td><td><input id="personalhistory_disabilitypension_1" type="radio" name="personalhistory_disabilitypension" value="0" {{ array_get($intake, 'personalhistory_disabilitypension')==0?'checked="checked"':"" }}><label for="personalhistory_disabilitypension_1">No</label></td>
                                                     </tr>
                                                     </tbody></table>
                                             </div>
@@ -422,7 +422,7 @@
                                                 </label>
                                             </div>
                                             <div class="col-md-3 col-sm-3">
-                                                <input name="txtdis" type="text" id="txtdis" class="form-control" value="{{ array_get($intake, 'txtdis') }}">
+                                                <input name="personalhistory_disabilitypension_detail" type="text" id="personalhistory_disabilitypension_detail" class="form-control" value="{{ array_get($intake, 'personalhistory_disabilitypension_detail') }}">
                                             </div>
                                             <div class="col-md-5"></div>
                                         </div>
@@ -437,19 +437,19 @@
                                             </label>
                                         </div>
                                         <div class="col-md-3 col-sm-3">
-                                            <select name="ddlreligion" id="ddlreligion" class="form-control">
+                                            <select name="personalhistory_religion" id="personalhistory_religion" class="form-control">
                                                 <option value="--Select Religion--">--Select Religion--</option>
-                                                <option value="Hinduism" {{ array_get($intake, 'ddlreligion')=="Hinduism"?'selected="selected"':"" }}>Hinduism</option>
-                                                <option value="Christianity" {{ array_get($intake, 'ddlreligion')=="Christianity"?'selected="selected"':"" }}>Christianity</option>
-                                                <option value="Islam" {{ array_get($intake, 'ddlreligion')=="Islam"?'selected="selected"':"" }}>Islam</option>
-                                                <option value="Buddhism" {{ array_get($intake, 'ddlreligion')=="Buddhism"?'selected="selected"':"" }}>Buddhism</option>
-                                                <option value="Sikhism" {{ array_get($intake, 'ddlreligion')=="Sikhism"?'selected="selected"':"" }}>Sikhism</option>
-                                                <option value="Jainism" {{ array_get($intake, 'ddlreligion')=="Jainism"?'selected="selected"':"" }}>Jainism</option>
-                                                <option value="Judaism" {{ array_get($intake, 'ddlreligion')=="Judaism"?'selected="selected"':"" }}>Judaism</option>
-                                                <option value="Baha'i" {{ array_get($intake, 'ddlreligion')=="Baha'i"?'selected="selected"':"" }}>Baha'i</option>
-                                                <option value="Taoism" {{ array_get($intake, 'ddlreligion')=="Taoism"?'selected="selected"':"" }}>Taoism</option>
-                                                <option value="Zoroastrianism" {{ array_get($intake, 'ddlreligion')=="Zoroastrianism"?'selected="selected"':"" }}>Zoroastrianism</option>
-                                                <option value="Other" {{ array_get($intake, 'ddlreligion')=="Other"?'selected="selected"':"" }}>Other</option>
+                                                <option value="Hinduism" {{ array_get($intake, 'personalhistory_religion')=="Hinduism"?'selected="selected"':"" }}>Hinduism</option>
+                                                <option value="Christianity" {{ array_get($intake, 'personalhistory_religion')=="Christianity"?'selected="selected"':"" }}>Christianity</option>
+                                                <option value="Islam" {{ array_get($intake, 'personalhistory_religion')=="Islam"?'selected="selected"':"" }}>Islam</option>
+                                                <option value="Buddhism" {{ array_get($intake, 'personalhistory_religion')=="Buddhism"?'selected="selected"':"" }}>Buddhism</option>
+                                                <option value="Sikhism" {{ array_get($intake, 'personalhistory_religion')=="Sikhism"?'selected="selected"':"" }}>Sikhism</option>
+                                                <option value="Jainism" {{ array_get($intake, 'personalhistory_religion')=="Jainism"?'selected="selected"':"" }}>Jainism</option>
+                                                <option value="Judaism" {{ array_get($intake, 'personalhistory_religion')=="Judaism"?'selected="selected"':"" }}>Judaism</option>
+                                                <option value="Baha'i" {{ array_get($intake, 'personalhistory_religion')=="Baha'i"?'selected="selected"':"" }}>Baha'i</option>
+                                                <option value="Taoism" {{ array_get($intake, 'personalhistory_religion')=="Taoism"?'selected="selected"':"" }}>Taoism</option>
+                                                <option value="Zoroastrianism" {{ array_get($intake, 'personalhistory_religion')=="Zoroastrianism"?'selected="selected"':"" }}>Zoroastrianism</option>
+                                                <option value="Other" {{ array_get($intake, 'personalhistory_religion')=="Other"?'selected="selected"':"" }}>Other</option>
 
                                                 </select>
                                         </div>
@@ -488,33 +488,33 @@
                                                 <tr>
                                                     <td><label>Father</label></td>
 
-                                                    <td><input name="txtfatherage" type="text" id="txt" class="form-control" value="{{ array_get($intake, 'txtfatherage') }}"></td>
+                                                    <td><input name="familyhistory_father_living_age" type="text" id="txt" class="form-control" value="{{ array_get($intake, 'familyhistory_father_living_age') }}"></td>
 
-                                                    <td><input name="txtfhealth" type="text" id="txtfhealth" class="form-control" value="{{ array_get($intake, 'txtfhealth') }}"></td>
+                                                    <td><input name="familyhistory_father_living_health" type="text" id="familyhistory_father_living_health" class="form-control" value="{{ array_get($intake, 'familyhistory_father_living_health') }}"></td>
 
-                                                    <td><input name="TextBox27" type="text" id="TextBox27" class="form-control" value="{{ array_get($intake, 'TextBox27') }}"></td>
-                                                    <td><input name="TextBox28" type="text" id="TextBox28" class="form-control" value="{{ array_get($intake, 'TextBox28') }}"></td>
+                                                    <td><input name="familyhistory_father_deceased_age" type="text" id="familyhistory_father_deceased_age" class="form-control" value="{{ array_get($intake, 'familyhistory_father_deceased_age') }}"></td>
+                                                    <td><input name="familyhistory_father_deceased_causeofdeath" type="text" id="familyhistory_father_deceased_causeofdeath" class="form-control" value="{{ array_get($intake, 'familyhistory_father_deceased_causeofdeath') }}"></td>
                                                 </tr>
                                                 <tr>
                                                     <td><label>Mother</label> </td>
-                                                    <td><input name="txtmotherage" type="text" id="TextBox29" class="form-control" value="{{ array_get($intake, 'txtmotherage') }}"></td>
-                                                    <td><input name="TextBox30" type="text" id="TextBox30" class="form-control" value="{{ array_get($intake, 'TextBox30') }}"></td>
-                                                    <td><input name="TextBox31" type="text" id="TextBox31" class="form-control" value="{{ array_get($intake, 'TextBox31') }}"></td>
-                                                    <td><input name="TextBox33" type="text" id="TextBox33" class="form-control" value="{{ array_get($intake, 'TextBox33') }}"></td>
+                                                    <td><input name="familyhistory_mother_living_age" type="text" id="TextBox29" class="form-control" value="{{ array_get($intake, 'familyhistory_mother_living_age') }}"></td>
+                                                    <td><input name="familyhistory_mother_living_health" type="text" id="familyhistory_mother_living_health" class="form-control" value="{{ array_get($intake, 'familyhistory_mother_living_health') }}"></td>
+                                                    <td><input name="familyhistory_mother_deceased_age" type="text" id="familyhistory_mother_deceased_age" class="form-control" value="{{ array_get($intake, 'familyhistory_mother_deceased_age') }}"></td>
+                                                    <td><input name="familyhistory_mother_deceased_causeofdeath" type="text" id="familyhistory_mother_deceased_causeofdeath" class="form-control" value="{{ array_get($intake, 'familyhistory_mother_deceased_causeofdeath') }}"></td>
                                                 </tr>
                                                 <tr>
                                                     <td><label>Siblings</label></td>
-                                                    <td><input name="TextBox34" type="text" id="TextBox34" class="form-control" value="{{ array_get($intake, 'TextBox34') }}"></td>
-                                                    <td><input name="TextBox51" type="text" id="TextBox51" class="form-control" value="{{ array_get($intake, 'TextBox51') }}"></td>
-                                                    <td><input name="TextBox52" type="text" id="TextBox52" class="form-control" value="{{ array_get($intake, 'TextBox52') }}"></td>
-                                                    <td><input name="TextBox53" type="text" id="TextBox53" class="form-control" value="{{ array_get($intake, 'TextBox53') }}"></td>
+                                                    <td><input name="familyhistory_siblings_living_age" type="text" id="familyhistory_siblings_living_age" class="form-control" value="{{ array_get($intake, 'familyhistory_siblings_living_age') }}"></td>
+                                                    <td><input name="familyhistory_siblings_living_health" type="text" id="familyhistory_siblings_living_health" class="form-control" value="{{ array_get($intake, 'familyhistory_siblings_living_health') }}"></td>
+                                                    <td><input name="familyhistory_siblings_deceased_age" type="text" id="familyhistory_siblings_deceased_age" class="form-control" value="{{ array_get($intake, 'familyhistory_siblings_deceased_age') }}"></td>
+                                                    <td><input name="familyhistory_siblings_deceased_causeofdeath" type="text" id="familyhistory_siblings_deceased_causeofdeath" class="form-control" value="{{ array_get($intake, 'familyhistory_siblings_deceased_causeofdeath') }}"></td>
                                                 </tr>
                                                 <tr>
                                                     <td><label>Children</label></td>
-                                                    <td><input name="TextBox54" type="text" id="TextBox54" class="form-control" value="{{ array_get($intake, 'TextBox54') }}"></td>
-                                                    <td><input name="TextBox55" type="text" id="TextBox55" class="form-control" value="{{ array_get($intake, 'TextBox55') }}"></td>
-                                                    <td><input name="TextBox56" type="text" id="TextBox56" class="form-control" value="{{ array_get($intake, 'TextBox56') }}"></td>
-                                                    <td><input name="TextBox57" type="text" id="TextBox57" class="form-control" value="{{ array_get($intake, 'TextBox57') }}"></td>
+                                                    <td><input name="familyhistory_children_living_age" type="text" id="familyhistory_children_living_age" class="form-control" value="{{ array_get($intake, 'familyhistory_children_living_age') }}"></td>
+                                                    <td><input name="familyhistory_children_living_health" type="text" id="familyhistory_children_living_health" class="form-control" value="{{ array_get($intake, 'familyhistory_children_living_health') }}"></td>
+                                                    <td><input name="familyhistory_children_deceased_age" type="text" id="familyhistory_children_deceased_age" class="form-control" value="{{ array_get($intake, 'familyhistory_children_deceased_age') }}"></td>
+                                                    <td><input name="familyhistory_children_deceased_causeofdeath" type="text" id="familyhistory_children_deceased_causeofdeath" class="form-control" value="{{ array_get($intake, 'familyhistory_children_deceased_causeofdeath') }}"></td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -538,7 +538,7 @@
                                                 </label>
                                             </div>
                                             <div class="col-md-10 col-sm-10">
-                                                <input name="TextBox36" type="text" id="TextBox36" class="form-control" value="{{ array_get($intake, 'TextBox36') }}">
+                                                <input name="familyhistory_maternalrelatives" type="text" id="familyhistory_maternalrelatives" class="form-control" value="{{ array_get($intake, 'familyhistory_maternalrelatives') }}">
                                             </div>
                                         </div>
 
@@ -549,7 +549,7 @@
                                                 </label>
                                             </div>
                                             <div class="col-md-10 col-sm-10">
-                                                <input name="TextBox35" type="text" id="TextBox35" class="form-control" value="{{ array_get($intake, 'TextBox35') }}">
+                                                <input name="familyhistory_paternalrelatives" type="text" id="familyhistory_paternalrelatives" class="form-control" value="{{ array_get($intake, 'familyhistory_paternalrelatives') }}">
                                             </div>
 
                                         </div>

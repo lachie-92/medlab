@@ -19,7 +19,7 @@
                                 </label>
                             </div>
                             <div class="col-md-3 col-sm-3">
-                                <input name="txtdate" type="text" value="{{ array_get($intake, 'txtdate') }}" id="txtdate" class="form-control">
+                                <input name="details_date" type="text" value="{{ array_get($intake, 'details_date') }}" id="details_date" class="form-control">
                             </div>
                             <div class="col-md-6 col-sm-6">
                             </div>
@@ -32,7 +32,7 @@
                                 </label>
                             </div>
                             <div class="col-md-3 col-sm-3">
-                                <input name="txtfname" type="text" value="{{ array_get($intake, 'txtfname') }}" id="txtfname" class="form-control">
+                                <input name="details_firstname" type="text" value="{{ array_get($intake, 'details_firstname') }}" id="details_firstname" class="form-control">
                             </div>
                             <div class="col-md-1 col-sm-1">
                                 <label>
@@ -40,7 +40,7 @@
                                 </label>
                             </div>
                             <div class="col-md-3 col-sm-3">
-                                <input name="txtlast" type="text" value="{{ array_get($intake, 'txtlast') }}" id="txtlast" class="form-control">
+                                <input name="details_surname" type="text" value="{{ array_get($intake, 'details_surname') }}" id="details_surname" class="form-control">
                             </div>
                         </div>
                         <br>
@@ -51,7 +51,7 @@
                                 </label>
                             </div>
                             <div class="col-md-9 col-sm-9">
-                                <input name="txtarddr" type="text" value="{{ array_get($intake, 'txtarddr') }}" id="txtarddr" class="form-control">
+                                <input name="details_address" type="text" value="{{ array_get($intake, 'details_address') }}" id="details_address" class="form-control">
                             </div>
 
                         </div>
@@ -63,20 +63,20 @@
                                 </label>
                             </div>
                             <div class="col-md-3 col-sm-3">
-                                <input name="txtemail" type="text" value="{{ $user->email }}" readonly="readonly" id="txtemail" class="form-control">
+                                <input name="details_email" type="text" value="{{ $user->email }}" readonly="readonly" id="details_email" class="form-control">
                             </div>
                             <div class="col-md-1 col-sm-1">
                                 <label>D.O.B</label>
                             </div>
                             <div class="col-md-3 col-sm-3">
-                                <input name="txtdob" type="text" value="{{ array_get($intake, 'txtdob') }}" id="txtdob" class="form-control">
+                                <input name="details_dob" type="text" value="{{ array_get($intake, 'details_dob') }}" id="details_dob" class="form-control">
 
                             </div>
                             <div class="col-md-1 col-sm-1">
-                                <input id="rdm" type="radio" name="txtsex" value="M" {{ array_get($intake, 'txtsex')=="M"?'checked="checked"':"" }}><label for="rdm">Male</label>
+                                <input id="rdm" type="radio" name="details_sex" value="M" {{ array_get($intake, 'details_sex')=="M"?'checked="checked"':"" }}><label for="rdm">Male</label>
                             </div>
                             <div class="col-md-2 col-sm-2">
-                                <input id="rdf" type="radio" name="txtsex" value="F" {{ array_get($intake, 'txtsex')=="F"?'checked="checked"':"" }}><label for="rdf">Female</label>
+                                <input id="rdf" type="radio" name="details_sex" value="F" {{ array_get($intake, 'details_sex')=="F"?'checked="checked"':"" }}><label for="rdf">Female</label>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                                 </label>
                             </div>
                             <div class="col-md-3 col-sm-3">
-                                <input name="txtgfname" type="text" value="{{ array_get($intake, 'txtgfname') }}" id="txtgfname" class="form-control">
+                                <input name="guardian_firstname" type="text" value="{{ array_get($intake, 'guardian_firstname') }}" id="guardian_firstname" class="form-control">
                             </div>
                             <div class="col-md-1 col-sm-1">
                                 <label>
@@ -106,7 +106,7 @@
                                 </label>
                             </div>
                             <div class="col-md-3 col-sm-3">
-                                <input name="txtglast" type="text" value="{{ array_get($intake, 'txtglast') }}" id="txtglast" class="form-control">
+                                <input name="guardian_lastname" type="text" value="{{ array_get($intake, 'guardian_lastname') }}" id="guardian_lastname" class="form-control">
                             </div>
                         </div>
                         <br>
@@ -117,13 +117,12 @@
                                 </label>
                             </div>
                             <div class="col-md-3 col-sm-3">
-                                <select name="ddlrelation" id="ddlrelation" class="form-control">
-                                    <option selected="selected" value="">Parents</option>
-                                    <option value="">Parents</option>
-                                    <option value="">Partner</option>
-                                    <option value="">Sibling</option>
-                                    <option value="">Carer</option>
-                                    <option value="">Friend</option>
+                                <select name="guardian_relationship" id="guardian_relationship" class="form-control">
+                                    <option value="Parents" {{ array_get($intake, 'guardian_relationship')=="Parents"?'selected="selected"':"" }}>Parents</option>
+                                    <option value="Partner" {{ array_get($intake, 'guardian_relationship')=="Partner"?'selected="selected"':"" }}>Partner</option>
+                                    <option value="Sibling" {{ array_get($intake, 'guardian_relationship')=="Sibling"?'selected="selected"':"" }}>Sibling</option>
+                                    <option value="Carer" {{ array_get($intake, 'guardian_relationship')=="Carer"?'selected="selected"':"" }}>Carer</option>
+                                    <option value="Friend" {{ array_get($intake, 'guardian_relationship')=="Friend"?'selected="selected"':"" }}>Friend</option>
 
                                     </select>
                             </div>
@@ -144,7 +143,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
-                                <textarea name="txtpsyntoms" rows="2" cols="20" id="txtpsyntoms" class="form-control">{{ array_get($intake, 'txtpsyntoms') }}</textarea>
+                                <textarea name="symptoms" rows="2" cols="20" id="symptoms" class="form-control">{{ array_get($intake, 'symptoms') }}</textarea>
                             </div>
                         </div>
 
@@ -166,19 +165,19 @@
                                 <label>1/. Practitioner Name</label>
                             </div>
                             <div class="col-md-2 col-sm-2">
-                                <input name="TextBox5" type="text" id="TextBox5" class="form-control" value="{{ array_get($intake, 'TextBox5') }}">
+                                <input name="practitioner1_name" type="text" id="practitioner1_name" class="form-control" value="{{ array_get($intake, 'practitioner1_name') }}">
                             </div>
                             <div class="col-md-2 col-sm-2">
                                 <label>Town/State/Country</label>
                             </div>
                             <div class="col-md-2 col-sm-2">
-                                <input name="TextBox11" type="text" id="TextBox11" class="form-control" value="{{ array_get($intake, 'TextBox11') }}">
+                                <input name="practitioner1_address" type="text" id="practitioner1_address" class="form-control" value="{{ array_get($intake, 'practitioner1_address') }}">
                             </div>
                             <div class="col-md-2 col-sm-2">
                                 <label>Ph/Email</label>
                             </div>
                             <div class="col-md-2 col-sm-2">
-                                <input name="TextBox12" type="text" id="TextBox12" class="form-control" value="{{ array_get($intake, 'TextBox12') }}">
+                                <input name="practitioner1_contact" type="text" id="practitioner1_contact" class="form-control" value="{{ array_get($intake, 'practitioner1_contact') }}">
                             </div>
                         </div>
                         <br>
@@ -187,19 +186,19 @@
                                 <label>2/. Practitioner Name</label>
                             </div>
                             <div class="col-md-2 col-sm-2">
-                                <input name="TextBox13" type="text" id="TextBox13" class="form-control" value="{{ array_get($intake, 'TextBox13') }}">
+                                <input name="practitioner2_name" type="text" id="practitioner2_name" class="form-control" value="{{ array_get($intake, 'practitioner2_name') }}">
                             </div>
                             <div class="col-md-2 col-sm-2">
                                 <label>Town/State/Country</label>
                             </div>
                             <div class="col-md-2 col-sm-2">
-                                <input name="TextBox14" type="text" id="TextBox14" class="form-control" value="{{ array_get($intake, 'TextBox14') }}">
+                                <input name="practitioner1_address" type="text" id="practitioner1_address" class="form-control" value="{{ array_get($intake, 'practitioner1_address') }}">
                             </div>
                             <div class="col-md-2 col-sm-2">
                                 <label>Ph/Email</label>
                             </div>
                             <div class="col-md-2 col-sm-2">
-                                <input name="TextBox15" type="text" id="TextBox15" class="form-control" value="{{ array_get($intake, 'TextBox15') }}">
+                                <input name="practitioner2_contact" type="text" id="practitioner2_contact" class="form-control" value="{{ array_get($intake, 'practitioner2_contact') }}">
                             </div>
                         </div>
                         <br>
@@ -212,7 +211,7 @@
                         </label>
                     </div>
                     <div class="col-md-12 col-sm-12">
-                        <textarea name="txthospital" rows="2" cols="20" id="txthospital" class="form-control">{{ array_get($intake, 'txthospital') }}</textarea>
+                        <textarea name="hospitalizations" rows="2" cols="20" id="hospitalizations" class="form-control">{{ array_get($intake, 'hospitalizations') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -227,9 +226,9 @@
                     </div>
                     <div class="col-md-2 col-sm-2">
 
-                        <table id="rdect">
+                        <table id="history_ect">
                         <tbody><tr>
-                        <td><input id="rdect_0" type="radio" name="rdect" value="Y" {{ array_get($intake, 'rdect')=="Y"?'checked="checked"':"" }}><label for="rdect_0">Yes</label></td><td><input id="rdect_1" type="radio" name="rdect" value="N" {{ array_get($intake, 'rdect')=="N"?'checked="checked"':"" }}><label for="rdect_1">No</label></td>
+                        <td><input id="history_ect_0" type="radio" name="history_ect" value="Y" {{ array_get($intake, 'history_ect')=="Y"?'checked="checked"':"" }}><label for="history_ect_0">Yes</label></td><td><input id="history_ect_1" type="radio" name="history_ect" value="N" {{ array_get($intake, 'history_ect')=="N"?'checked="checked"':"" }}><label for="history_ect_1">No</label></td>
                         </tr>
                         </tbody></table>
                     </div>
@@ -240,9 +239,9 @@
                     </div>
                     <div class="col-md-3 col-sm-3">
 
-                        <table id="rdpsycho">
+                        <table id="history_psychotherapy">
                         <tbody><tr>
-                        <td><input id="rdpsycho_0" type="radio" name="rdpsycho" value="Y" {{ array_get($intake, 'rdpsycho')=="Y"?'checked="checked"':"" }}"><label for="rdpsycho_0">Yes</label></td><td><input id="rdpsycho_1" type="radio" name="rdpsycho" value="N" {{ array_get($intake, 'rdpsycho')=="N"?'checked="checked"':"" }}><label for="rdpsycho_1">No</label></td>
+                        <td><input id="history_psychotherapy_0" type="radio" name="history_psychotherapy" value="Y" {{ array_get($intake, 'history_psychotherapy')=="Y"?'checked="checked"':"" }}"><label for="history_psychotherapy_0">Yes</label></td><td><input id="history_psychotherapy_1" type="radio" name="history_psychotherapy" value="N" {{ array_get($intake, 'history_psychotherapy')=="N"?'checked="checked"':"" }}><label for="history_psychotherapy_1">No</label></td>
                         </tr>
                         </tbody></table>
                     </div>
@@ -261,8 +260,8 @@
                         <label>Drugs Allergies</label>
                     </div>
                     <div class="col-md-3 col-sm-3">
-                        <input id="rddrugy" type="radio" name="drug" value="Y" {{ array_get($intake, 'drug')=="Y"?'checked="checked"':"" }}"><label for="rddrugy">Yes</label>
-                        <input id="rddrugn" type="radio" name="drug" value="N" {{ array_get($intake, 'drug')=="N"?'checked="checked"':"" }}"><label for="rddrugn">No</label>
+                        <input id="rdcurrentmedication_allergiesy" type="radio" name="currentmedication_allergies" value="Y" {{ array_get($intake, 'currentmedication_allergies')=="Y"?'checked="checked"':"" }}"><label for="rdcurrentmedication_allergiesy">Yes</label>
+                        <input id="rdcurrentmedication_allergiesn" type="radio" name="currentmedication_allergies" value="N" {{ array_get($intake, 'currentmedication_allergies')=="N"?'checked="checked"':"" }}"><label for="rdcurrentmedication_allergiesn">No</label>
 
 
                     </div>
@@ -294,7 +293,7 @@
                             1/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug1" rows="2" cols="20" id="txtdrug1" class="form-control">{{ array_get($intake, 'txtdrug1') }}</textarea>
+                        <textarea name="currentmedications_drug1" rows="2" cols="20" id="currentmedications_drug1" class="form-control">{{ array_get($intake, 'currentmedications_drug1') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -303,7 +302,7 @@
                             2/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug2" rows="2" cols="20" id="txtdrug2" class="form-control">{{ array_get($intake, 'txtdrug2') }}</textarea>
+                        <textarea name="currentmedications_drug2" rows="2" cols="20" id="currentmedications_drug2" class="form-control">{{ array_get($intake, 'currentmedications_drug2') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -312,7 +311,7 @@
                             3/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug3" rows="2" cols="20" id="txtdrug3" class="form-control">{{ array_get($intake, 'txtdrug3') }}</textarea>
+                        <textarea name="currentmedications_drug3" rows="2" cols="20" id="currentmedications_drug3" class="form-control">{{ array_get($intake, 'currentmedications_drug3') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -321,7 +320,7 @@
                             4/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug4" rows="2" cols="20" id="txtdrug4" class="form-control">{{ array_get($intake, 'txtdrug4') }}</textarea>
+                        <textarea name="currentmedications_drug4" rows="2" cols="20" id="currentmedications_drug4" class="form-control">{{ array_get($intake, 'currentmedications_drug4') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -330,7 +329,7 @@
                             5/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug5" rows="2" cols="20" id="txtdrug5" class="form-control">{{ array_get($intake, 'txtdrug5') }}</textarea>
+                        <textarea name="currentmedications_drug5" rows="2" cols="20" id="currentmedications_drug5" class="form-control">{{ array_get($intake, 'currentmedications_drug5') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -339,7 +338,7 @@
                             6/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug6" rows="2" cols="20" id="txtdrug6" class="form-control">{{ array_get($intake, 'txtdrug6') }}</textarea>
+                        <textarea name="currentmedications_drug6" rows="2" cols="20" id="currentmedications_drug6" class="form-control">{{ array_get($intake, 'currentmedications_drug6') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -348,7 +347,7 @@
                             7/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug7" rows="2" cols="20"id="txtdrug7" class="form-control">{{ array_get($intake, 'txtdrug7') }}</textarea>
+                        <textarea name="currentmedications_drug7" rows="2" cols="20"id="currentmedications_drug7" class="form-control">{{ array_get($intake, 'currentmedications_drug7') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -357,7 +356,7 @@
                             8/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug8" rows="2" cols="20" id="txtdrug8" class="form-control">{{ array_get($intake, 'txtdrug8') }}</textarea>
+                        <textarea name="currentmedications_drug8" rows="2" cols="20" id="currentmedications_drug8" class="form-control">{{ array_get($intake, 'currentmedications_drug8') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -366,7 +365,7 @@
                             9/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug9" rows="2" cols="20" id="txtdrug9" class="form-control">{{ array_get($intake, 'txtdrug9') }}</textarea>
+                        <textarea name="currentmedications_drug9" rows="2" cols="20" id="currentmedications_drug9" class="form-control">{{ array_get($intake, 'currentmedications_drug9') }}</textarea>
                     </div>
                 </div>
                 <div class="row">
@@ -375,7 +374,7 @@
                             10/.</label>
                     </div>
                     <div class="col-md-11 col-sm-11">
-                        <textarea name="txtdrug10" rows="2" cols="20" id="txtdrug10" class="form-control">{{ array_get($intake, 'txtdrug10') }}</textarea>
+                        <textarea name="currentmedications_drug10" rows="2" cols="20" id="currentmedications_drug10" class="form-control">{{ array_get($intake, 'currentmedications_drug10') }}</textarea>
                     </div>
                 </div>
                 <br>
