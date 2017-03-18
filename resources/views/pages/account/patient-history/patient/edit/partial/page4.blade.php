@@ -1,3 +1,57 @@
+@section('custom_script')
+<script type="text/javascript" src="/js/jquery.jqscribble.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#canvas_diagram_front').jqScribble({
+            backgroundImage: '{{ array_get($intake, 'area_diagram_front', '/img/account/patient-history/body-front.png') }}',
+            brushSize: 9
+        });
+
+        $('#canvas_diagram_back').jqScribble({
+            backgroundImage: '{{ array_get($intake, 'area_diagram_back', '/img/account/patient-history/body-back.png') }}',
+            brushSize: 9
+        });
+
+        $('form').on('submit', function() {
+            $("#canvas_diagram_front").data("jqScribble").save(function(imageData)
+            {
+                $('#area_diagram_front').val(imageData);
+            });
+
+            $("#canvas_diagram_back").data("jqScribble").save(function(imageData)
+            {
+                $('#area_diagram_back').val(imageData);
+            });
+        })
+
+        $('.area_diagram .canvas-clear').on('click', function() {
+            $original = $(this).parents('.area_diagram').find('.canvas_diagram').attr('rel');
+            $(this).parents('.area_diagram').find('.canvas_diagram').data('jqScribble').clear().update({
+                backgroundImage: $original
+            });
+        })
+
+        $('#selWidth').on('change', function() {
+            $brushSize = this.value;
+            $('.canvas_diagram').each(function () {
+                $(this).data('jqScribble').update({
+                    brushSize: $brushSize
+                });
+            });
+        })
+
+        $('#selColor').on('change', function() {
+            $brushColor = this.value;
+            $('.canvas_diagram').each(function() {
+                $(this).data('jqScribble').update({
+                    brushColor: $brushColor
+                });
+            });
+        })
+    })
+</script>
+@endsection
+
 <div class="row">
     <form action="{{ route('account.patient-history.new.continue', 5) }}" method="POST" id="page4">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -157,38 +211,34 @@
                                         <label>Color :</label>
                                         <select id="selColor" class="form-control" style="width:120px">
                                             <option value="black" selected="selected">Pain</option>
-
                                             <option value="red">Bleeding</option>
                                             <option value="green">Concern</option>
-
                                             <option value="gray">Swelling</option>
                                         </select>
                                         </div>
                                     </div>
                                     <div class="row" style="padding-top:5px;">
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <button type="button" id="canvas-clear" class="btn-info"><i class="fa fa-times"></i></button>
-                                                <button type="button" id="canvas-undo" class="btn-info"><i class="fa fa-undo"></i></button>
-                                                <button type="button" id="canvas-redo" class="btn-info"><i class="fa fa-repeat"></i></button>
-                                                <button type="button" id="canvas-save" class="btn-info"><i class="fa fa-floppy-o"></i></button>
+                                        <div class="area_diagram">
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <button type="button" id="" class="btn-info canvas-clear">Reset</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <input type="hidden" id="area_diagram_front" name="area_diagram_front" value="" />
+                                                <div id="canvas_diagram_front" class="canvas_diagram" style="width:200px;height:500px;" rel="/img/account/patient-history/body-front.png"></div>
                                             </div>
                                         </div>
-                                        <div class="col-md-3">
-                                            <input type="hidden" id="diagram_front" name="diagram_front" value="" />
-                                            <div id="canvas_diagram_front" style="width:200px;height:500px;"></div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="form-group">
-                                                <button type="button" id="canvas-clear" class="btn-info"><i class="fa fa-times"></i></button>
-                                                <button type="button" id="canvas-undo" class="btn-info"><i class="fa fa-undo"></i></button>
-                                                <button type="button" id="canvas-redo" class="btn-info"><i class="fa fa-repeat"></i></button>
-                                                <button type="button" id="canvas-save" class="btn-info"><i class="fa fa-floppy-o"></i></button>
+                                        <div class="area_diagram">
+                                            <div class="col-md-3">
+                                                <div class="form-group">
+                                                    <button type="button" id="" class="btn-info canvas-clear">Reset</button>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <input type="hidden" id="diagram_back" name="diagram_back" value="" />
-                                            <div id="canvas_diagram_back" style="width:200px;height:500px;"></div>
+                                            <div class="col-md-3">
+                                                <input type="hidden" id="area_diagram_back" name="area_diagram_back" value="" />
+                                                <div id="canvas_diagram_back" class="canvas_diagram" style="width:200px;height:500px;" rel="/img/account/patient-history/body-back.png"></div>
+                                            </div>
                                         </div>
                                     </div>
 
