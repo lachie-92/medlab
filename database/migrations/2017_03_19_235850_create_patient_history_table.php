@@ -15,6 +15,7 @@ class CreatePatientHistoryTable extends Migration
         Schema::create('patient_histories', function(Blueprint $table) {
             $table->increments('id');
             $table->integer('patient_id')->unsigned();
+            $table->timestamp('locked_at')->nullable();
             $table->timestamps();
 
             $table->foreign('patient_id')->references('id')->on('patients')->onDelete('cascade');

@@ -17,4 +17,11 @@ class Patient_History extends Model
     {
         return $this->belongsTo('App\Patient');
     }
+
+    public function scopeLocked($query) {
+        return $query->whereNotNull('locked_at');
+    }
+    public function scopeUnlocked($query) {
+        return $query->whereNull('locked_at');
+    }
 }
