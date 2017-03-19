@@ -1,6 +1,7 @@
 <div class="row">
-    <form action="{{ route('account.patient-history.new.continue', 4) }}" method="POST">
+    <form action="{{ route('account.patient-history.store') }}" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        <input type="hidden" name="page" value="3">
         <div class="col-md-12 col-sm-12">
         <div class="panel panel-primary medlab_panel">
 

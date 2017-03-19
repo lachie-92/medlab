@@ -1,6 +1,7 @@
 <div class="container-fluid">
-    <form action="{{ route('account.patient-history.new.continue', 2) }}" method="POST">
+    <form action="{{ route('account.patient-history.store') }}" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        <input type="hidden" name="page" value="1">
         <div class="col-md-12 col-sm-12">
             <div class="well" style="background-color: transparent; background-image: none">
                 <div class="row">

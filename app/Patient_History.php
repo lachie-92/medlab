@@ -6,7 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Patient_History extends Model
 {
-    protected $table='patient_histories';
+    protected $table = 'patient_histories';
+    protected $primaryKey = 'id';
 
     public function attributes()
     {

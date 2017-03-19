@@ -8,6 +8,11 @@ class Patient_History_Attribute extends Model
 {
 
     protected $table='patient_history_attributes';
+    protected $fillable = [
+        'history_id',
+        'key',
+        'value',
+    ];
 
     public function history()
     {

@@ -1,6 +1,7 @@
 <div class="container-fluid">
-    <form action="{{ route('account.patient-history.new.continue', 3) }}" method="POST">
+    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
+        <input type="hidden" name="page" value="2">
         <div class="col-md-12 col-sm-12">
              <div class="panel panel-primary medlab_panel">
                 <div class="panel-body">
