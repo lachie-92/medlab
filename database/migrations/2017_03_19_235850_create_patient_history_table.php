@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateHistoryTable extends Migration
+class CreatePatientHistoryTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,7 +12,7 @@ class CreateHistoryTable extends Migration
      */
     public function up()
     {
-        Schema::create('history', function(Blueprint $table) {
+        Schema::create('patient_histories', function(Blueprint $table) {
             $table->increments('id');
             $table->integer('patient_id')->unsigned();
             $table->timestamps();
@@ -20,13 +20,13 @@ class CreateHistoryTable extends Migration
             $table->foreign('patient_id')->references('id')->on('patients')->onDelete('cascade');
         });
 
-        Schema::create('history_attribute', function(Blueprint $table) {
+        Schema::create('patient_history_attributes', function(Blueprint $table) {
             $table->integer('history_id')->unsigned();
             $table->string('key');
             $table->longtext('value');
             $table->timestamps();
 
-            $table->foreign('history_id')->references('id')->on('history')->onDelete('cascade');
+            $table->foreign('history_id')->references('id')->on('patient_histories')->onDelete('cascade');
             $table->unique(['history_id', 'key']);
         });
     }
@@ -38,6 +38,7 @@ class CreateHistoryTable extends Migration
      */
     public function down()
     {
-        Schema::drop('history');
+        Schema::drop('patient_history_attributes');
+        Schema::drop('patient_histories');
     }
 }
