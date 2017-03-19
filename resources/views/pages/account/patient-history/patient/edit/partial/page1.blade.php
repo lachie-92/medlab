@@ -228,7 +228,7 @@
 
                         <table id="history_ect">
                         <tbody><tr>
-                        <td><input id="history_ect_0" type="radio" name="history_ect" value="Y" {{ array_get($intake, 'history_ect')=="Y"?'checked="checked"':"" }}><label for="history_ect_0">Yes</label></td><td><input id="history_ect_1" type="radio" name="history_ect" value="N" {{ array_get($intake, 'history_ect')=="N"?'checked="checked"':"" }}><label for="history_ect_1">No</label></td>
+                        <td><input id="history_ect_0" type="radio" name="history_ect" value="1" {{ array_get($intake, 'history_ect')=="1"?'checked="checked"':"" }}><label for="history_ect_0">Yes</label></td><td><input id="history_ect_1" type="radio" name="history_ect" value="0" {{ array_get($intake, 'history_ect')=="0"?'checked="checked"':"" }}><label for="history_ect_1">No</label></td>
                         </tr>
                         </tbody></table>
                     </div>
@@ -241,7 +241,7 @@
 
                         <table id="history_psychotherapy">
                         <tbody><tr>
-                        <td><input id="history_psychotherapy_0" type="radio" name="history_psychotherapy" value="Y" {{ array_get($intake, 'history_psychotherapy')=="Y"?'checked="checked"':"" }}"><label for="history_psychotherapy_0">Yes</label></td><td><input id="history_psychotherapy_1" type="radio" name="history_psychotherapy" value="N" {{ array_get($intake, 'history_psychotherapy')=="N"?'checked="checked"':"" }}><label for="history_psychotherapy_1">No</label></td>
+                        <td><input id="history_psychotherapy_0" type="radio" name="history_psychotherapy" value="1" {{ array_get($intake, 'history_psychotherapy')=="1"?'checked="checked"':"" }}"><label for="history_psychotherapy_0">Yes</label></td><td><input id="history_psychotherapy_1" type="radio" name="history_psychotherapy" value="0" {{ array_get($intake, 'history_psychotherapy')=="0"?'checked="checked"':"" }}><label for="history_psychotherapy_1">No</label></td>
                         </tr>
                         </tbody></table>
                     </div>

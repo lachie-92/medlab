@@ -8,7 +8,6 @@
                         <div class="container-fluid">
                             <div class="col-md-12 col-sm-12">
                                 <div class="well" style="background-color: transparent; background-image: none">
-                                    <input type="hidden" name="hfid" id="hfid" value="0">
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12">
                                             <label style="color: #1E5494">

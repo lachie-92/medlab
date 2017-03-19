@@ -6,8 +6,6 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="container-fluid">
-                            <input type="hidden" name="hdid" id="hdid" value="0">
-
                             <div class="col-md-12 col-sm-12">
                                 <div class="well" style="background-color: transparent; background-image: none">
 
@@ -33,26 +31,26 @@
                                         <br>
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="medicalhistory_diabetes" type="checkbox" name="medicalhistory_diabetes" value="Y" {{ array_get($intake, 'medicalhistory_diabetes')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_diabetes" type="checkbox" name="medicalhistory_diabetes" value="1" {{ array_get($intake, 'medicalhistory_diabetes')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_diabetes">Diabetes</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_heartmurmur" type="checkbox" name="medicalhistory_heartmurmur" value="Y" {{ array_get($intake, 'medicalhistory_heartmurmur')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_heartmurmur" type="checkbox" name="medicalhistory_heartmurmur" value="1" {{ array_get($intake, 'medicalhistory_heartmurmur')=="1"?'checked="checked"':"" }}">
 
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_heartmurmur">Heart Murmur</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_crohnsdisease" type="checkbox" name="medicalhistory_crohnsdisease" value="Y" {{ array_get($intake, 'medicalhistory_crohnsdisease')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_crohnsdisease" type="checkbox" name="medicalhistory_crohnsdisease" value="1" {{ array_get($intake, 'medicalhistory_crohnsdisease')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_crohnsdisease">Crohn’s Disease</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_highbloodpressure" type="checkbox" name="medicalhistory_highbloodpressure" value="Y" {{ array_get($intake, 'medicalhistory_highbloodpressure')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_highbloodpressure" type="checkbox" name="medicalhistory_highbloodpressure" value="1" {{ array_get($intake, 'medicalhistory_highbloodpressure')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_highbloodpressure">High Blood Pressure</label>
@@ -61,25 +59,25 @@
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="medicalhistory_highcholesterol" type="checkbox" name="medicalhistory_highcholesterol" value="Y" {{ array_get($intake, 'medicalhistory_highcholesterol')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_highcholesterol" type="checkbox" name="medicalhistory_highcholesterol" value="1" {{ array_get($intake, 'medicalhistory_highcholesterol')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_highcholesterol">High Cholesterol</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_hypothyroidism" type="checkbox" name="medicalhistory_hypothyroidism" value="Y" {{ array_get($intake, 'medicalhistory_hypothyroidism')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_hypothyroidism" type="checkbox" name="medicalhistory_hypothyroidism" value="1" {{ array_get($intake, 'medicalhistory_hypothyroidism')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_hypothyroidism">Hypothyroidism</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_goiter" type="checkbox" name="medicalhistory_goiter" value="Y" {{ array_get($intake, 'medicalhistory_goiter')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_goiter" type="checkbox" name="medicalhistory_goiter" value="1" {{ array_get($intake, 'medicalhistory_goiter')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_goiter">Goiter</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_leukemia" type="checkbox" name="medicalhistory_leukemia" value="Y" {{ array_get($intake, 'medicalhistory_leukemia')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_leukemia" type="checkbox" name="medicalhistory_leukemia" value="1" {{ array_get($intake, 'medicalhistory_leukemia')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_leukemia">Leukemia</label>
@@ -88,25 +86,25 @@
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="medicalhistory_psoriasis" type="checkbox" name="medicalhistory_psoriasis" value="Y" {{ array_get($intake, 'medicalhistory_psoriasis')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_psoriasis" type="checkbox" name="medicalhistory_psoriasis" value="1" {{ array_get($intake, 'medicalhistory_psoriasis')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_psoriasis">Psoriasis</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_angina" type="checkbox" name="medicalhistory_angina" value="Y" {{ array_get($intake, 'medicalhistory_angina')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_angina" type="checkbox" name="medicalhistory_angina" value="1" {{ array_get($intake, 'medicalhistory_angina')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_angina">Angina</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_heartproblems" type="checkbox" name="medicalhistory_heartproblems" value="Y" {{ array_get($intake, 'medicalhistory_heartproblems')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_heartproblems" type="checkbox" name="medicalhistory_heartproblems" value="1" {{ array_get($intake, 'medicalhistory_heartproblems')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_heartproblems">Heart Problems</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_pneumonia" type="checkbox" name="medicalhistory_pneumonia" value="Y" {{ array_get($intake, 'medicalhistory_pneumonia')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_pneumonia" type="checkbox" name="medicalhistory_pneumonia" value="1" {{ array_get($intake, 'medicalhistory_pneumonia')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_pneumonia">Pneumonia</label>
@@ -115,25 +113,25 @@
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="medicalhistory_pulmonaryembolism" type="checkbox" name="medicalhistory_pulmonaryembolism" value="Y" {{ array_get($intake, 'medicalhistory_pulmonaryembolism')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_pulmonaryembolism" type="checkbox" name="medicalhistory_pulmonaryembolism" value="1" {{ array_get($intake, 'medicalhistory_pulmonaryembolism')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_pulmonaryembolism">Pulmonary Embolism</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_asthma" type="checkbox" name="medicalhistory_asthma" value="Y" {{ array_get($intake, 'medicalhistory_asthma')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_asthma" type="checkbox" name="medicalhistory_asthma" value="1" {{ array_get($intake, 'medicalhistory_asthma')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_asthma">Asthma</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_emphysema" type="checkbox" name="medicalhistory_emphysema" value="Y" {{ array_get($intake, 'medicalhistory_emphysema')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_emphysema" type="checkbox" name="medicalhistory_emphysema" value="1" {{ array_get($intake, 'medicalhistory_emphysema')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_emphysema">Emphysema</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_stroke" type="checkbox" name="medicalhistory_stroke" value="Y" {{ array_get($intake, 'medicalhistory_stroke')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_stroke" type="checkbox" name="medicalhistory_stroke" value="1" {{ array_get($intake, 'medicalhistory_stroke')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_stroke">Stroke</label>
@@ -142,25 +140,25 @@
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="medicalhistory_epilepsy" type="checkbox" name="medicalhistory_epilepsy" value="Y" {{ array_get($intake, 'medicalhistory_epilepsy')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_epilepsy" type="checkbox" name="medicalhistory_epilepsy" value="1" {{ array_get($intake, 'medicalhistory_epilepsy')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_epilepsy">Epilepsy (Seizures)</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_cataracts" type="checkbox" name="medicalhistory_cataracts" value="Y" {{ array_get($intake, 'medicalhistory_cataracts')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_cataracts" type="checkbox" name="medicalhistory_cataracts" value="1" {{ array_get($intake, 'medicalhistory_cataracts')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_cataracts">Cataracts</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_kidneydisease" type="checkbox" name="medicalhistory_kidneydisease" value="Y" {{ array_get($intake, 'medicalhistory_kidneydisease')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_kidneydisease" type="checkbox" name="medicalhistory_kidneydisease" value="1" {{ array_get($intake, 'medicalhistory_kidneydisease')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_kidneydisease">Kidney Disease</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_kidneystones" type="checkbox" name="medicalhistory_kidneystones" value="Y" {{ array_get($intake, 'medicalhistory_kidneystones')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_kidneystones" type="checkbox" name="medicalhistory_kidneystones" value="1" {{ array_get($intake, 'medicalhistory_kidneystones')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_kidneystones">Kidney Stones</label>
@@ -169,25 +167,25 @@
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="medicalhistory_colitis" type="checkbox" name="medicalhistory_colitis" value="Y" {{ array_get($intake, 'medicalhistory_colitis')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_colitis" type="checkbox" name="medicalhistory_colitis" value="1" {{ array_get($intake, 'medicalhistory_colitis')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_colitis">Colitis</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_anemia" type="checkbox" name="medicalhistory_anemia" value="Y" {{ array_get($intake, 'medicalhistory_anemia')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_anemia" type="checkbox" name="medicalhistory_anemia" value="1" {{ array_get($intake, 'medicalhistory_anemia')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_anemia">Anemia</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_jaundice" type="checkbox" name="medicalhistory_jaundice" value="Y" {{ array_get($intake, 'medicalhistory_jaundice')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_jaundice" type="checkbox" name="medicalhistory_jaundice" value="1" {{ array_get($intake, 'medicalhistory_jaundice')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_jaundice">Jaundice</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_hepatitis" type="checkbox" name="medicalhistory_hepatitis" value="Y" {{ array_get($intake, 'medicalhistory_hepatitis')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_hepatitis" type="checkbox" name="medicalhistory_hepatitis" value="1" {{ array_get($intake, 'medicalhistory_hepatitis')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_hepatitis">Hepatitis</label>
@@ -196,25 +194,25 @@
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="medicalhistory_stomachpepticulcer" type="checkbox" name="medicalhistory_stomachpepticulcer" value="Y" {{ array_get($intake, 'medicalhistory_stomachpepticulcer')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_stomachpepticulcer" type="checkbox" name="medicalhistory_stomachpepticulcer" value="1" {{ array_get($intake, 'medicalhistory_stomachpepticulcer')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_stomachpepticulcer">Stomach or Peptic Ulcer</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_rheumaticfever" type="checkbox" name="medicalhistory_rheumaticfever" value="Y" {{ array_get($intake, 'medicalhistory_rheumaticfever')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_rheumaticfever" type="checkbox" name="medicalhistory_rheumaticfever" value="1" {{ array_get($intake, 'medicalhistory_rheumaticfever')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_rheumaticfever">Rheumatic Fever</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_tuberculosis" type="checkbox" name="medicalhistory_tuberculosis" value="Y" {{ array_get($intake, 'medicalhistory_tuberculosis')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_tuberculosis" type="checkbox" name="medicalhistory_tuberculosis" value="1" {{ array_get($intake, 'medicalhistory_tuberculosis')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_tuberculosis">Tuberculosis</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_hivaids" type="checkbox" name="medicalhistory_hivaids" value="Y" {{ array_get($intake, 'medicalhistory_hivaids')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_hivaids" type="checkbox" name="medicalhistory_hivaids" value="1" {{ array_get($intake, 'medicalhistory_hivaids')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                                 <label for="medicalhistory_hivaids">HIV/AIDS</label>
@@ -223,7 +221,7 @@
 
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
-                                            <input id="medicalhistory_cancer" type="checkbox" name="medicalhistory_cancer" value="Y" {{ array_get($intake, 'medicalhistory_cancer')=="Y"?'checked="checked"':"" }}">
+                                            <input id="medicalhistory_cancer" type="checkbox" name="medicalhistory_cancer" value="1" {{ array_get($intake, 'medicalhistory_cancer')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                             <label for="medicalhistory_cancer">Cancer (type)</label>
@@ -232,7 +230,7 @@
                                             <input name="medicalhistory_cancer_type" type="text" id="medicalhistory_cancer_type" class="form-control" value="{{ array_get($intake, 'medicalhistory_cancer_type') }}">
                                         </div>
                                         <div class="col-md-1 col-sm-1">
-                                           <input id="medicalhistory_otherstd" type="checkbox" name="medicalhistory_otherstd" value="Y" {{ array_get($intake, 'medicalhistory_otherstd')=="Y"?'checked="checked"':"" }}">
+                                           <input id="medicalhistory_otherstd" type="checkbox" name="medicalhistory_otherstd" value="1" {{ array_get($intake, 'medicalhistory_otherstd')=="1"?'checked="checked"':"" }}">
                                         </div>
                                         <div class="col-md-2 col-sm-2">
                                             <label for="medicalhistory_otherstd">OTHER STD</label>
@@ -382,9 +380,9 @@
                                             </label>
                                         </div>
                                         <div class="col-md-3 col-sm-3">
-                                            <input id="personalhistory_statusretired" type="checkbox" name="personalhistory_statusretired" value="Y" {{ array_get($intake, 'personalhistory_statusretired')=="Y"?'checked="checked"':"" }}><label for="personalhistory_statusretired">retired</label>
-                                            <input id="personalhistory_statusdisabled" type="checkbox" name="personalhistory_statusdisabled" value="Y" {{ array_get($intake, 'personalhistory_statusdisabled')=="Y"?'checked="checked"':"" }}><label for="personalhistory_statusdisabled">disabled</label>
-                                            <input id="personalhistory_statussickleave" type="checkbox" name="personalhistory_statussickleave" value="Y" {{ array_get($intake, 'personalhistory_statussickleave')=="Y"?'checked="checked"':"" }}><label for="personalhistory_statussickleave">sick leave</label>
+                                            <input id="personalhistory_statusretired" type="checkbox" name="personalhistory_statusretired" value="1" {{ array_get($intake, 'personalhistory_statusretired')=="1"?'checked="checked"':"" }}><label for="personalhistory_statusretired">retired</label>
+                                            <input id="personalhistory_statusdisabled" type="checkbox" name="personalhistory_statusdisabled" value="1" {{ array_get($intake, 'personalhistory_statusdisabled')=="1"?'checked="checked"':"" }}><label for="personalhistory_statusdisabled">disabled</label>
+                                            <input id="personalhistory_statussickleave" type="checkbox" name="personalhistory_statussickleave" value="1" {{ array_get($intake, 'personalhistory_statussickleave')=="1"?'checked="checked"':"" }}><label for="personalhistory_statussickleave">sick leave</label>
                                         </div>
                                         <div class="col-md-1 col-sm-1">
 

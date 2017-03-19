@@ -587,7 +587,7 @@
                                                     <label for="past30_skin_nodules">Nodules/bumps</label>
                                                 </div>
                                                 <div class="col-md-1 col-sm-1">
-                                                    <input id="past30_sex_30days" type="radio" value="1" name="past30_sex_30days" {{ array_get($intake, 'past30_sex_30days')=='1'?' checked="checked"':"" }} />
+                                                    <input id="past30_sex_30days" type="radio" value="30" name="past30_sex" {{ array_get($intake, 'past30_sex')=='30'?' checked="checked"':"" }} />
                                                 </div>
                                                 <div class="col-md-3 col-sm-3">
                                                     <label for="past30_sex_30days">Last 30 days</label>
@@ -595,10 +595,10 @@
                                             </div>
                                             <div class="row">
                                                 <div class="col-md-1 col-sm-1">
-                                                    <input id="past30_throad_difficultyswallowing" type="checkbox" value="1" name="past30_throad_difficultyswallowing" {{ array_get($intake, 'past30_throad_difficultyswallowing')=='1'?' checked="checked"':"" }}'>
+                                                    <input id="past30_throat_difficultyswallowing" type="checkbox" value="1" name="past30_throat_difficultyswallowing" {{ array_get($intake, 'past30_throat_difficultyswallowing')=='1'?' checked="checked"':"" }}'>
                                                 </div>
                                                 <div class="col-md-3 col-sm-3">
-                                                    <label for="past30_throad_difficultyswallowing">Difficulty in swallowing</label>
+                                                    <label for="past30_throat_difficultyswallowing">Difficulty in swallowing</label>
                                                 </div>
 
                                                 <div class="col-md-1 col-sm-1">
@@ -608,7 +608,7 @@
                                                     <label for="past30_skin_hairloss">Hair loss</label>
                                                 </div>
                                                 <div class="col-md-1 col-sm-1">
-                                                    <input id="CheckBox133" type="radio" value="2" name="past30_sex_60days" {{ array_get($intake, 'past30_sex_60days')=='2'?' checked="checked"':"" }} />
+                                                    <input id="CheckBox133" type="radio" value="60" name="past30_sex" {{ array_get($intake, 'past30_sex')=='60'?' checked="checked"':"" }} />
                                                 </div>
                                                 <div class="col-md-3 col-sm-3">
                                                     <label for="CheckBox133">Last 60 days</label>
@@ -629,7 +629,7 @@
                                                     <label for="past30_skin_colorchangehandsfeet">Colour changes of hands or feet</label>
                                                 </div>
                                                 <div class="col-md-1 col-sm-1">
-                                                    <input id="CheckBox136" type="radio" value="3" name="past30_sex_90days" {{ array_get($intake, 'past30_sex_90days')=='3'?' checked="checked"':"" }} />
+                                                    <input id="CheckBox136" type="radio" value="90" name="past30_sex" {{ array_get($intake, 'past30_sex')=='90'?' checked="checked"':"" }} />
                                                 </div>
                                                 <div class="col-md-3 col-sm-3">
                                                     <label for="CheckBox136">Last 90 days</label>
@@ -644,7 +644,7 @@
                                                     <label style="text-align:center;color:#7AA43F">KIDNEY/URINE/BLADDER</label>
                                                 </div>
                                                 <div class="col-md-1 col-sm-1">
-                                                    <input id="CheckBox139" type="radio" value="4" name="past30_sex_120days" {{ array_get($intake, 'past30_sex_120days')=='4'?' checked="checked"':"" }} />
+                                                    <input id="CheckBox139" type="radio" value="120" name="past30_sex" {{ array_get($intake, 'past30_sex')=='120'?' checked="checked"':"" }} />
                                                 </div>
                                                 <div class="col-md-3 col-sm-3">
                                                     <label for="CheckBox139">Last 120 days</label>

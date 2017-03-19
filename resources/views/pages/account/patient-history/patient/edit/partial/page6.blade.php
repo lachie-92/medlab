@@ -30,7 +30,7 @@
                                                 </thead>
                                                 <tbody>
                                                     <tr>
-                                                        <td><input type="hidden" name="sb1" id="sb1">
+                                                        <td>
                                                             <label>ALCOHOL</label>
                                                         </td>
                                                         <td><input name="substance_alcohol_age" type="text" id="substance_alcohol_age" value="{{ array_get($intake, 'substance_alcohol_age') }}" class="form-control" autocomplete="off">  </td>
@@ -50,7 +50,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb13" id="sb13">
                                                             <label>TOBACCO</label>
                                                             <p>Cigarettes, Cigars, Vapour Cigarettes</p>
                                                         </td>
@@ -71,7 +70,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb2" id="sb2">
                                                             <label>CANNABIS</label>
                                                             <p>Marijuana, Hashish, Hash oil</p>
                                                         </td>
@@ -92,7 +90,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb3" id="sb3">
                                                             <label>STIMULANTS</label>
                                                             <p>Cocaine, Crack</p>
                                                         </td>
@@ -113,7 +110,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb4" id="sb4">
                                                             <label>STIMULANTS</label>
                                                             <p>Methamphetamines - speed, ice, crank</p>
                                                         </td>
@@ -134,7 +130,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb5" id="sb5">
                                                             <label>AMPHETAMINES/OTHER STIMULANTS </label>
                                                             <p>Ritalin, Benzedrine, Dexedrine</p>
                                                         </td>
@@ -155,7 +150,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb6" id="sb6">
                                                             <label>
                                                                 BENZODIAZEPINES/
                                                                 <p>TRANSQUILIZERS</p>
@@ -180,7 +174,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb7" id="sb7">
                                                             <label>
                                                                 SEDATIVES/HYPNOTICS/
                                                                 <p>BARBITURATES</p>
@@ -204,7 +197,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><input type="hidden" name="sb8" id="sb8">
+                                                        <td>
                                                             <label>HEROIN </label>
                                                         </td>
                                                         <td><input name="substance_heroin_age" type="text" id="substance_heroin_age" value="{{ array_get($intake, 'substance_heroin_age') }}" class="form-control">  </td>
@@ -224,7 +217,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb9" id="sb9">
                                                             <label>
                                                                 STREET OR ILLICIT/
                                                                 <p>METHADONE</p>
@@ -247,7 +239,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb10" id="sb10">
                                                             <label>OTHER OPIOIDS </label>
                                                             <p>Tylenol #2 &amp; #3, 282s, 292s</p>
                                                             <p>Percodan, Percocet, Opium</p>
@@ -270,7 +261,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb11" id="sb11">
                                                             <label>HALLUCINOGENS</label>
                                                             <p>LSD, PCP, STP, MDA, DAT, </p>
                                                             <p>mescaline, peyote,</p>
@@ -294,7 +284,6 @@
                                                     </tr>
                                                     <tr>
                                                         <td>
-                                                            <input type="hidden" name="sb12" id="sb12">
                                                             <label>INHALENTS</label>
                                                             <p>Glue, gasoline, aerosols, paint</p>
                                                             <p>thinner, poppers, rush, locker</p>
