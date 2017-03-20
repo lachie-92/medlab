@@ -334,12 +334,12 @@
                                     <br>
                                     <div class="row">
                                         <div class="col-ms-1 col-sm-1">
-                                            <input type="submit" name="btnprevious" value="Back" id="btnprevious" class="btn btn-primary">
+                                            <input type="submit" name="_btnprevious" value="Back" id="btnprevious" class="btn btn-primary">
                                         </div>
                                         <div class="col-ms-10 col-sm-10">
                                         </div>
                                         <div class="col-ms-1 col-sm-1">
-                                            <input type="submit" name="Btnnext" value="Next" id="Btnnext" class="btn btn-primary">
+                                            <input type="submit" name="_Btnnext" value="Next" id="Btnnext" class="btn btn-primary">
                                         </div>
                                     </div>
                                 </div>

@@ -59,15 +59,17 @@ class PatientHistoryController extends Controller
         $history_data = $request->all();
 
         foreach ($history_data as $key => $val) {
-            try {
-                $attribute = Patient_History_Attribute::where('history_id', $history->id)->where('key', $key)->firstOrFail();
-            } catch (ModelNotFoundException $e) {
-                $attribute = new Patient_History_Attribute();
-                $attribute->history_id = $history->id;
-                $attribute->key = $key;
+            if (! starts_with($key, '_')) {
+                try {
+                    $attribute = Patient_History_Attribute::where('history_id', $history->id)->where('key', $key)->firstOrFail();
+                } catch (ModelNotFoundException $e) {
+                    $attribute = new Patient_History_Attribute();
+                    $attribute->history_id = $history->id;
+                    $attribute->key = $key;
+                }
+                $attribute->value = $val;
+                $attribute->save();
             }
-            $attribute->value = $val;
-            $attribute->save();
         }
 
         // If page variable exists, redirect
