@@ -53,7 +53,7 @@
 @endsection
 
 <div class="row">
-    <form action="{{ route('account.patient-history.store') }}" method="POST" id="page4">
+    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="page4">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="hidden" name="page" value="4">
 

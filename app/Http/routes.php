@@ -96,27 +96,22 @@ Route::group(['prefix' => '/account/patient-history'], function() {
 
     Route::get('/', 'PatientHistoryController@index');
 
-    Route::get('new', 'PatientHistoryController@create');
+    Route::get('new', 'PatientHistoryController@pageCreate');
 
     Route::post('new', [
         'as'   => 'account.patient-history.store',
         'uses' => 'PatientHistoryController@store'
     ]);
 
+    Route::get('{history}/page{page}', [
+        'as'   => 'account.patient-history.edit',
+        'uses' => 'PatientHistoryController@pageEdit',
+    ]);
+
     Route::post('{history}', [
         'as'   => 'account.patient-history.update',
         'uses' => 'PatientHistoryController@update',
     ]);
-
-    Route::get('{history}/page{page}', [
-        'as'   => 'account.patient-history.update',
-        'uses' => 'PatientHistoryController@update',
-    ]);
-
-    Route::get('edit/{id}', 'PatientHistoryController@edit');
-
-    Route::put('edit/{id}', 'PatientHistoryController@save');
-
 });
 
 

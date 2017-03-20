@@ -1,5 +1,5 @@
 <div class="row">
-    <form action="{{ route('account.patient-history.store') }}" method="POST">
+    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST">
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
         <input type="hidden" name="page" value="5">
         <div class="col-md-12 col-sm-12">

@@ -22,6 +22,7 @@ class CreatePatientHistoryTable extends Migration
         });
 
         Schema::create('patient_history_attributes', function(Blueprint $table) {
+            $table->increments('id');
             $table->integer('history_id')->unsigned();
             $table->string('key');
             $table->longtext('value');
