@@ -29,6 +29,14 @@
                     </p>
 
                     <p>
+                        <a href="http://www.mdpi.com/journal/marinedrugs/special_issues/Nutraceuticals" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                Journal: Marine Drugs  /  Special Issue Title: Nutraceuticals and Functional Foods. Guest Editor: <strong>Professor Luis Vitetta</strong>
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/28080206" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Coulson S, Thomsen M, Nguyen T, Hall S. </strong>
@@ -57,6 +65,7 @@
                             </span>
                         </a>
                     </p>
+                    </br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
