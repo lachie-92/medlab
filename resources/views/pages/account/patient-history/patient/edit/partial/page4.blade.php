@@ -53,11 +53,9 @@
 @endsection
 
 <div class="row">
-    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="page4">
-        @if (!isset($readOnly))
+    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="page4" id="patient-history">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="hidden" name="page" value="4">
-        @endif
 
         <div class="col-md-12 col-sm-12">
              <div class="panel panel-primary medlab_panel">
@@ -198,8 +196,7 @@
                                             </label>
                                         </div>
                                     </div>
-
-
+                                    @if (!isset($readOnly))
                                     <div class="row">
                                         <div class="col-sm-12">
                                              <label>Pointer Width :</label>
@@ -220,8 +217,10 @@
                                         </select>
                                         </div>
                                     </div>
+                                    @endif
                                     <div class="row" style="padding-top:5px;">
                                         <div class="area_diagram">
+                                            @if (!isset($readOnly))
                                             <div class="col-md-3">
                                                 <div class="form-group">
                                                     <button type="button" id="" class="btn-info canvas-clear">Reset</button>
@@ -231,8 +230,14 @@
                                                 <input type="hidden" id="area_diagram_front" name="area_diagram_front" value="" />
                                                 <div id="canvas_diagram_front" class="canvas_diagram" style="width:200px;height:500px;" rel="/img/account/patient-history/body-front.png"></div>
                                             </div>
+                                            @else
+                                            <div class="col-md-6 text-center">
+                                                <img src="{{ array_get($intake, 'area_diagram_front', '/img/account/patient-history/body-front.png') }}" />
+                                            </div>
+                                            @endif
                                         </div>
                                         <div class="area_diagram">
+                                            @if (!isset($readOnly))
                                             <div class="col-md-3">
                                                 <div class="form-group">
                                                     <button type="button" id="" class="btn-info canvas-clear">Reset</button>
@@ -242,6 +247,11 @@
                                                 <input type="hidden" id="area_diagram_back" name="area_diagram_back" value="" />
                                                 <div id="canvas_diagram_back" class="canvas_diagram" style="width:200px;height:500px;" rel="/img/account/patient-history/body-back.png"></div>
                                             </div>
+                                            @else
+                                            <div class="col-md-6 text-center">
+                                                <img src="{{ array_get($intake, 'area_diagram_back', '/img/account/patient-history/body-back.png') }}" />
+                                            </div>
+                                            @endif
                                         </div>
                                     </div>
 
@@ -262,7 +272,7 @@
                                                         </td>
                                                         <td colspan="4">
 
-                                                            <input name="30days_travel_detail" type="text" id="30days_travel_detail" class="form-control" value="{{ array_get($intake, '30days_travel_detail') }}">
+                                                            <input name="30days_travel_detail" type="text" id="30days_travel_detail" class="form-control" value="{{ array_get($intake, '30days_travel_detail') }}" {{ isset($readOnly)?'disabled="disabled"':'' }}>
                                                         </td>
 
                                                     </tr>
@@ -272,11 +282,11 @@
                                         </div>
                                     </div>
 
-
-                                            <br>
+                                    @if (!isset($readOnly))
+                                    <br>
                                     <div class="row">
                                         <div class="col-ms-1 col-sm-1">
-                                            <a href="{{ route('account.patient-history.edit', ['history' => $history, 'page' => $page-1]) }}" name="_btnprevious" value="Back" id="ContentPlaceHolder1_btnprevious" class="btn btn-primary">Back</a>
+                                            <input type="submit" name="_btnprevious" value="Back" id="ContentPlaceHolder1_btnprevious" class="btn btn-primary">
                                         </div>
                                         <div class="col-ms-10 col-sm-10">
                                         </div>
@@ -284,6 +294,7 @@
                                             <input type="submit" name="_Btnnext" value="Next" id="ContentPlaceHolder1_Btnnext" class="btn btn-primary">
                                         </div>
                                     </div>
+                                    @endif
 
                                 </div>
                             </div>

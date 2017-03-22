@@ -94,7 +94,10 @@ Route::post('/account/orders/details', 'AccountController@postOrderDetails');
 
 Route::group(['prefix' => '/account/patient-history'], function() {
 
-    Route::get('/', 'PatientHistoryController@pageIndex');
+    Route::get('/', [
+        'as'   => 'account.patient-history.index',
+        'uses' => 'PatientHistoryController@pageIndex'
+    ]);
 
     Route::get('new', [
         'as'   => 'account.patient-history.new',
@@ -106,11 +109,6 @@ Route::group(['prefix' => '/account/patient-history'], function() {
         'uses' => 'PatientHistoryController@store'
     ]);
 
-    Route::get('{history}/page{page}', [
-        'as'   => 'account.patient-history.edit',
-        'uses' => 'PatientHistoryController@pageEdit',
-    ]);
-
     Route::get('{history}', [
         'as'   => 'account.patient-history.view',
         'uses' => 'PatientHistoryController@pageView',
@@ -120,6 +118,12 @@ Route::group(['prefix' => '/account/patient-history'], function() {
         'as'   => 'account.patient-history.update',
         'uses' => 'PatientHistoryController@update',
     ]);
+
+    Route::get('{history}/page{page}', [
+        'as'   => 'account.patient-history.edit',
+        'uses' => 'PatientHistoryController@pageEdit',
+    ]);
+
 });
 
 

@@ -74,10 +74,16 @@ class PatientHistoryController extends Controller
 
         // If page variable exists, redirect
         if ($request->has('page')) {
-            return redirect()->route('account.patient-history.edit', [
-                'history' => $history->id,
-                'page'    => $request->get('page') + 1,
-            ]);
+            if ($request->get('page')==6) {
+                return redirect()->route('account.patient-history.index')->with([
+                    'message' => 'Your patient history has been saved'
+                ]);
+            } else {
+                return redirect()->route('account.patient-history.edit', [
+                    'history' => $history->id,
+                    'page'    => $request->get('page') + 1,
+                ]);
+            }
         } else {
             return true;
         }

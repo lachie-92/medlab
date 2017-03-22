@@ -1,65 +1,60 @@
 @media (min-width: 0px) and (max-width: 1000px) {
   .medlab_navbar_logo {
     width: 280px !important; }
+
   .medlab_navbar_dropdown {
     font-size: 16px !important; }
+
   .medlab_carousel_bottom_panel_table {
     font-size: 16px !important; } }
-
 @media (min-width: 768px) and (max-width: 1200px) {
   .medlab_panel_image_title {
     font-size: 12px !important; } }
-
 @media (min-width: 0px) and (max-width: 571px) {
   .medlab_panel_image_title {
     font-size: 8px !important; } }
-
 @media (min-width: 1000px) and (max-width: 1920px) {
   .medlab_news_item {
     padding-right: 5px !important; }
+
   .medlab_news_sidebar_item {
     padding-left: 5px !important; }
+
   .medlab_product_main_column {
     padding-right: 0px !important; }
+
   .medlab_product_side_column {
     padding-left: 0px !important; } }
-
 @font-face {
   font-family: "PT Sans Narrow";
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/PTSans-Narrow.woff2"); }
-
 @font-face {
   font-family: "PT Sans Bold";
   font-style: normal;
   font-weight: 700;
   src: url("/fonts/PTSans-Bold.woff2"); }
-
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/PTSans-Regular.woff2"); }
-
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/OpenSans.woff2"); }
-
 @font-face {
   font-family: "Open Sans Bold";
   font-style: normal;
   font-weight: 700;
   src: url("/fonts/OpenSans-Bold.woff2"); }
-
 @font-face {
   font-family: "Open Sans Condensed";
   font-style: normal;
   font-weight: 700;
   src: url("/fonts/OpenSans-CondensedBold.woff2"); }
-
 body {
   background-color: #F2F3F9; }
 
@@ -257,9 +252,6 @@ body {
 
 .medlab_news_sidebar_list_item_image {
   height: 75px; }
-
-.medlab_news_sidebar_conferences_list_item_image {
-  width: 100%; }
 
 .medlab_panel_container {
   padding-top: 20px; }
@@ -482,6 +474,33 @@ body {
 .medlab_product_list_side_bar_content_title {
   text-align: center;
   font-family: "Open Sans Condensed",sans-serif; }
+
+form#patient-history input:disabled,
+form#patient-history select:disabled,
+form#patient-history textarea:disabled {
+  color: #000;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0; }
+form#patient-history input[type=radio]:disabled {
+  display: none; }
+  form#patient-history input[type=radio]:disabled + label {
+    display: none; }
+  form#patient-history input[type=radio]:disabled:checked + label {
+    display: block;
+    font-weight: normal; }
+form#patient-history input[type=checkbox]:disabled {
+  position: relative;
+  visibility: hidden;
+  cursor: inherit; }
+  form#patient-history input[type=checkbox]:disabled:after {
+    display: block;
+    content: "";
+    visibility: visible;
+    cursor: pointer; }
+  form#patient-history input[type=checkbox]:disabled:checked:after {
+    content: "YES"; }
 
 .medlab_registration_account_box {
   border: 3px solid #C0C0C0;

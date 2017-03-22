@@ -1,0 +1,45 @@
+form#patient-history {
+  input:disabled,
+  select:disabled,
+  textarea:disabled {
+    color: #000;
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding:0;
+  }
+
+  input[type=radio]:disabled {
+    display:none;
+
+    + label {
+        display: none;
+    }
+
+    &:checked {
+        + label {
+            display: block;
+            font-weight: normal;
+        }
+    }
+  }
+
+  input[type=checkbox]:disabled {
+    position: relative;
+    visibility: hidden;
+    cursor: inherit;
+
+    &:after {
+        display: block;
+        content: "";
+        visibility: visible;
+        cursor: pointer;
+    }
+
+    &:checked {
+      &:after {
+        content: "YES";
+      }
+    }
+  }
+}

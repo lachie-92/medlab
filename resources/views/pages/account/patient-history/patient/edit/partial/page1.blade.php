@@ -1,5 +1,5 @@
 <div class="container-fluid">
-    <form action="{{ isset($history)?route('account.patient-history.update', $history->id):route('account.patient-history.store') }}" method="POST">
+    <form action="{{ isset($history)?route('account.patient-history.update', $history->id):route('account.patient-history.store') }}" method="POST" id="patient-history">
         @if (!isset($readOnly))
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="hidden" name="page" value="1">

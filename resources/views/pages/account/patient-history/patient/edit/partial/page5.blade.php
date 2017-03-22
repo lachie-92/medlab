@@ -1,5 +1,5 @@
 <div class="row">
-    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST">
+    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="patient-history">
         @if (!isset($readOnly))
         <input type="hidden" name="_token" value="{{ csrf_token() }}" />
         <input type="hidden" name="page" value="5">
@@ -36,14 +36,14 @@
                                                             </label>
                                                         </td>
                                                         <td colspan="2">
-                                                            <input type="text" size="3" maxlength="3" name="immunization_one_age" value="{{ array_get($intake, 'immunization_one_age') }}" placeholder="age" />
+                                                            <input type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} size="3" maxlength="3" name="immunization_one_age" value="{{ array_get($intake, 'immunization_one_age') }}" placeholder="age" />
                                                         </td>
                                                         <td colspan="2">
                                                             <table id="immunization_one">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td><input id="immunization_one_0" type="radio" name="immunization_one" value="1"{{ array_get($intake, 'immunization_one')==1?'checked="checked"':'' }}><label for="immunization_one_0">Yes</label></td>
-                                                                        <td><input id="immunization_one_1" type="radio" name="immunization_one" value="0"{{ array_get($intake, 'immunization_one')==0?'checked="checked"':'' }}><label for="immunization_one_1">No</label></td>
+                                                                        <td><input id="immunization_one_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_one" value="1"{{ array_get($intake, 'immunization_one')==1?'checked="checked"':'' }}><label for="immunization_one_0">Yes</label></td>
+                                                                        <td><input id="immunization_one_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_one" value="0"{{ array_get($intake, 'immunization_one')==0?'checked="checked"':'' }}><label for="immunization_one_1">No</label></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -60,13 +60,13 @@
                                                                 </ul>
                                                             </label>
                                                         </td>
-                                                        <td colspan="2"><input type="text" size="3" maxlength="3" name="immunization_two_age" value="{{ array_get($intake, 'immunization_two_age') }}" placeholder="age" /></td>
+                                                        <td colspan="2"><input type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} size="3" maxlength="3" name="immunization_two_age" value="{{ array_get($intake, 'immunization_two_age') }}" placeholder="age" /></td>
                                                         <td colspan="2">
                                                             <table id="immunization_two">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td><input id="immunization_two_0" type="radio" name="immunization_two" value="1"{{ array_get($intake, 'immunization_two')==1?'checked="checked"':'' }}><label for="immunization_two_0">Yes</label></td>
-                                                                        <td><input id="immunization_two_1" type="radio" name="immunization_two" value="0"{{ array_get($intake, 'immunization_two')==0?'checked="checked"':'' }}><label for="immunization_two_1">No</label></td>
+                                                                        <td><input id="immunization_two_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_two" value="1"{{ array_get($intake, 'immunization_two')==1?'checked="checked"':'' }}><label for="immunization_two_0">Yes</label></td>
+                                                                        <td><input id="immunization_two_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_two" value="0"{{ array_get($intake, 'immunization_two')==0?'checked="checked"':'' }}><label for="immunization_two_1">No</label></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -82,13 +82,13 @@
                                                                 </ul>
                                                             </label>
                                                         </td>
-                                                        <td colspan="2"><input type="text" size="3" maxlength="3" name="immunization_three_age" value="{{ array_get($intake, 'immunization_three_age') }}" placeholder="age" /></td>
+                                                        <td colspan="2"><input type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} size="3" maxlength="3" name="immunization_three_age" value="{{ array_get($intake, 'immunization_three_age') }}" placeholder="age" /></td>
                                                         <td colspan="2">
                                                             <table id="immunization_three">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td><input id="immunization_three_0" type="radio" name="immunization_three" value="1"{{ array_get($intake, 'immunization_three')==1?'checked="checked"':'' }}><label for="immunization_three_0">Yes</label></td>
-                                                                        <td><input id="immunization_three_1" type="radio" name="immunization_three" value="0"{{ array_get($intake, 'immunization_three')==0?'checked="checked"':'' }}><label for="immunization_three_1">No</label></td>
+                                                                        <td><input id="immunization_three_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_three" value="1"{{ array_get($intake, 'immunization_three')==1?'checked="checked"':'' }}><label for="immunization_three_0">Yes</label></td>
+                                                                        <td><input id="immunization_three_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_three" value="0"{{ array_get($intake, 'immunization_three')==0?'checked="checked"':'' }}><label for="immunization_three_1">No</label></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -104,13 +104,13 @@
                                                                 </ul>
                                                             </label>
                                                         </td>
-                                                        <td colspan="2"><input type="text" size="3" maxlength="3" name="immunization_four_age" value="{{ array_get($intake, 'immunization_four_age') }}" placeholder="age" /></td>
+                                                        <td colspan="2"><input type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} size="3" maxlength="3" name="immunization_four_age" value="{{ array_get($intake, 'immunization_four_age') }}" placeholder="age" /></td>
                                                         <td colspan="2">
                                                             <table id="immunization_four">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td><input id="immunization_four_0" type="radio" name="immunization_four" value="1"{{ array_get($intake, 'immunization_four')==1?'checked="checked"':'' }}><label for="immunization_four_0">Yes</label></td>
-                                                                        <td><input id="immunization_four_1" type="radio" name="immunization_four" value="0"{{ array_get($intake, 'immunization_four')==0?'checked="checked"':'' }}><label for="immunization_four_1">No</label></td>
+                                                                        <td><input id="immunization_four_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_four" value="1"{{ array_get($intake, 'immunization_four')==1?'checked="checked"':'' }}><label for="immunization_four_0">Yes</label></td>
+                                                                        <td><input id="immunization_four_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_four" value="0"{{ array_get($intake, 'immunization_four')==0?'checked="checked"':'' }}><label for="immunization_four_1">No</label></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -125,13 +125,13 @@
                                                                 </ul>
                                                             </label>
                                                         </td>
-                                                        <td colspan="2"><input type="text" size="3" maxlength="3" name="immunization_five_age" value="{{ array_get($intake, 'immunization_five_age') }}" placeholder="age" /></td>
+                                                        <td colspan="2"><input type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} size="3" maxlength="3" name="immunization_five_age" value="{{ array_get($intake, 'immunization_five_age') }}" placeholder="age" /></td>
                                                         <td colspan="2">
                                                             <table id="immunization_five">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td><input id="immunization_five_0" type="radio" name="immunization_five" value="1"{{ array_get($intake, 'immunization_five')==1?'checked="checked"':'' }}><label for="immunization_five_0">Yes</label></td>
-                                                                        <td><input id="immunization_five_1" type="radio" name="immunization_five" value="0"{{ array_get($intake, 'immunization_five')==0?'checked="checked"':'' }}><label for="immunization_five_1">No</label></td>
+                                                                        <td><input id="immunization_five_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_five" value="1"{{ array_get($intake, 'immunization_five')==1?'checked="checked"':'' }}><label for="immunization_five_0">Yes</label></td>
+                                                                        <td><input id="immunization_five_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_five" value="0"{{ array_get($intake, 'immunization_five')==0?'checked="checked"':'' }}><label for="immunization_five_1">No</label></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -143,13 +143,13 @@
                                                                 <ul><li>Measles, mumps, rubella and varicella (chickenpox) (MMRV)</li></ul>
                                                             </label>
                                                         </td>
-                                                        <td colspan="2"><input type="text" size="3" maxlength="3" name="immunization_six_age" value="{{ array_get($intake, 'immunization_six_age') }}" placeholder="age" /></td>
+                                                        <td colspan="2"><input type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} size="3" maxlength="3" name="immunization_six_age" value="{{ array_get($intake, 'immunization_six_age') }}" placeholder="age" /></td>
                                                         <td colspan="2">
                                                             <table id="immunization_six">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td><input id="immunization_six_0" type="radio" name="immunization_six" value="1"{{ array_get($intake, 'immunization_six')==1?'checked="checked"':'' }}><label for="immunization_six_0">Yes</label></td>
-                                                                        <td><input id="immunization_six_1" type="radio" name="immunization_six" value="0"{{ array_get($intake, 'immunization_six')==0?'checked="checked"':'' }}><label for="immunization_six_1">No</label></td>
+                                                                        <td><input id="immunization_six_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_six" value="1"{{ array_get($intake, 'immunization_six')==1?'checked="checked"':'' }}><label for="immunization_six_0">Yes</label></td>
+                                                                        <td><input id="immunization_six_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_six" value="0"{{ array_get($intake, 'immunization_six')==0?'checked="checked"':'' }}><label for="immunization_six_1">No</label></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -164,13 +164,13 @@
                                                                 </ul>
                                                             </label>
                                                         </td>
-                                                        <td colspan="2"><input type="text" size="3" maxlength="3" name="immunization_seven_age" value="{{ array_get($intake, 'immunization_seven_age') }}" placeholder="age" /></td>
+                                                        <td colspan="2"><input type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} size="3" maxlength="3" name="immunization_seven_age" value="{{ array_get($intake, 'immunization_seven_age') }}" placeholder="age" /></td>
                                                         <td colspan="2">
                                                             <table id="immunization_seven">
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td><input id="immunization_seven_0" type="radio" name="immunization_seven" value="1"{{ array_get($intake, 'immunization_seven')==1?'checked="checked"':'' }}><label for="immunization_seven_0">Yes</label></td>
-                                                                        <td><input id="immunization_seven_1" type="radio" name="immunization_seven" value="0"{{ array_get($intake, 'immunization_seven')==0?'checked="checked"':'' }}><label for="immunization_seven_1">No</label></td>
+                                                                        <td><input id="immunization_seven_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_seven" value="1"{{ array_get($intake, 'immunization_seven')==1?'checked="checked"':'' }}><label for="immunization_seven_0">Yes</label></td>
+                                                                        <td><input id="immunization_seven_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="immunization_seven" value="0"{{ array_get($intake, 'immunization_seven')==0?'checked="checked"':'' }}><label for="immunization_seven_1">No</label></td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>
@@ -180,6 +180,7 @@
                                             </table>
                                         </div>
                                     </div>
+                                    @if (!isset($readOnly))
                                     <br>
                                     <div class="row">
                                         <div class="col-ms-1 col-sm-1">
@@ -191,6 +192,7 @@
                                             <input type="submit" name="_Btnnext" value="Next" id="ContentPlaceHolder1_Btnnext" class="btn btn-primary">
                                         </div>
                                     </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>
