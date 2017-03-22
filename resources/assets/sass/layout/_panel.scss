@@ -19,6 +19,16 @@
   opacity: 0.8;
   font-size: 20px;
   font-family: "PT Sans",sans-serif;
+
+  h3.panel-title  {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      line-height: normal;
+      width: 75%;
+      padding-top: 8px;
+      font-size: inherit;
+  }
 }
 
 .medlab_panel_content {

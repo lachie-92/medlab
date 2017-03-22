@@ -34,7 +34,11 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    My Patient Histories
+                    <h3 class="panel-title pull-left">
+                        My Patient Histories
+                    </h3>
+                    <a href="{{ route('account.patient-history.new') }}" class="btn btn-primary pull-right">New History</a>
+                    <div class="clearfix"></div>
                 </div>
                 <div class="panel-body">
 
@@ -45,8 +49,6 @@
                             </div>
                         </div>
                     @endif
-
-                    <a href="{{ route('account.patient-history.new') }}" class="btn btn-primary pull-right">New History</a>
 
                     @if (count($user->patient->histories) == 0)
 
