@@ -61,7 +61,7 @@
                                 <tr>
                                     <th style="text-align: center">History No.</th>
                                     <th style="text-align: center">Date Created</th>
-                                    <th style="text-align: center">Order Status</th>
+                                    <th style="text-align: center">History Status</th>
                                 </tr>
                             </thead>
                             <tbody>
