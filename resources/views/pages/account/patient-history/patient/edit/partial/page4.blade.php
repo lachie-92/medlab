@@ -54,8 +54,10 @@
 
 <div class="row">
     <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="page4">
+        @if (!isset($readOnly))
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="hidden" name="page" value="4">
+        @endif
 
         <div class="col-md-12 col-sm-12">
              <div class="panel panel-primary medlab_panel">
@@ -274,7 +276,7 @@
                                             <br>
                                     <div class="row">
                                         <div class="col-ms-1 col-sm-1">
-                                            <input type="submit" name="_btnprevious" value="Back" id="ContentPlaceHolder1_btnprevious" class="btn btn-primary">
+                                            <a href="{{ route('account.patient-history.edit', ['history' => $history, 'page' => $page-1]) }}" name="_btnprevious" value="Back" id="ContentPlaceHolder1_btnprevious" class="btn btn-primary">Back</a>
                                         </div>
                                         <div class="col-ms-10 col-sm-10">
                                         </div>
