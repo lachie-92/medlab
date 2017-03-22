@@ -84,6 +84,35 @@ class PatientHistoryController extends Controller
     }
 
     /**
+     * Render listing of patient history intakes
+     *
+     * @return [type] [description]
+     */
+    public function pageIndex() {
+        $user = $this->user->load('patient.histories');
+        $orders = $this->repository->getLatestOrdersForUser($user);
+
+        return view('pages.account.dashboard.patient-history.overview.index', compact('user', 'orders'));
+    }
+
+    /**
+     * Render listing of patient history intakes
+     *
+     * @return [type] [description]
+     */
+    public function pageView($history) {
+        $user = $this->user->load('patient.histories');
+        $orders = $this->repository->getLatestOrdersForUser($user);
+        $history = Patient_History::with('attributes')->findOrFail($history);
+        $intake = $history->attributes->map(function($item) {
+            return [$item->key => $item->value];
+        })->collapse()->toArray();
+        $readOnly = true;
+
+        return view('pages.account.patient-history.patient.view.index', compact('user', 'orders', 'history', 'intake', 'readOnly'));
+    }
+
+    /**
      * Render form for a new Patient History intake
      */
     public function pageCreate() {
