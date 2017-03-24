@@ -59,7 +59,9 @@ class PatientHistoryController extends Controller
         $history->locked_at = time();
         $history->save();
 
-        return redirect()->back();
+        return redirect()->back()->with([
+                    'message' => 'This history has been locked'
+                ]);;
     }
 
     /**
@@ -73,7 +75,9 @@ class PatientHistoryController extends Controller
         $history->locked_at = null;
         $history->save();
 
-        return redirect()->back();
+        return redirect()->back()->with([
+                    'message' => 'This history has been unlocked'
+                ]);
     }
 
     /**
