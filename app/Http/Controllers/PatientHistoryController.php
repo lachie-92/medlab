@@ -49,6 +49,34 @@ class PatientHistoryController extends Controller
     }
 
     /**
+     * Set the locked timestamp on a Patient History record
+     *
+     * @param  int  $history Patient History id
+     */
+    public function lock($history)
+    {
+        $history = Patient_History::findOrFail($history);
+        $history->locked_at = time();
+        $history->save();
+
+        return redirect()->back();
+    }
+
+    /**
+     * Clear the locked timestamp on a Patient History record
+     *
+     * @param  int  $history Patient History id
+     */
+    public function unlock($history)
+    {
+        $history = Patient_History::findOrFail($history);
+        $history->locked_at = null;
+        $history->save();
+
+        return redirect()->back();
+    }
+
+    /**
      * Update Patient History instance and optionally redirect to the next page
      *
      * @param  int  $history Patient History id
@@ -95,7 +123,7 @@ class PatientHistoryController extends Controller
      * @return [type] [description]
      */
     public function pageIndex() {
-        $user = $this->user->load('patient.histories');
+        $user = $this->user->load('patient.histories')->load('patients.histories');
         $orders = $this->repository->getLatestOrdersForUser($user);
 
         return view('pages.account.dashboard.patient-history.overview.index', compact('user', 'orders'));

@@ -124,6 +124,16 @@ Route::group(['prefix' => '/account/patient-history'], function() {
         'uses' => 'PatientHistoryController@pageEdit',
     ]);
 
+    Route::get('{history}/lock', [
+        'as'   => 'account.patient-history.lock',
+        'uses' => 'PatientHistoryController@lock'
+    ]);
+
+    Route::get('{history}/unlock', [
+        'as'   => 'account.patient-history.unlock',
+        'uses' => 'PatientHistoryController@unlock'
+    ]);
+
 });
 
 

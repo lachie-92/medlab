@@ -71,18 +71,19 @@
                                     <tr>
                                         <td style="text-align: center">{{ $history->id }}</td>
                                         <td style="text-align: center">{{ $history->created_at->toFormattedDateString() }}</td>
-                                        <td style="text-align: center">{{ $history->locked_at?'Locked':'In progress' }}</td>
                                         <td style="text-align: center">
                                             <a href="{{ route('account.patient-history.view', [
                                                 'history' => $history->id
-                                            ]) }}" class="btn btn-default">View</a>
+                                            ]) }}" class="btn btn-default"><i class="fa fa-file-text-o" aria-hidden="true"></i> View</a>
                                         </td>
                                         <td style="text-align: center">
                                             @if (!$history->locked_at)
                                             <a href="{{ route('account.patient-history.edit', [
                                                 'history' => $history->id,
                                                 'page'    => 1,
-                                            ]) }}" class="btn btn-default">Edit</a>
+                                            ]) }}" class="btn btn-default"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</a>
+                                            @else
+                                            <i class="fa fa-lock" aria-hidden="true"></i> Locked
                                             @endif
                                         </td>
                                     </tr>

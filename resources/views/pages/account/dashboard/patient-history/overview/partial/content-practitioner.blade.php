@@ -37,7 +37,6 @@
                     <h3 class="panel-title pull-left">
                         My Patient Histories
                     </h3>
-                    <a href="{{ route('account.patient-history.new') }}" class="btn btn-primary pull-right">New History</a>
                     <div class="clearfix"></div>
                 </div>
                 <div class="panel-body">
@@ -50,7 +49,7 @@
                         </div>
                     @endif
 
-                    @if (true || count($user->patient->histories) == 0)
+                    @if (count($user->patients) == 0)
 
                         <div class="alert alert-info" style="text-align: center">
                             No Histories
@@ -62,30 +61,37 @@
                             <thead>
                                 <tr>
                                     <th style="text-align: center">History No.</th>
+                                    <th style="text-align: center">Patient</th>
                                     <th style="text-align: center">Date Created</th>
                                     <th style="text-align: center">History Status</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($user->patient->histories as $history)
+                                @foreach ($user->patients as $patient)
+                                    @foreach ($patient->histories as $history)
                                     <tr>
                                         <td style="text-align: center">{{ $history->id }}</td>
+                                        <td style="text-align: center">{{ $history->patient->user->customer->last_name }}, {{ $history->patient->user->customer->first_name }}</td>
                                         <td style="text-align: center">{{ $history->created_at->toFormattedDateString() }}</td>
                                         <td style="text-align: center">{{ $history->locked_at?'Locked':'In progress' }}</td>
                                         <td style="text-align: center">
                                             <a href="{{ route('account.patient-history.view', [
                                                 'history' => $history->id
-                                            ]) }}" class="btn btn-default">View</a>
+                                            ]) }}" class="btn btn-default"><i class="fa fa-file-text-o" aria-hidden="true"></i> View</a>
                                         </td>
                                         <td style="text-align: center">
                                             @if (!$history->locked_at)
-                                            <a href="{{ route('account.patient-history.edit', [
-                                                'history' => $history->id,
-                                                'page'    => 1,
-                                            ]) }}" class="btn btn-default">Edit</a>
+                                            <a href="{{ route('account.patient-history.lock', [
+                                                'history' => $history->id
+                                            ]) }}" class="btn btn-default"><i class="fa fa-lock" aria-hidden="true"></i> Lock</a>
+                                            @else
+                                            <a href="{{ route('account.patient-history.unlock', [
+                                                'history' => $history->id
+                                            ]) }}" class="btn btn-default"><i class="fa fa-unlock" aria-hidden="true"></i> Unlock</a>
                                             @endif
                                         </td>
                                     </tr>
+                                    @endforeach
                                 @endforeach
                             </tbody>
                         </table>
