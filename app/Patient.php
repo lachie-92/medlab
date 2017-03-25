@@ -27,4 +27,9 @@ class Patient extends Model
     {
         return $this->hasMany('App\Patient_History');
     }
+
+    public function careplans()
+    {
+        return $this->hasMany('App\Patient_CarePlan');
+    }
 }
