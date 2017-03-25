@@ -20,6 +20,7 @@
                     <a href="/account/edit" class="list-group-item">Edit Account Details</a>
                     <a href="/account/orders" class="list-group-item"><strong>My Orders</strong></a>
                     <a href="/account/patient-history" class="list-group-item">My Histories</a>
+                    <a href="/account/careplan" class="list-group-item">My Care Plans</a>
                     <a href="/account/logout" class="list-group-item">Logout</a>
                 </div>
 
