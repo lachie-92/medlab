@@ -5,12 +5,17 @@
         <input type="hidden" name="page" value="5">
         @endif
         <div class="col-md-12 col-sm-12">
-            <div class="panel panel-primary medlab_panel">
-                <div class="panel-body">
                     <div class="row">
-                        <div class="container-fluid">
+                        <div class="container-fluid medlab_panel_container">
                             <div class="col-md-12 col-sm-12">
-                                <div class="well" style="background-color: transparent; background-image: none">
+                        <div class="panel panel-primary medlab_panel">
+                            <div class="panel-heading medlab_panel_title">
+                                <h3 class="panel-title pull-left">
+                                    Patient History
+                                </h3>
+                                <div class="clearfix"></div>
+                            </div>
+                                <div class="panel-body">
                                     <div class="row">
                                         <div class="col-md-12 col-sm-12">
                                             <label style="color: #1E5494">

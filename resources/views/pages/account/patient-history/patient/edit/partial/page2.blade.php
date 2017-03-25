@@ -1,7 +1,7 @@
 @section('custom_script')
 <script type="text/javascript" src="/js/intake.js"></script>
 @endsection
-<div class="container-fluid">
+<div class="container-fluid medlab_panel_container">
     <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="patient-history">
         @if (!isset($readOnly))
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -9,14 +9,18 @@
         @endif
         <div class="col-md-12 col-sm-12">
              <div class="panel panel-primary medlab_panel">
+                <div class="panel-heading medlab_panel_title">
+                    <h3 class="panel-title pull-left">
+                        Patient History
+                    </h3>
+                    <div class="clearfix"></div>
+                </div>
                 <div class="panel-body">
                     <div class="row">
                         <div class="container-fluid">
                             <div class="col-md-12 col-sm-12">
-                                <div class="well" style="background-color: transparent; background-image: none">
+                                <div style="background-color: transparent; background-image: none">
 
-                                    <div class="row">
-                                    <div class="well" style="background-color: transparent; background-image: none">
                                     <div class="row">
                                     <div class="col-md-12 col-sm-12">
 
@@ -32,9 +36,6 @@
                                                 </label>
                                             </div>
                                         </div>
-                                    <div class="row">
-                                    <div class="well" style="background-color: transparent; background-image: none">
-                                        <br>
                                     <div class="row">
                                         <div class="col-md-1 col-sm-1">
                                             <input id="medicalhistory_diabetes" type="hidden" name="medicalhistory_diabetes" value="{{ array_get($intake, 'medicalhistory_diabetes', 0) }}" />
@@ -297,8 +298,6 @@
                                     </div>
 
                                     <div class="row">
-                                    <div class="well" style="background-color: transparent; background-image: none">
-                                    <div class="row">
                                             <div class="col-md-12 col-sm-12">
                                                 <label style="color:#1E5494">
                                                     PERSONAL HISTORY
@@ -463,10 +462,6 @@
                                             </div>
                                             <div class="col-md-5"></div>
                                         </div>
-
-                                    <div class="row">
-                                            <hr size="6">
-                                    </div>
                                     <div class="row">
                                         <div class="col=md-3 col-sm-3">
                                             <label>
@@ -492,11 +487,7 @@
                                         </div>
                                         <div class="col-md-5 col-sm-5"></div>
                                     </div>
-                                    </div>
-                                    </div>
 
-                                    <div class="row">
-                                    <div class="well" style="background-color: transparent; background-image: none">
                                     <div class="row">
                                     <div class="col-md-12 col-sm-12">
                                         <label style="color:#1E5494">
