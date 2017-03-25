@@ -1,5 +1,5 @@
 <div class="container-fluid medlab_panel_container">
-    <form action="{{ isset($history)?route('account.careplan.update', $history->id):route('account.careplan.store') }}" method="POST" id="careplan">
+    <form action="{{ isset($careplan)?route('account.careplan.update', $careplan->id):route('account.careplan.store') }}" method="POST" id="careplan">
         @if (!isset($readOnly))
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="hidden" name="page" value="1">
@@ -312,16 +312,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="panel-footer">
+                    @if (!isset($readOnly))
+                    <div class="row">
+                        <div class="col-ms-11 col-sm-11">
+                        </div>
+                        <div class="col-ms-1 col-sm-1">
+                            <input type="submit" name="_Btnnext" value="Next" id="Btnnext" class="btn btn-primary">
+                        </div>
+                    </div>
+                    @endif
+                </div>
             </div>
         </div>
-        @if (!isset($readOnly))
-        <div class="row">
-            <div class="col-ms-11 col-sm-11">
-            </div>
-            <div class="col-ms-1 col-sm-1">
-                <input type="submit" name="_Btnnext" value="Next" id="Btnnext" class="btn btn-primary">
-            </div>
-        </div>
-        @endif
     </form>
 </div>

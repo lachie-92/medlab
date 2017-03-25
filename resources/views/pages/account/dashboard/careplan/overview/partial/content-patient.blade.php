@@ -62,25 +62,25 @@
                         <table class="table table-striped table-hover">
                             <thead>
                                 <tr>
-                                    <th style="text-align: center">History No.</th>
+                                    <th style="text-align: center">Care Plan No.</th>
                                     <th style="text-align: center">Date Created</th>
-                                    <th style="text-align: center">History Status</th>
+                                    <th style="text-align: center">Status</th>
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($user->patient->careplans as $history)
+                                @foreach ($user->patient->careplans as $careplan)
                                     <tr>
-                                        <td style="text-align: center">{{ $history->id }}</td>
-                                        <td style="text-align: center">{{ $history->created_at->toFormattedDateString() }}</td>
+                                        <td style="text-align: center">{{ $careplan->id }}</td>
+                                        <td style="text-align: center">{{ $careplan->created_at->toFormattedDateString() }}</td>
                                         <td style="text-align: center">
-                                            <a href="{{ route('account.patient-history.view', [
-                                                'history' => $history->id
+                                            <a href="{{ route('account.careplan.view', [
+                                                'history' => $careplan->id
                                             ]) }}" class="btn btn-default"><i class="fa fa-file-text-o" aria-hidden="true"></i> View</a>
                                         </td>
                                         <td style="text-align: center">
-                                            @if (!$history->locked_at)
-                                            <a href="{{ route('account.patient-history.edit', [
-                                                'history' => $history->id,
+                                            @if (!$careplan->locked_at)
+                                            <a href="{{ route('account.careplan.edit', [
+                                                'history' => $careplan->id,
                                                 'page'    => 1,
                                             ]) }}" class="btn btn-default"><i class="fa fa-pencil" aria-hidden="true"></i> Edit</a>
                                             @else
