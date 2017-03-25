@@ -136,6 +136,50 @@ Route::group(['prefix' => '/account/patient-history'], function() {
 
 });
 
+Route::group(['prefix' => '/account/careplan'], function() {
+
+    Route::get('/', [
+        'as'   => 'account.careplan.index',
+        'uses' => 'CarePlanController@pageIndex'
+    ]);
+
+    Route::get('new', [
+        'as'   => 'account.careplan.new',
+        'uses' => 'CarePlanController@pageCreate'
+    ]);
+
+    Route::post('new', [
+        'as'   => 'account.careplan.store',
+        'uses' => 'CarePlanController@store'
+    ]);
+
+    Route::get('{plan}', [
+        'as'   => 'account.careplan.view',
+        'uses' => 'CarePlanController@pageView',
+    ]);
+
+    Route::post('{plan}', [
+        'as'   => 'account.careplan.update',
+        'uses' => 'CarePlanController@update',
+    ]);
+
+    Route::get('{plan}/page{page}', [
+        'as'   => 'account.careplan.edit',
+        'uses' => 'CarePlanController@pageEdit',
+    ]);
+
+    Route::get('{plan}/lock', [
+        'as'   => 'account.careplan.lock',
+        'uses' => 'CarePlanController@lock'
+    ]);
+
+    Route::get('{plan}/unlock', [
+        'as'   => 'account.careplan.unlock',
+        'uses' => 'CarePlanController@unlock'
+    ]);
+
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
