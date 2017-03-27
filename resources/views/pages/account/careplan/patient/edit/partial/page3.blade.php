@@ -23,7 +23,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-md-3">
                                 <label class="visible-xs visible-sm">Opportunty 1</label>
-                                <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="careplan_opportunity1" rows="2" cols="20" id="careplan_opportunity1" class="form-control" placeholder="e.g. Pain in the knees — need to investigate cause and treatment options">{{ array_get($intake, 'careplan_opportunity1') }}</textarea>
+                                <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="careplan_opportunity1" rows="5" cols="20" id="careplan_opportunity1" class="form-control" placeholder="e.g. Pain in the knees — need to investigate cause and treatment options">{{ array_get($intake, 'careplan_opportunity1') }}</textarea>
                             </div>
                             <div class="col-xs-12 col-md-3">
                                 <label class="visible-xs visible-sm">Agreed goal (measurable)</label>
@@ -45,7 +45,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-md-3">
                                 <label class="visible-xs visible-sm">Opportunty 2</label>
-                                <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="careplan_opportunity2" rows="2" cols="20" id="careplan_opportunity2" class="form-control">{{ array_get($intake, 'careplan_opportunity2') }}</textarea>
+                                <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="careplan_opportunity2" rows="5" cols="20" id="careplan_opportunity2" class="form-control">{{ array_get($intake, 'careplan_opportunity2') }}</textarea>
                             </div>
                             <div class="col-xs-12 col-md-3">
                                 <label class="visible-xs visible-sm">Agreed goal (measurable)</label>
@@ -67,7 +67,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-md-3">
                                 <label class="visible-xs visible-sm">Opportunty 2</label>
-                                <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="careplan_opportunity3" rows="2" cols="20" id="careplan_opportunity3" class="form-control">{{ array_get($intake, 'careplan_opportunity3') }}</textarea>
+                                <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="careplan_opportunity3" rows="5" cols="20" id="careplan_opportunity3" class="form-control">{{ array_get($intake, 'careplan_opportunity3') }}</textarea>
                             </div>
                             <div class="col-xs-12 col-md-3">
                                 <label class="visible-xs visible-sm">Agreed goal (measurable)</label>
@@ -89,7 +89,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-md-3">
                                 <label class="visible-xs visible-sm">Opportunty 2</label>
-                                <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="careplan_opportunity4" rows="2" cols="20" id="careplan_opportunity4" class="form-control">{{ array_get($intake, 'careplan_opportunity4') }}</textarea>
+                                <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="careplan_opportunity4" rows="5" cols="20" id="careplan_opportunity4" class="form-control">{{ array_get($intake, 'careplan_opportunity4') }}</textarea>
                             </div>
                             <div class="col-xs-12 col-md-3">
                                 <label class="visible-xs visible-sm">Agreed goal (measurable)</label>
