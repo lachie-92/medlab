@@ -485,29 +485,32 @@ body {
 
 form#patient-history input:disabled,
 form#patient-history select:disabled,
-form#patient-history textarea:disabled {
+form#patient-history textarea:disabled, form#careplan input:disabled,
+form#careplan select:disabled,
+form#careplan textarea:disabled {
   color: #000;
   background: none;
   border: none;
   box-shadow: none;
-  padding: 0; }
-form#patient-history input[type=radio]:disabled {
+  padding: 0;
+  height: auto; }
+form#patient-history input[type=radio]:disabled, form#careplan input[type=radio]:disabled {
   display: none; }
-  form#patient-history input[type=radio]:disabled + label {
+  form#patient-history input[type=radio]:disabled + label, form#careplan input[type=radio]:disabled + label {
     display: none; }
-  form#patient-history input[type=radio]:disabled:checked + label {
+  form#patient-history input[type=radio]:disabled:checked + label, form#careplan input[type=radio]:disabled:checked + label {
     display: block;
     font-weight: normal; }
-form#patient-history input[type=checkbox]:disabled {
+form#patient-history input[type=checkbox]:disabled, form#careplan input[type=checkbox]:disabled {
   position: relative;
   visibility: hidden;
   cursor: inherit; }
-  form#patient-history input[type=checkbox]:disabled:after {
+  form#patient-history input[type=checkbox]:disabled:after, form#careplan input[type=checkbox]:disabled:after {
     display: block;
     content: "";
     visibility: visible;
     cursor: pointer; }
-  form#patient-history input[type=checkbox]:disabled:checked:after {
+  form#patient-history input[type=checkbox]:disabled:checked:after, form#careplan input[type=checkbox]:disabled:checked:after {
     content: "YES"; }
 
 .medlab_registration_account_box {
