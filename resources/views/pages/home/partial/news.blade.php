@@ -209,6 +209,28 @@
 
 
 
+
+                        <p>We are proud to announce Medlab's NRGBiotic™ is a finalist for the NutraIngredient Awards 2017 - Readers' Food Supplement of the Year!</br>
+                            NRGBiotic<sup>TM</sup> is valuable addition to many Practitioners 'toolbox' and is equally loved by those that use the product. The current clinical research outcomes have provided a novel adjunct option for those with Depression.</br>
+                            Reader online voting will open soon, we will keep you updated!</br>
+                            Seek advice from your healthcare Practitioner.
+                            Find out more about NRGBiotic: <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">www.medlab.co/nutraceuticals/products/nrgbiotic-60s</a>
+
+                        </p>
+
+                        <br>
+                        <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">
+                            <p>
+                                <img alt="NRGBiotic"
+                                     src="/img/news/finalista.png"
+                                     title="NRGBiotic"
+                                     width="75%"
+                                     class="img-responsive center-block">
+
+                            </p>
+                        </a>
+                        <br><br>
+
                         <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             Balmoral Swim 4 Cancer
