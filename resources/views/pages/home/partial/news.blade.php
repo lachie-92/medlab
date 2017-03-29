@@ -206,6 +206,12 @@
                     </div>
                     <div class="medlab_news_item_body">
 
+                        <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
+                            <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                                NutraIngredient Awards 2017 Finalist
+                            </h2>
+                         </a>
+
 
 
 
