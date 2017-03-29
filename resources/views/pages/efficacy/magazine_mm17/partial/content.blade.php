@@ -15,7 +15,9 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <iframe src="https://cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ftci6jicg&bgcolor=EEEEEE&t=1488507541" width="100%" height="900px" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                    <br><br>
+                    <br>
+                    <button type="button" class="btn btn-default"><a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/EFFICACY+Magazine+MAR17+edition+FINAL.pdf" download>DOWNLOAD EFFICACY MAGAZINE HERE</a></button><br><br>
+                    <br>
                     <div class="container-fluid">
                         <div class="well well-sm" style="text-align: justify;">
                             <p><strong>DISCLAIMER:</strong></p>
