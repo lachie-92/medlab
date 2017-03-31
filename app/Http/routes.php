@@ -407,6 +407,12 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     });
 
 
+
+
+});
+
+Route::get('/efficacy/novel-adjunct-for-depression', function () {
+    return view('pages.efficacy.novel-adjunct-for-depression.index');
 });
 
 Route::get('/efficacy/human-ageing', function () {
