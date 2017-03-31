@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreatePractitionerProductTable extends Migration
+class CreateProductUserTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,15 +12,15 @@ class CreatePractitionerProductTable extends Migration
      */
     public function up()
     {
-        Schema::create('practitioner_product', function (Blueprint $table) {
-            $table->integer('practitioner_id')->unsigned()->references('id')->on('practitioners');
+        Schema::create('product_user', function (Blueprint $table) {
             $table->integer('product_id')->unsigned()->references('id')->on('products');
+            $table->integer('user_id')->unsigned()->references('id')->on('users');
             $table->decimal('price_discounted', 8, 2);
             $table->timestamps();
 
-            $table->primary(['practitioner_id', 'product_id']);
-            $table->foreign('practitioner_id')->references('id')->on('practitioners')->onDelete('cascade')->onUpdate('cascade');
+            $table->primary(['product_id', 'user_id']);
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 
@@ -31,6 +31,6 @@ class CreatePractitionerProductTable extends Migration
      */
     public function down()
     {
-        Schema::drop('practitioner_product');
+        Schema::drop('product_user');
     }
 }
