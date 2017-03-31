@@ -55,56 +55,6 @@ class UpdateDeal extends Command
 
         $buy_one_get_one_free_deals = [
 
-            //Till End of Feburary
-            [
-                'product' => "NRGBiotic 60's",
-                'name' => "February 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/02/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '28/02/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "NOS",
-                'name' => "February 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/02/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '28/02/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "W8Biotic Lemon & Lime",
-                'name' => "February 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/02/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '28/02/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "W8Biotic Strawberries & Cream",
-                'name' => "February 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/02/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '28/02/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-
             //Till End of March
             [
                 'product' => "BioticNatal",
@@ -171,20 +121,51 @@ class UpdateDeal extends Command
 
         $discount_deals = [
 
-            //Discounted Price EXample
-            /*
+            //Discounted Price Example
             [
-                'product' => "MultiBiotic 60's",
-                'name' => "December 2016 Deals",
+                'product' => "NanoCelle B12",
+                'name' => "April 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => 'Discounted Price $22',
+                'description' => '30% off',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2016 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2016 23:59:59'),
-                'discount_percentage' => '36.71'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
+                'discount_percentage' => '30'
             ],
-            */
+            [
+                'product' => "NanoCelle Activated B12",
+                'name' => "April 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
+                'discount_percentage' => '30'
+            ],
+            [
+                'product' => "NanoCelle D3 + K2",
+                'name' => "April 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
+                'discount_percentage' => '30'
+            ],
+            [
+                'product' => "NanoCelle D3",
+                'name' => "April 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
+                'discount_percentage' => '30'
+            ],
 
         ];
 
