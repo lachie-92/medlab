@@ -111,6 +111,10 @@ Route::group(['middleware' => 'authPractitioner'], function () {
 
 });
 
+Route::get('/nutraceuticals/nrgbiotic', function () {
+    return view('pages.nutraceuticals.nrgbiotic.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Shopping Cart
