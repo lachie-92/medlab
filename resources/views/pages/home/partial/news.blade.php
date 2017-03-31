@@ -237,7 +237,7 @@
                         </a>
                         <br><br>
 
-                        <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
+                        <!--<a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             Balmoral Swim 4 Cancer
                         </h2>
@@ -258,6 +258,7 @@
                         </p>
                         </a>
                         <br><br>
+                        -->
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">Congratulations to Michael Thomsen on being the recipient of a Francis M Hooper RHD scholarship from the University of Sydney.</h2>
 
