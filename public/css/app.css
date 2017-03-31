@@ -586,4 +586,8 @@ form#patient-history input[type=checkbox]:disabled, form#careplan input[type=che
   background-color: #337AB7;
   color: #FFFFFF; }
 
+.row .slider.slider-horizontal {
+  width: 90%;
+  margin-left: 5%; }
+
 /*# sourceMappingURL=app.css.map */

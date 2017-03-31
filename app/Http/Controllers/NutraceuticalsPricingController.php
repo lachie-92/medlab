@@ -1,0 +1,68 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Medlab\Repositories\AccountRepositoryInterface;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
+use App\Product;
+
+class NutraceuticalsPricingController extends Controller
+{
+    /**
+     * Repository for the Controller
+     *
+     * @var AccountRepositoryInterface
+     */
+    protected $repository;
+
+    /**
+     * Constructor fore the AccountController
+     *
+     * @param AccountRepositoryInterface $repository
+     */
+    public function __construct(AccountRepositoryInterface $repository)
+    {
+        $this->middleware('auth');
+        $this->repository = $repository;
+        parent::__construct();
+    }
+
+    public function store(Request $request, $product)
+    {
+        $this->user->practitioner_pricing()->detach($product);
+        $this->user->practitioner_pricing()->attach($product, ['price_discounted' => $request->get('pricing_discounted')]);
+
+        return redirect()->route('account.pricing.index')->with(['message' => 'Patient pricing successfully saved']);
+    }
+
+    public function destroy($product)
+    {
+        $this->user->practitioner_pricing()->detach($product);
+
+        return redirect()->back();
+    }
+
+    public function pageIndex()
+    {
+        $user = $this->user->load('practitioner_pricing');
+        $products = Product::all();
+        $products = $products->merge($user->practitioner_pricing);
+
+        $orders = $this->repository->getLatestOrdersForUser($user);
+
+        return view('pages.account.dashboard.pricing.overview.index', compact('user', 'orders', 'products'));
+    }
+
+    public function pageEdit($product)
+    {
+        $user = $this->user;
+        $orders = $this->repository->getLatestOrdersForUser($user);
+        $product = Product::with(['practitioner_pricing' => function($query) {
+            return $query->where('user_id', $this->user->id);
+        }])->findOrFail($product);
+
+        return view('pages.account.dashboard.pricing.edit.index', compact('user', 'orders', 'product'));
+    }
+}

@@ -177,7 +177,28 @@ Route::group(['prefix' => '/account/careplan'], function() {
         'as'   => 'account.careplan.unlock',
         'uses' => 'CarePlanController@unlock'
     ]);
+})
 
+Route::group(['prefix' => '/account/pricing'], function() {
+    Route::get('/', [
+        'as'   => 'account.pricing.index',
+        'uses' => 'NutraceuticalsPricingController@pageIndex'
+    ]);
+
+    Route::get('{product}/delete', [
+        'as' => 'account.pricing.destroy',
+        'uses' => 'NutraceuticalsPricingController@destroy'
+    ]);
+
+    Route::get('{product}/edit', [
+        'as' => 'account.pricing.edit',
+        'uses' => 'NutraceuticalsPricingController@pageEdit'
+    ]);
+
+    Route::post('{product}/save', [
+        'as' => 'account.pricing.save',
+        'uses' => 'NutraceuticalsPricingController@store'
+    ]);
 });
 
 
