@@ -51,4 +51,9 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     {
         return $this->hasMany('App\Practitioner');
     }
+
+    public function practitioner_pricing()
+    {
+        return $this->belongsToMany('App\Product')->withPivot('price_discounted');
+    }
 }

@@ -37,6 +37,11 @@ class Product extends Model
         return $this->hasMany('App\Promotion');
     }
 
+    public function practitioner_pricing()
+    {
+        return $this->belongsToMany('App\User')->withPivot('price_discounted');
+    }
+
     //
     // Helper Functions
     //
