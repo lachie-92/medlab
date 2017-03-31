@@ -1,3 +1,14 @@
+<style>
+    @font-face {
+        font-family: 'MuseoSans_500';
+        src: url('/fonts/MuseoSans_500-webfont.woff2') format('woff2'),
+        url('/fonts/MuseoSans_500-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+</style>
+
 <!-----------------------------------------------------------------------------------
 --
 -- About Medlab
@@ -26,11 +37,14 @@
 
                     </p>
 
-
-                    <p style="text-align:center;">• Supports intracellular energy production</p>
-                    <p style="text-align:center;">• Assists in skeletal muscle cell recovery after stress</p>
-                    <p style="text-align:center;">• Supports healthy gastrointestinal homeostasis </br>and permeability</p>
-                    <p style="text-align:center;">• Formulated to improve somatic and reproductive </br>cellular mitochondrial function and intracellular </br>energy production</p>
+                    <div class="col-sm-offset-3 col-sm-6" style='font-family: "MuseoSans_500";'>
+                        <ul>
+                            <li>Supports intracellular energy production</li>
+                            <li>Assists in skeletal muscle cell recovery after stress</li>
+                            <li>Supports healthy gastrointestinal homeostasis and permeability</li>
+                            <li>Formulated to improve somatic and reproductive cellular mitochondrial function and intracellular energy production</li>
+                        </ul>
+                    </div>
 
 
                     <p>
