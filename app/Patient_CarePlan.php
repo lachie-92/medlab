@@ -8,6 +8,7 @@ class Patient_CarePlan extends Model
 {
     protected $table = 'patient_careplans';
     protected $primaryKey = 'id';
+    protected $dates = ['locked_at'];
 
     public function attributes()
     {

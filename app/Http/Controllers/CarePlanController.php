@@ -5,9 +5,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Medlab\Repositories\AccountRepositoryInterface;
+use App\Patient;
 use App\Patient_CarePlan;
 use App\Patient_CarePlan_Attribute;
 use App\Http\Requests;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 
@@ -56,7 +58,7 @@ class CarePlanController extends Controller
     public function lock($careplan)
     {
         $careplan = Patient_CarePlan::findOrFail($careplan);
-        $careplan->locked_at = time();
+        $careplan->locked_at = Carbon::now();
         $careplan->save();
 
         return redirect()->back()->with([
@@ -126,11 +128,16 @@ class CarePlanController extends Controller
      *
      * @return [type] [description]
      */
-    public function pageIndex() {
+    public function pageIndex(Request $request) {
         $user = $this->user->load('patient.careplans')->load('patients.careplans');
         $orders = $this->repository->getLatestOrdersForUser($user);
+        $data = compact('user', 'orders');
+        if ($request->has('patient')) {
+            $data['patient'] = Patient::findOrFail($request->get('patient'));
+            $data['careplans'] = Patient_CarePlan::where('patient_id', $request->get('patient'))->orderBy('created_at', 'DESC')->paginate(5);
+        }
 
-        return view('pages.account.dashboard.careplan.overview.index', compact('user', 'orders'));
+        return view('pages.account.dashboard.careplan.overview.index', $data);
     }
 
     /**
