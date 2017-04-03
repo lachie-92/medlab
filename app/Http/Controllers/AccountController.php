@@ -52,8 +52,14 @@ class AccountController extends Controller
                 break;
 
             case 'Practitioner':
-
-                return view('pages.account.dashboard.practitioner.main.index', compact('user', 'orders'));
+                $patients = $user->patients->sortBy(
+                    function ($patient) {
+                        // Effectively sorts by lastname, firstname
+                        // e.g. "Soell                         Andy"
+                        return sprintf('%-30s%s', $patient->user->last_name, $patient->user->first_name);
+                    }
+                );
+                return view('pages.account.dashboard.practitioner.main.index', compact('user', 'orders', 'patients'));
                 break;
         }
     }

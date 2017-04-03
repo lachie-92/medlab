@@ -120,6 +120,72 @@
                         </table>
                         {!! $histories->appends(['patient' => $patient->id])->render() !!}
                         @endif
+
+                        <div class="panel panel-primary medlab_panel">
+                            <div class="panel-heading medlab_panel_title">
+                                <h3 class="panel-title pull-left">
+                                    Medical Summary
+                                </h3>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>&nbsp;</th>
+                                            @foreach ($summary['medication'] as $medication)
+                                            <th>{{ $medication->created_at->format('j/n/y') }}</th>
+                                            @endforeach
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @for ($i=1; $i<10; $i++)
+                                        <tr>
+                                            <td>Medication</td>
+                                            @for ($j=0; $j<$summary['medication']->count(); $j++)
+                                            <td>{{ $summary['medication'][$j]->attributes->where('key', 'currentmedications_drug'.$i)->first()->value }}</td>
+                                            @endfor
+                                        </tr>
+                                        @endfor
+                                        <tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-primary medlab_panel">
+                            <div class="panel-heading medlab_panel_title">
+                                <h3 class="panel-title pull-left">
+                                    Past Medical History
+                                </h3>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="panel-body">
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            @foreach ($summary['medication'] as $medication)
+                                            <th>{{ $medication->created_at->format('j/n/y') }}</th>
+                                            @endforeach
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @for ($i=0; $i<10; $i++) <!-- need to change 10 to a dynamic value -->
+                                        <tr>
+                                            @for ($j=0; $j<$summary['history']->count(); $j++)
+                                            <td>
+                                                @if ($summary['history'][$j]->attributes->count() > $i)
+                                                {{ trans('medical.' . $summary['history'][$j]->attributes->slice($i, 1)->first()->key) }}
+                                                @endif
+                                            </td>
+                                            @endfor
+                                        </tr>
+                                        @endfor
+                                        <tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
                     @endif
                 </div>
             </div>

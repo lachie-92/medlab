@@ -133,7 +133,17 @@ class PatientHistoryController extends Controller
         $data = compact('user', 'orders');
         if ($request->has('patient')) {
             $data['patient'] = Patient::findOrFail($request->get('patient'));
-            $data['histories'] = Patient_History::where('patient_id', $request->get('patient'))->orderBy('created_at', 'DESC')->orderBy('id')->paginate(5);
+            $data['histories'] = Patient_History::with('attributes')->where('patient_id', $request->get('patient'))->orderBy('created_at', 'DESC')->orderBy('id')->paginate(5);
+
+            $summary['medication'] = Patient_History::with(['attributes' => function($query) {
+                    return $query->where('key', 'like', 'currentmedications_drug%');
+                }])->where('patient_id', $request->get('patient'))->orderBy('created_at', 'ASC')->orderBy('id', 'DESC')->take(5)->get();
+
+            $summary['history'] = Patient_History::with(['attributes' => function($query) {
+                    return $query->where('key', 'like', 'medicalhistory_%')->where('value', 1);
+                }])->where('patient_id', $request->get('patient'))->orderBy('created_at', 'ASC')->orderBy('id', 'DESC')->take(5)->get();
+
+            $data['summary'] = $summary;
         }
 
         return view('pages.account.dashboard.patient-history.overview.index', $data);

@@ -206,6 +206,57 @@
             </div>
 
             <!--
+            -- Patient Summary
+            -->
+            <div class="panel panel-primary medlab_panel">
+                <div class="panel-heading medlab_panel_title">
+                    Patient Summary
+                </div>
+                <div class="panel-body">
+                    @if (count($patients) == 0)
+
+                        <div class="alert alert-info" style="text-align: center">
+                            No Patients
+                        </div>
+
+                    @else
+
+                        <table class="table table-striped table-hover">
+                            <thead>
+                            <tr>
+                                <th style="text-align: center">Patient No.</th>
+                                <th style="text-align: center">Last Name</th>
+                                <th style="text-align: center">First Name</th>
+                                <th style="text-align: center">Histories</th>
+                                <th style="text-align: center">Care Plans</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @foreach ($patients as $patient)
+                                <tr>
+                                    <td style="text-align: center">{{ $patient->id }}</td>
+                                    <td style="text-align: center">{{ $patient->user->customer->last_name }}</td>
+                                    <td style="text-align: center">{{ $patient->user->customer->first_name }}</td>
+                                    <td style="text-align: center">
+                                        <a href="{{ route('account.patient-history.index', [ 'patient' => $patient->id ]) }}">
+                                            {{ $patient->histories->count() }}
+                                        </a>
+                                    </td>
+                                    <td style="text-align: center">
+                                        <a href="{{ route('account.careplan.index', [ 'patient' => $patient->id ]) }}">
+                                            {{ $patient->careplans->count() }}
+                                        </a>
+                                    </td>
+                                </tr>
+                            @endforeach
+                            </tbody>
+                        </table>
+
+                    @endif
+                </div>
+            </div>
+
+            <!--
             -- Account Summary
             -->
             <div class="panel panel-primary medlab_panel">
