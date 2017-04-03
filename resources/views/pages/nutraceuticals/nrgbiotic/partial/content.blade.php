@@ -36,17 +36,17 @@
                     </p>
 
                     <div class="font-family: 'MuseoSans_500';">
-                        <p style="font-family: 'MuseoSans_500'; text-align:center;">• Assists in managing symptoms of altered mood as </br>demonstrated in our <a href=" https://www.ncbi.nlm.nih.gov/pubmed/28155119" target="_blank" class="medlab_news_content_link">published pilot clinical trial</a></p>
-                        <p style="font-family: 'MuseoSans_500'; text-align:center;">• Supports intracellular energy production</p>
-                        <p style="font-family: 'MuseoSans_500'; text-align:center;">• Assists in skeletal muscle cell recovery after stress</p>
-                        <p style="font-family: 'MuseoSans_500'; text-align:center;">• Supports healthy gastrointestinal homeostasis </br>and permeability</p>
-                        <p style="font-family: 'MuseoSans_500'; text-align:center;">• Formulated to improve somatic and reproductive </br>cellular mitochondrial function and intracellular </br>energy production</p></br>
+                        <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Assists in managing symptoms of altered mood as </br>demonstrated in our <a href=" https://www.ncbi.nlm.nih.gov/pubmed/28155119" target="_blank" class="medlab_news_content_link">published pilot clinical trial</a></p>
+                        <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Supports intracellular energy production</p>
+                        <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Assists in skeletal muscle cell recovery after stress</p>
+                        <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Supports healthy gastrointestinal homeostasis </br>and permeability</p>
+                        <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Formulated to improve somatic and reproductive </br>cellular mitochondrial function and intracellular </br>energy production</p></br>
                     </div>
 
-                    <h4 style="font-family: 'MuseoSans_500'; text-align:center;">People may benefit from NRGBiotic<sup>TM</sup> if:</h4>
-                    <p style="font-family: 'MuseoSans_500'; text-align:center;">• They experience fatigue</p>
-                    <p style="font-family: 'MuseoSans_500'; text-align:center;">• Experience slight to moderate mood disorders </br>e.g. mild depression, anxiety</p>
-                    <p style="font-family: 'MuseoSans_500'; text-align:center;">• Anyone who exercises regularly</p>
+                    <h4 style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">People may benefit from NRGBiotic<sup>TM</sup> if:</h4>
+                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• They experience fatigue</p>
+                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Experience slight to moderate mood disorders </br>e.g. mild depression, anxiety</p>
+                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Anyone who exercises regularly</p>
 
 
 
