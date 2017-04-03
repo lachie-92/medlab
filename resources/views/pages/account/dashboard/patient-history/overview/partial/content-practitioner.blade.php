@@ -57,6 +57,30 @@
                         </div>
 
                     @else
+                        <form method="GET" action="{{ route('account.patient-history.index') }}">
+                            <div class="row">
+                                <div class="col-xs-6">
+
+                                    <select class="form-control" name="patient">
+                                        <option value="">— Select a patient to view their histories —</option>
+                                        @foreach ($user->patients as $userPatient)
+                                        <option value="{{$userPatient->id}}" {{ isset($patient)&&$userPatient->id==$patient->id?'selected="selected"':'' }}>{{ $userPatient->user->customer->last_name }}, {{ $userPatient->user->customer->first_name }}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                                <div class="col-xs-6">
+                                    <button type="submit" class="btn btn-default">go</button>
+                                </div>
+                            </div>
+                        </form>
+                    @endif
+
+                    @if (isset($histories))
+                        @if ($histories->count() == 0)
+                        <div class="alert alert-info" style="text-align: center">
+                            No Histories
+                        </div>
+                        @else
 
                         <table class="table table-striped table-hover">
                             <thead>
@@ -68,37 +92,35 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($user->patients as $patient)
-                                    @foreach ($patient->histories as $history)
-                                    <tr>
-                                        <td style="text-align: center">{{ $history->id }}</td>
-                                        <td style="text-align: center">{{ $history->patient->user->customer->last_name }}, {{ $history->patient->user->customer->first_name }}</td>
-                                        <td style="text-align: center">{{ $history->created_at->toFormattedDateString() }}</td>
-                                        <td style="text-align: center">{{ $history->locked_at?'Locked':'In progress' }}</td>
-                                        <td style="text-align: center">
-                                            <a href="{{ route('account.patient-history.view', [
-                                                'history' => $history->id
-                                            ]) }}" class="btn btn-default"><i class="fa fa-file-text-o" aria-hidden="true"></i> View</a>
-                                        </td>
-                                        <td style="text-align: center">
-                                            @if (!$history->locked_at)
-                                            <a href="{{ route('account.patient-history.lock', [
-                                                'history' => $history->id
-                                            ]) }}" class="btn btn-default"><i class="fa fa-lock" aria-hidden="true"></i> Lock</a>
-                                            @else
-                                            <a href="{{ route('account.patient-history.unlock', [
-                                                'history' => $history->id
-                                            ]) }}" class="btn btn-default"><i class="fa fa-unlock" aria-hidden="true"></i> Unlock</a>
-                                            @endif
-                                        </td>
-                                    </tr>
-                                    @endforeach
+                                @foreach ($histories as $history)
+                                <tr>
+                                    <td style="text-align: center">{{ $history->id }}</td>
+                                    <td style="text-align: center">{{ $history->patient->user->customer->last_name }}, {{ $history->patient->user->customer->first_name }}</td>
+                                    <td style="text-align: center">{{ $history->created_at->toFormattedDateString() }}</td>
+                                    <td style="text-align: center">{{ $history->locked_at?'Locked':'In progress' }}</td>
+                                    <td style="text-align: center">
+                                        <a href="{{ route('account.patient-history.view', [
+                                            'history' => $history->id
+                                        ]) }}" class="btn btn-default"><i class="fa fa-file-text-o" aria-hidden="true"></i> View</a>
+                                    </td>
+                                    <td style="text-align: center">
+                                        @if (!$history->locked_at)
+                                        <a href="{{ route('account.patient-history.lock', [
+                                            'history' => $history->id
+                                        ]) }}" class="btn btn-default"><i class="fa fa-lock" aria-hidden="true"></i> Lock</a>
+                                        @else
+                                        <a href="{{ route('account.patient-history.unlock', [
+                                            'history' => $history->id
+                                        ]) }}" class="btn btn-default"><i class="fa fa-unlock" aria-hidden="true"></i> Unlock</a>
+                                        @endif
+                                    </td>
+                                </tr>
                                 @endforeach
                             </tbody>
                         </table>
-
+                        {!! $histories->appends(['patient' => $patient->id])->render() !!}
+                        @endif
                     @endif
-
                 </div>
             </div>
         </div>

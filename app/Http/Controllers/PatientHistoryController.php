@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Medlab\Repositories\AccountRepositoryInterface;
+use App\Patient;
 use App\Patient_History;
 use App\Patient_History_Attribute;
 use App\Http\Requests;
@@ -126,11 +127,16 @@ class PatientHistoryController extends Controller
      *
      * @return [type] [description]
      */
-    public function pageIndex() {
+    public function pageIndex(Request $request) {
         $user = $this->user->load('patient.histories')->load('patients.histories');
         $orders = $this->repository->getLatestOrdersForUser($user);
+        $data = compact('user', 'orders');
+        if ($request->has('patient')) {
+            $data['patient'] = Patient::findOrFail($request->get('patient'));
+            $data['histories'] = Patient_History::where('patient_id', $request->get('patient'))->orderBy('created_at', 'DESC')->orderBy('id')->paginate(5);
+        }
 
-        return view('pages.account.dashboard.patient-history.overview.index', compact('user', 'orders'));
+        return view('pages.account.dashboard.patient-history.overview.index', $data);
     }
 
     /**

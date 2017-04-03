@@ -135,7 +135,6 @@ class CarePlanController extends Controller
         if ($request->has('patient')) {
             $data['patient'] = Patient::findOrFail($request->get('patient'));
             $data['careplans'] = Patient_CarePlan::where('patient_id', $request->get('patient'))->orderBy('created_at', 'DESC')->orderBy('id')->paginate(5);
-            //dd($data);
         }
 
         return view('pages.account.dashboard.careplan.overview.index', $data);
