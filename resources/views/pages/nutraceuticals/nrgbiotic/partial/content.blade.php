@@ -54,7 +54,7 @@
                              title="NRGBiotic"
                              width="90%"
                              class="img-responsive center-block">
-                        <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">
+                        <a href="/efficacy/novel-adjunct-for-depression" target="_blank" class="medlab_news_content_link">
                         <img alt="NRGBiotic"
                              src="/img/efficacy/novel-adjunct-for-depression/NRG Showcase BASE2.jpg"
                              title="NRGBiotic"
