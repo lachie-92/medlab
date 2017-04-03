@@ -43,7 +43,7 @@
                         <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Formulated to improve somatic and reproductive </br>cellular mitochondrial function and intracellular </br>energy production</p></br>
                     </div>
 
-                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">For more information on GIT Health support and support </br>for mood disorders with Medlab’s NRGBiotic<sup>TM</sup> </br>speak to your Healthcare Practitioner.</p>
+                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">For more information on Medlab’s NRGBiotic<sup>TM</sup> </br>speak to your Healthcare Practitioner.</p>
                     <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">Always read the label, use only as directed and if </br>symptoms persist consult your Healthcare Practitioner.</p>
 
 

@@ -94,7 +94,7 @@
 
                     </p>
 
-                    <img class="img-responsive"  style=" width: 100%; display: block; margin-left: auto; margin-right: auto;" alt="Figure 1" src="/img/efficacy/novel-adjunct-for-depression/lumen.png" title="Figure 1">
+                    <img class="img-responsive"  style=" width: 100%; display: block; margin-left: auto; margin-right: auto;" alt="Figure 1" src="/img/efficacy/novel-adjunct-for-depression/Lumen.png" title="Figure 1">
 
                     <hr>
                     <h3>Probiotic treatment</h3>
