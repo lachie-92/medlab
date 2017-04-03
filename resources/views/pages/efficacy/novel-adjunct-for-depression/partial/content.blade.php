@@ -46,6 +46,7 @@
 
                     </p>
 
+                    <hr>
                     <h3>Probiotics as an adjuvant treatment</h3>
 
                     <img class="img-responsive" height="250" width="200" style="display: block; margin-left: auto; margin-right: auto; float: right;" alt="Figure 1" src="/img/efficacy/novel-adjunct-for-depression/shuterstocknrg.jpg" title="Figure 1">
@@ -95,6 +96,7 @@
 
                     <img class="img-responsive"  style=" width: 100%; display: block; margin-left: auto; margin-right: auto;" alt="Figure 1" src="/img/efficacy/novel-adjunct-for-depression/lumen.png" title="Figure 1">
 
+                    <hr>
                     <h3>Probiotic treatment</h3>
 
                     <p>
@@ -112,6 +114,7 @@
 
                     <img class="img-responsive"  style="  display: block; margin-left: auto; margin-right: auto;" alt="Figure 1" src="/img/efficacy/novel-adjunct-for-depression/NRGBiotic_results.png" title="Figure 1">
 
+                    <hr>
                     <h3>Conclusion</h3>
 
                     <p>
@@ -134,6 +137,7 @@
 
                     </p>
 
+                    <hr>
                     <h3>References</h3>
 
                     <p>
@@ -156,6 +160,7 @@
                         </a>
                     </p>
 
+                    <hr>
                     <h3>Disclaimer</h3>
 
                     <p>

@@ -43,21 +43,26 @@
                         <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Formulated to improve somatic and reproductive </br>cellular mitochondrial function and intracellular </br>energy production</p></br>
                     </div>
 
-                    <h4 style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">People may benefit from NRGBiotic<sup>TM</sup> if:</h4>
-                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• They experience fatigue</p>
-                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Experience slight to moderate mood disorders </br>e.g. mild depression, anxiety</p>
-                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Anyone who exercises regularly</p>
+                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">For more information on GIT Health support and support </br>for mood disorders with Medlab’s NRGBiotic<sup>TM</sup> </br>speak to your Healthcare Practitioner.</p>
+                    <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">Always read the label, use only as directed and if </br>symptoms persist consult your Healthcare Practitioner.</p>
 
 
 
                     <p>
                         <img alt="NRGBiotic"
-                             src="/img/efficacy/novel-adjunct-for-depression/Bottom.jpg"
+                             src="/img/efficacy/novel-adjunct-for-depression/NRG Showcase BASE1.jpg"
                              title="NRGBiotic"
                              width="90%"
                              class="img-responsive center-block">
-
+                        <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">
+                        <img alt="NRGBiotic"
+                             src="/img/efficacy/novel-adjunct-for-depression/NRG Showcase BASE2.jpg"
+                             title="NRGBiotic"
+                             width="90%"
+                             class="img-responsive center-block">
+                            </a>
                     </p>
+
 
 
 
