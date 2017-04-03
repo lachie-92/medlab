@@ -132,18 +132,21 @@
                                 <table class="table table-striped table-hover">
                                     <thead>
                                         <tr>
-                                            <th>&nbsp;</th>
                                             @foreach ($summary['medication'] as $medication)
                                             <th>{{ $medication->created_at->format('j/n/y') }}</th>
                                             @endforeach
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @for ($i=1; $i<10; $i++)
+
+                                        @for ($i=1; $i<=$summary['medication_count']; $i++)
                                         <tr>
-                                            <td>Medication</td>
                                             @for ($j=0; $j<$summary['medication']->count(); $j++)
-                                            <td>{{ $summary['medication'][$j]->attributes->where('key', 'currentmedications_drug'.$i)->first()->value }}</td>
+                                            <td>
+                                                @if ($summary['medication'][$j]->attributes->count() >= $i)
+                                                {{ $summary['medication'][$j]->attributes->where('key', 'currentmedications_drug'.$i)->first()->value }}
+                                                @endif
+                                                </td>
                                             @endfor
                                         </tr>
                                         @endfor
@@ -170,7 +173,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @for ($i=0; $i<10; $i++) <!-- need to change 10 to a dynamic value -->
+                                        @for ($i=0; $i<$summary['history_count']; $i++) <!-- need to change 10 to a dynamic value -->
                                         <tr>
                                             @for ($j=0; $j<$summary['history']->count(); $j++)
                                             <td>

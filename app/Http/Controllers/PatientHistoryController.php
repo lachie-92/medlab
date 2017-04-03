@@ -135,13 +135,25 @@ class PatientHistoryController extends Controller
             $data['patient'] = Patient::findOrFail($request->get('patient'));
             $data['histories'] = Patient_History::with('attributes')->where('patient_id', $request->get('patient'))->orderBy('created_at', 'DESC')->orderBy('id')->paginate(5);
 
+            // Summary data of medications across 5 most recent histories
             $summary['medication'] = Patient_History::with(['attributes' => function($query) {
-                    return $query->where('key', 'like', 'currentmedications_drug%');
+                    return $query->where('key', 'like', 'currentmedications_drug%')->where('value', '!=', '');
                 }])->where('patient_id', $request->get('patient'))->orderBy('created_at', 'ASC')->orderBy('id', 'DESC')->take(5)->get();
 
+            // Get the number of medication items for iterating in the template
+            $summary['medication_count'] = $summary['medication']->reduce(function ($carry, $item) {
+                return max($carry, $item->attributes->count());
+            });
+
+            // Summary data of medical history across 5 most recent histories
             $summary['history'] = Patient_History::with(['attributes' => function($query) {
                     return $query->where('key', 'like', 'medicalhistory_%')->where('value', 1);
                 }])->where('patient_id', $request->get('patient'))->orderBy('created_at', 'ASC')->orderBy('id', 'DESC')->take(5)->get();
+
+            // Get the number of history items for iterating in the template
+            $summary['history_count'] = $summary['history']->reduce(function ($carry, $item) {
+                return max($carry, $item->attributes->count());
+            });
 
             $data['summary'] = $summary;
         }
