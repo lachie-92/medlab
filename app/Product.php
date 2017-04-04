@@ -19,13 +19,6 @@ class Product extends Model
             ->orderBy('product_name_index', 'ASC');
     }
 
-    public function scopePractitionerPricing($query, $practitioner)
-    {
-        return $query->with(['practitioner_pricing' => function($query) use ($practitioner) {
-            return $query->where('user_id', $practitioner);
-        }]);
-    }
-
     //
     // Model Relationships
     //
@@ -58,7 +51,7 @@ class Product extends Model
      * @param $userGroup
      * @return double|null
      */
-    public function getProductPriceByUserGroup($userGroup)
+    public function getProductPriceByUserGroup($userGroup, $practitioner=null)
     {
         switch($userGroup) {
             case 'Practitioner':
@@ -66,6 +59,17 @@ class Product extends Model
                 break;
             case 'Patient':
                 $price = $this->price_retail;
+
+                if (!is_null($practitioner)) {
+                    $this->load(['practitioner_pricing' => function($query) use ($practitioner) {
+                        return $query->where('user_id', $practitioner);
+                    }]);
+
+                    if ($this->practitioner_pricing->count() > 0) {
+                        $price = $this->practitioner_pricing->first()->pivot->price_discounted;
+                    }
+                }
+
                 break;
             default:
                 $price = null;

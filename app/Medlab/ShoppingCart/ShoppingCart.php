@@ -153,7 +153,7 @@ class ShoppingCart {
             foreach($products as $product) {
 
                 // Find out the product price, quantity, discount rate, and promotions
-                $price = $product->getProductPriceByUserGroup($this->user->group);
+                $price = $product->getProductPriceByUserGroup($this->user->group, $this->user->patient->practitioner->user->id);
                 $qty = $this->basket[$product->id];
                 $promotions = [];
 

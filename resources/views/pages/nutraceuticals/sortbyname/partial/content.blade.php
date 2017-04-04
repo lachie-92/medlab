@@ -85,13 +85,7 @@
                                                     <span class="medlab_product_info_price_box_label">
                                                         Price:
                                                     </span>
-                                                    @if ($product->practitioner_pricing->count() > 0)
-                                                    <span title="Practitioner Pricing">
-                                                        ${{ number_format($product->practitioner_pricing->first()->pivot->price_discounted*11/10, 2) }}
-                                                    </span>
-                                                    @else
-                                                    ${!! number_format($product->price_retail*11/10, 2) !!}
-                                                    @endif
+                                                    ${{ number_format($product->getProductPriceByUserGroup(Auth::user()->group, Auth::user()->patient->practitioner->user->id)*11/10, 2) }}
                                                 @else
 
                                                 @endif

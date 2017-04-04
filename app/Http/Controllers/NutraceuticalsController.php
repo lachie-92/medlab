@@ -32,15 +32,15 @@ class NutraceuticalsController extends Controller
         switch($searchLetter) {
 
             case (preg_match( '/^[A-Z]$/', $searchLetter ) ? true : false):
-                $products = Product::PractitionerPricing($this->user->patient->practitioner->user->id)->AlphabeticalOrder($searchLetter)->get();
+                $products = Product::AlphabeticalOrder($searchLetter)->get();
                 $productList[$searchLetter] = 'active';
                 break;
             case 'Show All':
-                $products = Product::PractitionerPricing($this->user->patient->practitioner->user->id)->orderBy('product_name_index', 'ASC')->get();
+                $products = Product::orderBy('product_name_index', 'ASC')->get();
                 $productList['Show All'] = 'active';
                 break;
             default:
-                $products = Product::PractitionerPricing($this->user->patient->practitioner->user->id)->orderBy('product_name_index', 'ASC')->get();
+                $products = Product::orderBy('product_name_index', 'ASC')->get();
                 $productList['Show All'] = 'active';
         }
 

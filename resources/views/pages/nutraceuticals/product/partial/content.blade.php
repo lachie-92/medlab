@@ -106,13 +106,7 @@
                                     <span class="medlab_product_info_price_box_label">
                                         Price:
                                     </span>
-                                    @if ($product->practitioner_pricing->count() > 0)
-                                    <span title="Practitioner Pricing">
-                                    ${!! round($product->practitioner_pricing->first()->pivot->price_discounted*11/10, 2) !!}
-                                    </span>
-                                    @else
-                                    ${!! round($product->price_retail*11/10, 2) !!}
-                                    @endif
+                                    ${!! round($product->getProductPriceByUserGroup(Auth::user()->group, Auth::user()->patient->practitioner->user->id)*11/10, 2) !!}
                                 @else
                                     <div style="font-size: 15px; color: black;">Please <a href="/account/login">Login</a> to see product price and more product information.</div>
                                 @endif
