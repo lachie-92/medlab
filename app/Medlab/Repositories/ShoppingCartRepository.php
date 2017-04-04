@@ -186,6 +186,7 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $orderedProduct->discount_percentage = $product['discount_percentage'];
         $orderedProduct->discounted_price = $product['price'];
         $orderedProduct->line_total = $product['total'];
+        $orderedProduct->price_wholesale = $product['product']->price_wholesale;
 
         $orderedProduct->save();
 
