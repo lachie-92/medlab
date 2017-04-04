@@ -4,6 +4,7 @@
         <th style="width:20%; border-bottom:2px solid black; padding:4px;">Item</th>
         <th style="width:20%; border-bottom:2px solid black; padding:4px;">QTY</th>
         <th style="width:20%; border-bottom:2px solid black; padding:4px;">Price</th>
+        <th style="width:20%; border-bottom:2px solid black; padding:4px;">Wholesale Price</th>
         <th style="width:20%; border-bottom:2px solid black; padding:4px;">Discount</th>
         <th style="width:20%; border-bottom:2px solid black; padding:4px;">Total</th>
     </tr>
@@ -20,6 +21,9 @@
             </td>
             <td style="padding:4px;">
                 {{ $product->line_price }}
+            </td>
+            <td style="padding:4px;">
+                {{ $product->price_wholesale }}
             </td>
             <td style="padding:4px;">
                 {{ $product->discount_percentage }}%

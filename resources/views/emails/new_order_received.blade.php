@@ -87,6 +87,7 @@
         <th style="text-align: left">Item</th>
         <th style="text-align: right">QTY</th>
         <th style="text-align: right">Price</th>
+        <th style="text-align: right">Wholesale Price</th>
         <th style="text-align: right">Discount</th>
         <th style="text-align: right">Total</th>
     </tr>
@@ -103,6 +104,9 @@
             </td>
             <td style="text-align: right">
                 {{ $product['line_price'] }}
+            </td>
+            <td style="text-align: right">
+                {{ $product['price_wholesale'] }}
             </td>
             <td style="text-align: right">
                 {{ $product['discount_percentage'] }}%
