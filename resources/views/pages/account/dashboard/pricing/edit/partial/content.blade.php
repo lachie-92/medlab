@@ -3,12 +3,26 @@
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.min.css" />
 <script type="text/javascript">
     $(document).ready(function() {
-        $('#practitioner_price').slider({
+        var pricingSlider = $('#practitioner_price').slider({
             tooltip: 'always',
             formatter: function(value) {
-                return '$' + value;
+                return '$' + value.toFixed(2);
             }
+        })
+
+        pricingSlider.on('slide', function(e) {
+            $('#practitioner_price_display').val(e.value);
         });
+
+        $('#practitioner_price_display').on('change', function(e) {
+            var val = parseFloat($(this).val());
+            if (!$.isNumeric(val)) val = parseFloat(pricingSlider.slider('getValue'));
+            if (val < parseFloat(pricingSlider.attr('data-slider-min'))) val = parseFloat(pricingSlider.attr('data-slider-min'));
+            if (val > parseFloat(pricingSlider.attr('data-slider-max'))) val = parseFloat(pricingSlider.attr('data-slider-max'));
+
+            pricingSlider.slider('setValue', val);
+            $(this).val(val.toFixed(2));
+        })
     })
 </script>
 @endsection
@@ -69,7 +83,19 @@
                             <form class="form-horizontal" role="form" method="POST" action="{{ route('account.pricing.save', compact('product')) }}">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                                 <div class="row">
+                                    <div class="col-xs-10 col-xs-offset-1 text-center form-inline">
+                                        <label class="h2" for="practitioner_price_display">Patient Pricing</label>
+                                    </div>
+                                    <div class="col-xs-10 col-xs-offset-1 text-center form-inline">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <div class="input-group-addon">$</div>
+                                                <input id="practitioner_price_display" class="form-control input-lg" value="{{ $product->practitioner_pricing->count()>0?$product->practitioner_pricing->first()->pivot->price_discounted:$product->price_retail }}" />
+                                            </div>
+                                        </div>
+                                    </div>
                                     <div class="col-md-12 col-sm-12">
+                                        <br /><br />
                                         <input
                                             id="practitioner_price"
                                             name="pricing_discounted"
