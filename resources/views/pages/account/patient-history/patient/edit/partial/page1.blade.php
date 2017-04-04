@@ -40,7 +40,7 @@
                                     </label>
                                 </div>
                                 <div class="col-md-3 col-sm-3">
-                                    {{ Carbon\Carbon::now()->format('d/m/Y') }}
+                                    {{ isset($history)?$history->created_at->format('d/m/Y'):Carbon\Carbon::now()->format('d/m/Y') }}
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                 </div>
