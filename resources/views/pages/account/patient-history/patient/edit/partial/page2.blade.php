@@ -1,7 +1,7 @@
 @section('custom_script')
 <script type="text/javascript" src="/js/intake.js"></script>
 @endsection
-<div class="container-fluid medlab_panel_container">
+
     <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="patient-history">
         @if (!isset($readOnly))
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -11,7 +11,7 @@
              <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
                     <h3 class="panel-title pull-left">
-                        Patient History
+                        Patient History &mdash; Page 2
                     </h3>
                     <div class="clearfix"></div>
                 </div>
@@ -598,11 +598,6 @@
                                     @endif
 
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-             </div>
-        </div>
+
     </form>
-</div>
+

@@ -10,7 +10,7 @@
                         <div class="panel panel-primary medlab_panel">
                             <div class="panel-heading medlab_panel_title">
                                 <h3 class="panel-title pull-left">
-                                    Patient History
+                                    Patient History &mdash; Page 6
                                 </h3>
                                 <div class="clearfix"></div>
                             </div>
