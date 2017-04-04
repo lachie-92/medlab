@@ -58,6 +58,8 @@ class CarePlanController extends Controller
     public function lock($careplan)
     {
         $careplan = Patient_CarePlan::findOrFail($careplan);
+        if ($careplan->patient->practitioner->user->id != $this->user->id) throw new \Exception("Cannot lock/unlock this careplan");
+
         $careplan->locked_at = Carbon::now();
         $careplan->save();
 
@@ -74,6 +76,8 @@ class CarePlanController extends Controller
     public function unlock($careplan)
     {
         $careplan = Patient_CarePlan::findOrFail($careplan);
+        if ($careplan->patient->practitioner->user->id != $this->user->id) throw new \Exception("Cannot lock/unlock this careplan");
+
         $careplan->locked_at = null;
         $careplan->save();
 
@@ -91,6 +95,8 @@ class CarePlanController extends Controller
     public function update($careplan, Request $request) {
         $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
         $careplan_data = $request->all();
+
+        if (! ($this->user->patient && $careplan->patient_id == $this->user->patient->id)) throw new \Exception("Cannot update this careplan");
 
         foreach ($careplan_data as $key => $val) {
             if (! starts_with($key, '_')) {
@@ -146,9 +152,13 @@ class CarePlanController extends Controller
      * @return [type] [description]
      */
     public function pageView($careplan) {
+        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
+        if (! ($careplan->patient->user->id == $this->user->id ||
+              ($careplan->patient->practitioner->user->id == $this->user->id)))
+            throw new \Exception('Cannot view this careplan');
+
         $user = $this->user->load('patient.histories');
         $orders = $this->repository->getLatestOrdersForUser($user);
-        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
         $intake = $careplan->attributes->map(function($item) {
             return [$item->key => $item->value];
         })->collapse()->toArray();
@@ -176,9 +186,11 @@ class CarePlanController extends Controller
      * @param  integer $page    CarePlan section to display
      */
     public function pageEdit($careplan, $page) {
+        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
+        if (! ($this->user->patient && $careplan->patient_id == $this->user->patient->id)) throw new \Exception("Cannot update this careplan");
+
         $user = $this->user;
         $orders = $this->repository->getLatestOrdersForUser($user);
-        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
         $intake = $careplan->attributes->map(function($item) {
             return [$item->key => $item->value];
         })->collapse()->toArray();

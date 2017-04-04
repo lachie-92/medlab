@@ -57,6 +57,8 @@ class PatientHistoryController extends Controller
     public function lock($history)
     {
         $history = Patient_History::findOrFail($history);
+        if ($history->patient->practitioner->user->id != $this->user->id) throw new \Exception("Cannot lock/unlock this history");
+
         $history->locked_at = time();
         $history->save();
 
@@ -73,6 +75,8 @@ class PatientHistoryController extends Controller
     public function unlock($history)
     {
         $history = Patient_History::findOrFail($history);
+        if ($history->patient->practitioner->user->id != $this->user->id) throw new \Exception("Cannot lock/unlock this history");
+
         $history->locked_at = null;
         $history->save();
 
@@ -90,6 +94,8 @@ class PatientHistoryController extends Controller
     public function update($history, Request $request) {
         $history = Patient_History::with('attributes')->findOrFail($history);
         $history_data = $request->all();
+
+        if (! ($this->user->patient && $history->patient_id == $this->user->patient->id)) throw new \Exception("Cannot update this history");
 
         foreach ($history_data as $key => $val) {
             if (! starts_with($key, '_')) {
@@ -167,9 +173,13 @@ class PatientHistoryController extends Controller
      * @return [type] [description]
      */
     public function pageView($history) {
+        $history = Patient_History::with('attributes')->findOrFail($history);
+        if (! ($history->patient->user->id == $this->user->id ||
+              ($history->patient->practitioner->user->id == $this->user->id)))
+            throw new \Exception('Cannot view this history');
+
         $user = $this->user->load('patient.histories');
         $orders = $this->repository->getLatestOrdersForUser($user);
-        $history = Patient_History::with('attributes')->findOrFail($history);
         $intake = $history->attributes->map(function($item) {
             return [$item->key => $item->value];
         })->collapse()->toArray();
@@ -197,9 +207,11 @@ class PatientHistoryController extends Controller
      * @param  integer $page    History section to display
      */
     public function pageEdit($history, $page) {
+        $history = Patient_History::with('attributes')->findOrFail($history);
+        if (! ($this->user->patient && $history->patient_id == $this->user->patient->id)) throw new \Exception("Cannot update this history");
+
         $user = $this->user;
         $orders = $this->repository->getLatestOrdersForUser($user);
-        $history = Patient_History::with('attributes')->findOrFail($history);
         $intake = $history->attributes->map(function($item) {
             return [$item->key => $item->value];
         })->collapse()->toArray();
