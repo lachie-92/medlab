@@ -3,5 +3,15 @@
 @section('content')
 
 @include('pages.account.dashboard.patient.main.partial.breadcrumbs')
-@include('pages.account.careplan.patient.edit.partial.page'.$page)
+
+<div class="container medlab_panel_container">
+    <div class="row">
+        <!--
+        -- Main Content Column
+        -->
+        <div class="col-xs-12">
+            @include('pages.account.careplan.patient.edit.partial.page'.$page)
+        </div>
+    </div>
+</div>
 @endsection

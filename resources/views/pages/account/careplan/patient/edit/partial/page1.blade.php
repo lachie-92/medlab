@@ -1,4 +1,4 @@
-<div class="container-fluid medlab_panel_container">
+
     <form action="{{ isset($careplan)?route('account.careplan.update', $careplan->id):route('account.careplan.store') }}" method="POST" id="careplan">
         @if (!isset($readOnly))
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
@@ -8,7 +8,7 @@
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
                     <h3 class="panel-title pull-left">
-                        Care Plan
+                        Care Plan &mdash; Page 1
                     </h3>
                     <div class="clearfix"></div>
                 </div>
@@ -312,8 +312,8 @@
                         </div>
                     </div>
                 </div>
+                @if (!isset($readOnly))
                 <div class="panel-footer">
-                    @if (!isset($readOnly))
                     <div class="row">
                         <div class="col-ms-11 col-sm-11">
                         </div>
@@ -321,9 +321,8 @@
                             <input type="submit" name="_Btnnext" value="Next" id="Btnnext" class="btn btn-primary">
                         </div>
                     </div>
-                    @endif
                 </div>
+                @endif
             </div>
         </div>
     </form>
-</div>
