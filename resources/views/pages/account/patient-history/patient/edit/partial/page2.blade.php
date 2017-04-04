@@ -296,7 +296,9 @@
 
                                     </div>
                                     </div>
-
+                                    <div class="row">
+                                        <hr size="6">
+                                    </div>
                                     <div class="row">
                                             <div class="col-md-12 col-sm-12">
                                                 <label style="color:#1E5494">
@@ -377,10 +379,13 @@
                                             <hr size="6">
                                     </div>
                                     <div class="row">
-                                            <div class="col-md-12 col-sm-12">
+                                            <div class="col-md-3 col-sm-3">
                                                 <label style="color:#1E5494">
                                                     What is your current or past occupation?
                                                 </label>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3">
+                                                <input name="personalhistory_occupation" type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} id="personalhistory_occupation" class="form-control" value="{{ array_get($intake, 'personalhistory_occupation') }}">
                                             </div>
                                     </div>
                                     <div class="row">
@@ -391,7 +396,7 @@
                                         </div>
                                         <div class="col-md-3 col-sm-3">
 
-                                            <table id="rdwrk" onclick="check()">
+                                            <table id="rdwrk">
                                                 <tbody><tr>
                                                     <td><input id="personalhistory_currentlyworking_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_currentlyworking" value="1" {{ array_get($intake, 'personalhistory_currentlyworking')==1?'checked="checked"':"" }}><label for="personalhistory_currentlyworking_0">Yes</label></td><td><input id="personalhistory_currentlyworking_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_currentlyworking" value="0" {{ array_get($intake, 'personalhistory_currentlyworking')==0?'checked="checked"':"" }}><label for="personalhistory_currentlyworking_1">No</label></td>
                                                 </tr>
@@ -487,7 +492,9 @@
                                         </div>
                                         <div class="col-md-5 col-sm-5"></div>
                                     </div>
-
+                                    <div class="row">
+                                        <hr size="6">
+                                    </div>
                                     <div class="row">
                                     <div class="col-md-12 col-sm-12">
                                         <label style="color:#1E5494">
