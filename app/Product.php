@@ -19,6 +19,13 @@ class Product extends Model
             ->orderBy('product_name_index', 'ASC');
     }
 
+    public function scopePractitionerPricing($query, $practitioner)
+    {
+        return $query->with(['practitioner_pricing' => function($query) use ($practitioner) {
+            return $query->where('user_id', $practitioner);
+        }]);
+    }
+
     //
     // Model Relationships
     //
