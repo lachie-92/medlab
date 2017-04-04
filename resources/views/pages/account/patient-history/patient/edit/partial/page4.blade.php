@@ -53,7 +53,7 @@
 @endsection
 
 <div class="row">
-    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="page4" id="patient-history">
+    <form action="{{ route('account.patient-history.update', $history->id) }}" method="POST" id="patient-history">
         <input type="hidden" name="_token" value="{{ csrf_token() }}">
         <input type="hidden" name="page" value="4">
 
@@ -89,7 +89,7 @@
                                                         </td>
                                                         <td colspan="4">
 
-                                                            <select name="area_rating_pain" id="area_rating_pain" class="form-control">
+                                                            <select name="area_rating_pain" id="area_rating_pain" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
                                                                 <optgroup label="Rate 1-10">
                                                                     <option{{ array_get($intake, 'area_rating_pain')==1? ' selected="selected"': "" }}>1</option>
                                                                     <option{{ array_get($intake, 'area_rating_pain')==2? ' selected="selected"': "" }}>2</option>
@@ -113,7 +113,7 @@
                                                         </td>
                                                         <td colspan="4">
 
-                                                            <select name="area_rating_concern" id="area_rating_concern" class="form-control">
+                                                            <select name="area_rating_concern" id="area_rating_concern" class="form-control"  {{ isset($readOnly)? 'disabled="disabled"': '' }}>
                                                                 <optgroup label="Rate 1-10">
                                                                     <option{{ array_get($intake, 'area_rating_concern')==1? ' selected="selected"': "" }}>1</option>
                                                                     <option{{ array_get($intake, 'area_rating_concern')==2? ' selected="selected"': "" }}>2</option>
@@ -137,7 +137,7 @@
                                                         </td>
                                                         <td colspan="4">
 
-                                                            <select name="area_rating_swelling" id="area_rating_swelling" class="form-control">
+                                                            <select name="area_rating_swelling" id="area_rating_swelling" class="form-control"  {{ isset($readOnly)? 'disabled="disabled"': '' }}>
                                                                 <optgroup label="Rate 1-10">
                                                                     <option{{ array_get($intake, 'area_rating_swelling')==1? ' selected="selected"': "" }}>1</option>
                                                                     <option{{ array_get($intake, 'area_rating_swelling')==2? ' selected="selected"': "" }}>2</option>
@@ -161,7 +161,7 @@
                                                         </td>
                                                         <td colspan="4">
 
-                                                            <select name="area_rating_bleeding" id="area_rating_bleeding" class="form-control" </td>
+                                                            <select name="area_rating_bleeding" id="area_rating_bleeding" class="form-control"  {{ isset($readOnly)? 'disabled="disabled"': '' }}>
                                                                 <optgroup label="Rate 1-10">
                                                                     <option{{ array_get($intake, 'area_rating_bleeding')==1? ' selected="selected"': "" }}>1</option>
                                                                     <option{{ array_get($intake, 'area_rating_bleeding')==2? ' selected="selected"': "" }}>2</option>
@@ -175,7 +175,7 @@
                                                                     <option{{ array_get($intake, 'area_rating_bleeding')==10? ' selected="selected"': "" }}>10</option>
                                                                 </optgroup>
                                                             </select>
-
+                                                        </td>
                                                     </tr>
                                                 </tbody>
                                             </table>
