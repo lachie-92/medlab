@@ -92,15 +92,15 @@
                                                             <select name="area_rating_pain" id="area_rating_pain" class="form-control">
                                                                 <optgroup label="Rate 1-10">
                                                                     <option{{ array_get($intake, 'area_rating_pain')==1? ' selected="selected"': "" }}>1</option>
-                                                                        <option{{ array_get($intake, 'area_rating_pain')==2? ' selected="selected"': "" }}>2</option>
-                                                                            <option{{ array_get($intake, 'area_rating_pain')==3? ' selected="selected"': "" }}>3</option>
-                                                                                <option{{ array_get($intake, 'area_rating_pain')==4? ' selected="selected"': "" }}>4</option>
-                                                                                    <option{{ array_get($intake, 'area_rating_pain')==5? ' selected="selected"': "" }}>5</option>
-                                                                                        <option{{ array_get($intake, 'area_rating_pain')==6? ' selected="selected"': "" }}>6</option>
-                                                                                            <option{{ array_get($intake, 'area_rating_pain')==7? ' selected="selected"': "" }}>7</option>
-                                                                                                <option{{ array_get($intake, 'area_rating_pain')==8? ' selected="selected"': "" }}>8</option>
-                                                                                                    <option{{ array_get($intake, 'area_rating_pain')==9? ' selected="selected"': "" }}>9</option>
-                                                                                                        <option{{ array_get($intake, 'area_rating_pain')==10? ' selected="selected"': "" }}>10</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==2? ' selected="selected"': "" }}>2</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==3? ' selected="selected"': "" }}>3</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==4? ' selected="selected"': "" }}>4</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==5? ' selected="selected"': "" }}>5</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==6? ' selected="selected"': "" }}>6</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==7? ' selected="selected"': "" }}>7</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==8? ' selected="selected"': "" }}>8</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==9? ' selected="selected"': "" }}>9</option>
+                                                                    <option{{ array_get($intake, 'area_rating_pain')==10? ' selected="selected"': "" }}>10</option>
                                                                 </optgroup>
                                                             </select>
                                                         </td>
@@ -116,15 +116,15 @@
                                                             <select name="area_rating_concern" id="area_rating_concern" class="form-control">
                                                                 <optgroup label="Rate 1-10">
                                                                     <option{{ array_get($intake, 'area_rating_concern')==1? ' selected="selected"': "" }}>1</option>
-                                                                        <option{{ array_get($intake, 'area_rating_concern')==2? ' selected="selected"': "" }}>2</option>
-                                                                            <option{{ array_get($intake, 'area_rating_concern')==3? ' selected="selected"': "" }}>3</option>
-                                                                                <option{{ array_get($intake, 'area_rating_concern')==4? ' selected="selected"': "" }}>4</option>
-                                                                                    <option{{ array_get($intake, 'area_rating_concern')==5? ' selected="selected"': "" }}>5</option>
-                                                                                        <option{{ array_get($intake, 'area_rating_concern')==6? ' selected="selected"': "" }}>6</option>
-                                                                                            <option{{ array_get($intake, 'area_rating_concern')==7? ' selected="selected"': "" }}>7</option>
-                                                                                                <option{{ array_get($intake, 'area_rating_concern')==8? ' selected="selected"': "" }}>8</option>
-                                                                                                    <option{{ array_get($intake, 'area_rating_concern')==9? ' selected="selected"': "" }}>9</option>
-                                                                                                        <option{{ array_get($intake, 'area_rating_concern')==10? ' selected="selected"': "" }}>10</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==2? ' selected="selected"': "" }}>2</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==3? ' selected="selected"': "" }}>3</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==4? ' selected="selected"': "" }}>4</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==5? ' selected="selected"': "" }}>5</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==6? ' selected="selected"': "" }}>6</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==7? ' selected="selected"': "" }}>7</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==8? ' selected="selected"': "" }}>8</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==9? ' selected="selected"': "" }}>9</option>
+                                                                    <option{{ array_get($intake, 'area_rating_concern')==10? ' selected="selected"': "" }}>10</option>
                                                                 </optgroup>
                                                             </select>
                                                         </td>
@@ -140,15 +140,15 @@
                                                             <select name="area_rating_swelling" id="area_rating_swelling" class="form-control">
                                                                 <optgroup label="Rate 1-10">
                                                                     <option{{ array_get($intake, 'area_rating_swelling')==1? ' selected="selected"': "" }}>1</option>
-                                                                        <option{{ array_get($intake, 'area_rating_swelling')==2? ' selected="selected"': "" }}>2</option>
-                                                                            <option{{ array_get($intake, 'area_rating_swelling')==3? ' selected="selected"': "" }}>3</option>
-                                                                                <option{{ array_get($intake, 'area_rating_swelling')==4? ' selected="selected"': "" }}>4</option>
-                                                                                    <option{{ array_get($intake, 'area_rating_swelling')==5? ' selected="selected"': "" }}>5</option>
-                                                                                        <option{{ array_get($intake, 'area_rating_swelling')==6? ' selected="selected"': "" }}>6</option>
-                                                                                            <option{{ array_get($intake, 'area_rating_swelling')==7? ' selected="selected"': "" }}>7</option>
-                                                                                                <option{{ array_get($intake, 'area_rating_swelling')==8? ' selected="selected"': "" }}>8</option>
-                                                                                                    <option{{ array_get($intake, 'area_rating_swelling')==9? ' selected="selected"': "" }}>9</option>
-                                                                                                        <option{{ array_get($intake, 'area_rating_swelling')==10? ' selected="selected"': "" }}>10</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==2? ' selected="selected"': "" }}>2</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==3? ' selected="selected"': "" }}>3</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==4? ' selected="selected"': "" }}>4</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==5? ' selected="selected"': "" }}>5</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==6? ' selected="selected"': "" }}>6</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==7? ' selected="selected"': "" }}>7</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==8? ' selected="selected"': "" }}>8</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==9? ' selected="selected"': "" }}>9</option>
+                                                                    <option{{ array_get($intake, 'area_rating_swelling')==10? ' selected="selected"': "" }}>10</option>
                                                                 </optgroup>
                                                             </select>
                                                         </td>
@@ -164,15 +164,15 @@
                                                             <select name="area_rating_bleeding" id="area_rating_bleeding" class="form-control" </td>
                                                                 <optgroup label="Rate 1-10">
                                                                     <option{{ array_get($intake, 'area_rating_bleeding')==1? ' selected="selected"': "" }}>1</option>
-                                                                        <option{{ array_get($intake, 'area_rating_bleeding')==2? ' selected="selected"': "" }}>2</option>
-                                                                            <option{{ array_get($intake, 'area_rating_bleeding')==3? ' selected="selected"': "" }}>3</option>
-                                                                                <option{{ array_get($intake, 'area_rating_bleeding')==4? ' selected="selected"': "" }}>4</option>
-                                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==5? ' selected="selected"': "" }}>5</option>
-                                                                                        <option{{ array_get($intake, 'area_rating_bleeding')==6? ' selected="selected"': "" }}>6</option>
-                                                                                            <option{{ array_get($intake, 'area_rating_bleeding')==7? ' selected="selected"': "" }}>7</option>
-                                                                                                <option{{ array_get($intake, 'area_rating_bleeding')==8? ' selected="selected"': "" }}>8</option>
-                                                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==9? ' selected="selected"': "" }}>9</option>
-                                                                                                        <option{{ array_get($intake, 'area_rating_bleeding')==10? ' selected="selected"': "" }}>10</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==2? ' selected="selected"': "" }}>2</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==3? ' selected="selected"': "" }}>3</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==4? ' selected="selected"': "" }}>4</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==5? ' selected="selected"': "" }}>5</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==6? ' selected="selected"': "" }}>6</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==7? ' selected="selected"': "" }}>7</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==8? ' selected="selected"': "" }}>8</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==9? ' selected="selected"': "" }}>9</option>
+                                                                    <option{{ array_get($intake, 'area_rating_bleeding')==10? ' selected="selected"': "" }}>10</option>
                                                                 </optgroup>
                                                             </select>
 
@@ -296,7 +296,7 @@
                                     <br>
                                     <div class="row">
                                         <div class="col-ms-1 col-sm-1">
-                                            <input type="submit" name="_btnprevious" value="Back" id="ContentPlaceHolder1_btnprevious" class="btn btn-primary">
+                                            <a href="{{ route('account.patient-history.edit', ['history' => $history, 'page' => $page-1]) }}" name="_btnprevious" value="Back" id="ContentPlaceHolder1_btnprevious" class="btn btn-primary">Back</a>
                                         </div>
                                         <div class="col-ms-10 col-sm-10">
                                         </div>
