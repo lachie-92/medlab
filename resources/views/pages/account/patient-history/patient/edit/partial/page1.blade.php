@@ -108,7 +108,7 @@
                                     </label>
                                 </div>
                                 <div class="col-md-3 col-sm-3">
-                                    <input name="guardian_firstname" type="text" value="{{ array_get($intake, 'guardian_firstname') }}" id="guardian_firstname" class="form-control"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                    <input name="guardian_firstname" type="text" value="{{ array_get($intake, 'guardian_firstname') }}" id="guardian_firstname" class="form-control"{{ isset($readOnly)?' disabled="disabled"':'' }}>
                                 </div>
                                 <div class="col-md-1 col-sm-1">
                                     <label>
@@ -116,7 +116,7 @@
                                     </label>
                                 </div>
                                 <div class="col-md-3 col-sm-3">
-                                    <input name="guardian_lastname" type="text" value="{{ array_get($intake, 'guardian_lastname') }}" id="guardian_lastname" class="form-control"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                    <input name="guardian_lastname" type="text" value="{{ array_get($intake, 'guardian_lastname') }}" id="guardian_lastname" class="form-control"{{ isset($readOnly)?' disabled="disabled"':'' }}>
                                 </div>
                             </div>
                             <br>
@@ -127,7 +127,7 @@
                                     </label>
                                 </div>
                                 <div class="col-md-3 col-sm-3">
-                                    <select name="guardian_relationship" id="guardian_relationship" class="form-control">
+                                    <select name="guardian_relationship" id="guardian_relationship" class="form-control"{{ isset($readOnly)?' disabled="disabled"':'' }}>
                                         <option value="Parents" {{ array_get($intake, 'guardian_relationship')=="Parents"?'selected="selected"':"" }}>Parents</option>
                                         <option value="Partner" {{ array_get($intake, 'guardian_relationship')=="Partner"?'selected="selected"':"" }}>Partner</option>
                                         <option value="Sibling" {{ array_get($intake, 'guardian_relationship')=="Sibling"?'selected="selected"':"" }}>Sibling</option>

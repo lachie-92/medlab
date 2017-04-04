@@ -493,7 +493,26 @@ form#careplan textarea:disabled {
   border: none;
   box-shadow: none;
   padding: 0;
-  height: auto; }
+  height: auto;
+  appearance: none; }
+  form#patient-history input:disabled::-webkit-input-placeholder, form#patient-history input:disabled::-moz-placeholder, form#patient-history input:disabled::-moz-placeholder, form#patient-history input:disabled::-ms-input-placeholder,
+  form#patient-history select:disabled::-webkit-input-placeholder,
+  form#patient-history select:disabled::-moz-placeholder,
+  form#patient-history select:disabled::-moz-placeholder,
+  form#patient-history select:disabled::-ms-input-placeholder,
+  form#patient-history textarea:disabled::-webkit-input-placeholder,
+  form#patient-history textarea:disabled::-moz-placeholder,
+  form#patient-history textarea:disabled::-moz-placeholder,
+  form#patient-history textarea:disabled::-ms-input-placeholder, form#careplan input:disabled::-webkit-input-placeholder, form#careplan input:disabled::-moz-placeholder, form#careplan input:disabled::-moz-placeholder, form#careplan input:disabled::-ms-input-placeholder,
+  form#careplan select:disabled::-webkit-input-placeholder,
+  form#careplan select:disabled::-moz-placeholder,
+  form#careplan select:disabled::-moz-placeholder,
+  form#careplan select:disabled::-ms-input-placeholder,
+  form#careplan textarea:disabled::-webkit-input-placeholder,
+  form#careplan textarea:disabled::-moz-placeholder,
+  form#careplan textarea:disabled::-moz-placeholder,
+  form#careplan textarea:disabled::-ms-input-placeholder {
+    color: transparent !important; }
 form#patient-history input[type=radio]:disabled, form#careplan input[type=radio]:disabled {
   display: none; }
   form#patient-history input[type=radio]:disabled + label, form#careplan input[type=radio]:disabled + label {

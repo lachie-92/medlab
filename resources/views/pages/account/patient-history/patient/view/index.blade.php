@@ -29,7 +29,7 @@
         <!--
         -- Main Content Column
         -->
-        <div class="col-md-9 col-sm-9 col-xm-12">
+        <div class="col-md-9 col-sm-9 col-xs-12">
 
 			@include('pages.account.patient-history.patient.edit.partial.page1')
 			@include('pages.account.patient-history.patient.edit.partial.page2')
