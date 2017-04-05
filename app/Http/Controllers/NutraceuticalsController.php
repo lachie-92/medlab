@@ -56,7 +56,7 @@ class NutraceuticalsController extends Controller
     public function showProduct(Product $product)
     {
         $product->load(['practitioner_pricing' => function($query) {
-            return $query->where('user_id', $this->user->patient->practitioner->user->id);
+            if ($this->user->patient) return $query->where('user_id', $this->user->patient->practitioner->user->id);
         }]);
         return view('pages.nutraceuticals.product.index', compact('product'));
     }
