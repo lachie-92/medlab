@@ -8,7 +8,7 @@
         <ol class="breadcrumb medlab_breadcrumbs">
             <li><a class="medlab_breadcrumbs_link" href="/">Home</a></li>
             <li><a class="medlab_breadcrumbs_link" href="/nutraceuticals">Nutraceuticals</a></li>
-            <li class="active medlab_breadcrumbs_text">NRGBiotic Promo Page</li>
+            <li class="active medlab_breadcrumbs_text">NRGBiotic Showcase</li>
         </ol>
     </div>
 </div>

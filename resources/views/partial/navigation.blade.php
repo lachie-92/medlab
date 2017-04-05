@@ -125,6 +125,7 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/categories">Categories</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/ingredients">Ingredients</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/praceducationalresource">Practitioner Educational Resource</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/nrgbiotic">NRGBiotic Showcase</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
