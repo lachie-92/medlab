@@ -54,170 +54,149 @@
                         &nbsp;
                     </p>
 
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - Biologics/Cannabinoids
-                    </h4>
+                    <div style="width: 100%; overflow-x: auto;">
+                        <table class="table table-striped table-bordered table-responsive">
+                            <tbody>
+                            <tr>
+                                <th class="bg-primary"><h4>Product</h4></th>
+                                <th class="bg-primary"><h4>Jurisdiction</h4></th>
+                                <th class="bg-primary"><h4>Description</h4></th>
+                                <th class="bg-primary"><h4>Application Number</h4></th>
+                                <th class="bg-primary"><h4>Filling Date</h4></th>
+                                <th class="bg-primary"><h4>Status</h4></th>
+                            </tr>
 
-                    <p>
-                        A new composition for the treatment of phrophylaxis of pain with secondary effects for the
-                        treatment of nausea and bulimia.
-                    </p>
+                            <tr>
+                                <td align="left">NAFLD</td>
+                                <td align="left">Australia</td>
+                                <td align="left">Probiotic compositions and uses thereof for treatment of obesity-related disorders</td>
+                                <td align="left">2015258769</td>
+                                <td align="left">11/5/15</td>
+                                <td align="left">11/5/15	Filed</td>
+                            </tr>
 
-                    <p>
-                        &nbsp;
-                    </p>
+                            <tr>
+                                <td align="left">ImmuneBiotic</td>
+                                <td align="left">Australia</td>
+                                <td align="left">Probiotic uses and uses thereof (VI)</td>
+                                <td align="left">2016901953</td>
+                                <td align="left">24/5/16</td>
+                                <td align="left">Provisional application filed</td>
+                            </tr>
 
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - Biologics/Chronic Kidney Disease
-                    </h4>
+                            <tr>
+                                <td align="left">"NRGBiotic</td>
+                                <td align="left">Australia</td>
+                                <td align="left">Probiotic combinations and uses thereof</td>
+                                <td align="left">Probiotic combinations and uses thereof</td>
+                                <td align="left">21/5/15</td>
+                                <td align="left">Accepted</td>
+                            </tr>
 
-                    <p>
-                        A new composition for the prophylactic treatment of kidney disease and/or improving kidney function.
-                    </p>
+                            <tr>
+                                <td align="left">"NRGBiotic</td>
+                                <td align="left">Australia</td>
+                                <td align="left">Probiotic combinations and uses thereof (innovation)</td>
+                                <td align="left">2015100928</td>
+                                <td align="left">6/8/15</td>
+                                <td align="left">Granted</td>
+                            </tr>
 
-                    <p>
-                        &nbsp;
-                    </p>
+                            <tr>
+                                <td align="left">EnBiotic</td>
+                                <td align="left">Australia (Innovation)</td>
+                                <td align="left">Probiotic and enzyme containing compositions and uses thereof</td>
+                                <td align="left">2015100952</td>
+                                <td align="left">17/7/15</td>
+                                <td align="left">Granted</td>
+                            </tr>
 
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - Biologics/Depression
-                    </h4>
+                            <tr>
+                                <td align="left">CKD</td>
+                                <td align="left">Australia </td>
+                                <td align="left">Probiotic compositions and uses thereof (i)</td>
+                                <td align="left">2016903493</td>
+                                <td align="left">1/9/16</td>
+                                <td align="left">Provisional application field</td>
+                            </tr>
 
-                    <p>
-                        A new composition for the treatment or prevention of mild to moderate depression, anxiety or a
-                        depressive or anxiety disorder.
-                    </p>
 
-                    <p>
-                        &nbsp;
-                    </p>
+                            <tr>
+                                <td align="left">Cannabinoids</td>
+                                <td align="left">Australia </td>
+                                <td align="left">Probiotic compositions and uses thereof (ii)</td>
+                                <td align="left">2016903491</td>
+                                <td align="left">1/9/16</td>
+                                <td align="left">Provisional application field</td>
+                            </tr>
 
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - Biologics/Muscular/Skeletal Ageing
-                    </h4>
+                            <tr>
+                                <td align="left">ORSbiotic</td>
+                                <td align="left">Australia (Innovation)</td>
+                                <td align="left">Probiotic compostitions for rehydration</td>
+                                <td align="left">2016100500</td>
+                                <td align="left">2/5/16</td>
+                                <td align="left">Granted</td>
+                            </tr>
 
-                    <p>
-                        A new composition for the treatment or prevention of muscle degeneration associated with
-                        age-related or injury-related muscle weakness or atrophy.
-                    </p>
+                            <tr>
+                                <td align="left">GastroDaily</td>
+                                <td align="left">Australia (Innovation)</td>
+                                <td align="left">Yeast-containing compositions for gastrointestinal health</td>
+                                <td align="left">2016100499</td>
+                                <td align="left">2/5/16</td>
+                                <td align="left">Granted</td>
+                            </tr>
 
-                    <p>
-                        &nbsp;
-                    </p>
+                            <tr>
+                                <td align="left">W8Biotic</td>
+                                <td align="left">Australia (Innovation)</td>
+                                <td align="left">Probiotic composition for weight management</td>
+                                <td align="left">2016100501</td>
+                                <td align="left">2/5/16</td>
+                                <td align="left">Granted</td>
+                            </tr>
 
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - Biologics/Obesity
-                    </h4>
+                            <tr>
+                                <td align="left">W8Biotic</td>
+                                <td align="left">Australia (Innovation)</td>
+                                <td align="left">Probiotic composition for weight management</td>
+                                <td align="left">2016100501</td>
+                                <td align="left">2/5/16</td>
+                                <td align="left">Granted</td>
+                            </tr>
 
-                    <p>
-                        A new composition for the treatment of metabolic syndrome and obesity.
-                    </p>
+                            <tr>
+                                <td align="left">Nanocelle</td>
+                                <td align="left">Australia</td>
+                                <td align="left">Transmucosal and transdermal delivery systems</td>
+                                <td align="left">PCT/US2016/020468</td>
+                                <td align="left">2/3/16</td>
+                                <td align="left">Filed</td>
+                            </tr>
 
-                    <p>
-                        &nbsp;
-                    </p>
+                            <tr>
+                                <td align="left">Cannabis</td>
+                                <td align="left">Australia</td>
+                                <td align="left">Protection of plant extracts and compounds from degradation</td>
+                                <td align="left">2016901758</td>
+                                <td align="left">11/5/16</td>
+                                <td align="left">Provisional application filed</td>
+                            </tr>
 
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - ImmuneBiotic
-                    </h4>
+                            <tr>
+                                <td align="left">NanocCelle Bacteria</td>
+                                <td align="left">Australia</td>
+                                <td align="left">NanocCelle Bacteria</td>
+                                <td align="left">In draft</td>
+                                <td align="left">11/5/16</td>
+                                <td align="left">In draft</td>
+                            </tr>
 
-                    <p>
-                        A new composition for heightening the innate immune system.
-                    </p>
 
-                    <p>
-                        &nbsp;
-                    </p>
-
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - NRGBiotic
-                    </h4>
-
-                    <p>
-                        A new composition for stimulating mitochondrial function.
-                    </p>
-
-                    <p>
-                        &nbsp;
-                    </p>
-
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - AscorBiotic - In Draft
-                    </h4>
-
-                    <p>A new composition for the delivery and uptake of vitamin C in humans.</p>
-
-                    <p>
-                        &nbsp;
-                    </p>
-
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - Lactose Intolerance - <span style="font-size: 1em;">In Draft</span>
-                    </h4>
-
-                    <p>
-                        A new composition for nutritional and therapeutic compositions and methods.
-                    </p>
-
-                    <p>
-                        &nbsp;
-                    </p>
-
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - NAFLD
-                    </h4>
-
-                    <p>
-                        Probiotic compositions and uses thereof for treatment of obesity-related disorders.
-                    </p>
-
-                    <p>
-                        &nbsp;
-                    </p>
-
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - EnBiotic
-                    </h4>
-
-                    <p>
-                        A probiotic and enzyme containing compositions and uses thereof.
-                    </p>
-
-                    <p>
-                        &nbsp;
-                    </p>
-
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent (US) - Nanocelle
-                    </h4>
-
-                    <p>
-                        Oral and/or nasal transmuscosal delivery systems.
-                    </p>
-
-                    <p>
-                        &nbsp;
-                    </p>
-
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - ORSBiotic
-                    </h4>
-
-                    <p>
-                        Probiotic compositions for rehydration.
-                    </p>
-
-                    <p>
-                        &nbsp;
-                    </p>
-
-                    <h4 style="color: #1E5494; font-family: 'PT Sans Bold',sans-serif;">
-                        Provisional Patent - GastroDaily
-                    </h4>
-
-                    <p>
-                        Yeast-containing compositions for gastrointestinal health.
-                    </p>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
