@@ -26,6 +26,15 @@
 
 
 
+
+                    <p>
+                        <a href ="https://www.wrbmleads.com/leads/form38/index.html"><img alt="NRGBiotic"
+                             src="/img/news/NRGBioticHeader.jpg"
+                             title="NRGBiotic"
+                             width="90%"
+                             class="img-responsive center-block">
+                        </a>
+                    </p>
                     <p>
                         <img alt="NRGBiotic"
                              src="/img/efficacy/novel-adjunct-for-depression/Top.jpg"

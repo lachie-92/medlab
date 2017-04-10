@@ -98,17 +98,36 @@
 
                         <div class="col-md-12 col-sm-12 col-xs-12">
 
-                            <a href="http://www.9news.com.au/national/2017/03/09/17/30/mouth-spray-developed-to-tackle-high-cholesterol/?ocid=9newsfb" target="_blank" class="medlab_news_content_link">
+                            <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
                                 <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                                    New NanoCelle<sup>TM</sup> NanoStat<sup>TM</sup> could help tackle high cholesterol
+                                    NutraIngredient Awards 2017 Finalist
                                 </h2>
                             </a>
-                            <div class="media-middle media-middle">
 
-                                <iframe src="https://player.vimeo.com/video/207709909" width="100%" height="400" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-                            </div>
-                            <p>Featured on Channel Nine News on the 9th of March 2017</p>
+
+
+
+                            <p class="text-justify">We are proud to announce Medlab's NRGBiotic™ is a finalist for the NutraIngredient Awards 2017 - Readers' Food Supplement of the Year! <a href="https://www.wrbmleads.com/leads/form38/index.html" target="_blank" class="medlab_news_content_link">Vote Here</a></br>
+                                NRGBiotic<sup>TM</sup> is valuable addition to many Practitioners 'toolbox' and is equally loved by those that use the product. The current clinical research outcomes have provided a novel adjunct option for those with Depression</br>
+                                Seek advice from your healthcare Practitioner.
+                                Find out more about <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">NRGBiotic: </a>
+
+                            </p>
+
+                            <br>
+                            <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">
+                                <p>
+                                    <img alt="NRGBiotic"
+                                         src="/img/news/Medlab_NRG_NutraFinalist.png"
+                                         title="NRGBiotic"
+                                         width="75%"
+                                         class="img-responsive center-block">
+
+                                </p>
+                            </a>
+
+
 
                         </div>
 
@@ -206,35 +225,19 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
+                        <a href="http://www.9news.com.au/national/2017/03/09/17/30/mouth-spray-developed-to-tackle-high-cholesterol/?ocid=9newsfb" target="_blank" class="medlab_news_content_link">
                             <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                                NutraIngredient Awards 2017 Finalist
+                                New NanoCelle<sup>TM</sup> NanoStat<sup>TM</sup> could help tackle high cholesterol
                             </h2>
-                         </a>
-
-
-
-
-
-                        <p>We are proud to announce Medlab's NRGBiotic™ is a finalist for the NutraIngredient Awards 2017 - Readers' Food Supplement of the Year!</br>
-                            NRGBiotic<sup>TM</sup> is valuable addition to many Practitioners 'toolbox' and is equally loved by those that use the product. The current clinical research outcomes have provided a novel adjunct option for those with Depression.</br>
-                            Reader online voting will open soon, we will keep you updated!</br>
-                            Seek advice from your healthcare Practitioner.
-                            Find out more about NRGBiotic: <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">www.medlab.co/nutraceuticals/products/nrgbiotic-60s</a>
-
-                        </p>
-
-                        <br>
-                        <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">
-                            <p>
-                                <img alt="NRGBiotic"
-                                     src="/img/news/finalista.png"
-                                     title="NRGBiotic"
-                                     width="75%"
-                                     class="img-responsive center-block">
-
-                            </p>
                         </a>
+                        <div class="media-middle media-middle">
+
+                            <iframe src="https://player.vimeo.com/video/207709909" width="100%" height="400" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                        </div>
+                        <p>Featured on Channel Nine News on the 9th of March 2017</p>
+
+
                         <br><br>
 
                         <!--<a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
