@@ -98,7 +98,7 @@
 
                         <div class="col-md-12 col-sm-12 col-xs-12">
 
-                            <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
+                            <a href="/nutraceuticals/nrgbiotic" target="_blank" class="medlab_news_content_link">
                                 <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                                     NutraIngredient Awards 2017 Finalist
                                 </h2>
@@ -116,7 +116,7 @@
                             </p>
 
                             <br>
-                            <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">
+                            <a href="/nutraceuticals/nrgbiotic" target="_blank" class="medlab_news_content_link">
                                 <p>
                                     <img alt="NRGBiotic"
                                          src="/img/news/Medlab_NRG_NutraFinalist.png"
