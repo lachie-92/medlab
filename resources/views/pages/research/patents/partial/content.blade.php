@@ -85,7 +85,7 @@
                             </tr>
 
                             <tr>
-                                <td align="left">"NRGBiotic</td>
+                                <td align="left">NRGBiotic</td>
                                 <td align="left">Australia</td>
                                 <td align="left">Probiotic combinations and uses thereof</td>
                                 <td align="left">Probiotic combinations and uses thereof</td>
@@ -94,7 +94,7 @@
                             </tr>
 
                             <tr>
-                                <td align="left">"NRGBiotic</td>
+                                <td align="left">NRGBiotic</td>
                                 <td align="left">Australia</td>
                                 <td align="left">Probiotic combinations and uses thereof (innovation)</td>
                                 <td align="left">2015100928</td>
