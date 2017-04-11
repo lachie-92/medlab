@@ -109,9 +109,9 @@
 
 
                             <p class="text-justify">We are proud to announce Medlab's NRGBiotic™ is a finalist for the NutraIngredient Awards 2017 - Readers' Food Supplement of the Year! <a href="https://www.wrbmleads.com/leads/form38/index.html" target="_blank" class="medlab_news_content_link">Vote Here</a></br>
-                                NRGBiotic<sup>TM</sup> is valuable addition to many Practitioners 'toolbox' and is equally loved by those that use the product. The current clinical research outcomes have provided a novel adjunct option for those with Depression</br>
+                                NRGBiotic<sup>TM</sup> is a valuable addition to many Practitioners 'toolbox' and is equally loved by those that use the product. The current clinical research outcomes have provided a novel adjunct option for those with Depression</br>
                                 Seek advice from your healthcare Practitioner.
-                                Find out more about <a href="/nutraceuticals/products/nrgbiotic-60s" target="_blank" class="medlab_news_content_link">NRGBiotic: </a>
+                                Find out more about <a href="/nutraceuticals/nrgbiotic" target="_blank" class="medlab_news_content_link">NRGBiotic: </a>
 
                             </p>
 
@@ -121,7 +121,7 @@
                                     <img alt="NRGBiotic"
                                          src="/img/news/Medlab_NRG_NutraFinalist.png"
                                          title="NRGBiotic"
-                                         width="75%"
+                                         width="50%"
                                          class="img-responsive center-block">
 
                                 </p>

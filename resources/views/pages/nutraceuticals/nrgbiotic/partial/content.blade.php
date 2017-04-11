@@ -28,7 +28,7 @@
 
 
                     <p>
-                        <a href ="https://www.wrbmleads.com/leads/form38/index.html"><img alt="NRGBiotic"
+                        <a href ="https://www.wrbmleads.com/leads/form38/index.html" target="_blank"><img alt="NRGBiotic"
                              src="/img/news/NRGBioticHeader.jpg"
                              title="NRGBiotic"
                              width="90%"
