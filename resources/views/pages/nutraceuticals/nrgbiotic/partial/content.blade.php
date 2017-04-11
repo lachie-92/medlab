@@ -44,7 +44,7 @@
 
                     </p>
 
-                    <div class="font-family: 'MuseoSans_500';">
+                    <div>
                         <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• NRGBiotic<sup>TM</sup> is involved in healthy nerve function and </br>the maintenance of healthy mood as demonstrated </br>in our <a href=" https://www.ncbi.nlm.nih.gov/pubmed/28155119" target="_blank" class="medlab_news_content_link">published pilot clinical trial</a></p>
                         <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Supports intracellular energy production</p>
                         <p style="font-family: 'MuseoSans_500'; color:navy; text-align:center;">• Assists in skeletal muscle cell recovery after stress</p>
