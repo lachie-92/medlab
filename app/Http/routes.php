@@ -199,6 +199,11 @@ Route::group(['prefix' => '/account/pricing'], function() {
         'as' => 'account.pricing.save',
         'uses' => 'NutraceuticalsPricingController@store'
     ]);
+
+    Route::post('save', [
+        'as' => 'account.pricing.saveall',
+        'uses' => 'NutraceuticalsPricingController@store'
+    ]);
 });
 
 

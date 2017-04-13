@@ -1,3 +1,17 @@
+@section('custom_script')
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/bootstrap-slider.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.min.css" />
+<script type="text/javascript">
+    $(document).ready(function() {
+        var pricingSlider = $('#practitioner_price').slider({
+            tooltip: 'always',
+            formatter: function(value) {
+                return value + '%';
+            }
+        })
+    })
+</script>
+@endsection
 <!-----------------------------------------------------------------------------------
 --
 -- View Practitioner Pricing Overview
@@ -100,7 +114,32 @@
                                 @endforeach
                             </tbody>
                         </table>
+                        @if ($products->filter(function ($product) { return $product->pivot?false:true; })->count()>0)
+                        <hr />
+                        <form action="{{ route('account.pricing.saveall') }}" method="POST">
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                            <p>Select a percent markup to define patient pricing for all unassigned products</p>
+                            <br /><br />
+                            <input
+                                id="practitioner_price"
+                                name="pricing_markup_percent"
+                                type="text"
+                                data-slider-id="practitioner_priceSlider"
+                                data-slider-min="1"
+                                data-slider-max="20"
+                                data-slider-step="0.5"
+                                data-slider-value="5"
+                                data-slider-ticks="[0, 5, 10, 15, 20]"
+                                data-slider-ticks-snap-bounds="0.25"
+                                data-slider-ticks-labels='["1%", "5%", "10%", "15%", "20%"]'
+                            />
+                            <br /><br />
+                            <button id="address_update_btn" class="btn btn-primary" type="submit">
+                                Save
+                            </button>
 
+                        </form>
+                        @endif
                     @endif
 
                 </div>

@@ -29,10 +29,25 @@ class NutraceuticalsPricingController extends Controller
         parent::__construct();
     }
 
-    public function store(Request $request, $product)
+    public function store(Request $request, $product = null)
     {
-        $this->user->practitioner_pricing()->detach($product);
-        $this->user->practitioner_pricing()->attach($product, ['price_discounted' => $request->get('pricing_discounted')]);
+        $user = $this->user;
+
+        if ($product) {
+            $this->user->practitioner_pricing()->detach($product);
+            $this->user->practitioner_pricing()->attach($product, ['price_discounted' => $request->get('pricing_discounted')]);
+        } elseif ($request->has('pricing_markup_percent')) {
+            Product::with(['practitioner_pricing' => function($query) use ($user) {
+                    return $query->where('user_id', $user->id);
+                }])->get()->each(function ($product) use ($request)
+            {
+                if ($product->practitioner_pricing->count() == 0) {
+                    $this->user->practitioner_pricing()->attach($product, [
+                        'price_discounted' => $product->price_wholesale * (1 + ($request->get('pricing_markup_percent', 0) / 100))
+                    ]);
+                }
+            });
+        }
 
         return redirect()->route('account.pricing.index')->with(['message' => 'Patient pricing successfully saved']);
     }
