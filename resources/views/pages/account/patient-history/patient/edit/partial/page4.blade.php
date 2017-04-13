@@ -195,13 +195,13 @@
                                         <div class="col-md-3 col-sm-3"></div>
                                         <div class="col-md-3 col-sm-3">
                                             <label style="text-align:center">
-                                                BACK
+                                            FRONT
                                             </label>
                                         </div>
                                         <div class="col-md-3 col-sm-3"></div>
                                         <div class="col-md-3 col-sm-3">
                                             <label style="text-align:center">
-                                                FRONT
+                                            BACK
                                             </label>
                                         </div>
                                     </div>
@@ -237,7 +237,7 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <input type="hidden" id="area_diagram_front" name="area_diagram_front" value="" />
-                                                <div id="canvas_diagram_front" class="canvas_diagram" style="width:200px;height:500px;" rel="/img/account/patient-history/body-front.png"></div>
+                                                <div id="canvas_diagram_front" class="canvas_diagram" style="width:245px;height:500px;" rel="/img/account/patient-history/body-front.png"></div>
                                             </div>
                                             @else
                                             <div class="col-md-6 text-center">
@@ -254,7 +254,7 @@
                                             </div>
                                             <div class="col-md-3">
                                                 <input type="hidden" id="area_diagram_back" name="area_diagram_back" value="" />
-                                                <div id="canvas_diagram_back" class="canvas_diagram" style="width:200px;height:500px;" rel="/img/account/patient-history/body-back.png"></div>
+                                                <div id="canvas_diagram_back" class="canvas_diagram" style="width:245px;height:500px;" rel="/img/account/patient-history/body-back.png"></div>
                                             </div>
                                             @else
                                             <div class="col-md-6 text-center">
