@@ -96,7 +96,7 @@
                                     <td>
                                         <a href="{{ route('account.pricing.destroy', [
                                                 'product' => $product->id
-                                            ]) }}" class="btn btn-danger"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</a>
+                                            ]) }}" class="btn btn-info"><i class="fa fa-eraser" aria-hidden="true"></i> Clear</a>
                                     </td>
                                     <td>
                                         <a href="{{ route('account.pricing.edit', [
