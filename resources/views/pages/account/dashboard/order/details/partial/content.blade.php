@@ -21,6 +21,7 @@
                     <a href="/account/orders" class="list-group-item"><strong>My Orders</strong></a>
                     <a href="/account/patient-history" class="list-group-item">My Histories</a>
                     <a href="/account/careplan" class="list-group-item">My Care Plans</a>
+                    <a href="/account/pricing" class="list-group-item">Patient Pricing</a>
                     <a href="/account/logout" class="list-group-item">Logout</a>
                 </div>
 
