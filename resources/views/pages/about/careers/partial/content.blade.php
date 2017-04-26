@@ -21,8 +21,10 @@
                     </p>
                     <hr>
                     <h4>Positions Available</h4>
-
+                    <a href="#CTO">Clinical Trial Coordinator</a></br>
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
+
+
 
                     <hr>
 
@@ -75,6 +77,46 @@
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - EA to CEO">recruit@medlab.co</a></p>
                     <hr>
                     -->
+
+                    <a name="CTO"></a>
+                    <h3>Clinical Trial Coordinator</h3>
+                    <li>Full Time / Permanent</li>
+                    <li>Alexandria, Sydney</li>
+                    <li>Office based role</li></br>
+
+                    <p>Due to rapid expansion, we are seeking a highly motivated Clinical Trial Coordinator to join our extremely successful and passionate team, where we will provide you with ongoing career development within a rewarding and collaborative team culture.</p>
+
+                    <h4>Who is Medlab Clinical?</h4>
+                    <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
+
+                    <h4>The Opportunity</h4>
+                    <p>As Clinical Trial Coordinator, you will be responsible for the recruitment and coordination all our clinical trials.</p>
+
+                    <p>Duties and Responsibilities include:</p>
+                    <li>Coordinating the initiation and implementation of clinical trials within Medlab to include patient recruitment, assessments, follow ups, dispensing study medications and performing anthropometric measurements</li>
+                    <li>Assist with Ethics and TGA applications</li>
+                    <li>Assist with study publications</li>
+                    <li>Liaise with patients involved with clinical trials</li>
+                    <li>Create and maintain all documentation and datasets associated with clinical trials</li>
+                    <li>Data tabulation as required</li>
+                    <li>General in-house nursing duties including phlebotomy</li>
+                    <li>Possibility for public speaking if desired</li></br>
+
+
+                    <h4>About You</h4>
+                    <p>To be successful in this role you will be able to demonstrate the following:</p>
+                    <li>Qualifications as a Registered Nurse</li>
+                    <li>A minimum of 1-2 years’ experience as a Clinical Trial Assistant</li>
+
+                    <h4>Benefits</h4>
+                    <p>You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
+                    <li>On-going training, education and mentoring</li>
+                    <li>Use of on-site gym facilities within our offices in Alexandria</li>
+                    <li>A fun, collaborative team-working environment</li>
+                    <li>Casual dress code</li>
+                    <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change.....</p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Trial Coordinator">recruit@medlab.co</a></p>
+                    <hr>
 
 
 <!--
