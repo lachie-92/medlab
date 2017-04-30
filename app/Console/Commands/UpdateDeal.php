@@ -99,38 +99,28 @@ class UpdateDeal extends Command
 
             //Discounted Price Example
             [
-                'product' => "NanoCelle B12",
-                'name' => "April 2017 Deals",
+                'product' => "Biotic Jnr.",
+                'name' => "May 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '30% off',
+                'description' => '2-Step Natal Bundle',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
-                'discount_percentage' => '30'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2017 23:59:59'),
+                'discount_percentage' => '27.86'
             ],
             [
-                'product' => "NanoCelle Activated B12",
-                'name' => "April 2017 Deals",
+                'product' => "BioticNatal",
+                'name' => "May 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '30% off',
+                'description' => '2-Step Natal Bundle',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
-                'discount_percentage' => '30'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2017 23:59:59'),
+                'discount_percentage' => '24.9'
             ],
-            [
-                'product' => "NanoCelle D3 + K2",
-                'name' => "April 2017 Deals",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '30% off',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
-                'discount_percentage' => '30'
-            ],
+            /*
             [
                 'product' => "NanoCelle D3",
                 'name' => "April 2017 Deals",
@@ -142,6 +132,7 @@ class UpdateDeal extends Command
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
                 'discount_percentage' => '30'
             ],
+            */
 
         ];
 
