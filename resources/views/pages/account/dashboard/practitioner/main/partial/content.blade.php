@@ -107,6 +107,28 @@
                 </div>
 
             <!--
+            -- Practitioner only Deals
+            -->
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                <div class="panel panel-primary medlab_panel">
+                    <div class="panel-heading medlab_panel_title">
+                        May 2017 Deals
+                    </div>
+                    <div class="panel-body">
+                        <a href="/nutraceuticals/products">
+
+                            <img alt="May 2017 Deals"
+                                 src="/img/deals/May2017.jpg"
+                                 title="May 2017 Deals"
+                                 width="700px"
+                                 class="img-responsive center-block">
+
+                        </a>
+                    </div>
+                </div>
+            @endif
+
+            <!--
             -- Order Summary
             -->
             <div class="panel panel-primary medlab_panel">
