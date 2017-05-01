@@ -99,16 +99,8 @@ trait UsefulViewFunctions {
     private function createDeliveryOptionList()
     {
         return [
-            'Upon Delivery' => [
-                'Signature Required' => 'Signature Required'
-            ],
-            'If unavailable to sign for order' => [
-                'Leave just out of the weather' => 'Leave just out of the weather',
-                'Leave near the front door' => 'Leave near the front door',
-            ],
-            'Others' => [
-                'Follow the Delivery Instruction' => 'Follow the Delivery Instruction'
-            ]
+            'Signature Required' => 'Signature Required',
+            'Authority to leave unattended' => 'Authority to leave unattended'
         ];
     }
 }

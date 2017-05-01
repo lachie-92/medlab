@@ -113,10 +113,10 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-12">
                                 <table style="width:100%;">
-                                    <tr><th class="medlab_registration_form_section_subtitle">Delivery</th></tr>
+                                    <tr><th class="medlab_registration_form_section_subtitle">Delivery<span style="color: red;">*</span></th></tr>
                                     <tr>
                                         <td>
-                                            {!! Form::select('delivery_option', $deliveryOptionList, old('delivery_option', $shoppingCart->shippingAddress['delivery_option']), ['class' => 'form-control']) !!}
+                                            {!! Form::select('delivery_instruction', $deliveryOptionList, old('delivery_instruction', $shoppingCart->shippingAddress['delivery_instruction']), ['class' => 'form-control']) !!}
                                         </td>
                                     </tr>
                                 </table>
@@ -126,12 +126,6 @@
                                     Signature is required upon delivery. If you will not be present, please leave
                                     authorisation to have the package left at premises unattended.
                                 </div>
-                            </div>
-                            <div class="col-md-12 col-sm-12">
-                                <table style="width:100%;">
-                                    <tr><th class="medlab_registration_form_section_subtitle">Delivery Instruction (Max. 200 Characters)</th></tr>
-                                    <tr><td><textarea class="form-control" name="delivery_instruction" rows="3" placeholder="Please enter any additional instruction for the delivery here" maxlength="200">{{ old('delivery_instruction', $shoppingCart->shippingAddress['delivery_instruction']) }}</textarea></td></tr>
-                                </table>
                             </div>
                         </div>
                     </div>

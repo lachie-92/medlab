@@ -121,7 +121,6 @@ class ShoppingCartController extends Controller
             'shipping_country',
             'shipping_postcode',
             'shipping_phone',
-            'delivery_option',
             'delivery_instruction'
         ]);
 
