@@ -301,10 +301,6 @@ class MedlabMailer
                         'content' => $order->shipping_address_last_name
                     ),
                     array(
-                        'name' => 'SHIP_BNAME',
-                        'content' => $order->shipping_address_business_name
-                    ),
-                    array(
                         'name' => 'SHIP_STREET',
                         'content' => $order->shipping_address_street
                     ),
@@ -343,10 +339,6 @@ class MedlabMailer
                     array(
                         'name' => 'BILL_LNAME',
                         'content' => $order->billing_address_last_name
-                    ),
-                    array(
-                        'name' => 'BILL_BNAME',
-                        'content' => $order->billing_address_business_name
                     ),
                     array(
                         'name' => 'BILL_STREET',

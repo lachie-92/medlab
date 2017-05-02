@@ -50,13 +50,13 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $shippingAddress['title'] = '';
         $shippingAddress['first_name'] = '';
         $shippingAddress['last_name'] = '';
-        $shippingAddress['business_name'] = '';
         $shippingAddress['street'] = '';
         $shippingAddress['suburb'] = '';
         $shippingAddress['postcode'] = '';
         $shippingAddress['state'] = '';
         $shippingAddress['country'] = '';
         $shippingAddress['phone'] = '';
+        $shippingAddress['delivery_option'] = 'Signature Required';
         $shippingAddress['delivery_instruction'] = '';
 
         $accountAddress = $user->customer->customer_addresses->where('type', 'Account')->first();
@@ -93,7 +93,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $billingAddress['title'] = '';
         $billingAddress['first_name'] = '';
         $billingAddress['last_name'] = '';
-        $billingAddress['business_name'] = '';
         $billingAddress['street'] = '';
         $billingAddress['suburb'] = '';
         $billingAddress['postcode'] = '';
@@ -144,7 +143,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $order->shipping_address_title = $shippingAddress['title'];
         $order->shipping_address_first_name = $shippingAddress['first_name'];
         $order->shipping_address_last_name = $shippingAddress['last_name'];
-        $order->shipping_address_business_name = $shippingAddress['business_name'];
         $order->shipping_address_street = $shippingAddress['street'];
         $order->shipping_address_suburb = $shippingAddress['suburb'];
         $order->shipping_address_postcode = $shippingAddress['postcode'];
@@ -156,7 +154,6 @@ class ShoppingCartRepository implements ShoppingCartRepositoryInterface
         $order->billing_address_title = $billingAddress['title'];
         $order->billing_address_first_name = $billingAddress['first_name'];
         $order->billing_address_last_name = $billingAddress['last_name'];
-        $order->billing_address_business_name = $billingAddress['business_name'];
         $order->billing_address_street = $billingAddress['street'];
         $order->billing_address_suburb = $billingAddress['suburb'];
         $order->billing_address_postcode = $billingAddress['postcode'];

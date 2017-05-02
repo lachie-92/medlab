@@ -66,14 +66,6 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
                                 <table style="width:100%;">
-                                    <tr><th class="medlab_registration_form_section_subtitle">Business Name (Optional)</th></tr>
-                                    <tr><td><input type="text" class="form-control" name="shipping_business_name" value="{{ old('shipping_business_name', $shoppingCart->shippingAddress['business_name']) }}"></td></tr>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <table style="width:100%;">
                                     <tr><th class="medlab_registration_form_section_subtitle">Street Address<span style="color: red;">*</span></th></tr>
                                     <tr><td><input type="text" class="form-control" name="shipping_street_address_one" placeholder="Street" value="{{ old('shipping_street_address_one', $shoppingCart->shippingAddress['street']) }}"></td></tr>
                                     <tr><td style="padding-top: 10px;"><input type="text" class="form-control" name="shipping_street_address_two" placeholder="Suburb" value="{{ old('shipping_street_address_two', $shoppingCart->shippingAddress['suburb']) }}"></td></tr>
@@ -121,7 +113,7 @@
                         <div class="row">
                             <div class="col-md-6 col-sm-12">
                                 <table style="width:100%;">
-                                    <tr><th class="medlab_registration_form_section_subtitle">Delivery Instruction<span style="color: red;">*</span></th></tr>
+                                    <tr><th class="medlab_registration_form_section_subtitle">Delivery<span style="color: red;">*</span></th></tr>
                                     <tr>
                                         <td>
                                             {!! Form::select('delivery_instruction', $deliveryOptionList, old('delivery_instruction', $shoppingCart->shippingAddress['delivery_instruction']), ['class' => 'form-control']) !!}
@@ -167,14 +159,6 @@
                                 <table style="width:100%;">
                                     <tr><th class="medlab_registration_form_section_subtitle">Last Name<span style="color: red;">*</span></th></tr>
                                     <tr><td><input type="text" class="form-control" name="billing_last_name" placeholder="Last Name" value="{{ old('billing_last_name', $shoppingCart->billingAddress['last_name']) }}"></td></tr>
-                                </table>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-6">
-                                <table style="width:100%;">
-                                    <tr><th class="medlab_registration_form_section_subtitle">Business Name (Optional)</th></tr>
-                                    <tr><td><input type="text" class="form-control" name="billing_business_name" value="{{ old('billing_business_name', $shoppingCart->billingAddress['business_name']) }}"></td></tr>
                                 </table>
                             </div>
                         </div>
