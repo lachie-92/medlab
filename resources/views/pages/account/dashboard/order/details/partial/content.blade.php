@@ -64,6 +64,9 @@
                                     {{ $order->shipping_address_title }}
                                     {{ $order->shipping_address_first_name }}
                                     {{ $order->shipping_address_last_name }} <br>
+                                    @if(!empty($order->shipping_address_business_name))
+                                        {{ $order->shipping_address_business_name }} <br>
+                                    @endif
                                     {{ $order->shipping_address_street }} <br>
                                     {{ $order->shipping_address_suburb }} {{ $order->shipping_address_state }} {{ $order->shipping_address_postcode }} <br>
                                     {{ $order->shipping_address_country }} <br>
@@ -80,6 +83,9 @@
                                     {{ $order->billing_address_title }}
                                     {{ $order->billing_address_first_name }}
                                     {{ $order->billing_address_last_name }} <br>
+                                    @if(!empty($order->billing_address_business_name))
+                                        {{ $order->billing_address_business_name }} <br>
+                                    @endif
                                     {{ $order->billing_address_street }} <br>
                                     {{ $order->billing_address_suburb }} {{ $order->billing_address_state }} {{ $order->billing_address_postcode }} <br>
                                     {{ $order->billing_address_country }} <br>
