@@ -23,6 +23,11 @@
 -->
 <?php
 
+    $delivery_instruction = "";
+    if(array_key_exists("delivery_instruction", $shoppingCart->shippingAddress)) {
+        $delivery_instruction = $shoppingCart->shippingAddress['delivery_instruction'];
+    }
+
     $shipping_address_business_name = "";
     if(array_key_exists("business_name", $shoppingCart->shippingAddress)) {
         $shipping_business_name = $shoppingCart->shippingAddress["business_name"];
@@ -32,6 +37,8 @@
     if(array_key_exists("business_name", $shoppingCart->billingAddress)) {
         $billing_address_business_name = $shoppingCart->billingAddress["business_name"];
     }
+
+
 
 ?>
 
@@ -141,7 +148,7 @@
                                     <tr><th class="medlab_registration_form_section_subtitle">Delivery Instruction<span style="color: red;">*</span></th></tr>
                                     <tr>
                                         <td>
-                                            {!! Form::select('delivery_instruction', $deliveryOptionList, old('delivery_instruction', $shoppingCart->shippingAddress['delivery_instruction']), ['class' => 'form-control']) !!}
+                                            {!! Form::select('delivery_instruction', $deliveryOptionList, old('delivery_instruction', $delivery_instruction), ['class' => 'form-control']) !!}
                                         </td>
                                     </tr>
                                 </table>
