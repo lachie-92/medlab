@@ -19,6 +19,23 @@
 @endif
 
 <!--
+-- New Session Introduced, prevent error by declaring
+-->
+<?php
+
+    $shipping_address_business_name = "";
+    if(array_key_exists("business_name", $shoppingCart->shippingAddress)) {
+        $shipping_business_name = $shoppingCart->shippingAddress["business_name"];
+    }
+
+    $billing_address_business_name = "";
+    if(array_key_exists("business_name", $shoppingCart->billingAddress)) {
+        $billing_address_business_name = $shoppingCart->billingAddress["business_name"];
+    }
+
+?>
+
+<!--
 -- Process Order Box
 -->
 <form class="form-horizontal" role="form" method="POST" action="/shoppingcart/address">
@@ -67,7 +84,7 @@
                             <div class="col-md-6 col-sm-6">
                                 <table style="width:100%;">
                                     <tr><th class="medlab_registration_form_section_subtitle">Business Name (Optional)</th></tr>
-                                    <tr><td><input type="text" class="form-control" name="shipping_business_name" value="{{ old('shipping_business_name', $shoppingCart->shippingAddress['business_name']) }}"></td></tr>
+                                    <tr><td><input type="text" class="form-control" name="shipping_business_name" value="{{ old('shipping_business_name', $shipping_address_business_name) }}"></td></tr>
                                 </table>
                             </div>
                         </div>
@@ -174,7 +191,7 @@
                             <div class="col-md-6 col-sm-6">
                                 <table style="width:100%;">
                                     <tr><th class="medlab_registration_form_section_subtitle">Business Name (Optional)</th></tr>
-                                    <tr><td><input type="text" class="form-control" name="billing_business_name" value="{{ old('billing_business_name', $shoppingCart->billingAddress['business_name']) }}"></td></tr>
+                                    <tr><td><input type="text" class="form-control" name="billing_business_name" value="{{ old('billing_business_name', $billing_address_business_name) }}"></td></tr>
                                 </table>
                             </div>
                         </div>
