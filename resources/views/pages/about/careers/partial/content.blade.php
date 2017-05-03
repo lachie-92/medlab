@@ -21,7 +21,7 @@
                     </p>
                     <hr>
                     <h4>Positions Available</h4>
-                    <a href="#CTO">Clinical Trial Coordinator</a></br>
+                    <!--<a href="#CTO">Clinical Trial Coordinator</a></br>-->
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
 
 
@@ -76,7 +76,7 @@
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change.....</p>
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - EA to CEO">recruit@medlab.co</a></p>
                     <hr>
-                    -->
+
 
                     <a name="CTO"></a>
                     <h3>Clinical Trial Coordinator</h3>
@@ -119,7 +119,6 @@
                     <hr>
 
 
-<!--
 
                     <a name="DigitalMarketingCoordinator"></a>
                     <h3>Digital Marketing Coordinator</h3>
