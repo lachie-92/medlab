@@ -142,6 +142,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
                 //Insert into
                 $registration->qualification_file_path = "website_registration/practitioner/" . $registration->first_name . "_" . $registration->last_name . "_" . $registration->id . "/qualification/" . $originalName;
                 $registration->qualification_file_name = $originalName;
+                $registration->qualification_file_mime = $mime;
 
                 //Upload to S3
                 $isSuccessful = $cloud->put($registration->qualification_file_path, file_get_contents($uploadedFile));
