@@ -144,7 +144,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
                 $registration->qualification_file_name = $originalName;
 
                 //Upload to S3
-                $isSuccessful = $cloud->put($registration->qualification_file_path, file_get_contents($uploadedFile), ['ContentType' => $mime]);
+                $isSuccessful = $cloud->put($registration->qualification_file_path, file_get_contents($uploadedFile));
 
                 //Save the model to the database if the upload is successful
                 if ($isSuccessful)
