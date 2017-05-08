@@ -22,7 +22,9 @@
                     <hr>
                     <h4>Positions Available</h4>
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
-                    <a href="#PractitionerConsultantFieldRep">Practitioner Consultant Field Rep - South Perth, WA</a></br>
+                    <a href="#PractitionerConsultantFieldRepWA">Practitioner Consultant Field Rep - South Perth, WA</a></br>
+                    <a href="#PractitionerConsultantFieldRepQLD">Practitioner Consultant Field Rep - Brisbane, QLD</a></br>
+
 
 
 
@@ -254,11 +256,56 @@
                     <hr>
 
 
-                    <a name="PractitionerConsultantFieldRep"></a>
+                    <a name="PractitionerConsultantFieldRepWA"></a>
                     <h3>Practitioner Consultant Field – Field Sales Representative WA</h3>
                     <li>Permanent / Part Time (3 days per week)</li>
                     <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
                     <li>South Perth, WA</li></br>
+
+                    <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
+
+                    <h4>Who are Medlab Clinical?</h4>
+                    <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
+
+                    <h4>The Opportunity</h4>
+                    <p>As a passionate Practitioner Consultant, you will be the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
+                    <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
+                    <p>Duties and Responsibilities include:</p>
+                    <li>Continually identify and develop new business opportunities.</li>
+                    <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either face to face or over the phone.</li>
+                    <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
+                    <li>Create and implement client incentive and retention strategies.</li>
+                    <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
+                    <li>Provide technical support to practitioners over the phone.</li>
+                    <li>Plan and deliver product training to a range of healthcare modalities.</li>
+                    <li>Attend industry and association conferences and trade shows when required.</li></br>
+
+                    <h4>About You</h4>
+                    <p>To be successful in this role you will be able to demonstrate the following:</p>
+                    <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
+                    <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
+                    <li>Proven track record in a sales environment along with commercial acumen.</li>
+                    <li>Self motivated and have a solutions based approach to tasks.</li>
+                    <li>Excellent understanding of the sales process and use of CRM system.</li>
+                    <li>Have a genuine passion for health and wellness with desire to succeed.</li>
+                    Note: This position would also suit a person who is from a healthcare practitioner background looking for a change in career direction.</br>
+
+                    <h4>Benefits</h4>
+                    <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab we are committed to the development of staff and regularly promote from within.</p>
+                    <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
+                    <li>Generous base salary plus commission structure and allowances.</li>
+                    <li>A fun, collaborative team-working environment.</li>
+                    <li>On-going training, education and mentoring.</li>
+                    <li>Career growth for the right person.</li>
+                    <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant - Field Rep, WA">recruit@medlab.co</a></p>
+                    <hr>
+
+                    <a name="PractitionerConsultantFieldRepQLD"></a>
+                    <h3>Practitioner Consultant Field – Field Sales Representative QLD</h3>
+                    <li>Permanent / Part Time (3 days per week)</li>
+                    <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
+                    <li>Brisbane, QLD</li></br>
 
                     <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
 
