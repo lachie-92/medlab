@@ -49,6 +49,7 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'been_refused_credit' => 'boolean|required_if:credit_application,1',
             'patient_billing' => 'boolean|required',
             'is_owner' => 'boolean|required_if:credit_application,1',
+            'qualification_file' => 'required|mimes:jpeg,png,pdf',
         ];
     }
 
