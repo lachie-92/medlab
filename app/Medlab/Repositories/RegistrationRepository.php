@@ -128,7 +128,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
                 $cloud = App::make('Illuminate\Contracts\Filesystem\Cloud');
 
                 //Remove existing folder
-                $cloud->deleteDirectory("website_registraion/practitioner/" . $registration->first_name . "_" . $registration->last_name . "_" . $registration->id . "/qualification");
+                $cloud->deleteDirectory("website_registration/practitioner/" . $registration->first_name . "_" . $registration->last_name . "_" . $registration->id . "/qualification");
 
                 $uploadedFile = $request->file('qualification_file');
 
