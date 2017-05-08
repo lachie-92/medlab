@@ -140,7 +140,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
                 $extension      =   $uploadedFile->getClientOriginalExtension();
 
                 //Insert into
-                $registration->qualification_file_path = "website_registraion/practitioner/" . $registration->first_name . "_" . $registration->last_name . "_" . $registration->id . "/qualification/" . $originalName;
+                $registration->qualification_file_path = "website_registration/practitioner/" . $registration->first_name . "_" . $registration->last_name . "_" . $registration->id . "/qualification/" . $originalName;
                 $registration->qualification_file_name = $originalName;
 
                 //Upload to S3
