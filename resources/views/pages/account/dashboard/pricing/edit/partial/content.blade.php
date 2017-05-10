@@ -102,13 +102,13 @@
                                             type="text"
                                             data-slider-id="practitioner_priceSlider"
                                             data-slider-min="{{ $product->price_wholesale }}"
-                                            data-slider-max="{{ $product->price_retail * 1.2 }}"
+                                            data-slider-max="{{ $product->price_wholesale * 2 }}"
                                             data-slider-step="0.01"
                                             data-slider-value="{{ $product->practitioner_pricing->count()>0?$product->practitioner_pricing->first()->pivot->price_discounted:$product->price_retail }}"
-                                            data-slider-ticks="[{{ number_format($product->price_wholesale, 2) }}, {{ number_format($product->price_retail, 2) }}, {{ number_format($product->price_retail * 1.2, 2) }}]"
+                                            data-slider-ticks="[{{ number_format($product->price_wholesale, 2) }}, {{ number_format($product->price_retail, 2) }}, {{ number_format($product->price_wholesale * 2.0, 2) }}]"
                                             data-slider-ticks-snap-bounds="1.0"
                                             data-slider-ticks-labels='["Wholesale", "Retail", "Max"]'
-                                            data-slider-ticks-positions="[0, 75, 100]"
+                                            data-slider-ticks-positions="[0, 50, 100]"
                                         />
                                     </div>
                                 </div>
