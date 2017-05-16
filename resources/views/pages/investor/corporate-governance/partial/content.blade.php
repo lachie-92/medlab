@@ -33,7 +33,7 @@
                     <p>
                         <strong>Corporate Governance Statement - </strong>
                         <a class="medlab_panel_content_link"
-                           href="https://s3-ap-southeast-2.amazonaws.com/medlabprospectus/Corporate+Governance+Statement+(Final).pdf">
+                           href="https://s3-ap-southeast-2.amazonaws.com/medlabprospectus/Corporate+Governance+Statement.pdf">
                             DOWNLOAD
                         </a>
                         <br>
