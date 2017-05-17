@@ -175,7 +175,7 @@
                         N=40
                     </p>
                     <br>
-                    <img class="img-responsive" src="/img/research/nanocelle5.png" style="width:600px" title="B12 Comparative blood work"/>
+                    <img class="img-responsive" src="/img/research/nanocelle5.jpg" style="width:600px" title="B12 Comparative blood work"/>
                     <img class="img-responsive" src="/img/research/nanocelle6.png" style="width:600px" title="B12 Comparative blood work"/>
                     <br>
                     <p>
