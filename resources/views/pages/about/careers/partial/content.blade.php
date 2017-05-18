@@ -21,24 +21,25 @@
                     </p>
                     <hr>
                     <h4>Positions Available</h4>
+                    <!--
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
                     <a href="#PractitionerConsultantFieldRepWA">Practitioner Consultant Field Rep - South Perth, WA</a></br>
                     <a href="#PractitionerConsultantFieldRepQLD">Practitioner Consultant Field Rep - Brisbane, QLD</a></br>
-
+                    -->
 
 
 
 
                     <hr>
 
-                    <!--
+
 
 
                     No positions currently available, for all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
 
 
 
-
+                    <!--
 
                     <a name="EATOCEO"></a>
                     <h3>EA to CEO</h3>
@@ -210,7 +211,7 @@
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Client Relationship Manager">recruit@medlab.co</a></p>
                     <hr>
--->
+
 
                     <a name="ClientRelationshipConsultant"></a>
                     <h3>Client Relationship Consultant</h3>
@@ -345,10 +346,7 @@
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant - Field Rep, WA">recruit@medlab.co</a></p>
                     <hr>
-
-
-
-
+                    -->
 
 
 
