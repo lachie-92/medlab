@@ -213,7 +213,7 @@
                                 <th>Particle</th>
                                 <th>Particle Size (nm)</th>
                                 <th>Concentration</th>
-                                <th>Concentration</th>
+                                <th>Dosage</th>
                             </tr>
                         </thead>
                         <tbody>
