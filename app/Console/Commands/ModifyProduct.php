@@ -3282,18 +3282,12 @@ class ModifyProduct extends Command
                     '
                 <h4 class="medlab_product_content_title">Manuka-C&trade; 105g</small></h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
-                <p>
                     Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
                     ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
                 </p>
                 ',
                 'patent' =>
                     '
-                <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>
@@ -3615,8 +3609,8 @@ class ModifyProduct extends Command
                 ',
                 'price_retail' => 28.9,
                 'price_wholesale' => 19.25,
-                'image_path' => '/img/products/manuka-c-105g/manuka-c.png',
-                'thumb_image_path' => '/img/products/manuka-c-105g/mauka-c_thumb.png',
+                'image_path' => '/img/products/manuka-c-105g/manuka-c-105g.png',
+                'thumb_image_path' => '/img/products/manuka-c-105g/manuka-c-105g_thumb.png',
                 'slug' => 'manuka-c-105g'
             ],
             [
@@ -3627,18 +3621,12 @@ class ModifyProduct extends Command
                     '
                 <h4 class="medlab_product_content_title">Manuka-C&trade; 210g</small></h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
-                <p>
                     Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
                     ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
                 </p>
                 ',
                 'patent' =>
                     '
-                <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>
@@ -3958,8 +3946,8 @@ class ModifyProduct extends Command
                 ',
                 'price_retail' => 45.36,
                 'price_wholesale' => 29.95,
-                'image_path' => '/img/products/manuka-c-210g/manuka-c.png',
-                'thumb_image_path' => '/img/products/manuka-c-210g/manuka-c_thumb.png',
+                'image_path' => '/img/products/manuka-c-210g/manuka-c-210g.png',
+                'thumb_image_path' => '/img/products/manuka-c-210g/manuka-c-210g_thumb.png',
                 'slug' => 'manuka-c-210g'
             ],
             [
@@ -6717,7 +6705,7 @@ class ModifyProduct extends Command
                     '
                 <h4 class="medlab_product_content_title">W8Biotic&trade; Lemon & Lime</h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
                 <p>
                     W8Biotic&trade; is scientifically formulated to support lean body mass, weight management and
@@ -6728,7 +6716,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
