@@ -2724,7 +2724,7 @@ class ModifyProduct extends Command
                     '
                 <h4 class="medlab_product_content_title">Enbiotic&trade; 60&#39;s</h4>
                 <p>
-                    <strong>PATENT PROTECTED</strong>
+                    <strong>Australian Innovation Patent No. 2015100952</strong>
                 </p>
                 <p>
                     EnBiotic&trade; is a high quality, high strength digestive enzyme and probiotic combination developed to
@@ -2734,7 +2734,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PROTECTED</strong>
+                    <strong>Australian Innovation Patent No. 2015100952</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -3016,7 +3016,7 @@ class ModifyProduct extends Command
                     '
                 <h4 class="medlab_product_content_title">GastroDaily&trade;</h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100499</strong>
                 </p>
                 <p>
                     GastroDaily&trade; is scientifically formulated to assist in supporting healthy gastrointestinal
@@ -3027,7 +3027,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100499</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -5810,7 +5810,7 @@ class ModifyProduct extends Command
                     '
                 <h4 class="medlab_product_content_title">ORSBiotic&trade;</h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100500</strong>
                 </p>
                 <p>
                     ORSBiotic&trade; is an Oral Rehydration Solution to replace fluids lost due to vomiting,
@@ -5822,7 +5822,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100500</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -6439,7 +6439,7 @@ class ModifyProduct extends Command
                     '
                 <h4 class="medlab_product_content_title">W8Biotic&trade; Strawberries & Cream</h4>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
                 <p>
                     W8Biotic&trade; is scientifically formulated to support lean body mass, weight management and
@@ -6450,7 +6450,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
