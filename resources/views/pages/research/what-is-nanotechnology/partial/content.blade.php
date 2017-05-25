@@ -172,7 +172,7 @@
                         HREC Number: 003/032014
                     </p>
                     <p style="text-align: justify;">
-                        N=40
+                        N=50
                     </p>
                     <br>
                     <img class="img-responsive" src="/img/research/nanocelle5.jpg" style="width:600px" title="B12 Comparative blood work"/>
