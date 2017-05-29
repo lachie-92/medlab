@@ -92,12 +92,11 @@ class UpdateDeal extends Command
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
             ]
-
         ];
 
         $discount_deals = [
 
-            //Discounted Price Example
+            //Till End of May
             [
                 'product' => "Biotic Jnr.",
                 'name' => "May 2017 Deals",
@@ -120,19 +119,75 @@ class UpdateDeal extends Command
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2017 23:59:59'),
                 'discount_percentage' => '24.9'
             ],
-            /*
+
+            //Till End of June
             [
-                'product' => "NanoCelle D3",
-                'name' => "April 2017 Deals",
+                'product' => "Immune-5 Raspberry",
+                'name' => "June 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '30% off',
+                'description' => 'Immunity Boost Bundle',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
-                'discount_percentage' => '30'
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
+                'discount_percentage' => '24.59'
             ],
-            */
+            [
+                'product' => "Immune-5 Vanilla",
+                'name' => "June 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Immunity Boost Bundle',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
+                'discount_percentage' => '24.59'
+            ],
+            [
+                'product' => "Manuka-C 105g",
+                'name' => "June 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Immunity Boost Bundle',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
+                'discount_percentage' => '37.66'
+            ],
+
+            [
+                'product' => "12Mg Optima Relax 150g Citrus Tea",
+                'name' => "June 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '25% off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
+                'discount_percentage' => '25'
+            ],
+            [
+                'product' => "12Mg Optima Relax 150g Lemon Lime",
+                'name' => "June 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '25% off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
+                'discount_percentage' => '25'
+            ],
+            [
+                'product' => "12Mg Optima Relax 300g Lemon Lime",
+                'name' => "June 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '25% off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
+                'discount_percentage' => '25'
+            ],
 
         ];
 

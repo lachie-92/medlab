@@ -109,7 +109,11 @@
             <!--
             -- Practitioner only Deals
             -->
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+            <?php
+                $May = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-05-01 00:00:00');
+                $June = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-06-01 00:00:00')
+            ?>
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($May->copy()->startOfMonth(), $May->copy()->endOfMonth())) )
                 <div class="panel panel-primary medlab_panel">
                     <div class="panel-heading medlab_panel_title">
                         May 2017 Deals
@@ -120,6 +124,24 @@
                             <img alt="May 2017 Deals"
                                  src="/img/deals/May2017.jpg"
                                  title="May 2017 Deals"
+                                 width="700px"
+                                 class="img-responsive center-block">
+
+                        </a>
+                    </div>
+                </div>
+            @endif
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($June->copy()->startOfMonth(), $June->copy()->endOfMonth())) )
+                <div class="panel panel-primary medlab_panel">
+                    <div class="panel-heading medlab_panel_title">
+                        June 2017 Deals
+                    </div>
+                    <div class="panel-body">
+                        <a href="/nutraceuticals/products">
+
+                            <img alt="June 2017 Deals"
+                                 src="/img/deals/June2017.jpg"
+                                 title="June 2017 Deals"
                                  width="700px"
                                  class="img-responsive center-block">
 
