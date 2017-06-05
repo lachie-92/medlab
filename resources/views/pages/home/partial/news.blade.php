@@ -32,6 +32,39 @@
 
 
 
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        Medlab: Chronic Disease Research and Innovation
+                    </div>
+                    <div class="medlab_news_item_body">
+
+
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+
+                            
+
+
+
+
+
+                            <iframe src="https://player.vimeo.com/video/220246612" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
