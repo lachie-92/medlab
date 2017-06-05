@@ -56,7 +56,7 @@ class ModifyProduct extends Command
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime',
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 10px Sachets Lemon Lime</h4>
+                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime</h4>
                     <p>
                         Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
