@@ -180,18 +180,17 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <img src="/img/products/NanoCelleRange_Medlab.jpg" alt="Mg Optima™ Relax Featured product" height="400" width="auto" style="float: right;"/>
+                        <img src="/img/products/12mg_optima/Mg Optima Relax Sachets_Medlab.png" alt="Mg Optima™ Relax Featured product" height="400" width="auto" style="float: right;"/>
                         <h2 class="medlab_news_content_title">
-                                NanoCelle<sup>TM</sup> Range
+                                <sup>12</sup>Mg Optima Relax
 
                         </h2>
                         <p class="medlab_news_content_paragraph" style="text-align: justify">
-                            <p>Want more information on Medlab’s sub-micron delivery platform NanoCelle<sup>TM</sup>? <a href="/research/medlab-delivery-platform">Cick here for more information.</a></p>
-                            Our <a href="/nutraceuticals/products?q=N">NanoCelle™ nutraceutical range</a> currently includes four vitamin oral-buccal sprays, that offer superior absorption to that of a capsule, tablet or emulsion.
+                            <p>Please seek advice from your healthcare practitioner to see if this product is suitable for you.</p>
+                            <p>Always read the label, use only as directed.</p>
+                            <a href="/nutraceuticals/products/12mg-optima-relax-10pk-sachets-lemon-lime">Find out more here</a>
                         </p>
-                        <p class="medlab_news_content_paragraph">
-                            <a href="/research/medlab-delivery-platform" class="medlab_news_content_link">More Information</a>
-                        </p>
+
 
 
 
@@ -224,7 +223,7 @@
 
 
 
-            <div class="medlab_news_item">
+            <!--<div class="medlab_news_item">
             <div class="medlab_news_item_content_wrapper">
                 <div class="medlab_news_item_title">
                     FEATURED CONFERENCE
@@ -246,7 +245,7 @@
 
                 </div>
             </div>
-        </div>
+        </div>-->
 
 
 
@@ -504,7 +503,7 @@
             </div>
 
 
-            <div class="medlab_news_sidebar_item">
+            <!--<div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_sidebar_item_title">
                         UPCOMING CONFERENCES
@@ -528,7 +527,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
         </div>
     </div>
