@@ -24,12 +24,12 @@ class UploadProduct extends Command
         Model::unguard();
 
         Product::create([
-            'product_name_index' => '12Mg Optima Relax 150g Citrus Tea',
+            'product_name_index' => '12Mg Optima Relax 10pk Sachets Lemon Lime',
             'austl_number' => '262421',
-            'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea',
+            'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime',
             'short_description' =>
                 '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea</h4>
+                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 10px Sachets Lemon Lime</h4>
                     <p>
                         Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
@@ -65,19 +65,18 @@ class UploadProduct extends Command
 
                     <p>
                         <ul>
-                            <li>Help reduce effects of mild anxiety and nervous tension. [Warning S required]</li>
-                            <li>For the symptomatic relief of stress disorders. [Warning S required]</li>
-                            <li>May assist in the management of stress disorders. [Warning S required]</li>
-                            <li>Beneficial during times of stress. [Warning S required]</li>
-                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. [Warning S required]</li>
+                            <li>Help reduce effects of mild anxiety and nervous tension.</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. For the symptomatic relief of stress disorders. </li>
+                            <li>May assist in the management of stress disorders. </li>
+                            <li>Beneficial during times of stress. </li>
+                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. </li>
                             <li>Non-vitamin active ingredients may improve stress adaptation.</li>
-                            <li>Herbal blend which helps relieve stress of study or work. [Warning S required]</li>
+                            <li>Herbal blend which helps relieve stress of study or work.</li>
                             <li>May help reduce the frequency of migraines.</li>
-                            <li>Helps relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
-                            <li>Relief of muscular aches and pains. [Warning S required]</li>
-                            <li>May assist in the management of anxiety. [Warning S required]</li>
-                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. [Warning S required]</li>
-                            <li>For the symptomatic relief of anxiety. [Warning S required]</li>
+                            <li>Helps relieve nervous tension, stress and mild anxiety. </li>
+                            <li>For the symptomatic relief of anxiety. </li>
+                            <li>May assist in the management of anxiety. </li>
+                            <li>Relief of muscular aches and pains. </li>
                         </ul>
                     </p>
 
@@ -125,7 +124,10 @@ class UploadProduct extends Command
                     </p>
 
                     <p>
-                        Vitamins can only be of assistance if the dietary vitamin intake is inadequate. OR Vitamin supplements should not replace a balanced diet. If symptoms persist consult your healthcare practitioner (or words to that effect).
+                        <ul>
+                            <li>Vitamin supplements should not replace a balanced diet.</li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
+                        </ul>
                     </p>
                 ',
             'references' =>
@@ -221,7 +223,7 @@ class UploadProduct extends Command
                             <tr>
                                 <td width="273" valign="top">
                                     <p>Magnesium as amino acid chelate TRAACS®</p>
-                                    <p>(bislgycinate chelate)</p>
+                                    <p>(bisglycinate chelate)</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>150mg</p>
@@ -252,8 +254,8 @@ class UploadProduct extends Command
                                 </td>
                             </tr>
                             <tr>
-                                <td width="273" valign="top">
-                                    <p>L-theanine</p>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. L-theanine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>NLT 100mg</p>
@@ -294,6 +296,7 @@ class UploadProduct extends Command
                                     <p>Citric acid</p>
                                     <p>Stevia</p>
                                     <p>Silica</p>
+                                    <strong>Note: Botanical extracts present in this product may result in variations in colour and taste from batch to batch.</strong>
                                 </td>
                             </tr>
                         </tbody>
@@ -301,13 +304,41 @@ class UploadProduct extends Command
                     ',
             'cmi' =>
                 '
-                    <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea/cmi/english" target="_blank">
+                        <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/english" target="_blank">
                             Click Here For English CMI
                         </a>
-                    </p>
-                ',
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/arabic" target="_blank">الترجمة العربية </a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/spanish" target="_blank">Traducción en español</a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/russian" target="_blank">Перевод на русском языке</a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/japanese" target="_blank">日本語翻訳</a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/french" target="_blank">Traduction en français</a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/chinese" target="_blank">中文翻译</a>
+                        </p>
+                        <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/italian" target="_blank">Traduzione italiana</a>
+                        </p>
+                    ',
             'free_from' =>
                 '
                     <p class="medlab_product_content_sub_title">
@@ -320,11 +351,11 @@ class UploadProduct extends Command
                         No artificial colours, flavours or sweeteners
                     </p>
                     ',
-            'price_retail' => 44.01,
-            'price_wholesale' => 29.32,
-            'image_path' => '/img/products/12mg_optima/mg_optima_relax_150g_citrus_tea.jpg',
-            'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_150g_citrus_tea.png',
-            'slug' => '12mg-optima-relax-150g-citrus-tea',
+            'price_retail' => 17.33,
+            'price_wholesale' => 11.55,
+            'image_path' => '/img/products/12mg_optima/mg_optima_relax_10pk_sachets_lemon_lime.jpg',
+            'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_10pk_sachets_lemon_lime.jpg',
+            'slug' => '12mg-optima-relax-10pk-sachets-lemon-lime',
             'in_stock' => true,
         ]);
         

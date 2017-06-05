@@ -188,6 +188,17 @@ class UpdateDeal extends Command
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
                 'discount_percentage' => '25'
             ],
+            [
+                'product' => "12Mg Optima Relax 10pk Sachets Lemon Lime",
+                'name' => "June 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '25% off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
+                'discount_percentage' => '25'
+            ],
 
         ];
 
