@@ -29,6 +29,15 @@
                     </p>
 
                     <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28573069" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Heritage M, Jaskowski L, Bridle K, Campbell C, Briskey D, Britton L, Fletcher L, Vitetta L, Subramaniam VN, Crawford D. </strong>
+                                Combination curcumin and vitamin E treatment attenuates diet-induced steatosis in Hfe-/- mice.
+                                <em>  World J Gastrointest Pathophysiol 2017;8(2):67-76.</em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
                         <a href="http://www.mdpi.com/journal/marinedrugs/special_issues/Nutraceuticals" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 Journal: Marine Drugs  /  Special Issue Title: Nutraceuticals and Functional Foods. Guest Editor: <strong>Professor Luis Vitetta</strong>
