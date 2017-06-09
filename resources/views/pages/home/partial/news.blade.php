@@ -202,7 +202,7 @@
                 </div>
             </div>
 
-            <div class="medlab_news_item">
+            <!--div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
                         REGISTER FOR A PRACTITIONER ACCOUNT TODAY
@@ -219,33 +219,36 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div-->
 
 
-
-            <!--<div class="medlab_news_item">
+        <div class="medlab_news_item">
             <div class="medlab_news_item_content_wrapper">
                 <div class="medlab_news_item_title">
                     FEATURED CONFERENCE
                 </div>
                 <div class="medlab_news_item_body">
                     <h2 class="medlab_news_content_title">
-                        General Practice Conference & Exhibition 2017
+                        <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">
+                            Lifestyle Medicine 2017
+                        </a>
                     </h2>
                     <p>
-                        <img src="/img/news/GPCETWITTER_36.jpg" alt="Microbiome" height="auto" width="100%"/>
+                        We are proud to announce Professor Luis Vitetta will be presenting at the conference, ‘Mood disorders and the Intestinal Mucosa’, and Medlab will be exhibiting, we hope to see you there!
                     </p>
                     <p>
-                        Professor Luis Vitetta will present on: 'Mitigating Chronic Disease' </br>
-                        Please visit Medlab at stand 1138.</br>
-                        When:  19-21 May, 2017 </br>
-                        Where: Sydney Showground, Sydney Olympic Park, NSW</br>
+                        <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">
+                            <img width="100%"  alt="ACNEM 2017" src="/img/news/lifestyle_medicine_2017.jpg">
+                        </a>
+                    </p>
+                    <p>
+                        Check out the full list of streams, workshops and register now <a href="http://www.lifestylemedicine.org.au/conference" target="_blank"><b>here</b></a>. For a limited time, you can use the conference promo code PASSIONATE for an extra passionate supporter discount.
                     </p>
 
 
                 </div>
             </div>
-        </div>-->
+        </div>
 
 
 
@@ -295,7 +298,7 @@
                         <br><br>
                         -->
 
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">Congratulations to Michael Thomsen on being the recipient of a Francis M Hooper RHD scholarship from the University of Sydney.</h2>
+                        <!--h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">Congratulations to Michael Thomsen on being the recipient of a Francis M Hooper RHD scholarship from the University of Sydney.</h2>
 
                         <br>
                             <p>
@@ -306,8 +309,10 @@
                                      class="img-responsive center-block">
 
                             </p>
-                        <br><br>
-                        <a href="http://www.global-engage.com/event/probiotics-asia/" target="_blank" class="medlab_news_content_link">
+                        <br><br-->
+
+                        <!--a href="http://www.global-engage.com/event/probiotics-asia/" target="_blank" class="medlab_news_content_link">
+
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                             Sean Hall (CEO) in March 2017 presented at The 2nd Probiotics Congress: Asia on ‘Mitigating Chronic Disease’</br>
                         </h2>
@@ -323,10 +328,10 @@
 
                         </p>
                         </a>
-                        <br><br>
+                        <br><br-->
 
 
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
+                        <!--h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
                                 Sean Hall (CEO) recently presented on Medlab's NanoCelle Delivery platform at The University of Sydney’s BioNanoTechnology and Biomedical Engineering summer school.</br>
                         </h2>
                         <br>
@@ -339,7 +344,7 @@
                                      class="img-responsive center-block">
 
                         </p>
-                        <br><br>
+                        <br><br-->
 
 
                         <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
@@ -517,17 +522,9 @@
                                 <div class="medlab_news_sidebar_list_item_title">
                                     <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">Lifestyle Medicine 2017</a>
                                 </div>
-                                <div class="medlab_news_sidebar_list_item_body" style="text-align: justify">
-                                    We are proud to announce Professor Luis Vitetta will be presenting at the conference, ‘Mood disorders and the Intestinal Mucosa’, and Medlab will be exhibiting, we hope to see you there!
-                                </div>
-                                <br>
                                 <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">
-                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/lifestyle_medicine_2017.jpg">
+                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/lifestyle_medicine_2017_side.jpg">
                                 </a>
-                                <br><br>
-                                <div class="medlab_news_sidebar_list_item_body" style="text-align: justify">
-                                    Check out the full list of streams, workshops and register now <a href="http://www.lifestylemedicine.org.au/conference" target="_blank"><b>here</b></a>. For a limited time, you can use the conference promo code PASSIONATE for an extra passionate supporter discount.
-                                </div>
                             </li>
 
                         </ul>
