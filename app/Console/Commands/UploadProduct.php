@@ -24,7 +24,7 @@ class UploadProduct extends Command
         Model::unguard();
 
         Product::create(
-            
+
         );
         
 

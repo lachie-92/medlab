@@ -514,14 +514,20 @@
 
 
                             <li class="medlab_news_sidebar_list_item">
-                                <a href="http://www.gpce.com.au" target="_blank">
-                                    <div class="medlab_news_sidebar_list_item_title">
-                                        General Practice Conference & Exhibition 2017</br>
-                                    </div>
-                                    <div class="media-left media-middle">
-                                        <img width="100%"  alt="ACNEM 2017" src="/img/news/GPCEMREC_36.jpg">
-                                    </div>
+                                <div class="medlab_news_sidebar_list_item_title">
+                                    <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">Lifestyle Medicine 2017</a>
+                                </div>
+                                <div class="medlab_news_sidebar_list_item_body" style="text-align: justify">
+                                    We are proud to announce Professor Luis Vitetta will be presenting at the conference, ‘Mood disorders and the Intestinal Mucosa’, and Medlab will be exhibiting, we hope to see you there!
+                                </div>
+                                <br>
+                                <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">
+                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/lifestyle_medicine_2017.jpg">
                                 </a>
+                                <br><br>
+                                <div class="medlab_news_sidebar_list_item_body" style="text-align: justify">
+                                    Check out the full list of streams, workshops and register now <a href="http://www.lifestylemedicine.org.au/conference" target="_blank"><b>here</b></a>. For a limited time, you can use the conference promo code PASSIONATE for an extra passionate supporter discount.
+                                </div>
                             </li>
 
                         </ul>
