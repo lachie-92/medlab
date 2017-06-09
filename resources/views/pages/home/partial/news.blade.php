@@ -503,7 +503,7 @@
             </div>
 
 
-            <!--<div class="medlab_news_sidebar_item">
+            <div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_sidebar_item_title">
                         UPCOMING CONFERENCES
@@ -533,7 +533,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>-->
+            </div>
 
         </div>
     </div>
