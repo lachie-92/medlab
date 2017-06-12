@@ -78,6 +78,33 @@ class CarePlanController extends Controller
     }
 
     /**
+     * Connect Practitioner to a Care Plan via email invitation
+     *
+     * @param  int  $careplan Patient CarePlan id
+     * @param  string  $nonce    Invitation nonce
+     * @param  Request $request  HTTP Request object
+     */
+    public function join($careplan, $nonce, Request $request)
+    {
+        try {
+            $invitation = Careplan_Consultant::where('nonce', $nonce)->where('careplan_id', $careplan)->firstOrFail();
+        } catch (ModelNotFoundException $e) {
+            return redirect()->route('account.careplan.index')->with([
+                'message' => 'Invalid Care Plan'
+            ]);
+        }
+
+        // If we've gotten this far, the nonce is good; Hook it up.
+        $invitation->user_id = $this->user->id;
+        $invitation->nonce = null;
+        $invitation->save();
+
+        return redirect()->route('account.careplan.index')->with([
+                'message' => 'The Care Plan has been associated with your account'
+            ]);
+    }
+
+    /**
      * Set the locked timestamp on a Patient CarePlan record
      *
      * @param  int  $careplan Patient CarePlan id

@@ -205,6 +205,11 @@ Route::group(['prefix' => '/account/careplan'], function() {
         'uses' => 'CarePlanController@updateConfiguration',
     ]);
 
+    Route::get('{plan}/join/{nonce}', [
+        'as'   => 'account.careplan.join',
+        'uses' => 'CarePlanController@join',
+    ]);
+
     Route::get('{plan}/lock', [
         'as'   => 'account.careplan.lock',
         'uses' => 'CarePlanController@lock'
