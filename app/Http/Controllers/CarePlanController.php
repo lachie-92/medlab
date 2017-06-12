@@ -189,7 +189,7 @@ class CarePlanController extends Controller
      * @return [type] [description]
      */
     public function pageIndex(Request $request) {
-        $user = $this->user->load('patient.careplans')->load('patients.careplans');
+        $user = $this->user->load('patient.careplans', 'patients.careplans', 'consulting');
         $orders = $this->repository->getLatestOrdersForUser($user);
         $data = compact('user', 'orders');
         if ($request->has('patient')) {

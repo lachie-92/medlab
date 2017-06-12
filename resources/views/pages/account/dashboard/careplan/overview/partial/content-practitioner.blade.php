@@ -65,6 +65,14 @@
                                         <option value="{{$userPatient->id}}" {{ isset($patient)&&$userPatient->id==$patient->id?'selected="selected"':'' }}>{{ $userPatient->user->customer->last_name }}, {{ $userPatient->user->customer->first_name }}</option>
                                         @endforeach
                                     </select>
+                                    @if (isset($user->consulting))
+                                    <h3>Consulting Care Plans</h3>
+                                    <ul>
+                                    @foreach ($user->consulting as $careplan)
+                                        <li><a href="{{ route('account.careplan.view', $careplan->id) }}">{{ $careplan->patient->user->customer->name }}</a></li>
+                                    @endforeach
+                                    </ul>
+                                    @endif
                                 </div>
                                 <div class="col-xs-6">
                                     <button type="submit" class="btn btn-default">go</button>
