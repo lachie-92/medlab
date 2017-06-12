@@ -8,6 +8,7 @@ use App\Medlab\Repositories\AccountRepositoryInterface;
 use App\Patient;
 use App\Patient_CarePlan;
 use App\Patient_CarePlan_Attribute;
+use App\Practitioner;
 use App\Careplan_Consultant;
 use App\Http\Requests;
 use Carbon\Carbon;
@@ -59,9 +60,7 @@ class CarePlanController extends Controller
      */
     public function updateConfiguration($careplan, Request $request)
     {
-        // Look for email address in registered practitioners
 
-        // Otherwise send the invite
         $this->validate($request, [
             'email' => 'required|email|max:255|unique:users'
         ]);
@@ -70,6 +69,7 @@ class CarePlanController extends Controller
         $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
         $consultant = new Careplan_Consultant();
         $consultant->practitioner_email = $request->get('email');
+        $consultant->nonce = hash('sha512', str_random());
         $careplan->consultants()->save($consultant);
 
         return redirect()->back()->with([
