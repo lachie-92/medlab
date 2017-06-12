@@ -204,7 +204,7 @@ Route::group(['prefix' => '/account/careplan'], function() {
         'as'   => 'account.careplan.unlock',
         'uses' => 'CarePlanController@unlock'
     ]);
-})
+});
 
 Route::group(['prefix' => '/account/pricing'], function() {
     Route::get('/', [
