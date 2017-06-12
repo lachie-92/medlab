@@ -402,6 +402,10 @@ Route::group(['middleware' => 'authPractitioner'], function () {
         return view('pages.efficacy.magazine_mm17.index');
     });
 
+    Route::get('/efficacy/magazine_ja17', function () {
+        return view('pages.efficacy.magazine_ja17.index');
+    });
+
     Route::get('/efficacy/podcast', function () {
         return view('pages.efficacy.podcast.index');
     });
