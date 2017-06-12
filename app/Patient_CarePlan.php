@@ -20,6 +20,11 @@ class Patient_CarePlan extends Model
         return $this->belongsTo('App\Patient');
     }
 
+    public function consultants()
+    {
+        return $this->belongsToMany('App\Practitioner', 'careplan_consultants', 'careplan_id');
+    }
+
     public function scopeLocked($query) {
         return $query->whereNotNull('locked_at');
     }

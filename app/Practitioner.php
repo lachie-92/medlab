@@ -102,4 +102,10 @@ class Practitioner extends Model {
     {
         return $this->belongsTo('App\Company');
     }
+
+    public function consulting()
+    {
+        return $this->belongsToMany('App\Patient_CarePlan', 'careplan_consultants', 'practitioner_id', 'careplan_id');
+    }
+
 }
