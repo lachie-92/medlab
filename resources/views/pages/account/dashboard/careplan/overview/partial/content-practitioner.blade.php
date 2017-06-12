@@ -87,7 +87,7 @@
                                                 <th style="text-align: center">Care Plan No.</th>
                                                 <th style="text-align: center">Date Created</th>
                                                 <th style="text-align: center">Date Locked</th>
-                                                <th style="text-align: center" colspan="2">&nbsp;</th>
+                                                <th style="text-align: center" colspan="3">&nbsp;</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -101,17 +101,24 @@
                                                             'history' => $careplan->id
                                                         ]) }}" class="btn btn-default"><i class="fa fa-file-text-o" aria-hidden="true"></i> View</a>
                                                     </td>
+                                                    @if (!$careplan->locked_at)
                                                     <td style="text-align: center">
-                                                        @if (!$careplan->locked_at)
                                                         <a href="{{ route('account.careplan.lock', [
                                                             'history' => $careplan->id
                                                         ]) }}" class="btn btn-default"><i class="fa fa-lock" aria-hidden="true"></i> Lock</a>
-                                                        @else
+                                                    </td>
+                                                    <td style="text-align: center">
+                                                        <a href="{{ route('account.careplan.configure', [
+                                                            'history' => $careplan->id
+                                                        ]) }}" class="btn btn-default"><i class="fa fa-cogs" aria-hidden="true"></i> Settings</a>
+                                                    </td>
+                                                    @else
+                                                    <td style="text-align: center">
                                                         <a href="{{ route('account.careplan.unlock', [
                                                             'history' => $careplan->id
                                                         ]) }}" class="btn btn-default"><i class="fa fa-unlock" aria-hidden="true"></i> Unlock</a>
-                                                        @endif
                                                     </td>
+                                                    @endif
                                                 </tr>
                                             @endforeach
                                         </tbody>

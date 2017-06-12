@@ -195,6 +195,16 @@ Route::group(['prefix' => '/account/careplan'], function() {
         'uses' => 'CarePlanController@pageEdit',
     ]);
 
+    Route::get('{plan}/configure', [
+        'as'   => 'account.careplan.configure',
+        'uses' => 'CarePlanController@pageConfigure',
+    ]);
+
+    Route::post('{plan}/configure', [
+        'as'   => 'account.careplan.configure.save',
+        'uses' => 'CarePlanController@updateConfiguration',
+    ]);
+
     Route::get('{plan}/lock', [
         'as'   => 'account.careplan.lock',
         'uses' => 'CarePlanController@lock'

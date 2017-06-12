@@ -51,6 +51,19 @@ class CarePlanController extends Controller
     }
 
     /**
+     * Save Patient CarePlan settings
+     *
+     * @param  int  $careplan Patient CarePlan id
+     * @param  Request $request HTTP Request object
+     */
+    public function updateConfiguration($careplan, Request $request)
+    {
+        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
+
+        return true;
+    }
+
+    /**
      * Set the locked timestamp on a Patient CarePlan record
      *
      * @param  int  $careplan Patient CarePlan id
@@ -196,5 +209,25 @@ class CarePlanController extends Controller
         })->collapse()->toArray();
 
         return view('pages.account.careplan.patient.edit.index', compact('page', 'user', 'orders', 'intake', 'careplan'));
+    }
+
+    /**
+     * Set up and render template for configuring Patient CarePlan settings
+     *
+     * @param  integer $careplan Patient CarePlan primary key
+     */
+    public function pageConfigure($careplan) {
+        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
+        if (! ($careplan->patient->user->id == $this->user->id ||
+              ($careplan->patient->practitioner->user->id == $this->user->id)))
+            throw new \Exception('Cannot configure this careplan');
+
+        $user = $this->user;
+        $orders = $this->repository->getLatestOrdersForUser($user);
+        $intake = $careplan->attributes->map(function($item) {
+            return [$item->key => $item->value];
+        })->collapse()->toArray();
+
+        return view('pages.account.careplan.practitioner.configure.index', compact('user', 'orders', 'intake', 'careplan'));
     }
 }
