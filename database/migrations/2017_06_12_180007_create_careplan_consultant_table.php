@@ -18,6 +18,7 @@ class CreateCareplanConsultantTable extends Migration
             $table->integer('practitioner_id')->unsigned()->nullable();
             $table->string('practitioner_email');
             $table->string('nonce', 32);
+            $table->timestamps();
 
             $table->foreign('careplan_id')->references('id')->on('patient_careplans')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('practitioner_id')->references('id')->on('practitioners')->onDelete('cascade')->onUpdate('cascade');
@@ -31,6 +32,6 @@ class CreateCareplanConsultantTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::drop('careplan_consultants');
     }
 }
