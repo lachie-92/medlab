@@ -58,7 +58,7 @@
                                     @foreach ($consultants as $consultant)
                                     <tr>
                                         <td>{{ isset($consultant->practitioner->user->email)?$consultant->practitioner->user->email:$consultant->user_email}}</td>
-                                        <td>{{ isset($consultant->practitioner->user->email)?'Active':'Pending'}}</td>
+                                        <td>{{ isset($consultant->user_id)?'Active':'Pending'}}</td>
                                     </tr>
                                     @endforeach
                                 </tbody>

@@ -183,10 +183,34 @@ class CarePlanController extends Controller
         }
     }
 
+    public function updateConsulting($careplan, Request $request) {
+        try {
+            $consulting_data = Careplan_Consultant::where('careplan_id', $careplan)->where('user_id', $this->user->id)->firstOrFail();
+        } catch (ModelNotFoundException $e) {
+            return redirect()->route('account.careplan.index')->with([
+                'message' => 'Invalid Care Plan'
+            ]);
+        }
+
+        if ($request->has('opportunity')) $consulting_data->opportunity = $request->get('opportunity');
+        if ($request->has('goal'))        $consulting_data->goal        = $request->get('goal');
+        if ($request->has('action'))      $consulting_data->action      = $request->get('action');
+        if ($request->has('target'))      $consulting_data->target      = $request->get('target');
+        if ($request->has('progress'))    $consulting_data->progress    = $request->get('progress');
+        if ($request->has('source'))      $consulting_data->source      = $request->get('source');
+
+        $consulting_data->save();
+
+        return redirect()->route('account.careplan.index')->with([
+                'message' => 'The Care Plan consultation has been saved'
+            ]);
+
+    }
+
     /**
      * Render listing of patient careplan intakes
      *
-     * @return [type] [description]
+     * @param  Request $request HTTP Request object
      */
     public function pageIndex(Request $request) {
         $user = $this->user->load('patient.careplans', 'patients.careplans', 'consulting');
@@ -201,9 +225,9 @@ class CarePlanController extends Controller
     }
 
     /**
-     * Render listing of patient careplan intakes
+     * Render details of a Careplan Intake
      *
-     * @return [type] [description]
+     * @param  int  $careplan Patient CarePlan id
      */
     public function pageView($careplan) {
         $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
@@ -253,12 +277,33 @@ class CarePlanController extends Controller
     }
 
     /**
+     * Set up and render template for attaching consultation to a Patient CarePlan
+     *
+     * @param  integer $careplan Patient CarePlan primary key
+     */
+    public function pageConsulting($careplan) {
+        $careplan = Patient_CarePlan::with('consultants')->findOrFail($careplan);
+        if (! ($careplan->consultants->contains('user_id', $this->user->id))) throw new \Exception("Cannot update this careplan");
+
+        $consultant_data = $careplan->consultants->where('user_id', $this->user->id)->first();
+
+        $user = $this->user;
+        $orders = $this->repository->getLatestOrdersForUser($user);
+        $intake = $careplan->attributes->map(function($item) {
+            return [$item->key => $item->value];
+        })->collapse()->toArray();
+        $readOnly = true;
+
+        return view('pages.account.careplan.consultant.edit.index', compact('user', 'orders', 'careplan', 'intake', 'readOnly', 'consultant_data'));
+    }
+
+    /**
      * Set up and render template for configuring Patient CarePlan settings
      *
      * @param  integer $careplan Patient CarePlan primary key
      */
     public function pageConfigure($careplan) {
-        $careplan = Patient_CarePlan::with('consultants.practitioner.user')->findOrFail($careplan);
+        $careplan = Patient_CarePlan::with('consultants.practitioner')->findOrFail($careplan);
         if (! ($careplan->patient->user->id == $this->user->id ||
               ($careplan->patient->practitioner->user->id == $this->user->id)))
             throw new \Exception('Cannot configure this careplan');

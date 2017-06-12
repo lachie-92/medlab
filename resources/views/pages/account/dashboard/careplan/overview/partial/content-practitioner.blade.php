@@ -69,7 +69,7 @@
                                     <h3>Consulting Care Plans</h3>
                                     <ul>
                                     @foreach ($user->consulting as $careplan)
-                                        <li><a href="{{ route('account.careplan.view', $careplan->id) }}">{{ $careplan->patient->user->customer->name }}</a></li>
+                                        <li><a href="{{ route('account.careplan.consulting', $careplan->id) }}">{{ $careplan->patient->user->customer->name }}</a></li>
                                     @endforeach
                                     </ul>
                                     @endif

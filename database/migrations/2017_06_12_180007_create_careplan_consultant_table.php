@@ -18,6 +18,15 @@ class CreateCareplanConsultantTable extends Migration
             $table->integer('user_id')->unsigned()->nullable();
             $table->string('user_email');
             $table->string('nonce', 32);
+
+            $table->longText('opportunity')->nullable();
+            $table->longText('goal')->nullable();
+            $table->longText('action')->nullable();
+            $table->date('target')->nullable();
+            $table->longText('progress')->nullable();
+            $table->text('source')->nullable();
+
+            $table->timestamp('locked_at')->nullable();
             $table->timestamps();
 
             $table->foreign('careplan_id')->references('id')->on('patient_careplans')->onDelete('cascade')->onUpdate('cascade');
