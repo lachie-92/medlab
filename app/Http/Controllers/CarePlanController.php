@@ -8,6 +8,7 @@ use App\Medlab\Repositories\AccountRepositoryInterface;
 use App\Patient;
 use App\Patient_CarePlan;
 use App\Patient_CarePlan_Attribute;
+use App\Careplan_Consultant;
 use App\Http\Requests;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
@@ -217,17 +218,15 @@ class CarePlanController extends Controller
      * @param  integer $careplan Patient CarePlan primary key
      */
     public function pageConfigure($careplan) {
-        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
+        $careplan = Patient_CarePlan::with('consultants.practitioner.user')->findOrFail($careplan);
         if (! ($careplan->patient->user->id == $this->user->id ||
               ($careplan->patient->practitioner->user->id == $this->user->id)))
             throw new \Exception('Cannot configure this careplan');
 
         $user = $this->user;
         $orders = $this->repository->getLatestOrdersForUser($user);
-        $intake = $careplan->attributes->map(function($item) {
-            return [$item->key => $item->value];
-        })->collapse()->toArray();
+        $consultants = $careplan->consultants;
 
-        return view('pages.account.careplan.practitioner.configure.index', compact('user', 'orders', 'intake', 'careplan'));
+        return view('pages.account.careplan.practitioner.configure.index', compact('user', 'orders', 'careplan', 'consultants', 'pending'));
     }
 }

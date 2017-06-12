@@ -47,8 +47,28 @@
 
                     <div class="col-md-12 col-sm-12">
                         <div class="well" style="background-color: transparent; background-image: none">
+                            <table class="container table table-striped table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Consultant address</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach ($consultants as $consultant)
+                                    <tr>
+                                        <td>{{ isset($consultant->practitioner->user->email)?$consultant->practitioner->user->email:$consultant->practitioner_email}}</td>
+                                        <td>{{ isset($consultant->practitioner->user->email)?'Active':'Pending'}}</td>
+                                    </tr>
+                                    @endforeach
+                                </tbody>
+                            </table>
+                            <hr />
+                            <h3>Invite consultant</h3>
+                            <p>Enter the email address of the consulting physician you would like to share this Care Plan with. They will receive an invitation via email.</p>
                             <form action="{{ route('account.careplan.configure.save', $careplan->id) }}" method="POST" id="patient-history">
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
+                                <input type="text" name="email" placeholder="drhowser@gmail.com" />
                                 <input type="submit" name="_Btnnext" value="Save" id="Btnnext" class="btn btn-primary">
                             </form>
                         </div>

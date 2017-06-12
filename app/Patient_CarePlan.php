@@ -22,7 +22,7 @@ class Patient_CarePlan extends Model
 
     public function consultants()
     {
-        return $this->belongsToMany('App\Practitioner', 'careplan_consultants', 'careplan_id');
+        return $this->hasMany('App\Careplan_Consultant', 'careplan_id');
     }
 
     public function scopeLocked($query) {
