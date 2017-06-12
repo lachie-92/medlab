@@ -15,13 +15,13 @@ class CreateCareplanConsultantTable extends Migration
         Schema::create('careplan_consultants', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('careplan_id')->unsigned();
-            $table->integer('practitioner_id')->unsigned()->nullable();
-            $table->string('practitioner_email');
+            $table->integer('user_id')->unsigned()->nullable();
+            $table->string('user_email');
             $table->string('nonce', 32);
             $table->timestamps();
 
             $table->foreign('careplan_id')->references('id')->on('patient_careplans')->onDelete('cascade')->onUpdate('cascade');
-            $table->foreign('practitioner_id')->references('id')->on('practitioners')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
         });
     }
 

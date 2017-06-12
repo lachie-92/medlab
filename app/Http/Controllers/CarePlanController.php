@@ -68,7 +68,7 @@ class CarePlanController extends Controller
         // Email address looks good, let's hook it up
         $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
         $consultant = new Careplan_Consultant();
-        $consultant->practitioner_email = $request->get('email');
+        $consultant->user_email = $request->get('email');
         $consultant->nonce = hash('sha512', str_random());
         $careplan->consultants()->save($consultant);
 

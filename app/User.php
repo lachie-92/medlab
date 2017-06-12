@@ -56,4 +56,9 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     {
         return $this->belongsToMany('App\Product')->withPivot('price_discounted');
     }
+
+    public function consulting()
+    {
+        return $this->belongsToMany('App\Patient_CarePlan', 'careplan_consultants', 'user_id', 'careplan_id');
+    }
 }

@@ -12,6 +12,6 @@ class Careplan_Consultant extends Model
 
     public function practitioner()
     {
-        return $this->hasOne('App\Practitioner', 'id', 'practitioner_id');
+        return $this->hasOne('App\User', 'id', 'user_id');
     }
 }
