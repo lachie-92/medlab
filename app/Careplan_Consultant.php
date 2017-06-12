@@ -8,6 +8,7 @@ class Careplan_Consultant extends Model
 {
     protected $table = 'careplan_consultants';
     protected $primaryKey = 'id';
+    protected $fillable = [ 'email' ];
 
     public function practitioner()
     {

@@ -59,9 +59,22 @@ class CarePlanController extends Controller
      */
     public function updateConfiguration($careplan, Request $request)
     {
-        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
+        // Look for email address in registered practitioners
 
-        return true;
+        // Otherwise send the invite
+        $this->validate($request, [
+            'email' => 'required|email|max:255|unique:users'
+        ]);
+
+        // Email address looks good, let's hook it up
+        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
+        $consultant = new Careplan_Consultant();
+        $consultant->practitioner_email = $request->get('email');
+        $careplan->consultants()->save($consultant);
+
+        return redirect()->back()->with([
+                    'message' => 'The practitioner has been invited'
+                ]);;
     }
 
     /**
