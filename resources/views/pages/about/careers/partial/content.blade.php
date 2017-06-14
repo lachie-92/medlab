@@ -21,10 +21,13 @@
                     </p>
                     <hr>
                     <h4>Positions Available</h4>
+
+                    <a href="#MarketingOfficer">Marketing Officer</a></br>
                     <!--
-                    <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
                     <a href="#PractitionerConsultantFieldRepWA">Practitioner Consultant Field Rep - South Perth, WA</a></br>
                     <a href="#PractitionerConsultantFieldRepQLD">Practitioner Consultant Field Rep - Brisbane, QLD</a></br>
+                                        No positions currently available, for all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
+
                     -->
 
 
@@ -35,7 +38,6 @@
 
 
 
-                    No positions currently available, for all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
 
 
 
@@ -124,51 +126,60 @@
 
 
 
-                    <a name="DigitalMarketingCoordinator"></a>
-                    <h3>Digital Marketing Coordinator</h3>
+-->
+                    <a name="MarketingOffice"></a>
+                    <h3>Marketing Office</h3>
                     <li>Full Time / Permanent</li>
                     <li>Based in Alexandria, Sydney</li></br>
-                    <p>Due to continued growth, Medlab Clinical are currently seeking an enthusiastic, creative and passionate Digital Marketing Coordinator to join our Sales and Marketing Team.</p>
+                    <p>Due to a rapid increase in market share we are seeking a highly ambitious and energetic Marketer to join our extremely motivated and successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
+                    <p>We are not looking for “just anyone”, we are looking for a person with a keen insight to understanding our business, a desire to grow and to prove to the competition that they are market leaders.</p>
+                    <p>If you think you are a cut above the rest, then Medlab could be the place you are looking for.</p>
+
+                    <h4>Who is Medlab Clinical?</h4>
+                    <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
+
 
                     <h4>The Opportunity</h4>
-                    <p>In this newly created role as the Digital Marketing Coordinator, you will report to the Sales and Marketing Manager where you will assist with the development and delivery of digital projects to the Australian and International market. This is an exciting opportunity to utilise your digital marketing and creative design experience to make this role your own.</p>
+                    <p>As a Marketer, your focus will be directly aligned to the Nutraceutical Sales unit of the company.</p>
+                    <p>This is an integral role to one of the core business units of the company. You will be working alongside some of the industry’s best known leaders.</p>
+                    <p>You will report directly to the Sales and Marketing Manager.</p>
+
+
+
                     <p>Duties and Responsibilities include:</p>
-                    <li>Using MailChimp, create and deliver regular eDM’s to create brand awareness, launch new products and increase sales of nutraceuticals.</li>
-                    <li>Develop reporting frameworks to monitor and track campaign performance, including the use of Google Analytics.</li>
-                    <li>Maintaining and developing website content and functionality.</li>
-                    <li>Create and manage engaging content for social media platforms.</li>
-                    <li>Report on social media metrics and develop strategies to improve engagement and conversion.</li>
-                    <li>Maximise brand awareness and identify areas for brand development.</li>
-                    <li>Create and develop relationships with bloggers and influencers.</li>
-                    <li>Contribute to the development of the annual marketing plan as required.</li>
-                    <li>Assist the marketing team with the coordination, execution and evaluation of promotional campaigns.</li></br>
+                    <li>Ongoing maintenance/management of digital media assets</li>
+                    <li>Coordination of ongoing marketing materials for the sales team, clients and distributors</li>
+                    <li>Identify, propose, attend industry conferences and events</li>
+                    <li>Design and deliver creative tasks to facilitate seamless and targeted go to market product launches</li>
+                    <li>Produce and analyse reports across marketing campaigns, product launches and online users</li>
+                    <li>Competitor analysis</li>
+                    <li>Establish networks and maintain key relationships with internal and external stakeholders</li>
+                    <li>General administrative tasks and assisting the Sales and Marketing Manager as required</li></br>
 
                     <h4>About You</h4>
                     <p>To be successful in this role you will be able to demonstrate the following:</p>
-                    <li>Minimum 2 years experience in a digital marketing role.</li>
-                    <li>Ability to think creatively and have a passion for building a brand within the online social media space.</li>
-                    <li>Stay up to date with the latest technology advancements and social media trends.</li>
-                    <li>Ability to influence and engage across a diverse range of stakeholders.</li>
-                    <li>Exceptional attention to detail along with high level organizational skills with the ability to meet deadlines.</li>
-                    <li>Ability to work both collaboratively within a team and autonomously.</li>
-                    <li>Self motivated and proactive in bringing your ideas to life.</li>
-                    <li>Strong communication skills both written and verbal.</li>
-                    <li>Experience in using Google AdWords, Google Analytics and Facebook Ad Manager.</li>
-                    <li>Experience in using MailChimp, Adobe Photoshop/In Design.</li>
-                    <li>Genuine interest in the health and wellness sector.</li></br>
+                    <li>Understanding of marketing strategies with the drive and passion to succeed and grow in your career</li>
+                    <li>Excellent written communication skills</li>
+                    <li>High level attention to detail</li>
+                    <li>Ability to manage timelines in a fast-paced environment</li>
+                    <li>Self-motivated and have a solution based approach to tasks</li>
+                    <li>Team player along with the ability to work independently</li>
+                    <li>Intermediate to advanced skills with MS office</li>
+                    <li>Tertiary qualification in Marketing</li>
+                    <li>Have a genuine passion for health and wellness with the desire to succeed</li></br>
 
                     <h4>Benefits</h4>
-                    <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab we are committed to the development of staff and regularly promote from within.</p>
-                    <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
-                    <li>Generous base salary</li>
-                    <li>A fun, collaborative team-working environment.</li>
-                    <li>Use of on-site gym facilities</li>
-                    <li>On-going training, education and mentoring.</li>
-                    <li>Career growth for the right person.</li>
-                    <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Digital Marketing Coordinator">recruit@medlab.co</a></p>
+                    <li>Generous base salary and bonus opportunities</li>
+                    <li>Use of on-site gym facilities within our offices in Alexandria</li>
+                    <li>A dynamic, collaborative team-working environment</li>
+                    <li>On-going training, education and mentoring</li>
+                    </li>
+                    <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Marketing Officer">recruit@medlab.co</a></p>
                     <hr>
 
+
+                    <!--
                     <a name="ClientRelationshipManager"></a>
                     <h3>Client Relationship Manager</h3>
                     <li>Client Relationship Manager</li>
