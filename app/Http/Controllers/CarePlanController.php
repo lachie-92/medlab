@@ -168,7 +168,7 @@ class CarePlanController extends Controller
 
         // If page variable exists, redirect
         if ($request->has('page')) {
-            if ($request->get('page')==4) {
+            if ($request->get('page')==2) {
                 return redirect()->route('account.careplan.index')->with([
                     'message' => 'Your patient careplan has been saved'
                 ]);
