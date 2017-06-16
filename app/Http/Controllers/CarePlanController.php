@@ -11,6 +11,7 @@ use App\Patient_CarePlan_Attribute;
 use App\Practitioner;
 use App\Careplan_Consultant;
 use App\Http\Requests;
+use App\Medlab\Mailer\MedlabMailer;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
@@ -58,7 +59,7 @@ class CarePlanController extends Controller
      * @param  int  $careplan Patient CarePlan id
      * @param  Request $request HTTP Request object
      */
-    public function updateConfiguration($careplan, Request $request)
+    public function updateConfiguration($careplan, Request $request, MedlabMailer $mail)
     {
 
         $this->validate($request, [
@@ -71,6 +72,9 @@ class CarePlanController extends Controller
         $consultant->user_email = $request->get('email');
         $consultant->nonce = hash('sha512', str_random());
         $careplan->consultants()->save($consultant);
+
+        // Send the email
+        $mail->sendCarePlanToConsultant($consultant, $careplan);
 
         return redirect()->back()->with([
                     'message' => 'The practitioner has been invited'

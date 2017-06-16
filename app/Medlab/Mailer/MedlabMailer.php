@@ -417,4 +417,27 @@ class MedlabMailer
                 ->subject($title);
         });
     }
+
+    public function sendCarePlanToConsultant($consultant, $careplan)
+    {
+        $from = $this->adminEmailAddress;
+        $to = $consultant->user_email;
+        $title = 'Invitation to participate in patient Care Plan at Medlab';
+
+        $data = [];
+        $data['url'] = route('account.careplan.join', [
+            'plan' => $careplan->id,
+            'nonce' => $consultant->nonce,
+        ]);
+        $data['body'] = 'You have been invited to participare in a patient Care Plan at Medlab.co. To start, create an account and then join with the following URL:<br /><br /><a href="' . $data['url'] . '">' . $data['url'] . '</a>';
+        $data['title'] = $title;
+
+        $this->mail->queue('emails.consultant_notification', $data, function($messageToSend) use ($from, $to, $title) {
+
+            $messageToSend->from($from)
+                ->to($to)
+                ->subject($title);
+        });
+
+    }
 }
