@@ -70,7 +70,7 @@ class CarePlanController extends Controller
         $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
         $consultant = new Careplan_Consultant();
         $consultant->user_email = $request->get('email');
-        $consultant->nonce = hash('sha512', str_random());
+        $consultant->nonce = substr(hash('sha512', str_random()), 0, 32);
         $careplan->consultants()->save($consultant);
 
         // Send the email
