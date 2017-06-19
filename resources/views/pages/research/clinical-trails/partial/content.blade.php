@@ -67,7 +67,7 @@
                                 <td align="left"><!-- <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
-                                                onclick="window.location.href = '';"
+                                                onclick="window.location.href = 'mailto:recruit@medlab.co?Subject=Job Application - Clinical Trial Coordinator';"
                                                 type="button">More Info
                                         </button>
                                     </p>
@@ -272,8 +272,8 @@
                                 <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
-                                                onclick="window.location.href = '';"
-                                                type="button">More Info
+                                                onclick="window.location.href = 'mailto:clinicaltrials@medlab.co?Subject=Clinical Trial Information - NRGBiotic - ACTRN12617000419369';"
+                                                type="button">Email
                                         </button>
                                     </p>
                                </td>
@@ -292,8 +292,8 @@
                                 <td align="left">
                                     <p>
                                         <button class="btn btn-sm btn-success"
-                                                onclick="window.location.href = '';"
-                                                type="button">More Info
+                                                onclick="window.location.href = 'mailto:clinicaltrials@medlab.co?Subject=Clinical Trial Information - Contract Clinical Study - ACTRN12615000233527';"
+                                                type="button">Email
                                         </button>
                                     </p>
                                 </td>
