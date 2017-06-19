@@ -113,7 +113,7 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/why-medlab">Why Medlab</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/the-medlab-solution">The Medlab Solution</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/patents">Patents</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trails">Clinical Trials</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trials">Clinical Trials</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">

@@ -315,7 +315,7 @@ Route::get('/research/patents', function () {
     return view('pages.research.patents.index');
 });
 
-Route::get('/research/clinical-trails', function () {
+Route::get('/research/clinical-trials', function () {
     return view('pages.research.clinical-trails.index');
 });
 
@@ -327,8 +327,68 @@ Route::get('/research/splash', function () {
     return view('pages.research.splash.index');
 });
 
-Route::get('/research/clinical-trails/nanocelled3', function () {
+Route::get('/research/clinical-trials/contract-1', function () {
+    return view('pages.research.clinical-trails.contract-1.index');
+});
+
+Route::get('/research/clinical-trials/nanocelled3', function () {
     return view('pages.research.clinical-trails.nanocelled3.index');
+});
+
+Route::get('/research/clinical-trials/contrac-2', function () {
+    return view('pages.research.clinical-trails.contract-2.index');
+});
+
+Route::get('/research/clinical-trials/contract-3', function () {
+    return view('pages.research.clinical-trails.contract-3.index');
+});
+
+Route::get('/research/clinical-trials/magnesium-orotate', function () {
+    return view('pages.research.clinical-trails.magnesium-orotate.index');
+});
+
+Route::get('/research/clinical-trials/nanabidial', function () {
+    return view('pages.research.clinical-trails.nanabidial.index');
+});
+
+Route::get('/research/clinical-trials/nanabidial-2', function () {
+    return view('pages.research.clinical-trails.nanabidial-2.index');
+});
+
+Route::get('/research/clinical-trials/nanabis', function () {
+    return view('pages.research.clinical-trails.nanabis.index');
+});
+
+Route::get('/research/clinical-trials/nanocelle-b12', function () {
+    return view('pages.research.clinical-trails.nanocelle-b12.index');
+});
+
+Route::get('/research/clinical-trials/nanocelle-cbd', function () {
+    return view('pages.research.clinical-trails.nanocelle-cbd.index');
+});
+
+Route::get('/research/clinical-trials/nanocelle-coq10', function () {
+    return view('pages.research.clinical-trails.nanocelle-coq10.index');
+});
+
+Route::get('/research/clinical-trials/nanocelle-insulin', function () {
+    return view('pages.research.clinical-trails.nanocelle-insulin.index');
+});
+
+Route::get('/research/clinical-trials/nanostat', function () {
+    return view('pages.research.clinical-trails.nanostat.index');
+});
+
+Route::get('/research/clinical-trials/nrgbiotic', function () {
+    return view('pages.research.clinical-trails.nrgbiotic.index');
+});
+
+Route::get('/research/clinical-trials/nrgbiotic-pilot', function () {
+    return view('pages.research.clinical-trails.nrgbiotic-pilot.index');
+});
+
+Route::get('/research/clinical-trials/t2-biotic', function () {
+    return view('pages.research.clinical-trails.t2-biotic.index');
 });
 
 

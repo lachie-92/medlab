@@ -11,7 +11,7 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    NanoCelle D3
+                    NanaBidial (NanoCelle CBD)
                 </div>
                 <div class="panel-body medlab_panel_content">
 
@@ -19,35 +19,38 @@
 
                     <h3>CLINICAL TRIAL</h3>
 
-                    <p>Vitamin D3 Hormone Blood Level Absorption Study in Healthy Adult Volunteers</p>
+                    <p><strong>Initial Application Study:</strong> A phase 0 open-label single group clinical trial to investigate the safety of a microdose of a nanocelle™ cannabis formulation administered oro-buccally to healthy adult volunteers.</br>
+                        <strong>Progressed to…</strong></br>
+                        <strong>Pharmacokinetic Pilot Study:</strong> The buccal administration of a nanocelle™CBD only preparation to healthy volunteers: a safety, tolerability and pharmacokinetic exploratory pilot study.</p>
 
                     <h3>NEAF initiated online on</h3>
 
-                    <p>07/09/2013</p>
+                    <p>21/01/2016 (NIIM NEAF)</p>
 
                     <h3>DATE of HREC approval</h3>
 
-                    <p>09/10/2013</p>
+                    <p>11/05/2017</p>
 
                     <h3>HREC Reference number</h3>
 
-                    <p>[EC00436]  |  0008E</p>
+                    <p>[EC00436]  | 0030E_2016</p>
 
                     <h3>CTN application submitted to TGA on</h3>
 
-                    <p>22/01/2014</p>
+                    <p>17/06/2017</p>
 
                     <h3>ANZCTR  date submitted | date registered</h3>
 
-                    <p>28/7/2016 | 03/08/2016</p>
+                    <p></p>
 
                     <h3>ANZCTR</h3>
 
-                    <p><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001027404&isBasic=True" target="_blank">ACTRN12616001027404</a></p>
+                    <p></p>
 
                     <h3>STATUS</h3>
 
-                    <p>Recruiting Closed</p>
+                    <p>Progressed from a Phase 0 to a Pharmacokinetic Pilot Study</br>
+                        Recruiting to begin in September / October 2017</p>
 
 
                 </div>

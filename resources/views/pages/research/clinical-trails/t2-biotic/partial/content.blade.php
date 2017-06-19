@@ -11,7 +11,7 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    NanoCelle D3
+                    T2Biotic
                 </div>
                 <div class="panel-body medlab_panel_content">
 
@@ -19,31 +19,31 @@
 
                     <h3>CLINICAL TRIAL</h3>
 
-                    <p>Vitamin D3 Hormone Blood Level Absorption Study in Healthy Adult Volunteers</p>
+                    <p>The Effect of a Multi-strain Probiotic on Metabolic Biomarkers in Adults with Pre-diabetes and Recently Diagnosed with Type 2 Diabetes</p>
 
                     <h3>NEAF initiated online on</h3>
 
-                    <p>07/09/2013</p>
+                    <p>20/10/2014</p>
 
                     <h3>DATE of HREC approval</h3>
 
-                    <p>09/10/2013</p>
+                    <p>22/04/2015</p>
 
                     <h3>HREC Reference number</h3>
 
-                    <p>[EC00436]  |  0008E</p>
+                    <p>RPAH Sydney Local Health District X14-0369 and HREC/14/RPAH/492</p>
 
                     <h3>CTN application submitted to TGA on</h3>
 
-                    <p>22/01/2014</p>
+                    <p>14/06/2015</p>
 
                     <h3>ANZCTR  date submitted | date registered</h3>
 
-                    <p>28/7/2016 | 03/08/2016</p>
+                    <p>05/12/2013  |  16/12/2013</p>
 
                     <h3>ANZCTR</h3>
 
-                    <p><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001027404&isBasic=True" target="_blank">ACTRN12616001027404</a></p>
+                    <p><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12613001378718&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12613001378718</a></p>
 
                     <h3>STATUS</h3>
 

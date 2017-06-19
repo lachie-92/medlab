@@ -11,7 +11,7 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    NanoCelle D3
+                    NRGBiotic [Pilot 2]
                 </div>
                 <div class="panel-body medlab_panel_content">
 
@@ -19,31 +19,31 @@
 
                     <h3>CLINICAL TRIAL</h3>
 
-                    <p>Vitamin D3 Hormone Blood Level Absorption Study in Healthy Adult Volunteers</p>
+                    <p>A Phase I safety and exploratory end-point trial  investigating the role of Probiotics and Magnesium Orotate [NRGBiotic] co-administered with Antidepressant Medications for the Management of Treatment Resistant Depression</p>
 
                     <h3>NEAF initiated online on</h3>
 
-                    <p>07/09/2013</p>
+                    <p></p>
 
                     <h3>DATE of HREC approval</h3>
 
-                    <p>09/10/2013</p>
+                    <p>Extension of HREC approved study</p>
 
                     <h3>HREC Reference number</h3>
 
-                    <p>[EC00436]  |  0008E</p>
+                    <p>UQHREC  |  2012000647</p>
 
                     <h3>CTN application submitted to TGA on</h3>
 
-                    <p>22/01/2014</p>
+                    <p></p>
 
                     <h3>ANZCTR  date submitted | date registered</h3>
 
-                    <p>28/7/2016 | 03/08/2016</p>
+                    <p></p>
 
                     <h3>ANZCTR</h3>
 
-                    <p><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001027404&isBasic=True" target="_blank">ACTRN12616001027404</a></p>
+                    <p></p>
 
                     <h3>STATUS</h3>
 
