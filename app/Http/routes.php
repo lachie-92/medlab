@@ -327,7 +327,9 @@ Route::get('/research/splash', function () {
     return view('pages.research.splash.index');
 });
 
-
+Route::get('/research/clinical-trails/nanocelled3', function () {
+    return view('pages.research.clinical-trails.nanocelled3.index');
+});
 
 
 

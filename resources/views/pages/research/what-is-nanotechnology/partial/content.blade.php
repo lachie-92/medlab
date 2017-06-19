@@ -150,7 +150,7 @@
                     <h3><strong>NANOCELLE</strong></h3>
                     </p>
                     <p style="text-align: justify;">
-                        <h3>Please see below an example of Medlab's nanotechnology.<br><br></></h3>
+                        <h3>Please see below an example of Medlab's nanotechnology.<br><br></h3>
                         <img class="img-responsive" width="700" src="/img/research/nanocelle7.png" title="Nanoparticles"/><br>
                         <h3><strong>Administration and route of absorption</strong></h3>
                     </p>
@@ -162,7 +162,7 @@
                         <li>More permeable to water-soluble drugs than keratinized epithelia i.e. hard palate</li>
                         <li>Blood flow faster / richer compared to sublingual, gingival and palatal regions</li>
                         <li>Passive diffusion of Nanocelle<sup>TM</sup> drug molecules facilitated and enhanced</li>
-                                        </p></div>
+                        </p></div>
                     <br>
                     <p style="text-align: justify;">
                     <h3><strong>GIT Barrier to Drug Absorption / Bioavailability</strong></h3>
