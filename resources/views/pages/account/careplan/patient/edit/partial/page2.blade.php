@@ -71,7 +71,7 @@
                     <div class="col-sm-10 col-sm-10">
                     </div>
                     <div class="col-sm-1 col-sm-1">
-                        <input type="submit" name="_Btnnext" value="Next" id="ContentPlaceHolder1_Btnnext" class="btn btn-primary">
+                        <input type="submit" name="_Btnnext" value="Finish" id="ContentPlaceHolder1_Btnnext" class="btn btn-primary">
                     </div>
                 </div>
                 </div>
