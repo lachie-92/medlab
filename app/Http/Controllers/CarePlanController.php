@@ -234,7 +234,7 @@ class CarePlanController extends Controller
      * @param  int  $careplan Patient CarePlan id
      */
     public function pageView($careplan) {
-        $careplan = Patient_CarePlan::with('attributes')->findOrFail($careplan);
+        $careplan = Patient_CarePlan::with('attributes', 'consultants.practitioner.customer')->findOrFail($careplan);
         if (! ($careplan->patient->user->id == $this->user->id ||
               ($careplan->patient->practitioner->user->id == $this->user->id)))
             throw new \Exception('Cannot view this careplan');

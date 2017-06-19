@@ -31,8 +31,7 @@
         <div class="col-xs-9">
             @include('pages.account.careplan.patient.edit.partial.page1')
             @include('pages.account.careplan.patient.edit.partial.page2')
-            @include('pages.account.careplan.patient.edit.partial.page3')
-            @include('pages.account.careplan.patient.edit.partial.page4')
+            @include('pages.account.careplan.practitioner.view.partial.consultants')
         </div>
     </div>
 </div>
