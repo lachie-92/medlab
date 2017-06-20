@@ -17,12 +17,16 @@
 
 
 
+                    <div class="panel-heading medlab_panel_title">
+                        Cannabis
+                    </div>
+
 
                     <div style="overflow-x: auto; overflow-y: auto;">
                         <table class="table table-striped table-bordered table-responsive">
                             <tbody>
                             <tr>
-                                <th style=min-width:150px><h4>Formulation</h4></th>
+                                <th style=width:200px><h4>Formulation</h4></th>
                                 <th style=min-width:350px><h4>CLINICAL TRIALS</h4></th>
                                 <th><h4>ANZCTR</h4></th>
                                 <th><h4>STATUS</h4></th>
@@ -48,7 +52,25 @@
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615000414516&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True"  target="_blank">ACTRN12615000414516</a></td>
                                 <td align="left">Recruiting TBA</td>
                             </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
+
+
+                    <div class="panel-heading medlab_panel_title">
+                        Delivery Platform
+                    </div>
+
+                    <div style="overflow-x: auto; overflow-y: auto;">
+                        <table class="table table-striped table-bordered table-responsive">
+                            <tbody>
+                            <tr>
+                                <th style=width:200px><h4>Formulation</h4></th>
+                                <th style=min-width:350px><h4>CLINICAL TRIALS</h4></th>
+                                <th><h4>ANZCTR</h4></th>
+                                <th><h4>STATUS</h4></th>
+                            </tr>
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/nanocelled3">NanoCelle D3</a></a></td>
                                 <td align="left">Vitamin D3 Hormone Blood Level Absorption Study in Healthy Adult Volunteers</td>
@@ -80,6 +102,24 @@
                                 <td align="left">Phase 0 study progressed to a bioequivalence Phase I study. Recruiting to begin in July 2017</td>
                             </tr>
 
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="panel-heading medlab_panel_title">
+                        Metabolic
+                    </div>
+
+
+                    <div style="overflow-x: auto; overflow-y: auto;">
+                        <table class="table table-striped table-bordered table-responsive">
+                            <tbody>
+                            <tr>
+                                <th style=width:200px><h4>Formulation</h4></th>
+                                <th style=min-width:350px><h4>CLINICAL TRIALS</h4></th>
+                                <th><h4>ANZCTR</h4></th>
+                                <th><h4>STATUS</h4></th>
+                            </tr>
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/"t2-biotic>T2Biotic</a></td>
                                 <td align="left">The Effect of a Multi-strain Probiotic on Metabolic Biomarkers in Adults with Pre-diabetes and Recently Diagnosed with Type 2 Diabetes</td>
@@ -93,6 +133,26 @@
                                 <td align="left">Recruiting Closed</td>
 
                             </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                    <div class="panel-heading medlab_panel_title">
+                        Depression
+                    </div>
+
+                    <div style="overflow-x: auto; overflow-y: auto;">
+                        <table class="table table-striped table-bordered table-responsive">
+                            <tbody>
+                            <tr>
+                                <th style=width:200px><h4>Formulation</h4></th>
+                                <th style=min-width:350px><h4>CLINICAL TRIALS</h4></th>
+                                <th><h4>ANZCTR</h4></th>
+                                <th><h4>STATUS</h4></th>
+                            </tr>
+
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/nrgbiotic">NRGBiotic</a></td>
                                 <td align="left">A Randomised Placebo Controlled Phase IIa Trial Investigating the role of Orotate and Probiotics Co-administered with Antidepressant Medications for the Management of Treatment Resistant Depression</td>
@@ -104,6 +164,26 @@
                                 <td align="left">A Phase I safety and exploratory end-point trial investigating the role of Probiotics and Magnesium Orotate [NRGBiotic] co-administered with Antidepressant Medications for the Management of Treatment Resistant Depression</td>
                                 <td align="left">-</td>
                                 <td align="left">Recruiting Closed</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="panel-heading medlab_panel_title">
+                        Contract for 3rd Parties
+                    </div>
+
+
+                    <div style="overflow-x: auto; overflow-y: auto;">
+                        <table class="table table-striped table-bordered table-responsive">
+                            <tbody>
+                            <tr>
+                                <th style=width:200px><h4>Formulation</h4></th>
+                                <th style=min-width:350px><h4>CLINICAL TRIALS</h4></th>
+                                <th><h4>ANZCTR</h4></th>
+                                <th><h4>STATUS</h4></th>
+                            </tr>
+
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/contract-1">Contract Clinical Study</a></td>
                                 <td align="left">A Phase IIa Double-Blind Placebo Controlled Clinical Trial Investigating the Efficacy and Safety of Arborvitae Health and Wellbeing Supplement in Improving Blood Glucose Levels in Pre-Diabetes Participants</td>
@@ -124,6 +204,9 @@
                                 <td align="left">Recruiting Closed</td>
 
                             </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
 
 
