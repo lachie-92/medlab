@@ -133,7 +133,7 @@
                     <h3>Consulting Care Plans</h3>
                     <ul>
                     @foreach ($user->consulting as $careplan)
-                        <li><a href="{{ route('account.careplan.consulting', $careplan->id) }}">{{ $careplan->patient->user->customer->name }}</a> ({{ $careplan->created_at->format('d/m/Y') }} &mdash; {{ $careplan->pivot->description }})</li>
+                        <li><a href="{{ route('account.careplan.consulting', [ 'plan' => $careplan->id, 'consultation' => $careplan->pivot->id]) }}">{{ $careplan->patient->user->customer->name }}</a> ({{ $careplan->created_at->format('d/m/Y') }} &mdash; {{ $careplan->pivot->description }})</li>
                     @endforeach
                     </ul>
                     @endif

@@ -188,9 +188,9 @@ class CarePlanController extends Controller
         }
     }
 
-    public function updateConsulting($careplan, Request $request) {
+    public function updateConsulting($careplan, $consultation, Request $request) {
         try {
-            $consulting_data = Careplan_Consultant::where('careplan_id', $careplan)->where('user_id', $this->user->id)->firstOrFail();
+            $consulting_data = Careplan_Consultant::where('id', $consultation)->where('careplan_id', $careplan)->where('user_id', $this->user->id)->firstOrFail();
         } catch (ModelNotFoundException $e) {
             return redirect()->route('account.careplan.index')->with([
                 'message' => 'Invalid Care Plan'
@@ -286,8 +286,11 @@ class CarePlanController extends Controller
      *
      * @param  integer $careplan Patient CarePlan primary key
      */
-    public function pageConsulting($careplan) {
-        $careplan = Patient_CarePlan::with('consultants')->findOrFail($careplan);
+    public function pageConsulting($careplan, $consultation) {
+        $careplan = Patient_CarePlan::with(['consultants' => function ($query) use ($consultation) {
+            $query->where('id', $consultation);
+        }])->findOrFail($careplan);
+
         if (! ($careplan->consultants->contains('user_id', $this->user->id))) throw new \Exception("Cannot update this careplan");
 
         $consultant_data = $careplan->consultants->where('user_id', $this->user->id)->first();

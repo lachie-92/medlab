@@ -1,4 +1,4 @@
-<form action="{{ route('account.careplan.updateConsulting', $careplan->id) }}" method="POST" id="careplan">
+<form action="{{ route('account.careplan.updateConsulting', [ 'plan' => $careplan->id, 'consultation' => $consultant_data->id]) }}" method="POST" id="careplan">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
     <div class="col-md-12 col-sm-12">
         <div class="panel panel-primary medlab_panel">
