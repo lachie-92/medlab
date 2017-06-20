@@ -157,7 +157,7 @@
                                 <td align="left"><a href="/research/clinical-trials/nrgbiotic">NRGBiotic</a></td>
                                 <td align="left">A Randomised Placebo Controlled Phase IIa Trial Investigating the role of Orotate and Probiotics Co-administered with Antidepressant Medications for the Management of Treatment Resistant Depression</td>
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12617000419369&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True&postcode=&distance=" target="_blank">ACTRN12617000419369</a></td>
-                                <td align="left">Recruiting</td>
+                                <td align="left"><a href="mailto:clinicaltrials@medlab.co?Subject=Clinical Trial Recruitment - ACTRN12617000419369">Recruiting</a></td>
                             </tr>
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/nrgbiotic-pilot">NRGBiotic [Pilot 2] </a></td>
@@ -188,7 +188,7 @@
                                 <td align="left"><a href="/research/clinical-trials/contract-1">Contract Clinical Study</a></td>
                                 <td align="left">A Phase IIa Double-Blind Placebo Controlled Clinical Trial Investigating the Efficacy and Safety of Arborvitae Health and Wellbeing Supplement in Improving Blood Glucose Levels in Pre-Diabetes Participants</td>
                                 <td align="left"><a href="https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=368098&isReview=true" target="_blank">ACTRN12615000233527</a></td>
-                                <td align="left">Recruiting</td>
+                                <td align="left"><a href="mailto:clinicaltrials@medlab.co?Subject=Clinical Trial Recruitment - ACTRN12615000233527">Recruiting</a></td>
 
                             </tr>
                             <tr>
