@@ -18,6 +18,7 @@ class CreateCareplanConsultantTable extends Migration
             $table->integer('user_id')->unsigned()->nullable();
             $table->string('user_email');
             $table->string('nonce', 32);
+            $table->string('description')->nullable();
 
             $table->longText('opportunity')->nullable();
             $table->longText('goal')->nullable();

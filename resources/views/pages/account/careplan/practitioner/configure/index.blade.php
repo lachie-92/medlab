@@ -51,6 +51,7 @@
                                 <thead>
                                     <tr>
                                         <th>Consultant address</th>
+                                        <th>Description</th>
                                         <th>Status</th>
                                     </tr>
                                 </thead>
@@ -58,6 +59,7 @@
                                     @foreach ($consultants as $consultant)
                                     <tr>
                                         <td>{{ isset($consultant->practitioner->user->email)?$consultant->practitioner->user->email:$consultant->user_email}}</td>
+                                        <td>{{ $consultant->description }}</td>
                                         <td>{{ isset($consultant->user_id)?'Active':'Pending'}}</td>
                                     </tr>
                                     @endforeach
@@ -66,9 +68,21 @@
                             <hr />
                             <h3>Invite consultant</h3>
                             <p>Enter the email address of the consulting physician you would like to share this Care Plan with. They will receive an invitation via email.</p>
-                            <form action="{{ route('account.careplan.configure.save', $careplan->id) }}" method="POST" id="patient-history">
+                            <form action="{{ route('account.careplan.configure.save', $careplan->id) }}" class="form-horizontal" method="POST" id="patient-history">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="email" class="form-control" placeholder="drhowser@gmail.com" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" name="description" class="form-control" placeholder="Consulting description" />
+                                    </div>
+                                </div>
+
                                 <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-                                <input type="text" name="email" placeholder="drhowser@gmail.com" />
                                 <input type="submit" name="_Btnnext" value="Save" id="Btnnext" class="btn btn-primary">
                             </form>
                         </div>

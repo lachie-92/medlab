@@ -71,6 +71,7 @@ class CarePlanController extends Controller
         $consultant = new Careplan_Consultant();
         $consultant->user_email = $request->get('email');
         $consultant->nonce = substr(hash('sha512', str_random()), 0, 32);
+        $consultant->description = $request->get('description');
         $careplan->consultants()->save($consultant);
 
         // Send the email

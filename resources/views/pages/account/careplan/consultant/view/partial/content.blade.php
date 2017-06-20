@@ -2,7 +2,7 @@
     <div class="panel panel-primary medlab_panel">
         <div class="panel-heading medlab_panel_title">
             <h3 class="panel-title pull-left">
-                Consultant Input
+                Consultant Input &mdash; {{ $consultant_data->description }}
             </h3>
             <div class="clearfix"></div>
         </div>
