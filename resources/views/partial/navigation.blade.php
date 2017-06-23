@@ -134,9 +134,9 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/investor">Investor Center</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX announcements</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/asx-announcements">ASX announcements</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/corporate-governance">Corporate Governance</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="http://clients3.weblink.com.au/Clients/medlab/charttabs.aspx" target="_blank">Share Price</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/share-price">Share Price</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
