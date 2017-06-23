@@ -533,7 +533,6 @@
                                 <a href="https://www.cosa.org.au/events/2017/11/cosas-44th-annual-scientific-meeting-2017.aspx" target="_blank">
                                     <img width="100%"  alt="ACNEM 2017" src="/img/news/COSA-ASM2017-08-e-sig-FINAL.png">
                                 </a>
-                                <p>Professor Luis Vitetta to present on Cancer Support and the Intestinal Microbiome</p>
                             </li>
 
                         </ul>
