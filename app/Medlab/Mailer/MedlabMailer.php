@@ -193,9 +193,9 @@ class MedlabMailer
 
         $this->mail->queue('emails.enquiry', $data, function($message) use ($enquiry, $to) {
 
-            $message->from($enquiry['email'])
+            $message->from("no-reply@medlab.co")
                 ->to($to)
-                ->subject('Medlab - Enquiry from ' . $enquiry['name']);
+                ->subject('Contact Us - Enquiry from ' . $enquiry['name'] );
         });
     }
 
