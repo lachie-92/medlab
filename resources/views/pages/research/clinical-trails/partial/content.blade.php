@@ -93,7 +93,7 @@
                                 <td align="left"><a href="/research/clinical-trials/nanocelle-insulin">NanoCelle Insulin</a></td>
                                 <td align="left">A Phase 0 Open-Labelled Clinical Trial to Investigate the Safety of a Micro-dose of Nanocelle Insulin Formulation Administered Oro-buccally in Healthy Adult Volunteers</td>
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12616001072404&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True&postcode=&distance=" target="_blank">ACTRN12616001072404</a></td>
-                                <td align="left">Recruiting Closed</td>
+                                <td align="left">Recruiting TBA</td>
                             </tr>
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/nanostat">NanoStat (NanoCelle Atorvastatin)</a></td>
@@ -126,13 +126,7 @@
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12613001378718&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12613001378718</a></td>
                                 <td align="left">Recruiting Closed</td>
                             </tr>
-                            <tr>
-                                <td align="left"><a href="/research/clinical-trials/magesium-orotate">Magnesium Orotate [Pilot 1] - nested within SAMe study [a major component in NRGBiotic]</a></td>
-                                <td align="left">S-adenosyl-L-methionine [SAMe] as an adjuvant to antidepressant medication in the treatment of resistant depression with a high risk of relapse </td>
-                                <td align="left">-</td>
-                                <td align="left">Recruiting Closed</td>
 
-                            </tr>
 
                             </tbody>
                         </table>
@@ -160,7 +154,14 @@
                                 <td align="left"><a href="mailto:clinicaltrials@medlab.co?Subject=Clinical Trial Recruitment - ACTRN12617000419369">Recruiting</a></td>
                             </tr>
                             <tr>
-                                <td align="left"><a href="/research/clinical-trials/nrgbiotic-pilot">NRGBiotic [Pilot 2] </a></td>
+                                <td align="left"><a href="/research/clinical-trials/magesium-orotate">Magnesium Orotate [First Pilot]</a></td>
+                                <td align="left">S-adenosyl-L-methionine [SAMe] as an adjuvant to antidepressant medication in the treatment of resistant depression with a high risk of relapse </td>
+                                <td align="left">-</td>
+                                <td align="left">Recruiting Closed</td>
+
+                            </tr>
+                            <tr>
+                                <td align="left"><a href="/research/clinical-trials/nrgbiotic-pilot">NRGBiotic [Second Pilot] </a></td>
                                 <td align="left">A Phase I safety and exploratory end-point trial investigating the role of Probiotics and Magnesium Orotate [NRGBiotic] co-administered with Antidepressant Medications for the Management of Treatment Resistant Depression</td>
                                 <td align="left">-</td>
                                 <td align="left">Recruiting Closed</td>
