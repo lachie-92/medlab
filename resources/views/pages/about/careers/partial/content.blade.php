@@ -22,13 +22,15 @@
                     <hr>
                     <h4>Positions Available</h4>
 
-                    <a href="#MarketingOfficer">Marketing Officer</a></br>
                     <!--
+                    <a href="#MarketingOfficer">Marketing Officer</a></br>
+
                     <a href="#PractitionerConsultantFieldRepWA">Practitioner Consultant Field Rep - South Perth, WA</a></br>
                     <a href="#PractitionerConsultantFieldRepQLD">Practitioner Consultant Field Rep - Brisbane, QLD</a></br>
+                    -->
                                         No positions currently available, for all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
 
-                    -->
+
 
 
 
@@ -126,7 +128,7 @@
 
 
 
--->
+
                     <a name="MarketingOfficer"></a>
                     <h3>Marketing Officer</h3>
                     <li>Full Time / Permanent</li>
@@ -179,7 +181,7 @@
                     <hr>
 
 
-                    <!--
+
                     <a name="ClientRelationshipManager"></a>
                     <h3>Client Relationship Manager</h3>
                     <li>Client Relationship Manager</li>
