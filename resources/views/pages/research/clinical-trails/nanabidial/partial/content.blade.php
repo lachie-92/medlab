@@ -39,13 +39,17 @@
 
                     <p>17/06/2017</p>
 
+                    <h3>CTN</h3>
+
+                    <p>CT‐2017‐CTN‐01923‐1</p>
+
                     <h3>ANZCTR  date submitted | date registered</h3>
 
-                    <p></p>
+                    <p>-</p>
 
                     <h3>ANZCTR</h3>
 
-                    <p></p>
+                    <p>-</p>
 
                     <h3>STATUS</h3>
 

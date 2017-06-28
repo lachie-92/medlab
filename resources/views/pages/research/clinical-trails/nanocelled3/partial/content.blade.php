@@ -37,6 +37,10 @@
 
                     <p>22/01/2014</p>
 
+                    <h3>CTN</h3>
+
+                    <p>-</p>
+
                     <h3>ANZCTR  date submitted | date registered</h3>
 
                     <p>28/7/2016 | 03/08/2016</p>

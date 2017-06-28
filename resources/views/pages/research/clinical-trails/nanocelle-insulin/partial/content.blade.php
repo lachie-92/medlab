@@ -37,9 +37,13 @@
 
                     <p>15/09/2015</p>
 
+                    <h3>CTN</h3>
+
+                    <p>-</p>
+
                     <h3>ANZCTR  date submitted | date registered</h3>
 
-                    <p></p>
+                    <p>-</p>
 
                     <h3>ANZCTR</h3>
 

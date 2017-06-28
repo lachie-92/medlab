@@ -35,7 +35,11 @@
 
                     <h3>CTN application submitted to TGA on</h3>
 
-                    <p></p>
+                    <p>-</p>
+
+                    <h3>CTN</h3>
+
+                    <p>CT-2014-CTN-00484-0-v1</p>
 
                     <h3>ANZCTR  date submitted | date registered</h3>
 

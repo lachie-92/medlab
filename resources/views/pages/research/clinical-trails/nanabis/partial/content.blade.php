@@ -38,6 +38,10 @@
 
                     <p>Pending</p>
 
+                    <h3>CTN</h3>
+
+                    <p>Pending</p>
+
                     <h3>ANZCTR  date submitted | date registered</h3>
 
                     <p>Pending</p>

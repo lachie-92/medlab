@@ -27,15 +27,19 @@
 
                     <h3>DATE of HREC approval</h3>
 
-                    <p></p>
+                    <p>-</p>
 
                     <h3>HREC Reference number</h3>
 
-                    <p></p>
+                    <p>-</p>
 
                     <h3>CTN application submitted to TGA on</h3>
 
-                    <p></p>
+                    <p>-</p>
+
+                    <h3>CTN</h3>
+
+                    <p>-</p>
 
                     <h3>ANZCTR  date submitted | date registered</h3>
 

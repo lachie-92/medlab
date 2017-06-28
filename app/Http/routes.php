@@ -115,6 +115,10 @@ Route::get('/nutraceuticals/nrgbiotic', function () {
     return view('pages.nutraceuticals.nrgbiotic.index');
 });
 
+Route::get('/nutraceuticals/developement', function () {
+    return view('pages.nutraceuticals.developement.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Shopping Cart
@@ -335,7 +339,7 @@ Route::get('/research/clinical-trials/nanocelled3', function () {
     return view('pages.research.clinical-trails.nanocelled3.index');
 });
 
-Route::get('/research/clinical-trials/contrac-2', function () {
+Route::get('/research/clinical-trials/contract-2', function () {
     return view('pages.research.clinical-trails.contract-2.index');
 });
 

@@ -23,7 +23,7 @@
 
                     <h3>NEAF initiated online on</h3>
 
-                    <p></p>
+                    <p>-</p>
 
                     <h3>DATE of HREC approval</h3>
 
@@ -36,6 +36,10 @@
                     <h3>CTN application submitted to TGA on</h3>
 
                     <p>05/05/2017</p>
+
+                    <h3>CTN</h3>
+
+                    <p> CT-2017-CTN-01080-1 v2 </p>
 
                     <h3>ANZCTR  date submitted | date registered</h3>
 

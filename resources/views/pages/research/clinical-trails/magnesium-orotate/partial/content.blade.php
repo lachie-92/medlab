@@ -35,15 +35,19 @@
 
                     <h3>CTN application submitted to TGA on</h3>
 
-                    <p></p>
+                    <p>-</p>
+
+                    <h3>CTN</h3>
+
+                    <p>-</p>
 
                     <h3>ANZCTR  date submitted | date registered</h3>
 
-                    <p></p>
+                    <p>-</p>
 
                     <h3>ANZCTR</h3>
 
-                    <p></p>
+                    <p>-</p>
 
                     <h3>STATUS</h3>
 

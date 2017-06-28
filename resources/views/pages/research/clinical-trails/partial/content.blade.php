@@ -121,7 +121,7 @@
                                 <th><h4>STATUS</h4></th>
                             </tr>
                             <tr>
-                                <td align="left"><a href="/research/clinical-trials/"t2-biotic>T2Biotic</a></td>
+                                <td align="left"><a href="/research/clinical-trials/t2-biotic">T2Biotic</a></td>
                                 <td align="left">The Effect of a Multi-strain Probiotic on Metabolic Biomarkers in Adults with Pre-diabetes and Recently Diagnosed with Type 2 Diabetes</td>
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12613001378718&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12613001378718</a></td>
                                 <td align="left">Recruiting Closed</td>
@@ -154,7 +154,7 @@
                                 <td align="left"><a href="mailto:clinicaltrials@medlab.co?Subject=Clinical Trial Recruitment - ACTRN12617000419369">Recruiting</a></td>
                             </tr>
                             <tr>
-                                <td align="left"><a href="/research/clinical-trials/magesium-orotate">Magnesium Orotate [First Pilot]</a></td>
+                                <td align="left"><a href="/research/clinical-trials/magnesium-orotate">Magnesium Orotate [First Pilot]</a></td>
                                 <td align="left">S-adenosyl-L-methionine [SAMe] as an adjuvant to antidepressant medication in the treatment of resistant depression with a high risk of relapse </td>
                                 <td align="left">-</td>
                                 <td align="left">Recruiting Closed</td>

@@ -118,12 +118,17 @@
                 </li>
                 <li class="dropdown">
                     <a href="/nutraceuticals/products" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
-                        Nutraceuticals
+                        Products
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
+                        <li><p align="center">Nutraceuticals</p></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/products">Name</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/categories">Categories</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/ingredients">Ingredients</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><p align="center">Pharmaceuticals</p></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/developement">Products in Developement</a></li>
+                        <li role="separator" class="divider"></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/praceducationalresource">Practitioner Educational Resource</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/nrgbiotic">NRGBiotic Showcase</a></li>
                     </ul>
