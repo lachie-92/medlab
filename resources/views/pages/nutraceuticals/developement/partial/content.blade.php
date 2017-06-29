@@ -22,7 +22,7 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Pharmaceutical Products In Developement
+                    Pharmaceutical Products In Development
                 </div>
                 <div class="panel-body medlab_panel_content">
 
@@ -31,7 +31,7 @@
                     <table class="table table-striped table-bordered table-responsive">
                         <tbody>
                         <tr>
-                            <td style=min-width:50px><h3>Nanabis<sup>TM</sup></h3></td>
+                            <td style=min-width:50px><h3>NanaBis<sup>TM</sup></h3></td>
                             <td style=min-width:50px>
                                 <p><font size="3" color="#7AA43F">Status:</font> In clinical Trial</p>
                                 <p><font size="3" color="#7AA43F">Purpose:</font> Adjuvant and/or replacement therapy to opioids in advanced cancer pain</p>
@@ -40,7 +40,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style=min-width:50px><h3>Nanabidial<sup>TM</sup></h3></td>
+                            <td style=min-width:50px><h3>NanaBidial<sup>TM</sup></h3></td>
                             <td style=min-width:50px>
                                 <p><font size="3" color="#7AA43F">Status:</font> In clinical trial</p>
                                 <p><font size="3" color="#7AA43F">Purpose:</font> For CINV and seizures</p>
@@ -49,7 +49,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style=min-width:50px><h3>Nanostat<sup>TM</sup></h3></td>
+                            <td style=min-width:50px><h3>NanoStat<sup>TM</sup></h3></td>
                             <td style=min-width:50px>
                                 <p><font size="3" color="#7AA43F">Status:</font> In Bio-equivelance</p>
                                 <p><font size="3" color="#7AA43F">Purpose:</font> For the treament of elevated cholestrol</p>
@@ -68,7 +68,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style=min-width:50px><h3>Nanotest<sup>TM</sup></h3></td>
+                            <td style=min-width:50px><h3>NanoTest<sup>TM</sup></h3></td>
                             <td style=min-width:50px>
                                 <p><font size="3" color="#7AA43F">Status:</font> HREC approval trial forthcoming</p>
                                 <p><font size="3" color="#7AA43F">Purpose:</font> For increasing low testosterone levels in men</p>
