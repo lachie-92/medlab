@@ -55,43 +55,57 @@ class UpdateDeal extends Command
 
         $buy_one_get_one_free_deals = [
 
-            //Till End of May
+            //Till End of July
             [
-                'product' => "BioClean EPA:DHA + CoQ10 120s",
-                'name' => "May 2017 Deals",
+                'product' => "Enbiotic 60's",
+                'name' => "July 2017 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
+                'description' => 'Buy 5 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2017 23:59:59'),
-                'minimum_qty' => '4',
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2017 23:59:59'),
+                'minimum_qty' => '5',
                 'bonus_qty' => '1'
             ],
             [
-                'product' => "BioClean EPA:DHA + CoQ10 60s",
-                'name' => "May 2017 Deals",
+                'product' => "GastroDaily",
+                'name' => "July 2017 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
+                'description' => 'Buy 5 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2017 23:59:59'),
-                'minimum_qty' => '4',
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2017 23:59:59'),
+                'minimum_qty' => '5',
                 'bonus_qty' => '1'
             ],
             [
-                'product' => "NRGBiotic 60's",
-                'name' => "May 2017 Deals",
+                'product' => "ORSBiotic",
+                'name' => "July 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 5 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2017 23:59:59'),
+                'minimum_qty' => '5',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "12Mg Optima Relax 10pk Sachets Lemon Lime",
+                'name' => "July 2017 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2017 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2017 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
             ]
+
+
         ];
 
         $discount_deals = [
