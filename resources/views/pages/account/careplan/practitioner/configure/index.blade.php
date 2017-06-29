@@ -76,7 +76,7 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                                    <label for="inputPassword3" class="col-sm-2 control-label">Description</label>
                                     <div class="col-sm-10">
                                         <input type="text" name="description" class="form-control" placeholder="Consulting description" />
                                     </div>
