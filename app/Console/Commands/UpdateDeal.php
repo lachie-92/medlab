@@ -110,30 +110,6 @@ class UpdateDeal extends Command
 
         $discount_deals = [
 
-            //Till End of May
-            [
-                'product' => "Biotic Jnr.",
-                'name' => "May 2017 Deals",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '2-Step Natal Bundle',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2017 23:59:59'),
-                'discount_percentage' => '27.86'
-            ],
-            [
-                'product' => "BioticNatal",
-                'name' => "May 2017 Deals",
-                'type' => "price_discount",
-                'apply_to_group' => 'Practitioner',
-                'description' => '2-Step Natal Bundle',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/05/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/05/2017 23:59:59'),
-                'discount_percentage' => '24.9'
-            ],
-
             //Till End of June
             [
                 'product' => "Immune-5 Raspberry",
@@ -212,6 +188,19 @@ class UpdateDeal extends Command
                 'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/06/2017 00:00:00'),
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/06/2017 23:59:59'),
                 'discount_percentage' => '25'
+            ],
+
+            //Till End of July
+            [
+                'product' => "NanoCelle D3",
+                'name' => "Short Dated Stock Deal",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '40% off (3 Month until Expiry)',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2017 23:59:59'),
+                'discount_percentage' => '40'
             ],
 
         ];
