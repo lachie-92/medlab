@@ -36,7 +36,7 @@
                                 <td align="left"><a href="/research/clinical-trials/nanabis">NanaBis (NanoCelle CBD/THC)</a></td>
                                 <td align="left">The buccal administration of a Cannabis sativa L. extract as an adjunct to opioid analgesia for the management of intractable pain in patients diagnosed with advanced cancer: a safety, tolerability and exploratory end-point pilot study</td>
                                 <td align="left">Pending</td>
-                                <td align="left">Recruiting to begin in September / October 2017</td>
+                                <td align="left">Recruiting TBA</td>
                             </tr>
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/nanabidial">NanaBidial (NanoCelle CBD)</a></td>
@@ -44,7 +44,7 @@
                                     Progressed to…
                                     Pharmacokinetic Pilot Study: The buccal administration of a nanocelle™CBD only preparation to healthy volunteers: a safety, tolerability and pharmacokinetic exploratory pilot study.</td>
                                 <td align="left"></td>
-                                <td align="left">Progressed from a Phase 0 to a Pharmacokinetic Pilot Study Recruiting to begin in September / October 2017</td>
+                                <td align="left">Recruting Closed</td>
                             </tr>
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/nanabidial-2">NanaBidial (NanoCelle CBD)</a></td>
@@ -99,7 +99,7 @@
                                 <td align="left"><a href="/research/clinical-trials/nanostat">NanoStat (NanoCelle Atorvastatin)</a></td>
                                 <td align="left">Initial Application Study: A phase 0 open-labeled clinical trial to investigate the safety of a micro-dose* of a nanocelle Atorvastatin formulation administered oro-bucally in healthy adult volunteers. Progressed to… Bioequivalence Phase I Study: A single dose, open label, balanced, randomised, two-treatment, two period, two sequence, two-way crossover pilot study comparing the pharmacokinetics of 1 x 8 mg atorvastatin oral spray (Medlab Clinical, Australia) with 1 x 20 mg Lipitor® tablet (Pfizer, Australia) in healthy subjects under fasting conditions.</td>
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12615001285549&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True" target="_blank">ACTRN12615001285549</a></td>
-                                <td align="left">Phase 0 study progressed to a bioequivalence Phase I study. Recruiting to begin in July 2017</td>
+                                <td align="left">Recruiting TBA</td>
                             </tr>
 
                             </tbody>
