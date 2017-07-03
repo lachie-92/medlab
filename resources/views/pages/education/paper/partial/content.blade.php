@@ -27,7 +27,13 @@
                             <strong>2017:</strong>
                         </span>
                     </p>
-
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28665349" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                </strong>Saltzman ET, Thomsen M, Hall S, Vitetta L.</strong> Perna canaliculus and the Intestinal Microbiome. <em>Mar Drugs 2017 Jun 30;15(7).</em>
+                            </span>
+                        </a>
+                    </p>
                     <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/28573069" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
