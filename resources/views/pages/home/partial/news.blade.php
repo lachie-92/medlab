@@ -516,8 +516,14 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
 
-
-
+                            <li class="medlab_news_sidebar_list_item">
+                                <div class="medlab_news_sidebar_list_item_title">
+                                    <a href="http://www.a5m.net/conference-information/a5m17-annual-conference" target="_blank">The 11th Annual Anti-Ageing & Aesthetics Medicine Conference 2017</a>
+                                </div>
+                                <a href="http://www.a5m.net/conference-information/a5m17-annual-conference" target="_blank">
+                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/guthealthconference.png">
+                                </a>
+                            </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <div class="medlab_news_sidebar_list_item_title">
                                     <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">Lifestyle Medicine 2017</a>
