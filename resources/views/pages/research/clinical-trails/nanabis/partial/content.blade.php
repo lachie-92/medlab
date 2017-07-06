@@ -44,7 +44,7 @@
 
                     <h3>ANZCTR  date submitted | date registered</h3>
 
-                    <p>Pending</p>
+                    <p>CT-2017-CTN-02369-1 v1</p>
 
                     <h3>ANZCTR</h3>
 
