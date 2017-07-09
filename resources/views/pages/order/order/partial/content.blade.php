@@ -25,9 +25,9 @@
                         <li>
                             <a class="medlab_panel_content_link" href="/order/shipping-and-delivery">Shipping & Delivery</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a class="medlab_panel_content_link" href="/order/website-access-and-registration-benefits">Website Access & Registration Benefits</a>
-                        </li>
+                        </li>-->
                         <li>
                             <a class="medlab_panel_content_link" href="/order/returns">Returns & Replacements</a>
                         </li>
