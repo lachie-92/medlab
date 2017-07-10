@@ -24,9 +24,9 @@
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/ingredients">View by Ingredients</a>
                         </li>
-                        <li>
+                        <!--<li>
                             <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/faq">Product FAQ</a>
-                        </li>
+                        </li>-->
                     </ul>
 
 
