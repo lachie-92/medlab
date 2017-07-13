@@ -121,7 +121,7 @@
                                         16 Stanley Street<br>
                                         Central, Hong Kong<br>
                                     </address>
-                                    <a href="http://www.inl.asia/" class="btn btn-info" target="_blank" role="button">Visit Auswell's Website</a>
+                                    <a href="http://www.inl.asia/" class="btn btn-info" target="_blank" role="button">Visit Integrated Medicine Institute's Website</a>
 
                                 </div>
                                 <div class="modal-footer">
