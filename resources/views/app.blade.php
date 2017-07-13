@@ -31,6 +31,12 @@
         heap.load("700872772");
     </script>
 
+    <link rel="stylesheet" type="text/css" href="/css/map-style.css" />
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/map-config.js" type="text/javascript"></script>
+    <script src="/js/pin-config.js" type="text/javascript"></script>
+    <script src="/js/map-interact.js" type="text/javascript"></script>
+
 </head>
 
 <body>

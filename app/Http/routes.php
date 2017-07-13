@@ -543,3 +543,7 @@ Route::get('/nutraceuticals/products/{productSlug}/info/{language}', 'Practition
 Route::get('/contact', 'ContactController@getShowContactInformation');
 
 Route::post('/contact', 'ContactController@postSendEnquiryEmail');
+
+Route::get('/contact/map', function () {
+    return view('pages.contact.map.index');
+});
