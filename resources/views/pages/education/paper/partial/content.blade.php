@@ -101,6 +101,15 @@
                     -->
 
                     <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/26239363" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Ellis RJ, Small DM, Vesey DA, Johnson DW, Francis R, Vitetta L, Gobe GC, Morais C. </strong>
+                                Indoxyl sulphate and kidney disease: Causes, consequences and interventions.
+                                <em>Nephrology (Carlton). 2016 Mar;21(3):170-7.</em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/27854317" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Vitetta L, Saltzman ET, Nikov T, Ibrahim I, Hall S. </strong>
