@@ -3,6 +3,8 @@
 -- Letter from CEO
 --
 ------------------------------------------------------------------------------------->
+<span id="map-tip"></span>
+
 <div class="container medlab_panel_container">
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
@@ -185,7 +187,6 @@
                     </div>
 
 
-                    <span id="map-tip"></span>
                     <div id="mapwrapper">
                         <div id="map_base">
                             <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" xml:space="preserve">
