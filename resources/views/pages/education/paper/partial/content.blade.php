@@ -486,6 +486,22 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>2017:</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Talia Palacios, Ian Caterson, Claire Madigan, Luis Vitetta. </strong>
+                            The Efficacy Of A Novel Probiotic On Glucose Metabolism: A Randomised Controlled Trial.
+                            The 4th Latin America Congress on Controversies to Consensus in Diabetes, Obesity and Hypertension.  Buenos Aires, Argentina 2017 Mar 16-18.
+                        </span>
+                    </p>
+
+
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>2016:</strong>
                         </span>
                     </p>
