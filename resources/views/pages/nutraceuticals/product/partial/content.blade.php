@@ -261,7 +261,7 @@
                             <div class="col-md-offset-2 col-sm-offset-2">
                                 <div class="panel-body medlab_panel_content" style="text-align: justify">
 
-                                    <button type="button" class="btn btn-primary practitioner_info_btn" link="/education/practitioner-education/{{ $product->slug }}">IMPORTANT PRACTIONER EDUCATIONAL INFORMATION HERE</button>
+                                    <button type="button" class="btn btn-primary practitioner_info_btn" link="/education/practitioner-education/{{ $product->slug }}">IMPORTANT PRACTITIONER EDUCATIONAL INFORMATION HERE</button>
 
                                 </div>
                             </div>
