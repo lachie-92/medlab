@@ -534,6 +534,14 @@
                             </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <div class="medlab_news_sidebar_list_item_title">
+                                    <a href="https://www.probiotaevent.com/probiota-asia/" target="_blank">ProBiota Asia 2017</a>
+                                </div>
+                                <a href="https://www.probiotaevent.com/probiota-asia/" target="_blank">
+                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/Probiota-Asia-2017-Master-logo.jpg">
+                                </a>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <div class="medlab_news_sidebar_list_item_title">
                                     <a href="https://www.cosa.org.au/events/2017/11/cosas-44th-annual-scientific-meeting-2017.aspx" target="_blank">COSA’s 44th Annual Scientific Meeting</a>
                                 </div>
                                 <a href="https://www.cosa.org.au/events/2017/11/cosas-44th-annual-scientific-meeting-2017.aspx" target="_blank">
