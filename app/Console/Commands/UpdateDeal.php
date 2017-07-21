@@ -196,10 +196,21 @@ class UpdateDeal extends Command
                 'name' => "Short Dated Stock Deal",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '40% off (4 Months until Expiry)',
+                'description' => '40% off (Nov 2017 Expiry)',
                 'isActive' => true,
                 'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2017 23:59:59'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2017 23:59:59'),
+                'discount_percentage' => '40'
+            ],
+            [
+                'product' => "NanoCelle Activated B12",
+                'name' => "Short Dated Stock Deal",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '40% off (Dec 2017 Expiry)',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/07/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2017 23:59:59'),
                 'discount_percentage' => '40'
             ],
 
