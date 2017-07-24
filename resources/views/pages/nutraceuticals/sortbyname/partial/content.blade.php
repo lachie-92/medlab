@@ -53,6 +53,32 @@
                                             @endif
                                         @endif
                                     @endforeach
+
+                                    <!-- Timed -->
+                                    <?php
+                                        $july = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-07-01 00:00:00');
+                                        $oct_eom_date = \Carbon\Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2017 23:59:59');
+                                        $nov_eom_date = \Carbon\Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2017 23:59:59');
+                                    ?>
+                                    @if (Auth::guest() == false)
+                                        @if (Auth::user()->group == "Patient")
+                                            @if ($product->product_name_index == "NanoCelle D3")
+                                                @if (\Carbon\Carbon::now()->between($july->copy()->startOfMonth(), $oct_eom_date->copy()->endOfMonth()))
+                                                    <div class="alert alert-danger" role="alert" style="margin-bottom:3px;">
+                                                        <b>Expires Nov 2017</b>
+                                                    </div>
+                                                @endif
+                                            @endif
+                                            @if ($product->product_name_index == "NanoCelle Activated B12")
+                                                @if (\Carbon\Carbon::now()->between($july->copy()->startOfMonth(), $nov_eom_date->copy()->endOfMonth()))
+                                                    <div class="alert alert-danger" role="alert" style="margin-bottom:3px;">
+                                                        <b>Expires Dec 2017</b>
+                                                    </div>
+                                                @endif
+                                            @endif
+                                        @endif
+                                    @endif
+
                                 </div>
                                 <div class="col-md-3 col-sm-3 col-xs-12">
                                     <div class="medlab_product_list_main_shopping_box">

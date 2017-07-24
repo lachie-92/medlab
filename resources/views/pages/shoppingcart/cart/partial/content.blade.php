@@ -68,6 +68,33 @@
                             @foreach ($item['promotions'] as $promotion)
                                 @include('pages.shoppingcart.cart.partial.' . $promotion['type'])
                             @endforeach
+
+                            <!-- Timed -->
+                            <?php
+                                $product = $item['product'];
+                                $july = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-07-01 00:00:00');
+                                $oct_eom_date = \Carbon\Carbon::createFromFormat('d/m/Y H:i:s', '31/10/2017 23:59:59');
+                                $nov_eom_date = \Carbon\Carbon::createFromFormat('d/m/Y H:i:s', '30/11/2017 23:59:59');
+                            ?>
+                            @if (Auth::guest() == false)
+                                @if (Auth::user()->group == "Patient")
+                                    @if ($product->product_name_index == "NanoCelle D3")
+                                        @if (\Carbon\Carbon::now()->between($july->copy()->startOfMonth(), $oct_eom_date->copy()->endOfMonth()))
+                                            <p style="color:red">
+                                                Expires Nov 2017
+                                            </p>
+                                        @endif
+                                    @endif
+                                    @if ($product->product_name_index == "NanoCelle Activated B12")
+                                        @if (\Carbon\Carbon::now()->between($july->copy()->startOfMonth(), $nov_eom_date->copy()->endOfMonth()))
+                                            <p style="color:red">
+                                                Expires Dec 2017
+                                            </p>
+                                        @endif
+                                    @endif
+                                @endif
+                            @endif
+
                         </td>
                         <td width="30%" style="vertical-align: middle">
                             <form method="post" action="/shoppingcart/update">
