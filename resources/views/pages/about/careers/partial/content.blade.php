@@ -22,14 +22,14 @@
                     <hr>
                     <h4>Positions Available</h4>
 
-                    <!--
-                    <a href="#MarketingOfficer">Marketing Officer</a></br>
 
+                    <a href="#MarketingOfficer">Marketing Officer</a></br>
+                    <!--
                     <a href="#PractitionerConsultantFieldRepWA">Practitioner Consultant Field Rep - South Perth, WA</a></br>
                     <a href="#PractitionerConsultantFieldRepQLD">Practitioner Consultant Field Rep - Brisbane, QLD</a></br>
-                    -->
-                                        No positions currently available, for all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
 
+                    No positions currently available, for all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
+                    -->
 
 
 
@@ -125,7 +125,7 @@
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change.....</p>
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Trial Coordinator">recruit@medlab.co</a></p>
                     <hr>
-
+                    -->
 
 
 
@@ -134,7 +134,7 @@
                     <li>Full Time / Permanent</li>
                     <li>Based in Alexandria, Sydney</li></br>
                     <p>Due to a rapid increase in market share we are seeking a highly ambitious and energetic Marketer to join our extremely motivated and successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
-                    <p>We are not looking for “just anyone”, we are looking for a person with a keen insight to understanding our business, a desire to grow and to prove to the competition that they are market leaders.</p>
+                    <p>We are looking for a person with a keen insight to understanding our business, a desire to grow and to prove to the competition that they are market leaders.</p>
                     <p>If you think you are a cut above the rest, then Medlab could be the place you are looking for.</p>
 
                     <h4>Who is Medlab Clinical?</h4>
@@ -180,6 +180,7 @@
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Marketing Officer">recruit@medlab.co</a></p>
                     <hr>
 
+                    <!--
 
 
                     <a name="ClientRelationshipManager"></a>
