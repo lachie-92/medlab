@@ -379,22 +379,22 @@
                                             <hr size="6">
                                     </div>
                                     <div class="row">
-                                            <div class="col-md-3 col-sm-3">
+                                            <div class="col-md-6 col-sm-6">
                                                 <label style="color:#1E5494">
                                                     What is your current or past occupation?
                                                 </label>
                                             </div>
-                                            <div class="col-md-3 col-sm-3">
+                                            <div class="col-md-6 col-sm-6">
                                                 <input name="personalhistory_occupation" type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} id="personalhistory_occupation" class="form-control" value="{{ array_get($intake, 'personalhistory_occupation') }}">
                                             </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col-md-3 col-sm-3">
+                                        <div class="col-md-6 col-sm-6">
                                             <label>
                                                 Are you currently working?
                                             </label>
                                         </div>
-                                        <div class="col-md-3 col-sm-3">
+                                        <div class="col-md-6 col-sm-6">
 
                                             <table id="rdwrk">
                                                 <tbody><tr>
@@ -402,10 +402,10 @@
                                                 </tr>
                                                 </tbody></table>
                                         </div>
-                                        <div class="col-md-1 col-sm-1">
+                                        <div class="col-md-6 col-sm-6">
                                             <label>Hours/week</label>
                                         </div>
-                                        <div class="col-md-3 col-sm-3">
+                                        <div class="col-md-6 col-sm-6">
                                             <input name="personalhistory_workinghours" type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} id="personalhistory_workinghours" class="form-control" value="{{ array_get($intake, 'personalhistory_workinghours') }}">
                                             </div>
                                         <div class="col-md-2 col-sm-2">
@@ -414,12 +414,12 @@
                                     </div>
 
                                     <div class="row">
-                                        <div class="col-md-3 col-sm-3">
+                                        <div class="col-md-6 col-sm-6">
                                             <label>
                                                 If not, are you?
                                             </label>
                                         </div>
-                                        <div class="col-md-3 col-sm-3">
+                                        <div class="col-md-6 col-sm-6">
                                             <input id="personalhistory_statusretired" type="hidden" name="personalhistory_statusretired" value="{{ array_get($intake, 'personalhistory_statusretired', 0) }}" />
                                             <input type="checkbox" {{ isset($readOnly)?'disabled="disabled"':'' }} id="_personalhistory_statusretired" class="shadowCheckbox" name="_personalhistory_statusretired" value="1" {{ array_get($intake, 'personalhistory_statusretired')=="1"?'checked="checked"':"" }}><label for="personalhistory_statusretired">retired</labe>
                                             <input id="personalhistory_statusdisabled" type="hidden" name="personalhistory_statusdisabled" value="{{ array_get($intake, 'personalhistory_statusdisabled', 0) }}" />
@@ -442,12 +442,12 @@
                                             <hr size="6">
                                     </div>
                                     <div class="row">
-                                            <div class="col-md-4 col-sm-4">
+                                            <div class="col-md-6 col-sm-6">
                                                 <label style="color:#1E5494">
                                                     Do you receive disability or pension?
                                                 </label>
                                             </div>
-                                            <div class="col-md-3 col-sm-3">
+                                            <div class="col-md-6 col-sm-6">
                                                 <table id="rdpension" onchange="Check2()">
                                                     <tbody><tr>
                                                         <td><input id="personalhistory_disabilitypension_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_disabilitypension" value="1"  {{ array_get($intake, 'personalhistory_disabilitypension')==1?'checked="checked"':"" }}><label for="personalhistory_disabilitypension_0">Yes</label></td><td><input id="personalhistory_disabilitypension_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_disabilitypension" value="0" {{ array_get($intake, 'personalhistory_disabilitypension')==0?'checked="checked"':"" }}><label for="personalhistory_disabilitypension_1">No</label></td>
@@ -457,23 +457,23 @@
                                             <div class="col-md-5"></div>
                                     </div>
                                     <div class="row">
-                                            <div class="col-md-4 col-sm-4">
+                                            <div class="col-md-6 col-sm-6">
                                                 <label>
                                                     If yes, for what disability and how long?
                                                 </label>
                                             </div>
-                                            <div class="col-md-3 col-sm-3">
+                                            <div class="col-md-6 col-sm-6">
                                                 <input name="personalhistory_disabilitypension_detail" type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} id="personalhistory_disabilitypension_detail" class="form-control" value="{{ array_get($intake, 'personalhistory_disabilitypension_detail') }}">
                                             </div>
                                             <div class="col-md-5"></div>
                                         </div>
                                     <div class="row">
-                                        <div class="col=md-3 col-sm-3">
+                                        <div class="col=md-6 col-sm-6">
                                             <label>
                                                 Religion
                                             </label>
                                         </div>
-                                        <div class="col-md-3 col-sm-3">
+                                        <div class="col-md-6 col-sm-6">
                                             <select name="personalhistory_religion" id="personalhistory_religion" class="form-control" {{ isset($readOnly)?'disabled="disabled"':'' }}>
                                                 <option value="--Select Religion--">--Select Religion--</option>
                                                 <option value="Hinduism" {{ array_get($intake, 'personalhistory_religion')=="Hinduism"?'selected="selected"':"" }}>Hinduism</option>

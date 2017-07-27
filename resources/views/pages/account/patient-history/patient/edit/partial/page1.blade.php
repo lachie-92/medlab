@@ -184,7 +184,7 @@
                             <div class="row">
                                 <div class="col-md-12 col-sm-12">
                                     <label style="color: #1E5494">
-                                        Please list the names of other practitioners you regularly or routinely see (eg, Family Doctor)
+                                        Please list the names of any practitioners you regularly or routinely see (eg, Family Doctor)
                                     </label>
                                 </div>
                             </div>
@@ -196,16 +196,28 @@
                                     <input name="practitioner1_name" type="text" id="practitioner1_name" class="form-control" value="{{ array_get($intake, 'practitioner1_name') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
                                 </div>
                                 <div class="col-md-2 col-sm-2">
-                                    <label>Town/State/Country</label>
+                                    <label>State</label>
                                 </div>
                                 <div class="col-md-2 col-sm-2">
-                                    <input name="practitioner1_address" type="text" id="practitioner1_address" class="form-control" value="{{ array_get($intake, 'practitioner1_address') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                    <input name="practitioner1_state" type="text" id="practitioner1_state" class="form-control" value="{{ array_get($intake, 'practitioner1_state') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
                                 </div>
                                 <div class="col-md-2 col-sm-2">
-                                    <label>Ph/Email</label>
+                                    <label>Post Code</label>
                                 </div>
                                 <div class="col-md-2 col-sm-2">
-                                    <input name="practitioner1_contact" type="text" id="practitioner1_contact" class="form-control" value="{{ array_get($intake, 'practitioner1_contact') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                    <input name="practitioner1_postcode" type="text" id="practitioner1_postcode" class="form-control" value="{{ array_get($intake, 'practitioner1_postcode') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                    <label>Phone</label>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                    <input name="practitioner1_phone" type="text" id="practitioner1_phone" class="form-control" value="{{ array_get($intake, 'practitioner1_phone') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                    <label>Email</label>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                    <input name="practitioner1_email" type="text" id="practitioner1_email" class="form-control" value="{{ array_get($intake, 'practitioner1_email') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
                                 </div>
                             </div>
                             <br>
@@ -217,16 +229,28 @@
                                     <input name="practitioner2_name" type="text" id="practitioner2_name" class="form-control" value="{{ array_get($intake, 'practitioner2_name') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
                                 </div>
                                 <div class="col-md-2 col-sm-2">
-                                    <label>Town/State/Country</label>
+                                    <label>State</label>
                                 </div>
                                 <div class="col-md-2 col-sm-2">
-                                    <input name="practitioner1_address" type="text" id="practitioner1_address" class="form-control" value="{{ array_get($intake, 'practitioner1_address') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                    <input name="practitioner1_state" type="text" id="practitioner1_state" class="form-control" value="{{ array_get($intake, 'practitioner1_state') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
                                 </div>
                                 <div class="col-md-2 col-sm-2">
-                                    <label>Ph/Email</label>
+                                    <label>Post Code</label>
                                 </div>
                                 <div class="col-md-2 col-sm-2">
-                                    <input name="practitioner2_contact" type="text" id="practitioner2_contact" class="form-control" value="{{ array_get($intake, 'practitioner2_contact') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                    <input name="practitioner2_postcode" type="text" id="practitioner2_postcode" class="form-control" value="{{ array_get($intake, 'practitioner2_postcode') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                    <label>Phone</label>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                    <input name="practitioner2_phone" type="text" id="practitioner2_phone" class="form-control" value="{{ array_get($intake, 'practitioner2_phone') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                    <label>Email</label>
+                                </div>
+                                <div class="col-md-2 col-sm-2">
+                                    <input name="practitioner2_email" type="text" id="practitioner2_email" class="form-control" value="{{ array_get($intake, 'practitioner2_email') }}"{{ isset($readOnly)?'disabled="disabled"':'' }}>
                                 </div>
                             </div>
                             <br>
@@ -247,12 +271,12 @@
                     </div>
                     <div class="row">
 
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-6 col-sm-6">
                             <label>
                                 Have you ever had ECT?
                             </label>
                         </div>
-                        <div class="col-md-2 col-sm-2">
+                        <div class="col-md-6 col-sm-6">
 
                             <table id="history_ect">
                             <tbody><tr>
@@ -260,12 +284,12 @@
                             </tr>
                             </tbody></table>
                         </div>
-                        <div class="col-md-4 col-sm-4">
+                        <div class="col-md-6 col-sm-6">
                             <label>
                                 Have you had psychotherapy?
                             </label>
                         </div>
-                        <div class="col-md-3 col-sm-3">
+                        <div class="col-md-6 col-sm-6">
 
                             <table id="history_psychotherapy">
                             <tbody><tr>
@@ -310,101 +334,70 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-12 col-sm-12">
-                                        <label>
-                                            Name Of Drug, Dose (include strength &amp; number of pills per day), How long have you been taking this?</label>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            1/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug1" rows="2" cols="20" id="currentmedications_drug1" class="form-control">{{ array_get($intake, 'currentmedications_drug1') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1"></div>
+                                    <div class="col-md-3">Medication Name</div>
+                                    <div class="col-md-3">Dose (strength &amp; amount per day)</div>
+                                    <div class="col-md-3">How long have you been using this?</div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            2/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug2" rows="2" cols="20" id="currentmedications_drug2" class="form-control">{{ array_get($intake, 'currentmedications_drug2') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">1.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name1" rows="2" cols="20" id="currentmedications_name1" class="form-control">{{ array_get($intake, "currentmedications_name1") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose1" rows="2" cols="20" id="currentmedications_dose1" class="form-control">{{ array_get($intake, "currentmedications_dose1") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration1" rows="2" cols="20" id="currentmedications_duration1" class="form-control">{{ array_get($intake, "currentmedications_duration1") }}</textarea></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            3/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug3" rows="2" cols="20" id="currentmedications_drug3" class="form-control">{{ array_get($intake, 'currentmedications_drug3') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">2.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name2" rows="2" cols="20" id="currentmedications_name2" class="form-control">{{ array_get($intake, "currentmedications_name2") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose2" rows="2" cols="20" id="currentmedications_dose2" class="form-control">{{ array_get($intake, "currentmedications_dose2") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration2" rows="2" cols="20" id="currentmedications_duration2" class="form-control">{{ array_get($intake, "currentmedications_duration2") }}</textarea></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            4/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug4" rows="2" cols="20" id="currentmedications_drug4" class="form-control">{{ array_get($intake, 'currentmedications_drug4') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">3.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name3" rows="2" cols="20" id="currentmedications_name3" class="form-control">{{ array_get($intake, "currentmedications_name3") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose3" rows="2" cols="20" id="currentmedications_dose3" class="form-control">{{ array_get($intake, "currentmedications_dose3") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration3" rows="2" cols="20" id="currentmedications_duration3" class="form-control">{{ array_get($intake, "currentmedications_duration3") }}</textarea></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            5/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug5" rows="2" cols="20" id="currentmedications_drug5" class="form-control">{{ array_get($intake, 'currentmedications_drug5') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">4.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name4" rows="2" cols="20" id="currentmedications_name4" class="form-control">{{ array_get($intake, "currentmedications_name4") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose4" rows="2" cols="20" id="currentmedications_dose4" class="form-control">{{ array_get($intake, "currentmedications_dose4") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration4" rows="2" cols="20" id="currentmedications_duration4" class="form-control">{{ array_get($intake, "currentmedications_duration4") }}</textarea></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            6/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug6" rows="2" cols="20" id="currentmedications_drug6" class="form-control">{{ array_get($intake, 'currentmedications_drug6') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">5.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name5" rows="2" cols="20" id="currentmedications_name5" class="form-control">{{ array_get($intake, "currentmedications_name5") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose5" rows="2" cols="20" id="currentmedications_dose5" class="form-control">{{ array_get($intake, "currentmedications_dose5") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration5" rows="2" cols="20" id="currentmedications_duration5" class="form-control">{{ array_get($intake, "currentmedications_duration5") }}</textarea></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            7/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug7" rows="2" cols="20"id="currentmedications_drug7" class="form-control">{{ array_get($intake, 'currentmedications_drug7') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">6.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name6" rows="2" cols="20" id="currentmedications_name6" class="form-control">{{ array_get($intake, "currentmedications_name6") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose6" rows="2" cols="20" id="currentmedications_dose6" class="form-control">{{ array_get($intake, "currentmedications_dose6") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration6" rows="2" cols="20" id="currentmedications_duration6" class="form-control">{{ array_get($intake, "currentmedications_duration6") }}</textarea></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            8/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug8" rows="2" cols="20" id="currentmedications_drug8" class="form-control">{{ array_get($intake, 'currentmedications_drug8') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">7.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name7" rows="2" cols="20" id="currentmedications_name7" class="form-control">{{ array_get($intake, "currentmedications_name7") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose7" rows="2" cols="20" id="currentmedications_dose7" class="form-control">{{ array_get($intake, "currentmedications_dose7") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration7" rows="2" cols="20" id="currentmedications_duration7" class="form-control">{{ array_get($intake, "currentmedications_duration7") }}</textarea></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            9/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug9" rows="2" cols="20" id="currentmedications_drug9" class="form-control">{{ array_get($intake, 'currentmedications_drug9') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">8.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name8" rows="2" cols="20" id="currentmedications_name8" class="form-control">{{ array_get($intake, "currentmedications_name8") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose8" rows="2" cols="20" id="currentmedications_dose8" class="form-control">{{ array_get($intake, "currentmedications_dose8") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration8" rows="2" cols="20" id="currentmedications_duration8" class="form-control">{{ array_get($intake, "currentmedications_duration8") }}</textarea></div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-1 col-sm-1">
-                                        <label>
-                                            10/.</label>
-                                    </div>
-                                    <div class="col-md-11 col-sm-11">
-                                        <textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_drug10" rows="2" cols="20" id="currentmedications_drug10" class="form-control">{{ array_get($intake, 'currentmedications_drug10') }}</textarea>
-                                    </div>
+                                    <div class="col-md-1">9.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name9" rows="2" cols="20" id="currentmedications_name9" class="form-control">{{ array_get($intake, "currentmedications_name9") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose9" rows="2" cols="20" id="currentmedications_dose9" class="form-control">{{ array_get($intake, "currentmedications_dose9") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration9" rows="2" cols="20" id="currentmedications_duration9" class="form-control">{{ array_get($intake, "currentmedications_duration9") }}</textarea></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-1">10.</div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_name10" rows="2" cols="20" id="currentmedications_name10" class="form-control">{{ array_get($intake, "currentmedications_name10") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_dose10" rows="2" cols="20" id="currentmedications_dose10" class="form-control">{{ array_get($intake, "currentmedications_dose10") }}</textarea></div>
+                                    <div class="col-md-3"><textarea {{ isset($readOnly)?'disabled="disabled"':'' }} name="currentmedications_duration10" rows="2" cols="20" id="currentmedications_duration10" class="form-control">{{ array_get($intake, "currentmedications_duration10") }}</textarea></div>
                                 </div>
                             </div>
                             <br>

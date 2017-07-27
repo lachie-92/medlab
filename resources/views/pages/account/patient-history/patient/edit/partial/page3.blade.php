@@ -911,44 +911,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-12 col-sm-6">
-                                <div class="row">
-                                    <div class="col-xs-1">
-                                        <input id="womensreproductive_abnormalpapsmear" type="hidden" value="{{ array_get($intake, 'womensreproductive_abnormalpapsmear', 0) }}" name="womensreproductive_abnormalpapsmear" />
-                                        <input type="checkbox" id="_womensreproductive_abnormalpapsmear" class="shadowCheckbox" name="_womensreproductive_abnormalpapsmear" {{ array_get($intake, 'womensreproductive_abnormalpapsmear')=="1" ? 'checked="checked"': '' }} {{ isset($readOnly)? 'disabled="disabled"': '' }} />
-                                    </div>
-                                    <div class="col-xs-11">
-                                        <label for="womensreproductive_abnormalpapsmear">Abnormal Pap Smear</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-1">
-                                        <input id="womensreproductive_irregularperiods" type="hidden" value="{{ array_get($intake, 'womensreproductive_irregularperiods', 0) }}" name="womensreproductive_irregularperiods" />
-                                        <input type="checkbox" id="_womensreproductive_irregularperiods" class="shadowCheckbox" name="_womensreproductive_irregularperiods" {{ array_get($intake, 'womensreproductive_irregularperiods')=="1" ? 'checked="checked"': '' }} {{ isset($readOnly)? 'disabled="disabled"': '' }} />
-                                    </div>
-                                    <div class="col-xs-11">
-                                        <label for="womensreproductive_irregularperiods">Irregular Periods</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-1">
-                                        <input id="womensreproductive_bleedingbetweenperiods" type="hidden" value="{{ array_get($intake, 'womensreproductive_bleedingbetweenperiods', 0) }}" name="womensreproductive_bleedingbetweenperiods" />
-                                        <input type="checkbox" id="_womensreproductive_bleedingbetweenperiods" class="shadowCheckbox" name="_womensreproductive_bleedingbetweenperiods" {{ array_get($intake, 'womensreproductive_bleedingbetweenperiods')=="1" ? 'checked="checked"': '' }} {{ isset($readOnly)? 'disabled="disabled"': '' }} />
-                                    </div>
-                                    <div class="col-xs-11">
-                                        <label for="womensreproductive_bleedingbetweenperiods">Bleeding between periods</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-1">
-                                        <input id="womensreproductive_pms" type="hidden" value="{{ array_get($intake, 'womensreproductive_pms', 0) }}" name="womensreproductive_pms" />
-                                        <input type="checkbox" id="_womensreproductive_pms" class="shadowCheckbox" name="_womensreproductive_pms" {{ array_get($intake, 'womensreproductive_pms')=="1" ? 'checked="checked"': '' }} {{ isset($readOnly)? 'disabled="disabled"': '' }} />
-                                    </div>
-                                    <div class="col-xs-11">
-                                        <label for="womensreproductive_pms">PMS</label>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="row">
                             <hr />
@@ -979,39 +941,19 @@
                                     </div>
                                 </div>
                                 <div class="row">
+                                    <div class="col-xs-12">
+                                        <label for="mensreproductive_frequenturinations">Do you suffer from any of the following?</label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-6">When do you suffer from frequent urination?</div>
                                     <div class="col-xs-6">
-                                        <label for="mensreproductive_frequenturinations">Do you have frequent urinations?:</label>
-                                    </div>
-                                    <div class="col-xs-6">
-                                            <label for="mensreproductive_frequenturinations_y">Yes</label> <input name="mensreproductive_frequenturinations" type="radio" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="mensreproductive_frequenturinations_y" value="1" {{ array_get($intake, 'mensreproductive_frequenturinations')==1?' checked="checked"':'' }}">
-                                            <label for="mensreproductive_frequenturinations_n">No</label>  <input name="mensreproductive_frequenturinations" type="radio" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="mensreproductive_frequenturinations_n" value="0" {{ array_get($intake, 'mensreproductive_frequenturinations')==0?' checked="checked"':'' }}">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-1">
-                                        <input id="mensreproductive_frequenturinations_day" type="hidden" value="{{ array_get($intake, 'mensreproductive_frequenturinations_day', 0) }}" name="mensreproductive_frequenturinations_day" />
-                                        <input type="checkbox" id="omensreproductive_frequenturinations_day" class="shadowCheckbox" name="omensreproductive_frequenturinations_day" {{ array_get($intake, 'mensreproductive_frequenturinations_day')=="1" ? 'checked="checked"': '' }} {{ isset($readOnly)? 'disabled="disabled"': '' }} />
-                                    </div>
-                                    <div class="col-xs-11">
-                                        <label for="mensreproductive_frequenturinations_day">Day</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-1">
-                                        <input id="mensreproductive_frequenturinations_night" type="hidden" value="{{ array_get($intake, 'mensreproductive_frequenturinations_night', 0) }}" name="mensreproductive_frequenturinations_night" />
-                                        <input type="checkbox" id="omensreproductive_frequenturinations_night" class="shadowCheckbox" name="omensreproductive_frequenturinations_night" {{ array_get($intake, 'mensreproductive_frequenturinations_night')=="1" ? 'checked="checked"': '' }} {{ isset($readOnly)? 'disabled="disabled"': '' }} />
-                                    </div>
-                                    <div class="col-xs-11">
-                                        <label for="mensreproductive_frequenturinations_night">Night</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-xs-1">
-                                        <input id="mensreproductive_frequenturinations_both" type="hidden" value="{{ array_get($intake, 'mensreproductive_frequenturinations_both', 0) }}" name="mensreproductive_frequenturinations_both" />
-                                        <input type="checkbox" id="omensreproductive_frequenturinations_both" class="shadowCheckbox" name="omensreproductive_frequenturinations_both" {{ array_get($intake, 'mensreproductive_frequenturinations_both')=="1" ? 'checked="checked"': '' }} {{ isset($readOnly)? 'disabled="disabled"': '' }} />
-                                    </div>
-                                    <div class="col-xs-11">
-                                        <label for="mensreproductive_frequenturinations_both">Both</label>
+                                        <select name="mensreproductive_frequenturination" id="mensreproductive_frequenturination" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                            <option {{ array_get($intake, 'mensreproductive_frequenturination')=='never'? ' selected="selected"': "" }}></option>
+                                            <option {{ array_get($intake, 'mensreproductive_frequenturination')=='Day'? ' selected="selected"': "" }}>Day</option>
+                                            <option {{ array_get($intake, 'mensreproductive_frequenturination')=='Night'? ' selected="selected"': "" }}>Night</option>
+                                            <option {{ array_get($intake, 'mensreproductive_frequenturination')=='Both'? ' selected="selected"': "" }}>Both</option>
+                                        </select>
                                     </div>
                                 </div>
                             </div>

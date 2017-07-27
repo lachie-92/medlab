@@ -28,11 +28,12 @@
                                             <thead style="background-color:gray">
                                                 <tr>
                                                     <th>DRUG CATEGORY</th>
+                                                    <th>Have you ever used this?:</th>
                                                     <th>Age when you first used this:</th>
                                                     <th>How much &amp; how often did you use this? </th>
+                                                    <th>Do you currently use this?</th>
                                                     <th>How many years did you use this?</th>
                                                     <th>When did you last use this?</th>
-                                                    <th>Do you currently use this?</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -41,17 +42,16 @@
                                                         <label>ALCOHOL</label>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_alcohol_hasused" id="substance_alcohol_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_alcohol_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_alcohol_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_alcohol_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_alcohol_age" value="{{ array_get($intake, 'substance_alcohol_age') }}" class="form-control"
                                                         autocomplete="off"> </td>
                                                     <td>
                                                         <input name="substance_alcohol_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_alcohol_frequency" value="{{ array_get($intake, 'substance_alcohol_frequency') }}"
                                                         class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_alcohol_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_alcohol_years" value="{{ array_get($intake, 'substance_alcohol_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_alcohol_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_alcohol_lastuse" value="{{ array_get($intake, 'substance_alcohol_lastuse') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="rblOption">
@@ -71,6 +71,12 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_alcohol_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_alcohol_years" value="{{ array_get($intake, 'substance_alcohol_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_alcohol_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_alcohol_lastuse" value="{{ array_get($intake, 'substance_alcohol_lastuse') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -78,16 +84,15 @@
                                                         <p>Cigarettes, Cigars, Vapour Cigarettes</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_tobacco_hasused" id="substance_tobacco_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_tobacco_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_tobacco_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_tobacco_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_tobacco_age" value="{{ array_get($intake, 'substance_tobacco_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_tobacco_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_tobacco_frequency" value="{{ array_get($intake, 'substance_tobacco_frequency') }}"
                                                         class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_tobacco_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_tobacco_years" value="{{ array_get($intake, 'substance_tobacco_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_tobacco_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_tobacco_lastuse" value="{{ array_get($intake, 'substance_tobacco_lastuse') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_tobacco">
@@ -107,6 +112,12 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_tobacco_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_tobacco_years" value="{{ array_get($intake, 'substance_tobacco_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_tobacco_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_tobacco_lastuse" value="{{ array_get($intake, 'substance_tobacco_lastuse') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -114,16 +125,15 @@
                                                         <p>Marijuana, Hashish, Hash oil</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_cannabis_hasused" id="substance_cannabis_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_cannabis_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_cannabis_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_cannabis_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cannabis_age" value="{{ array_get($intake, 'substance_cannabis_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_cannabis_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cannabis_frequency" value="{{ array_get($intake, 'substance_cannabis_frequency') }}"
                                                         class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_cannabis_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cannabis_years" value="{{ array_get($intake, 'substance_cannabis_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_cannabis_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cannabis_lastuse" value="{{ array_get($intake, 'substance_cannabis_lastuse') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_cannabis">
@@ -143,6 +153,12 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_cannabis_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cannabis_years" value="{{ array_get($intake, 'substance_cannabis_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_cannabis_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cannabis_lastuse" value="{{ array_get($intake, 'substance_cannabis_lastuse') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -150,16 +166,15 @@
                                                         <p>Cocaine, Crack</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_cocaine_hasused" id="substance_cocaine_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_cocaine_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_cocaine_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_cocaine_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cocaine_age" value="{{ array_get($intake, 'substance_cocaine_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_cocaine_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cocaine_frequency" value="{{ array_get($intake, 'substance_cocaine_frequency') }}"
                                                         class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_cocaine_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cocaine_years" value="{{ array_get($intake, 'substance_cocaine_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_cocaine_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cocaine_lastuse" value="{{ array_get($intake, 'substance_cocaine_lastuse') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_cocaine">
@@ -179,6 +194,12 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_cocaine_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cocaine_years" value="{{ array_get($intake, 'substance_cocaine_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_cocaine_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_cocaine_lastuse" value="{{ array_get($intake, 'substance_cocaine_lastuse') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -186,18 +207,16 @@
                                                         <p>Methamphetamines - speed, ice, crank</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_methamphetamines_hasused" id="substance_methamphetamines_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_methamphetamines_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_methamphetamines_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_methamphetamines_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methamphetamines_age" value="{{ array_get($intake, 'substance_methamphetamines_age') }}"
                                                         class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_methamphetamines_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methamphetamines_frequency" value="{{ array_get($intake, 'substance_methamphetamines_frequency') }}"
                                                         class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_methamphetamines_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methamphetamines_years" value="{{ array_get($intake, 'substance_methamphetamines_years') }}"
-                                                        class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_methamphetamines_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="TextBox75" value="{{ array_get($intake, 'TextBox75') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_methamphetamines">
@@ -217,6 +236,13 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_methamphetamines_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methamphetamines_years" value="{{ array_get($intake, 'substance_methamphetamines_years') }}"
+                                                        class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_methamphetamines_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="TextBox75" value="{{ array_get($intake, 'TextBox75') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -224,17 +250,14 @@
                                                         <p>Ritalin, Benzedrine, Dexedrine</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_amphetamines_hasused" id="substance_amphetamines_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_amphetamines_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_amphetamines_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_amphetamines_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_amphetamines_age" value="{{ array_get($intake, 'substance_amphetamines_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_amphetamines_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_amphetamines_frequency" value="{{ array_get($intake, 'substance_amphetamines_frequency') }}"
-                                                        class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_amphetamines_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_amphetamines_years" value="{{ array_get($intake, 'substance_amphetamines_years') }}"
-                                                        class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_amphetamines_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_amphetamines_lastuse" value="{{ array_get($intake, 'substance_amphetamines_lastuse') }}"
                                                         class="form-control">
                                                     </td>
                                                     <td>
@@ -255,6 +278,14 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_amphetamines_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_amphetamines_years" value="{{ array_get($intake, 'substance_amphetamines_years') }}"
+                                                        class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_amphetamines_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_amphetamines_lastuse" value="{{ array_get($intake, 'substance_amphetamines_lastuse') }}"
+                                                        class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -266,18 +297,16 @@
                                                         <p>Xanax, Diazepam, “Roofies”</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_benzodiazepines_hasused" id="substance_benzodiazepines_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_benzodiazepines_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_benzodiazepines_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_benzodiazepines_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_benzodiazepines_age" value="{{ array_get($intake, 'substance_benzodiazepines_age') }}"
                                                         class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_benzodiazepines_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_benzodiazepines_frequency" value="{{ array_get($intake, 'substance_benzodiazepines_frequency') }}"
                                                         class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_benzodiazepines_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_benzodiazepines_years" value="{{ array_get($intake, 'substance_benzodiazepines_years') }}"
-                                                        class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_benzodiazepines_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="TextBox83" value="{{ array_get($intake, 'TextBox83') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_benzodiazepines">
@@ -297,6 +326,13 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_benzodiazepines_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_benzodiazepines_years" value="{{ array_get($intake, 'substance_benzodiazepines_years') }}"
+                                                        class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_benzodiazepines_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="TextBox83" value="{{ array_get($intake, 'TextBox83') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -308,16 +344,15 @@
                                                         <p>Quaalude, Phenobarbital</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_sedatives_hasused" id="substance_sedatives_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_sedatives_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_sedatives_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_sedatives_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_sedatives_age" value="{{ array_get($intake, 'substance_sedatives_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_sedatives_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_sedatives_frequency" value="{{ array_get($intake, 'substance_sedatives_frequency') }}"
                                                         class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_sedatives_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_sedatives_years" value="{{ array_get($intake, 'substance_sedatives_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_sedatives_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="TextBox87" value="{{ array_get($intake, 'TextBox87') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_sedatives">
@@ -337,21 +372,26 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_sedatives_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_sedatives_years" value="{{ array_get($intake, 'substance_sedatives_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_sedatives_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="TextBox87" value="{{ array_get($intake, 'TextBox87') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
                                                         <label>HEROIN </label>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_heroin_hasused" id="substance_heroin_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_heroin_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_heroin_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_heroin_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_heroin_age" value="{{ array_get($intake, 'substance_heroin_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_heroin_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_heroin_frequency" value="{{ array_get($intake, 'substance_heroin_frequency') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_heroin_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_heroin_years" value="{{ array_get($intake, 'substance_heroin_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_heroin_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_heroin_lastuse" value="{{ array_get($intake, 'substance_heroin_lastuse') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_heroin">
@@ -371,6 +411,12 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_heroin_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_heroin_years" value="{{ array_get($intake, 'substance_heroin_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_heroin_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_heroin_lastuse" value="{{ array_get($intake, 'substance_heroin_lastuse') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -380,16 +426,14 @@
                                                         </label>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_methadone_hasused" id="substance_methadone_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_methadone_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_methadone_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_methadone_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methadone_age" value="{{ array_get($intake, 'substance_methadone_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_methadone_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methadone_frequency" value="{{ array_get($intake, 'substance_methadone_frequency') }}"
-                                                        class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_methadone_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methadone_years" value="{{ array_get($intake, 'substance_methadone_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_methadone_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methadone_lastuse" value="{{ array_get($intake, 'substance_methadone_lastuse') }}"
                                                         class="form-control">
                                                     </td>
                                                     <td>
@@ -410,6 +454,13 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_methadone_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methadone_years" value="{{ array_get($intake, 'substance_methadone_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_methadone_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_methadone_lastuse" value="{{ array_get($intake, 'substance_methadone_lastuse') }}"
+                                                        class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -419,16 +470,15 @@
                                                         <p>Morphine, Demerol, Dilaudid</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_opioids_hasused" id="substance_opioids_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_opioids_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_opioids_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_opioids_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_opioids_age" value="{{ array_get($intake, 'substance_opioids_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_opioids_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_opioids_frequency" value="{{ array_get($intake, 'substance_opioids_frequency') }}"
                                                         class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_opioids_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_opioids_years" value="{{ array_get($intake, 'substance_opioids_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_opioids_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_opioids_lastuse" value="{{ array_get($intake, 'substance_opioids_lastuse') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_opioids">
@@ -448,6 +498,12 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_opioids_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_opioids_years" value="{{ array_get($intake, 'substance_opioids_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_opioids_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_opioids_lastuse" value="{{ array_get($intake, 'substance_opioids_lastuse') }}" class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -458,18 +514,15 @@
                                                         <p>nitrous oxide</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_hallucinogens_hasused" id="substance_hallucinogens_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_hallucinogens_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_hallucinogens_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_hallucinogens_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_hallucinogens_age" value="{{ array_get($intake, 'substance_hallucinogens_age') }}"
                                                         class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_hallucinogens_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_hallucinogens_frequency" value="{{ array_get($intake, 'substance_hallucinogens_frequency') }}"
-                                                        class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_hallucinogens_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_hallucinogens_years" value="{{ array_get($intake, 'substance_hallucinogens_years') }}"
-                                                        class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_hallucinogens_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_hallucinogens_lastuse" value="{{ array_get($intake, 'substance_hallucinogens_lastuse') }}"
                                                         class="form-control">
                                                     </td>
                                                     <td>
@@ -490,6 +543,14 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_hallucinogens_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_hallucinogens_years" value="{{ array_get($intake, 'substance_hallucinogens_years') }}"
+                                                        class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_hallucinogens_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_hallucinogens_lastuse" value="{{ array_get($intake, 'substance_hallucinogens_lastuse') }}"
+                                                        class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -499,16 +560,14 @@
                                                         <p>room</p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_inhalents_hasused" id="substance_inhalents_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_inhalents_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_inhalents_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_inhalents_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_inhalents_age" value="{{ array_get($intake, 'substance_inhalents_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_inhalents_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_inhalents_frequency" value="{{ array_get($intake, 'substance_inhalents_frequency') }}"
-                                                        class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_inhalents_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_inhalents_years" value="{{ array_get($intake, 'substance_inhalents_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_inhalents_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_inhalents_lastuse" value="{{ array_get($intake, 'substance_inhalents_lastuse') }}"
                                                         class="form-control">
                                                     </td>
                                                     <td>
@@ -529,6 +588,13 @@
                                                             </tbody>
                                                         </table>
                                                     </td>
+                                                    <td>
+                                                        <input name="substance_inhalents_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_inhalents_years" value="{{ array_get($intake, 'substance_inhalents_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_inhalents_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_inhalents_lastuse" value="{{ array_get($intake, 'substance_inhalents_lastuse') }}"
+                                                        class="form-control">
+                                                    </td>
                                                 </tr>
                                                 <tr>
                                                     <td>
@@ -538,15 +604,14 @@
                                                         </p>
                                                     </td>
                                                     <td>
+                                                        <select name="substance_other_hasused" id="substance_other_hasused" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>
+                                                            <option {{ array_get($intake, 'substance_other_hasused')==0? ' selected="selected"': "" }}>No</option>
+                                                            <option {{ array_get($intake, 'substance_other_hasused')==1? ' selected="selected"': "" }}>Yes</option>
+                                                        </select> </td>
+                                                    <td>
                                                         <input name="substance_other_age" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_other_age" value="{{ array_get($intake, 'substance_other_age') }}" class="form-control"> </td>
                                                     <td>
                                                         <input name="substance_other_frequency" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_other_frequency" value="{{ array_get($intake, 'substance_other_frequency') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_other_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_other_years" value="{{ array_get($intake, 'substance_other_years') }}" class="form-control">
-                                                    </td>
-                                                    <td>
-                                                        <input name="substance_other_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_other_lastuse" value="{{ array_get($intake, 'substance_other_lastuse') }}" class="form-control">
                                                     </td>
                                                     <td>
                                                         <table id="substance_other">
@@ -565,6 +630,12 @@
                                                                 </tr>
                                                             </tbody>
                                                         </table>
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_other_years" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_other_years" value="{{ array_get($intake, 'substance_other_years') }}" class="form-control">
+                                                    </td>
+                                                    <td>
+                                                        <input name="substance_other_lastuse" type="text" {{ isset($readOnly)? 'disabled="disabled"': '' }} id="substance_other_lastuse" value="{{ array_get($intake, 'substance_other_lastuse') }}" class="form-control">
                                                     </td>
                                                 </tr>
                                             </tbody>
