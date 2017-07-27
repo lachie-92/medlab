@@ -9,6 +9,7 @@
                 <div class="panel-body">
                     @if ($careplan->consultants->count() > 0)
                         @foreach ($careplan->consultants as $consultant)
+                        @if (! is_null($consultant->practitioner))
                         <div class="row">
                             <div class="col-md-12" style="background-color: transparent; background-image: none">
                                 <div class="row">
@@ -44,6 +45,7 @@
                                 </div>
                             </div>
                         </div>
+                        @endif
                         @endforeach
                     @else
                         <em>None</em>
