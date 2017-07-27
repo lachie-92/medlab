@@ -64,8 +64,10 @@
 
                                     <select class="form-control" name="patient">
                                         <option value="">— Select a patient to view their histories —</option>
-                                        @foreach ($user->patients as $userPatient)
+                                        @foreach ($user->practitioners as $practitioner)
+                                        @foreach ($practitioner->patients as $userPatient)
                                         <option value="{{$userPatient->id}}" {{ isset($patient)&&$userPatient->id==$patient->id?'selected="selected"':'' }}>{{ $userPatient->user->customer->last_name }}, {{ $userPatient->user->customer->first_name }}</option>
+                                        @endforeach
                                         @endforeach
                                     </select>
                                 </div>

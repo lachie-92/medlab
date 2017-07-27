@@ -134,7 +134,7 @@ class PatientHistoryController extends Controller
      * @return [type] [description]
      */
     public function pageIndex(Request $request) {
-        $user = $this->user->load('patient.histories')->load('patients.histories');
+        $user = $this->user->load('practitioners.patients.histories');
         $orders = $this->repository->getLatestOrdersForUser($user);
         $data = compact('user', 'orders');
         if ($request->has('patient')) {
