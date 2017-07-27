@@ -5852,7 +5852,7 @@ class ModifyProduct extends Command
                     '
                 <h4 class="medlab_product_content_title">NRGBiotic&trade; 60&#39;s</h4>
                 <p>
-                    <strong>PATENT PROTECTED</strong>
+                    <strong>Australian Innovation Patent No. 2015100928</strong>
                 </p>
                 <p>
                     NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate.
@@ -5864,7 +5864,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PROTECTED</strong>
+                    <strong>Australian Innovation Patent No. 2015100928</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
