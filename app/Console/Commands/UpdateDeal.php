@@ -103,7 +103,69 @@ class UpdateDeal extends Command
                 'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/07/2017 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
-            ]
+            ],
+
+            //Till End of August
+            [
+                'product' => "GastroDaily",
+                'name' => "August 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2017 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Immune-5 Vanilla",
+                'name' => "August 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2017 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Immune-5 Raspberry",
+                'name' => "August 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2017 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Manuka-C 105g",
+                'name' => "August 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2017 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Manuka-C 210g",
+                'name' => "August 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/08/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/08/2017 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
 
 
         ];
