@@ -24,6 +24,13 @@
 
 
                     <a href="#MarketingOfficer">Marketing Officer</a></br>
+                    <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
+                    <a href="#PracVic">Practitioner Consultant – Field Sales Representative - VIC</a></br>
+                    <a href="#PracQLD">Practitioner Consultant – Field Sales Representative - QLD</a></br>
+
+
+
+
                     <!--
                     <a href="#PractitionerConsultantFieldRepWA">Practitioner Consultant Field Rep - South Perth, WA</a></br>
                     <a href="#PractitionerConsultantFieldRepQLD">Practitioner Consultant Field Rep - Brisbane, QLD</a></br>
@@ -226,12 +233,13 @@
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Client Relationship Manager">recruit@medlab.co</a></p>
                     <hr>
 
+                    -->
 
                     <a name="ClientRelationshipConsultant"></a>
                     <h3>Client Relationship Consultant</h3>
-                    <li>Client Relationship Consultant</li>
                     <li>Based in Alexandria, Sydney</li>
                     <li>Full Time / Permanent</li></br>
+                    <li>Office-Baed Role</li></br>
                     <p>Due to a rapid increase in market share we are seeking a highly ambitious Client Relationship Consultant to join our extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
 
                     <h4>The Opportunity</h4>
@@ -242,6 +250,7 @@
                     <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either over the phone or face to face.</li>
                     <li>Execute a business plan for your territory in line with meeting and exceeding key performance indicators and territory targets.</li>
                     <li>Create and implement client incentive and retention strategies.</li>
+                    <li>Create and maintain call/territory plans</li>
                     <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
                     <li>Plan and deliver product training to a range of healthcare modalities.</li>
                     <li>Attend industry and association conferences and trade shows when required.</li>
@@ -259,7 +268,7 @@
                     <p>Note: This position would also suit a candidate who is from a healthcare practitioner background looking for a change in career direction.</p>
 
                     <h4>Benefits</h4>
-                    <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab, we are committed to the development of staff and regularly promote from within                    </p>
+                    <p>Here at Medlab, we are committed to the development of staff and regularly promote from within. You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
                     <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
                     <li>Generous base salary plus commission structure and allowances.</li>
                     <li>Use of on-site gym facilities within our offices in Alexandria.</li>
@@ -271,11 +280,13 @@
                     <hr>
 
 
-                    <a name="PractitionerConsultantFieldRepWA"></a>
-                    <h3>Practitioner Consultant Field – Field Sales Representative WA</h3>
-                    <li>Permanent / Part Time (3 days per week)</li>
+
+
+                    <a name="PracVic"></a>
+                    <h3>Practitioner Consultant – Field Sales Representative</h3>
+                    <li>Permanent / Full Time</li>
                     <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
-                    <li>South Perth, WA</li></br>
+                    <li>Melbourne, Vic</li></br>
 
                     <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
 
@@ -313,12 +324,12 @@
                     <li>On-going training, education and mentoring.</li>
                     <li>Career growth for the right person.</li>
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant - Field Rep, WA">recruit@medlab.co</a></p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - VIC">recruit@medlab.co</a></p>
                     <hr>
 
-                    <a name="PractitionerConsultantFieldRepQLD"></a>
-                    <h3>Practitioner Consultant Field – Field Sales Representative QLD</h3>
-                    <li>Permanent / Part Time (3 days per week)</li>
+                    <a name="PracQLD"></a>
+                    <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
+                    <li>Permanent / Full Time</li>
                     <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
                     <li>Brisbane, QLD</li></br>
 
@@ -358,9 +369,9 @@
                     <li>On-going training, education and mentoring.</li>
                     <li>Career growth for the right person.</li>
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant - Field Rep, WA">recruit@medlab.co</a></p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - QLD">recruit@medlab.co</a></p>
                     <hr>
-                    -->
+
 
 
 
