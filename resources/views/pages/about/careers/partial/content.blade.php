@@ -331,7 +331,7 @@
                     <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
                     <li>Permanent / Full Time</li>
                     <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
-                    <li>Brisbane, QLD</li></br>
+                    <li>Sunshine Coast, QLD</li></br>
 
                     <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
 
