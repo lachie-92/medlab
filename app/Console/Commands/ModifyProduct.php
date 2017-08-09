@@ -227,7 +227,7 @@ class ModifyProduct extends Command
                     </h4>
 
                     <p>
-                        Add 5g (1 scoop) to 100-200mL of cold water or juice, one (1) to two (2) times per day, or as directed by your
+                        Add 5g (1 sachet) to 100-200mL of cold water or juice, one (1) to two (2) times per day, or as directed by your
                         healthcare practitioner.
                     </p>
                     ',
