@@ -1,8 +1,3 @@
-<!-----------------------------------------------------------------------------------
---
--- Footer Top
---
-------------------------------------------------------------------------------------->
 <footer class="footer">
     <div class="medlab_footer_top_wrapper">
         <div class="container medlab_footer_top_container">
@@ -193,13 +188,6 @@
         </div>
     </div>
 </footer>
-
-
-<!-----------------------------------------------------------------------------------
---
--- Footer Bottom
---
-------------------------------------------------------------------------------------->
 <footer class="footer">
     <div class="medlab_footer_bottom_wrapper">
         <div class="container medlab_footer_bottom_container">
@@ -258,11 +246,11 @@
 
             <div class="row medlab_footer_bottom_copyright_box">
                 <div class="col-md-6">
-                    All Contents Copyright &copy; 2014 Medlab Clinical&reg; All rights reserved
+                    All Contents Copyright &copy; {{ date('Y') }} Medlab Clinical&reg; All rights reserved
                 </div>
                 <div class="col-md-6" style="text-align: right">
                     <a class="medlab_footer_bottom_copyright_box_link" href="/contact">Contact Us</a>
-                    &nbsp &nbsp &nbsp &nbsp
+                    &nbsp; &nbsp; &nbsp; &nbsp;
                     <a class="medlab_footer_bottom_copyright_box_link" href="/policies/privacy-policy">Privacy Policy</a>
                 </div>
             </div>
