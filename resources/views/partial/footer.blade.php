@@ -87,8 +87,8 @@
                         </li>
                     </ul>
                     <!-- Make the 2nd column's height greater than the 1st column for responsive view -->
-                    <br>
-                    <br>
+                    <br />
+                    <br />
 
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
@@ -209,29 +209,29 @@
                         Contact Details
                     </h4>
                     <div>
-                        <label>Office Hours: </label> 8:30am - 5pm EST <br>
-                        <label>Toll Free: </label> 1300 369 570 <br>
-                        <label>Main Phone: </label> 02 8188 0311 <br>
-                        <label>Phone: </label> 02 8004 4572 <br>
-                        <label>Fax: </label> 02 9699 3347 <br>
-                        <label>Email: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="mailto:hello@medlab.co">hello@medlab.co</a> <br>
+                        <label>Office Hours: </label> 8:30am - 5pm EST <br />
+                        <label>Toll Free: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="tel:13003695700">1300 369 570</a><br />
+                        <label>Main Phone: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="tel:0281880311">02 8188 0311</a> <br />
+                        <label>Phone: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="tel:0280044572">02 8004 4572</a> <br />
+                        <label>Fax: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="tel:0296993347">02 9699 3347</a> <br />
+                        <label>Email: </label> <a class="medlab_footer_bottom_contact_info_box_link" href="mailto:hello@medlab.co">hello@medlab.co</a> <br />
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <h4 class="medlab_footer_bottom_contact_info_box_header">
                         Follow Us
                     </h4>
-                    <a href="https://www.facebook.com/medlabAUS" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
-                        <i class="fa fa-facebook"></i>
-                    </a>
-                    <a href="http://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
-                        <i class="fa fa-vimeo-square"></i>
-                    </a>
                     <a href="https://www.instagram.com/medlab_clinical/" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-instagram"></i>
                     </a>
+                    <a href="http://www.linkedin.com/company/medlab-pty-ltd?trk=prof-following-company-logo" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
                     <a href="https://twitter.com/medlabclinical" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
                         <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/medlabAUS" target="_blank" class="medlab_footer_bottom_contact_info_box_icon">
+                        <i class="fa fa-facebook"></i>
                     </a>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-6">
