@@ -60,6 +60,15 @@ body {
 
 .wrap {
   min-height: 600px; }
+  .wrap.research, .wrap.products, .wrap.corporate {
+    margin-top: 8px;
+    border-top: 8px solid; }
+    .wrap.research.research, .wrap.products.research, .wrap.corporate.research {
+      border-color: #ef5b5c; }
+    .wrap.research.products, .wrap.products.products, .wrap.corporate.products {
+      border-color: #b6d13d; }
+    .wrap.research.corporate, .wrap.products.corporate, .wrap.corporate.corporate {
+      border-color: #6cc7d0; }
 
 header {
   background-color: #FFFFFF; }

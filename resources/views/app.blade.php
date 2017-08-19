@@ -45,7 +45,13 @@
 @include('partial.header')
 @include('partial.navigation')
 
-<div class="wrap">
+@if (Request::is('research*'))
+<div class="wrap research">
+@elseif  (Request::is('nutraceuticals*'))
+<div class="wrap products">
+@else
+<div class="wrap corporate">
+@endif
 
 @yield('content')
 

@@ -4,4 +4,21 @@ body {
 
 .wrap {
   min-height: 600px;
+
+  &.research,
+  &.products,
+  &.corporate {
+    margin-top: 8px;
+    border-top: 8px solid;
+
+    &.research {
+        border-color: $theme-research;
+    }
+    &.products {
+        border-color: $theme-products;
+    }
+    &.corporate {
+        border-color: $theme-corporate;
+    }
+  }
 }
