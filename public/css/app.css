@@ -362,7 +362,7 @@ header {
   color: #FFF; }
 
 .medlab_footer_top_wrapper {
-  background-color: #1E5494;
+  background-color: #174b8a;
   border-top: 3px solid #7AA43F;
   margin-top: 20px; }
 
@@ -395,7 +395,7 @@ header {
     color: #FFFFFF; }
 
 .medlab_footer_bottom_wrapper {
-  background-color: #232323; }
+  background-color: #000014; }
 
 .medlab_footer_bottom_container {
   padding: 20px 15px 30px 15px; }
@@ -419,7 +419,7 @@ header {
 
 .medlab_footer_bottom_contact_info_box_icon {
   background-color: #C0C0C0;
-  color: #232323;
+  color: #000014;
   width: 30px;
   height: 30px;
   text-align: center;
