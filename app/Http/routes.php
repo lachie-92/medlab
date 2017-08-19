@@ -18,6 +18,10 @@ Route::get('/index.html', function () {
     return view('pages.home.index');
 });
 
+Route::get('/landing', function () {
+    return view('pages.home.landing');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Login
@@ -30,7 +34,7 @@ Route::post('/account/login', 'LoginController@postLogin');
 
 Route::get('/account/logout', 'LoginController@getLogout');
 
-Route::get('/account/register', function() {
+Route::get('/account/register', function () {
     return redirect('/account/login');
 });
 
@@ -46,7 +50,7 @@ Route::get('/account/recovery', 'Auth\PasswordController@getEmail');
 
 Route::post('/account/recovery', 'Auth\PasswordController@postEmail');
 
-Route::get('/account/reset', function() {
+Route::get('/account/reset', function () {
     return redirect('/account/recovery');
 });
 
@@ -108,7 +112,6 @@ Route::get('/nutraceuticals/ingredients', 'NutraceuticalsController@ingredients'
 Route::group(['middleware' => 'authPractitioner'], function () {
 
     Route::get('/nutraceuticals/praceducationalresource', 'NutraceuticalsController@faq');
-
 });
 
 Route::get('/nutraceuticals/nrgbiotic', function () {
@@ -191,7 +194,6 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     Route::get('/education/webinars/probiotics', function () {
         return view('pages.education.webinars.probiotics.index');
     });
-
 });
 
 
@@ -475,10 +477,6 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     Route::get('/efficacy/podcast', function () {
         return view('pages.efficacy.podcast.index');
     });
-
-
-
-
 });
 
 Route::get('/efficacy/novel-adjunct-for-depression', function () {

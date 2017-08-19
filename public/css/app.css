@@ -128,7 +128,8 @@ header {
   background: #FFF;
   border-bottom: 10px solid #7AA43F;
   margin-bottom: 0px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: none; }
 
 .medlab_navbar_container {
   padding: 0;
@@ -147,24 +148,27 @@ header {
       line-height: 1.0em;
       padding-top: 10px;
       padding-bottom: 10px; }
-    .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator {
-      position: relative;
-      width: 120px; }
-      .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator:after {
-        content: '';
-        display: block;
-        position: absolute;
-        background: url("/img/navigation-separator.png") center center no-repeat #174a8a;
-        background-size: 90px;
-        height: 120px;
-        width: 120px;
-        top: -50px;
-        border-radius: 60px;
-        z-index: 1; }
-    .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.vr {
+    .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.vr, .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator {
       height: 20px;
       width: 1px;
       border-left: 1px solid #FFF; }
+
+header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator {
+  position: relative;
+  width: 120px;
+  height: auto;
+  border-left: none; }
+  header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url("/img/navigation-separator.png") center center no-repeat #174a8a;
+    background-size: 90px;
+    height: 120px;
+    width: 120px;
+    top: -50px;
+    border-radius: 60px;
+    z-index: 1; }
 
 .medlab_navbar_brand {
   padding-top: 0px; }
@@ -369,6 +373,80 @@ header {
   content: "\e114";
   float: right;
   color: #FFF; }
+
+body.landing {
+  background-color: #174a8a; }
+  body.landing > .container {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    color: #FFF; }
+    body.landing > .container .row {
+      padding-bottom: 20px; }
+  body.landing header {
+    border-top: 60px solid #174a8a; }
+    body.landing header div {
+      text-align: center; }
+      body.landing header div img {
+        margin-left: auto;
+        margin-right: auto; }
+      body.landing header div ul {
+        list-style: none; }
+        body.landing header div ul li {
+          display: inline;
+          padding: auto 15px;
+          text-transform: uppercase;
+          font-size: 1.2em;
+          color: #174a8a; }
+          body.landing header div ul li::after {
+            content: ' - '; }
+          body.landing header div ul li:last-of-type::after {
+            content: ''; }
+  body.landing button, body.landing select {
+    background-color: transparent;
+    -webkit-appearance: none;
+    color: #FFF;
+    border: 2px solid #FFF;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 200;
+    padding: 4px 8px; }
+  body.landing .fa {
+    font-size: 1.5em;
+    margin-left: 5px;
+    color: #FFF; }
+
+.portal-button {
+  display: inline-block;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  width: 90%;
+  height: 0;
+  padding-bottom: 80%;
+  text-align: center; }
+  .portal-button a:hover {
+    text-decoration: none; }
+  .portal-button h1 {
+    color: #174a8a;
+    background-color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 5px;
+    border-bottom: 2px solid #FFF; }
+  .portal-button img {
+    max-height: 70%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto; }
+  .portal-button.products h1 {
+    background-color: #b6d13d; }
+  .portal-button.research h1 {
+    background-color: #ef5b5c; }
+  .portal-button.corporate h1 {
+    background-color: #6cc7d0; }
 
 footer:first-of-type {
   background-color: #FFF;
