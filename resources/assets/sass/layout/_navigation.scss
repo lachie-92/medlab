@@ -44,6 +44,7 @@
   border-bottom: 10px solid $navi-border-colour;
   margin-bottom: 0px;
   box-sizing: border-box;
+  border: none;
 }
 
 .medlab_navbar_container {
@@ -74,31 +75,35 @@
           padding-bottom: 10px;
         }
 
+        &.vr,
         &.separator {
-          position: relative;
-          width: 120px;
-
-          &:after {
-            content: '';
-            display: block;
-            position: absolute;
-            background: url('/img/navigation-separator.png') center center no-repeat $medlab-blue;
-            background-size: 90px;
-            height: 120px;
-            width: 120px;
-            top: -50px;
-            border-radius: 60px;
-            z-index: 1;
-          }
-        }
-
-        &.vr {
           height: 20px;
           width: 1px;
           border-left: 1px solid #FFF;
         }
       }
     }
+  }
+}
+
+header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator {
+
+  position: relative;
+  width: 120px;
+  height: auto;
+  border-left: none;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url('/img/navigation-separator.png') center center no-repeat $medlab-blue;
+    background-size: 90px;
+    height: 120px;
+    width: 120px;
+    top: -50px;
+    border-radius: 60px;
+    z-index: 1;
   }
 }
 
