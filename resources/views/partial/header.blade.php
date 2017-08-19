@@ -1,7 +1,7 @@
 <header>
     <div class="row">
         <div class="col-md-6 col-xs-12 logo">
-            <img class="img-responsive medlab_navbar_logo" alt="medlab.co" src="/img/logo_site.png" />
+            <a href="/"><img class="img-responsive medlab_navbar_logo" alt="medlab.co" src="/img/logo_site.png" /></a>
         </div>
         <div class="col-md-6 col-xs-12 text-right contact">
             <span>Contact Us: <a href="tel:13003695700">1300 369 5700</a></span>
