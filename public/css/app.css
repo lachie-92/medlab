@@ -196,7 +196,8 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
     color: #FFF !important; }
 
 .medlab_breadcrumbs_wrapper {
-  background-color: #D7DCF2; }
+  background-color: #D7DCF2;
+  display: none; }
 
 .medlab_breadcrumbs {
   margin-bottom: 0px;
