@@ -9,7 +9,8 @@
 }
 
 .medlab_panel {
-  border: 1px solid $panel-border-colour;
+  background-color: transparent;
+  border: none;
 }
 
 .medlab_panel_title {
@@ -22,10 +23,18 @@
 }
 
 .medlab_panel_content {
-  background-color: $panel-content-background;
+  background-color: transparent;
   color: $panel-content-text;
   font-size: 15px;
   font-family: "Museo Sans",sans-serif;
+
+  .row {
+    border: 1px solid $medlab-blue;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: $product-gradient;
+  }
 }
 
 .medlab_panel_content_link {
