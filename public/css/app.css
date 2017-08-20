@@ -26,37 +26,30 @@
   .medlab_product_side_column {
     padding-left: 0px !important; } }
 @font-face {
-  font-family: "PT Sans Narrow";
+  font-family: "Museo Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/PTSans-Narrow.woff2"); }
+  src: url("/fonts/MuseoSans_500-webfont.woff"); }
 @font-face {
-  font-family: "PT Sans Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/PTSans-Bold.woff2"); }
-@font-face {
-  font-family: "PT Sans";
+  font-family: "Museo Sans Narrow";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/PTSans-Regular.woff2"); }
+  src: url("/fonts/MuseoSans_500-webfont.woff"); }
 @font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/OpenSans.woff2"); }
-@font-face {
-  font-family: "Open Sans Bold";
+  font-family: "Museo Sans Bold";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/OpenSans-Bold.woff2"); }
+  src: url("/fonts/MuseoSans_500-webfont.woff"); }
 @font-face {
-  font-family: "Open Sans Condensed";
+  font-family: "Museo Sans Condensed";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/OpenSans-CondensedBold.woff2"); }
+  src: url("/fonts/MuseoSans_500-webfont.woff"); }
 body {
-  background-color: #F2F3F9; }
+  background-color: #F2F3F9;
+  font-family: "Museo Sans";
+  letter-spacing: 0.1em;
+  font-weight: 300; }
 
 .wrap {
   min-height: 600px; }
@@ -179,8 +172,9 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   padding: 24px 35px 20px 35px; }
 
 .medlab_navbar_dropdown {
-  font-family: "Helvetica";
+  font-family: "Museo Sans";
   font-size: 11px;
+  font-weight: 100;
   margin-top: -5px;
   text-align: center;
   color: #FFFFFF !important; }
@@ -193,7 +187,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   background-color: #F8F8F8;
   font-size: 20px;
   color: #555;
-  font-family: "PT Sans Narrow", sans-serif; }
+  font-family: "Museo Sans Narrow", sans-serif; }
 
 .medlab_navbar_dropdown_menu_item {
   text-align: left; }
@@ -207,7 +201,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
 .medlab_breadcrumbs {
   margin-bottom: 0px;
   background-color: #D7DCF2;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
   font-size: 13px; }
 
 .medlab_breadcrumbs_link {
@@ -219,7 +213,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
 .medlab_carousel_bottom_panel_table {
   width: 100%;
   font-size: 26px;
-  font-family: "PT Sans Bold",Helvetica,"Trebuchet MS",Arial,sans-serif; }
+  font-family: "Museo Sans Bold",Helvetica,"Trebuchet MS",Arial,sans-serif; }
 
 .medlab_carousel_bottom_panel_column1 {
   width: 33%;
@@ -260,7 +254,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   padding: 5px 20px 5px 20px;
   background-color: #1E5494;
   opacity: 0.8;
-  font-family: "PT Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
   font-size: 20px;
   color: #FFF; }
 
@@ -268,7 +262,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   padding: 20px 15px 20px 15px;
   color: #333;
   font-size: 15px;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
   display: inline-block;
   width: 100%; }
 
@@ -279,7 +273,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   margin-top: 0px;
   color: #7AA43F;
   font-size: 28px;
-  font-family: "PT Sans Bold",sans-serif; }
+  font-family: "Museo Sans Bold",sans-serif; }
 
 .medlab_news_content_paragraph {
   padding-bottom: 20px; }
@@ -299,7 +293,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   padding: 5px 20px 5px 20px;
   background-color: #1E5494;
   opacity: 0.8;
-  font-family: "PT Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
   font-size: 20px;
   color: #FFF; }
 
@@ -307,7 +301,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   padding: 20px 10px 20px 10px;
   color: #333;
   font-size: 15px;
-  font-family: "Open Sans",sans-serif; }
+  font-family: "Museo Sans",sans-serif; }
 
 .medlab_news_sidebar_list {
   padding: 0px 0px 0px 0px; }
@@ -318,12 +312,12 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
 
 .medlab_news_sidebar_list_item_title {
   color: #1E5494;
-  font-family: "PT Sans Bold",sans-serif;
+  font-family: "Museo Sans Bold",sans-serif;
   font-size: 16px; }
 
 .medlab_news_sidebar_list_item_body {
   color: #232323;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
   font-size: 13px;
   border-top: 1px solid #F7F7F7;
   border-bottom: 1px solid #F7F7F7; }
@@ -343,13 +337,13 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   color: #FFF !important;
   opacity: 0.8;
   font-size: 20px;
-  font-family: "PT Sans",sans-serif; }
+  font-family: "Museo Sans",sans-serif; }
 
 .medlab_panel_content {
   background-color: #FFF;
   color: #333;
   font-size: 15px;
-  font-family: "Open Sans",sans-serif; }
+  font-family: "Museo Sans",sans-serif; }
 
 .medlab_panel_content_link {
   color: #7AA43F; }
@@ -363,7 +357,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   opacity: 0.8;
   text-align: center;
   font-size: 16px;
-  font-family: "PT Sans",sans-serif; }
+  font-family: "Museo Sans",sans-serif; }
 
 .medlab_panel_image {
   padding: 0px 0px 0px 0px; }
@@ -411,7 +405,7 @@ body.landing {
     font-weight: 200;
     padding: 4px 8px; }
   body.landing .fa {
-    font-size: 1.5em;
+    font-size: 1.0em;
     margin-left: 5px;
     color: #FFF; }
 
@@ -470,7 +464,7 @@ footer:first-of-type {
   font-size: 16px;
   font-weight: bold;
   color: #EAEAEA;
-  font-family: "PT Sans Bold",sans-serif; }
+  font-family: "Museo Sans Bold",sans-serif; }
   .medlab_footer_top_site_map_box_header_link:hover, .medlab_footer_top_site_map_box_header_link:active, .medlab_footer_top_site_map_box_header_link:focus {
     color: #FFFFFF; }
 
@@ -482,7 +476,7 @@ footer:first-of-type {
 .medlab_footer_top_site_map_box_link {
   font-size: 14px;
   color: #EAEAEA;
-  font-family: "Open Sans",sans-serif; }
+  font-family: "Museo Sans",sans-serif; }
   .medlab_footer_top_site_map_box_link:hover, .medlab_footer_top_site_map_box_link:active, .medlab_footer_top_site_map_box_link:focus {
     color: #FFFFFF; }
 
@@ -496,12 +490,12 @@ footer:first-of-type {
   padding-bottom: 20px;
   color: #C0C0C0;
   font-size: 12px;
-  font-family: "Open Sans",sans-serif; }
+  font-family: "Museo Sans",sans-serif; }
 
 .medlab_footer_bottom_contact_info_box_header {
   color: #FFF;
   font-size: 16px;
-  font-family: "PT Sans Bold",sans-serif; }
+  font-family: "Museo Sans Bold",sans-serif; }
 
 .medlab_footer_bottom_contact_info_box_link {
   color: #C0C0C0; }
@@ -533,11 +527,11 @@ footer:first-of-type {
 
 .medlab_product_content_title {
   color: #1E5494;
-  font-family: "Open Sans Condensed",sans-serif; }
+  font-family: "Museo Sans Condensed",sans-serif; }
 
 .medlab_product_content_sub_title {
   color: #1E5494;
-  font-family: "Open Sans Bold",sans-serif;
+  font-family: "Museo Sans Bold",sans-serif;
   text-align: center; }
 
 .medlab_product_info_title {
@@ -547,15 +541,15 @@ footer:first-of-type {
   padding: 0px 10px 0px 20px;
   font-size: 25px;
   line-height: 40px;
-  font-family: "Open Sans Condensed",sans-serif; }
+  font-family: "Museo Sans Condensed",sans-serif; }
 
 .medlab_product_info_in_stock {
   color: #3C763D;
-  font-family: "Open Sans Bold",sans-serif; }
+  font-family: "Museo Sans Bold",sans-serif; }
 
 .medlab_product_info_out_of_stock {
   color: #FF0000;
-  font-family: "Open Sans Bold",sans-serif; }
+  font-family: "Museo Sans Bold",sans-serif; }
 
 .medlab_product_info_price_box {
   display: inline-block;
@@ -599,7 +593,7 @@ footer:first-of-type {
 
 .medlab_product_list_sorting_bar {
   margin: 0px 0px 0px 0px;
-  font-family: "Open Sans",sans-serif; }
+  font-family: "Museo Sans",sans-serif; }
 
 .medlab_product_list_sorting_bar li a {
   padding: 8px 9px 8px 9px; }
@@ -629,7 +623,7 @@ footer:first-of-type {
 
 .medlab_product_list_side_bar_content_title {
   text-align: center;
-  font-family: "Open Sans Condensed",sans-serif; }
+  font-family: "Museo Sans Condensed",sans-serif; }
 
 .medlab_registration_account_box {
   border: 3px solid #C0C0C0;
@@ -651,7 +645,7 @@ footer:first-of-type {
 
 .medlab_registration_form_section_title {
   color: #1E5494;
-  font-family: "Open Sans Condensed",sans-serif;
+  font-family: "Museo Sans Condensed",sans-serif;
   margin-top: 0px;
   margin-bottom: 0px; }
 
@@ -671,7 +665,7 @@ footer:first-of-type {
 
 .medlab_dashboard_info_section_title {
   color: #1E5494;
-  font-family: "Open Sans Condensed",sans-serif;
+  font-family: "Museo Sans Condensed",sans-serif;
   margin-top: 0px;
   margin-left: 10px; }
 
