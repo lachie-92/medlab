@@ -329,7 +329,8 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   padding-top: 20px; }
 
 .medlab_panel {
-  border: 1px solid #DDD; }
+  background-color: transparent;
+  border: none; }
 
 .medlab_panel_title {
   padding: 5px 20px 5px 20px;
@@ -340,10 +341,16 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   font-family: "Museo Sans",sans-serif; }
 
 .medlab_panel_content {
-  background-color: #FFF;
+  background-color: transparent;
   color: #333;
   font-size: 15px;
   font-family: "Museo Sans",sans-serif; }
+  .medlab_panel_content .row {
+    border: 1px solid #174a8a;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: linear-gradient(to right, #FFF, #f6fcfd, #b3e1e8); }
 
 .medlab_panel_content_link {
   color: #7AA43F; }
@@ -565,20 +572,20 @@ footer:first-of-type {
   color: #555;
   font-size: 12px;
   display: block;
-  text-align: left; }
+  text-align: center; }
 
 .medlab_product_info_price_box_price {
-  color: #F15C22; }
+  color: #0e2850; }
 
 .medlab_product_info_shop_box {
   margin: 10px 5px 20px 5px; }
 
 .medlab_product_info_shop_box_button {
   color: #FFF;
-  background: #F15C22; }
+  background: #0e2850; }
   .medlab_product_info_shop_box_button:hover, .medlab_product_info_shop_box_button:active, .medlab_product_info_shop_box_button:focus {
     color: #FFF;
-    background: #EB4C0F; }
+    background: #0e2850; }
 
 .medlab_product_reference_list {
   font-size: 12px;
@@ -630,17 +637,21 @@ footer:first-of-type {
 
 .medlab_product_list_main_shopping_box_button_info {
   margin: 5px 10px 5px 10px;
-  width: 80%; }
+  width: 80%;
+  background-color: #6bc7d0;
+  background-image: none;
+  border: 2px solid #FFF;
+  color: #0e2850; }
 
 .medlab_product_list_main_shopping_box_button_add {
   color: #FFF;
-  background-color: #F15C22;
-  border-color: #EB4C0F;
+  background-color: #0e2850;
+  border: 2px solid #FFF;
   margin: 5px 10px 5px 10px;
   width: 80%; }
   .medlab_product_list_main_shopping_box_button_add:hover, .medlab_product_list_main_shopping_box_button_add:active, .medlab_product_list_main_shopping_box_button_add:focus {
     color: #FFF;
-    background: #EB4C0F; }
+    background: #0e2850; }
 
 .medlab_product_list_side_bar_panel_content {
   background-color: transparent; }

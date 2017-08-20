@@ -55,12 +55,16 @@
 .medlab_product_list_main_shopping_box_button_info {
   margin: 5px 10px 5px 10px;
   width: 80%;
+  background-color: #6bc7d0;
+  background-image: none;
+  border: 2px solid #FFF;
+  color: $product-info-shop-button-background-focus;
 }
 
 .medlab_product_list_main_shopping_box_button_add {
   color: $product-info-shop-button-text;
   background-color: $product-info-shop-button-background;
-  border-color: $product-info-shop-button-background-focus;
+  border: 2px solid #FFF;
   margin: 5px 10px 5px 10px;
   width: 80%;
   &:hover, &:active, &:focus {

@@ -4,9 +4,11 @@
 //
 //////////////////////////////////////////////////////////////////////////
 $medlab-blue: #174a8a;
+$medlab-blue-dark: #0e2850;
 $theme-products: #b6d13d;
 $theme-research: #ef5b5c;
 $theme-corporate: #6cc7d0;
+$product-gradient: linear-gradient(to right, #FFF, #f6fcfd, #b3e1e8);
 
 //////////////////////////////////////////////////////////////////////////
 //
@@ -126,9 +128,9 @@ $product-info-title-text: #FFF;
 $product-info-in-stock: #3C763D;
 $product-info-out-of-stock: #FF0000;
 $product-info-label: #555;
-$product-info-price: #F15C22;
-$product-info-shop-button-background: #F15C22;
-$product-info-shop-button-background-focus: #EB4C0F;
+$product-info-price: $medlab-blue-dark;
+$product-info-shop-button-background: $medlab-blue-dark;
+$product-info-shop-button-background-focus: $medlab-blue-dark;
 $product-info-shop-button-text: #FFF;
 
 
