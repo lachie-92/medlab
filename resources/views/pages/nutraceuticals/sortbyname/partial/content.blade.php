@@ -1,8 +1,18 @@
-<!-----------------------------------------------------------------------------------
---
--- Product sort by name
---
-------------------------------------------------------------------------------------->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12 sorting_bar">
+            <div class="container-fluid medlab_product_list_sorting_bar_container">
+                <ul class="pagination medlab_product_list_sorting_bar">
+                    @foreach($productList as $item => $class)
+                        <li class="{{ $class }}">
+                            <a href="?q={{ $item }}"> {{ $item }} </a>
+                        </li>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container medlab_panel_container">
     <div class="row">
 
@@ -10,22 +20,6 @@
         --  Main Column
         -->
         <div class="col-md-9 col-sm-12 col-xs-12 medlab_product_main_column">
-
-            <!--
-            --  Alphabetical sorting bar
-            -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="container-fluid medlab_product_list_sorting_bar_container">
-                    <ul class="pagination medlab_product_list_sorting_bar">
-                        @foreach($productList as $item => $class)
-                            <li class="{{ $class }}">
-                                <a href="?q={{ $item }}"> {{ $item }} </a>
-                            </li>
-                        @endforeach
-                    </ul>
-                </div>
-            </div>
-
             <!--
             --  Product Listing
             -->

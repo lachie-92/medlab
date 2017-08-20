@@ -587,9 +587,33 @@ footer:first-of-type {
 .medlab_product_ingredients_table {
   font-size: 12px; }
 
+.pagination li a,
+.pagination li a:hover,
+.pagination li a:focus,
+.pagination li.active a,
+.pagination li.active a:hover,
+.pagination li.active a:focus,
+.pagination li.disabled a,
+.pagination li.disabled a:hover,
+.pagination li.disabled a:focus {
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid #174a8a;
+  color: inherit;
+  width: 40px; }
+.pagination li:last-child a,
+.pagination li.active:last-child a,
+.pagination li.disabled:last-child a {
+  border-right: none;
+  width: auto; }
+
+.sorting_bar {
+  background-color: #b6d13d; }
+
 .medlab_product_list_sorting_bar_container {
   padding: 0px 0px 0px 0px;
-  margin: 10px auto 10px auto; }
+  margin: 10px auto 10px auto;
+  text-align: center; }
 
 .medlab_product_list_sorting_bar {
   margin: 0px 0px 0px 0px;
