@@ -2,7 +2,6 @@
 
 @section('content')
 
-@include('pages.nutraceuticals.sortbyname.partial.breadcrumbs')
 @include('pages.nutraceuticals.sortbyname.partial.content')
 
 @endsection

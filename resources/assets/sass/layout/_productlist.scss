@@ -4,9 +4,35 @@
 //
 /////////////////////////////////////////////////////////////////////////////////
 
+.pagination {
+  li,
+  li.active,
+  li.disabled {
+    a,
+    a:hover,
+    a:focus {
+      background-color: transparent;
+      border: none;
+      border-right: 1px solid $medlab-blue;
+      color: inherit;
+      width: 40px;
+    }
+
+    &:last-child a {
+      border-right: none;
+      width: auto;
+    }
+  }
+}
+
+.sorting_bar {
+  background-color: $theme-products;
+}
+
 .medlab_product_list_sorting_bar_container {
   padding: 0px 0px 0px 0px;
   margin: 10px auto 10px auto;
+  text-align: center;
 }
 
 .medlab_product_list_sorting_bar {

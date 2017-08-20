@@ -12,13 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('pages.home.index');
+    return view('pages.home.landing');
 });
 Route::get('/index.html', function () {
-    return view('pages.home.index');
-});
-
-Route::get('/landing', function () {
     return view('pages.home.landing');
 });
 
