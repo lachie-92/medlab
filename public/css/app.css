@@ -328,18 +328,103 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
 
 .medlab_panel_container {
   padding-top: 20px; }
+  .medlab_panel_container.product h1 {
+    text-transform: uppercase; }
+  .medlab_panel_container.product hr {
+    border-color: #174a8a; }
+  .medlab_panel_container.product strong em {
+    text-transform: uppercase;
+    font-style: normal; }
+  .medlab_panel_container.product .row + hr {
+    margin-top: 0;
+    margin-bottom: 0; }
+  .medlab_panel_container.product p {
+    padding-bottom: 2.0em; }
+  .medlab_panel_container.product table p {
+    padding-bottom: 0.5em; }
 
 .medlab_panel {
   background-color: transparent;
   border: none; }
 
+.row.equal-height {
+  display: flex;
+  justify-content: space-between; }
+
+.medlab_ingredients_panel {
+  background-color: #98b12a;
+  color: #FFF; }
+  .medlab_ingredients_panel .medlab_panel_content {
+    color: inherit; }
+  .medlab_ingredients_panel table > tbody > tr > td,
+  .medlab_ingredients_panel table > tbody > tr > th,
+  .medlab_ingredients_panel table > tfoot > tr > td,
+  .medlab_ingredients_panel table > tfoot > tr > th,
+  .medlab_ingredients_panel table > thead > tr > td,
+  .medlab_ingredients_panel table > thead > tr > th {
+    border-top: none;
+    padding: 0; }
+    .medlab_ingredients_panel table > tbody > tr > td p,
+    .medlab_ingredients_panel table > tbody > tr > th p,
+    .medlab_ingredients_panel table > tfoot > tr > td p,
+    .medlab_ingredients_panel table > tfoot > tr > th p,
+    .medlab_ingredients_panel table > thead > tr > td p,
+    .medlab_ingredients_panel table > thead > tr > th p {
+      margin-bottom: 0; }
+    .medlab_ingredients_panel table > tbody > tr > td:last-child,
+    .medlab_ingredients_panel table > tbody > tr > th:last-child,
+    .medlab_ingredients_panel table > tfoot > tr > td:last-child,
+    .medlab_ingredients_panel table > tfoot > tr > th:last-child,
+    .medlab_ingredients_panel table > thead > tr > td:last-child,
+    .medlab_ingredients_panel table > thead > tr > th:last-child {
+      text-align: right; }
+    .medlab_ingredients_panel table > tbody > tr > td:first-child,
+    .medlab_ingredients_panel table > tbody > tr > th:first-child,
+    .medlab_ingredients_panel table > tfoot > tr > td:first-child,
+    .medlab_ingredients_panel table > tfoot > tr > th:first-child,
+    .medlab_ingredients_panel table > thead > tr > td:first-child,
+    .medlab_ingredients_panel table > thead > tr > th:first-child {
+      text-align: left !important; }
+  .medlab_ingredients_panel table.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: transparent; }
+
+.medlab_dosage_panel {
+  background-color: #174a8a;
+  color: #FFF; }
+  .medlab_dosage_panel .medlab_panel_content {
+    color: inherit; }
+    .medlab_dosage_panel .medlab_panel_content .medlab_product_content_title {
+      color: inherit; }
+
+.medlab_freefrom_panel p {
+  display: inline-block;
+  width: 30%;
+  height: 0;
+  padding-bottom: 28% !important;
+  background-color: #174a8a;
+  color: #FFF;
+  border-radius: 100%;
+  border: 3px double #FFF;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-size: 0.5em;
+  overflow-y: hidden; }
+  .medlab_freefrom_panel p:before {
+    content: '';
+    margin-top: 35%;
+    display: block; }
+
 .medlab_panel_title {
   padding: 5px 20px 5px 20px;
-  background-color: #1E5494 !important;
+  background-color: #0e2850 !important;
+  background-image: none !important;
   color: #FFF !important;
   opacity: 0.8;
   font-size: 20px;
-  font-family: "Museo Sans",sans-serif; }
+  font-family: "Museo Sans",sans-serif;
+  border-radius: 4px;
+  font-weight: normal;
+  text-align: center; }
 
 .medlab_panel_content {
   background-color: transparent;
@@ -360,7 +445,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
 
 .medlab_panel_image_title {
   padding: 5px 20px 5px 20px;
-  background-color: #1E5494 !important;
+  background-color: #0e2850 !important;
   color: #FFF !important;
   opacity: 0.8;
   text-align: center;
