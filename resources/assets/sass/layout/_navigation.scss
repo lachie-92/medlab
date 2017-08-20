@@ -120,6 +120,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
 .medlab_navbar_dropdown {
   font-family: $navi-font;
   font-size: 11px;
+  font-weight: 100;
   margin-top: -5px;
   text-align: center;
   color: $navi-text-colour !important;
@@ -134,7 +135,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   background-color: $navi-submenu-background-colour;
   font-size: 20px;
   color: $navi-submenu-text-colour;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Museo Sans Narrow", sans-serif;
 }
 
 .medlab_navbar_dropdown_menu_item {
