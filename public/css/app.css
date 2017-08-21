@@ -46,7 +46,8 @@
   font-weight: 700;
   src: url("/fonts/MuseoSans_500-webfont.woff"); }
 .btn {
-  border: 2px solid #FFF; }
+  border: 2px solid #FFF;
+  color: #FFF; }
   .btn.btn-primary {
     background-image: none; }
     .wrap.corporate .btn.btn-primary {
@@ -517,9 +518,10 @@ body.landing {
     font-weight: 200;
     padding: 4px 8px; }
   body.landing .fa {
-    font-size: 1.0em;
+    font-size: 2.0em;
     margin-left: 5px;
-    color: #FFF; }
+    color: #FFF;
+    vertical-align: top; }
 
 .portal-button {
   display: inline-block;
@@ -594,6 +596,8 @@ footer:first-of-type {
 
 .medlab_footer_bottom_wrapper {
   background-color: #000014; }
+  .medlab_footer_bottom_wrapper .fa {
+    font-size: 1.0em !important; }
 
 .medlab_footer_bottom_container {
   padding: 20px 15px 30px 15px; }
