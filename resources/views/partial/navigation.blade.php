@@ -108,9 +108,15 @@
                 </li>
                 <li class="vr"></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    @if (Auth::user())
+                    <a href="/account" class="dropdown-toggle medlab_navbar_dropdown">
+                        My Account
+                    </a>
+                    @else
+                    <a href="/account/login" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
                         Login or Register
                     </a>
+                    @endif
                 </li>
             </ul>
         </div>
