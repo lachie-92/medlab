@@ -10,10 +10,10 @@
         </div>
     </div>
     <div class="row equal-height">
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-md-8" >
             <h4>{{ strip_tags($product->short_description) }}</h4>
         </div>
-        <div class="col-xs-4 text-right" style="margin-top:auto">
+        <div class="col-xs-12 col-md-4 text-right" style="margin-top:auto">
             105gm &amp; 210gm powder
         </div>
     </div>

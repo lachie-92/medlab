@@ -1,0 +1,19 @@
+.btn {
+    border: 2px solid #FFF;
+
+    &.btn-primary {
+        background-image: none;
+
+        .wrap.corporate & {
+            background-color: $theme-corporate;
+        }
+
+        .wrap.products & {
+            background-color: $theme-products;
+        }
+
+        .wrap.research & {
+            background-color: $theme-research;
+        }
+    }
+}

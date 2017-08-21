@@ -133,9 +133,19 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
 .medlab_navbar_dropdown_menu {
   padding: 0px;
   background-color: $navi-submenu-background-colour;
-  font-size: 20px;
+  font-size: 14px;
   color: $navi-submenu-text-colour;
   font-family: "Museo Sans Narrow", sans-serif;
+
+  p {
+    font-size: 18px;
+    text-align: left !important;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom : 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
 
 .medlab_navbar_dropdown_menu_item {
