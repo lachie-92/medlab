@@ -11,7 +11,11 @@
             </select>
         </div>
         <div class="col-sm-6 text-right">
-            <button>Login</button>
+            @if (Auth::user())
+            <a class="btn" href="/account">MY ACCOUNT</a>
+            @else
+            <a class="btn" href="/account/login">LOGIN</a>
+            @endif
             <a href="https://www.facebook.com/medlabAUS"><i class="fa fa-facebook"></i></a>
             <a href="https://www.instagram.com/medlab_clinical/"><i class="fa fa-instagram"></i></a>
             <a href="https://twitter.com/medlabclinical"><i class="fa fa-twitter"></i></a>

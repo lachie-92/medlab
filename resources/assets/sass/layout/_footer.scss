@@ -61,6 +61,10 @@ footer:first-of-type {
 
 .medlab_footer_bottom_wrapper {
   background-color: $footer-bottom-background;
+
+  .fa {
+    font-size: 1.0em !important;
+  }
 }
 
 .medlab_footer_bottom_container {
