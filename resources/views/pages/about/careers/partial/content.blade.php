@@ -24,11 +24,11 @@
 
 
                     <a href="#MarketingOfficer">Marketing Officer</a></br>
+                    <a href="#salesandmarketingassistant">Sales & Marketing Assistant</a></br>
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
-                    <a href="#PracVic">Practitioner Consultant – Field Sales Representative - VIC</a></br>
-                    <a href="#PracQLD">Practitioner Consultant – Field Sales Representative - QLD</a></br>
-
-
+                    <a href="#PracQLD">Practitioner Consultant – Field Sales Representative - Sunshine Coast</a></br>
+                    <a href="#PracQLD2">Practitioner Consultant – Field Sales Representative - Gold Coast</a></br>
+                    <a href="#PracNSW">Practitioner Consultant – Field Sales Representative - Sydney</a></br>
 
 
                     <!--
@@ -187,6 +187,47 @@
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Marketing Officer">recruit@medlab.co</a></p>
                     <hr>
 
+                    <a name="salesandmarketingassistant"></a>
+                    <h3>Sales and Marketing Assistant</h3>
+                    <li>Full Time / Permanent</li>
+                    <li>Based in Alexandria, Sydney</li></br>
+
+                    <h4>Who is Medlab Clinical?</h4>
+                    <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
+
+
+                    <h4>ABout The Role</h4>
+                    <p>This is an excellent opportunity to work for a progressive company in the Health Sector as a Sales and Marketing Assistant.</p>
+                    <p>This position reports to the Sales and Marketing Manager and is responsible for providing administration support to the Sales and Marketing Team. This includes preparing, formatting and editing a range of documents, presentations and event co-ordination.</p>
+
+                    <li>Managing the company website and all social media communications.</li>
+                    <li>Developing and maintaining a CRM database and updating the sales registry.</li>
+                    <li>Work closely with the Sales and Marketing Manager to maintain and source opportunities to expand the company's profile.</li>
+                    <li>All team administration for both Sales and Marketing team.</li>
+                    <li>Event co-ordination of all events.</li>
+                    <li>General office duties.</li></br>
+
+                    <h4>About You</h4>
+                    <p>To be successful in this role you will be able to demonstrate the following:</p>
+                    <li>Administration or Sales/Marketing Assistant experience is preferable, however not essential.</li>
+                    <li>Effective written and verbal communication skills.</li>
+                    <li>Good knowledge in social media communication.</li>
+                    <li>A high level of attention to detail.</li>
+                    <li>Ability to work effectively within a team and independently.</li>
+                    <li>Strong Organisational Skills.</li>
+                    <li>A can-do attitude.</li></br>
+
+                    <h4>Benefits</h4>
+                    <p>This is perfect opportunity for a new starter willing to put in the hard work to learn and grow within a corporate company. Here at Medlab we are commitment to the development of staff and regularly promote from within</p>
+                    <li>Generous base salary and bonus opportunities</li>
+                    <li>Use of on-site gym facilities within our offices in Alexandria</li>
+                    <li>A dynamic, collaborative team-working environment</li>
+                    <li>On-going training, education and mentoring</li>
+                    </li>
+                    <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Marketing Officer">recruit@medlab.co</a></p>
+                    <hr>
+
                     <!--
 
 
@@ -282,6 +323,7 @@
 
 
 
+                    <!--
                     <a name="PracVic"></a>
                     <h3>Practitioner Consultant – Field Sales Representative</h3>
                     <li>Permanent / Full Time</li>
@@ -326,6 +368,7 @@
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - VIC">recruit@medlab.co</a></p>
                     <hr>
+                    -->
 
                     <a name="PracQLD"></a>
                     <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
@@ -369,7 +412,97 @@
                     <li>On-going training, education and mentoring.</li>
                     <li>Career growth for the right person.</li>
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - QLD">recruit@medlab.co</a></p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - Sunshine Coast">recruit@medlab.co</a></p>
+                    <hr>
+
+                    <a name="PracQLD2"></a>
+                    <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
+                    <li>Permanent / Full Time</li>
+                    <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
+                    <li>Gold Coast, QLD</li></br>
+
+                    <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
+
+                    <h4>Who are Medlab Clinical?</h4>
+                    <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
+
+                    <h4>The Opportunity</h4>
+                    <p>As a passionate Practitioner Consultant, you will be the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
+                    <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
+                    <p>Duties and Responsibilities include:</p>
+                    <li>Continually identify and develop new business opportunities.</li>
+                    <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either face to face or over the phone.</li>
+                    <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
+                    <li>Create and implement client incentive and retention strategies.</li>
+                    <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
+                    <li>Provide technical support to practitioners over the phone.</li>
+                    <li>Plan and deliver product training to a range of healthcare modalities.</li>
+                    <li>Attend industry and association conferences and trade shows when required.</li></br>
+
+                    <h4>About You</h4>
+                    <p>To be successful in this role you will be able to demonstrate the following:</p>
+                    <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
+                    <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
+                    <li>Proven track record in a sales environment along with commercial acumen.</li>
+                    <li>Self motivated and have a solutions based approach to tasks.</li>
+                    <li>Excellent understanding of the sales process and use of CRM system.</li>
+                    <li>Have a genuine passion for health and wellness with desire to succeed.</li>
+                    Note: This position would also suit a person who is from a healthcare practitioner background looking for a change in career direction.</br>
+
+                    <h4>Benefits</h4>
+                    <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab we are committed to the development of staff and regularly promote from within.</p>
+                    <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
+                    <li>Generous base salary plus commission structure and allowances.</li>
+                    <li>A fun, collaborative team-working environment.</li>
+                    <li>On-going training, education and mentoring.</li>
+                    <li>Career growth for the right person.</li>
+                    <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - Gold Coast">recruit@medlab.co</a></p>
+                    <hr>
+
+                    <a name="PracSYD"></a>
+                    <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
+                    <li>Permanent / Full Time</li>
+                    <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
+                    <li>Sydney, NSW</li></br>
+
+                    <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
+
+                    <h4>Who are Medlab Clinical?</h4>
+                    <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
+
+                    <h4>The Opportunity</h4>
+                    <p>As a passionate Practitioner Consultant, you will be the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
+                    <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
+                    <p>Duties and Responsibilities include:</p>
+                    <li>Continually identify and develop new business opportunities.</li>
+                    <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either face to face or over the phone.</li>
+                    <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
+                    <li>Create and implement client incentive and retention strategies.</li>
+                    <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
+                    <li>Provide technical support to practitioners over the phone.</li>
+                    <li>Plan and deliver product training to a range of healthcare modalities.</li>
+                    <li>Attend industry and association conferences and trade shows when required.</li></br>
+
+                    <h4>About You</h4>
+                    <p>To be successful in this role you will be able to demonstrate the following:</p>
+                    <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
+                    <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
+                    <li>Proven track record in a sales environment along with commercial acumen.</li>
+                    <li>Self motivated and have a solutions based approach to tasks.</li>
+                    <li>Excellent understanding of the sales process and use of CRM system.</li>
+                    <li>Have a genuine passion for health and wellness with desire to succeed.</li>
+                    Note: This position would also suit a person who is from a healthcare practitioner background looking for a change in career direction.</br>
+
+                    <h4>Benefits</h4>
+                    <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab we are committed to the development of staff and regularly promote from within.</p>
+                    <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
+                    <li>Generous base salary plus commission structure and allowances.</li>
+                    <li>A fun, collaborative team-working environment.</li>
+                    <li>On-going training, education and mentoring.</li>
+                    <li>Career growth for the right person.</li>
+                    <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                    <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - NSW">recruit@medlab.co</a></p>
                     <hr>
 
 
