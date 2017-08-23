@@ -49,7 +49,7 @@
 @yield('content')
 
 </div>
-@include('partial.navigation')
+@include('partial.navigation', [ 'disableDropdown' => true])
 @include('partial.footer.bottom')
 
 <!-- JQuery -->

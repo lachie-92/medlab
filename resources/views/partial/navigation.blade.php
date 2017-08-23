@@ -22,7 +22,7 @@
                 </li>
                 <li class="vr"></li>
                 <li class="dropdown">
-                    <a href="/about" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="/about" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
                         About Us
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
@@ -46,7 +46,7 @@
                 </li>
                 <li class="vr"></li>
                 <li class="dropdown">
-                    <a href="/nutraceuticals/products" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="/nutraceuticals/products" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
                         Products
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
@@ -65,7 +65,7 @@
                 <li class="separator visible-md visible-lg">
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
                         Education
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
@@ -79,7 +79,7 @@
                 </li>
                 <li class="vr"></li>
                 <li class="dropdown">
-                    <a href="/research" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="/research" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
                         Research
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
@@ -94,7 +94,7 @@
                 </li>
                 <li class="vr"></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
                         Investors
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
@@ -111,7 +111,7 @@
                         My Account
                     </a>
                     @else
-                    <a href="/account/login" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
+                    <a href="/account/login" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
                         Login or Register
                     </a>
                     @endif

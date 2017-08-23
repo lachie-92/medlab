@@ -4,13 +4,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-6">
-            Please select your region<br />
-            <select>
-                <option>Australia</option>
-            </select>
-        </div>
-        <div class="col-sm-6 text-right">
+        <div class="col-sm-12 text-right">
             @if (Auth::user())
             <a class="btn" href="/account">MY ACCOUNT</a>
             @else
