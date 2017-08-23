@@ -39,7 +39,13 @@
 
 </head>
 
-<body>
+@if (Request::is('research*'))
+<body class="research">
+@elseif  (Request::is('corporate*'))
+<body class="corporate">
+@else
+<body class="products">
+@endif
 
 
 @include('partial.header')

@@ -8,6 +8,7 @@ $medlab-blue-dark: #0e2850;
 $theme-products: #b6d13d;
 $theme-research: #ef5b5c;
 $theme-corporate: #6cc7d0;
+$theme-default: $theme-corporate;
 $product-gradient: linear-gradient(to right, #FFF, #f6fcfd, #b3e1e8);
 
 //////////////////////////////////////////////////////////////////////////
@@ -33,7 +34,7 @@ $navi-text-colour: #FFFFFF;
 $navi-text-colour-focus: #000000;
 $navi-submenu-background-colour: #F8F8F8;
 $navi-submenu-text-colour: #555;
-$navi-submenu-background-colour-focus: #7AA43F;
+$navi-submenu-background-colour-focus: $theme-default;
 $navi-submenu-text-colour-focus: #FFF;
 $navi-login-text-colour: #777;
 $navi-border-colour: #7AA43F;
