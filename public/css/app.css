@@ -29,22 +29,22 @@
   font-family: "Museo Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/MuseoSans_500-webfont.woff"); }
+  src: url("/fonts/MuseoSans_300-webfont.woff"); }
 @font-face {
   font-family: "Museo Sans Narrow";
   font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/MuseoSans_500-webfont.woff"); }
+  font-weight: 100;
+  src: url("/fonts/MuseoSans_100-webfont.woff"); }
 @font-face {
   font-family: "Museo Sans Bold";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/MuseoSans_500-webfont.woff"); }
+  src: url("/fonts/MuseoSans_700-webfont.woff"); }
 @font-face {
   font-family: "Museo Sans Condensed";
   font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/MuseoSans_500-webfont.woff"); }
+  font-weight: 100;
+  src: url("/fonts/MuseoSans_100-webfont.woff"); }
 .btn {
   border: 2px solid #FFF;
   color: #FFF; }
@@ -184,7 +184,7 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   padding: 24px 35px 20px 35px; }
 
 .medlab_navbar_dropdown {
-  font-family: "Museo Sans";
+  font-family: "Museo Sans Narrow";
   font-size: 11px;
   font-weight: 100;
   margin-top: -5px;
