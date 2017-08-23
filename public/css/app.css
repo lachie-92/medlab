@@ -61,7 +61,10 @@ body {
   background-color: #F2F3F9;
   font-family: "Museo Sans";
   letter-spacing: 0.1em;
-  font-weight: 300; }
+  font-weight: 300;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .wrap {
   min-height: 600px; }
