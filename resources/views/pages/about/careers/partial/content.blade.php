@@ -28,7 +28,7 @@
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
                     <a href="#PracQLD">Practitioner Consultant – Field Sales Representative - Sunshine Coast</a></br>
                     <a href="#PracQLD2">Practitioner Consultant – Field Sales Representative - Gold Coast</a></br>
-                    <a href="#PracNSW">Practitioner Consultant – Field Sales Representative - Sydney</a></br>
+                    <a href="#PracNSW">Practitioner Consultant – State Team Leader - Sydney</a></br>
 
 
                     <!--
@@ -461,7 +461,7 @@
                     <hr>
 
                     <a name="PracSYD"></a>
-                    <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
+                    <h3>Practitioner Consultant – State Team Leader - NSW</h3>
                     <li>Permanent / Full Time</li>
                     <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
                     <li>Sydney, NSW</li></br>
@@ -479,8 +479,8 @@
                     <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either face to face or over the phone.</li>
                     <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
                     <li>Create and implement client incentive and retention strategies.</li>
+                    <li>Manage, develop and support your field team members.</li>
                     <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
-                    <li>Provide technical support to practitioners over the phone.</li>
                     <li>Plan and deliver product training to a range of healthcare modalities.</li>
                     <li>Attend industry and association conferences and trade shows when required.</li></br>
 
