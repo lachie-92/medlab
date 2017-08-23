@@ -42,10 +42,10 @@
 
 @if (Request::is('research*'))
 <div class="wrap research">
-@elseif  (Request::is('nutraceuticals*'))
-<div class="wrap products">
-@else
+@elseif  (Request::is('corporate*'))
 <div class="wrap corporate">
+@else
+<div class="wrap products">
 @endif
 
 @yield('content')
