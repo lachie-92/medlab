@@ -941,11 +941,6 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-xs-12">
-                                        <label for="mensreproductive_frequenturinations">Do you suffer from any of the following?</label>
-                                    </div>
-                                </div>
-                                <div class="row">
                                     <div class="col-xs-6">When do you suffer from frequent urination?</div>
                                     <div class="col-xs-6">
                                         <select name="mensreproductive_frequenturination" id="mensreproductive_frequenturination" class="form-control" {{ isset($readOnly)? 'disabled="disabled"': '' }}>

@@ -320,11 +320,15 @@
                                                     <tbody><tr>
                                                         <td><input id="ContentPlaceHolder1_personalhistory_education_0" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="1" {{ array_get($intake, 'personalhistory_education')==1?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_0">High School</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="2" {{ array_get($intake, 'personalhistory_education')==2?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_1">College Graduate</label></td>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_1" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="2" {{ array_get($intake, 'personalhistory_education')==2?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_1">Certificate/Diploma</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_2" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="3" {{ array_get($intake, 'personalhistory_education')==3?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_2">Some College</label></td>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_2" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="3" {{ array_get($intake, 'personalhistory_education')==3?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_2">Bachelors Degree</label></td>
                                                     </tr><tr>
-                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_3" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="4" {{ array_get($intake, 'personalhistory_education')==4?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_3">Advanced Degree</label></td>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_3" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="4" {{ array_get($intake, 'personalhistory_education')==4?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_3">Postgraduate Degree</label></td>
+                                                    </tr><tr>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_4" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="5" {{ array_get($intake, 'personalhistory_education')==5?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_4">Advanced Degree</label></td>
+                                                    </tr><tr>
+                                                        <td><input id="ContentPlaceHolder1_personalhistory_education_5" type="radio" {{ isset($readOnly)?'disabled="disabled"':'' }} name="personalhistory_education" value="6" {{ array_get($intake, 'personalhistory_education')==6?'checked="checked"':"" }}><label for="ContentPlaceHolder1_personalhistory_education_5">Other</label></td>
                                                     </tr>
                                                     </tbody></table>
                                             </div>
@@ -457,16 +461,19 @@
                                             <div class="col-md-5"></div>
                                     </div>
                                     <div class="row">
-                                            <div class="col-md-6 col-sm-6">
-                                                <label>
-                                                    If yes, for what disability and how long?
-                                                </label>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6">
-                                                <input name="personalhistory_disabilitypension_detail" type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} id="personalhistory_disabilitypension_detail" class="form-control" value="{{ array_get($intake, 'personalhistory_disabilitypension_detail') }}">
-                                            </div>
-                                            <div class="col-md-5"></div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <label>
+                                                If yes, for what disability and how long?
+                                            </label>
                                         </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <input name="personalhistory_disabilitypension_detail" type="text" {{ isset($readOnly)?'disabled="disabled"':'' }} id="personalhistory_disabilitypension_detail" class="form-control" value="{{ array_get($intake, 'personalhistory_disabilitypension_detail') }}">
+                                        </div>
+                                        <div class="col-md-5"></div>
+                                    </div>
+                                    <div class="row">
+                                        <hr size="6">
+                                    </div>
                                     <div class="row">
                                         <div class="col=md-6 col-sm-6">
                                             <label>
