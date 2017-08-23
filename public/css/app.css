@@ -57,7 +57,7 @@
     .wrap.research .btn.btn-primary {
       background-color: #ef5b5c; }
 
-body {
+body:not(.landing) {
   background-color: #F2F3F9;
   font-family: "Museo Sans";
   letter-spacing: 0.1em;
