@@ -5131,7 +5131,8 @@ class ModifyProduct extends Command
                 </p>
                 <p>
                     NanoCelle&trade; B12 is developed from patent-protected nano-technology creating Vitamin B12
-                    nanoparticles that are easily absorbed across the oral mucosal epithelium.
+                    nanoparticles that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                    the oral buccal mucosa, bypassing the gastrointestinal tract.
                 </p>
                 ',
                 'patent' =>
@@ -5147,7 +5148,8 @@ class ModifyProduct extends Command
                     '
                 <p>
                     NanoCelle&trade; B12 is developed from patent-protected nano-technology creating Vitamin B12
-                    nanoparticles that are easily absorbed across the oral mucosal epithelium. NanoCelle&trade; B12 is
+                    nanoparticles that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                    the oral buccal mucosa, bypassing the gastrointestinal tract. NanoCelle&trade; B12 is
                     indicated to assist in the management of dietary vitamin B12 deficiency that is particularly seen
                     in vegetarians, vegans, the elderly and people with altered intestinal digestive and absorptive
                     capabilities. It is the metabolic derivatives of Vitamin B12 that act as important cofactors of
@@ -5349,7 +5351,8 @@ class ModifyProduct extends Command
                 </p>
                 <p>
                     NanoCelle&trade; D3 is developed from patent-protected nano-technology creating Vitamin D3
-                    nanoparticles that are easily absorbed across the oral mucosal epithelium.
+                    nanoparticles that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                    the oral buccal mucosa, bypassing the gastrointestinal tract.
                 </p>
                 ',
                 'patent' =>
@@ -5365,7 +5368,8 @@ class ModifyProduct extends Command
                     '
                 <p>
                     NanoCelle&trade; D3 is developed from patent-protected nano-technology creating Vitamin D3 nanoparticles
-                    that are easily absorbed across the oral mucosal linning.  NanoCelle&trade; D3 is indicated to assist in
+                    that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                    the oral buccal mucosa, bypassing the gastrointestinal tract. NanoCelle&trade; D3 is indicated to assist in
                     the management of medically diagnosed vitamin D deficiency. Vitamin D3 aids in dietary calcium and
                     phosphorus absorption, important for maintaining healthy bone mineral density. Vitamin D3 binds to
                     the vitamin D receptor (VDR), which is located on all body cells. Activation of the VDR has been
@@ -7731,8 +7735,8 @@ class ModifyProduct extends Command
                     '
                     <p>
                         NanoCelle&trade; D3 + K2 is developed from patent-protected nanocellization
-                        technology that produces Vitamin D3 and Vitamin K2 submicron nanoparticles that are easily absorbed
-                        across the oral mucosal epithelia. NanoCelle&trade; D3 + K2 is
+                        technology that produces Vitamin D3 and Vitamin K2 submicron nanoparticles that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                        the oral buccal mucosa, bypassing the gastrointestinal tract. NanoCelle&trade; D3 + K2 is
                         indicated to sustain mineral homeostasis facilitating optimal immune function, cardiovascular health
                         and bone metabolism, and to assist in the management of medically diagnosed vitamin D deficiency.
                         Vitamin D3 is essential for cellular and immunological function and is also essential for skeletal
