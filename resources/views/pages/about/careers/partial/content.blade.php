@@ -281,7 +281,7 @@
                     <a name="ClientRelationshipConsultant"></a>
                     <h3>Client Relationship Consultant</h3>
                     <li>Based in Alexandria, Sydney</li>
-                    <li>Full Time / Permanent</li></br>
+                    <li>Full Time / Permanent</li>
                     <li>Office-Baed Role</li></br>
                     <p>Due to a rapid increase in market share we are seeking a highly ambitious Client Relationship Consultant to join our extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
 
