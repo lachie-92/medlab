@@ -3504,7 +3504,7 @@ class ModifyProduct extends Command
                                 <p><em>Saccharomyces cerevisiae ssp. boulardii</em> (Med 41)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>5 million CFU*</p>
+                                <p>5 billion CFU*</p>
                             </td>
                         </tr>
                         <tr>
