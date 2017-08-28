@@ -200,7 +200,7 @@
                                 type="button">I Accept
                         </button>
                         <button class="btn btn-sm btn-danger"
-                                onclick="location.href = '/investor/corporate-governance';"
+                                onclick="location.href = '/corporate/corporate-governance';"
                                 type="button">I Refuse</button>
                     </p>
 

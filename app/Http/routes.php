@@ -269,28 +269,54 @@ Route::get('/order/shipping-and-delivery', function () {
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
-// Investor
+// Corporate
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/corporate', function () {
+    return view('pages.corporate.corporate.index');
+});
+
+Route::get('/corporate/corporate-governance', function () {
+    return view('pages.corporate.corporate-governance.index');
+});
+
+Route::get('/corporate/prospectus', function () {
+    return view('pages.corporate.prospectus.index');
+});
+
+Route::get('/corporate/asx-announcements', function () {
+    return view('pages.corporate.asx-announcements.index');
+});
+
+Route::get('/corporate/share-price', function () {
+    return view('pages.corporate.share-price.index');
+});
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Investor Redirects
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
 Route::get('/investor', function () {
-    return view('pages.investor.investor.index');
+    return Redirect::to('/corporate/investor');
 });
 
 Route::get('/investor/corporate-governance', function () {
-    return view('pages.investor.corporate-governance.index');
+    return Redirect::to('/corporate/corporate-governance');
 });
 
 Route::get('/investor/prospectus', function () {
-    return view('pages.investor.prospectus.index');
+    return Redirect::to('/corporate/prospectus');
 });
 
 Route::get('/investor/asx-announcements', function () {
-    return view('pages.investor.asx-announcements.index');
+    return Redirect::to('/corporate/asx-announcements');
 });
 
 Route::get('/investor/share-price', function () {
-    return view('pages.investor.share-price.index');
+    return Redirect::to('/corporate/share-price');
 });
 
 

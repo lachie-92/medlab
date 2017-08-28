@@ -26,13 +26,13 @@
 
 
                     <h3 class="medlab_footer_top_site_map_box_header">
-                        <a class="medlab_footer_top_site_map_box_header_link" href="/investor">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/corporate">
                             INVESTOR
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/investor/corporate-governance">Corporate Governance</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/corporate/corporate-governance">Corporate Governance</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX announcements</a>

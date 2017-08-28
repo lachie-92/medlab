@@ -97,13 +97,13 @@
                 <li class="vr"></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
-                        Investors
+                        Corporate
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor">Investor Center</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/asx-announcements">ASX announcements</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/corporate-governance">Corporate Governance</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/investor/share-price">Share Price</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate">Corporate Center</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/asx-announcements">ASX announcements</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/corporate-governance">Corporate Governance</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/share-price">Share Price</a></li>
                     </ul>
                 </li>
                 <li class="vr"></li>
