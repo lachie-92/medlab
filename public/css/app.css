@@ -61,10 +61,7 @@ body:not(.landing) {
   background-color: #F2F3F9;
   font-family: "Museo Sans";
   letter-spacing: 0.1em;
-  font-weight: 300;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
+  font-weight: 300; }
 
 .wrap {
   min-height: 600px; }
@@ -80,6 +77,10 @@ body:not(.landing) {
 
 header {
   background-color: #FFFFFF; }
+  header .row {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto; }
   header div.contact {
     padding-top: 40px;
     padding-right: 35px;
@@ -148,18 +149,22 @@ header {
     border: 1px solid #FFF; }
     .medlab_navbar_container .navbar-header button .icon-bar {
       background-color: #FFF; }
-  .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around; }
-    .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li a {
-      line-height: 1.0em;
-      padding-top: 10px;
-      padding-bottom: 10px; }
-    .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.vr, .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator {
-      height: 20px;
-      width: 1px;
-      border-left: 1px solid #FFF; }
+  .medlab_navbar_container .navbar-collapse.collapse:not(.in) {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto; }
+    .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-around; }
+      .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li a {
+        line-height: 1.0em;
+        padding-top: 10px;
+        padding-bottom: 10px; }
+      .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.vr, .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator {
+        height: 20px;
+        width: 1px;
+        border-left: 1px solid #FFF; }
 
 header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator {
   position: relative;
