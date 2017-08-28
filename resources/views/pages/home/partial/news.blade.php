@@ -526,14 +526,20 @@
                             </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <div class="medlab_news_sidebar_list_item_title">
+                                    <a href="https://www.beneficialmicrobes2017.org/index.phputm_medium=email&utm_source=sharpspring&sslid=MzU0MTUzNDY3NDQxAAA&sseid=MzQ1MzczNbM0MwEA&jobid=95ec6faa-d2c3-4784-8dbc-e6cd6fddc3b1" target="_blank">The 6<sup>TH</sup> Beneficial Microbes Conference</a>
+                                </div>
+                                <a href="https://www.beneficialmicrobes2017.org/index.phputm_medium=email&utm_source=sharpspring&sslid=MzU0MTUzNDY3NDQxAAA&sseid=MzQ1MzczNbM0MwEA&jobid=95ec6faa-d2c3-4784-8dbc-e6cd6fddc3b1" target="_blank">
+                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/amsterdam.jpg">
+                                </a>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <div class="medlab_news_sidebar_list_item_title">
                                     <a href="https://www.probiotaevent.com/probiota-asia/" target="_blank">ProBiota Asia 2017</a>
                                 </div>
-                                <p><a href="https://www.probiotaasia.com/prof-luis-vitetta/" target="_blank">Professor Luis Vitetta will present</a></p>
                                 <a href="https://www.probiotaevent.com/probiota-asia/" target="_blank">
                                     <img width="100%"  alt="ACNEM 2017" src="/img/news/Probiota-Asia-2017-Master-logo.jpg">
                                 </a>
                             </li>
-                            <br>
                             <li class="medlab_news_sidebar_list_item">
                                 <div class="medlab_news_sidebar_list_item_title">
                                     <a href="https://www.cosa.org.au/events/2017/11/cosas-44th-annual-scientific-meeting-2017.aspx" target="_blank">COSA’s 44th Annual Scientific Meeting</a>
