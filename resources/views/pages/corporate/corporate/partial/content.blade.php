@@ -18,24 +18,24 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 10px">
                             <div style="text-align: center;">
-                                <a title="ASX Announcements" href="/investor/asx-announcements">
-                                    <img src="/img/investor/ASX_A.jpg" width="100%" height="250"/>
+                                <a title="ASX Announcements" href="/corporate/asx-announcements">
+                                    <img src="/img/corporate/ASX_A.jpg" width="100%" height="250"/>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 10px">
                             <div style="text-align: center;">
-                                <a title="Corporate Governance" href="/investor/corporate-governance">
-                                    <img src="/img/investor/corpgovernance.jpg" width="100%" height="250"/>
+                                <a title="Corporate Governance" href="/corporate/corporate-governance">
+                                    <img src="/img/corporate/corpgovernance.jpg" width="100%" height="250"/>
                                 </a>
                             </div>
                         </div>
 
                         <div class="col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 10px">
                             <div style="text-align: center;">
-                                <a title="ASX Announcements" href="/investor/share-price">
-                                    <img src="/img/investor/Shareprice.jpg" width="100%" height="250"/>
+                                <a title="ASX Announcements" href="/corporate/share-price">
+                                    <img src="/img/corporate/Shareprice.jpg" width="100%" height="250"/>
                                 </a>
                             </div>
                         </div>

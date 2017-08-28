@@ -7,8 +7,8 @@
     <div class="container">
         <ol class="breadcrumb medlab_breadcrumbs">
             <li><a class="medlab_breadcrumbs_link" href="/">Home</a></li>
-            <li><a class="medlab_breadcrumbs_link" href="/investor">Investor</a></li>
-            <li class="active medlab_breadcrumbs_text">Share Price</li>
+            <li><a class="medlab_breadcrumbs_link" href="/corporate">Corporate</a></li>
+            <li class="active medlab_breadcrumbs_text">Corporate Governance</li>
         </ol>
     </div>
 </div>

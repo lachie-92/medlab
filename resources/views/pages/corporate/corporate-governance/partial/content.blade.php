@@ -25,7 +25,7 @@
                     </p>
 
                     <p>
-                        <a class="medlab_panel_content_link" href="/investor/prospectus">DOWNLOAD</a>
+                        <a class="medlab_panel_content_link" href="/corporate/prospectus">DOWNLOAD</a>
                     </p>
 
                     <br>
