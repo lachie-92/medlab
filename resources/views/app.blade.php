@@ -22,14 +22,6 @@
     <!-- App CSS -->
     <link rel="stylesheet" href="/css/app.css">
 
-    <!-- Research Table CSS & JS -->
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script type="text/javascript" src="/js/jq.tablesort.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-
-
-
     <!-- AutoPilot Tracking Code-->
     <script type="text/javascript">(function(o){var b="https://api.autopilothq.com/anywhere/",t="1538831e17534a3ba1cd0c82ef9354e0ba643fcc956741f9862215872f3a93ff",a=window.AutopilotAnywhere={_runQueue:[],run:function(){this._runQueue.push(arguments);}},c=encodeURIComponent,s="SCRIPT",d=document,l=d.getElementsByTagName(s)[0],p="t="+c(d.title||"")+"&u="+c(d.location.href||"")+"&r="+c(d.referrer||""),j="text/javascript",z,y;if(!window.Autopilot) window.Autopilot=a;if(o.app) p="devmode=true&"+p;z=function(src,asy){var e=d.createElement(s);e.src=src;e.type=j;e.async=asy;l.parentNode.insertBefore(e,l);};if(!o.noaa){z(b+"aa/"+t+'?'+p,false)};y=function(){z(b+t+'?'+p,true);};if(window.attachEvent){window.attachEvent("onload",y);}else{window.addEventListener("load",y,false);}})({});</script>
 
