@@ -8803,8 +8803,8 @@ class ModifyProduct extends Command
                 ',
                 'price_retail' => 41.25,
                 'price_wholesale' => 27.50,
-                'image_path' => '/img/products/lactoferrin_enhanced_60s/lactoferrin_enhanced_60s.png',
-                'thumb_image_path' => '/img/products/lactoferrin_enhanced_60s/lacoferrin_enhanced_60s_thumb.png',
+                'image_path' => '/img/products/lactoferrin_enhanced_60s/lactoferrin_enhanced_60s_plastic.png',
+                'thumb_image_path' => '/img/products/lactoferrin_enhanced_60s/lacoferrin_enhanced_60s_plastic_thumb.png',
                 'in_stock' => true,
                 'slug' => 'lactoferrin-enhanced-60s',
             ]
