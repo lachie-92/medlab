@@ -19,26 +19,43 @@
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/ingredients">View by Ingredients</a>
                         </li>
-                        <!--<li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/faq">Product FAQ</a>
-                        </li>-->
+                    </ul>
+
+                    <h3 class="medlab_footer_top_site_map_box_header">
+                        <a class="medlab_footer_top_site_map_box_header_link" href="/nutraceuticals/products">
+                            PHARMACEUTICALS
+                        </a>
+                    </h3>
+                    <ul class="medlab_footer_top_site_map_box_list">
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/nutraceuticals/developement">Products in Development</a>
+                        </li>
                     </ul>
 
 
                     <h3 class="medlab_footer_top_site_map_box_header">
                         <a class="medlab_footer_top_site_map_box_header_link" href="/corporate">
-                            INVESTOR
+                            CORPORATE
                         </a>
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/corporate/corporate-governance">Corporate Governance</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/corporate">Corporate Center</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/headlineContents.aspx" target="_blank">ASX announcements</a>
                         </li>
                         <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/corporate/corporate-governance">Corporate Governance</a>
+                        </li>
+                        <li>
                             <a class="medlab_footer_top_site_map_box_link" href="http://clients3.weblink.com.au/Clients/medlab/charttabs.aspx" target="_blank">Share Price</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/corporate/executive-team">Executive Team</a>
+                        </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/corporate/consulting-team">Consulting Team</a>
                         </li>
                     </ul>
 
@@ -53,16 +70,16 @@
                     </h3>
                     <ul class="medlab_footer_top_site_map_box_list">
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/order/shipping-and-delivery">Shipping & Delivery</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/shipping-and-delivery">Shipping &amp; Delivery</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/order/returns">Returns</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/order/payment-pricing-and-discounts">Payment, Pricing & Discounts</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/payment-pricing-and-discounts">Payment, Pricing &amp; Discounts</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/order/order-and-stocking">Order & Stocking</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/order/order-and-stocking">Order &amp; Stocking</a>
                         </li>
                     </ul>
 
@@ -77,7 +94,7 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/policies/privacy-policy">Privacy Policy</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/policies/terms-and-conditions">Terms & Conditions</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/policies/terms-and-conditions">Terms &amp; Conditions</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/policies/medlab-sales-policy">Medlab Sales Policy</a>
@@ -116,7 +133,7 @@
                             <a class="medlab_footer_top_site_map_box_link" href="/research">Research</a>
                         </li>
                         <li>
-                            <a class="medlab_footer_top_site_map_box_link" href="/research/medlab-cell-line">Medlab's Cell Lines</a>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/medlab-cell-line">Probiotic Genera</a>
                         </li>
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/research/medlab-delivery-platform">Medlab Delivery Platform</a>
@@ -134,9 +151,13 @@
                         <li>
                             <a class="medlab_footer_top_site_map_box_link" href="/research/clinical-trails">Clinical Trials</a>
                         </li>
+                        <li>
+                            <a class="medlab_footer_top_site_map_box_link" href="/research/scientific-team">Scientific Team</a>
+                        </li>
                     </ul>
 
                 </div>
+
                 <div class="col-md-3 col-sm-3 col-xs-6">
 
                     <h3 class="medlab_footer_top_site_map_box_header">

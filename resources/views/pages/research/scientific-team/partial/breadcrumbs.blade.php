@@ -7,7 +7,7 @@
     <div class="container">
         <ol class="breadcrumb medlab_breadcrumbs">
             <li><a class="medlab_breadcrumbs_link" href="/">Home</a></li>
-            <li><a class="medlab_breadcrumbs_link" href="/about">About Us</a></li>
+            <li><a class="medlab_breadcrumbs_link" href="/research">Research</a></li>
             <li class="active medlab_breadcrumbs_text">Scientific Team</li>
         </ol>
     </div>
