@@ -25,27 +25,19 @@ class UploadProduct extends Command
 
         Product::create(
             [
-                'product_name_index' => 'ORSBiotic Sachets',
-                'austl_number' => '239102',
-                'product_name' => 'ORSBiotic&trade; 10pk Sachets',
+                'product_name_index' => 'Lactoferrin Enhanced',
+                'austl_number' => '290203',
+                'product_name' => 'Lactoferrin Enhanced&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">ORSBiotic&trade; 10pk Sachets</h4>
+                <h4 class="medlab_product_content_title">Lactoferrin Enhanced&trade;</h4>
                 <p>
-                    <strong>Australian Innovation Patent No. 2016100500</strong>
-                </p>
-                <p>
-                    ORSBiotic&trade; is an Oral Rehydration Solution to replace fluids lost due to vomiting,
-                    diarrhoea and strenuous physical activity, providing essential electrolytes together with
-                    selected probiotic species to provide therapeutic support for various triggers of diarrhoea
-                    and associated symptoms.
+                    Lactoferrin Enhanced is a unique combination of lactoferrin, olive leaf extract, probiotics and
+                    zinc to support a healthy immune response and regulate gastrointestinal health.
                 </p>
                 ',
                 'patent' =>
                     '
-                <p>
-                    <strong>Australian Innovation Patent No. 2016100500</strong>
-                </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>
@@ -53,55 +45,77 @@ class UploadProduct extends Command
                 'general_summary' =>
                     '
                 <p>
-                    ORSBiotic&trade; is an Oral Rehydration Solution to replace fluids lost due to vomiting,
-                    diarrhoea and strenuous physical activity, providing essential electrolytes together with
-                    selected probiotic species to provide therapeutic support for various triggers of diarrhoea
-                    and associated symptoms.
+                    Lactoferrin Enhanced&trade; is a unique combination of lactoferrin, olive leaf extract, probiotics
+                    and zinc to support a healthy immune response and regulate gastrointestinal health.
+                    Lactoferrin is a naturally occurring glycoprotein found in mucosal secretions, human milk and
+                    colostrum. It is a component of the innate immune response and protects against a variety of
+                    pathogens. Lactoferrin provides anti-inflammatory and antimicrobial activity, and may help to
+                    reduce inflammatory lesions associated with mild-moderate acne vulgaris.
                 </p>
                 <p>
-                    ORSBiotic&trade; contains probiotic species that assist to maintain healthy gastrointestinal
-                    homeostasis and permeability. The selected probiotic species from the genera Saccharomyces,
-                    Lactobacillus and Bifidobacterium have clinical evidence for providing therapeutic support
-                    for various triggers of diarrhoea and may help reduce the frequency and duration of diarrhoea.
-                    Zinc supplementation has been found to reduce the duration and severity of diarrhoea in children.
+                    Bonolive® is a clinically trialled extract of olive leaf. Intake of Bonolive® has been shown to
+                    lead to excellent bioavailabilty of bioactive metabolites in pharmacokinetic research. Bonolive®
+                    has been shown to promote bone health by stimulating osteoblast growth in a clinical study.
+                    Olive leaf extract has been found to exhibit broad spectrum antimicrobial properties against
+                    viruses and bacteria in vitro.
                 </p>
                 ',
                 'practitioner_summary' =>
-                    '
-
-
-                <strong>STANDARD INDICATIONS</strong>
-
-                <p>
-                    <ul>
-                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
-                        <li>Relief or treatment of diarrhoea.</li>
-                    </ul>
-                </p>
+                    "
 
                 <strong>SPECIFIC INDICATIONS</strong>
 
                 <p>
                     <ul>
-                        <li>Helps replace water and electrolytes lost due to vomiting, diarrhoea, heavy sweating, fever, vigorous exercise and other dehydrating conditions.</li>
-                        <li>Probiotic species from the genera Saccharomyces, Lactobacillus and Bifidobacterium have clinical evidence for providing therapeutic support for various triggers of diarrhoea including infectious agents, antibiotic-associated, Clostridium difficile-associated, irritable bowel syndrome, inflammatory bowel syndrome and malabsorption causes and may therefore help to reduce the frequency and duration of diarrhoea.</li>
-                        <li>Saccharomyces, Lactobacillus and Bifidobacterium help maintain healthy gastrointestinal homeostasis and permeability.</li>
-                        <li>Supplementary zinc benefits children with diarrhoea because it is a vital micronutrient essential for protein synthesis, cell growth and differentiation, immune function and intestinal transport of water and electrolytes. Clinical research demonstrates zinc reduces severity and duration of diarrhoea in children.</li>
-                        <li>Zinc deficiency is associated with an increased risk of gastrointestinal infections, adverse effects on the structure and function of the gastrointestinal tract and impaired immune function.</li>
-                        <li>Supports a healthy immune system.</li>
+                        <li>
+                            Contains Bifidobacteria species which may support the health and function of the digestive
+                            tract.
+                        </li>
+                        <li>
+                            Bifidobacteria may modulate the immune system at a local and systemic level, thereby
+                            regulating immune defence mechanisms.
+                        </li>
+                        <li>
+                            Lactoferrin is naturally found in colostrum and human milk and is a component of the
+                            innate immune response.
+                        </li>
+                        <li>
+                            Lactoferrin may provide broad-spectrum anti-microbial and anti-viral activity.
+                        </li>
+                        <li>
+                            Lactoferrin significantly reduces acne lesions in mild to moderate acne vulgaris.
+                        </li>
+                        <li>
+                            Olive Leaf extract contains oleuropeins and phenolic compounds that may support
+                            the healthy function of the immune system.
+                        </li>
+                        <li>
+                            Olive leaf extract, contains oleuropein and phenolic compounds, that may support
+                            the immune system through broad-spectrum antimicrobial and anti-inflammatory activity.
+                        </li>
+                        <li>
+                            The physiological requirements for zinc peak during periods of growth including
+                            infancy, childhood, and adolescence.
+                        </li>
+                        <li>
+                            Zinc has a catalytic and structural role in numerous biological activities including
+                            cell growth, development, and differentiation.
+                        </li>
+                        <li>
+                            Over 300 different enzymes depend on zinc for their ability to catalyze vital chemical
+                            reactions. Zinc-dependent enzymes can be found in all known classes of enzymes.
+                        </li>
+                        <li>
+                            Contains olive leaf extract rich in oleuropeins which may stimulate osteoblast activity
+                            as seen in a clinical study with osteopenic women.
+                        </li>
+                        <li>
+                            Lactoferrin may support bone health by promoting the regulation of bone tissue via
+                            increased osteoblast growth and reduced osteoclastogenesis, as reported in in-vitro
+                            and in-vivo studies.
+                        </li>
                     </ul>
                 </p>
-
-
-
-                <p>
-                    <strong>SPECIFIC CONDITIONS</strong>
-                </p>
-
-                <p>
-                    No specific conditions included on record.
-                </p>
-
 
                 <p>
                     <strong>WARNINGS</strong>
@@ -109,53 +123,53 @@ class UploadProduct extends Command
 
                 <p>
                     <ul>
-                        <li>Contains sugar (glucose).</li>
-                        <li>Contains zinc which may be dangerous if taken in large amounts or for a long period.</li>
-                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                        <li>Derived from cow's milk.</li>
                         <li>If symptoms persist consult your healthcare practitioner.</li>
                     </ul>
                 </p>
-                ',
+                ",
                 'references' =>
                     '
-                <ol class="medlab_product_reference_list">
-                    <li>Duggan C, et al. Composition of oral rehydration solution. <em>JAMA</em> 2004;291:2628.</li>
-                    <li>Farthing MJG. Oral Rehydration: An evolving solution. <em>J Pediat Gastroenterol Nutr</em> 2002;34:S64.</li>
-                    <li>Baker LB, Jeukendrup AE. Optimal composition of fluid-replacement beverages. <em>Compr Physiol</em> 2014;4:575.</li>
-                    <li>Islam MR, et al. Oral rehydration therapy: efficacy of sodium citrate equals to sodium bicarbonate for correction of acidosis in diarrhoea. <em>Gut</em> 1984;25:900.</li>
-                    <li>Galvao TF, et al. Zinc supplementation for treating diarrhea in children: a systematic review and meta-analysis. <em>Rev Panam Salud Publica</em> 2013;33:370.</li>
-                    <li>Lamberti LM, et al. Oral zinc supplementation for the treatment of acute diarrhea in children: a systematic review and meta-analysis. <em>Nutrients</em> 2013;5:4715.</li>
-                    <li>Allen SJ, et al. Probiotics for treating acute infectious diarrhoea. <em>Cochrane Reviews</em> 2010;11.</li>
-                    <li>Goldenberg JZ, et al. Probiotics for the prevention of Clostridium difficile-associated diarrhoea in adults and children. <em>Cochrane Reviews</em> 2013;5.</li>
-                    <li>Buts JP, De Keyser N. Effects of Saccharomyces boulardii on Intestinal Mucosa. <em>Dig Dis Sci</em> 2006;51:1485.</li>
-                    <li>Selle K, Klaenhammer TR. Genomic and phenotypic evidence for probiotic influences of Lactobacillus gasseri on human health. <em>FEMS Microbiol Rev</em> 2013;37:915.</li>
-                    <li>Bodaszewska-Lubas M, et al. Antibacterial activity of selected standard strains of lactic acid bacteria producing bacteriocins – pilot study. <em>Postepy Hig Med Dosw</em> 2012;66:787.</li>
-                    <li>Lonnermark E, et al. Intake of Lactobacillus plantarum reduces certain gastrointestinal symptoms during treatment with antibiotics. <em>J Clin Gastroenterol</em> 2010;44:106.</li>
-                    <li>Fanning S, et al. Bifidobacterium breve UCC2003 surface exopolysaccharide production is a beneficial trait mediating commensal-host interaction through immune modulation and pathogen protection. <em>Gut Microbes</em> 2012;3:410.</li>
-                    <li>Munoz-Quezada S, et al. Competitive inhibition of three novel bacteria isolated from faeces of breast milk-fed infants against selected pathogens. <em>Br J Nutr</em> 2013;109:S63.</li>
-                    <li>Shing CM, et al. Effects of probiotics supplementation on gastrointestinal permeability, inflammation and exercise performance in the heat. <em>Eur J Appl Physiol</em> 2014;114:93.</li>
-                </ol>
-                ',
+                    ',
                 'side_effects' =>
                     '
                 <p>
-                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
+                    Refer to CMI
                 </p>
                 ',
                 'interactions' =>
                     '
+                    <p>
+                        <ul>
+                            <li>
+                                Use with caution in combination with anti-diabetic drugs of antihypertensive drugs.
+                                Theoretically, olive leaf may enhance their effects.
+                            </li>
+                            <li>
+                                If taking antibiotics, take 2 hours away from probiotics.
+                            </li>
+                            <li>
+                                Advise patients to take penicillamine, quinolone antibiotics or tetracycline
+                                antibiotics at least 2 hours before or 4-6 hours after zinc supplementation.
+                                Zinc may interfere with the absorption and activity of these drugs.
+                            </li>
+                            <li>
+                                Use with caution in combination with amiodarone. Amiloride can reduce urinary
+                                zinc excretion, especially at doses of 10 mg/day or more.
+                            </li>
+                            <li>
+                                Use with caution in combination with Cisplatin. Preliminary data suggests that
+                                zinc may interfere with cisplatin in the body. Cisplatin might also increase
+                                zinc excretion.
+                            </li>
+                        </ul>
+                    </p>
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
-                    Add 5 g of powder (1 sachet) to 200 mL of cold water, immediately before use and stir well or as directed by your healthcare professional.
-                </p>
-                <p>
-                    Recommended dose for under 3 years is 100 mL every 90 minutes; 3-6 years 100 mL every 60 minutes; 6-12 years 100 mL every 30 minutes and over 12 years 200 mL every 30 minutes.
+                    Adults: two (2) capsules daily. Capsules not to be given to children under 4 years of age,
+                    to be administered as directed by your healthcare professional.
                 </p>
                 ',
                 'ingredients' =>
@@ -170,38 +184,16 @@ class UploadProduct extends Command
                             </td>
                             <td valign="top" colspan="2">
                                 <p>
-                                    <strong>EACH SCOOP CONTAINS</strong>
+                                    <strong>EACH CAPSULES CONTAINS</strong>
                                 </p>
                             </td>
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Saccharomyces cerevisiae ssp. boulardii </em>(Med 41)</p>
+                                <p>Lactoferrin (bovine)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>2 billion</p>
-                            </td>
-                            <td width="136" valign="top">
-                                &nbsp;
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><em>Lactobacillus gasseri </em>(Med 23)</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>2 billion</p>
-                            </td>
-                            <td width="136" valign="top">
-                                &nbsp;
-                            </td>
-                            </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><em>Lactobacillus plantarum </em>(Med 25)</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>2 billion</p>
+                                <p>150 mg</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -209,21 +201,10 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Bifidobacterium breve </em>(Med12)</p>
+                                <p>Bonolive® ^ <em>Olea europaea</em> extract</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>2 billion</p>
-                            </td>
-                            <td width="136" valign="top">
-                                &nbsp;
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>Sodium Chloride</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>533.2 mg</p>
+                                <p>500 mg</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -231,32 +212,10 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="padding-left: 30px;">Equiv. Sodium</p>
+                                <p><em>Bifidobacterium animalis ssp. lactis</em> (Med 13)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>209.7 mg</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>46 mmol/L</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p style="padding-left: 30px;">Equiv. Chloride</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>323.5 mg</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>46 mmol/L</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>Potassium Citrate</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>449.1 mg</p>
+                                <p>100 million CFU*</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -264,43 +223,10 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="padding-left: 30px;">Equiv. Potassium</p>
+                                <p><em>Bifidobacterium longum</em> (Med 15)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>162.6 mg</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>22 mmol/L</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p style="padding-left: 30px;">Equiv. Citrate</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>261.8 mg</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>30 mmol/L</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>Glucose Anhydrous</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>2.5 g</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>71 mmol/L</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p>Citric Acid Anhydrous</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>890.5 mg</p>
+                                <p>100 million CFU*</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -308,35 +234,13 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Zinc Gluconate</p>
+                                <p>Zinc (from zinc glycinate)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>44.8 mg</p>
+                                <p>5 mg</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>1 mmol/L</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p style="padding-left: 30px;">Equiv. Zinc</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>6.4 mg</p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>0.5 mmol/L</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><strong>Total</strong></p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p><strong>8 Billion CFU*</strong></p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p><strong>216.5 mmol/L</strong></p>
+                                &nbsp;
                             </td>
                         </tr>
                         <tr>
@@ -349,11 +253,12 @@ class UploadProduct extends Command
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Flavours</p>
-                                <p>Silica</p>
-                                <p>Stevia</p>
-                                <p>Carrot powder</p>
+                                <p>Silica (colloidal anhydrous)</p>
+                                <p>Citric acid</p>
+                                <p>Magnesium stearate</p>
+                                <p>Microcrystalline cellulose</p>
                                 <p>Thaumatin</p>
+                                <p><strong>^Bonolive® is a registered trademark of BioActor B.V.</strong></p>
                             </td>
                         </tr>
                     </tbody>
@@ -362,61 +267,31 @@ class UploadProduct extends Command
                 'cmi' =>
                     '
                 <p>
-                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/orsbiotic/cmi/english" target="_blank">
-                        Click Here For English CMI
-                    </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
-                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/arabic" target="_blank">الترجمة العربية </a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
-                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/russian" target="_blank">Перевод на русском языке</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
-                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/spanish" target="_blank">Traducción en español</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
-                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/japanese" target="_blank">日本語翻訳</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
-                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/french" target="_blank">Traduction en français</a>
-                </p>
-                <p>
-                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
-                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/chinese" target="_blank">中文翻译</a>
+                    Coming soon
                 </p>
                 ',
                 'free_from' =>
                     '
                 <p class="medlab_product_content_sub_title">
-                    Gluten and Lactose Free
+                    Gluten Free
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Suitable for vegetarians
-                </p>
-                <p class="medlab_product_content_sub_title">
-                    No artificial colours, flavours or sweeteners
+                    Vegetarian friendly
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Refrigerate to maintain stability
                 </p>
                 ',
-                'price_retail' => 19.46,
-                'price_wholesale' => 12.99,
-                'image_path' => '/img/products/orsbiotic/orsbiotic_sachets.jpg',
-                'thumb_image_path' => '/img/products/orsbiotic/orsbiotic_sachets_thumb.jpg',
+                'price_retail' => 41.25,
+                'price_wholesale' => 27.50,
+                'image_path' => '/img/products/lactoferrin_enhanced_60s/lactoferrin_enhanched_60s.png',
+                'thumb_image_path' => '/img/products/lactoferrin_enhanced_60s/lacoferrin_enhanched_60s_thumb.png',
                 'in_stock' => true,
-                'slug' => 'orsbiotic-10pk-sachets',
+                'slug' => 'lactoferrin-enhanced-60s',
             ]
         );
 
-        $this->comment("Uploaded ORS Sachets");
+        $this->comment("Uploaded Lactoferrin");
 
         Model::reguard();
     }
