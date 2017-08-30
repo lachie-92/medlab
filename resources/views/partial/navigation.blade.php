@@ -60,8 +60,6 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/developement">Products in Development</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/ems/nanabis">SAS - NanaBis (CBD:THC)</a></li>
                         <li role="separator" class="divider"></li>
-                        <!--<li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/praceducationalresource">Practitioner Educational Resource</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/nrgbiotic">NRGBiotic Showcase</a></li>-->
                     </ul>
                 </li>
                 <li class="separator visible-md visible-lg">
@@ -72,11 +70,6 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/education/publications">Publications</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/education/webinars">Webinars</a></li>
-                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                            <li><a class="medlab_navbar_dropdown_menu_item" href="/education/practitioner-education">Practitioner Education</a></li>
-                            @endif
-
                     </ul>
                 </li>
                 <li class="vr"></li>
@@ -87,11 +80,12 @@
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research">Research</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/medlab-cell-line">Medlab's Probiotic Genera</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/medlab-delivery-platform">Medlab Delivery Platform</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/medlab-delivery-platform">NanoCelle Delivery System</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/why-medlab">Why Medlab</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/the-medlab-solution">The Medlab Solution</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/patents">Patents</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trials">Clinical Trials</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/research/scientific-team">Scientific Team</a></li>
                     </ul>
                 </li>
                 <li class="vr"></li>
@@ -104,6 +98,8 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/asx-announcements">ASX announcements</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/corporate-governance">Corporate Governance</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/share-price">Share Price</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/executive-team">Executive Team</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/consulting-team">Consulting Team</a></li>
                     </ul>
                 </li>
                 <li class="vr"></li>

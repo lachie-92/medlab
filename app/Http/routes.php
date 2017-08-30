@@ -293,6 +293,14 @@ Route::get('/corporate/share-price', function () {
     return view('pages.corporate.share-price.index');
 });
 
+Route::get('/corporate/executive-team', function () {
+    return view('pages.corporate.executive-team.index');
+});
+
+Route::get('/corporate/consulting-team', function () {
+    return view('pages.corporate.consulting-team.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Investor Redirects
@@ -376,6 +384,10 @@ Route::get('/research/patents', function () {
 
 Route::get('/research/clinical-trials', function () {
     return view('pages.research.clinical-trails.index');
+});
+
+Route::get('/research/scientific-team', function () {
+    return view('pages.research.scientific-team.index');
 });
 
 Route::get('/research/medlab-cell-line', function () {
@@ -521,15 +533,15 @@ Route::get('/about/a-new-era', function () {
 });
 
 Route::get('/about/executive-team', function () {
-    return view('pages.about.executive-team.index');
+    return Redirect::to('/corporate/executive-team');
 });
 
 Route::get('/about/consulting-team', function () {
-    return view('pages.about.consulting-team.index');
+    return Redirect::to('/corporate/consulting-team');
 });
 
 Route::get('/about/scientific-team', function () {
-    return view('pages.about.scientific-team.index');
+    return Redirect::to('/research/scientific-team');
 });
 
 Route::get('/about/board-of-directors', function () {
