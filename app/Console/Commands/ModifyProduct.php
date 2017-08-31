@@ -8784,10 +8784,13 @@ class ModifyProduct extends Command
                 </table>
                 ',
                 'cmi' =>
-                    '
-                <p>
-                    Coming soon
-                </p>
+                '
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/lactoferrin-enhanced-60s/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
                 ',
                 'free_from' =>
                     '
