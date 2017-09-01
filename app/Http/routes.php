@@ -28,7 +28,7 @@ Route::get('/account/login', 'LoginController@getLogin');
 
 Route::post('/account/login', 'LoginController@postLogin');
 
-Route::get('/account/logout', 'LoginController@getLogout');
+Route::get('/account/logout', 'LoginController@logout');
 
 Route::get('/account/register', function() {
     return redirect('/account/login');
