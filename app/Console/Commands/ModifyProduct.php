@@ -8661,7 +8661,7 @@ class ModifyProduct extends Command
                     <p>
                         <ul>
                             <li>
-                                Use with caution in combination with anti-diabetic drugs of antihypertensive drugs.
+                                Use with caution in combination with anti-diabetic drugs or antihypertensive drugs.
                                 Theoretically, olive leaf may enhance their effects.
                             </li>
                             <li>
