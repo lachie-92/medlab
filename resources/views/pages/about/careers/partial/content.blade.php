@@ -23,7 +23,6 @@
                     <h4>Positions Available</h4>
 
 
-                    <a href="#salesandmarketingassistant">Sales & Marketing Assistant</a></br>
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
                     <a href="#PracVIC">Practitioner Consultant – Field Sales Representative - Melbourne</a></br>
                     <a href="#PracQLD2">Practitioner Consultant – Field Sales Representative - Gold Coast</a></br>
@@ -186,7 +185,7 @@
                     <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Marketing Officer">recruit@medlab.co</a></p>
                     <hr>
-                    -->
+
 
                     <a name="salesandmarketingassistant"></a>
                     <h3>Sales and Marketing Assistant</h3>
@@ -229,7 +228,6 @@
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Marketing Officer">recruit@medlab.co</a></p>
                     <hr>
 
-                    <!--
 
 
                     <a name="ClientRelationshipManager"></a>
