@@ -276,7 +276,7 @@
             <!--
             --  Technical Button
             -->
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && $product->product_name_index !== 'Lactoferrin Enhanced' )
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && ($product->product_name_index !== 'Lactoferrin Enhanced') && ($product->product_name_index !== 'Quatrefolic') && ($product->product_name_index !== 'BifidoBiotic') )
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="panel panel-primary medlab_panel">
                             <div class="panel-heading medlab_panel_title">
@@ -310,7 +310,7 @@
                     <div class="panel-heading medlab_panel_title">
                         DOSAGE INFORMATION
                     </div>
-                    <div class="panel-body medlab_panel_content">
+                    <div class="panel-body medlab_panel_content" style="text-align: justify">
 
                         {!! $product->dosage_information !!}
 
