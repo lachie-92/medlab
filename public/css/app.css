@@ -493,6 +493,38 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   float: right;
   color: #FFF; }
 
+.nav-tabs {
+  background: #174a8a;
+  padding: 10px;
+  border-radius: 4px; }
+  .nav-tabs > li, .nav-tabs > li.active {
+    border-right: 1px solid #FFF; }
+    .nav-tabs > li:last-of-type, .nav-tabs > li.active:last-of-type {
+      border-right: none; }
+    .nav-tabs > li > a, .nav-tabs > li.active > a {
+      color: #FFF;
+      background: none;
+      border: none !important;
+      border-bottom: 0 !important;
+      padding-top: 0;
+      padding-bottom: 0; }
+      .nav-tabs > li > a:hover, .nav-tabs > li.active > a:hover {
+        border: none;
+        background: none;
+        color: #FFF; }
+
+.tab-content {
+  padding-bottom: 10px; }
+  .tab-content > .active {
+    border-radius: 4px;
+    background: #7AA43F;
+    margin-top: 10px;
+    padding: 10px;
+    color: #FFF; }
+    .tab-content > .active .medlab_product_content_title {
+      color: #FFF;
+      font-weight: bold; }
+
 body.landing {
   background-color: #174a8a; }
   body.landing > .container {
