@@ -1,3 +1,11 @@
+@section('custom_script')
+<script>
+$('.nav-tabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+});
+</script>
+@endsection
 <!--
 
  {!! $product->product_name_index !!}
@@ -23,7 +31,7 @@
         <!--
             Main Column
         -->
-        <div class="col-md-8 col-sm-12 col-xs-12 medlab_product_main_column">
+        <div class="col-md-8 col-sm-12 col-xs-12">
 
 
             <!--
@@ -59,25 +67,43 @@
 
             {!! $product->general_summary !!}
 
-            <!--
-                Ingredients / Dosage
-            -->
-            <div class="row equal-height">
-                <div class="col-xs-12 col-md-8">
-                    <div class="panel panel-primary medlab_panel medlab_ingredients_panel">
-                        <div class="panel-body medlab_panel_content" style="padding-bottom: 0;">
-                            {!! $product->ingredients !!}
-                        </div>
-                    </div>
+            <div>
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li role="presentation" class="active"><a href="#features" aria-controls="features" role="tab" data-toggle="tab">Features</a></li>
+                    <li role="presentation"><a href="#ingredients" aria-controls="ingredients" role="tab" data-toggle="tab">Ingredients</a></li>
+                    <li role="presentation"><a href="#dose" aria-controls="dose" role="tab" data-toggle="tab">Dose</a></li>
+                    @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (ctype_space($product->side_effects) == false))
+                    <li role="presentation"><a href="#warnings" aria-controls="warnings" role="tab" data-toggle="tab">Warnings</a></li>
+                    @endif
+                    <li role="presentation"><a href="#clinicaltrials" aria-controls="clinicaltrials" role="tab" data-toggle="tab">Clinical Trials</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="features">{!! $product->features !!}</div>
+                    <div role="tabpanel" class="tab-pane" id="ingredients">{!! $product->ingredients !!}</div>
+                    <div role="tabpanel" class="tab-pane" id="dose">{!! $product->dosage_information !!}</div>
+                    @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (ctype_space($product->side_effects) == false))
+                    <div role="tabpanel" class="tab-pane" id="warnings">{!! $product->side_effects !!}</div>
+                    @endif
+                    <div role="tabpanel" class="tab-pane" id="clinicaltrials">{!! $product->clinical_trials !!}</div>
                 </div>
-                <div class="col-xs-12 col-md-4">
-                    <div class="panel panel-primary medlab_panel medlab_dosage_panel">
-                        <div class="panel-body medlab_panel_content">
-                            <strong>Directions of Use</strong>
-                            {!! $product->dosage_information !!}
-
-                        </div>
-                </div>
+            </div>
+            <br /><br />
+            <div>
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li role="presentation" class="active"><a href="#practitionerinformation" aria-controls="practitionerinformation" role="tab" data-toggle="tab">Practitioner Information</a></li>
+                    @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (ctype_space($product->interactions) == false))
+                    <li role="presentation"><a href="#interactions" aria-controls="interactions" role="tab" data-toggle="tab">Interactions</a></li>
+                    @endif
+                    <li role="presentation"><a href="#education" aria-controls="education" role="tab" data-toggle="tab">Education</a></li>
+                    <li role="presentation"><a href="#productfaq" aria-controls="productfaq" role="tab" data-toggle="tab">Product FAQ</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="practitionerinformation">{!! $product->practitioner_summary !!}</div>
+                    @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (ctype_space($product->interactions) == false))
+                    <div role="tabpanel" class="tab-pane" id="interactions">{!! $product->interactions !!}</div>
+                    @endif
+                    <div role="tabpanel" class="tab-pane" id="education">{!! $product->education !!}</div>
+                    <div role="tabpanel" class="tab-pane" id="productfaq">{!! $product->productfaq !!}</div>
                 </div>
             </div>
 
@@ -115,45 +141,6 @@
                     </div>
                 </div>
             @endif
-
-            <!--
-                Side effects
-            -->
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                @if (ctype_space($product->side_effects) == false)
-
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        SIDE EFFECTS
-                    </div>
-                    <div class="panel-body medlab_panel_content" style="text-align: justify">
-
-                        {!! $product->side_effects !!}
-
-                    </div>
-                </div>
-                @endif
-            @endif
-
-
-            <!--
-                Interactions
-            -->
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                @if (ctype_space($product->interactions) == false)
-                    <div class="panel panel-primary medlab_panel">
-                        <div class="panel-heading medlab_panel_title">
-                            INTERACTIONS
-                        </div>
-                        <div class="panel-body medlab_panel_content" style="text-align: justify">
-
-                            {!! $product->interactions !!}
-
-                        </div>
-                    </div>
-                @endif
-            @endif
-
 
             <!--
                 Technical Button
@@ -288,6 +275,15 @@
             <!--
                 CMI
             -->
+            <div class="panel panel-primary medlab_panel">
+                <div class="panel-heading medlab_panel_title">Conditions Associated</div>
+                <div class="panel-body medlab_panel_content">{!! $product->conditions_associated !!}</div>
+            </div>
+
+            <div class="panel panel-primary medlab_panel">
+                <div class="panel-heading medlab_panel_title">Additional Resources</div>
+                <div class="panel-body medlab_panel_content">{!! $product->additional_resources !!}</div>
+            </div>
 
             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
                 @if($product->cmi !== "none")
