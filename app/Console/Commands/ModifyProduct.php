@@ -8625,7 +8625,6 @@ class ModifyProduct extends Command
                 'in_stock' => true,
                 'slug' => 'lactoferrin-enhanced-60s',
             ],
-            /*
             [
                 'product_name_index' => 'BifidoBiotic',
                 'austl_number' => '286501',
@@ -8863,6 +8862,7 @@ class ModifyProduct extends Command
                 'in_stock' => true,
                 'slug' => 'bifidobiotic-60s',
             ],
+            /*
             [
                 'product_name_index' => 'Quatrefolic',
                 'austl_number' => '286501',
