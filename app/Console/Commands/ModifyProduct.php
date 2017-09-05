@@ -8777,7 +8777,7 @@ class ModifyProduct extends Command
                             </td>
                             <td valign="top" colspan="2">
                                 <p>
-                                    <strong>EACH CAPSULES CONTAINS</strong>
+                                    <strong>PER TWO CAPSULES</strong>
                                 </p>
                             </td>
                         </tr>
