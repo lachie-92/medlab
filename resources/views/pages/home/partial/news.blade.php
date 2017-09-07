@@ -511,7 +511,7 @@
             <div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_sidebar_item_title">
-                        UPCOMING CONFERENCES
+                        MEDLAB STAFF PARTICIPATION AT UPCOMING CONFERENCES
                     </div>
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
@@ -538,6 +538,14 @@
                                 </div>
                                 <a href="https://www.probiotaevent.com/probiota-asia/" target="_blank">
                                     <img width="100%"  alt="ACNEM 2017" src="/img/news/Probiota-Asia-2017-Master-logo.jpg">
+                                </a>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <div class="medlab_news_sidebar_list_item_title">
+                                    <a href="hhttp://www.global-engage.com/event/probiotics-usa/" target="_blank">The 2nd Probiotics Congress, San Diego, 2017</a>
+                                </div>
+                                <a href="http://www.global-engage.com/event/probiotics-usa/" target="_blank">
+                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/the-2nd-probiotics-congress-usa-288542.png">
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
