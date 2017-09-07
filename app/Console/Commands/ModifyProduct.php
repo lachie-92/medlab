@@ -51,7 +51,7 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
-                'product_name_index' => '12Mg Optima Relax 10pk Sachets Lemon Lime',
+                'product_name_index' => 'Mg Optima Relax 10pk Sachets Lemon Lime',
                 'austl_number' => '262421',
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime',
                 'short_description' =>
@@ -386,7 +386,7 @@ class ModifyProduct extends Command
                 'in_stock' => true,
             ],
             [
-                'product_name_index' => '12Mg Optima Relax 150g Citrus Tea',
+                'product_name_index' => 'Mg Optima Relax 150g Citrus Tea',
                 'austl_number' => '280236',
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea',
                 'short_description' =>
@@ -689,7 +689,7 @@ class ModifyProduct extends Command
                 'in_stock' => true,
             ],
             [
-                'product_name_index' => '12Mg Optima Relax 150g',
+                'product_name_index' => 'Mg Optima Relax 150g',
                 'austl_number' => '262421',
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Lemon Lime',
                 'short_description' =>
@@ -1019,7 +1019,7 @@ class ModifyProduct extends Command
                 'slug' => '12mg-optima-relax-150g-lemon-lime'
             ],
             [
-                'product_name_index' => '12Mg Optima Relax 300g Lemon Lime',
+                'product_name_index' => 'Mg Optima Relax 300g Lemon Lime',
                 'austl_number' => '262421',
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 300g Lemon Lime',
                 'short_description' =>
