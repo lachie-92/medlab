@@ -31,7 +31,50 @@
             -->
 
 
-
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
+                        NEW PRODUCTS
+                    </div>
+                    <div class="medlab_news_item_body">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <h2 class="medlab_news_content_title">
+                                <a href="/nutraceuticals/products/lactoferrin-enhanced-60s" class="medlab_news_content_link">
+                                    Lactoferrin Enhanced&trade;
+                                </a>
+                            </h2>
+                            <p style="text-align: justify">
+                                Lactoferrin Enhanced&trade; is a unique combination of lactoferrin, olive leaf extract, probiotics and
+                                zinc to support a healthy immune response and regulate gastrointestinal health.
+                            </p>
+                            <a href="/nutraceuticals/products/lactoferrin-enhanced-60s" class="medlab_news_content_link">More Information</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <a href="/nutraceuticals/products/lactoferrin-enhanced-60s">
+                                <img src="/img/products/lactoferrin_enhanced_60s/lacoferrin_enhanced_60s_plastic_thumb.png" alt="Lactoferrin Enhanced" height="145px" width="auto" class="center-block"/>
+                            </a>
+                        </div>
+                        <div class="col-md-8 col-sm-8 col-xs-12" style="margin-top: 15px;">
+                            <h2 class="medlab_news_content_title">
+                                <a href="/nutraceuticals/products/bifidobiotic-60s" class="medlab_news_content_link">
+                                    BifidoBiotic&trade;
+                                </a>
+                            </h2>
+                            <p style="text-align: justify">
+                                BifidoBiotic&trade; is a multi-species probiotic formulation to restore and maintain a healthy
+                                intestinal microbiome, across the lifespan. BifidoBiotic&trade; may help to re-regulate pro-inflammatory
+                                cytokine levels and support a healthy immune system.
+                            </p>
+                            <a href="/nutraceuticals/products/bifidobiotic-60s" class="medlab_news_content_link">More Information</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <a href="/nutraceuticals/products/bifidobiotic-60s">
+                                <img src="/img/products/bifidobiotic-60s/bifidobiotic_60s_thumb.png" alt="BifidoBiotic" height="150px" width="auto" style="margin-top: 30px;" class="center-block"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
@@ -484,7 +527,7 @@
             <div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_sidebar_item_title">
-                        Practitioner Educational Resource
+                        PRACTITIONER EDUCATIONAL RESOURCE
                     </div>
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
