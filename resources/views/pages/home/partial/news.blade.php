@@ -569,6 +569,14 @@
                             </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <div class="medlab_news_sidebar_list_item_title">
+                                    <a href="http://functionalfoodscenter.net/22nd-int--conference-of-ffc.html" target="_blank">22nd International Conference of FFC - 10th International Symposium of ASFFBC</a>
+                                </div>
+                                <a href="http://functionalfoodscenter.net/22nd-int--conference-of-ffc.html" target="_blank">
+                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/functionalfood.jpg">
+                                </a>
+                            </li>
+                            <li class="medlab_news_sidebar_list_item">
+                                <div class="medlab_news_sidebar_list_item_title">
                                     <a href="https://www.beneficialmicrobes2017.org/index.phputm_medium=email&utm_source=sharpspring&sslid=MzU0MTUzNDY3NDQxAAA&sseid=MzQ1MzczNbM0MwEA&jobid=95ec6faa-d2c3-4784-8dbc-e6cd6fddc3b1" target="_blank">The 6<sup>TH</sup> Beneficial Microbes Conference</a>
                                 </div>
                                 <a href="https://www.beneficialmicrobes2017.org/index.phputm_medium=email&utm_source=sharpspring&sslid=MzU0MTUzNDY3NDQxAAA&sseid=MzQ1MzczNbM0MwEA&jobid=95ec6faa-d2c3-4784-8dbc-e6cd6fddc3b1" target="_blank">
