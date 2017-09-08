@@ -28,6 +28,13 @@
                         </span>
                     </p>
                     <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28805667" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Marx W, McCarthy AL, Ried K, McKavanagh D, Vitetta L, Sali A, Lohning A, Isenring E.</strong> The Effect of a Standardized Ginger Extract on Chemotherapy-Induced Nausea-Related Quality of Life in Patients Undergoing Moderately or Highly Emetogenic Chemotherapy: A Double Blind, Randomized, Placebo Controlled Trial.<em>Nutrients. 2017 Aug 12;9(8).</em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/28665349" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Saltzman ET, Thomsen M, Hall S, Vitetta L.</strong> Perna canaliculus and the Intestinal Microbiome. <em>Mar Drugs 2017 Jun 30;15(7).</em>
