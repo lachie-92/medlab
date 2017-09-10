@@ -58,7 +58,7 @@ class ModifyProduct extends Command
                     '
                     <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime</h4>
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
                         relaxation during times of stress.
                     </p>
@@ -72,7 +72,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients that may support the natural
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients that may support the natural
                         metabolic pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to
                         promote relaxation during times of stress. Albion ® Magnesium bisglycinate is scientifically
                         designed to provide a highly bioavailable form of magnesium. Magnesium may act as a GABA
@@ -393,7 +393,7 @@ class ModifyProduct extends Command
                     '
                     <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea</h4>
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
                         relaxation during times of stress.
                     </p>
@@ -407,7 +407,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients that may support the natural
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients that may support the natural
                         metabolic pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to
                         promote relaxation during times of stress. Albion ® Magnesium bisglycinate is scientifically
                         designed to provide a highly bioavailable form of magnesium. Magnesium may act as a GABA
@@ -696,7 +696,7 @@ class ModifyProduct extends Command
                     '
                     <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Lemon Lime</h4>
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
                         relaxation during times of stress.
                     </p>
@@ -710,7 +710,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients that may support the natural
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients that may support the natural
                         metabolic pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to
                         promote relaxation during times of stress. Albion ® Magnesium bisglycinate is scientifically
                         designed to provide a highly bioavailable form of magnesium. Magnesium may act as a GABA
@@ -1026,7 +1026,7 @@ class ModifyProduct extends Command
                     '
                     <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 300g Lemon Lime</h4>
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
                         relaxation during times of stress.
                     </p>
@@ -1040,7 +1040,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients that may support the natural
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients that may support the natural
                         metabolic pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to
                         promote relaxation during times of stress. Albion ® Magnesium bisglycinate is scientifically
                         designed to provide a highly bioavailable form of magnesium. Magnesium may act as a GABA
@@ -5977,8 +5977,8 @@ class ModifyProduct extends Command
                 ',
                 'price_retail' => 46.47,
                 'price_wholesale' => 30.98,
-                'image_path' => '/img/products/ngrbiotic_60s/nrgbiotic-60s-3d-bottle-master-sept14-v1_10_2_1.jpg',
-                'thumb_image_path' => '/img/products/ngrbiotic_60s/thumb_nrgbiotic-60s-3d-bottle-master-sept14-v1_10_2_1.jpg',
+                'image_path' => '/img/products/ngrbiotic_60s/nrgbiotic_60s_glass.png',
+                'thumb_image_path' => '/img/products/ngrbiotic_60s/nrgbiotic_60s_glass_thumb.png',
             ],
             [
                 'product_name_index' => 'ORSBiotic',
