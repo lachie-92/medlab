@@ -190,6 +190,30 @@ class UpdateDeal extends Command
                 'minimum_qty' => '5',
                 'bonus_qty' => '1'
             ],
+            [
+                'product' => "Lactoferrin Enhanced",
+                'name' => "September 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2017 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "BifidoBiotic",
+                'name' => "September 2017 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/09/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/09/2017 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
 
         ];
 
