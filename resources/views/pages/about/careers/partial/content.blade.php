@@ -24,8 +24,6 @@
 
 
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
-                    <a href="#PracVIC">Practitioner Consultant – Field Sales Representative - Melbourne</a></br>
-                    <a href="#PracQLD2">Practitioner Consultant – Field Sales Representative - Gold Coast</a></br>
                     <a href="#PracQLD3">Practitioner Consultant – Field Sales Representative - Brisbane</a></br>
                     <a href="#PracNSW">Practitioner Consultant – State Team Leader - Sydney</a></br>
 
@@ -322,6 +320,7 @@
 
 
 
+                    <!--
 
                     <a name="PracVIC"></a>
                     <h3>Practitioner Consultant – Field Sales Representative</h3>
@@ -419,6 +418,7 @@
                     <hr>
 
 
+                    -->
 
                     <a name="PracQLD3"></a>
                     <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
