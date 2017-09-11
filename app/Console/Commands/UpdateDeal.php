@@ -255,7 +255,7 @@ class UpdateDeal extends Command
             ],
 
             [
-                'product' => "12Mg Optima Relax 150g Citrus Tea",
+                'product' => "Mg Optima Relax 150g Citrus Tea",
                 'name' => "June 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
@@ -266,7 +266,7 @@ class UpdateDeal extends Command
                 'discount_percentage' => '25'
             ],
             [
-                'product' => "12Mg Optima Relax 150g Lemon Lime",
+                'product' => "Mg Optima Relax 150g Lemon Lime",
                 'name' => "June 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
@@ -277,7 +277,7 @@ class UpdateDeal extends Command
                 'discount_percentage' => '25'
             ],
             [
-                'product' => "12Mg Optima Relax 300g Lemon Lime",
+                'product' => "Mg Optima Relax 300g Lemon Lime",
                 'name' => "June 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
@@ -288,7 +288,7 @@ class UpdateDeal extends Command
                 'discount_percentage' => '25'
             ],
             [
-                'product' => "12Mg Optima Relax 10pk Sachets Lemon Lime",
+                'product' => "Mg Optima Relax 10pk Sachets Lemon Lime",
                 'name' => "June 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
