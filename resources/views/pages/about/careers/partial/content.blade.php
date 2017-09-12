@@ -24,9 +24,10 @@
 
 
                     <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
+                    <!--
                     <a href="#PracQLD3">Practitioner Consultant – Field Sales Representative - Brisbane</a></br>
                     <a href="#PracNSW">Practitioner Consultant – State Team Leader - Sydney</a></br>
-
+                    -->
 
                     <!--
                     <a href="#PractitionerConsultantFieldRepWA">Practitioner Consultant Field Rep - South Perth, WA</a></br>
@@ -420,6 +421,8 @@
 
                     -->
 
+
+                    <!--
                     <a name="PracQLD3"></a>
                     <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
                     <li>Permanent / Full Time</li>
@@ -510,7 +513,7 @@
                     <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
                     <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - NSW">recruit@medlab.co</a></p>
                     <hr>
-
+                    -->
 
 
 
