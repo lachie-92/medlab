@@ -87,6 +87,7 @@ $('.nav-tabs a').click(function (e) {
                     <div role="tabpanel" class="tab-pane" id="clinicaltrials">{!! $product->clinical_trials !!}</div>
                 </div>
             </div>
+            @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner'))
             <br /><br />
             <div>
                 <ul class="nav nav-tabs nav-justified" role="tablist">
@@ -106,6 +107,7 @@ $('.nav-tabs a').click(function (e) {
                     <div role="tabpanel" class="tab-pane" id="productfaq">{!! $product->productfaq !!}</div>
                 </div>
             </div>
+            @endif
 
             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
 
