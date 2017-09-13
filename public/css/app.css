@@ -1,50 +1,53 @@
 @media (min-width: 0px) and (max-width: 1000px) {
   .medlab_navbar_logo {
     width: 280px !important; }
-
   .medlab_navbar_dropdown {
     font-size: 16px !important; }
-
   .medlab_carousel_bottom_panel_table {
     font-size: 16px !important; } }
+
 @media (min-width: 768px) and (max-width: 1200px) {
   .medlab_panel_image_title {
     font-size: 12px !important; } }
+
 @media (min-width: 0px) and (max-width: 571px) {
   .medlab_panel_image_title {
     font-size: 8px !important; } }
+
 @media (min-width: 1000px) and (max-width: 1920px) {
   .medlab_news_item {
     padding-right: 5px !important; }
-
   .medlab_news_sidebar_item {
     padding-left: 5px !important; }
-
   .medlab_product_main_column {
     padding-right: 0px !important; }
-
   .medlab_product_side_column {
     padding-left: 0px !important; } }
+
 @font-face {
   font-family: "Museo Sans";
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/MuseoSans_300-webfont.woff"); }
+
 @font-face {
   font-family: "Museo Sans Narrow";
   font-style: normal;
   font-weight: 100;
   src: url("/fonts/MuseoSans_100-webfont.woff"); }
+
 @font-face {
   font-family: "Museo Sans Bold";
   font-style: normal;
   font-weight: 700;
   src: url("/fonts/MuseoSans_700-webfont.woff"); }
+
 @font-face {
   font-family: "Museo Sans Condensed";
   font-style: normal;
   font-weight: 100;
   src: url("/fonts/MuseoSans_100-webfont.woff"); }
+
 .btn {
   border: 2px solid #FFF;
   color: #FFF; }
@@ -155,7 +158,9 @@ header {
     margin-right: auto; }
     .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav {
       width: 100%;
+      display: -ms-flexbox;
       display: flex;
+      -ms-flex-pack: distribute;
       justify-content: space-around; }
       .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li a {
         line-height: 1.0em;
@@ -380,7 +385,9 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   border: none; }
 
 .row.equal-height {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .medlab_ingredients_panel {
@@ -761,6 +768,7 @@ footer:first-of-type {
   border-right: 1px solid #174a8a;
   color: inherit;
   width: 40px; }
+
 .pagination li:last-child a,
 .pagination li.active:last-child a,
 .pagination li.disabled:last-child a {

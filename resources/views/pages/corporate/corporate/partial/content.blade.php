@@ -15,7 +15,7 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
-                    <div class="row">
+                    <div class="row" style="background: none #FFF;">
                         <div class="col-md-4 col-sm-6 col-xs-6" style="padding-bottom: 10px">
                             <div style="text-align: center;">
                                 <a title="ASX Announcements" href="/corporate/asx-announcements">
