@@ -22,17 +22,7 @@
                     <hr>
                     <h4>Positions Available</h4>
 
-                    <!--
-                    <a href="#ClientRelationshipConsultant">Client Relationship Consultant</a></br>
-                    <!--
-                    <a href="#PracQLD3">Practitioner Consultant – Field Sales Representative - Brisbane</a></br>
-                    <a href="#PracNSW">Practitioner Consultant – State Team Leader - Sydney</a></br>
-                    -->
-
-
-                    <a href="#PractitionerConsultantFieldRepWA">Practitioner Consultant Field Rep - South Perth, WA</a></br>
-                    <a href="#PractitionerConsultantFieldRepQLD">Practitioner Consultant Field Rep - Brisbane, QLD</a></br>
-                    -->
+                    
                     No positions currently available, for all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
 
 
