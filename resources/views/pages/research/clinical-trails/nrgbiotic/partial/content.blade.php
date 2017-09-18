@@ -19,7 +19,7 @@
 
                     <h3>CLINICAL TRIAL</h3>
 
-                    <p>A Randomised Placebo Controlled Phase IIa Trial Investigating the role of Orotate and Probiotics Co-administered with Antidepressant Medications for the Management of Treatment Resistant Depression</p>
+                    <p>A randomised placebo controlled clinical trial investigating the role of orotic acid and probiotics for the management of depression</p>
 
                     <h3>NEAF initiated online on</h3>
 

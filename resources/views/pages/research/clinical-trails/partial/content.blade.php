@@ -149,7 +149,7 @@
 
                             <tr>
                                 <td align="left"><a href="/research/clinical-trials/nrgbiotic">NRGBiotic</a></td>
-                                <td align="left">A Randomised Placebo Controlled Phase IIa Trial Investigating the role of Orotate and Probiotics Co-administered with Antidepressant Medications for the Management of Treatment Resistant Depression</td>
+                                <td align="left">A randomised placebo controlled clinical trial investigating the role of orotic acid and probiotics for the management of depression</td>
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12617000419369&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True&postcode=&distance=" target="_blank">ACTRN12617000419369</a></td>
                                 <td align="left"><a href="mailto:clinicaltrials@medlab.co?Subject=Clinical Trial Recruitment - ACTRN12617000419369">Recruiting</a></td>
                             </tr>
