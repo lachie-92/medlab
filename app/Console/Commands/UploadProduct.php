@@ -24,6 +24,7 @@ class UploadProduct extends Command
         Model::unguard();
 
         Product::create(
+            /*
             [
                 'product_name_index' => 'BifidoBiotic',
                 'austl_number' => '286501',
@@ -261,7 +262,7 @@ class UploadProduct extends Command
                 'in_stock' => true,
                 'slug' => 'bifidobiotic-60s',
             ]
-            /*
+            */
             [
                 'product_name_index' => 'Quatrefolic',
                 'austl_number' => '286501',
@@ -500,7 +501,6 @@ class UploadProduct extends Command
                 'in_stock' => true,
                 'slug' => 'quatrefolic-60s',
             ]
-            */
         );
 
         $this->comment("Uploaded BifidoBiotic and Quatrefolic");
