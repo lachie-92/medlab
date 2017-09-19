@@ -71,6 +71,27 @@
                             <a href="/nutraceuticals/products/bifidobiotic-60s">
                                 <img src="/img/products/bifidobiotic-60s/bifidobiotic_60s_thumb.png" alt="BifidoBiotic" height="150px" width="auto" style="margin-top: 30px;" class="center-block"/>
                             </a>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <h2 class="medlab_news_content_title">
+                                <a href="/nutraceuticals/products/quatrefolic-60s" class="medlab_news_content_link">
+                                    Quatrefolic&reg;
+                                </a>
+                            </h2>
+                            <p style="text-align: justify">
+                                Medlab Quatrefolic&reg; contains levomefolate glucosamine which is a form of biologically active
+                                folate, 5-methyltetrahydrofolate (5-MTHF). Folate is essential for DNA synthesis, cell division,
+                                red blood cell production and homocysteine metabolism. Demands for folate increase during pregnancy
+                                due to increased requirements for foetal growth and development.
+                            </p>
+                            <a href="/nutraceuticals/products/quatrefolic-60s" class="medlab_news_content_link">More Information</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12" style="margin-top: 15px;">
+                            <a href="/nutraceuticals/products/quatrefolic-60s">
+                                <img src="/img/products/quatrefolic-60s/quatrefolic_60s_thumb.png" alt="Quatrefolic" height="145px" width="auto" class="center-block"/>
+                            </a>
                         </div>
                     </div>
                 </div>
