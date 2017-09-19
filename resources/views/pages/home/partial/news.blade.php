@@ -262,7 +262,7 @@
                         </p>
                     </div>
                 </div>
-            </div-->
+            </div
 
 
         <div class="medlab_news_item">
@@ -291,7 +291,7 @@
 
                 </div>
             </div>
-        </div>
+        </div>-->
 
 
 
@@ -559,14 +559,7 @@
                     <div class="medlab_news_sidebar_item_body">
                         <ul class="medlab_news_sidebar_list media-list">
 
-                            <li class="medlab_news_sidebar_list_item">
-                                <div class="medlab_news_sidebar_list_item_title">
-                                    <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">Lifestyle Medicine 2017</a>
-                                </div>
-                                <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">
-                                    <img width="100%"  alt="ACNEM 2017" src="/img/news/lifestyle_medicine_2017_side.jpg">
-                                </a>
-                            </li>
+
                             <li class="medlab_news_sidebar_list_item">
                                 <div class="medlab_news_sidebar_list_item_title">
                                     <a href="http://functionalfoodscenter.net/22nd-int--conference-of-ffc.html" target="_blank">22nd International Conference of FFC - 10th International Symposium of ASFFBC</a>
