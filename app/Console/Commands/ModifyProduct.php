@@ -56,7 +56,9 @@ class ModifyProduct extends Command
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime',
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime</h4>
+                    <a href="/nutraceuticals/products/12mg-optima-relax-10pk-sachets-lemon-lime">
+                        <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime</h4>
+                    </a>
                     <p>
                         Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
@@ -391,7 +393,9 @@ class ModifyProduct extends Command
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea',
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea</h4>
+                    <a href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea">
+                        <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea</h4>
+                    </a>
                     <p>
                         Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
@@ -694,7 +698,9 @@ class ModifyProduct extends Command
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Lemon Lime',
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Lemon Lime</h4>
+                    <a href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime">
+                        <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Lemon Lime</h4>
+                    </a>
                     <p>
                         Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
@@ -1024,7 +1030,9 @@ class ModifyProduct extends Command
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 300g Lemon Lime',
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 300g Lemon Lime</h4>
+                    <a href="/nutraceuticals/products/12mg-optima-relax-300g-lemon-lime">
+                        <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 300g Lemon Lime</h4>
+                    </a>
                     <p>
                         Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
@@ -1353,7 +1361,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioClean EPA:DHA + CoQ10 120s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioClean EPA:DHA + CoQ10 120s</h4>
+                <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s">
+                    <h4 class="medlab_product_content_title">BioClean EPA:DHA + CoQ10 120s</h4>
+                </a>
                 <p>
                     BioClean EPA:DHA + CoQ10 is a scientifically formulated combination of
                     Omega-3 Fatty Acids and Coenzyme Q10 targeted to support healthy
@@ -1622,7 +1632,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioClean EPA:DHA + CoQ10 60s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioClean EPA:DHA + CoQ10 60s</h4>
+                <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s">
+                    <h4 class="medlab_product_content_title">BioClean EPA:DHA + CoQ10 60s</h4>
+                </a>
                 <p>
                     BioClean EPA:DHA + CoQ10 is a scientifically formulated combination of
                     Omega-3 Fatty Acids and Coenzyme Q10 targeted to support healthy
@@ -1891,7 +1903,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioClean EPA:DHA + Plant Sterols 120s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioClean EPA:DHA + Plant Sterols 120s</h4>
+                <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s">
+                    <h4 class="medlab_product_content_title">BioClean EPA:DHA + Plant Sterols 120s</h4>
+                </a>
                 <p>
                     BioClean EPA:DHA + Plant Sterols is a scientifically formulated combination of Omega-3 Fatty Acids
                     and Plant Sterols targeted to support healthy cholesterol levels and cardiovascular health.
@@ -2138,7 +2152,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioClean EPA:DHA + Plant Sterols 60s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioClean EPA:DHA + Plant Sterols 60s</h4>
+                <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s">
+                    <h4 class="medlab_product_content_title">BioClean EPA:DHA + Plant Sterols 60s</h4>
+                </a>
                 <p>
                     BioClean EPA:DHA + Plant Sterols is a scientifically formulated combination of Omega-3 Fatty Acids
                     and Plant Sterols targeted to support healthy cholesterol levels and cardiovascular health.
@@ -2385,7 +2401,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Biotic Jnr.&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Biotic Jnr.&trade;</h4>
+                <a href="/nutraceuticals/products/biotic-jnr">
+                    <h4 class="medlab_product_content_title">Biotic Jnr.&trade;</h4>
+                </a>
                 <p>
                     Biotic Jnr.&trade; is a multi-species probiotic preparation to promote gastrointestinal and immune
                     maturation.
@@ -2710,7 +2728,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioticNatal&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioticNatal&trade;</h4>
+                <a href="/nutraceuticals/products/bioticnatal">
+                    <h4 class="medlab_product_content_title">BioticNatal&trade;</h4>
+                </a>
                 <p>
                     BioticNatal&trade; is intended for both the pregnant and breast feeding mother aiding to support and maintain
                     the integrity and function of her own GIT and her immune system. BioticNatal&trade; may also
@@ -2981,7 +3001,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Enbiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Enbiotic&trade; 60&#39;s</h4>
+                <a href="/nutraceuticals/products/enbiotic-60s">
+                    <h4 class="medlab_product_content_title">Enbiotic&trade; 60&#39;s</h4>
+                </a>
                 <p>
                     <strong>Australian Innovation Patent No. 2015100952</strong>
                 </p>
@@ -3261,7 +3283,9 @@ class ModifyProduct extends Command
                 'product_name' => 'GastroDaily&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">GastroDaily&trade;</h4>
+                <a href="/nutraceuticals/products/gastrodaily">
+                    <h4 class="medlab_product_content_title">GastroDaily&trade;</h4>
+                </a>
                 <p>
                     <strong>Australian Innovation Patent No. 2016100499</strong>
                 </p>
@@ -3523,7 +3547,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Manuka-C&trade; 105g',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Manuka-C&trade; 105g</small></h4>
+                <a href="/nutraceuticals/products/manuka-c-105g">
+                    <h4 class="medlab_product_content_title">Manuka-C&trade; 105g</small></h4>
+                </a>
                 <p>
                     Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
                     ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
@@ -3859,7 +3885,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Manuka-C&trade; 210g',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Manuka-C&trade; 210g</small></h4>
+                <a href="/nutraceuticals/products/manuka-c-210g">
+                    <h4 class="medlab_product_content_title">Manuka-C&trade; 210g</small></h4>
+                </a>
                 <p>
                     Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
                     ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
@@ -4193,7 +4221,9 @@ class ModifyProduct extends Command
                 'product_name' => 'MultiBiotic&trade; 30&#39;s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">MultiBiotic&trade; 30&#39;s</h4>
+                <a href="/nutraceuticals/products/multibiotic-30s">
+                    <h4 class="medlab_product_content_title">MultiBiotic&trade; 30&#39;s</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
@@ -4488,7 +4518,9 @@ class ModifyProduct extends Command
                 'product_name' => 'MultiBiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">MultiBiotic&trade; 60&#39;s</h4>
+                <a href="/nutraceuticals/products/multibiotic-60s">
+                    <h4 class="medlab_product_content_title">MultiBiotic&trade; 60&#39;s</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
@@ -4784,7 +4816,9 @@ class ModifyProduct extends Command
                 'product_name' => 'NanoCelle&trade; Activated B12',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NanoCelle&trade; Activated B12</h4>
+                <a href="/nutraceuticals/products/nanocelle-activated-b12">
+                    <h4 class="medlab_product_content_title">NanoCelle&trade; Activated B12</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
@@ -4999,7 +5033,9 @@ class ModifyProduct extends Command
                 'product_name' => 'NanoCelle&trade; B12',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NanoCelle&trade; B12</h4>
+                <a href="/nutraceuticals/products/nanocelle-b12">
+                    <h4 class="medlab_product_content_title">NanoCelle&trade; B12</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
@@ -5215,7 +5251,9 @@ class ModifyProduct extends Command
                 'product_name' => 'NanoCelle&trade; D3',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NanoCelle&trade; D3</h4>
+                <a href="/nutraceuticals/products/nanocelle-d3">
+                    <h4 class="medlab_product_content_title">NanoCelle&trade; D3</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
@@ -5452,7 +5490,9 @@ class ModifyProduct extends Command
                 'product_name' => 'NOS <small>Nitric Oxide Support</small>',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NOS <small>Nitric Oxide Support</small></h4>
+                <a href="/nutraceuticals/products/NOS">
+                    <h4 class="medlab_product_content_title">NOS <small>Nitric Oxide Support</small></h4>
+                </a>
                 <p>
                     A targeted pre-exercise sports food containing a selection of evidence-based ingredients combined to support and optimise exercise performance.
                 </p>
@@ -5717,7 +5757,9 @@ class ModifyProduct extends Command
                 'product_name' => 'NRGBiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NRGBiotic&trade; 60&#39;s</h4>
+                <a href="/nutraceuticals/products/nrgbiotic-60s">
+                    <h4 class="medlab_product_content_title">NRGBiotic&trade; 60&#39;s</h4>
+                </a>
                 <p>
                     <strong>Australian Innovation Patent No. 2015100928</strong>
                 </p>
@@ -5986,7 +6028,9 @@ class ModifyProduct extends Command
                 'product_name' => 'ORSBiotic&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">ORSBiotic&trade;</h4>
+                <a href="/nutraceuticals/products/orsbiotic">
+                    <h4 class="medlab_product_content_title">ORSBiotic&trade;</h4>
+                </a>
                 <p>
                     <strong>Australian Innovation Patent No. 2016100500</strong>
                 </p>
@@ -6372,7 +6416,9 @@ class ModifyProduct extends Command
                 'product_name' => 'ORSBiotic&trade; 10pk Sachets',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">ORSBiotic&trade; 10pk Sachets</h4>
+                <a href="/nutraceuticals/products/orsbiotic-10pk-sachets">
+                    <h4 class="medlab_product_content_title">ORSBiotic&trade; 10pk Sachets</h4>
+                </a>
                 <p>
                     <strong>Australian Innovation Patent No. 2016100500</strong>
                 </p>
@@ -6756,7 +6802,9 @@ class ModifyProduct extends Command
                 'product_name' => 'SB 5B&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">SB 5B&trade;</h4>
+                <a href="/nutraceuticals/products/SB-5B">
+                    <h4 class="medlab_product_content_title">SB 5B&trade;</h4>
+                </a>
                 <p>
                     <em>Saccharomyces cerevisiae ssp. boulardii</em> (SB) is a beneficial probiotic yeast that helps to
                     maintain gastrointestinal function and integrity by supporting a healthy gut microbial profile. SB 5B&trade;
@@ -6983,7 +7031,9 @@ class ModifyProduct extends Command
                 'product_name' => 'W8Biotic&trade; Strawberries & Cream',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">W8Biotic&trade; Strawberries & Cream</h4>
+                <a href="/nutraceuticals/products/w8biotic-strawberries-and-cream">
+                    <h4 class="medlab_product_content_title">W8Biotic&trade; Strawberries & Cream</h4>
+                </a>
                 <p>
                     <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
@@ -7257,7 +7307,9 @@ class ModifyProduct extends Command
                 'product_name' => 'W8Biotic&trade; Lemon & Lime',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">W8Biotic&trade; Lemon & Lime</h4>
+                <a href="/nutraceuticals/products/w8biotic-lemon-and-lime">
+                    <h4 class="medlab_product_content_title">W8Biotic&trade; Lemon & Lime</h4>
+                </a>
                 <p>
                     <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
@@ -7535,7 +7587,9 @@ class ModifyProduct extends Command
                 'product_name' => "NanoCelle&trade; D3 + K2",
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title">NanoCelle&trade; D3 + K2</h4>
+                    <a href="/nutraceuticals/products/nanocelle-d3-k2">
+                        <h4 class="medlab_product_content_title">NanoCelle&trade; D3 + K2</h4>
+                    </a>
                     <p>
                         <strong>PATENT PENDING</strong>
                     </p>
@@ -7842,7 +7896,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Immune-5&trade; Vanilla',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Immune-5&trade; Vanilla</small></h4>
+                <a href="/nutraceuticals/products/immune-5-vanilla">
+                    <h4 class="medlab_product_content_title">Immune-5&trade; Vanilla</small></h4>
+                </a>
                 <p>
                     Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with
                     two specific probiotic species shown to assist with immune function and assist with upper respiratory tract infections.
@@ -8103,7 +8159,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Immune-5&trade; Raspberry',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Immune-5&trade; Raspberry</small></h4>
+                <a href="/nutraceuticals/products/immune-5-raspberry">
+                    <h4 class="medlab_product_content_title">Immune-5&trade; Raspberry</small></h4>
+                </a>
                 <p>
                     Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with
                     two specific probiotic species shown to assist with immune function and assist with upper respiratory tract infections.
@@ -8363,7 +8421,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Lactoferrin Enhanced&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Lactoferrin Enhanced&trade;</h4>
+                <a href="/nutraceuticals/products/lactoferrin-enhanced-60s">
+                    <h4 class="medlab_product_content_title">Lactoferrin Enhanced&trade;</h4>
+                </a>
                 <p>
                     Lactoferrin Enhanced is a unique combination of lactoferrin, olive leaf extract, probiotics and
                     zinc to support a healthy immune response and regulate gastrointestinal health.
@@ -8631,7 +8691,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BifidoBiotic&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BifidoBiotic&trade;</h4>
+                <a href="/nutraceuticals/products/bifidobiotic-60s">
+                    <h4 class="medlab_product_content_title">BifidoBiotic&trade;</h4>
+                </a>
                 <p>
                     BifidoBiotic&trade; is a multi-species probiotic formulation to restore and maintain a healthy
                     intestinal microbiome, across the lifespan. BifidoBiotic&trade; may help to re-regulate pro-inflammatory
@@ -8868,7 +8930,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Quatrefolic&reg;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Quatrefolic&reg;</h4>
+                <a href="/nutraceuticals/products/quatrefolic-60s">
+                    <h4 class="medlab_product_content_title">Quatrefolic&reg;</h4>
+                </a>
                 <p>
                     Medlab Quatrefolic&reg; contains levomefolate glucosamine which is a form of biologically active
                     folate, 5-methyltetrahydrofolate (5-MTHF). Folate is essential for DNA synthesis, cell division,
