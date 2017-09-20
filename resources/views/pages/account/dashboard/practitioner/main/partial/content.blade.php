@@ -192,6 +192,16 @@
                     <div class="panel-body">
                         <a href="/nutraceuticals/products">
 
+                            <img alt="Spring 2017 Specials"
+                                 src="/img/deals/Spring_Specials_2017.jpg"
+                                 title="Spring 2017 Specials"
+                                 width="700px"
+                                 class="img-responsive center-block">
+
+                        </a>
+                        <br>
+                        <a href="/nutraceuticals/products">
+
                             <img alt="September 2017 Deals"
                                  src="/img/deals/Sept2017.png"
                                  title="September 2017 Deals"
