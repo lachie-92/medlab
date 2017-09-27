@@ -115,59 +115,9 @@
                 $July = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-07-01 00:00:00');
                 $Aug = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-08-01 00:00:00');
                 $Sept = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-09-01 00:00:00');
+                $Oct = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-10-01 00:00:00');
             ?>
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($May->copy()->startOfMonth(), $May->copy()->endOfMonth())) )
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        May 2017 Deals
-                    </div>
-                    <div class="panel-body">
-                        <a href="/nutraceuticals/products">
-
-                            <img alt="May 2017 Deals"
-                                 src="/img/deals/May2017.jpg"
-                                 title="May 2017 Deals"
-                                 width="700px"
-                                 class="img-responsive center-block">
-
-                        </a>
-                    </div>
-                </div>
-            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($June->copy()->startOfMonth(), $June->copy()->endOfMonth())) )
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        June 2017 Deals
-                    </div>
-                    <div class="panel-body">
-                        <a href="/nutraceuticals/products">
-
-                            <img alt="June 2017 Deals"
-                                 src="/img/deals/June2017.jpg"
-                                 title="June 2017 Deals"
-                                 width="700px"
-                                 class="img-responsive center-block">
-
-                        </a>
-                    </div>
-                </div>
-            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($July->copy()->startOfMonth(), $July->copy()->endOfMonth())) )
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        July 2017 Deals
-                    </div>
-                    <div class="panel-body">
-                        <a href="/nutraceuticals/products">
-
-                            <img alt="July 2017 Deals"
-                                 src="/img/deals/July2017.jpg"
-                                 title="July 2017 Deals"
-                                 width="700px"
-                                 class="img-responsive center-block">
-
-                        </a>
-                    </div>
-                </div>
-            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Aug->copy()->startOfMonth(), $Aug->copy()->endOfMonth())) )
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Aug->copy()->startOfMonth(), $Aug->copy()->endOfMonth())) )
                 <div class="panel panel-primary medlab_panel">
                     <div class="panel-heading medlab_panel_title">
                         August 2017 Deals
@@ -205,6 +155,23 @@
                             <img alt="September 2017 Deals"
                                  src="/img/deals/Sept2017.png"
                                  title="September 2017 Deals"
+                                 width="700px"
+                                 class="img-responsive center-block">
+
+                        </a>
+                    </div>
+                </div>
+            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Oct->copy()->startOfMonth(), $Oct->copy()->endOfMonth())) )
+                <div class="panel panel-primary medlab_panel">
+                    <div class="panel-heading medlab_panel_title">
+                        October 2017 Deals
+                    </div>
+                    <div class="panel-body">
+                        <a href="/nutraceuticals/products">
+
+                            <img alt="October 2017 Deals"
+                                 src="/img/deals/Oct2017.jpg"
+                                 title="October 2017 Deals"
                                  width="700px"
                                  class="img-responsive center-block">
 
