@@ -100,6 +100,40 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
+                        Managing Stress & Fatigue: A Clinical Perspective
+                    </div>
+                    <div class="medlab_news_item_body">
+
+
+                            <p>
+                                <a
+                                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                        href="/education/webinars/stress-and-fatigue"
+                                        @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                        href="#"
+                                        @else
+                                        href="/account/login"
+                                        @endif
+                                        target="_blank">
+
+                                    <img alt="Live Webinar"
+                                         src="/img/webinar/stress and fatigue.jpg"
+                                         title="Medlab Efficacy Magazine Edition 4"
+                                         width="450px"
+                                         class="img-responsive center-block">
+                                </a>
+                            </p>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
                         Medlab: Chronic Disease Research and Innovation
                     </div>
                     <div class="medlab_news_item_body">
@@ -286,33 +320,7 @@
             </div
 
 
-        <div class="medlab_news_item">
-            <div class="medlab_news_item_content_wrapper">
-                <div class="medlab_news_item_title">
-                    FEATURED CONFERENCE
-                </div>
-                <div class="medlab_news_item_body">
-                    <h2 class="medlab_news_content_title">
-                        <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">
-                            Lifestyle Medicine 2017
-                        </a>
-                    </h2>
-                    <p>
-                        We are proud to announce Professor Luis Vitetta will be presenting at the conference, ‘Mood disorders and the Intestinal Mucosa’, and Medlab will be exhibiting, we hope to see you there!
-                    </p>
-                    <p>
-                        <a href="http://www.lifestylemedicine.org.au/conference" target="_blank">
-                            <img width="100%"  alt="ACNEM 2017" src="/img/news/lifestyle_medicine_2017.jpg">
-                        </a>
-                    </p>
-                    <p>
-                        Check out the full list of streams, workshops and register now <a href="http://www.lifestylemedicine.org.au/conference" target="_blank"><b>here</b></a>. For a limited time, you can use the conference promo code PASSIONATE for an extra passionate supporter discount.
-                    </p>
-
-
-                </div>
-            </div>
-        </div>-->
+        -->
 
 
 
