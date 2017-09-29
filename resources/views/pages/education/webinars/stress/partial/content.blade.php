@@ -49,7 +49,7 @@
 
                         @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
 
-                            <a href="https://register.gotowebinar.com/register/5931796348302600451" class="btn btn-primary btn-block" role="button" target="_blank">>Register for the webinar</a>
+                            <a href="https://register.gotowebinar.com/register/5931796348302600451" class="btn btn-primary btn-block" role="button" target="_blank">Register for the webinar</a>
 
                         @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
 
@@ -57,7 +57,7 @@
 
                         @else
 
-                            <a href="/account/login" class="btn btn-primary btn-block" role="button">>Register for a practitioner account</a>
+                            <a href="/account/login" class="btn btn-primary btn-block" role="button">Register for a practitioner account</a>
 
                         @endif
 
