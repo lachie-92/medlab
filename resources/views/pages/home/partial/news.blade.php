@@ -106,15 +106,8 @@
 
 
                             <p>
-                                <a
-                                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                        href="/education/webinars/stress-and-fatigue"
-                                        @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                        href="#"
-                                        @else
-                                        href="/account/login"
-                                        @endif
-                                        target="_blank">
+                                <a href="/education/webinars/stress-and-fatigue">
+
 
                                     <img alt="Live Webinar"
                                          src="/img/webinar/stress and fatigue.jpg"

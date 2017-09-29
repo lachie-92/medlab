@@ -43,7 +43,31 @@
                     <p  style="text-align:justify;">During this webinar Rebecca James, BHsc (Nat), explores the key drivers of stress and the impact this may have on energy levels.
                         Hydration and diet also affect cognitive performance as nutritional demands are increased during periods of prolonged stress.
                         Rebecca ties this all together by providing a clinical perspective on two of the biggest health issues patients present with.</p>
+
+
+
+
+                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+
+                            <a href="https://register.gotowebinar.com/register/5931796348302600451" class="btn btn-primary btn-block" role="button" target="_blank">>Register for the webinar</a>
+
+                        @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+
+                            <h2>UNAVAILABLE FOR PATIENTS</h2>
+
+                        @else
+
+                            <a href="/account/login" class="btn btn-primary btn-block" role="button">>Register for a practitioner account</a>
+
+                        @endif
+
+
+
+
+
                 </div>
+
+
             </div>
 
 

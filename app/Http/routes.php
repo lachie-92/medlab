@@ -191,10 +191,11 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     Route::get('/education/webinars/probiotics', function () {
         return view('pages.education.webinars.probiotics.index');
     });
-    Route::get('/education/webinars/stress-and-fatigue', function () {
-        return view('pages.education.webinars.stress.index');
-    });
+
     
+});
+Route::get('/education/webinars/stress-and-fatigue', function () {
+    return view('pages.education.webinars.stress.index');
 });
 
 
