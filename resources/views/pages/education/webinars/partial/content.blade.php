@@ -42,6 +42,51 @@
 
 
 
+
+                                <div class="container">
+                                    <div class="col-md-5 col-sm-12 col-xs-12">
+
+
+
+
+
+
+                                        <a
+                                                @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                                href="https://register.gotowebinar.com/register/5931796348302600451"
+                                                @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                                href="https://register.gotowebinar.com/register/5931796348302600451"
+                                                @else
+                                                href="https://register.gotowebinar.com/register/5931796348302600451"
+                                                @endif
+                                                target="_blank">
+
+                                            <img alt="Dehydration: a reliable predictor of cognitive function in older adults"
+                                                 src="/img/webinar/stress and fatigue.jpg"
+                                                 title="Stress and Fatigue"
+                                                 width="450px"
+                                                 class="img-responsive center-block">
+                                        </a>
+
+
+                                        </p>
+                                        <br>
+                                    </div>
+                                    <div class="col-md-6 col-sm-12 col-xs-12">
+
+                                        <h2 style="text-align:center;">Managing Stress & Fatigue: A Clinical Perspective</h2>
+                                        <p  style="text-align:center;">Presented by Rebecca James, BHsc (Nat)</p>
+                                        <p  style="text-align:center;">Duration: 22 minutes</p>
+                                        <h3 style="text-align:center;">What you will learn in this webinar:</h3>
+                                        <p>During this webinar Rebecca James, BHsc (Nat), explores the key drivers of stress and the impact this
+                                            may have on energy levels. Hydration and diet also affect cognitive performance as nutritional demands
+                                            are increased during periods of prolonged stress. Rebecca ties this all together by providing a
+                                            clinical perspective on two of the biggest health issues patients present with.</p>
+
+                                    </div>
+                                </div>
+
+                                <hr>
                                 <div class="container">
                                     <div class="col-md-5 col-sm-12 col-xs-12">
 
