@@ -11,12 +11,11 @@
             -->
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    Medlab Efficacy Magazine Edition 1
+                    Medlab Efficacy Magazine Edition 5
                 </div>
                 <div class="panel-body medlab_panel_content">
-                    <iframe src="https://cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ftpfgj99v&bgcolor=EEEEEE&t=1473635435" width="100%" height="900px" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>
-                    <br>
-                    <button type="button" class="btn btn-default"><a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/EFFICACY+Magazine+SEPT16+edition+FINAL.pdf" download>DOWNLOAD EFFICACY MAGAZINE HERE</a></button><br><br>
+                    <iframe src="https://cdn.flipsnack.com/widget/v2/flipsnackwidget.html?hash=fdh32j5jv&bgcolor=F4EAEE&t=1507201540" width="100%" height="900px" seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>                    <br>
+                    <button type="button" class="btn btn-default"><a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/EFFICACY+Magazine+SEPT17+edition+FINAL.pdf" download>DOWNLOAD EFFICACY MAGAZINE HERE</a></button><br><br>
                     <br>
                     <div class="container-fluid">
                         <div class="well well-sm" style="text-align: justify;">
@@ -33,7 +32,7 @@
                             <p>
                                 We accept no liability for individual actions or omissions that are based on content found within this publication. No content may be reprinted, replicated or copied.
                             </p>
-                            <p>	&copy;Copyright Medlab Clinical Ltd 2016</p>
+                            <p>	&copy;Copyright Medlab Clinical Ltd 20117</p>
                             <p>
                                 - Not For Public Distribution
                             </p>
