@@ -168,7 +168,7 @@
                                                             </p>
                                                             <div class="row">
                                                                 <div class="col-md-4 col-sm-7">
-                                                                    <b>Only accept .pdf .jpg .png .jpeg file:</b>
+                                                                    <b>Only accept .pdf .jpg .png .jpeg file (20 MB Max):</b>
                                                                 </div>
                                                                 <div class="col-md-8 col-sm-5">
                                                                     {!! Form::file('qualification_file') !!}
