@@ -8737,56 +8737,48 @@ class ModifyProduct extends Command
                 <p>
                     <ul>
                         <li>
-                            Influence healthy gene expression of immune cells in the intestinal mucosa.
+                            Supplementation of bifidobacteria has been shown to provide protection against infection,
+                            and stimulate the production of beneficial metabolites including Short Chain Fatty Acids
+                            (SCFA), Conjugated Linoleic Acid (CLA) and bacteriocins.
                         </li>
                         <li>
-                            Animal studies demonstrated increased longevity following Bifidobacteria supplementation,
-                            and also re-regulating pro-inflammatory cytokine levels toward homeostasis.
+                            Bifidobacteria have been shown to inhibit the adherence of enterotoxigenic <em>E. coli</em>,
+                            enteropathogenic <em>E coli</em>, and <em>C.difficile</em> to intestinal epithelial cells.
                         </li>
                         <li>
-                            Contains the probiotics <em>Bifidobacteria lactis</em>, <em>Bifidobacteria bifidum</em>,
-                            <em>Bifidobacteria longum</em> which support the health and function of the immune system.
+                            Bifidobacteria species may reduce gastrointestinal side effects of antibiotics.
                         </li>
                         <li>
-                            Contains the probiotics <em>Bifidobacteria lactis</em>, <em>Bifidobacteria bifidum</em>,
-                            <em>Bifidobacteria longum</em> which may assist in maintaining healthy gut function.
+                            Disturbances in the gut microbiota have been linked to the pathophysiology of IBS.
+                            Bifidobacterium species have been shown to be decreased in the microbiota of people
+                            with IBS compared with healthy controls.
                         </li>
                         <li>
-                            <em>Bifidobacteria longum</em> can recover the intestinal commensal bacteria and in turn can
-                            stimulate and regulate healthy immune function.
+                            Alterations in the composition and number of bifidobacteria have been associated
+                            with several gastrointestinal conditions including IBS and IBD.
                         </li>
                         <li>
-                            Contains the probiotics <em>Bifidobacteria lactis</em>, <em>Bifidobacteria bifidum</em>,
-                            <em>Bifidobacteria longum</em> which support the health and function of the digestive tract.
+                            Bifidobacteria species have been shown to alleviate symptoms of IBS and are associated
+                            with the regulation of pro and anti-inflammatory cytokines.
                         </li>
                         <li>
-                            Contains probiotic bacteria, which may assist in maintaining healthy gut microflora.
+                            Major physiological and lifestyle changes occur in the elderly, which impact on the
+                            composition of the functionality of the intestinal microbiota. The reduced number
+                            and diversity of bifidobacteria in the elderly suggests that probiotic supplementation
+                            may be beneficial in this population.
                         </li>
                         <li>
-                            Contains Bifidobacteria probiotics, which may assist in supporting the health and function
-                            of the gastrointestinal tract (GIT) following antibiotic therapy.
+                            Due to age related changes in the microbiome, bifidobacteria supplementation may support
+                            immunological and metabolic function in the elderly.
                         </li>
                         <li>
-                            Contains probiotics which help support the health and function of the gastrointestinal
-                            tract (GIT).
+                            Provides the species <em>B. bifidum</em>, <em>B. longum</em>, and <em>B.longum ssp infantis</em> which are the
+                            predominant species in full-term, healthy breast-fed infants.
                         </li>
                         <li>
-                            Contains probiotics, which support the integrity of the digestive tract.
-                        </li>
-                        <li>
-                            Probiotics may assist in maintaining and stabilising healthy gut microflora.
-                        </li>
-                        <li>
-                            Contains probiotics/friendly bacteria that may assist in maintaining healthy gut microflora.
-                        </li>
-                        <li>
-                            Contains probiotics, which may assist in the digestion and absorption of nutrients.
-                        </li>
-                        <li>
-                            Probiotic supplementation supports gastrointestinal/gut health.
-                        </li>
-                        <li>
-                            Probiotic supplementation may support the health of the digestive system.
+                            Supplementation with bifidobacteria may support formula fed infants. The use of infant
+                            formula feed may delay the development of immunological tolerance to environmental and
+                            bacterial antigens in the neonatal innate immune system.
                         </li>
                     </ul>
                 </p>
