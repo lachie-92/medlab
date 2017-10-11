@@ -8743,7 +8743,7 @@ class ModifyProduct extends Command
                         </li>
                         <li>
                             Bifidobacteria have been shown to inhibit the adherence of enterotoxigenic <em>E. coli</em>,
-                            enteropathogenic <em>E coli</em>, and <em>C. difficile</em> to intestinal epithelial cells.
+                            enteropathogenic <em>E. coli</em>, and <em>C. difficile</em> to intestinal epithelial cells.
                         </li>
                         <li>
                             Bifidobacteria species may reduce gastrointestinal side effects of antibiotics.
@@ -8772,7 +8772,7 @@ class ModifyProduct extends Command
                             immunological and metabolic function in the elderly.
                         </li>
                         <li>
-                            Provides the species <em>B. bifidum</em>, <em>B. longum</em>, and <em>B.longum ssp infantis</em> which are the
+                            Provides the species <em>B. bifidum</em>, <em>B. longum</em>, and <em>B. longum ssp infantis</em> which are the
                             predominant species in full-term, healthy breast-fed infants.
                         </li>
                         <li>
