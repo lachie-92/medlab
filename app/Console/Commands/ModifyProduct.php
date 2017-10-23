@@ -3116,9 +3116,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <p>
-                    Take two (2) capsules with water with each meal, up to three (3) times per day, or as directed by
-                    your healthcare practitioner.
+                <p>.
+                    Take two (2) capsules with water, 20-30 minutes before each meal, up to three (3) times per day,
+                    or as directed by your healthcare practitioner.
                 </p>
                 ',
                 'ingredients' =>
