@@ -28,6 +28,20 @@
                         </span>
                     </p>
                     <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/29048765" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Deterring M, Steels E, Koyyalamudi SR, Allifranchini E, Bocchietoo E, Vitetta L. </strong>Ageratum conyzoides L. inhibits 5-alpha-reductase gene expression in human prostate cells and reduces symptoms of benign prostatic hypertrophy in otherwise healthy men in a double blind randomized placebo controlled clinical study. <em>BioFactors 2017 Oct 19. doi: 10.1002/biof.1389.</em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="http://www.sciencedirect.com/science/article/pii/S2095754816301764" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Liu, Xin  Hollingworth, Samantha & Williams, Gail & Martin, Jennifer & Kostner, Karam & Crompton, David & Xue, Charlie & Vitetta, Luis.</strong> Use of complementary and alternative medicines in people with depression and central obesity: findings from a Tai Chi and Qigong study. <em>Journal of Traditional Chinese Medical Sciences 2017;10.1016/j.jtcms.2017.09.006. </em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/28805667" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
                                 <strong>Marx W, McCarthy AL, Ried K, McKavanagh D, Vitetta L, Sali A, Lohning A, Isenring E.</strong> The Effect of a Standardized Ginger Extract on Chemotherapy-Induced Nausea-Related Quality of Life in Patients Undergoing Moderately or Highly Emetogenic Chemotherapy: A Double Blind, Randomized, Placebo Controlled Trial.<em>Nutrients. 2017 Aug 12;9(8).</em>
