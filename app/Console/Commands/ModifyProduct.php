@@ -371,7 +371,7 @@ class ModifyProduct extends Command
                 'free_from' =>
                     '
                     <p class="medlab_product_content_sub_title">
-                        Dairy and Gluten Free
+                        Gluten Free
                     </p>
                     <p class="medlab_product_content_sub_title">
                         Suitable for Vegetarians
@@ -676,7 +676,7 @@ class ModifyProduct extends Command
                 'free_from' =>
                     '
                     <p class="medlab_product_content_sub_title">
-                        Dairy and Gluten Free
+                        Gluten Free
                     </p>
                     <p class="medlab_product_content_sub_title">
                         Suitable for Vegetarians
@@ -1009,7 +1009,7 @@ class ModifyProduct extends Command
                 'free_from' =>
                     '
                     <p class="medlab_product_content_sub_title">
-                        Dairy and Gluten Free
+                        Gluten Free
                     </p>
                     <p class="medlab_product_content_sub_title">
                         Suitable for Vegetarians
@@ -1340,7 +1340,7 @@ class ModifyProduct extends Command
                 'free_from' =>
                     '
                     <p class="medlab_product_content_sub_title">
-                        Dairy and Gluten Free
+                        Gluten Free
                     </p>
                     <p class="medlab_product_content_sub_title">
                         Suitable for Vegetarians
