@@ -399,7 +399,9 @@ Route::get('/research/clinical-trials/t2-biotic', function () {
     return view('pages.research.clinical-trails.t2-biotic.index');
 });
 
-
+Route::get('/research/sas/nanabis', function () {
+    return view('pages.research.sas.nanabis.index');
+});
 
 
 ///////////////////////////////////////////////////////////////////////////////////
