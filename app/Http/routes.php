@@ -399,11 +399,15 @@ Route::get('/research/clinical-trials/t2-biotic', function () {
     return view('pages.research.clinical-trails.t2-biotic.index');
 });
 
-Route::get('/SAS/Nanabis', function () {
+Route::get('/EMS/NanaBis', function () {
     return view('pages.research.sas.nanabis.index');
 });
 
-Route::get('/sas/nanabis', function () {
+Route::get('/EMS/Nanabis', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/ems/nanabis', function () {
     return view('pages.research.sas.nanabis.index');
 });
 
