@@ -462,7 +462,7 @@ Route::get('/about/careers', function () {
     return view('pages.about.careers.index');
 });
 
-Route::get('/ropboxfs0qd6txxt64', function () {
+Route::get('/dropboxfs0qd6txxt64', function () {
     return view('pages.dropbox.index');
 });
 
