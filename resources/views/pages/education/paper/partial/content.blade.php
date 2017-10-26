@@ -30,7 +30,7 @@
                     <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/29048765" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
-                                <strong>Deterring M, Steels E, Koyyalamudi SR, Allifranchini E, Bocchietoo E, Vitetta L. </strong>Ageratum conyzoides L. inhibits 5-alpha-reductase gene expression in human prostate cells and reduces symptoms of benign prostatic hypertrophy in otherwise healthy men in a double blind randomized placebo controlled clinical study. <em>BioFactors 2017 Oct 19. doi: 10.1002/biof.1389.</em>
+                                <strong>Deterring M, Steels E, Koyyalamudi SR, Allifranchini E, Bocchieto E, Vitetta L. </strong>Ageratum conyzoides L. inhibits 5-alpha-reductase gene expression in human prostate cells and reduces symptoms of benign prostatic hypertrophy in otherwise healthy men in a double blind randomized placebo controlled clinical study. <em>BioFactors 2017 Oct 19. doi: 10.1002/biof.1389.</em>
                             </span>
                         </a>
                     </p>
