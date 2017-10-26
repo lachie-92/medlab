@@ -462,6 +462,10 @@ Route::get('/about/careers', function () {
     return view('pages.about.careers.index');
 });
 
+Route::get('/dropbox', function () {
+    return view('pages.dropbox.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Efficacy pages
