@@ -105,11 +105,11 @@
                     </div>
 
                     <div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                        <img title="Bracelet part one" src="/img/research/SAS/bracelet_part_one.jpeg"
+                        <img title="Bracelet part one" src="/img/research/SAS/bracelet_part_one.jpg"
                              alt="Bracelet part one" width="100%"/>
                     </div>
                     <div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                        <img title="Bracelet part two" src="/img/research/SAS/bracelet_part_two.jpeg"
+                        <img title="Bracelet part two" src="/img/research/SAS/bracelet_part_two.jpg"
                              alt="Bracelet part two" width="100%"/>
                     </div>
 
