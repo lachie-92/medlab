@@ -42,6 +42,7 @@
                             </h4>
                         </div>
 
+                        <div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
                         <p>
                             NanaBis is an investigative new product containing 1:1 ratios of
                             <a href="https://en.wikipedia.org/wiki/Cannabidiol" target="_blank">Cannabidiol</a> (CBD) and
@@ -54,12 +55,25 @@
 
                         <br>
 
-                        <p>
-                            <span style="font-size: large;">
-                                <strong>NanaBis is a non-ARTG product currently in clinical trial and available under SAS.</strong>
-                            </span>
-                        </p>
 
+                            </div>
+
+                        <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                            <img title="Ethics Approval" src="/img/research/SAS/NanaBis CLIN Trial SAS.jpg"
+                                 alt="Ethics Approval" width="100%"/>
+                        </div>
+
+                        <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                            <img title="Ethics Approval" src="/img/research/SAS/NanaBis CLIN Trial Study.jpg"
+                                 alt="Ethics Approval" width="100%"/>
+                        </div>
+
+
+                        <h4>
+                                <strong>NanaBis is a non-ARTG product currently in clinical trial and available under SAS.</strong>
+                        </h4>
+
+                        <hr>
                         <p>
                             <img title="Ethics Approval" src="/img/research/SAS/ethics.png"
                                  alt="Ethics Approval" width="100%"/>
