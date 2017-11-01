@@ -9,7 +9,7 @@
 
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    EMS Nanabis
+                    EMS Nanabis<sup>TM</sup>
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <div class="col-sm-12">
@@ -17,23 +17,23 @@
 
                             <h1 class="text-center">
                                 <b>
-                                    The purpose of this webpage is to educate and inform healthcare professionals about NanaBis.
+                                    The purpose of this webpage is to educate and inform healthcare professionals about NanaBis<sup>TM</sup>.
                                 </b>
                             </h1>
                             <hr>
-                            <h4>
+                            <h4 class="text-center">
                                 <b>
                                     Emergency medical support is offered to healthcare professionals on these numbers:
                                 </b>
                             </h4>
-                            <h3>
+                            <h3 class="text-center">
                                 <b>
                                     Within Australia: <a href="1300 943 467">1300 943 467</a><br>
                                     Outside Australia: <a href="+61 2 8203 9523">+61 2 8203 9523</a>
                                 </b>
                             </h3>
                             <hr>
-                            <h4>
+                            <h4 class="text-center">
                                 <b>
                                     If you are a patient and you believe you are having an adverse reaction you MUST immediately
                                     call your Doctor or have a friend or family member drive you to the closest hospital emergency
@@ -42,35 +42,35 @@
                             </h4>
                         </div>
 
-                        <div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                        <div class="col-md-8 col-sm-12 col-xs-12">
                         <p>
-                            NanaBis is an investigative new product containing 1:1 ratios of
+                            NanaBis<sup>TM</sup> is an investigative new product containing 1:1 ratios of
                             <a href="https://en.wikipedia.org/wiki/Cannabidiol" target="_blank">Cannabidiol</a> (CBD) and
                             <a href="https://en.wikipedia.org/wiki/Tetrahydrocannabinol" target="_blank">delta-9-trethydrocannabinol</a>
                             (THC), delivery in a sub micron spray to the <a href="https://en.wikipedia.org/wiki/Buccal_administration" target="_blank">oro-buccal membrane</a>.
 
                         </p>
 
-                        <a href="#" target="_blank">NanaBis product information can be found here</a>.
+                        <a href="#" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
 
                         <br>
 
 
                             </div>
 
-                        <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                        <div class="col-md-2 col-sm-12 col-xs-12">
                             <img title="Ethics Approval" src="/img/research/SAS/NanaBis CLIN Trial SAS.jpg"
                                  alt="Ethics Approval" width="100%"/>
                         </div>
 
-                        <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2">
+                        <div class="col-md-2 col-sm-12 col-xs-12">
                             <img title="Ethics Approval" src="/img/research/SAS/NanaBis CLIN Trial Study.jpg"
                                  alt="Ethics Approval" width="100%"/>
                         </div>
 
 
                         <h4>
-                                <strong>NanaBis is a non-ARTG product currently in clinical trial and available under SAS.</strong>
+                                <strong>NanaBis<sup>TM</sup> is a non-ARTG product currently in clinical trial and available under SAS.</strong>
                         </h4>
 
                         <hr>
@@ -84,12 +84,12 @@
 
                         <br>
                         <p>
-                            NanaBis is being studied as both an adjutant and a replacement to opioid therapy in advanced
+                            NanaBis<sup>TM</sup> is being studied as both an adjutant and a replacement to opioid therapy in advanced
                             cancer pain. <a href="https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12617001480370" target="_blank">ANZCTR listing is available here</a>.
                         </p>
 
                         <p>
-                            The consumer medical information <a href="#" target="_blank">(CMI) is available here</a>.
+                            The consumer medical information <a href="/img/research/sas/CMI NanaBis Draft 311017_V3.pdf" target="_blank">(CMI) is available here</a>.
                         </p>
 
                         <p>
@@ -116,11 +116,7 @@
 
                     <div class="col-sm-12">
                         <br>
-                        <p>
-                            <span style="font-size: large;">
-                                <strong>Access to medicinal cannabis products: steps to using access schemes.</strong>
-                            </span>
-                        </p>
+
                         <a href="https://www.tga.gov.au/access-medicinal-cannabis-products-steps-using-access-schemes" target="_blank"><img title="Access To Medicinal Cannabis" src="/img/research/SAS/access.jpg"
                              alt="Access To Medicinal Cannabis" width="100%"/></a>
                         <p>
