@@ -51,7 +51,7 @@
 
                         </p>
 
-                        <a href="#" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
+                        <a href="/ems/nanabis/nanabis" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
 
                         <br>
 

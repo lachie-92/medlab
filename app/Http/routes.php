@@ -198,6 +198,10 @@ Route::get('/education/webinars/stress-and-fatigue', function () {
     return view('pages.education.webinars.stress.index');
 });
 
+Route::get('/education/webinars/register', function () {
+    return view('pages.education.webinars.register.index');
+});
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -421,6 +425,11 @@ Route::get('/EMS/Nanabidial', function () {
 
 Route::get('/ems/nanabidial', function () {
     return view('pages.research.sas.nanabidial.index');
+});
+
+
+Route::get('/ems/nanabis/nanabis', function () {
+    return view('pages.research.sas.index');
 });
 
 

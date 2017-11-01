@@ -2,7 +2,7 @@
 
 @section('content')
 
-@include('pages.research.splash.partial.breadcrumbs')
-@include('pages.research.splash.partial.content')
+@include('pages.research.sas.partial.breadcrumbs')
+@include('pages.research.sas.partial.content')
 
 @endsection
