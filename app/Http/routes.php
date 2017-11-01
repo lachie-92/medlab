@@ -411,6 +411,18 @@ Route::get('/ems/nanabis', function () {
     return view('pages.research.sas.nanabis.index');
 });
 
+Route::get('/EMS/NanaBidial', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/EMS/Nanabidial', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/ems/nanabidial', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
