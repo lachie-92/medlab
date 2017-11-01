@@ -412,15 +412,15 @@ Route::get('/ems/nanabis', function () {
 });
 
 Route::get('/EMS/NanaBidial', function () {
-    return view('pages.research.sas.nanabis.index');
+    return view('pages.research.sas.nanabidial.index');
 });
 
 Route::get('/EMS/Nanabidial', function () {
-    return view('pages.research.sas.nanabis.index');
+    return view('pages.research.sas.nanabidial.index');
 });
 
 Route::get('/ems/nanabidial', function () {
-    return view('pages.research.sas.nanabis.index');
+    return view('pages.research.sas.nanabidial.index');
 });
 
 
