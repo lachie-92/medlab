@@ -89,7 +89,7 @@
                         </p>
 
                         <p>
-                            The consumer medical information <a href="/img/research/sas/CMI NanaBis Draft 311017_V3.pdf" target="_blank">(CMI) is available here</a>.
+                            The consumer medical information <a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/CMI+NanaBis+Draft+311017_V3.pdf" target="_blank">(CMI) is available here</a>.
                         </p>
 
                         <p>
