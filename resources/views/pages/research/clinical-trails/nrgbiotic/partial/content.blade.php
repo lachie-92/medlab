@@ -18,40 +18,22 @@
 
 
                     <h3>CLINICAL TRIAL</h3>
-
-                    <p>A randomised placebo controlled clinical trial investigating the role of orotic acid and probiotics for the management of depression</p>
-
-                    <h3>NEAF initiated online on</h3>
-
-                    <p>-</p>
-
+                    <p>A randomised placebo controlled clinical trial investigating the role of orotic acid and probiotics for the management of depression.</p>
                     <h3>DATE of HREC approval</h3>
-
                     <p>22/03/2017</p>
-
                     <h3>HREC Reference number</h3>
-
-                    <p>UQHREC  |  2017000186</p>
-
+                    <p>UQHREC | 2017000186</p>
                     <h3>CTN application submitted to TGA on</h3>
-
                     <p>05/05/2017</p>
-
                     <h3>CTN</h3>
-
-                    <p> CT-2017-CTN-01080-1 v2 </p>
-
-                    <h3>ANZCTR  date submitted | date registered</h3>
-
-                    <p>07/03/2016  | 29/03/2016</p>
-
+                    <p>CT-2017-CTN-01080-1 v2</p>
                     <h3>ANZCTR</h3>
-
-                    <p><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=ACTRN12617000419369&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True&postcode=&distance=" target="_blank">ACTRN12617000419369</a></p>
-
+                    <p>ACTRN12617000419369</p>
+                    <h3>STUDY SITE</h3>
+                    <p>TBA</p>
                     <h3>STATUS</h3>
+                    <p>Recruiting TBA</p>
 
-                    <p>Recruiting</p>
 
 
                 </div>

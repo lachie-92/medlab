@@ -18,41 +18,22 @@
 
 
                     <h3>CLINICAL TRIAL</h3>
-
-                    <p>The buccal administration of a Cannabis sativa L. extract as an adjunct to opioid analgesia for the management of intractable pain in patients diagnosed with advanced cancer: a safety, tolerability and exploratory end-point pilot study</p>
-
-                    <h3>NEAF initiated online on</h3>
-
-                    <p>03/11/2016</p>
-
+                    <p>The buccal administration of a Cannabis sativa L./Cannabis indica L. extract as an adjunct to opioid analgesia for the management of intractable pain in patients diagnosed with advanced cancer: a safety, tolerability and exploratory end-point pilot study</p>
                     <h3>DATE of HREC approval</h3>
-
-                    <p>HREC REFERENCE: HREC/16/HAWKE 496</br>
-                        <italic>Pending </italic></p>
-
-                    <h3>HREC Reference number</h3>
-
-                    <p>NSLHD</p>
-
-                    <h3>CTN application submitted to TGA on</h3>
-
-                    <p>Pending</p>
-
+                    <p>16 June 2017</p>
+                    <h3>HREC</h3>
+                    <p>Northern Sydney Local Health District</p>
+                    <h3>HREC Approval Reference number</h3>
+                    <p>HREC/16/HAWKE/496</p>
                     <h3>CTN</h3>
-
-                    <p>CT-2017-CTN-02369-1 v1</p>
-
-                    <h3>ANZCTR  date submitted | date registered</h3>
-
-                    <p>Pending</p>
-
+                    <p>CT-2017-CTN-02369-1 v2</p>
                     <h3>ANZCTR</h3>
-
-                    <p>Pending</p>
-
+                    <p>ACTRN12617001480370</p>
+                    <h3>STUDY SITE</h3>
+                    <p>Royal North Shore Hospital, Oncology Department</p>
                     <h3>STATUS</h3>
+                    <p>Recruiting to begin in December 2017</p>
 
-                    <p>Recruiting to begin in September / October 2017</p>
 
 
                 </div>

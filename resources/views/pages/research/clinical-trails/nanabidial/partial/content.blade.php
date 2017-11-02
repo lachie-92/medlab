@@ -18,43 +18,22 @@
 
 
                     <h3>CLINICAL TRIAL</h3>
-
-                    <p><strong>Initial Application Study:</strong> A phase 0 open-label single group clinical trial to investigate the safety of a microdose of a nanocelle™ cannabis formulation administered oro-buccally to healthy adult volunteers.</br>
-                        <strong>Progressed to…</strong></br>
-                        <strong>Pharmacokinetic Pilot Study:</strong> The buccal administration of a nanocelle™CBD only preparation to healthy volunteers: a safety, tolerability and pharmacokinetic exploratory pilot study.</p>
-
-                    <h3>NEAF initiated online on</h3>
-
-                    <p>21/01/2016 (NIIM NEAF)</p>
-
+                    <p>The buccal administration of a nanocelle™ CBD preparation to healthy volunteers: a safety, tolerability and pharmacokinetic exploratory pilot study.</p>
                     <h3>DATE of HREC approval</h3>
-
-                    <p>11/05/2017</p>
-
-                    <h3>HREC Reference number</h3>
-
-                    <p>[EC00436]  | 0030E_2016</p>
-
-                    <h3>CTN application submitted to TGA on</h3>
-
-                    <p>17/06/2017</p>
-
+                    <p>16/02/2016</p>
+                    <h3>HREC</h3>
+                    <p>National Institute of Integrative Medicine (NIIM) EC00436</p>
+                    <h3>HREC Approval Reference number</h3>
+                    <p>0030E_2016</p>
                     <h3>CTN</h3>
-
-                    <p>CT‐2017‐CTN‐01923‐1</p>
-
-                    <h3>ANZCTR  date submitted | date registered</h3>
-
-                    <p>-</p>
-
+                    <p>CT‐2017‐CTN‐01923‐1 v4</p>
                     <h3>ANZCTR</h3>
-
-                    <p>-</p>
-
+                    <p>ACTRN12617001491358</p>
+                    <h3>STUDY SITE</h3>
+                    <p>Northern Cancer Institute, L1, 38 Pacific Highway, St Leonards 2065 NSW</p>
                     <h3>STATUS</h3>
+                    <p>Recruiting to begin in November 2017</p>
 
-                    <p>Progressed from a Phase 0 to a Pharmacokinetic Pilot Study</br>
-                        Recruiting to begin in September / October 2017</p>
 
 
                 </div>
