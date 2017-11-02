@@ -100,17 +100,17 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        Managing Stress & Fatigue: A Clinical Perspective
+                        RESEARCH UPDATE
                     </div>
                     <div class="medlab_news_item_body">
 
 
                             <p>
-                                <a href="/education/webinars/stress-and-fatigue">
+                                <a href="/education/webinars/register">
 
 
                                     <img alt="Live Webinar"
-                                         src="/img/webinar/stress and fatigue.jpg"
+                                         src="/img/webinar/Webinar November Luis Vitetta.jpg"
                                          title="Medlab Efficacy Magazine Edition 4"
                                          width="450px"
                                          class="img-responsive center-block">
