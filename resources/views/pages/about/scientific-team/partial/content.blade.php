@@ -106,24 +106,7 @@
                         on the metabolomics of probiotics and other bacteria.
                     </p>
                     <br>
-                    <h3>
-                        <strong>Talia Palacios</strong>
-                    </h3>
-                    <p>
-                        <strong>Postdoctoral candidate</strong>
-                    </p>
-                    <p>
-                        <img style="float: left; margin-right: 10px;" title="Talia Palacios Portrait" src="/img/about/DSC_1077_1.jpeg" alt="Talia Palacios Portrait" height="135" width="125">
-                    </p>
-                    <p style="text-align: justify;">
-                        Talia is a PhD candidate at the University of Sydney. She holds a Bachelor degree in Science,
-                        Bachelor degree in Psychology and a Master degree in Dietetics from the University of San
-                        Francisco de Quito (Ecuador). Talia has 10 years of experience in clinical practice. Her
-                        current research area of interest is the relationship between the microbiome and
-                        obesity-related disorders. Her PhD involves evaluating the efficacy of an evidence-based
-                        multi-strain probiotic on metabolic biomarkers in obese adults with pre-diabetes and recently
-                        diagnosed with type 2 diabetes.
-                    </p>
+                    
                     <br>
                     
                 </div>

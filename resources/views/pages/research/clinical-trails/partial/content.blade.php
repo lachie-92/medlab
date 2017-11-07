@@ -42,7 +42,7 @@
                                 <td align="left"><a href="/research/clinical-trials/nanabidial">NanaBidial (NanoCelle CBD)</a></td>
                                 <td align="left">The buccal administration of a Nanocelle™ CBD preparation to healthy volunteers: a safety, tolerability and pharmacokinetic exploratory pilot study.</td>
                                 <td align="left"><a href="http://www.anzctr.org.au/TrialSearch.aspx?searchTxt=12617001491358&conditionCategory=&conditionCode=&interventionCodeOperator=&interventionCode=&ageGroup=&healthyVolunteers=&gender=&allocationToIntervention=&dateOfRegistrationFrom=&dateOfRegistrationTo=&trialStartDateFrom=&trialStartDateTo=&recruitmentCountryOperator=&countryOfRecruitment=&primarySponsorType=&fundingSource=&healthCondition=&interventionDescription=&phase=&recruitmentStatus=&registry=&ethicsReview=&studyType=&isBasic=True&postcode=&distance=" target="_blank">ACTRN12617001491358</a></td>
-                                <td align="left">Recruting</td>
+                                <td align="left">Recruiting</td>
                             </tr>
                             </tbody>
                         </table>
