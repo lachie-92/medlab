@@ -42,7 +42,7 @@
                                 </p>
                                 <h1 style="text-align:center;">Medlab's New Efficacy<sup>TM</sup> Magazine</h1>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
-                                <p style="text-align:center;">Issue 3: September 2017 – November 2017</p>
+                                <p style="text-align:center;">Issue 5: September 2017 – November 2017</p>
                                 <p style="text-align:center;">Inflammatory Bowel Disease (IBD) and Adjunctive Treatments - in brief</p>
                                 </br>
                                 <p style="text-align:center;">Efficacy™ is designed to educate and update Practitioners with Medlab research developments, company progression and the latest industry advancements with a variety of contributing authors.</p>
@@ -77,7 +77,7 @@
                                                         Neuro-Cognitive Impairments
                                                     </div>
                                                     <div class="medlab_news_sidebar_list_item_body">
-                                                        Issue 3: June 2017 – August 2017
+                                                        Issue 4: June 2017 – August 2017
 
                                                     </div>
                                                 </div>
@@ -93,7 +93,7 @@
                                                         Neonatal Health and Immunity
                                                     </div>
                                                     <div class="medlab_news_sidebar_list_item_body">
-                                                        Issue 3: June - August 2016
+                                                        Issue 3: March 2017 - May 2017
 
                                                     </div>
                                                 </div>
