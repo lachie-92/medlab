@@ -116,62 +116,35 @@
                 $Aug = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-08-01 00:00:00');
                 $Sept = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-09-01 00:00:00');
                 $Oct = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-10-01 00:00:00');
+                $Nov = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-11-01 00:00:00');
+                $Dec = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-12-01 00:00:00');
             ?>
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Aug->copy()->startOfMonth(), $Aug->copy()->endOfMonth())) )
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Nov->copy()->startOfMonth(), $Nov->copy()->endOfMonth())) )
                 <div class="panel panel-primary medlab_panel">
                     <div class="panel-heading medlab_panel_title">
-                        August 2017 Deals
+                        November 2017 Deals
                     </div>
                     <div class="panel-body">
                         <a href="/nutraceuticals/products">
 
-                            <img alt="August 2017 Deals"
-                                 src="/img/deals/Aug2017.jpg"
-                                 title="August 2017 Deals"
+                            <img alt="November 2017 Deals"
+                                 src="/img/deals/Nov2017.jpg"
+                                 title="November 2017 Deals"
                                  width="700px"
                                  class="img-responsive center-block">
 
                         </a>
                     </div>
                 </div>
-            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Sept->copy()->startOfMonth(), $Sept->copy()->endOfMonth())) )
+            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Dec->copy()->startOfMonth(), $Dec->copy()->endOfMonth())) )
                 <div class="panel panel-primary medlab_panel">
                     <div class="panel-heading medlab_panel_title">
-                        September 2017 Deals
+                        December 2017 Deals
                     </div>
                     <div class="panel-body">
                         <a href="/nutraceuticals/products">
 
-                            <img alt="Spring 2017 Specials"
-                                 src="/img/deals/Spring_Specials_2017.jpg"
-                                 title="Spring 2017 Specials"
-                                 width="700px"
-                                 class="img-responsive center-block">
-
-                        </a>
-                        <br>
-                        <a href="/nutraceuticals/products">
-
-                            <img alt="September 2017 Deals"
-                                 src="/img/deals/Sept2017.png"
-                                 title="September 2017 Deals"
-                                 width="700px"
-                                 class="img-responsive center-block">
-
-                        </a>
-                    </div>
-                </div>
-            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Oct->copy()->startOfMonth(), $Oct->copy()->endOfMonth())) )
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        October 2017 Deals
-                    </div>
-                    <div class="panel-body">
-                        <a href="/nutraceuticals/products">
-
-                            <img alt="October 2017 Deals"
-                                 src="/img/deals/Oct2017.jpg"
-                                 title="October 2017 Deals"
+                                 src="/img/deals/Dec2017.jpg"
                                  width="700px"
                                  class="img-responsive center-block">
 
