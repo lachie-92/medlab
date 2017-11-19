@@ -144,7 +144,9 @@
                     <div class="panel-body">
                         <a href="/nutraceuticals/products">
 
+                            <img alt="December 2017 Deals"
                                  src="/img/deals/Dec2017.jpg"
+                                 title="December 2017 Deals"
                                  width="700px"
                                  class="img-responsive center-block">
 
