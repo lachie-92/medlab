@@ -125,10 +125,10 @@
                             </tr>
 
                             <tr>
-                                <td align="left"><a href="/research/clinical-trials/contract-1">Arbovitae Health and Wellbeing supplement</a></td>
+                                <td align="left"><a href="/research/clinical-trials/aborvitae">Arbovitae Health and Wellbeing supplement</a></td>
                                 <td align="left">A Phase IIa Double-Blind Placebo Controlled Clinical Trial Investigating the Efficacy and Safety of Arborvitae Health and Wellbeing Supplement in Improving Blood Glucose Levels in Pre-Diabetes Participants</td>
                                 <td align="left"><a href="https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?id=368098&isReview=true" target="_blank">ACTRN12615000233527</a></td>
-                                <td align="left"><a href="mailto:clinicaltrials@medlab.co?Subject=Clinical Trial Recruitment - ACTRN12615000233527">Recruiting</a></td>
+                                <td align="left"><a href="/research/clinical-trials/aborvitae">Recruiting</a></td>
 
                             </tr>
 
