@@ -403,6 +403,10 @@ Route::get('/research/clinical-trials/t2-biotic', function () {
     return view('pages.research.clinical-trails.t2-biotic.index');
 });
 
+Route::get('/research/clinical-trials/aborvitae', function () {
+    return view('pages.research.clinical-trails.aborvitae.index');
+});
+
 Route::get('/EMS/NanaBis', function () {
     return view('pages.research.sas.nanabis.index');
 });
