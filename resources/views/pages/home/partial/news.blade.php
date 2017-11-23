@@ -110,7 +110,7 @@
 
 
                                     <img alt="Live Webinar"
-                                         src="/img/webinar/Webinar November Luis Vitetta.jpg"
+                                         src="/img/webinar/Medlab Webinar Banner NOV17 v1[1].jpg"
                                          title="Medlab Efficacy Magazine Edition 4"
                                          width="450px"
                                          class="img-responsive center-block">
