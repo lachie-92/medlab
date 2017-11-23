@@ -21,17 +21,17 @@
 
                     <a
                             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                            href="https://attendee.gotowebinar.com/register/8966094398970374403"
+                            href="https://register.gotowebinar.com/register/3690107644784724739"
                             @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                             href="#"
                             @else
-                            href="https://attendee.gotowebinar.com/register/8966094398970374403"
+                            href="https://register.gotowebinar.com/register/3690107644784724739"
                             @endif
                             target="_blank">
 
-                        <img alt="Dehydration: a reliable predictor of cognitive function in older adults"
-                             src="/img/webinar/Webinar November Luis Vitetta.jpg"
-                             title="Stress and Fatigue"
+                        <img alt="Medlab Year In Review"
+                             src="/img/webinar/Medlab Webinar Banner NOV17 v1[1].jpg"
+                             title="Medlab Year in Review"
                              width="450px"
                              class="img-responsive center-block">
                     </a>
@@ -44,14 +44,13 @@
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
 
-                    <h2 style="text-align:center;">RESEARCH UPDATE </h2>
-                    <h2 style="text-align:center;">Insight Into The Management of Treatment Resistant Depression</h2>
-                    <p  style="text-align:center;">Presented by Prof. Luis Vitetta</p>
+                    <h2 style="text-align:center;">Year in review </h2>
+                    <p  style="text-align:center;">Presented by Dr. Sean Hall</p>
+                    <p  style="text-align:center;">8:00am, Tuesday 12<sup>th</sup> December, 2017</p>
                     <br>
-                    <p>Medlab’s Director of Medical Research, Professor Luis Vitetta will provide an update on Medlab’s current research
-                        into treatment resistant depression and how it can be managed. Unlike other illnesses there are various documented
-                        causes of depression and mood disorders, including stress and predisposition to depression concurrent with biological,
-                        genetic and psychological factors.</p>
+                    <p>Medlab’s Chief Executive Officer, Dr Sean Hall looks back over the year and discusses some of Medlab’s key projects.
+                        This 30 minute webinar will cover Medlab’s cannabis programme, diabetes and depression research, as well as discussing the company in general.
+                        Approximately 15 minutes will be reserved for questions and answers. This webinar provides a unique opportunity to talk directly with Sean and understand Medlab in more detail.</p>
 
                 </div>
             </div>
