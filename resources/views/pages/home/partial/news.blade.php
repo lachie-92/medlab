@@ -100,7 +100,7 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        RESEARCH UPDATE
+                        Year in Review
                     </div>
                     <div class="medlab_news_item_body">
 
