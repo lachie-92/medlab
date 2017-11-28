@@ -15,6 +15,57 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
+
+                    <p>
+                        <span style="text-decoration: underline; font-size: medium;">
+                            <strong>Publications</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Emma Tali Saltzman, Talia Palacios, Michael Thomsen, Luis Vitetta.</strong>
+                            Intestinal microbiome shifts, dysbiosis, inflammation and non-alcoholic fatty liver disease. <em>Frontiers in Microbiology – section Microbial Immunology. 2017</em>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Luis Vitetta, Emma Saltzman, Michael Thomsen, Tessa Nikov, Sean Hall.</strong>
+                            Adjuvant Probiotics and the Intestinal Microbiome: Can Vaccines and Immunotherapy be Enhanced? <em>Vaccines 2017</em>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Michael Thomsen, Stephen Clarke, Luis Vitetta.</strong>
+                            Cancer Treatments with Adjuvant Probiotics: Inflammation and the Intestinal Microbiome–Epithelia–Mucosa Immune Axis Beneficial Microbes. 2017
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Michael Thomsen, Luis Vitetta.</strong>
+                            A review of functional foods for the prevention of chemotherapy and radiotherapy induced mucositis. <em>Advances in Integrative Medicine. 2017</em>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Robert J Ellis, David M Small, Keng Lim Ng, David A Vesey, Luis Vitetta, Ross S Francis, Glenda C Gobe, Christudas Morais.</strong>
+                            Indoxyl sulfate induces apoptosis and hypertrophy in human kidney proximal tubular cells. <em>Nephrology 2017.</em>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Simone A. Osborne, Qianyun Sharon Du, Paul P. Masci, Robyn A. Daniel, Kirthi Desilva, Luis Vitetta, Kong-Nan Zhao, Robert B. Seymour.</strong>
+                            Oral administration of dermatan sulfate from bovine collagen waste liquor reduces venous thrombus formation in vivo. <em>Journal of Thrombosis and Hemostasis 2017-2018</em>
+                        </span>
+                    </p>
+
+
+
                     <p>
                         <span style="text-decoration: underline; font-size: medium;">
                             <strong>Publications</strong>
@@ -513,7 +564,7 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
-                            <strong>Vitetta l.</strong>
+                            <strong>Vitetta L.</strong>
                             The intestinal microbiome, cancer treatments and adjuvant probiotics.
                             4th Annual Symposium. Integrative Medicine: the Art and Science. 24-25 Nov 2017. Melbourne, Australia.
                     </span>
@@ -566,6 +617,14 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Kalma B, Ellis RJ, Vitetta L, Wood ST, Gobe GC.</strong>
+                            Pilot Study: Urinary Indoxyl Sulphate As A Predictor Of Postoperative Kidney Function Following Radical Tumour Nephrectomy.
+                            54th Australian and New Zealand Society of Nephrology. Annual Scientific Meeting 8-12 Sep 2017.  Sydney, Australia.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Vitetta L.</strong>
                             The intestinal microbiome, metabolic diseases and probiotics.
                             BIT 15th International Conference: IDDST Jul 26-28 2017. Osaka, Japan.
@@ -580,21 +639,9 @@
                     </span>
                     </p>
 
-                    <p>
-                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
-                            <strong>Kalma B, Ellis RJ, Vitetta L, Wood ST, Gobe GC.</strong>
-                            Pilot Study: Urinary Indoxyl Sulphate As A Predictor Of Postoperative Kidney Function Following Radical Tumour Nephrectomy. 
-                            54th Australian and New Zealand Society of Nephrology. Annual Scientific Meeting 8-12 Sep 2017.  Sydney, Australia.
-                    </span>
-                    </p>
 
-                    <p>
-                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
-                            <strong>Talia Palacios, Ian Caterson, Claire Madigan, Luis Vitetta. </strong>
-                            The Efficacy Of A Novel Probiotic On Glucose Metabolism: A Randomised Controlled Trial.
-                            The 4th Latin America Congress on Controversies to Consensus in Diabetes, Obesity and Hypertension.  Buenos Aires, Argentina 2017 Mar 16-18.
-                        </span>
-                    </p>
+
+
 
 
                     </p><br>
