@@ -513,6 +513,83 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta l.</strong>
+                            The intestinal microbiome, cancer treatments and adjuvant probiotics.
+                            4th Annual Symposium. Integrative Medicine: the Art and Science. 24-25 Nov 2017. Melbourne, Australia.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L, Clarke S, Thomsen M.</strong> The intestinal microbiome, chemotherapy and adjuvant treatments with probiotics.
+                            Asia-Pacific Journal of Clinical Oncology [Clinical Oncological Society of Australia] 2017; Nov 13-15; 13(4):98, ABS#105. Sydney, Australia.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Thomsen M, Vitetta L.</strong> Optimising the Gut Microbiome: Adjuvant Treatments/Therapies.
+                            Clinical Oncological Society of Australia; Pre Conference Workshop Nov 12 2017. Sydney, Australia
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Palacios T, Vitetta L, Madigan C, Caterson I.</strong>
+                            Prediabetes And Early Diagnosed T2dm: Safety Tolerability And Pilot Exploratory Study Preliminary Results.
+                            5th Microbiome R And D And Business Collaboration Forum: Usa Collaborations In Microbiome Research, Live Bacterial Therapeutics, Human Health & Disease |  2nd Probiotics Congress: Usa. 2-3 Nov 2017. San Diego, Usa.
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong>
+                            Cancer Treatments, the Intestinal Microbiome and Probiotics.
+                            IPA World Congress,  Asia Probiota. 11-13 Oct 2017. Singapore.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Palacios T, Vitetta L, Madigan C, Caterson I .</strong>
+                            The development of a evidence-based probiotic formulation and its efficacy in obesity and type 2 diabetes.
+                            4th Beneficial Microbes Conference, 9-11 Oct 2017. Amsterdam, The Netherlands
+                    </span>
+                    </p>
+
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong>
+                            Mood disorders cognition and the intestinal mucosa.
+                            Australian Society of Lifestyle Medicine 15-17 Sep 2017. Sydney, Australia.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong>
+                            The intestinal microbiome, metabolic diseases and probiotics.
+                            BIT 15th International Conference: IDDST Jul 26-28 2017. Osaka, Japan.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Palacios T, Caterson I, Madigan C, Vitetta L.</strong>
+                            The Efficacy Of A Novel Probiotic On Glucose Metabolism: A Randomised Controlled Trial.
+                            The 4th Latin American Congress on Controversies to Consensus in Diabetes, Obesity and Hypertension. 16-18 Mar 2017. Buenos Aires, Argentina.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Kalma B, Ellis RJ, Vitetta L, Wood ST, Gobe GC.</strong>
+                            Pilot Study: Urinary Indoxyl Sulphate As A Predictor Of Postoperative Kidney Function Following Radical Tumour Nephrectomy. 
+                            54th Australian and New Zealand Society of Nephrology. Annual Scientific Meeting 8-12 Sep 2017.  Sydney, Australia.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Talia Palacios, Ian Caterson, Claire Madigan, Luis Vitetta. </strong>
                             The Efficacy Of A Novel Probiotic On Glucose Metabolism: A Randomised Controlled Trial.
                             The 4th Latin America Congress on Controversies to Consensus in Diabetes, Obesity and Hypertension.  Buenos Aires, Argentina 2017 Mar 16-18.

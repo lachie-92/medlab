@@ -94,11 +94,11 @@
 
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                href="https://attendee.gotowebinar.com/register/8966094398970374403"
+                                                href="/education/webinars/recordings"
                                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                                 href="#"
                                                 @else
-                                                href="https://attendee.gotowebinar.com/register/8966094398970374403"
+                                                href="/education/webinars/recordings"
                                                 @endif
                                                 target="_blank">
 
@@ -140,11 +140,11 @@
 
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                href="https://register.gotowebinar.com/register/5931796348302600451"
+                                                href="/education/webinars/recordings"
                                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                                href="https://register.gotowebinar.com/register/5931796348302600451"
+                                                href="#"
                                                 @else
-                                                href="https://register.gotowebinar.com/register/5931796348302600451"
+                                                href="/education/webinars/recordings"
                                                 @endif
                                                 target="_blank">
 

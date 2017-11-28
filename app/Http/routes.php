@@ -202,6 +202,10 @@ Route::get('/education/webinars/register', function () {
     return view('pages.education.webinars.register.index');
 });
 
+Route::get('/education/webinars/recordings', function () {
+    return view('pages.education.webinars.recordings.index');
+});
+
 
 
 ///////////////////////////////////////////////////////////////////////////////////
