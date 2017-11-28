@@ -18,7 +18,7 @@
 
                     <p>
                         <span style="text-decoration: underline; font-size: medium;">
-                            <strong>Publications</strong>
+                            <strong>Currently Under Review (2017-2018)</strong>
                         </span>
                     </p>
 
