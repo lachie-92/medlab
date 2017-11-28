@@ -8418,11 +8418,11 @@ class ModifyProduct extends Command
             [
                 'product_name_index' => 'Lactoferrin Enhanced',
                 'austl_number' => '290203',
-                'product_name' => 'Lactoferrin Enhanced&trade;',
+                'product_name' => 'Lactoferrin Enhanced',
                 'short_description' =>
                     '
                 <a href="/nutraceuticals/products/lactoferrin-enhanced-60s">
-                    <h4 class="medlab_product_content_title">Lactoferrin Enhanced&trade;</h4>
+                    <h4 class="medlab_product_content_title">Lactoferrin Enhanced</h4>
                 </a>
                 <p>
                     Lactoferrin Enhanced is a unique combination of lactoferrin, olive leaf extract, probiotics and
@@ -8438,7 +8438,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                 <p>
-                    Lactoferrin Enhanced&trade; is a unique combination of lactoferrin, olive leaf extract, probiotics
+                    Lactoferrin Enhanced is a unique combination of lactoferrin, olive leaf extract, probiotics
                     and zinc to support a healthy immune response and regulate gastrointestinal health.
                     Lactoferrin is a naturally occurring glycoprotein found in mucosal secretions, human milk and
                     colostrum. It is a component of the innate immune response and protects against a variety of
