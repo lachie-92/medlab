@@ -11,24 +11,29 @@
 
         <div class="col-md-8 col-sm-12 col-xs-12">
 
-        <!--ANY URGENT UPDATES
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        PHONE LINE UPGRADES
+                        CHRISTMAS OPENING HOURS
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <p>There may be slight disruptions to the phone lines at Medlab today due to an upgrade.</p>
-                        <p>Please contact Medlab on our secondary Phone Number: 0280044572</p>
-                        <p>We apologise for any inconveniences and appreciate your patience</p>
+                        <p><span style="font-family:helvetica, sans-serif;">Medlab Clinical Head Office will be open throughout the Christmas & New Year period with the exception of the days below:</span></p>
+
+                        <p><span style="font-family:helvetica, sans-serif;">Friday 22nd Dec - Open till 12:30PM <strong>(NO TNT PICKUP)</strong></span></p>
+                        <p><span style="font-family:helvetica, sans-serif;">Monday 25th Dec - Closed</span></p>
+                        <p><span style="font-family:helvetica, sans-serif;">Tuesday 26th Dec - Closed</span></p>
+                        <p><span style="font-family:helvetica, sans-serif;">Friday 29th Dec - Open till 12:30PM <strong>(NO TNT PICKUP)</strong></span></p>
+                        <p><span style="font-family:helvetica, sans-serif;">Monday 1st Jan - Closed</span></p>
+
+
 
 
                     </div>
                 </div>
             </div>
 
-            -->
+
 
 
             <div class="medlab_news_item">
