@@ -255,6 +255,12 @@
                                                     <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone') }}"></td></tr>
                                                 </table>
                                             </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Fax</th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="fax" placeholder="Fax Num." value="{{ old('fax') }}"></td></tr>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

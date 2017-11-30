@@ -111,6 +111,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'postcode' => $request->postcode,
             'telephone' => $request->telephone,
             'mobile_phone' => $request->mobile_phone,
+            'fax' => $request->fax,
             'approval' => null,
             'credit_application' => intval($request->credit_application),
             'been_bankrupt' => $been_bankrupt,
