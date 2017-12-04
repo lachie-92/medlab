@@ -206,7 +206,9 @@ Route::get('/education/webinars/recordings', function () {
     return view('pages.education.webinars.recordings.index');
 });
 
-
+Route::get('/education/giveaways', function () {
+    return view('pages.education.giveaways.index');
+});
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
