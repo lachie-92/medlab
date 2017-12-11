@@ -146,7 +146,7 @@
 
 
 
-                            <iframe src="https://player.vimeo.com/video/220246612" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <iframe src="https://player.vimeo.com/video/220246612" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 
 
@@ -234,9 +234,6 @@
                             </a>
 
 
-
-
-
                             <p class="text-justify">We are proud to announce Medlab's NRGBiotic™ is a finalist for the NutraIngredient Awards 2017 - Readers' Food Supplement of the Year!</br>
                                 NRGBiotic<sup>TM</sup> is a valuable addition to many Practitioners 'toolbox' and is equally loved by those that use the product. The current clinical research outcomes have provided a novel adjunct option for those with Depression.</br>
                                 Seek advice from your healthcare Practitioner.
@@ -250,7 +247,7 @@
                                     <img alt="NRGBiotic"
                                          src="/img/news/Medlab_NRG_NutraFinalist.png"
                                          title="NRGBiotic"
-                                         width="50%"
+                                         width="200px"
                                          class="img-responsive center-block">
 
                                 </p>
@@ -276,23 +273,19 @@
                     </div>
                     <div class="medlab_news_item_body">
 
-                        <img src="/img/products/12mg_optima/Mg Optima Relax Sachets_Medlab.png" alt="Mg Optima™ Relax Featured product" height="400" width="auto" style="float: right;"/>
-                        <h2 class="medlab_news_content_title">
-                                <sup>12</sup>Mg Optima Relax
+                        <div class="col-md-12 col-sm-12 col-xs-12">
 
-                        </h2>
-                        <p class="medlab_news_content_paragraph" style="text-align: justify">
-                            <p>Please seek advice from your healthcare practitioner to see if this product is suitable for you.</p>
-                            <p>Always read the label, use only as directed.</p>
-                            <a href="/nutraceuticals/products/12mg-optima-relax-10pk-sachets-lemon-lime">Find out more here</a>
-                        </p>
-
-
-
-
-                        
-
-
+                            <img src="/img/products/12mg_optima/Mg Optima Relax Sachets_Medlab.png" alt="Mg Optima™ Relax Featured product" width="400px" class="img-responsive center-block"/>
+                            <br>
+                            <h2 class="medlab_news_content_title">
+                                    <sup>12</sup>Mg Optima Relax
+                            </h2>
+                            <p class="medlab_news_content_paragraph" style="text-align: justify">
+                                <p>Please seek advice from your healthcare practitioner to see if this product is suitable for you.</p>
+                                <p>Always read the label, use only as directed.</p>
+                                <a href="/nutraceuticals/products/12mg-optima-relax-10pk-sachets-lemon-lime">Find out more here</a>
+                            </p>
+                        </div>
 
                     </div>
                 </div>
@@ -335,12 +328,9 @@
                                 New NanoCelle<sup>TM</sup> NanoStat<sup>TM</sup> could help tackle high cholesterol
                             </h2>
                         </a>
-                        <div class="media-middle media-middle">
+                            <iframe src="https://player.vimeo.com/video/207709909" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-                            <iframe src="https://player.vimeo.com/video/207709909" width="100%" height="400" frameborder="0"  webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-                        </div>
-                        <p>Featured on Channel Nine News on the 9th of March 2017</p>
+                        <p style="text-align: center">Featured on Channel Nine News on the 9th of March 2017</p>
 
 
                         <br><br>
