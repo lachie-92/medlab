@@ -28,14 +28,7 @@
                             Intestinal microbiome shifts, dysbiosis, inflammation and non-alcoholic fatty liver disease. <em>Frontiers in Microbiology – section Microbial Immunology. 2017</em>
                         </span>
                     </p>
-
-                    <p>
-                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
-                            <strong>Luis Vitetta, Emma Saltzman, Michael Thomsen, Tessa Nikov, Sean Hall.</strong>
-                            Adjuvant Probiotics and the Intestinal Microbiome: Can Vaccines and Immunotherapy be Enhanced? <em>Vaccines 2017</em>
-                        </span>
-                    </p>
-
+                    
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Michael Thomsen, Stephen Clarke, Luis Vitetta.</strong>
@@ -76,6 +69,13 @@
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
                             <strong>2017:</strong>
+                        </span>
+                    </p>
+                    <p>
+                        <a href="http://www.mdpi.com/2076-393X/5/4/50" target="_blank">
+                    <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Luis Vitetta, Emma Saltzman, Michael Thomsen, Tessa Nikov, Sean Hall.</strong>
+                            Adjuvant Probiotics and the Intestinal Microbiome: Can Vaccines and Immunotherapy be Enhanced? <em>Vaccines 2017</em>
                         </span>
                     </p>
                     <p>
