@@ -206,6 +206,10 @@ Route::get('/education/webinars/recordings', function () {
     return view('pages.education.webinars.recordings.index');
 });
 
+Route::get('/education/webinars/recordings/2017-year-in-review', function () {
+    return view('pages.education.webinars.2017-year-in-review.index');
+});
+
 Route::get('/education/giveaways', function () {
     return view('pages.education.giveaways.index');
 });

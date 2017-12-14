@@ -28,7 +28,7 @@
                             Intestinal microbiome shifts, dysbiosis, inflammation and non-alcoholic fatty liver disease. <em>Frontiers in Microbiology – section Microbial Immunology. 2017</em>
                         </span>
                     </p>
-                    
+
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Michael Thomsen, Stephen Clarke, Luis Vitetta.</strong>
