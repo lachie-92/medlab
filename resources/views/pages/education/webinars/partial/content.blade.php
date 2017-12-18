@@ -50,11 +50,11 @@
 
                                         <a
                                                 @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                                href="https://register.gotowebinar.com/register/3690107644784724739"
+                                                href="/education/webinars/recordings/2017-year-in-review"
                                                 @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                                 href="#"
                                                 @else
-                                                href="https://register.gotowebinar.com/register/3690107644784724739"
+                                                href="/education/webinars/recordings/2017-year-in-review"
                                                 @endif
                                                 target="_blank">
 
