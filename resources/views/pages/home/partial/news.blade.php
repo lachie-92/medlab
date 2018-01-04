@@ -14,31 +14,6 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        CHRISTMAS OPENING HOURS
-                    </div>
-                    <div class="medlab_news_item_body">
-
-                        <p><span style="font-family:helvetica, sans-serif;">Medlab Clinical Head Office will be open throughout the Christmas & New Year period with the exception of the days below:</span></p>
-
-                        <p><span style="font-family:helvetica, sans-serif;">Friday 22nd Dec - Open till 12:30PM <strong>(NO TNT PICKUP)</strong></span></p>
-                        <p><span style="font-family:helvetica, sans-serif;">Monday 25th Dec - Closed</span></p>
-                        <p><span style="font-family:helvetica, sans-serif;">Tuesday 26th Dec - Closed</span></p>
-                        <p><span style="font-family:helvetica, sans-serif;">Friday 29th Dec - Open till 12:30PM <strong>(NO TNT PICKUP)</strong></span></p>
-                        <p><span style="font-family:helvetica, sans-serif;">Monday 1st Jan - Closed</span></p>
-
-
-
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
                         NEW PRODUCTS
                     </div>
                     <div class="medlab_news_item_body">
@@ -105,19 +80,27 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        Year in Review
+                        Upcoming Webinar
                     </div>
                     <div class="medlab_news_item_body">
 
 
                             <p>
-                                <a href="/education/webinars/register">
+                                <a
+                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                        href="/education/webinars/register"
+                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                        href="#"
+                                    @else
+                                        href="/account/login"
+                                    @endif
+                                >
 
+                                    <img alt="Upcoming Webinar"
+                                         src="/img/webinar/nanabis_webinar_brief.jpg"
+                                         title="Upcoming Webinar"
+                                         width="100%"
 
-                                    <img alt="Live Webinar"
-                                         src="/img/webinar/Medlab Webinar Banner NOV17 v1[1].jpg"
-                                         title="Medlab Efficacy Magazine Edition 4"
-                                         width="450px"
                                          class="img-responsive center-block">
                                 </a>
                             </p>
@@ -458,79 +441,58 @@
                     </div>
                     <div class="medlab_news_sidebar_item_body">
 
-                        <p>Educational webinars available to healthcare practitioners. <a href="/account/login">Register or Log-in to view</a></p>
+                        <p>
+                            Educational webinars available to healthcare practitioners.
+                            @if ( (Auth::guest() == true) )
+                                <a href="/account/login">Register or Log-in to view</a>
+                            @endif
+                        </p>
 
                         <ul class="medlab_news_sidebar_list media-list">
                             <li class="medlab_news_sidebar_list_item">
                                 <a
-                                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                        href="/education/webinars/dehydration"
-                                        @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                        href="https://register.gotowebinar.com/register/4151158159984603651"
+                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                         href="#"
-                                        @else
+                                    @else
                                         href="/account/login"
-                                        @endif
-                                        target="_blank">
+                                    @endif
+                                target="_blank">
 
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/webinar/medlab_dehydration_webinar.jpg" target="_blank" >
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Webinar - Understanding the Trial" src="/img/webinar/nanabis_webinar_brief.jpg" target="_blank" >
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
-                                            Dehydration: a reliable predictor of cognitive function in older adults
+                                            Understanding The Trial - NanaBis for advanced cancer pain
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">
-                                            Join Professor Luis Vitetta for this informative webinar.
-
+                                            Join Dr. Sean Hall, Professor Luis Vitetta for this informative webinar.
                                         </div>
                                     </div>
                                 </a>
                             </li>
                             <li class="medlab_news_sidebar_list_item">
                                 <a
-                                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                        href="/education/webinars/nanocelle"
-                                        @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                        href="#"
-                                        @else
-                                        href="/account/login"
-                                        @endif
-                                        target="_blank">
+                                    @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                    href="/education/webinars/recordings/2017-year-in-review"
+                                    @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                    href="#"
+                                    @else
+                                    href="/account/login"
+                                    @endif
+                                target="_blank">
 
                                     <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/news/Medlab_nanocelle_webinar.jpeg" target="_blank" >
+                                        <img class="medlab_news_sidebar_list_item_image" alt="Medlab Year In Review" src="/img/webinar/Medlab Webinar Banner NOV17 v1[1].jpg" target="_blank" >
                                     </div>
                                     <div class="media-body">
                                         <div class="medlab_news_sidebar_list_item_title">
-                                            Understanding the Clinical Application of NanoCelle
+                                            Year In Review
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">
-                                            Join Professor Luis Vitetta for this informative webinar.
-
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="medlab_news_sidebar_list_item">
-                                <a
-                                        @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                        href="/education/webinars/nrgwebinar"
-                                        @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                                        href="#"
-                                        @else
-                                        href="/account/login"
-                                        @endif
-                                        target="_blank">
-
-                                    <div class="media-left media-middle">
-                                        <img class="medlab_news_sidebar_list_item_image" alt="Unlocking the Clinical benefits of NRGBiotic" src="/img/news/MedlabNRG_webinar.jpg" target="_blank" >
-                                    </div>
-                                    <div class="media-body">
-                                        <div class="medlab_news_sidebar_list_item_title">
-                                            Unlocking the Clinical benefits of NRGBiotic
-                                        </div>
-                                        <div class="medlab_news_sidebar_list_item_body">
-                                            Join Dr Samantha Coulson for this informative webinar.
+                                            Join Dr. Sean Hall for this informative webinar.
 
                                         </div>
                                     </div>

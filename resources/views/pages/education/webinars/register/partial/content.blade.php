@@ -6,62 +6,54 @@
 <div class="container medlab_panel_container">
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <!--
-            -- About Medlab
-            -->
-
-
-
-
-            <div class="container">
-                <div class="col-md-5 col-sm-12 col-xs-12">
-
-
-
-
-                    <a
-                            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                            href="https://register.gotowebinar.com/register/3690107644784724739"
-                            @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
-                            href="#"
-                            @else
-                            href="https://register.gotowebinar.com/register/3690107644784724739"
-                            @endif
-                            target="_blank">
-
-                        <img alt="Medlab Year In Review"
-                             src="/img/webinar/Medlab Webinar Banner NOV17 v1[1].jpg"
-                             title="Medlab Year in Review"
-                             width="450px"
-                             class="img-responsive center-block">
-                    </a>
-
-
-
-
-                    </p>
-                    <br>
+            <div class="panel panel-primary medlab_panel">
+                <div class="panel-heading medlab_panel_title">
+                    Upcoming Webinar
                 </div>
-                <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="panel-body medlab_panel_content">
 
-                    <h2 style="text-align:center;">Year in review </h2>
-                    <p  style="text-align:center;">Presented by Dr. Sean Hall</p>
-                    <p  style="text-align:center;">8:00am, Tuesday 12<sup>th</sup> December, 2017</p>
-                    <br>
-                    <p>Medlab’s Chief Executive Officer, Dr Sean Hall looks back over the year and discusses some of Medlab’s key projects.
-                        This 30 minute webinar will cover Medlab’s cannabis programme, diabetes and depression research, as well as discussing the company in general.
-                        Approximately 15 minutes will be reserved for questions and answers. This webinar provides a unique opportunity to talk directly with Sean and understand Medlab in more detail.</p>
+                    <div class="container">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                            <a
+                                @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                    href="https://register.gotowebinar.com/register/4151158159984603651"
+                                @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                    href="#"
+                                @else
+                                    href="/account/login"
+                                @endif
+                                target="_blank">
+
+                                <img alt="Webinar - Understanding the Trial"
+                                     src="/img/webinar/nanabis_webinar_brief.jpg"
+                                     title="Webinar - Understanding the Trial"
+                                     width="100%"
+                                     class="img-responsive center-block">
+                            </a>
+                            <br>
+                        </div>
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+
+                            <h2 style="text-align:center;">Understanding The Trial<br>- NanaBis for advanced cancer pain</h2>
+                            <p  style="text-align:center;">Presented by Dr. Sean Hall, Prof. Luis Vitetta</p>
+                            <p  style="text-align:center;">6:00pm, Tuesday 20<sup>th</sup> Feburary, 2018</p>
+                            <p  style="text-align:center;">Duration: 45 minutes</p>
+                            <br>
+                            <p>
+                                NanaBis is a 1:1 whole plant extract of CBD and THC in a sub micron delivery platform
+                            </p>
+                            <ul>
+                                <li>History and epidemiology of cannabis use.</li>
+                                <li>The opioid epidemic that needs to be further addressed with a cannabis medicine substitute.</li>
+                                <li>Medlab's cannabis research: from plant to THC/CBD extracts to regulatory S8 pathways to standardised analysis and delivery.</li>
+                                <li>The clinical trials Medlab are conducting, specifically NanaBis at the Royal North Shore Hospital.</li>
+                            </ul>
+
+                        </div>
+                    </div>
 
                 </div>
             </div>
-
-
-
-
-
-
-
-
         </div>
     </div>
 </div>
