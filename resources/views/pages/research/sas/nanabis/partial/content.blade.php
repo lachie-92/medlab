@@ -51,7 +51,7 @@
 
                         </p>
 
-                        <a href="/ems/nanabis/nanabis" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
+                        <a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/Research/EMS/NanaBis/NanaBis_PI_V1.pdf" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
 
                         <br>
 
@@ -89,7 +89,7 @@
                         </p>
 
                         <p>
-                            The consumer medical information <a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/CMI+NanaBis+Draft+311017_V3.pdf" target="_blank">(CMI) is available here</a>.
+                            The consumer medical information <a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/Research/EMS/NanaBis/NanaBis_CMI_Draft_V3.pdf" target="_blank">(CMI) is available here</a>.
                         </p>
 
                         <p>
@@ -105,11 +105,11 @@
                     </div>
 
                     <div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                        <img title="Bracelet part one" src="/img/research/SAS/Unknown-1.jpeg"
+                        <img title="Bracelet part one" src="/img/research/SAS/EMS_Bracelet.png"
                              alt="Bracelet part one" width="100%"/>
                     </div>
                     <div class="col-sm-6 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                        <img title="Bracelet part two" src="/img/research/SAS/Unknown.jpeg"
+                        <img title="Bracelet part two" src="/img/research/SAS/EMS_Bracelet_Stack.png"
                              alt="Bracelet part two" width="100%"/>
                     </div>
 

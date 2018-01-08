@@ -457,6 +457,10 @@ Route::get('/about', function () {
     return view('pages.about.about-us.index');
 });
 
+Route::get('/about/news', function () {
+    return view('pages.about.news.index');
+});
+
 Route::get('/about/about-medlab', function () {
     return view('pages.about.about-medlab.index');
 });

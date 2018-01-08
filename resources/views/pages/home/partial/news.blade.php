@@ -14,6 +14,29 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
+                        NEWS
+                    </div>
+                    <div class="medlab_news_item_body">
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <a href="/about/news" class="medlab_news_content_link">
+                                <h2 class="medlab_news_content_title" style="text-align: center; font-size: 20px;">
+                                    Medlab CEO Dr. Sean Hall on SkyNews Business Live: Medical Cannabis and Medlab's clinical trial
+                                </h2>
+                            </a>
+
+                            <iframe src="https://player.vimeo.com/video/250050644" width="100%" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <p style="text-align: center">Featured on SkyNews Business Live on the 4th of January 2018</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="medlab_news_item">
+                <div class="medlab_news_item_content_wrapper">
+                    <div class="medlab_news_item_title">
                         NEW PRODUCTS
                     </div>
                     <div class="medlab_news_item_body">
@@ -80,7 +103,7 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        Upcoming Webinar
+                        UPCOMING WEBINAR
                     </div>
                     <div class="medlab_news_item_body">
 
@@ -115,7 +138,7 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        Medlab: Chronic Disease Research and Innovation
+                        MEDLAB: CHRONIC DISEASE RESEARCH AND INNOVATION
                     </div>
                     <div class="medlab_news_item_body">
 
@@ -147,7 +170,7 @@
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
-                        Medlab Efficacy Magazine
+                        MEDLAB EFFICACY MAGAZINE
                     </div>
                     <div class="medlab_news_item_body">
 
@@ -191,63 +214,12 @@
                         <div class="col-md-12 col-sm-12 col-xs-12">
 
 
-                        <p style="text-align:center;">Medlab’s quarterly magazine designed to educate and update Practitioners with Medlab research and industry advancements with a variety of contributing authors. <a href="/account/login">Register or log in</a> to view today.</p>
+                        <p style="text-align:center;">Medlab’s quarterly magazine designed to educate and update Practitioners with Medlab research and industry advancements with a variety of contributing authors. <a href="/account/login" class="medlab_news_content_link">Register or log in</a> to view today.</p>
 
                             </div>
                             </div>
                 </div>
             </div>
-
-
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        Featured News
-                    </div>
-                    <div class="medlab_news_item_body">
-
-
-
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-
-                            <a href="/nutraceuticals/nrgbiotic" target="_blank" class="medlab_news_content_link">
-                                <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                                    NutraIngredient Awards 2017 Finalist
-                                </h2>
-                            </a>
-
-
-                            <p class="text-justify">We are proud to announce Medlab's NRGBiotic™ is a finalist for the NutraIngredient Awards 2017 - Readers' Food Supplement of the Year!</br>
-                                NRGBiotic<sup>TM</sup> is a valuable addition to many Practitioners 'toolbox' and is equally loved by those that use the product. The current clinical research outcomes have provided a novel adjunct option for those with Depression.</br>
-                                Seek advice from your healthcare Practitioner.
-                                Find out more about <a href="/nutraceuticals/nrgbiotic" target="_blank" class="medlab_news_content_link">NRGBiotic: </a>
-
-                            </p>
-
-                            <br>
-                            <a href="/nutraceuticals/nrgbiotic" target="_blank" class="medlab_news_content_link">
-                                <p>
-                                    <img alt="NRGBiotic"
-                                         src="/img/news/Medlab_NRG_NutraFinalist.png"
-                                         title="NRGBiotic"
-                                         width="200px"
-                                         class="img-responsive center-block">
-
-                                </p>
-                            </a>
-
-
-
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </div>
-
-
-
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
@@ -266,7 +238,7 @@
                             <p class="medlab_news_content_paragraph" style="text-align: justify">
                                 <p>Please seek advice from your healthcare practitioner to see if this product is suitable for you.</p>
                                 <p>Always read the label, use only as directed.</p>
-                                <a href="/nutraceuticals/products/12mg-optima-relax-10pk-sachets-lemon-lime">Find out more here</a>
+                                <a href="/nutraceuticals/products/12mg-optima-relax-10pk-sachets-lemon-lime" class="medlab_news_content_link">Find out more here</a>
                             </p>
                         </div>
 
@@ -298,135 +270,6 @@
 
 
 
-
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        NEWS
-                    </div>
-                    <div class="medlab_news_item_body">
-
-                        <a href="http://www.9news.com.au/national/2017/03/09/17/30/mouth-spray-developed-to-tackle-high-cholesterol/?ocid=9newsfb" target="_blank" class="medlab_news_content_link">
-                            <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                                New NanoCelle<sup>TM</sup> NanoStat<sup>TM</sup> could help tackle high cholesterol
-                            </h2>
-                        </a>
-                            <iframe src="https://player.vimeo.com/video/207709909" width="100%" height="300px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-                        <p style="text-align: center">Featured on Channel Nine News on the 9th of March 2017</p>
-
-
-                        <br><br>
-
-                        <!--<a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            Balmoral Swim 4 Cancer
-                        </h2>
-                            </a>
-                        <p>Medlab is proud to be sponsoring the Balmoral Swim for Cancer 2017 to raise funds for Children's Cancer Institute.</br>
-                            Registrations to join the swim are now open, so click the link below to help us raise funds for a great cause!
-                        </p>
-
-                        <br>
-                        <a href="http://www.balmoralswim.com.au" target="_blank" class="medlab_news_content_link">
-                        <p>
-                            <img alt="Balmoral Swim"
-                                 src="/img/news/balmoral.jpg"
-                                 title="Balmoral Swim"
-                                 width="75%"
-                                 class="img-responsive center-block">
-
-                        </p>
-                        </a>
-                        <br><br>
-                        -->
-
-                        <!--h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">Congratulations to Michael Thomsen on being the recipient of a Francis M Hooper RHD scholarship from the University of Sydney.</h2>
-
-                        <br>
-                            <p>
-                                <img alt="Michael Thomsen"
-                                     src="/img/news/michaelthomsen.png"
-                                     title="Michael Thomsen"
-                                     width="100%"
-                                     class="img-responsive center-block">
-
-                            </p>
-                        <br><br-->
-
-                        <!--a href="http://www.global-engage.com/event/probiotics-asia/" target="_blank" class="medlab_news_content_link">
-
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            Sean Hall (CEO) in March 2017 presented at The 2nd Probiotics Congress: Asia on ‘Mitigating Chronic Disease’</br>
-                        </h2>
-
-                        <br>
-                        <p>
-
-                            <img alt="Probiotics Congress Asia"
-                                 src="/img/news/probiotics-congress.jpeg"
-                                 title="Probiotics Congress Asia"
-                                 width="75%"
-                                 class="img-responsive center-block">
-
-                        </p>
-                        </a>
-                        <br><br-->
-
-
-                        <!--h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                                Sean Hall (CEO) recently presented on Medlab's NanoCelle Delivery platform at The University of Sydney’s BioNanoTechnology and Biomedical Engineering summer school.</br>
-                        </h2>
-                        <br>
-                        <p>
-
-                                <img alt="NanoCelle Delivery Platform"
-                                     src="/img/news/USYD_presentation.jpg"
-                                     title="USYD Presentation"
-                                     width="75%"
-                                     class="img-responsive center-block">
-
-                        </p>
-                        <br><br-->
-
-
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 20px;">
-                            <a href="https://issuu.com/aiglobalmedia/docs/biotech_awards_2016_supplement/1" target="_blank" class="medlab_news_content_link">
-                                Congratulations to the Medlab team! Best early-phase chronic disease drug discovery company. Click the link to review the article, featured on pages 16 and 17.</br>
-                            </a>
-                        </h2>
-                        <br>
-                        <p>
-                            <a href="https://issuu.com/aiglobalmedia/docs/biotech_awards_2016_supplement/1" target="_blank">
-                                <img alt="Best Early-Phase Chronic Disease Drug Discovery Company Award"
-                                     src="/img/news/awardlogo.jpg"
-                                     title="Best Early-Phase Chronic Disease Drug Discovery Company Award"
-                                     width="50%"
-                                     class="img-responsive center-block">
-                            </a>
-                        </p>
-                        <br><br>
-
-
-                        <h2 class="medlab_news_content_title" style="text-align: justify; font-size: 23px;">
-                            <a href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" target="_blank" class="medlab_news_content_link">
-                                Medlab's research featured on Channel 9 news
-                            </a>
-                        </h2>
-                        <p style="text-align: justify">
-                            Medlab Clinical is at the forefront of research into obesity and the prevention of diabetes.
-                            Medlab's probiotic formulation is currently undergoing clinical trial evaluation in
-                            collaboration with the University of Sydney's Boden Institute as featured in a recent Channel
-                            9 news item.
-                        </p>
-                        <p>
-                            <a class="medlab_panel_content_link" href="http://a.msn.com/05/en-au/AAe6yNf?ocid=se%20" target="_blank">
-                                Watch Interview
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
 
 
         </div>
@@ -464,7 +307,7 @@
                                         <img class="medlab_news_sidebar_list_item_image" alt="Webinar - Understanding the Trial" src="/img/webinar/nanabis_webinar_brief.jpg" target="_blank" >
                                     </div>
                                     <div class="media-body">
-                                        <div class="medlab_news_sidebar_list_item_title">
+                                        <div class="medlab_news_content_link">
                                             Understanding The Trial - NanaBis for advanced cancer pain
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">
@@ -488,7 +331,7 @@
                                         <img class="medlab_news_sidebar_list_item_image" alt="Medlab Year In Review" src="/img/webinar/Medlab Webinar Banner NOV17 v1[1].jpg" target="_blank" >
                                     </div>
                                     <div class="media-body">
-                                        <div class="medlab_news_sidebar_list_item_title">
+                                        <div class="medlab_news_content_link">
                                             Year In Review
                                         </div>
                                         <div class="medlab_news_sidebar_list_item_body">

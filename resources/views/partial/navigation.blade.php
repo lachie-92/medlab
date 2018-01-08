@@ -91,6 +91,7 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/about-medlab">About Medlab</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/about/news">News</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/who-we-are">Who we are</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/our-past">Our Past</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/a-new-era">A New Era...</a></li>
