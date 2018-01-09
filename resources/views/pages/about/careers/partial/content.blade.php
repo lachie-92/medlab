@@ -30,6 +30,9 @@
                             <li>
                                 <a href="#TriageNurse">Triage Nurse - Melbourne</a>
                             </li>
+                            <li>
+                                <a href="#CRM">Client Relationship Consultant - Sydney</a>
+                            </li>
                         </ul>
 
                         For all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
@@ -69,7 +72,55 @@
                             <li>A fun, collaborative team-working environment</li>
                         </ul>
                         <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change...</p>
-                        <p>If you believe you have what it takes to join this dynamic team, please apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - EA to CEO">recruit@medlab.co</a></p>
+                        <p>If you believe you have what it takes to join this dynamic team, please apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Triage Nurse">recruit@medlab.co</a></p>
+
+                        <hr>
+
+                        <a name="CRM"></a>
+                        <h3><b>Client Relationship Consultant</b></h3>
+                        <ul>
+                            <li>Full Time / Permanent</li>
+                            <li>Office based role</li>
+                            <li>Alexandria, Sydney</li>
+                        </ul>
+                        <p>
+                            Due to a rapid expansion, we are seeking a highly ambitious Client Relationship Consultant to join our extremely motivated and successful team, where we provide you with ongoing career development within a rewarding and collaborative team culture.
+                        </p>
+                        <h4><b>The Opportunity</b></h4>
+                        <p>As a passionate Client Relationship Consultant, you will act as the interface between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
+                        <p>The role is office based and involves a combination of business development and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
+                        <p>Duties and Responsibilities include:</p>
+                        <ul>
+                            <li>Continually identify and develop new business opportunities</li>
+                            <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners</li>
+                            <li>Execute a business plan for your territory in line with meeting and exceeding key performance indicators and territory targets</li>
+                            <li>Create and implement client incentive and retention strategies</li>
+                            <li>Create and maintain call/territory plans</li>
+                            <li>Ensure the highest level of product and technical knowledge is attained and maintained</li>
+                            <li>Plan and deliver product training to a range of healthcare modalities</li>
+                            <li>Attend industry and association conferences and trade shows when required</li>
+                        </ul>
+                        <h4><b>About You</b></h4>
+                        <p>To be successful in this role you will be able to demonstrate the following:</p>
+                        <ul>
+                            <li>Proven track record in a sales environment along with commercial acumen</li>
+                            <li>Self-motivated and have a solution based approach to tasks</li>
+                            <li>Possess a high level of interpersonal skills, with the ability to motivate, influence and create strong relationships</li>
+                            <li>Excellent understanding of the sales process and use of CRM systems</li>
+                            <li>Have a genuine passion for health and wellness with a desire to succeed</li>
+                            <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification</li>
+                        </ul>
+                        <h4><b>Benefits</b></h4>
+                        <p>Here at Medlab, we are committed to the development of staff and regularly promote from within. You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
+                        <ul>
+                            <li>Generous base salary plus commission structure and allowances</li>
+                            <li>Use of on-site gym facilities within our offices in Alexandria</li>
+                            <li>A fun, collaborative team-working environment</li>
+                            <li>On-going training, education and mentoring</li>
+                            <li>Casual dress code</li>
+                        </ul>
+                        <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - CRM">recruit@medlab.co</a></p>
                         <hr>
 
 
