@@ -1021,7 +1021,7 @@ class ModifyProduct extends Command
                 'price_retail' => 44.01,
                 'price_wholesale' => 29.32,
                 'image_path' => '/img/products/12mg_optima/mg_optima_relax_150g.jpeg',
-                'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_150g.png',
+                'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_150g.jpg',
                 'slug' => '12mg-optima-relax-150g-lemon-lime'
             ],
             [
@@ -5024,7 +5024,7 @@ class ModifyProduct extends Command
                 'price_retail' => 23.88,
                 'price_wholesale' => 15.90,
                 'image_path' => '/img/products/nanocelle_activated_b12/activated_b12.png',
-                'thumb_image_path' => '/img/products/nanocelle_activated_b12/activated_b12_thumb.png',
+                'thumb_image_path' => '/img/products/nanocelle_activated_b12/activated_b12_thumb.jpg',
                 'slug' => 'nanocelle-activated-b12'
             ],
             [
