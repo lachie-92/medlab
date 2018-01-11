@@ -56,7 +56,7 @@
                                 <img src="/img/products/neuroactiv/neuroactiv.png" alt="NeuroActiv" height="145px" width="auto" class="center-block"/>
                             </a>
                         </div>
-                        <br>
+                        <br><br>
                         <div class="col-md-8 col-sm-8 col-xs-12">
                             <h2 class="medlab_news_content_title">
                                 <a href="/nutraceuticals/products/lactoferrin-enhanced-60s" class="medlab_news_content_link">
