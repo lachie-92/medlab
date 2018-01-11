@@ -18,7 +18,7 @@
 
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="medlab_carousel_image" src="/img/NanaBis_Web_Banner.jpg" alt="1">
+                <img class="medlab_carousel_image" src="/img/carousel/NanaBis_Web_Banner.jpg" alt="1">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
