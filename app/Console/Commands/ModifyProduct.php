@@ -9313,15 +9313,15 @@ class ModifyProduct extends Command
                             yield biogenic amines (neurotransmitters).
                         </li>
                         <li>
-                            Clinical trials suggest the combination of Levomefolic acid, Vitamin B, and Vitamin B12 
+                            Contains pyridoxal 5 phosphate, which is an active form of Vitamin B6 in the body.
+                        </li>
+                        <li>
+                            Clinical trials suggest the combination of Levomefolic acid, Vitamin B6, and Vitamin B12 
                             can reduce symptoms of neuropathy.
                         </li>
                         <li>
                             The combination of supplemental folate and vitamin B12 has been shown to reduce 
                             homocysteine more than folic acid alone.
-                        </li>
-                        <li>
-                            Contains pyridoxal 5 phosphate, which is an active form of Vitamin B6 in the body.
                         </li>
                         <li>
                             Contains Vitamin B12, which may act as an efficient intracellular superoxide scavenger 
@@ -9398,85 +9398,91 @@ class ModifyProduct extends Command
                 ',
                 'interactions' =>
                     '
-                    <ul>
-                        <li>
-                            <b>Folic acid</b> may interact with 5-fluorouracil, capecitabine (Xeloda), Fosphenytoin (Cerebyx), 
-                            Methotrexate (MTX), phenobarbital (luminal), Phenytoin (Dilantin) and primidone (Mysoline) 
-                            and Pyrimethamine (Daraprim). Interactions may possibly occur with other forms of folate.
-                        </li>
-                        <li>
-                            High doses of <b>Folic acid</b> may contribute to capecitabine toxicity.
-                        </li>
-                        <li>
-                            High doses of folic acid may increase toxicity and and gastrointestinal side effects of 
-                            5-flourouracil.
-                        </li>
-                        <li>
-                            <b>Folic acid</b> may reduce the efficacy of methotrexate in the treatment of acute lymphoblastic 
-                            leukaemia and possibly other cancers. It is advised to consult an oncologist before using 
-                            folic acid, as it may reduce the efficacy of methotrexate.
-                        </li>
-                        <li>
-                            <b>Folic acid</b> can have direct convulsant activity in some people, reversing the effects of 
-                            phenobarbital and primidone, and worsening seizure control. Phenobarbital and Phenytoin 
-                            can reduce serum folate levels. If phenytoin and folic acid are introduced at the same 
-                            time and continued together, adverse effects may be avoided.
-                        </li>
-                        <li>
-                            <b>Folic acid</b> in doses over 1mg/ day or more, can reduce serum levels of fosphenytoin in 
-                            some people.
-                        </li>
-                        <li>
-                            <b>Folic acid</b> may antagonise the anti-parasitic effects of pyrimethamine, except in the 
-                            case of malaria. Pyrimethamine can reduce serum levels of folate.
-                        </li>
-                        <li>
-                            <b>Vitamin B6</b> Use with caution in combination with amiodarone. Preliminary research suggests 
-                            that can exacerbate amiodarone-induced photosensitivity. Other research suggests a 
-                            protective effect.
-                        </li>
-                        <li>
-                            <b>Vitamin B6 and coenzyme Q-10</b> Use with caution in combination with antihypertensive drugs 
-                            as <b>Vitamin B6 and Coenzyme Q-10</b> can decrease blood pressure in hypertensive patients and 
-                            may increase the risk of hypotension when used in combination with drugs that lower blood 
-                            pressure.
-                        </li>
-                        <li>
-                            <b>Vitamin B6 200 mg daily</b> may interact with phenobarbital. Preliminary research suggests that 
-                            Vitamin B6 200 mg daily can reduce plasma levels of phenobarbital, possibly by increasing
-                            metabolism. It is not known whether lower doses have any effect.
-                        </li>
-                        <li>
-                            <b>Vitamin B6 200 mg daily</b> may interact with Phenytoin. Preliminary data suggests that Vitamin 
-                            B6 200 mg daily can reduce plasma levels of phenytoin, possibly by increasing metabolism. 
-                            It is not known whether lower doses have any effect.
-                        </li>
-                        <li>
-                            <b>Vitamin B6</b> use with caution in combination with Levodopa (minor risk). <b>Vitamin B6</b> enhances 
-                            the metabolism of levodopa, reducing its anti-parkinsonism effects. However, this 
-                            interaction does not occur when carbidopa is used concurrently with levodopa (Sinemet). 
-                            Therefore, it is not likely to be a problem in most people.
-                        </li>
-                        <li>
-                            <b>Vitamin B12</b> Avoid in combination with chloramphenicol. Limited case reports suggest that 
-                            chloramphenicol can delay or interrupt the reticulocyte response to supplemental Vitamin 
-                            B12 in some patients. Monitor blood counts closely if this combination cannot be avoided.
-                        <li>
-                            <b>Coenzyme Q10</b> use with caution in combination with chemotherapy and radiotherapy. There is 
-                            concern that Coenzyme Q10 might protect tumor cells from chemotherapeutic agents that work 
-                            by inducing oxidative stress, such as the alkylating agents (e.g. cyclophosphamide, 
-                            Cytoxan), doxorubicin and radiation therapy.
-                        </li>
-                        <li>
-                            Use with caution in combination with warfarin. Concomitant use of <b>Coenzyme Q10</b> might 
-                            reduce the anticoagulation effects of warfarin.
-                        </li>
-                    </ul>
+                    <p>
+                        <ul>
+                            <li>
+                                <b>Folic acid</b> may interact with 5-fluorouracil, capecitabine (Xeloda), Fosphenytoin (Cerebyx), 
+                                Methotrexate (MTX), phenobarbital (luminal), Phenytoin (Dilantin) and primidone (Mysoline) 
+                                and Pyrimethamine (Daraprim). Interactions may possibly occur with other forms of folate.
+                            </li>
+                            <li>
+                                High doses of <b>Folic acid</b> may contribute to capecitabine toxicity.
+                            </li>
+                            <li>
+                                High doses of <b>Folic acid</b> may increase toxicity and and gastrointestinal side effects of 
+                                5-flourouracil.
+                            </li>
+                            <li>
+                                <b>Folic acid</b> may reduce the efficacy of methotrexate in the treatment of acute lymphoblastic 
+                                leukaemia and possibly other cancers. It is advised to consult an oncologist before using 
+                                folic acid, as it may reduce the efficacy of methotrexate.
+                            </li>
+                            <li>
+                                <b>Folic acid</b> can have direct convulsant activity in some people, reversing the effects of 
+                                phenobarbital and primidone, and worsening seizure control. Phenobarbital and Phenytoin 
+                                can reduce serum folate levels. If phenytoin and folic acid are introduced at the same 
+                                time and continued together, adverse effects may be avoided.
+                            </li>
+                            <li>
+                                <b>Folic acid</b> in doses over 1mg/ day or more, can reduce serum levels of fosphenytoin in 
+                                some people.
+                            </li>
+                            <li>
+                                <b>Folic acid</b> may antagonise the anti-parasitic effects of pyrimethamine, except in the 
+                                case of malaria. Pyrimethamine can reduce serum levels of folate.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <b>Vitamin B6</b> Use with caution in combination with amiodarone. Preliminary research suggests 
+                                that vitamin B6 can exacerbate amiodarone-induced photosensitivity. Other research suggests a 
+                                protective effect.
+                            </li>
+                            <li>
+                                <b>Vitamin B6 and coenzyme Q-10</b> Use with caution in combination with antihypertensive drugs 
+                                as <b>Vitamin B6 and Coenzyme Q-10</b> can decrease blood pressure in hypertensive patients and 
+                                may increase the risk of hypotension when used in combination with drugs that lower blood 
+                                pressure.
+                            </li>
+                            <li>
+                                <b>Vitamin B6 200 mg daily</b> may interact with phenobarbital. Preliminary research suggests that 
+                                Vitamin B6 200 mg daily can reduce plasma levels of phenobarbital, possibly by increasing
+                                metabolism. It is not known whether lower doses have any effect.
+                            </li>
+                            <li>
+                                <b>Vitamin B6 200 mg daily</b> may interact with Phenytoin. Preliminary data suggests that Vitamin 
+                                B6 200 mg daily can reduce plasma levels of phenytoin, possibly by increasing metabolism. 
+                                It is not known whether lower doses have any effect.
+                            </li>
+                            <li>
+                                <b>Vitamin B6</b> use with caution in combination with Levodopa (minor risk). <b>Vitamin B6</b> enhances 
+                                the metabolism of levodopa, reducing its anti-parkinsonism effects. However, this 
+                                interaction does not occur when carbidopa is used concurrently with levodopa (Sinemet). 
+                                Therefore, it is not likely to be a problem in most people.
+                            </li>
+                            <li>
+                                <b>Vitamin B12</b> Avoid in combination with chloramphenicol. Limited case reports suggest that 
+                                chloramphenicol can delay or interrupt the reticulocyte response to supplemental Vitamin 
+                                B12 in some patients. Monitor blood counts closely if this combination cannot be avoided.
+                            <li>
+                                <b>Coenzyme Q10</b> use with caution in combination with chemotherapy and radiotherapy. There is 
+                                concern that Coenzyme Q10 might protect tumor cells from chemotherapeutic agents that work 
+                                by inducing oxidative stress, such as the alkylating agents (e.g. cyclophosphamide, 
+                                Cytoxan), doxorubicin and radiation therapy.
+                            </li>
+                            <li>
+                                Use with caution in combination with warfarin. Concomitant use of <b>Coenzyme Q10</b> might 
+                                reduce the anticoagulation effects of warfarin.
+                            </li>
+                        </ul>
+                    </p>
                 ',
                 'dosage_information' =>
                     '
                 <p>
-                    Adults: Take 1 capsule, once a day, or as directed by your healthcare professional.
+                    Adults: Take one (1) capsule, twice daily, or as directed by your healthcare professional.
                 </p>
                 ',
                 'ingredients' =>
@@ -9508,7 +9514,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. Levomefolic acid (5-MTHF)</em></p>
+                                <p style="text-align: right">Equiv. Levomefolic acid (5-MTHF)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>250 µg</p>
@@ -9519,7 +9525,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Mecobalamin (Vitamin B12)</em></p>
+                                <p>Mecobalamin <br>(Vitamin B12)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>200 µg</p>
@@ -9530,7 +9536,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Pyridoxal 5-phosphate monohydrate</em></p>
+                                <p>Pyridoxal 5-phosphate monohydrate</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>47.02 mg</p>
@@ -9541,7 +9547,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. pyridoxine (vitamin B6)</em></p>
+                                <p style="text-align: right">Equiv. pyridoxine (vitamin B6)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>30 µg</p>
@@ -9552,7 +9558,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Ubiquinol-10 (CoQ10)</em></p>
+                                <p>Ubiquinol-10 (CoQ10)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>100 mg</p>
@@ -9563,7 +9569,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Calcium hydrogen phosphate dihydrate</em></p>
+                                <p>Calcium hydrogen phosphate dihydrate</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>23.6 mg</p>
@@ -9574,7 +9580,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. calcium</em></p>
+                                <p style="text-align: right">Equiv. calcium</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>5.5 mg</p>
