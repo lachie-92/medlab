@@ -489,7 +489,7 @@ class UploadProduct extends Command
                 'price_retail' => 42.14,
                 'price_wholesale' => 24.74,
                 'image_path' => '/img/products/neuroactiv/neuroactiv.png',
-                'thumb_image_path' => '/img/products/neuroactiv-60s/neuroactiv_thumb.png',
+                'thumb_image_path' => '/img/products/neuroactiv/neuroactiv_thumb.png',
                 'in_stock' => true,
                 'slug' => 'neuroactiv',
             ]
