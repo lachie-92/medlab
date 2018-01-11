@@ -9434,6 +9434,9 @@ class ModifyProduct extends Command
                         </ul>
                     </p>
                     <p>
+                        <strong>CAUTION</strong>
+                    </p>
+                    <p>
                         <ul>
                             <li>
                                 <b>Vitamin B6</b> Use with caution in combination with amiodarone. Preliminary research suggests 
@@ -9547,7 +9550,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right">Equiv. pyridoxine (vitamin B6)</p>
+                                <p style="text-align: right">Equiv. pyridoxine <br>(vitamin B6)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>30 µg</p>
