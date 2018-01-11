@@ -300,7 +300,7 @@ class ModifyProduct extends Command
                             </tr>
                             <tr>
                                 <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>equiv. pyridoxine</p>
+                                    <p>Equiv. pyridoxine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>10mg</p>
@@ -633,7 +633,7 @@ class ModifyProduct extends Command
                             </tr>
                             <tr>
                                 <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>equiv. pyridoxine</p>
+                                    <p>Equiv. pyridoxine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>10mg</p>
@@ -938,7 +938,7 @@ class ModifyProduct extends Command
                             </tr>
                             <tr>
                                 <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>equiv. pyridoxine</p>
+                                    <p>Equiv. pyridoxine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>10mg</p>
@@ -1269,7 +1269,7 @@ class ModifyProduct extends Command
                             </tr>
                             <tr>
                                 <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>equiv. pyridoxine</p>
+                                    <p>Equiv. pyridoxine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>10mg</p>
@@ -9313,7 +9313,7 @@ class ModifyProduct extends Command
                             yield biogenic amines (neurotransmitters).
                         </li>
                         <li>
-                            Contains pyridoxal 5 phosphate, which is an active form of Vitamin B6 in the body.
+                            Contains pyridoxal 5-phosphate, which is an active form of Vitamin B6 in the body.
                         </li>
                         <li>
                             Clinical trials suggest the combination of Levomefolic acid, Vitamin B6, and Vitamin B12 
@@ -9516,8 +9516,8 @@ class ModifyProduct extends Command
                             </td>
                         </tr>
                         <tr>
-                            <td width="273" valign="top">
-                                <p style="text-align: right">Equiv. Levomefolic acid (5-MTHF)</p>
+                            <td style="padding-left: 30px;" width="273" valign="top">
+                                <p>Equiv. Levomefolic acid (5-MTHF)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>250 µg</p>
@@ -9549,8 +9549,8 @@ class ModifyProduct extends Command
                             </td>
                         </tr>
                         <tr>
-                            <td width="273" valign="top">
-                                <p style="text-align: right">Equiv. pyridoxine <br>(vitamin B6)</p>
+                            <td style="padding-left: 30px;" width="273" valign="top">
+                                <p>Equiv. pyridoxine <br>(vitamin B6)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>30 µg</p>
@@ -9582,8 +9582,8 @@ class ModifyProduct extends Command
                             </td>
                         </tr>
                         <tr>
-                            <td width="273" valign="top">
-                                <p style="text-align: right">Equiv. calcium</p>
+                            <td style="padding-left: 30px;" width="273" valign="top">
+                                <p>Equiv. calcium</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>5.5 mg</p>
