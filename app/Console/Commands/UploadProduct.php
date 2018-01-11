@@ -25,17 +25,15 @@ class UploadProduct extends Command
 
         Product::create(
             [
-                'product_name_index' => 'Quatrefolic',
-                'austl_number' => '286501',
-                'product_name' => 'Quatrefolic&reg;',
+                'product_name_index' => 'NeuroActiv',
+                'austl_number' => '287564',
+                'product_name' => 'NeuroActiv&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Quatrefolic&reg;</h4>
+                <h4 class="medlab_product_content_title">NeuroActiv&trade;</h4>
                 <p>
-                    Medlab Quatrefolic&reg; contains levomefolate glucosamine which is a form of biologically active
-                    folate, 5-methyltetrahydrofolate (5-MTHF). Folate is essential for DNA synthesis, cell division,
-                    red blood cell production and homocysteine metabolism. Demands for folate increase during pregnancy
-                    due to increased requirements for foetal growth and development.
+                    NeuroActiv&trade; is a synergistic combination of biologically active nutrients designed to support 
+                    a healthy nervous system, promote a healthy mood, and maintain normal cognitive function. 
                 </p>
                 ',
                 'patent' =>
@@ -47,15 +45,18 @@ class UploadProduct extends Command
                 'general_summary' =>
                     '
                 <p>
-                    Quatrefolic&reg; is a new generation folate with increased solubility and bioavailability. Medlab
-                    Quatrefolic&reg; contains levomefolate glucosamine which is a form of biologically active folate,
-                    5-methyltetrahydrofolate (5-MTHF). Dietary folate and synthetic folic acid are not biologically
-                    active and need to be converted into 5-MTHF in a multistep process, requiring the enzyme
-                    methylenetetrahydrofolate reductase (MTHFR). Individuals with polymorphic forms of this enzyme
-                    cannot convert adequate amounts of biologically active folate. 5-MTHF can bypass the MTHFR enzyme
-                    to meet nutritional demands. Folate is essential for DNA synthesis, cell division, red blood cell
-                    production and homocysteine metabolism. Demands for folate increase during pregnancy due to
-                    increased requirements for foetal growth and development.
+                    NeuroActiv&trade; provides key nutrients to support essential metabolic pathways in the Central 
+                    Nervous System (CNS) for healthy brain function, healthy mood and healthy cognitive function. 
+                    Vitamins B6, B12 and folate support the methylation of proteins, membrane phospholipids, and 
+                    metabolism of neurotransmitters in the CNS. Vitamin B6 is an essential co-factor in the synthesis 
+                    of neurotransmitters such as dopamine, serotonin, γ-aminobutyric acid (GABA), noradrenaline and 
+                    melatonin. Low plasma levels of vitamins B6, B12 and folate have been associated with elevated 
+                    homocysteine levels, impaired neurotransmitter synthesis, mild cognitive decline, and a range of 
+                    neurological symptoms. NeuroActiv&trade; provides a therapeutic dose of Ubiquinol-10, the reduced 
+                    form of coenzyme Q10, with a superior absorption profile and higher bioavailability compared to 
+                    ubiquinone. Coenzyme Q10 is essential for mitochondrial energy production. Coenzyme Q10 provides 
+                    upport for the high energy requirements in the brain, and may offer neuroprotective support for 
+                    conditions associated with impaired mitochondrial function.
                 </p>
                 ',
                 'practitioner_summary' =>
@@ -64,17 +65,16 @@ class UploadProduct extends Command
                 <p>
                     <ul>
                         <li>
-                            Helps maintain normal blood/blood tonic (Note: These claims are appropriate for folic acid,
-                            vitamin B12 and iron, but must not imply anaemic conditions).
-                        </li>
-                        <li>
-                            Aids, assists or helps in the maintenance of general well-being.
-                        </li>
-                        <li>
-                            Maintain/support healthy energy levels.
-                        </li>
-                        <li>
                             May assist in the management of dietary folate deficiency.
+                        </li>
+                        <li>
+                            May assist in the management of dietary vitamin B12 deficiency.
+                        </li>
+                        <li>
+                            Helps maintain normal blood/blood tonic.
+                        </li>
+                        <li>                        
+                            Aids, assists or helps in the maintenance of general well-being.
                         </li>
                     </ul>
                 </p>
@@ -82,27 +82,146 @@ class UploadProduct extends Command
                 <p>
                     <ul>
                         <li>
-                            Contains Levomefolate glucosamine which provides Levomefolic acid, which is a form of
-                            L-5-methyltetrahydrofolate (L-5-MTHF). L-5-methyltetrahydrofolate is the predominant
+                            May assist in managing of Folic acid deficiency when dietary intake is inadequate.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
+                            helps the body to metabolise proteins.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
+                            is involved in the formation of DNA and cellular division.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
+                            supports normal/healthy cardiovascular function and helps to metabolise homocysteine when 
+                            taken with Vitamin B6 and Vitamin B12.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine which provides Levomefolic acid, which is a form of 
+                            L-5-methyltetrahydrofolate (L-5- MTHF). L-5-methyltetrahydrofolate is the predominant 
                             naturally occurring folate in foods.
                         </li>
                         <li>
-                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate,
-                            which helps the body to metabolise proteins.
-                        </li>
-                        <li>
-                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate,
-                            which is involved in the formation of DNA and cellular division.
-                        </li>
-                        <li>
-                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate,
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, 
                             which supports a healthy pregnancy.
                         </li>
                         <li>
-                            Supports a healthy brain and nervous system function.
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, 
+                            which may reduce homocysteine levels to improve vascular endothelium function though its 
+                            influence on nitric oxide and exerts direct antioxidative effects.
                         </li>
                         <li>
-                            Helps to form red blood cells and proper function of red blood cells.
+                            Contains Vitamin B12, which helps the body metabolise proteins, carbohydrates and fats - 
+                            vitamin B12 is involved in the production of energy in the body.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which is required for red blood cell formation and is involved in 
+                            DNA synthesis.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which supports normal/healthy nervous system function, maybe mediated 
+                            by the methylation cycle.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which may supports normal/healthy cardiovascular function.
+                        </li>
+                        <li>
+                            Vitamin B12 may support the cellular immunity.
+                        </li>
+                        <li>
+                            Contains Mecobalamin, one of the active forms of vitamin B12.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which is required for synthesis of nerve-signalling molecules 
+                            (amines) and for facilitation of the body's normal nerve repair mechanisms.
+                        </li>
+                        <li>
+                            Vitamin B12 and folate may help maintain normal cognitive function.
+                        </li>
+                            May assist in managing Pyridoxine (Vitamin B6) deficiency when dietary intake is inadequate.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which may contribute to to normal energy metabolism.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is involved in the synthesis of several 
+                            neurotransmitters, such as serotonin, GABA and dopamine and may support the normal 
+                            healthy nervous system function.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which supports normal/healthy immune system function.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which supports normal/healthy cardiovascular function.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is involved in the formation of haemoglobin and 
+                            the growth of red blood cells.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is involved in the regulation of normal 
+                            hormonal activity.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is involved in DNA synthesis.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is required for synthesis of nerve-signalling 
+                            molecules (amines) and for facilitation of the body's normal nerve repair mechanisms.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which may inhibit formation of advanced glycation 
+                            end products and has a protective effect under homocysteine-induced oxidative stress.
+                        </li>
+                        <li>
+                            Pyridoxine (Vitamin B6)-dependent enzymes are involved in many biochemical reactions, 
+                            including the transsulfuration of homocysteine and decarboxylation of amino acids that 
+                            yield biogenic amines (neurotransmitters).
+                        </li>
+                        <li>
+                            Clinical trials suggest the combination of Levomefolic acid, Vitamin B, and Vitamin B12 
+                            can reduce symptoms of neuropathy.
+                        </li>
+                        <li>
+                            The combination of supplemental folate and vitamin B12 has been shown to reduce 
+                            homocysteine more than folic acid alone.
+                        </li>
+                        <li>
+                            Contains pyridoxal 5 phosphate, which is an active form of Vitamin B6 in the body.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which may act as an efficient intracellular superoxide scavenger 
+                            and improves glutathione redox status.
+                        </li>
+                        <li>
+                            Pyridoxal 5-phosphate and vitamin B12 may help maintain normal healthy stress levels.
+                        </li>
+                        <li>
+                            Folate and vitamin B6 are required as co-factors for neurotransmitter metabolism and 
+                            therefore may help to support normal health mood.
+                        </li>
+                        <li>
+                            Contains Coenzyme Q10, which plays an essential role in the production of ATP and assists 
+                            energy production in the mitochondria.
+                        </li>
+                        <li>
+                            Contains Coenzyme Q10, which helps to support/maintain cardiovascular health.
+                        </li>
+                        <li>
+                            Contains coenzyme Q10, which is an antioxidant and can therefore assist in protecting 
+                            the body from the damaging effects of free radical damage.
+                        </li>
+                        <li>
+                            Contains Coenzyme Q10, which plays a role in normal/healthy immune function.
+                        </li>
+                        <li>
+                            Contains ubiquinol, the reduced form of Coenzyme Q10.
+                        </li>
+                        <li>
+                            Both animal and human studies have demonstrated an inverse correlation between homocysteine 
+                            levels and endothelial function, perhaps through impairment of vasodilation mediated by 
+                            endothelium-derived nitric oxide.
                         </li>
                     </ul>
                 </p>
@@ -113,11 +232,25 @@ class UploadProduct extends Command
 
                 <p>
                     <ul>
-                        <li>If symptoms persist consult your healthcare professional.</li>
-                        <li>Do not take while on warfarin therapy.</li>
-                        <li>Do not exceed the stated dose.</li>
-                        <li>If you have had a baby with a neural tube defect/spina bifida, seek specific medical advice.</li>
-                        <li>Vitamin supplements should not replace a balanced diet.</li>
+                        <li>
+                            Vitamin Supplements should not replace a balanced diet.
+                        </li>
+                        <li>
+                            If symptoms persist consult your healthcare professional.
+                        </li>
+                        <li>
+                            Do not take while on warfarin therapy without medical advice.
+                        </li>
+                        <li>
+                            Stop taking this medication if you experience tingling, burning or numbness and see your 
+                            healthcare practitioner as soon as possible.
+                        </li>
+                        <li>
+                            Do not exceed the stated dose except on medical advice.
+                        </li>
+                        <li>
+                            If you have had a baby with a neural tube defect/spina bifida, seek specific medical advice.
+                        </li>
                     </ul>
                 </p>
                 ",
@@ -127,44 +260,83 @@ class UploadProduct extends Command
                 'side_effects' =>
                     '
                 <p>
-                    Quatrefolic&reg; has a low risk of side effects when taken as directed.
-                    Refer to CMI for more information.
+                    Refer to CMI
                 </p>
                 ',
                 'interactions' =>
                     '
-                    <p>
-                        Folic acid may interact with 5-fluorouracil, capecitabine (Xeloda), Fosphenytoin (Cerebyx),
-                        Methotrexate (MTX), phenobarbital (luminal), Phenytoin (Dilantin) and primidone (Mysoline)
-                        and Pyrimethamine (Daraprim). Interactions may possibly occur with other forms of folate.
-                    </p>
-                    <p>
                     <ul>
                         <li>
-                            <b>Capecitabine</b> - High doses of folic acid may contribute to capecitabine toxicity.
+                            <b>Folic acid</b> may interact with 5-fluorouracil, capecitabine (Xeloda), Fosphenytoin (Cerebyx), 
+                            Methotrexate (MTX), phenobarbital (luminal), Phenytoin (Dilantin) and primidone (Mysoline) 
+                            and Pyrimethamine (Daraprim). Interactions may possibly occur with other forms of folate.
                         </li>
                         <li>
-                            <b>5-flourouracil</b> - High doses of folic acid may increase toxicity and and
-                            gastrointestinal side effects of 5-flourouracil.
+                            High doses of <b>Folic acid</b> may contribute to capecitabine toxicity.
                         </li>
                         <li>
-                            <b>Methotrexate</b> - Folic acid may reduce the efficacy of methotrexate in the treatment
-                            of acute lymphoblastic leukaemia and possibly other cancers. It is advised to consult an
-                            oncologist before using folic acid, as it may reduce the efficacy of methotrexate.
+                            High doses of folic acid may increase toxicity and and gastrointestinal side effects of 
+                            5-flourouracil.
                         </li>
                         <li>
-                            Folic acid can have direct convulsant activity in some people, reversing the effects of
-                            phenobarbital and primidone, and worsening seizure control. Phenobarbital and Phenytoin
-                            can reduce serum folate levels. If phenytoin and folic acid are introduced at the same
+                            <b>Folic acid</b> may reduce the efficacy of methotrexate in the treatment of acute lymphoblastic 
+                            leukaemia and possibly other cancers. It is advised to consult an oncologist before using 
+                            folic acid, as it may reduce the efficacy of methotrexate.
+                        </li>
+                        <li>
+                            <b>Folic acid</b> can have direct convulsant activity in some people, reversing the effects of 
+                            phenobarbital and primidone, and worsening seizure control. Phenobarbital and Phenytoin 
+                            can reduce serum folate levels. If phenytoin and folic acid are introduced at the same 
                             time and continued together, adverse effects may be avoided.
                         </li>
                         <li>
-                            <b>Fosphenytoin</b> - Folic acid in doses over 1mg per day or more, can reduce serum levels
-                            of fosphenytoin in some people.
+                            <b>Folic acid</b> in doses over 1mg/ day or more, can reduce serum levels of fosphenytoin in 
+                            some people.
                         </li>
                         <li>
-                            <b>Pyrimethamine</b> - Folic acid may antagonise the antiparasitic effects of pyrimethamine,
-                            except in the case of malria. Pyrimethamine  can reduce serum levels of folate.
+                            <b>Folic acid</b> may antagonise the anti-parasitic effects of pyrimethamine, except in the 
+                            case of malaria. Pyrimethamine can reduce serum levels of folate.
+                        </li>
+                        <li>
+                            <b>Vitamin B6</b> Use with caution in combination with amiodarone. Preliminary research suggests 
+                            that can exacerbate amiodarone-induced photosensitivity. Other research suggests a 
+                            protective effect.
+                        </li>
+                        <li>
+                            <b>Vitamin B6 and coenzyme Q-10</b> Use with caution in combination with antihypertensive drugs 
+                            as <b>Vitamin B6 and Coenzyme Q-10</b> can decrease blood pressure in hypertensive patients and 
+                            may increase the risk of hypotension when used in combination with drugs that lower blood 
+                            pressure.
+                        </li>
+                        <li>
+                            <b>Vitamin B6 200 mg daily</b> may interact with phenobarbital. Preliminary research suggests that 
+                            Vitamin B6 200 mg daily can reduce plasma levels of phenobarbital, possibly by increasing
+                            metabolism. It is not known whether lower doses have any effect.
+                        </li>
+                        <li>
+                            <b>Vitamin B6 200 mg daily</b> may interact with Phenytoin. Preliminary data suggests that Vitamin 
+                            B6 200 mg daily can reduce plasma levels of phenytoin, possibly by increasing metabolism. 
+                            It is not known whether lower doses have any effect.
+                        </li>
+                        <li>
+                            <b>Vitamin B6</b> use with caution in combination with Levodopa (minor risk). <b>Vitamin B6</b> enhances 
+                            the metabolism of levodopa, reducing its anti-parkinsonism effects. However, this 
+                            interaction does not occur when carbidopa is used concurrently with levodopa (Sinemet). 
+                            Therefore, it is not likely to be a problem in most people.
+                        </li>
+                        <li>
+                            <b>Vitamin B12</b> Avoid in combination with chloramphenicol. Limited case reports suggest that 
+                            chloramphenicol can delay or interrupt the reticulocyte response to supplemental Vitamin 
+                            B12 in some patients. Monitor blood counts closely if this combination cannot be avoided.
+                        <li>
+                            <b>Coenzyme Q10</b> use with caution in combination with chemotherapy and radiotherapy. There is 
+                            concern that Coenzyme Q10 might protect tumor cells from chemotherapeutic agents that work 
+                            by inducing oxidative stress, such as the alkylating agents (e.g. cyclophosphamide, 
+                            Cytoxan), doxorubicin and radiation therapy.
+                        </li>
+                        <li>
+                            Use with caution in combination with warfarin. Concomitant use of <b>Coenzyme Q10</b> might 
+                            reduce the anticoagulation effects of warfarin.
                         </li>
                     </ul>
                 ',
@@ -195,7 +367,7 @@ class UploadProduct extends Command
                                 <p>Levomefolate glucosamine</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>926 mcg</p>
+                                <p>463 µg</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -203,10 +375,76 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Equiv. Levomefolic acid (5-MTHF)</em></p>
+                                <p style="text-align: right"><em>Equiv. Levomefolic acid (5-MTHF)</em></p>
                             </td>
                             <td width="136" valign="top">
-                                <p>500 mcg</p>
+                                <p>250 µg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Mecobalamin (Vitamin B12)</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>200 µg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Pyridoxal 5-phosphate monohydrate</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>47.02 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right"><em>Equiv. pyridoxine (vitamin B6)</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>30 µg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Ubiquinol-10 (CoQ10)</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>100 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Calcium hydrogen phosphate dihydrate</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>23.6 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right"><em>Equiv. calcium</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>5.5 mg</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -218,15 +456,9 @@ class UploadProduct extends Command
                                     <strong>Excipient Ingredients</strong>
                                 </p>
                                 <p>Cellulose</p>
-                                <p>Silica</p>
+                                <p>Hypermellose</p>
+                                <p>Silica (colloidal anhydrous)</p>
                                 <p>Magnesium stearate</p>
-                                <p>
-                                    Quatrefolic&reg; is covered by U.S. Patent No. 7,947,662 and is a
-                                    registered trademark of Gnosis S.p.A.
-                                </p>
-                                <p>
-                                    <img width="100%" alt="Quatrefolic Logo" src="/img/products/quatrefolic-60s/quatrefolic_logo.png">
-                                <p>
                             </td>
                         </tr>
                     </tbody>
@@ -237,9 +469,8 @@ class UploadProduct extends Command
                 <p>
                     <p>
                         <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/quatrefolic-60s/cmi/english" target="_blank">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/neuroactiv/cmi/english" target="_blank">
                             Click Here For English CMI
-                        </a>
                     </p>
                 </p>
                 ',
@@ -252,19 +483,19 @@ class UploadProduct extends Command
                     Vegetarian friendly
                 </p>
                 <p class="medlab_product_content_sub_title">
-                    Refrigerate to maintain stability
+                    No artificial colours, flavours or sweeteners
                 </p>
                 ',
-                'price_retail' => 19.65,
-                'price_wholesale' => 13.10,
-                'image_path' => '/img/products/quatrefolic-60s/quatrefolic_60s.png',
-                'thumb_image_path' => '/img/products/quatrefolic-60s/quatrefolic_60s_thumb.png',
+                'price_retail' => 42.14,
+                'price_wholesale' => 24.74,
+                'image_path' => '/img/products/neuroactiv/neuroactiv.png',
+                'thumb_image_path' => '/img/products/neuroactiv-60s/neuroactiv_thumb.png',
                 'in_stock' => true,
-                'slug' => 'quatrefolic-60s',
+                'slug' => 'neuroactiv',
             ]
         );
 
-        $this->comment("Uploaded BifidoBiotic and Quatrefolic");
+        $this->comment("Uploaded NeuroActiv");
 
         Model::reguard();
     }
