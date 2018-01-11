@@ -42,6 +42,22 @@
                     <div class="medlab_news_item_body">
                         <div class="col-md-8 col-sm-8 col-xs-12">
                             <h2 class="medlab_news_content_title">
+                                <a href="/nutraceuticals/products/neuroactiv" class="medlab_news_content_link">
+                                    NeuroActiv&trade;
+                                </a>
+                            </h2>
+                            <p style="text-align: justify">
+                                NeuroActiv&trade; is a synergistic combination of biologically active nutrients designed to support a healthy nervous system, promote a healthy mood, and maintain normal cognitive function.
+                            </p>
+                            <a href="/nutraceuticals/products/neuroactiv" class="medlab_news_content_link">More Information</a>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                            <a href="/nutraceuticals/products/neuroactiv">
+                                <img src="/img/products/neuroactiv/neuroactiv.png" alt="NeuroActiv" height="145px" width="auto" class="center-block"/>
+                            </a>
+                        </div>
+                        <div class="col-md-8 col-sm-8 col-xs-12">
+                            <h2 class="medlab_news_content_title">
                                 <a href="/nutraceuticals/products/lactoferrin-enhanced-60s" class="medlab_news_content_link">
                                     Lactoferrin Enhanced&trade;
                                 </a>
