@@ -18,31 +18,17 @@
 
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img class="medlab_carousel_image" src="/img/carousel/Medlab_lbws003.jpg" alt="1">
+                <a href="">
+                    <img class="medlab_carousel_image" src="/img/NanaBis_Web_Banner.jpg" alt="1">
+                </a>
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/Medlab_lbws002.jpg" alt="2">
+                <img class="medlab_carousel_image" src="/img/carousel/Medlab_lbws003.jpg" alt="2">
                 <div class="carousel-caption"></div>
             </div>
             <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/Medlab_lbws001.jpg" alt="3">
-                <div class="carousel-caption"></div>
-            </div>
-            <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/Medlab_lbws004.jpg" alt="4">
-                <div class="carousel-caption"></div>
-            </div>
-            <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/NanoCelle Web Banner 998x456 JUN17 v2.jpg" alt="7">
-                <div class="carousel-caption"></div>
-            </div>
-            <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/Medlab_lbws005.jpg" alt="5">
-                <div class="carousel-caption"></div>
-            </div>
-            <div class="item">
-                <img class="medlab_carousel_image" src="/img/carousel/Medlab_lbws006.jpg" alt="6">
+                <img class="medlab_carousel_image" src="/img/carousel/Medlab_lbws004.jpg" alt="3">
                 <div class="carousel-caption"></div>
             </div>
         </div>
