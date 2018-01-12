@@ -228,6 +228,10 @@ Route::get('/help/website-registration', function () {
     return view('pages.help.website-registration.index');
 });
 
+Route::get('/medical-cannabis/expression-of-interest', function () {
+    return view('pages.medical-cannabis.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //

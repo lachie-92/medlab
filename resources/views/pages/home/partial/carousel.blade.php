@@ -4,6 +4,7 @@
 --
 ------------------------------------------------------------------------------------->
 <div class="container">
+    <a href="/medical-cannabis/expression-of-interest">
     <div id="medlab-carousel" class="carousel slide medlab_carousel" data-ride="carousel">
 
         <ol class="carousel-indicators">
@@ -28,6 +29,7 @@
         </div>
 
     </div>
+    </a>
 </div>
 
 <!-----------------------------------------------------------------------------------
