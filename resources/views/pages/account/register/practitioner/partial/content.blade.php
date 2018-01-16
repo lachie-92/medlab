@@ -131,7 +131,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Business Number (ABN/NZBN)<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="business_number" placeholder="Business Num." value="{{ old('business_number') }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="11" name="business_number" placeholder="Business Num." value="{{ old('business_number') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
@@ -238,7 +238,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Post Code<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ old('postcode') }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="postcode" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="4" placeholder="Post Code" value="{{ old('postcode') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
