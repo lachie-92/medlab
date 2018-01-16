@@ -100,7 +100,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'password' => bcrypt($request->password),
             'clinic_name' => $request->clinic_name,
             'business_type' => $request->business_type,
-            'business_number' => $request->business_number,
+            'business_number' => substr($request->business_number, 0,2) . " " . substr($request->business_number, 2,3) . " " . substr($request->business_number, 5,3) . " " . substr($request->business_number, 8,3),
             'primary_profession' => $request->primary_profession,
             'association_number' => $request->association_number,
             'association_type' => $request->association_type,
