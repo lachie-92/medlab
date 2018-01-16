@@ -67,9 +67,9 @@ trait UsefulViewFunctions {
     {
         return [
             '' => '',
-            'company' => 'Company',
-            'partnership' => 'Partnership',
-            'sole_enterprise_or_trade' => 'Sole Enterprise/Trade',
+            'Company' => 'Company',
+            'Partnership' => 'Partnership',
+            'Sole Enterprise/Trade' => 'Sole Enterprise/Trade',
         ];
     }
 
