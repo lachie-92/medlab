@@ -451,13 +451,11 @@ Route::get('/ems/nanabis/nanabis', function () {
 });
 
 
-Route::get('/ems/nanabis/sydney-seminar', function () {
-    return view('pages.research.sas.nanabis.sydney-seminar.index');
+Route::get('/ems/nanabis/seminar', function () {
+    return view('pages.research.sas.nanabis.seminar.index');
 });
 
-Route::get('/ems/nanabis/melbourne-seminar', function () {
-    return view('pages.research.sas.nanabis.melbourne-seminar.index');
-});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
