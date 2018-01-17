@@ -451,7 +451,7 @@ Route::get('/ems/nanabis/nanabis', function () {
 });
 
 
-Route::get('/ems/nanabis/seminar', function () {
+Route::get('/nanabis/seminar', function () {
     return view('pages.research.sas.nanabis.seminar.index');
 });
 
