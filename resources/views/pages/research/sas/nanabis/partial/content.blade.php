@@ -759,7 +759,7 @@
                     <p style="margin: 0cm 0cm .0001pt 22.5pt;"><em>Below is an excerpt from Form SAS Cat A demonstrating which product information should be provided.</em></p>
 
 
-                    <img title="Ethics Approval" src="/img/research/SAS/sasnanabis.png"
+                    <img title="Ethics Approval" src="/img/research/SAS/picture1.png"
                          alt="Ethics Approval" width="60%"/>
 
 
@@ -984,19 +984,12 @@
                     <p style="line-height: 10.0pt; margin: 0cm 0cm .0001pt 18.0pt;">&nbsp;</p>
                     <p style="text-indent: -4.5pt; margin: 0cm 0cm .0001pt 22.5pt;"><em>Below is an excerpt from Form SAS Cat B demonstrating which product information should be provided.</em></p>
                     <p style="margin: 0cm 0cm .0001pt 18.0pt;">&nbsp;</p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p style="margin-bottom: .0001pt; line-height: 9.0pt;"><strong><em>&nbsp;</em></strong></p>
-                    <p>&nbsp;</p>
+
+                    <img title="Ethics Approval" src="/img/research/SAS/picture2.png"
+                         alt="Ethics Approval" width="60%"/>
+
+
+                    
                     <p style="margin-bottom: .0001pt;"><strong><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </em></strong><em>(*) <span style="color: black;">Titration period, </span></em><em>Quantity</em>, <em>(**) Quantity:</em> Same information as in SAS Cat A Form (see above).</p>
                     <p style="margin-bottom: .0001pt; line-height: 11.0pt;"><strong><em>&nbsp;</em></strong></p>
                     <p style="margin: 0cm 0cm .0001pt 18.0pt;"><strong><em><span style="font-size: 12.0pt; line-height: 107%;">Further product information that MUST be provided as attachments:</span></em></strong></p>
