@@ -232,6 +232,10 @@ Route::get('/medical-cannabis/expression-of-interest', function () {
     return view('pages.medical-cannabis.index');
 });
 
+Route::get('medical-cannabis/application-form', function () {
+    return view('pages.medical-cannabis.application-form.index');
+});
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
