@@ -65,6 +65,20 @@
                         </span>
                     </p>
 
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
+                            <strong>2018:</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <a href="http://www.mdpi.com/2079-4983/9/1/12/html" target="_blank">
+                    <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Luis Vitetta, Joyce Zhou, Rachel Manuel, Serena Dal Forno, Sean Hall and David Rutolo</strong>
+                            Route and Type of Formulation Administered Influences the Absorption and Disposition of Vitamin B12 Levels in Serum<em>Vaccines 2017</em>
+                        </span>
+                        </a>
+                    </p>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
@@ -75,8 +89,9 @@
                         <a href="http://www.mdpi.com/2076-393X/5/4/50" target="_blank">
                     <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Luis Vitetta, Emma Saltzman, Michael Thomsen, Tessa Nikov, Sean Hall.</strong>
-                            Adjuvant Probiotics and the Intestinal Microbiome: Can Vaccines and Immunotherapy be Enhanced? <em>Vaccines 2017</em>
+                            Adjuvant Probiotics and the Intestinal Microbiome: Can Vaccines and Immunotherapy be Enhanced? <em>Journal of Functional Biomaterials 2018, 9(1), 12; doi: 10.3390/jfb9010012</em>
                         </span>
+                            </a>
                     </p>
                     <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/29048765" target="_blank">

@@ -64,18 +64,18 @@
 
 
                         <p>
-                            <a href="/efficacy/magazine_ja17" target="_blank">
+                            <a href="/efficacy/magazine_jm18" target="_blank">
 
                                 <img alt="Medlab Efficacy Magazine Edition 3"
-                                     src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 SEPT17 v1.jpg"
-                                     title="Medlab Efficacy Magazine Edition 5"
+                                     src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 JAN18 v1.jpg"
+                                     title="Medlab Efficacy Magazine Edition 6"
                                      width="350px"
                                      class="img-responsive">
 
                             </a>
                         </p>
 
-                        <p>Medlab Efficacy Edition 5: September 2017 - August 2017</p>
+                        <p>Medlab Efficacy Edition 6: January 2018 - March 2018</p>
                         <p>Medlab's exclusive online magazine - <a href="/efficacy/magazine_sn17">view here</a></p>
 
 

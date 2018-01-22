@@ -197,7 +197,7 @@
                         <p>
                         <a
                                     @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                    href="/efficacy/magazine_sn17"
+                                    href="/efficacy/magazine_jm18"
                                     @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                     href="#"
                                     @else
@@ -205,9 +205,9 @@
                                     @endif
                                     target="_blank">
 
-                                <img alt="Medlab Efficacy Magazine Edition 4"
-                                     src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 SEPT17 v1.jpg"
-                                     title="Medlab Efficacy Magazine Edition 5"
+                                <img alt="Medlab Efficacy Magazine Edition 6"
+                                     src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 JAN18 v1.jpg"
+                                     title="Medlab Efficacy Magazine Edition 6"
                                      width="450px"
                                      class="img-responsive center-block">
                             </a>
@@ -219,7 +219,7 @@
 
                                 <h2 style="text-align:center;">Medlab's New Efficacy<sup>TM</sup> Magazine</h2>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
-                                <p style="text-align:center;">Issue 5: September 2017 - November 2017</p>
+                                <p style="text-align:center;">Issue 6: January 2018 - March 2018</p>
                                 <p style="text-align:center;">Inflammatory Bowel Disease (IBD) and Adjunctive Treatments - in brief</p>
                                 </br>
 
