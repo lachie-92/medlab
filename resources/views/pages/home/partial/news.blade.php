@@ -220,7 +220,7 @@
                                 <h2 style="text-align:center;">Medlab's New Efficacy<sup>TM</sup> Magazine</h2>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
                                 <p style="text-align:center;">Issue 6: January 2018 - March 2018</p>
-                                <p style="text-align:center;">Inflammatory Bowel Disease (IBD) and Adjunctive Treatments - in brief</p>
+                                <p style="text-align:center;">Cancer, Chemotherapy, and Cannabis: Adjunct medicines and therapy</p>
                                 </br>
 
 

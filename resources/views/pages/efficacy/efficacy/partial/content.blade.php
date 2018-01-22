@@ -43,7 +43,7 @@
                                 <h1 style="text-align:center;">Medlab's New Efficacy<sup>TM</sup> Magazine</h1>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
                                 <p style="text-align:center;">Issue 6: January 2018 – March 2018</p>
-                                <p style="text-align:center;">Inflammatory Bowel Disease (IBD) and Adjunctive Treatments - in brief</p>
+                                <p style="text-align:center;">Cancer, Chemotherapy, and Cannabis: Adjunct medicines and therapy</p>
                                 </br>
                                 <p style="text-align:center;">Efficacy™ is designed to educate and update Practitioners with Medlab research developments, company progression and the latest industry advancements with a variety of contributing authors.</p>
                                 <p style="text-align:center;">Available exclusively online, Efficacy™ can now host a variety of interactive content in an environmentally-friendly format. Efficacy™ Magazine is compatible with Microsoft, android and apple computers, tablets and phones.</p>
