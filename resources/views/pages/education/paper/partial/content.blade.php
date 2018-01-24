@@ -24,13 +24,6 @@
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
-                            <strong>Emma Tali Saltzman, Talia Palacios, Michael Thomsen, Luis Vitetta.</strong>
-                            Intestinal microbiome shifts, dysbiosis, inflammation and non-alcoholic fatty liver disease. <em>Frontiers in Microbiology – section Microbial Immunology. 2017</em>
-                        </span>
-                    </p>
-
-                    <p>
-                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
                             <strong>Michael Thomsen, Stephen Clarke, Luis Vitetta.</strong>
                             Cancer Treatments with Adjuvant Probiotics: Inflammation and the Intestinal Microbiome–Epithelia–Mucosa Immune Axis Beneficial Microbes. 2017
                         </span>
@@ -57,7 +50,7 @@
                         </span>
                     </p>
 
-
+                    <hr>
 
                     <p>
                         <span style="text-decoration: underline; font-size: medium;">
@@ -72,27 +65,38 @@
                     </p>
 
                     <p>
-                        <a href="http://www.mdpi.com/2079-4983/9/1/12/html" target="_blank">
-                    <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
-                            <strong>Luis Vitetta, Joyce Zhou, Rachel Manuel, Serena Dal Forno, Sean Hall and David Rutolo</strong>
-                            Route and Type of Formulation Administered Influences the Absorption and Disposition of Vitamin B12 Levels in Serum<em>Vaccines 2017</em>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Emma Tali Saltzman, Talia Palacios, Michael Thomsen, Luis Vitetta.</strong>
+                            Intestinal microbiome shifts, dysbiosis, inflammation and non-alcoholic fatty liver disease. <em>Frontiers in Microbiology – section Microbial Immunology. 2017</em>
                         </span>
+                    </p>
+
+                    <p>
+                        <a href="http://www.mdpi.com/2079-4983/9/1/12/html" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Luis Vitetta, Joyce Zhou, Rachel Manuel, Serena Dal Forno, Sean Hall and David Rutolo</strong>
+                                Route and Type of Formulation Administered Influences the Absorption and Disposition of Vitamin B12 Levels in Serum<em>Vaccines 2018</em>
+                            </span>
                         </a>
                     </p>
+
+                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
                             <strong>2017:</strong>
                         </span>
                     </p>
+
                     <p>
                         <a href="http://www.mdpi.com/2076-393X/5/4/50" target="_blank">
-                    <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
-                            <strong>Luis Vitetta, Emma Saltzman, Michael Thomsen, Tessa Nikov, Sean Hall.</strong>
-                            Adjuvant Probiotics and the Intestinal Microbiome: Can Vaccines and Immunotherapy be Enhanced? <em>Journal of Functional Biomaterials 2018, 9(1), 12; doi: 10.3390/jfb9010012</em>
-                        </span>
-                            </a>
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Luis Vitetta, Emma Saltzman, Michael Thomsen, Tessa Nikov, Sean Hall.</strong>
+                                Adjuvant Probiotics and the Intestinal Microbiome: Can Vaccines and Immunotherapy be Enhanced? <em>Journal of Functional Biomaterials 2018, 9(1), 12; doi: 10.3390/jfb9010012</em>
+                            </span>
+                        </a>
                     </p>
+
                     <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/29048765" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
@@ -265,7 +269,6 @@
                     </p>
 
                     <br>
-                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
@@ -355,7 +358,6 @@
                         </a>
                     </p>
 
-                    <br>
                     <br>
 
                     <p>
@@ -470,7 +472,6 @@
                     </p>
 
                     <br>
-                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
@@ -560,8 +561,7 @@
                         </a>
                     </p>
 
-                    <br>
-                    <br>
+                    <hr>
 
                     <p>
                         <strong>
@@ -804,7 +804,6 @@
                     </p>
 
                     <br>
-                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
@@ -875,7 +874,6 @@
                     </p>
 
                     <br>
-                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
@@ -936,8 +934,7 @@
                         </span>
                     </p>
 
-                    <br>
-                    <br>
+                    <hr>
 
                     <p>
                         <strong>
