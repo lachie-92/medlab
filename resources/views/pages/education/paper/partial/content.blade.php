@@ -566,7 +566,9 @@
                     <p>
                         <strong>
                             <span style="font-size: medium;">
-                                Conference Presentations and Proceedings
+                                <u>
+                                    Conference Presentations and Proceedings
+                                </u>
                             </span>
                         </strong>
                     </p>
