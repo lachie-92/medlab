@@ -25,10 +25,7 @@
 
                         <ul>
                             <li>
-                                <a href="#TriageNurse">Triage Nurse - Sydney</a>
-                            </li>
-                            <li>
-                                <a href="#TriageNurse">Triage Nurse - Melbourne</a>
+                                <a href="#CRM">Client Relationship Consultant - Sydney</a>
                             </li>
                             <li>
                                 <a href="#MarketingOfficer">Marketing Officer - Sydney</a>
@@ -37,13 +34,13 @@
                                 <a href="#FullStackDeveloper">Full Stack Developer - Sydney</a>
                             </li>
                             <li>
-                                <a href="#CRM">Clinical Consultant - Queensland</a>
+                                <a href="#ClinicalConsultantQLD">Clinical Consultant - Queensland</a>
                             </li>
                             <li>
-                                <a href="#CRM">Clinical Consultant - Melbourne</a>
+                                <a href="#ClinicalConsultantVIC">Clinical Consultant - Melbourne</a>
                             </li>
                             <li>
-                                <a href="#CRM">Clinical Consultant - Sydney</a>
+                                <a href="#ClinicalConsultantNSW">Clinical Consultant - Sydney</a>
                             </li>
 
                         </ul>
@@ -52,42 +49,7 @@
 
                         <hr>
 
-                        <a name="TriageNurse"></a>
-                        <h3><b>Triage/ER Nurse</b></h3>
-                        <ul>
-                            <li>Full Time / Permanent</li>
-                            <li>Triage / ER Nurse required</li>
-                            <li>1x position available in Alexandria, Sydney</li>
-                            <li>1x position available in Melbourne, Victoria</li>
-                        </ul>
-                        <p>
-                            Due to rapid expansion, we are seeking an exceptional Triage and/or ER qualified Nurse to join our new Medical Unit.
-                        </p>
-                        <h4><b>The Opportunity</b></h4>
-                        <p>Your role will be to support, educate and investigate use and compliance on a new investigational product. You will report to the Medlab medical unit; however, all investigational matters will be led by a Senior Medical Officer.</p>
-                        <p>The successful applicant will have:</p>
-                        <ul>
-                            <li>A minimum 3 years' experience in triage and/or ER</li>
-                            <li>A current AHPRA registration</li>
-                            <li>An Australian drivers' licence</li>
-                            <li>An Australian passport or permanent residency status</li>
-                            <li>The ability to think laterally and pragmatically</li>
-                            <li>A command of the English language</li>
-                            <li>Strong nursing knowledge on risk identification</li>
-                        </ul>
-                        <p>Your new role will see you interfacing with Specialists, Hospital Units and GP's.</p>
-                        <h4><b>Benefits</b></h4>
-                        <p>Here at Medlab, we are committed to the development of staff and regularly promote from within. You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
-                        <ul>
-                            <li>On-going training, education and mentoring</li>
-                            <li>Competitive salary package</li>
-                            <li>Use of on-site gym facilities within our offices in Alexandria</li>
-                            <li>A fun, collaborative team-working environment</li>
-                        </ul>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change...</p>
-                        <p>If you believe you have what it takes to join this dynamic team, please apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Triage Nurse">recruit@medlab.co</a></p>
 
-                        <hr>
 
                         <a name="CRM"></a>
                         <h3><b>Client Relationship Consultant</b></h3>
@@ -328,7 +290,7 @@
                         <hr>
 
 
-                        <a name="ClinicalConsultantVIC"></a>
+                        <a name="ClinicalConsultantNSW"></a>
                         <ul>
                         <h3>Clinical Consultant</h3>
                         <li>Full Time / Permanent</li>
