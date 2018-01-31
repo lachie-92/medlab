@@ -31,8 +31,21 @@
                                 <a href="#TriageNurse">Triage Nurse - Melbourne</a>
                             </li>
                             <li>
-                                <a href="#CRM">Client Relationship Consultant - Sydney</a>
+                                <a href="#MarketingOfficer">Marketing Officer - Sydney</a>
                             </li>
+                            <li>
+                                <a href="#FullStackDeveloper">Full Stack Developer - Sydney</a>
+                            </li>
+                            <li>
+                                <a href="#CRM">Clinical Consultant - Queensland</a>
+                            </li>
+                            <li>
+                                <a href="#CRM">Clinical Consultant - Melbourne</a>
+                            </li>
+                            <li>
+                                <a href="#CRM">Clinical Consultant - Sydney</a>
+                            </li>
+
                         </ul>
 
                         For all expressions of interest please email <a href="mailto:recruit@medlab.co">recruit@medlab.co</a>
@@ -124,96 +137,17 @@
                         <hr>
 
 
-                        <!--
 
-                        <a name="EATOCEO"></a>
-                        <h3>EA to CEO</h3>
-                        <li>Full Time / Permanent</li>
-                        <li>Modern Alexandria Offices</li>
-                        <li>Maternity cover with opportunity to go permanent</li></br>
-
-                        <h4>The Opportunity</h4>
-                        <p>This is an excellent opportunity to work for a progressive company in the Health Sector as an Executive Assistant.</p>
-                        <p>This position reports directly to the CEO and is responsible for providing administration support to the CEO and the management team. This includes preparing, formatting and editing a range of documents, presentations and event co-ordination.</p>
-                        <p>Develop reporting frameworks to monitor and track campaign performance, including the use of Google Analytics.</p>
-                        <p>The role includes several specific administration responsibilities including but not limited to:</p>
-                        <li>Provide day to day support to the CEO.</li>
-                        <li>Diary management</li>
-                        <li>Coordination of high level meetings</li>
-                        <li>Coordination of all Company travel</li>
-                        <li>Office management</li></br>
-
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>Extensive experience in high level executive support</li>
-                        <li>Strong written communication skills and well developed interpersonal skills</li>
-                        <li>High attention to detail and ability to maintain confidentiality</li>
-                        <li>Strong organisational skills</li>
-                        <li>A can-do attitude</li>
-                        <li>Excellent time management skills and the ability to prioritise</li>
-                        <li>Intermediate/Advanced Microsoft Office skills</li>
-                        <li>Preferably experienced in Apple software - Keynote, Pages & Numbers.</li>
-                        <li>Short hand experience will be highly desirable</li>
-                        <li>Drivers licence essential</li></br>
-
-                        <h4>Benefits</h4>
-                        <p>You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
-                        <li>Genuine opportunities to develop your career</li>
-                        <li>Fun and friendly environment</li>
-                        <li>Use of on-site gym facilities  </li>
-                        <li>Onsite parking</li>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change.....</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - EA to CEO">recruit@medlab.co</a></p>
-                        <hr>
-
-
-                        <a name="CTO"></a>
-                        <h3>Clinical Trial Coordinator</h3>
-                        <li>Full Time / Permanent</li>
-                        <li>Alexandria, Sydney</li>
-                        <li>Office based role</li></br>
-
-                        <p>Due to rapid expansion, we are seeking a highly motivated Clinical Trial Coordinator to join our extremely successful and passionate team, where we will provide you with ongoing career development within a rewarding and collaborative team culture.</p>
-
-                        <h4>Who is Medlab Clinical?</h4>
-                        <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
-
-                        <h4>The Opportunity</h4>
-                        <p>As Clinical Trial Coordinator, you will be responsible for the recruitment and coordination all our clinical trials.</p>
-
-                        <p>Duties and Responsibilities include:</p>
-                        <li>Coordinating the initiation and implementation of clinical trials within Medlab to include patient recruitment, assessments, follow ups, dispensing study medications and performing anthropometric measurements</li>
-                        <li>Assist with Ethics and TGA applications</li>
-                        <li>Assist with study publications</li>
-                        <li>Liaise with patients involved with clinical trials</li>
-                        <li>Create and maintain all documentation and datasets associated with clinical trials</li>
-                        <li>Data tabulation as required</li>
-                        <li>General in-house nursing duties including phlebotomy</li>
-                        <li>Possibility for public speaking if desired</li></br>
-
-
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>Qualifications as a Registered Nurse</li>
-                        <li>A minimum of 1-2 years’ experience as a Clinical Trial Assistant</li>
-
-                        <h4>Benefits</h4>
-                        <p>You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
-                        <li>On-going training, education and mentoring</li>
-                        <li>Use of on-site gym facilities within our offices in Alexandria</li>
-                        <li>A fun, collaborative team-working environment</li>
-                        <li>Casual dress code</li>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change.....</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Trial Coordinator">recruit@medlab.co</a></p>
-                        <hr>
 
 
 
 
                         <a name="MarketingOfficer"></a>
                         <h3>Marketing Officer</h3>
+                        <ul>
                         <li>Full Time / Permanent</li>
-                        <li>Based in Alexandria, Sydney</li></br>
+                        <li>Based in Alexandria, Sydney</li>
+                        </ul></br>
                         <p>Due to a rapid increase in market share we are seeking a highly ambitious and energetic Marketer to join our extremely motivated and successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
                         <p>We are looking for a person with a keen insight to understanding our business, a desire to grow and to prove to the competition that they are market leaders.</p>
                         <p>If you think you are a cut above the rest, then Medlab could be the place you are looking for.</p>
@@ -230,6 +164,7 @@
 
 
                         <p>Duties and Responsibilities include:</p>
+                        <ul>
                         <li>Ongoing maintenance/management of digital media assets</li>
                         <li>Coordination of ongoing marketing materials for the sales team, clients and distributors</li>
                         <li>Identify, propose, attend industry conferences and events</li>
@@ -237,10 +172,12 @@
                         <li>Produce and analyse reports across marketing campaigns, product launches and online users</li>
                         <li>Competitor analysis</li>
                         <li>Establish networks and maintain key relationships with internal and external stakeholders</li>
-                        <li>General administrative tasks and assisting the Sales and Marketing Manager as required</li></br>
+                        <li>General administrative tasks and assisting the Sales and Marketing Manager as required</li>
+                        </ul></br>
 
                         <h4>About You</h4>
                         <p>To be successful in this role you will be able to demonstrate the following:</p>
+                            <ul>
                         <li>Understanding of marketing strategies with the drive and passion to succeed and grow in your career</li>
                         <li>Excellent written communication skills</li>
                         <li>High level attention to detail</li>
@@ -249,347 +186,186 @@
                         <li>Team player along with the ability to work independently</li>
                         <li>Intermediate to advanced skills with MS office</li>
                         <li>Tertiary qualification in Marketing</li>
-                        <li>Have a genuine passion for health and wellness with the desire to succeed</li></br>
+                        <li>Have a genuine passion for health and wellness with the desire to succeed</li>
+                            </ul></br>
 
                         <h4>Benefits</h4>
+                                <ul>
                         <li>Generous base salary and bonus opportunities</li>
                         <li>Use of on-site gym facilities within our offices in Alexandria</li>
                         <li>A dynamic, collaborative team-working environment</li>
                         <li>On-going training, education and mentoring</li>
-                        </li>
+                                </ul>
                         <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
                         <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Marketing Officer">recruit@medlab.co</a></p>
                         <hr>
 
 
-                        <a name="salesandmarketingassistant"></a>
-                        <h3>Sales and Marketing Assistant</h3>
+                        <a name="FullStackDeveloper"></a>
+                        <h3>Full Stack Developer</h3>
+                        <ul>
                         <li>Full Time / Permanent</li>
-                        <li>Based in Alexandria, Sydney</li></br>
+                        <li>Based in Alexandria, Sydney</li>
+                        </ul></br>
 
                         <h4>Who is Medlab Clinical?</h4>
                         <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
 
 
-                        <h4>ABout The Role</h4>
-                        <p>This is an excellent opportunity to work for a progressive company in the Health Sector as a Sales and Marketing Assistant.</p>
-                        <p>This position reports to the Sales and Marketing Manager and is responsible for providing administration support to the Sales and Marketing Team. This includes preparing, formatting and editing a range of documents, presentations and event co-ordination.</p>
+                        <h4>The Opportunity</h4>
+                        <p>To succeed in this role you will be reliable, team-oriented, self-motivated, have excellent time management skills and demonstrate strong attention to detail. You will be passionate about web development and have an interest in emerging technologies. Outstanding written and verbal communication skills are also essential. Experience working in an agency or professional services role is a plus.</p>
+                        <p>Applicants should have public examples of work on GitHub, BitBucket or similar - please provide a link to your profile(s) in your application.</p>
+                        <p>You will report directly to the IT Manager.</p>
 
-                        <li>Managing the company website and all social media communications.</li>
-                        <li>Developing and maintaining a CRM database and updating the sales registry.</li>
-                        <li>Work closely with the Sales and Marketing Manager to maintain and source opportunities to expand the company's profile.</li>
-                        <li>All team administration for both Sales and Marketing team.</li>
-                        <li>Event co-ordination of all events.</li>
-                        <li>General office duties.</li></br>
 
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>Administration or Sales/Marketing Assistant experience is preferable, however not essential.</li>
-                        <li>Effective written and verbal communication skills.</li>
-                        <li>Good knowledge in social media communication.</li>
-                        <li>A high level of attention to detail.</li>
-                        <li>Ability to work effectively within a team and independently.</li>
-                        <li>Strong Organisational Skills.</li>
-                        <li>A can-do attitude.</li></br>
+
+                        <h4>What you will bring to the role</h4>
+                        <p>We are looking for hard working IT professionals with a minimum of 3 years of experience in the field, who have a strong understanding of the following:</p>
+                        <ul>
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>Expert front end skills - HTML, CSS, JavaScript, JQuery</li>
+                        <li>Laravel</li>
+                        <li>Version Control (Git etc)</li>
+                        <li>Cloud Services (AWS etc)</li>
+                        <li>Web development and design</li>
+                        <li>Strong communication skills</li>
+                        <li>Creative, organised and structured</li>
+                        <li>Team player</li>
+                        </ul>
+                        </br>
 
                         <h4>Benefits</h4>
-                        <p>This is perfect opportunity for a new starter willing to put in the hard work to learn and grow within a corporate company. Here at Medlab we are commitment to the development of staff and regularly promote from within</p>
-                        <li>Generous base salary and bonus opportunities</li>
-                        <li>Use of on-site gym facilities within our offices in Alexandria</li>
-                        <li>A dynamic, collaborative team-working environment</li>
-                        <li>On-going training, education and mentoring</li>
-                        </li>
+                        <p>This is a fantastic opportunity to join a global newly established business that has aggressive plans for expansion. We provide complete commitment to the development of staff and regularly promote from within.</p>
+                        <p>You will be joining a highly motivated team with Management who provide excellent employee benefits and incentives which include the following:</p>
+                        <ul>
+                        <li>Genuine opportunities to develop your career</li>
+                        <li>Modern Offices</li>
+                        <li>Fun and friendly environment</li>
+                        <li>Gym facilities on site</li>
+                        </ul>
+
                         <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Marketing Officer">recruit@medlab.co</a></p>
+                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Full Stack Developer">recruit@medlab.co</a></p>
                         <hr>
 
 
 
-                        <a name="ClientRelationshipManager"></a>
-                        <h3>Client Relationship Manager</h3>
-                        <li>Client Relationship Manager</li>
-                        <li>Full Time / Permanent</li></br>
-                        <p>Due to a rapid increase in market share we are seeking a highly ambitious Client Relationship Manager to join our extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
-
-                        <h4>The Opportunity</h4>
-                        <p>As a passionate Client Relationship Manager, you will act as the interface between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
-                        <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
-                        <p>Duties and Responsibilities include:</p>
-                        <li>Continually identify and develop new business opportunities.</li>
-                        <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either over the phone or face to face.</li>
-                        <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
-                        <li>Create and implement client incentive and retention strategies.</li>
-                        <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
-                        <li>Plan and deliver product training to a range of healthcare modalities.</li>
-                        <li>Attend industry and association conferences and trade shows when required.</li></br>
-
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
-                        <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
-                        <li>Proven track record in a sales environment along with commercial acumen.</li>
-                        <li>Self motivated and have a solutions based approach to tasks.</li>
-                        <li>Excellent understanding of the sales process and use of CRM system.</li>
-                        <li>Have a genuine passion for health and wellness with desire to succeed.</li></br>
-
-                        <p>Note: This position would also suit a candidate who is from a healthcare practitioner background looking for a change in career direction.</p>
-
-                        <h4>Benefits</h4>
-                        <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion.
-                            Here at Medlab we are committed to the development of staff and regularly promote from within.  
-                        </p>
-                        <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
-                        <li>Generous base salary plus commission structure and allowances.</li>
-                        <li>Use of on-site gym facilities within our offices in Alexandria.</li>
-                        <li>A fun, collaborative team-working environment.</li>
-                        <li>On-going training, education and mentoring.</li>
-                        <li>Casual dress code</li></br>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Client Relationship Manager">recruit@medlab.co</a></p>
-                        <hr>
-
-
-
-                        <a name="ClientRelationshipConsultant"></a>
-                        <h3>Client Relationship Consultant</h3>
-                        <li>Based in Alexandria, Sydney</li>
+                        <a name="ClinicalConsultantQLD"></a>
+                        <h3>Clinical Consultant</h3>
+                        <ul>
                         <li>Full Time / Permanent</li>
-                        <li>Office-Baed Role</li></br>
-                        <p>Due to a rapid increase in market share we are seeking a highly ambitious Client Relationship Consultant to join our extremely motivated successful team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
+                        <li>South East Queensland</li>
+                        </ul></br>
+                        <p>Due to rapid expansion, we are seeking an exceptional Clinical Consultant to join our new Medical Unit. </p>
 
-                        <h4>The Opportunity</h4>
-                        <p>As a passionate Client Relationship Consultant, you will act as the interface between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
-                        <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
-                        <p>Duties and Responsibilities include:</p>
-                        <li>Continually identify and develop new business opportunities.</li>
-                        <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either over the phone or face to face.</li>
-                        <li>Execute a business plan for your territory in line with meeting and exceeding key performance indicators and territory targets.</li>
-                        <li>Create and implement client incentive and retention strategies.</li>
-                        <li>Create and maintain call/territory plans</li>
-                        <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
-                        <li>Plan and deliver product training to a range of healthcare modalities.</li>
-                        <li>Attend industry and association conferences and trade shows when required.</li>
-
-
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
-                        <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
-                        <li>Proven track record in a sales environment along with commercial acumen.</li>
-                        <li>Self-motivated and have a solution based approach to tasks.</li>
-                        <li>Excellent understanding of the sales process and use of CRM systems.</li>
-                        <li>Have a genuine passion for health and wellness with desire to succeed.</li></br>
-
-                        <p>Note: This position would also suit a candidate who is from a healthcare practitioner background looking for a change in career direction.</p>
-
-                        <h4>Benefits</h4>
-                        <p>Here at Medlab, we are committed to the development of staff and regularly promote from within. You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
-                        <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
-                        <li>Generous base salary plus commission structure and allowances.</li>
-                        <li>Use of on-site gym facilities within our offices in Alexandria.</li>
-                        <li>A fun, collaborative team-working environment.</li>
-                        <li>On-going training, education and mentoring.</li>
-                        <li>Casual dress code</li></br>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Client Relationship Consultant">recruit@medlab.co</a></p>
-                        <hr>
-
-
-
-
-
-
-                        <a name="PracVIC"></a>
-                        <h3>Practitioner Consultant – Field Sales Representative</h3>
-                        <li>Permanent / Full Time</li>
-                        <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
-                        <li>Melbourne, Vic</li></br>
-
-                        <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
-
-                        <h4>Who are Medlab Clinical?</h4>
+                        <h4>Who is Medlab Clinical?</h4>
                         <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
 
-                        <h4>The Opportunity</h4>
-                        <p>As a passionate Practitioner Consultant, you will be the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
-                        <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
-                        <p>Duties and Responsibilities include:</p>
-                        <li>Continually identify and develop new business opportunities.</li>
-                        <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either face to face or over the phone.</li>
-                        <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
-                        <li>Create and implement client incentive and retention strategies.</li>
-                        <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
-                        <li>Provide technical support to practitioners over the phone.</li>
-                        <li>Plan and deliver product training to a range of healthcare modalities.</li>
-                        <li>Attend industry and association conferences and trade shows when required.</li></br>
 
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
-                        <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
-                        <li>Proven track record in a sales environment along with commercial acumen.</li>
-                        <li>Self motivated and have a solutions based approach to tasks.</li>
-                        <li>Excellent understanding of the sales process and use of CRM system.</li>
-                        <li>Have a genuine passion for health and wellness with desire to succeed.</li>
-                        Note: This position would also suit a person who is from a healthcare practitioner background looking for a change in career direction.</br>
+                        <h4>The Opportunity</h4>
+                        <ul>
+                        <p>Your role will be to support, educate and investigate use and compliance on a new investigational product along with its specific regulatory requirements. You will report to the Medlab medical unit; however, all investigational matters will be led by a Senior Medical Officer.</p>
+                        <p>The successful applicant will have:</p>
+                        <li>A minimum 3 years' experience in the Pharmacy or Nursing background</li>
+                        <li>Strong commercial acumen and a high achiever</li>
+                        <li>Ability to absorb and disseminate scientific information</li>
+                        <li>A current AHPRA registration</li>
+                        <li>The ability to think laterally and pragmatically</li>
+                        <li>A command of the English language</li>
+                        <li>Strong knowledge on risk identification</li>
+                        </ul>
+
+                        <p>Your new role will see you interfacing with Specialists, Hospital Units and GP's.</p>
 
                         <h4>Benefits</h4>
-                        <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab we are committed to the development of staff and regularly promote from within.</p>
-                        <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
-                        <li>Generous base salary plus commission structure and allowances.</li>
-                        <li>A fun, collaborative team-working environment.</li>
-                        <li>On-going training, education and mentoring.</li>
-                        <li>Career growth for the right person.</li>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - VIC">recruit@medlab.co</a></p>
+                        <p>Here at Medlab, we are committed to the development of staff and regularly promote from within. You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
+                        <ul>
+                        <li>On-going training, education and mentoring</li>
+                        <li>A dynamic, collaborative team-working environment</li>
+                        <li>Competitive salary package</li>
+                        </ul>
+                        <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Consulatant QLD">recruit@medlab.co</a></p>
                         <hr>
 
+                        <a name="ClinicalConsultantVIC"></a>
+                        <h3>Clinical Consultant</h3>
+                        <ul>
+                            <li>Full Time / Permanent</li>
+                        <li>Melbourne, VIC</li>
+                        </ul></br>
+                        <p>Due to rapid expansion, we are seeking an exceptional Clinical Consultant to join our new Medical Unit. </p>
 
-
-
-                        <a name="PracQLD2"></a>
-                        <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
-                        <li>Permanent / Full Time</li>
-                        <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
-                        <li>Gold Coast, QLD</li></br>
-
-                        <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
-
-                        <h4>Who are Medlab Clinical?</h4>
+                        <h4>Who is Medlab Clinical?</h4>
                         <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
 
+
                         <h4>The Opportunity</h4>
-                        <p>As a passionate Practitioner Consultant, you will be the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
-                        <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
-                        <p>Duties and Responsibilities include:</p>
-                        <li>Continually identify and develop new business opportunities.</li>
-                        <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either face to face or over the phone.</li>
-                        <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
-                        <li>Create and implement client incentive and retention strategies.</li>
-                        <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
-                        <li>Provide technical support to practitioners over the phone.</li>
-                        <li>Plan and deliver product training to a range of healthcare modalities.</li>
-                        <li>Attend industry and association conferences and trade shows when required.</li></br>
+                        <ul>
+                            <p>Your role will be to support, educate and investigate use and compliance on a new investigational product along with its specific regulatory requirements. You will report to the Medlab medical unit; however, all investigational matters will be led by a Senior Medical Officer.</p>
+                            <p>The successful applicant will have:</p>
+                            <li>A minimum 3 years' experience in the Pharmacy or Nursing background</li>
+                            <li>Strong commercial acumen and a high achiever</li>
+                            <li>Ability to absorb and disseminate scientific information</li>
+                            <li>A current AHPRA registration</li>
+                            <li>The ability to think laterally and pragmatically</li>
+                            <li>A command of the English language</li>
+                            <li>Strong knowledge on risk identification</li>
+                        </ul>
 
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
-                        <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
-                        <li>Proven track record in a sales environment along with commercial acumen.</li>
-                        <li>Self motivated and have a solutions based approach to tasks.</li>
-                        <li>Excellent understanding of the sales process and use of CRM system.</li>
-                        <li>Have a genuine passion for health and wellness with desire to succeed.</li>
-                        Note: This position would also suit a person who is from a healthcare practitioner background looking for a change in career direction.</br>
-
-
+                        <p>Your new role will see you interfacing with Specialists, Hospital Units and GP's.</p>
 
                         <h4>Benefits</h4>
-                        <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab we are committed to the development of staff and regularly promote from within.</p>
-                        <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
-                        <li>Generous base salary plus commission structure and allowances.</li>
-                        <li>A fun, collaborative team-working environment.</li>
-                        <li>On-going training, education and mentoring.</li>
-                        <li>Career growth for the right person.</li>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - Gold Coast">recruit@medlab.co</a></p>
+                        <p>Here at Medlab, we are committed to the development of staff and regularly promote from within. You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
+                        <ul>
+                            <li>On-going training, education and mentoring</li>
+                            <li>A dynamic, collaborative team-working environment</li>
+                            <li>Competitive salary package</li>
+                        </ul>
+                        <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Consulatant VIC">recruit@medlab.co</a></p>
                         <hr>
 
 
+                        <a name="ClinicalConsultantVIC"></a>
+                        <ul>
+                        <h3>Clinical Consultant</h3>
+                        <li>Full Time / Permanent</li>
+                        <li>Alexandria, NSW</li>
+                        </ul></br>
+                        <p>Due to rapid expansion, we are seeking an exceptional Clinical Consultant to join our new Medical Unit. </p>
 
-
-
-                        <!--
-                        <a name="PracQLD3"></a>
-                        <h3>Practitioner Consultant – Field Sales Representative - QLD</h3>
-                        <li>Permanent / Full Time</li>
-                        <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
-                        <li>Brisbane, QLD</li></br>
-
-                        <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
-
-                        <h4>Who are Medlab Clinical?</h4>
+                        <h4>Who is Medlab Clinical?</h4>
                         <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
 
-                        <h4>The Opportunity</h4>
-                        <p>As a passionate Practitioner Consultant, you will be the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
-                        <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
-                        <p>Duties and Responsibilities include:</p>
-                        <li>Continually identify and develop new business opportunities.</li>
-                        <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either face to face or over the phone.</li>
-                        <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
-                        <li>Create and implement client incentive and retention strategies.</li>
-                        <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
-                        <li>Provide technical support to practitioners over the phone.</li>
-                        <li>Plan and deliver product training to a range of healthcare modalities.</li>
-                        <li>Attend industry and association conferences and trade shows when required.</li></br>
-
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
-                        <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
-                        <li>Proven track record in a sales environment along with commercial acumen.</li>
-                        <li>Self motivated and have a solutions based approach to tasks.</li>
-                        <li>Excellent understanding of the sales process and use of CRM system.</li>
-                        <li>Have a genuine passion for health and wellness with desire to succeed.</li>
-                        Note: This position would also suit a person who is from a healthcare practitioner background looking for a change in career direction.</br>
-
-                        <h4>Benefits</h4>
-                        <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab we are committed to the development of staff and regularly promote from within.</p>
-                        <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
-                        <li>Generous base salary plus commission structure and allowances.</li>
-                        <li>A fun, collaborative team-working environment.</li>
-                        <li>On-going training, education and mentoring.</li>
-                        <li>Career growth for the right person.</li>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - Sunshine Coast">recruit@medlab.co</a></p>
-                        <hr>
-
-
-                        <a name="PracNSW"></a>
-                        <h3>Practitioner Consultant – State Team Leader - NSW</h3>
-                        <li>Permanent / Full Time</li>
-                        <li>Opportunity to work with a leading Biotechnology and Medical Research Company</li>
-                        <li>Sydney, NSW</li></br>
-
-                        <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
-
-                        <h4>Who are Medlab Clinical?</h4>
-                        <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
 
                         <h4>The Opportunity</h4>
-                        <p>As a passionate Practitioner Consultant, you will be the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst meeting and exceeding sales targets.</p>
-                        <p>The role will be a combination of business development over the phone, face to face appointments and product training to practitioners, therefore you must possess strong communication and relationship building skills, whilst not being afraid of a challenge.</p>
-                        <p>Duties and Responsibilities include:</p>
-                        <li>Continually identify and develop new business opportunities.</li>
-                        <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either face to face or over the phone.</li>
-                        <li>Execute a business plan for your territory inline with meeting and exceeding key performance indicators and territory targets.</li>
-                        <li>Create and implement client incentive and retention strategies.</li>
-                        <li>Manage, develop and support your field team members.</li>
-                        <li>Ensure the highest level of product and technical knowledge is attained and maintained.</li>
-                        <li>Plan and deliver product training to a range of healthcare modalities.</li>
-                        <li>Attend industry and association conferences and trade shows when required.</li></br>
+                        <ul>
+                            <p>Your role will be to support, educate and investigate use and compliance on a new investigational product along with its specific regulatory requirements. You will report to the Medlab medical unit; however, all investigational matters will be led by a Senior Medical Officer.</p>
+                            <p>The successful applicant will have:</p>
+                            <li>A minimum 3 years' experience in the Pharmacy or Nursing background</li>
+                            <li>Strong commercial acumen and a high achiever</li>
+                            <li>Ability to absorb and disseminate scientific information</li>
+                            <li>A current AHPRA registration</li>
+                            <li>The ability to think laterally and pragmatically</li>
+                            <li>A command of the English language</li>
+                            <li>Strong knowledge on risk identification</li>
+                        </ul>
 
-                        <h4>About You</h4>
-                        <p>To be successful in this role you will be able to demonstrate the following:</p>
-                        <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification.</li>
-                        <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field.</li>
-                        <li>Proven track record in a sales environment along with commercial acumen.</li>
-                        <li>Self motivated and have a solutions based approach to tasks.</li>
-                        <li>Excellent understanding of the sales process and use of CRM system.</li>
-                        <li>Have a genuine passion for health and wellness with desire to succeed.</li>
-                        Note: This position would also suit a person who is from a healthcare practitioner background looking for a change in career direction.</br>
+                        <p>Your new role will see you interfacing with Specialists, Hospital Units and GP's.</p>
 
                         <h4>Benefits</h4>
-                        <p>This is a fantastic opportunity to join a globally established business that has great plans for expansion. Here at Medlab we are committed to the development of staff and regularly promote from within.</p>
-                        <p>You will be joining a highly motivated team with an organisation who provides excellent employee benefits and incentives which include the following:</p>
-                        <li>Generous base salary plus commission structure and allowances.</li>
-                        <li>A fun, collaborative team-working environment.</li>
-                        <li>On-going training, education and mentoring.</li>
-                        <li>Career growth for the right person.</li>
-                        <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consultant – Field Sales Representative - NSW">recruit@medlab.co</a></p>
+                        <p>Here at Medlab, we are committed to the development of staff and regularly promote from within. You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
+                        <ul>
+                            <li>On-going training, education and mentoring</li>
+                            <li>A dynamic, collaborative team-working environment</li>
+                            <li>Competitive salary package</li>
+                        </ul>
+                        <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Consulatant NSW">recruit@medlab.co</a></p>
                         <hr>
-                        -->
+
 
 
                     </div>
