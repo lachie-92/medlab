@@ -55,7 +55,7 @@ class MedlabMailer
     {
         $this->mail = $mail;
         $this->mandrill = $mandrill;
-        $this->adminEmailAddress = env('MAIL_ADMIN_ADDRESS', 'henry_wu@medlab.co');
+        $this->adminEmailAddress = env('MAIL_ADMIN_ADDRESS', 'lachlan_young@medlab.co');
         $this->orderEmailAddress = env('MAIL_ORDER_ADDRESS', 'salesorder@medlab.co');
         $this->replyEmailAddress = env('MAIL_REPLY_ADDRESS', 'hello@medlab.co');
     }

@@ -25,15 +25,17 @@ class UploadProduct extends Command
 
         Product::create(
             [
-                'product_name_index' => 'NeuroActiv',
-                'austl_number' => '287564',
-                'product_name' => 'NeuroActiv&trade;',
+                'product_name_index' => 'StemGuard',
+                'austl_number' => '296557',
+                'product_name' => 'StemGuard',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NeuroActiv&trade;</h4>
+                <h4 class="medlab_product_content_title">StemGuard</h4>
                 <p>
-                    NeuroActiv&trade; is a synergistic combination of biologically active nutrients designed to support 
-                    a healthy nervous system, promote a healthy mood, and maintain normal cognitive function. 
+                    A scientifically formulated combination of nutraceuticals, botanical extracts, and concentrated 
+                    wholefood powders to support and maintain healthy cell function. The unique combination of 
+                    ingredients in StemGuard provides support for cellular energy production, cardiovascular health, 
+                    liver detoxification pathways, healthy hormone metabolism, and a well-functioning immune system. 
                 </p>
                 ',
                 'patent' =>
@@ -45,18 +47,14 @@ class UploadProduct extends Command
                 'general_summary' =>
                     '
                 <p>
-                    NeuroActiv&trade; provides key nutrients to support essential metabolic pathways in the Central 
-                    Nervous System (CNS) for healthy brain function, healthy mood and healthy cognitive function. 
-                    Vitamins B6, B12 and folate support the methylation of proteins, membrane phospholipids, and 
-                    metabolism of neurotransmitters in the CNS. Vitamin B6 is an essential co-factor in the synthesis 
-                    of neurotransmitters such as dopamine, serotonin, γ-aminobutyric acid (GABA), noradrenaline and 
-                    melatonin. Low plasma levels of vitamins B6, B12 and folate have been associated with elevated 
-                    homocysteine levels, impaired neurotransmitter synthesis, mild cognitive decline, and a range of 
-                    neurological symptoms. NeuroActiv&trade; provides a therapeutic dose of Ubiquinol-10, the reduced 
-                    form of coenzyme Q10, with a superior absorption profile and higher bioavailability compared to 
-                    ubiquinone. Coenzyme Q10 is essential for mitochondrial energy production. Coenzyme Q10 provides 
-                    upport for the high energy requirements in the brain, and may offer neuroprotective support for 
-                    conditions associated with impaired mitochondrial function.
+                    The combination of Blueberry extract, Green tea extract, Vitamin D3 and broccoli sprout concentrate 
+                    have been shown to beneficially influence the regulation of cellular pathways promoting healthy cell 
+                    cycles. Broccoli sprout concentrate provides support for liver detoxification pathways, hormone 
+                    metabolism, and the inhibition of inflammatory mediators. Organic Spirulina powder supports liver 
+                    detoxification, immunity and cell function. It is a natural source of the photosynthetic pigments 
+                    chlorophyll A and phycocyanin. The combination of a high dose of biologically active ubiquinol and 
+                    L-carnitine maintain cellular energy metabolism to support the reduction of tiredness and fatigue.  
+                    Cacoa powder may provide support  for healthy cognitive function and cardiovascular health. 
                 </p>
                 ',
                 'practitioner_summary' =>
@@ -65,16 +63,7 @@ class UploadProduct extends Command
                 <p>
                     <ul>
                         <li>
-                            May assist in the management of dietary folate deficiency.
-                        </li>
-                        <li>
-                            May assist in the management of dietary vitamin B12 deficiency.
-                        </li>
-                        <li>
-                            Helps maintain normal blood/blood tonic.
-                        </li>
-                        <li>                        
-                            Aids, assists or helps in the maintenance of general well-being.
+                            Aids, assists or helps in the maintenance or improvement of general well-being. 
                         </li>
                     </ul>
                 </p>
@@ -82,146 +71,43 @@ class UploadProduct extends Command
                 <p>
                     <ul>
                         <li>
-                            May assist in managing of Folic acid deficiency when dietary intake is inadequate.
-                        </li>
-                        <li>
-                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
-                            helps the body to metabolise proteins.
-                        </li>
-                        <li>
-                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
-                            is involved in the formation of DNA and cellular division.
-                        </li>
-                        <li>
-                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
-                            supports normal/healthy cardiovascular function and helps to metabolise homocysteine when 
-                            taken with Vitamin B6 and Vitamin B12.
-                        </li>
-                        <li>
-                            Contains Levomefolate glucosamine which provides Levomefolic acid, which is a form of 
-                            L-5-methyltetrahydrofolate (L-5- MTHF). L-5-methyltetrahydrofolate is the predominant 
-                            naturally occurring folate in foods.
-                        </li>
-                        <li>
-                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, 
-                            which supports a healthy pregnancy.
-                        </li>
-                        <li>
-                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, 
-                            which may reduce homocysteine levels to improve vascular endothelium function though its 
-                            influence on nitric oxide and exerts direct antioxidative effects.
-                        </li>
-                        <li>
-                            Contains Vitamin B12, which helps the body metabolise proteins, carbohydrates and fats - 
-                            vitamin B12 is involved in the production of energy in the body.
-                        </li>
-                        <li>
-                            Contains Vitamin B12, which is required for red blood cell formation and is involved in 
-                            DNA synthesis.
-                        </li>
-                        <li>
-                            Contains Vitamin B12, which supports normal/healthy nervous system function, maybe mediated 
-                            by the methylation cycle.
-                        </li>
-                        <li>
-                            Contains Vitamin B12, which may supports normal/healthy cardiovascular function.
-                        </li>
-                        <li>
-                            Vitamin B12 may support the cellular immunity.
-                        </li>
-                        <li>
-                            Contains Mecobalamin, one of the active forms of vitamin B12.
-                        </li>
-                        <li>
-                            Contains Vitamin B12, which is required for synthesis of nerve-signalling molecules 
-                            (amines) and for facilitation of the body's normal nerve repair mechanisms.
-                        </li>
-                        <li>
-                            Vitamin B12 and folate may help maintain normal cognitive function.
-                        </li>
-                            May assist in managing Pyridoxine (Vitamin B6) deficiency when dietary intake is inadequate.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which may contribute to to normal energy metabolism.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which is involved in the synthesis of several 
-                            neurotransmitters, such as serotonin, GABA and dopamine and may support the normal 
-                            healthy nervous system function.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which supports normal/healthy immune system function.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which supports normal/healthy cardiovascular function.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which is involved in the formation of haemoglobin and 
-                            the growth of red blood cells.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which is involved in the regulation of normal 
-                            hormonal activity.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which is involved in DNA synthesis.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which is required for synthesis of nerve-signalling 
-                            molecules (amines) and for facilitation of the body's normal nerve repair mechanisms.
-                        </li>
-                        <li>
-                            Contains Pyridoxine (Vitamin B6), which may inhibit formation of advanced glycation 
-                            end products and has a protective effect under homocysteine-induced oxidative stress.
-                        </li>
-                        <li>
-                            Pyridoxine (Vitamin B6)-dependent enzymes are involved in many biochemical reactions, 
-                            including the transsulfuration of homocysteine and decarboxylation of amino acids that 
-                            yield biogenic amines (neurotransmitters).
-                        </li>
-                        <li>
-                            Clinical trials suggest the combination of Levomefolic acid, Vitamin B, and Vitamin B12 
-                            can reduce symptoms of neuropathy.
-                        </li>
-                        <li>
-                            The combination of supplemental folate and vitamin B12 has been shown to reduce 
-                            homocysteine more than folic acid alone.
-                        </li>
-                        <li>
-                            Contains pyridoxal 5 phosphate, which is an active form of Vitamin B6 in the body.
-                        </li>
-                        <li>
-                            Contains Vitamin B12, which may act as an efficient intracellular superoxide scavenger 
-                            and improves glutathione redox status.
-                        </li>
-                        <li>
-                            Pyridoxal 5-phosphate and vitamin B12 may help maintain normal healthy stress levels.
-                        </li>
-                        <li>
-                            Folate and vitamin B6 are required as co-factors for neurotransmitter metabolism and 
-                            therefore may help to support normal health mood.
-                        </li>
-                        <li>
-                            Contains Coenzyme Q10, which plays an essential role in the production of ATP and assists 
-                            energy production in the mitochondria.
-                        </li>
-                        <li>
-                            Contains Coenzyme Q10, which helps to support/maintain cardiovascular health.
-                        </li>
-                        <li>
-                            Contains coenzyme Q10, which is an antioxidant and can therefore assist in protecting 
-                            the body from the damaging effects of free radical damage.
-                        </li>
-                        <li>
-                            Contains Coenzyme Q10, which plays a role in normal/healthy immune function.
-                        </li>
-                        <li>
-                            Contains ubiquinol, the reduced form of Coenzyme Q10.
-                        </li>
-                        <li>
-                            Both animal and human studies have demonstrated an inverse correlation between homocysteine 
-                            levels and endothelial function, perhaps through impairment of vasodilation mediated by 
-                            endothelium-derived nitric oxide.
+                            COQ10 plays a central role in cellular energy production. CoQ10 is critical for ATP synthesis. L-carnitine modulates energy expenditure in healthy individuals.
+                            </li>
+                            <li>
+                            L-carnitine plays a key role in mitochondrial energy production and function.
+                            </li>
+                            <li>
+                            Blueberries may support cell functions that decline as a result of normal aging.
+                            </li>
+                            <li>
+                            Blueberries may protect against neuro-degenerative processes associated with aging. Spirulina may reduce inflammation and immune decline associated with aging. Vitamin D is immune-modulating hormone associated with healthy aging.
+                            </li>
+                            <li>
+                            COQ10 supports normal/healthy cardiovascular function. 
+                            </li>
+                            <li>
+                            Cocao flavanols may have favourable effects on cardiovascular health.
+                            </li>
+                            <li>
+                            Spirulina is naturally rich in the pigments phycocyanin and chlorophyll.
+                            </li>
+                            <li>
+                            Spirulina contains an array of phyto-nutritents including beta-carotene, iron, and Essential Fatty Acids (gamma-linolenic acid [GLA]). Assists in the function of detoxification pathways via the liver.
+                            </li>
+                            <li>
+                            Contains broccoli sprout which may assist with healthy liver detoxification processes.
+                            </li>
+                            <li>
+                            Contains broccoli sprout which may assist with phase II liver detoxification processes.
+                            </li>
+                            <li>                        
+                            Vitamin D3 is required for proper cellular and immunological function.
+                            </li>
+                            <li>
+                            Vitamin D3 binds to and activates the vitamin D receptor (VDR) that is responsible for the transcription and trans-repression of genes. 
+                            </li>
+                            <li>
+                            Blueberry, green tea, spirulina and vitamin D were found to increase cell proliferation of human bone marrow cells in a dose-depended manner in vitro. Blueberry, green tea, spirulina and vitamin D may support healthy cell division
                         </li>
                     </ul>
                 </p>
@@ -233,23 +119,13 @@ class UploadProduct extends Command
                 <p>
                     <ul>
                         <li>
+                            Contains lactose. 
+                        </li>
+                        <li>
                             Vitamin Supplements should not replace a balanced diet.
                         </li>
                         <li>
-                            If symptoms persist consult your healthcare professional.
-                        </li>
-                        <li>
                             Do not take while on warfarin therapy without medical advice.
-                        </li>
-                        <li>
-                            Stop taking this medication if you experience tingling, burning or numbness and see your 
-                            healthcare practitioner as soon as possible.
-                        </li>
-                        <li>
-                            Do not exceed the stated dose except on medical advice.
-                        </li>
-                        <li>
-                            If you have had a baby with a neural tube defect/spina bifida, seek specific medical advice.
                         </li>
                     </ul>
                 </p>
@@ -267,83 +143,26 @@ class UploadProduct extends Command
                     '
                     <ul>
                         <li>
-                            <b>Folic acid</b> may interact with 5-fluorouracil, capecitabine (Xeloda), Fosphenytoin (Cerebyx), 
-                            Methotrexate (MTX), phenobarbital (luminal), Phenytoin (Dilantin) and primidone (Mysoline) 
-                            and Pyrimethamine (Daraprim). Interactions may possibly occur with other forms of folate.
+                            Concomitant use with warfarin may decrease the anticoagulant effects of warfarin
                         </li>
                         <li>
-                            High doses of <b>Folic acid</b> may contribute to capecitabine toxicity.
+                            Coenzyme Q10 may decrease blood pressure and may have additive effects with antihypertensives. Caution with patients taking blood pressure medication such as:
+                            <ul>
+                            <li>Beta blockers</li>
+                            <li>Calcium channel blockers</li>
+                            <li>ACE inhibitors</li>
+                            <li>Angiotensin II receptor blockers</li>
+                            </ul>
                         </li>
                         <li>
-                            High doses of folic acid may increase toxicity and and gastrointestinal side effects of 
-                            5-flourouracil.
-                        </li>
-                        <li>
-                            <b>Folic acid</b> may reduce the efficacy of methotrexate in the treatment of acute lymphoblastic 
-                            leukaemia and possibly other cancers. It is advised to consult an oncologist before using 
-                            folic acid, as it may reduce the efficacy of methotrexate.
-                        </li>
-                        <li>
-                            <b>Folic acid</b> can have direct convulsant activity in some people, reversing the effects of 
-                            phenobarbital and primidone, and worsening seizure control. Phenobarbital and Phenytoin 
-                            can reduce serum folate levels. If phenytoin and folic acid are introduced at the same 
-                            time and continued together, adverse effects may be avoided.
-                        </li>
-                        <li>
-                            <b>Folic acid</b> in doses over 1mg/ day or more, can reduce serum levels of fosphenytoin in 
-                            some people.
-                        </li>
-                        <li>
-                            <b>Folic acid</b> may antagonise the anti-parasitic effects of pyrimethamine, except in the 
-                            case of malaria. Pyrimethamine can reduce serum levels of folate.
-                        </li>
-                        <li>
-                            <b>Vitamin B6</b> Use with caution in combination with amiodarone. Preliminary research suggests 
-                            that can exacerbate amiodarone-induced photosensitivity. Other research suggests a 
-                            protective effect.
-                        </li>
-                        <li>
-                            <b>Vitamin B6 and coenzyme Q-10</b> Use with caution in combination with antihypertensive drugs 
-                            as <b>Vitamin B6 and Coenzyme Q-10</b> can decrease blood pressure in hypertensive patients and 
-                            may increase the risk of hypotension when used in combination with drugs that lower blood 
-                            pressure.
-                        </li>
-                        <li>
-                            <b>Vitamin B6 200 mg daily</b> may interact with phenobarbital. Preliminary research suggests that 
-                            Vitamin B6 200 mg daily can reduce plasma levels of phenobarbital, possibly by increasing
-                            metabolism. It is not known whether lower doses have any effect.
-                        </li>
-                        <li>
-                            <b>Vitamin B6 200 mg daily</b> may interact with Phenytoin. Preliminary data suggests that Vitamin 
-                            B6 200 mg daily can reduce plasma levels of phenytoin, possibly by increasing metabolism. 
-                            It is not known whether lower doses have any effect.
-                        </li>
-                        <li>
-                            <b>Vitamin B6</b> use with caution in combination with Levodopa (minor risk). <b>Vitamin B6</b> enhances 
-                            the metabolism of levodopa, reducing its anti-parkinsonism effects. However, this 
-                            interaction does not occur when carbidopa is used concurrently with levodopa (Sinemet). 
-                            Therefore, it is not likely to be a problem in most people.
-                        </li>
-                        <li>
-                            <b>Vitamin B12</b> Avoid in combination with chloramphenicol. Limited case reports suggest that 
-                            chloramphenicol can delay or interrupt the reticulocyte response to supplemental Vitamin 
-                            B12 in some patients. Monitor blood counts closely if this combination cannot be avoided.
-                        <li>
-                            <b>Coenzyme Q10</b> use with caution in combination with chemotherapy and radiotherapy. There is 
-                            concern that Coenzyme Q10 might protect tumor cells from chemotherapeutic agents that work 
-                            by inducing oxidative stress, such as the alkylating agents (e.g. cyclophosphamide, 
-                            Cytoxan), doxorubicin and radiation therapy.
-                        </li>
-                        <li>
-                            Use with caution in combination with warfarin. Concomitant use of <b>Coenzyme Q10</b> might 
-                            reduce the anticoagulation effects of warfarin.
+                            HMG CoA Reductase Inhibitors (statins) can reduce serum coenzyme Q10 levels
                         </li>
                     </ul>
                 ',
                 'dosage_information' =>
                     '
                 <p>
-                    Adults: Take 1 capsule, once a day, or as directed by your healthcare professional.
+                    Adults: Take 7 g (1 scoop), once daily, or as directed by your healthcare professional.
                 </p>
                 ',
                 'ingredients' =>
@@ -358,27 +177,16 @@ class UploadProduct extends Command
                             </td>
                             <td valign="top" colspan="2">
                                 <p>
-                                    <strong>EACH CAPSULES CONTAINS</strong>
+                                    <strong>Each 7g dose (1 scoop) Contains</strong>
                                 </p>
                             </td>
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p>Levomefolate glucosamine</p>
+                                <p>Broccoli Sprout Concentrate *</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>463 µg</p>
-                            </td>
-                            <td width="136" valign="top">
-                                &nbsp;
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. Levomefolic acid (5-MTHF)</em></p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>250 µg</p>
+                                <p>200 mg</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -386,21 +194,10 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Mecobalamin (Vitamin B12)</em></p>
+                                <p style="text-align: right"><em>Equiv. Brassica oleracea var. italica sprout </em></p>
                             </td>
                             <td width="136" valign="top">
-                                <p>200 µg</p>
-                            </td>
-                            <td width="136" valign="top">
-                                &nbsp;
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><em>Pyridoxal 5-phosphate monohydrate</em></p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>47.02 mg</p>
+                                <p>4000 mg </p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -408,21 +205,10 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. pyridoxine (vitamin B6)</em></p>
+                                <p><em>Spirulina (Arthrospira platensis) Powder ** </em></p>
                             </td>
                             <td width="136" valign="top">
-                                <p>30 µg</p>
-                            </td>
-                            <td width="136" valign="top">
-                                &nbsp;
-                            </td>
-                        </tr>
-                        <tr>
-                            <td width="273" valign="top">
-                                <p><em>Ubiquinol-10 (CoQ10)</em></p>
-                            </td>
-                            <td width="136" valign="top">
-                                <p>100 mg</p>
+                                <p>2000 mg</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -430,10 +216,10 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Calcium hydrogen phosphate dihydrate</em></p>
+                                <p><em>Levocarnitine tartrate </em></p>
                             </td>
                             <td width="136" valign="top">
-                                <p>23.6 mg</p>
+                                <p>1466 mg</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -441,10 +227,109 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. calcium</em></p>
+                                <p style="text-align: right"><em>Equiv. Levocarnitine </em></p>
                             </td>
                             <td width="136" valign="top">
-                                <p>5.5 mg</p>
+                                <p>1000 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Colecalciferol (Vitamin D3)</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1000 IU</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Ubiquinol-10 (Co Enzyme Q10)</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>300 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right"><em>Green Tea (Camellia sinensis) Dry Leaf Extract *</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>6.26 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>    Equiv. green tea (Camellia sinensis) leaf</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>500 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right"><em>Equiv. Theanine</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1.38 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Vaccinium myrtillus extract*</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>10 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right"><em>Equiv. Vaccinium myrtillus  fresh fruit</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1000 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Cocoa beans powder *</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>384.62 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right"><em>Equiv. Cocoa beans (Theobroma cacao L) dry powder</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>2000 mg</p>
                             </td>
                             <td width="136" valign="top">
                                 &nbsp;
@@ -452,13 +337,17 @@ class UploadProduct extends Command
                         </tr>
                         <tr>
                             <td colspan="3">
+                                <p>*GMO free</p>
+                                <p>** Certified Organic</p>
                                 <p>
                                     <strong>Excipient Ingredients</strong>
                                 </p>
-                                <p>Cellulose</p>
-                                <p>Hypermellose</p>
-                                <p>Silica (colloidal anhydrous)</p>
-                                <p>Magnesium stearate</p>
+                                <p>Xylitol</p>
+                                <p>Peppermint flavor</p>
+                                <p>Dark Chocolate flavour</p>
+                                <p>Silica</p>
+                                <p>Stevia</p>
+                                <p>Thaumatin</p>
                             </td>
                         </tr>
                     </tbody>
@@ -469,7 +358,7 @@ class UploadProduct extends Command
                 <p>
                     <p>
                         <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
-                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/neuroactiv/cmi/english" target="_blank">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/stemguard/cmi/english" target="_blank">
                             Click Here For English CMI
                     </p>
                 </p>
@@ -477,25 +366,23 @@ class UploadProduct extends Command
                 'free_from' =>
                     '
                 <p class="medlab_product_content_sub_title">
-                    Gluten & Dairy Free
+                    Gluten Free
                 </p>
                 <p class="medlab_product_content_sub_title">
                     Vegetarian friendly
                 </p>
-                <p class="medlab_product_content_sub_title">
-                    No artificial colours, flavours or sweeteners
-                </p>
+               
                 ',
-                'price_retail' => 42.14,
-                'price_wholesale' => 24.74,
-                'image_path' => '/img/products/neuroactiv/neuroactiv.png',
-                'thumb_image_path' => '/img/products/neuroactiv/neuroactiv_thumb.png',
+                'price_retail' => 70.54,
+                'price_wholesale' => 64.13,
+                'image_path' => '/img/products/stemguard/stemguard.jpg',
+                'thumb_image_path' => '/img/products/stemguard/stemguard_thumb.jpg',
                 'in_stock' => true,
-                'slug' => 'neuroactiv',
+                'slug' => 'stemguard',
             ]
         );
 
-        $this->comment("Uploaded NeuroActiv");
+        $this->comment("Uploaded StemGuard");
 
         Model::reguard();
     }
