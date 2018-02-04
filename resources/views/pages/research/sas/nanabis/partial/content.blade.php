@@ -51,7 +51,7 @@
 
                         </p>
 
-                        <a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/Research/EMS/NanaBis/NanaBis_PI_V1.pdf" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
+                        <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/NanaBis+Interim+Guidance+to+Practitioner+Final+Version.pdf" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
 
                         <br>
 
@@ -89,7 +89,7 @@
                         </p>
 
                         <p>
-                            The consumer medical information <a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/Research/EMS/NanaBis/NanaBis_CMI_Draft_V3.pdf" target="_blank">(CMI) is available here</a>.
+                            The consumer medical information <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/CMI+NanaBis+Final+Version.pdf" target="_blank">(CMI) is available here</a>.
                         </p>
 
                         <p>
