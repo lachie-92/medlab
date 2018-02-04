@@ -9662,8 +9662,8 @@ class ModifyProduct extends Command
                     The combination of Blueberry extract, Green tea extract, Vitamin D3 and broccoli sprout concentrate 
                     have been shown to beneficially influence the regulation of cellular pathways promoting healthy cell 
                     cycles. Broccoli sprout concentrate provides support for liver detoxification pathways, hormone 
-                    metabolism, and the inhibition of inflammatory mediators. Organic Spirulina powder supports liver 
-                    detoxification, immunity and cell function. It is a natural source of the photosynthetic pigments 
+                    metabolism, and the inhibition of inflammatory mediators. Organic Spirulina powder supports healthy cell function and immunity. 
+                    It is a natural source of the photosynthetic pigments 
                     chlorophyll A and phycocyanin. The combination of a high dose of biologically active ubiquinol and 
                     L-carnitine maintain cellular energy metabolism to support the reduction of tiredness and fatigue.  
                     Cacoa powder may provide support  for healthy cognitive function and cardiovascular health. 
