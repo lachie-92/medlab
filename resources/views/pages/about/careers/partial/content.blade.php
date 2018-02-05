@@ -34,13 +34,13 @@
                                 <a href="#FullStackDeveloper">Full Stack Developer - Sydney</a>
                             </li>
                             <li>
-                                <a href="#ClinicalConsultantQLD">Clinical Consultant - Queensland</a>
+                                <a href="#ClinicalConsultantQLD">Medical Science Liaison - Queensland</a>
                             </li>
                             <li>
-                                <a href="#ClinicalConsultantVIC">Clinical Consultant - Melbourne</a>
+                                <a href="#ClinicalConsultantVIC">Medical Science Liaison - Melbourne</a>
                             </li>
                             <li>
-                                <a href="#ClinicalConsultantNSW">Clinical Consultant - Sydney</a>
+                                <a href="#ClinicalConsultantNSW">Medical Science Liaison - Sydney</a>
                             </li>
 
                         </ul>
@@ -214,7 +214,7 @@
 
 
                         <a name="ClinicalConsultantQLD"></a>
-                        <h3>Clinical Consultant</h3>
+                        <h3>Medical Science Liaison</h3>
                         <ul>
                         <li>Full Time / Permanent</li>
                         <li>South East Queensland</li>
@@ -252,7 +252,7 @@
                         <hr>
 
                         <a name="ClinicalConsultantVIC"></a>
-                        <h3>Clinical Consultant</h3>
+                        <h3>Medical Science Liaison</h3>
                         <ul>
                             <li>Full Time / Permanent</li>
                         <li>Melbourne, VIC</li>
@@ -292,7 +292,7 @@
 
                         <a name="ClinicalConsultantNSW"></a>
                         <ul>
-                        <h3>Clinical Consultant</h3>
+                        <h3>Medical Science Liaison</h3>
                         <li>Full Time / Permanent</li>
                         <li>Alexandria, NSW</li>
                         </ul></br>
