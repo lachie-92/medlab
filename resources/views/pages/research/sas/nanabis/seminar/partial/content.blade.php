@@ -37,7 +37,7 @@
                             src="https://medlabforms.wufoo.eu/embed/rd2ekh1pb8lp0/">
 
                     </iframe>
-                    <p class="font-weight-bold"><a href="/medical-cannabis/expression-of-interest">Not AHPRA Registered? Click here to register your expression of interest</a></p>
+                    <p class="text-center"><a href="/medical-cannabis/expression-of-interest">Not AHPRA Registered? Click here to register your expression of interest</a></p>
                     <img alt="Nanabis"
                          src="/img/news/blue.png"
                          title="Nanabis"

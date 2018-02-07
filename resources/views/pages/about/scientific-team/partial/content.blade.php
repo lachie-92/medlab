@@ -96,7 +96,7 @@
                         <strong>Senior Research Scientist (Microbiology)</strong>
                     </p>
                     <p>
-                        <img style="float: left; margin-right: 10px;" title="Joyce Zhou Portrait" src="/img/about/joyce.jpg" alt="Joyce Zhou Portrait" width="125">
+                        <img style="float: left; margin-right: 10px;" title="Joyce Zhou Portrait" src="/img/about/joyce.png" alt="Joyce Zhou Portrait" width="125">
                     </p>
                     <p style="text-align: justify;">
                         Joyce Yusi Zhou has a PhD in Chemical and Biomedical Engineering from the Nanyang Technological
