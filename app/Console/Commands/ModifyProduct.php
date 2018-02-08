@@ -9825,7 +9825,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. Brassica oleracea var. italica sprout </em></p>
+                                <p style="text-align: right">Equiv. <em>Brassica oleracea var. italica sprout </em></p>
                             </td>
                             <td width="136" valign="top">
                                 <p>4 g </p>
@@ -9836,7 +9836,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Spirulina (Arthrospira platensis) Powder ** </em></p>
+                                <p>Spirulina <em>(Arthrospira platensis)</em> Powder ** </p>
                             </td>
                             <td width="136" valign="top">
                                 <p>2 g</p>
@@ -9891,7 +9891,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Green Tea (Camellia sinensis) Dry Leaf Extract *</em></p>
+                                <p style="text-align: right">Green Tea <em>(Camellia sinensis)/em>< Dry Leaf Extract *</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>6.26 mg</p>
@@ -9902,7 +9902,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>    Equiv. green tea (Camellia sinensis) leaf</em></p>
+                                <p>Equiv. green tea <em>(Camellia sinensis) </em><leaf</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>500 mg</p>
@@ -9924,7 +9924,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Vaccinium myrtillus extract*</em></p>
+                                <p><em>Vaccinium myrtillus</em> extract*</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>10 mg</p>
@@ -9935,7 +9935,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. Vaccinium myrtillus  fresh fruit</em></p>
+                                <p style="text-align: right">Equiv. <em>Vaccinium myrtillus</em>  fresh fruit</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1 g</p>
@@ -9957,7 +9957,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. Cocoa beans (Theobroma cacao L) dry powder</em></p>
+                                <p style="text-align: right">Equiv. Cocoa beans <em>(Theobroma cacao L)</em> dry powder</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>2 g</p>
