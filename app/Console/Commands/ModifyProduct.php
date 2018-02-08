@@ -10228,8 +10228,8 @@ class ModifyProduct extends Command
                 ',
             'price_retail' => 36.75,
             'price_wholesale' => 24.50,
-            'image_path' => '/img/products/testorestore/testorestore.png',
-            'thumb_image_path' => '/img/products/testorestore/testorestore_thumb.png',
+            'image_path' => '/img/products/testorestore/testorestore.jpg',
+            'thumb_image_path' => '/img/products/testorestore/testorestore_thumb.jpg',
             'in_stock' => true,
             'slug' => 'testorestore',
         ];
