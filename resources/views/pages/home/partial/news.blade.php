@@ -40,78 +40,30 @@
                         NEW PRODUCTS
                     </div>
                     <div class="medlab_news_item_body">
-                        <div class="col-md-8 col-sm-8 col-xs-12">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
                             <h2 class="medlab_news_content_title">
-                                <a href="/nutraceuticals/products/neuroactiv" class="medlab_news_content_link">
-                                    NeuroActiv&trade;
+                                <a href="/nutraceuticals/products/stemguard" class="medlab_news_content_link">
+                                    StemGuard
                                 </a>
                             </h2>
-                            <p style="text-align: justify">
-                                NeuroActiv&trade; is a synergistic combination of biologically active nutrients designed to support a healthy nervous system, promote a healthy mood, and maintain normal cognitive function.
-                            </p>
-                            <a href="/nutraceuticals/products/neuroactiv" class="medlab_news_content_link">More Information</a>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <a href="/nutraceuticals/products/neuroactiv">
-                                <img src="/img/products/neuroactiv/neuroactiv.png" alt="NeuroActiv" height="145px" width="auto" class="center-block"/>
+                            <a href="/nutraceuticals/products/stemgaurd">
+                                <img src="/img/products/stemguard/stemguardsquare.jpeg" alt="StemGuard" height="300px" width="auto" class="pull-right" style="margin:20px"/>
                             </a>
-                        </div>
-                        <div class="col-md-8 col-sm-8 col-xs-12" style="margin-top: 15px;">
-                            <h2 class="medlab_news_content_title">
-                                <a href="/nutraceuticals/products/lactoferrin-enhanced-60s" class="medlab_news_content_link">
-                                    Lactoferrin Enhanced&trade;
-                                </a>
-                            </h2>
                             <p style="text-align: justify">
-                                Lactoferrin Enhanced&trade; is a unique combination of lactoferrin, olive leaf extract, probiotics and
-                                zinc to support a healthy immune response and regulate gastrointestinal health.
-                            </p>
-                            <a href="/nutraceuticals/products/lactoferrin-enhanced-60s" class="medlab_news_content_link">More Information</a>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <a href="/nutraceuticals/products/lactoferrin-enhanced-60s">
-                                <img src="/img/products/lactoferrin_enhanced_60s/lacoferrin_enhanced_60s_plastic_thumb.png" alt="Lactoferrin Enhanced" height="145px" width="auto" class="center-block"/>
-                            </a>
-                        </div>
-                        <div class="col-md-8 col-sm-8 col-xs-12" style="margin-top: 15px;">
-                            <h2 class="medlab_news_content_title">
-                                <a href="/nutraceuticals/products/bifidobiotic-60s" class="medlab_news_content_link">
-                                    BifidoBiotic&trade;
-                                </a>
-                            </h2>
+                                Medlab's long-awaited StemGuard has arrived, and it's brimming with high dose Coenzyme Q10,
+                                Green Tea extract, Vitamin D3, wild Blueberry extract, Broccoli Sprout concentrate, Organic
+                                Spirulina, L-carnitine, and Cocoa, all packed in a dark chocolate peppermint formula.</p>
                             <p style="text-align: justify">
-                                BifidoBiotic&trade; is a multi-species probiotic formulation to restore and maintain a healthy
-                                intestinal microbiome, across the lifespan. BifidoBiotic&trade; may help to re-regulate pro-inflammatory
-                                cytokine levels and support a healthy immune system.
-                            </p>
-                            <a href="/nutraceuticals/products/bifidobiotic-60s" class="medlab_news_content_link">More Information</a>
-                        </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <a href="/nutraceuticals/products/bifidobiotic-60s">
-                                <img src="/img/products/bifidobiotic-60s/bifidobiotic_60s_thumb.png" alt="BifidoBiotic" height="150px" width="auto" style="margin-top: 30px;" class="center-block"/>
-                            </a>
-                            <br>
-                            <br>
-                        </div>
-                        <div class="col-md-8 col-sm-8 col-xs-12">
-                            <h2 class="medlab_news_content_title">
-                                <a href="/nutraceuticals/products/quatrefolic-60s" class="medlab_news_content_link">
-                                    Quatrefolic&reg;
-                                </a>
-                            </h2>
+                                This scientifically formulated combination of ingredients in StemGuard aids liver detoxification,
+                                cellular energy production, cardiovascular health, hormone metabolism, and your immune system.</p>
                             <p style="text-align: justify">
-                                Medlab Quatrefolic&reg; contains levomefolate glucosamine which is a form of biologically active
-                                folate, 5-methyltetrahydrofolate (5-MTHF). Folate is essential for DNA synthesis, cell division,
-                                red blood cell production and homocysteine metabolism. Demands for folate increase during pregnancy
-                                due to increased requirements for foetal growth and development.
+                                Whether you’re feeling fatigued or just looking for that extra boost in your routine,
+                                add this to your morning beverage and go!</p>
                             </p>
-                            <a href="/nutraceuticals/products/quatrefolic-60s" class="medlab_news_content_link">More Information</a>
+                            <a href="/nutraceuticals/products/stemguard" class="medlab_news_content_link">More Information</a>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-12" style="margin-top: 15px;">
-                            <a href="/nutraceuticals/products/quatrefolic-60s">
-                                <img src="/img/products/quatrefolic-60s/quatrefolic_60s_thumb.png" alt="Quatrefolic" height="145px" width="auto" class="center-block"/>
-                            </a>
-                        </div>
+
+
                     </div>
                 </div>
             </div>

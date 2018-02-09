@@ -252,7 +252,7 @@ class ModifyProduct extends Command
                             <tr>
                                 <td width="273" valign="top">
                                     <p>Magnesium as amino acid chelate TRAACS®</p>
-                                    <p>(bisglycinate chelate)</p>
+                                    <p><em>(bisglycinate chelate)</em></p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>150mg</p>
@@ -284,7 +284,7 @@ class ModifyProduct extends Command
                             </tr>
                             <tr>
                                 <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>Equiv. L-theanine</p>
+                                    <p>Equiv. <em>L-theanine</em></p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>NLT 100mg</p>
@@ -9550,7 +9550,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td style="padding-left: 30px;" width="273" valign="top">
-                                <p>Equiv. pyridoxine <br>(vitamin B6)</p>
+                                <p>Equiv. <em>pyridoxine</em> <br>(vitamin B6)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>30 µg</p>
@@ -9858,7 +9858,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. Levocarnitine </em></p>
+                                <p style="text-align: right">Equiv. <em>Levocarnitine </em></p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1 g</p>
@@ -9869,7 +9869,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Colecalciferol (Vitamin D3)</em></p>
+                                <p><em>Colecalciferol</em> (Vitamin D3)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1000 IU</p>
@@ -10108,11 +10108,11 @@ class ModifyProduct extends Command
                 '
                     <ul>
                         <li>
-                            <b>Magnesium > Biphosphonates </b>(Alendronate, clodronate, etidronate, ibandronic acid, Risedronate, Tiludronate) Magnesium may interfere with absorption of biphosphonates. Magnesium supplements should be taken at least 2 hours before or 4 hours after taking these medications to minimize potential interference with absorption.
+                            <b>Magnesium > Biphosphonates </b> (Alendronate, clodronate, etidronate, ibandronic acid, Risedronate, Tiludronate) Magnesium may interfere with absorption of biphosphonates. Magnesium supplements should be taken at least 4 hours before or 2 hours after taking these medications to minimize potential interference with absorption.
                         </li>
-                        <li><b>Magnesium > Antibiotics </b>(Tetracyclines, Quinolones) Magnesium may form insoluble complexes with quinolones and tetracyclines and interfere with their absorption. Magnesium supplements should be taken at least 2 hours before or 4 hours after taking these medications to minimize potential interference with absorption.</li>
+                        <li><b>Magnesium > Antibiotics </b>(Tetracyclines, Quinolones) Magnesium may form insoluble complexes with quinolones and tetracyclines and interfere with their absorption. Magnesium supplements should be taken at least 4 hours before or 2 hours after taking these medications to minimize potential interference with absorption.</li>
                        
-                        <li><b>Magnesium > Gabapentin (Neurotin)</b> Magnesium may interfere with gabapentin absorption. Magnesium supplements should be taken at least 2 hours before or 4 hours after taking this medication to minimize potential interference with absorption.</li>
+                        <li><b>Magnesium > Gabapentin (Neurotin)</b> (Neurotin) Magnesium may interfere with gabapentin absorption. Magnesium supplements should be taken at least 4 hours before or 2 hours after taking this medication to minimize potential interference with absorption</li>
                         
                         <li><b>Magnesium > Calcium channel blockers</b> Theoretically, magnesium may have additive effects with calcium channel blockers. Caution is recommended when combining with high dose magnesium supplementation.</li>
                         
@@ -10198,6 +10198,11 @@ class ModifyProduct extends Command
                                 <p>Hypromellose</p>
                                 <p>Cellulose</p>
                                 <p>Magnesium stearate</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>ZMA® 1718324 is a registered trademark of SNAC system, Inc., San Carlos, CA 94070</p>
                             </td>
                         </tr>
                     </tbody>
