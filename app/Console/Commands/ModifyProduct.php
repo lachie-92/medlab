@@ -9978,7 +9978,7 @@ class ModifyProduct extends Command
                                 <p>Dark Chocolate flavour</p>
                                 <p>Silica</p>
                                 <p>Stevia</p>
-                                <p>Thaumatin</p>
+                                <p>Thaumatin11</p>
                             </td>
                         </tr>
                     </tbody>
@@ -10198,7 +10198,6 @@ class ModifyProduct extends Command
                                 <p>Hypromellose</p>
                                 <p>Cellulose</p>
                                 <p>Magnesium stearate</p>
-                                <p>ZMA® 1718324 is a registered trademark of SNAC system, Inc., San Carlos, CA 94070</p>
                             </td>
                         </tr>
                         <tr>
@@ -10238,6 +10237,8 @@ class ModifyProduct extends Command
             'thumb_image_path' => '/img/products/testorestore/testorestore_thumb.jpg',
             'in_stock' => true,
             'slug' => 'testorestore',
+
+
         ];
 
 
