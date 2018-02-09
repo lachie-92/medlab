@@ -10170,7 +10170,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Magnesium (from Magnesium Aspartate and Magnesium Oxide)</em></p>
+                                <p style="text-align: right">Magnesium (from Magnesium Aspartate and Magnesium Oxide)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>124.185 mg</p>
@@ -10181,7 +10181,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Vitamin B6 (from Pyridoxine Hydrochloride)</em></p>
+                                <p>Vitamin B6 (from Pyridoxine Hydrochloride)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>3.12 mg</p>
@@ -10198,6 +10198,7 @@ class ModifyProduct extends Command
                                 <p>Hypromellose</p>
                                 <p>Cellulose</p>
                                 <p>Magnesium stearate</p>
+                                <p>ZMA® 1718324 is a registered trademark of SNAC system, Inc., San Carlos, CA 94070</p>
                             </td>
                         </tr>
                         <tr>
