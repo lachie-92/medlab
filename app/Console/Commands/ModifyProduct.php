@@ -9978,7 +9978,7 @@ class ModifyProduct extends Command
                                 <p>Dark Chocolate flavour</p>
                                 <p>Silica</p>
                                 <p>Stevia</p>
-                                <p>Thaumatin11</p>
+                                <p>Thaumatin</p>
                             </td>
                         </tr>
                     </tbody>
@@ -10010,12 +10010,12 @@ class ModifyProduct extends Command
                 'thumb_image_path' => '/img/products/stemguard/stemguard_thumb.jpg',
                 'in_stock' => true,
                 'slug' => 'stemguard',
-            ]
 
 
 
 
-        ];
+
+        ],
 
 
         [
@@ -10238,6 +10238,8 @@ class ModifyProduct extends Command
             'in_stock' => true,
             'slug' => 'testorestore',
 
+
+            ]
 
         ];
 
