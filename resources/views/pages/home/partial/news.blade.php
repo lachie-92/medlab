@@ -189,30 +189,7 @@
                 </div>
             </div>
 
-            <div class="medlab_news_item">
-                <div class="medlab_news_item_content_wrapper">
-                    <div class="medlab_news_item_title">
-                        FEATURED PRODUCTS
-                    </div>
-                    <div class="medlab_news_item_body">
-
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-
-                            <img src="/img/products/12mg_optima/Mg Optima Relax Sachets_Medlab.png" alt="Mg Optima™ Relax Featured product" width="400px" class="img-responsive center-block"/>
-                            <br>
-                            <h2 class="medlab_news_content_title">
-                                    <sup>12</sup>Mg Optima Relax
-                            </h2>
-                            <p class="medlab_news_content_paragraph" style="text-align: justify">
-                                <p>Please seek advice from your healthcare practitioner to see if this product is suitable for you.</p>
-                                <p>Always read the label, use only as directed.</p>
-                                <a href="/nutraceuticals/products/12mg-optima-relax-10pk-sachets-lemon-lime" class="medlab_news_content_link">Find out more here</a>
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+            
 
             <!--div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
