@@ -46,7 +46,7 @@
                                     StemGuard
                                 </a>
                             </h2>
-                            <a href="/nutraceuticals/products/stemgaurd">
+                            <a href="/nutraceuticals/products/stemguard">
                                 <img src="/img/products/stemguard/stemguardsquare.jpeg" alt="StemGuard" height="300px" width="auto" class="pull-right" style="margin:20px"/>
                             </a>
                             <p style="text-align: justify">
