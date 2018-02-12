@@ -189,7 +189,7 @@
                 </div>
             </div>
 
-            
+
 
             <!--div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
