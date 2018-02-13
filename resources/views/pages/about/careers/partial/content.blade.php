@@ -248,7 +248,7 @@
                         <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Consulatant QLD">recruit@medlab.co</a></p>
                         <hr>
 
-                        
+
 
 
                         <a name="ClinicalConsultantNSW"></a>
