@@ -9858,7 +9858,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right">Equiv. <em>Levocarnitine </em></p>
+                                <p style="text-align: right">Equiv. Levocarnitine </p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1 g</p>
@@ -9869,7 +9869,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Colecalciferol</em> (Vitamin D3)</p>
+                                <p>Colecalciferol (Vitamin D3)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1000 IU</p>
@@ -9880,7 +9880,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Ubiquinol-10 (Co Enzyme Q10)</em></p>
+                                <p>Ubiquinol-10 (Co Enzyme Q10)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>300 mg</p>
@@ -9913,7 +9913,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right"><em>Equiv. Theanine</em></p>
+                                <p style="text-align: right">Equiv. Theanine</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1.38 mg</p>
@@ -9957,7 +9957,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right">Equiv. Cocoa beans <em>(Theobroma cacao L)</em> dry powder</p>
+                                <p style="text-align: right">Equiv. Cocoa beans (Theobroma cacao L) dry powder</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>2 g</p>

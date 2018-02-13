@@ -55,7 +55,7 @@
                                 Spirulina, L-carnitine, and Cocoa, all packed in a dark chocolate peppermint formula.</p>
                             <p style="text-align: justify">
                                 This scientifically formulated combination of ingredients in StemGuard aids liver detoxification,
-                                cellular energy production, cardiovascular health, hormone metabolism, and your immune system.</p>
+                                cellular energy production, cardiovascular health, hormone metabolism, and supports immunity.</p>
                             <p style="text-align: justify">
                                 Whether you’re feeling fatigued or just looking for that extra boost in your routine,
                                 add this to your morning beverage and go!</p>
