@@ -9946,7 +9946,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Cocoa beans powder *</em></p>
+                                <p>Cocoa beans powder *</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>384.62 mg</p>
