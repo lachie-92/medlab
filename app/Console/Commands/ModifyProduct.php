@@ -9891,7 +9891,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right">Green Tea <em>(Camellia sinensis)Dry Leaf Extract *</p>
+                                <p style="text-align: right">Green Tea <em> (Camellia sinensis)</em> Dry Leaf Extract *</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>6.26 mg</p>
