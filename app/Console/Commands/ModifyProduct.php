@@ -9847,7 +9847,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Levocarnitine tartrate </em></p>
+                                <p>Levocarnitine tartrate</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>1466 mg</p>
@@ -9891,7 +9891,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right">Green Tea <em>(Camellia sinensis)/em>< Dry Leaf Extract *</p>
+                                <p style="text-align: right">Green Tea <em>(Camellia sinensis)Dry Leaf Extract *</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>6.26 mg</p>
@@ -9924,7 +9924,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Vaccinium myrtillus</em> extract*</p>
+                                <p><em>Vaccinium myrtillus extract*</em> </p>
                             </td>
                             <td width="136" valign="top">
                                 <p>10 mg</p>
@@ -9957,7 +9957,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p style="text-align: right">Equiv. Cocoa beans (Theobroma cacao L) dry powder</p>
+                                <p style="text-align: right">Equiv. Cocoa beans <em>(Theobroma cacao L)</em> dry powder</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>2 g</p>
