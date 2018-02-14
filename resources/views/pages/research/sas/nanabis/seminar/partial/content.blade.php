@@ -29,9 +29,9 @@
                          class="img-responsive center-block">
                     <hr>
 
-                    <p class="text-center"><a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/SEM+Invite+NanaBis+Syd+JAN18+FINAL%5B1%5D.pdf">Download Sydney Seminar Invitation</a></p>
-                    <p class="text-center"><a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/SEM+Invite+NanaBis+Bris+FEB18+FINAL%5B7%5D.pdf">Download Brisbane Seminar Invitation</a></p>
-                    <p class="text-center"><a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/SEM+Invite+NanaBis+Melb+JAN18+FINAL%5B1%5D.pdf">Download Melbourne Seminar Invitation</a></p>
+                    <p class="text-center"><a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/SEM+Invite+NanaBis+Syd+JAN18+FINAL%5B1%5D.pdf" target="_blank">Download Sydney Seminar Invitation</a></p>
+                    <p class="text-center"><a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/SEM+Invite+NanaBis+Bris+FEB18+FINAL%5B7%5D.pdf" target="_blank">Download Brisbane Seminar Invitation</a></p>
+                    <p class="text-center"><a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/SEM+Invite+NanaBis+Melb+JAN18+FINAL%5B1%5D.pdf" target="_blank">Download Melbourne Seminar Invitation</a></p>
 
 
                     <hr>
