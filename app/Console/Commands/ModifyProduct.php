@@ -9188,7 +9188,7 @@ class ModifyProduct extends Command
                     neurological symptoms. NeuroActiv&trade; provides a therapeutic dose of Ubiquinol-10, the reduced 
                     form of coenzyme Q10, with a superior absorption profile and higher bioavailability compared to 
                     ubiquinone. Coenzyme Q10 is essential for mitochondrial energy production. Coenzyme Q10 provides 
-                    upport for the high energy requirements in the brain, and may offer neuroprotective support for 
+                    support for the high energy requirements in the brain, and may offer neuroprotective support for 
                     conditions associated with impaired mitochondrial function.
                 </p>
                 ',
