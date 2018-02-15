@@ -89,7 +89,7 @@
                         </p>
 
                         <p>
-                            The consumer medical information <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/CMI+NanaBis+Final+Version.pdf" target="_blank">(CMI) is available here</a>.
+                            The consumer medical information <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/CMI+NanaBis+Final+Version.pdf" target="_blank">(CMI) is available here (ENGLISH)</a>, <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/cmi/italian.pdf" target="_blank">CMI (ITALIAN)</a>, <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/cmi/japanese.pdf" target="_blank">CMI (JAPANESE)</a>, <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/cmi/arabic.pdf" target="_blank">CMI (ARABIC)</a>, <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/cmi/chinese_simplified.pdf" target="_blank">CMI (CHINESE SIMPLIFIED)</a>,.
                         </p>
 
                         <p>
