@@ -291,6 +291,64 @@
 
 
 
+
+                        <a name="PractitionerConsultantNSW"></a>
+
+                        <h3>Practitioner Consultant - State Team Leader</h3>
+
+                        <ul>
+                        <li>Permanent Fulltime</li>
+                        <li>Work with a leading Biotechnology and Medical Research Company</li>
+                        <li>Sydney, NSW.</li>
+                            </ul>
+
+                        <p>Due to a rapid expansion, we are seeking a highly ambitious Practitioner Consultant to join our extremely successful sales team, where we can provide you with ongoing career development within a rewarding and collaborative team culture.</p>
+
+                        <h4>The Opportunity</h4>
+                        <p>As a passionate Practitioner Consultant, you will be the face between our company and healthcare practitioners, consultatively working to increase the visibility and awareness of Medlab's practitioner-only nutraceutical range within your territory whilst managing and leading a team of Practitioner Consultants to ensure a high level of customer service.
+
+                        <h4>Duties and Responsibilities include:</h4>
+                        <ul>
+                            <li>Continually identify and develop new business opportunities</li>
+                            <li>Increase product sales in existing and new clients through building strong relationships and the ongoing education and training of healthcare practitioners, either over the phone or face to face</li>
+                            <li>Execute a business plan for your territory in line with meeting and exceeding key performance indicators and territory targets</li>
+                            <li>Create and implement client incentive and retention strategies.</li>
+                            <li>Manage, develop and support your field team members.</li>
+                            <li>Ensure the highest level of product and technical knowledge is attained and maintained</li>
+                            <li>Plan and deliver product training to a range of healthcare modalities</li>
+                            <li>Attend industry and association conferences and trade shows when required</li>
+                        </ul>
+
+                        <h4>About You</h4>
+                            <p>To be successful in this role you will be able to demonstrate the following:</p>
+                        <ul>
+                            <li>Possess high level of interpersonal skills, with the ability to motivate and influence, creating strong relationships within the practitioner field</li>
+                            <li>Proven track record in a sales environment along with commercial acumen</li>
+                            <li>Self-motivated and have a solution based approach to tasks</li>
+                            <li>Excellent understanding of the sales process and use of CRM system</li>
+                            <li>You will ideally hold a naturopathic or similar complementary medicine qualification or have a pharmacy, nursing or science related qualification</li>
+                            <li>Have a genuine passion for health and wellness with desire to succeed</li>
+                        </ul>
+
+                                <h4>Benefits</h4>
+                        <p>Here at Medlab, we are committed to the development of staff and regularly promote from within and provide excellent employee benefits and incentives which include the following:</p>
+
+                        <ul>
+                            <li>Generous base salary plus commission structure and allowances</li>
+                            <li>A fun, collaborative team-working environment</li>
+                            <li>On-going training, education and mentoring</li>
+                        </ul>
+                                <p>This is an exceptional opportunity to be part of an expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
+
+
+                                <p>If you believe you have what it takes to join this dynamic team, please apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Practitioner Consulatant NSW">recruit@medlab.co</a></p>
+
+                                <p>Please note: Only shortlisted candidates will be contacted.</p>
+
+
+
+
+
                     </div>
                 </div>
             </div>
