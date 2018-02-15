@@ -134,11 +134,11 @@
                         <p>
                             <a href="https://www.tga.gov.au/access-medicinal-cannabis-products-steps-using-access-schemes#step2" target="_blank">https://www.tga.gov.au/access-medicinal-cannabis-products-steps-using-access-schemes#step2</a>
                         </p>
-
+                        <br>
+                        <hr>
 
                     </div>
-                    <br>
-                    <hr>
+
 
                     <p style="margin-bottom: .0001pt;"><strong><span style="font-size: 22.0pt; line-height: 107%; color: #0065b0;">Information leaflet for medical practitioners on how to arrange supply of Medicinal Cannabis for a patient</span></strong></p>
                     <p style="margin-bottom: .0001pt;"><strong><span style="font-size: 14.0pt; line-height: 107%; color: #0065b0;">&nbsp;</span></strong></p>
