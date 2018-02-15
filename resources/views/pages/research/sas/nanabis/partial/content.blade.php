@@ -56,12 +56,8 @@
                         <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/NanaBis+Interim+Guidance+to+Practitioner+Final+Version.pdf" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
                             </p>
 
-                            <p>
-                            NanaBisTM is a non-ARTG product currently in clinical trial and available under SAS.
-                            </p>
-                            <p>
-                                SAS application can be made either manually via the appropriate application forms or via <a href="http://mcmp.com.au/" target="_blank">http://mcmp.com.au/</a>
-                            </p>
+                            
+
 
                         <br>
 
@@ -82,6 +78,9 @@
                         <h4>
                                 <strong>NanaBis<sup>TM</sup> is a non-ARTG product currently in clinical trial and available under SAS.</strong>
                         </h4>
+                        <p>
+                            SAS application can be made either manually via the appropriate application forms or via <a href="http://mcmp.com.au/" target="_blank">http://mcmp.com.au/</a>
+                        </p>
 
                         <hr>
                         <p>
