@@ -56,7 +56,7 @@
                         <a href="https://s3-ap-southeast-2.amazonaws.com/nanabis/NanaBis+Interim+Guidance+to+Practitioner+Final+Version.pdf" target="_blank">NanaBis<sup>TM</sup> product information can be found here</a>.
                             </p>
 
-                            
+
 
 
                         <br>
@@ -137,6 +137,8 @@
 
 
                     </div>
+                    <br>
+                    <hr>
 
                     <p style="margin-bottom: .0001pt;"><strong><span style="font-size: 22.0pt; line-height: 107%; color: #0065b0;">Information leaflet for medical practitioners on how to arrange supply of Medicinal Cannabis for a patient</span></strong></p>
                     <p style="margin-bottom: .0001pt;"><strong><span style="font-size: 14.0pt; line-height: 107%; color: #0065b0;">&nbsp;</span></strong></p>
