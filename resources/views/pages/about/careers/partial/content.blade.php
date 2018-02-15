@@ -39,6 +39,9 @@
                             <li>
                                 <a href="#ClinicalConsultantNSW">Medical Science Liaison - Sydney</a>
                             </li>
+                            <li>
+                                <a href="#PractitionerConsultantNSW">Practitioner Consultant - State Team Leader - NSW</a>
+                            </li>
 
                         </ul>
 
