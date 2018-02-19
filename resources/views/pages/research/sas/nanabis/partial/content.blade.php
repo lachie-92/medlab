@@ -93,7 +93,7 @@
 
                         <br>
                         <p>
-                            NanaBis<sup>TM</sup> is being studied as both an adjutant and a replacement to opioid therapy in advanced
+                            NanaBis<sup>TM</sup> is being studied as both an adjuvant and a replacement to opioid therapy in advanced
                             cancer pain. <a href="https://www.anzctr.org.au/Trial/Registration/TrialReview.aspx?ACTRN=12617001480370" target="_blank">ANZCTR listing is available here</a>.
                         </p>
 
