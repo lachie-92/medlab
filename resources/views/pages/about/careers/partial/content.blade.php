@@ -34,9 +34,6 @@
                                 <a href="#FullStackDeveloper">Full Stack Developer - Sydney</a>
                             </li>
                             <li>
-                                <a href="#ClinicalConsultantQLD">Medical Science Liaison - Queensland</a>
-                            </li>
-                            <li>
                                 <a href="#ClinicalConsultantNSW">Medical Science Liaison - Sydney</a>
                             </li>
                             <li>
@@ -213,43 +210,7 @@
 
 
 
-                        <a name="ClinicalConsultantQLD"></a>
-                        <h3>Medical Science Liaison</h3>
-                        <ul>
-                        <li>Full Time / Permanent</li>
-                        <li>South East Queensland</li>
-                        </ul></br>
-                        <p>Due to rapid expansion, we are seeking an exceptional Clinical Consultant to join our new Medical Unit. </p>
 
-                        <h4>Who is Medlab Clinical?</h4>
-                        <p>Medlab Clinical Ltd is an ASX listed certified biotechnology company, experienced in microbiome research that is being applied towards developing scientific-based pharmaceuticals and nutraceuticals. We pride ourselves on being an industry leader within this field and conduct our research within our purpose built PC2 accredited laboratory.</p>
-
-
-                        <h4>The Opportunity</h4>
-                        <ul>
-                        <p>Your role will be to support, educate and investigate use and compliance on a new investigational product along with its specific regulatory requirements. You will report to the Medlab medical unit; however, all investigational matters will be led by a Senior Medical Officer.</p>
-                        <p>The successful applicant will have:</p>
-                        <li>A minimum 3 years' experience in the Pharmacy or Nursing background</li>
-                        <li>Strong commercial acumen and a high achiever</li>
-                        <li>Ability to absorb and disseminate scientific information</li>
-                        <li>A current AHPRA registration</li>
-                        <li>The ability to think laterally and pragmatically</li>
-                        <li>A command of the English language</li>
-                        <li>Strong knowledge on risk identification</li>
-                        </ul>
-
-                        <p>Your new role will see you interfacing with Specialists, Hospital Units and GP's.</p>
-
-                        <h4>Benefits</h4>
-                        <p>Here at Medlab, we are committed to the development of staff and regularly promote from within. You will be joining a highly motivated team with an organisation that provides excellent employee benefits and incentives which include the following:</p>
-                        <ul>
-                        <li>On-going training, education and mentoring</li>
-                        <li>A dynamic, collaborative team-working environment</li>
-                        <li>Competitive salary package</li>
-                        </ul>
-                        <p>This is an exceptional opportunity to be part of an ASX listed, expanding global company, who are dedicated to improving health outcomes in chronic disease. Be part of the change…</p>
-                        <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Consulatant QLD">recruit@medlab.co</a></p>
-                        <hr>
 
 
 
