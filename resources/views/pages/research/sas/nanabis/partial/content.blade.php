@@ -9,7 +9,7 @@
 
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">
-                    EMS Nanabis<sup>TM</sup>
+                    EMS NanaBis<sup>TM</sup>
                 </div>
                 <div class="panel-body medlab_panel_content">
                     <div class="col-sm-12">
