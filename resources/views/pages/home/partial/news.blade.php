@@ -68,6 +68,7 @@
                 </div>
             </div>
 
+            <!--
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_item_title">
@@ -102,6 +103,7 @@
                     </div>
                 </div>
             </div>
+            -->
 
             <div class="medlab_news_item">
                 <div class="medlab_news_item_content_wrapper">
@@ -291,6 +293,7 @@
                 </div>
             </div>
 
+            <!--
             <div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_sidebar_item_title">
@@ -318,7 +321,7 @@
             </div>
 
 
-            <!--
+
             <div class="medlab_news_sidebar_item">
                 <div class="medlab_news_item_content_wrapper">
                     <div class="medlab_news_sidebar_item_title">

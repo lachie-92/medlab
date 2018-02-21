@@ -131,8 +131,8 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/developement">Products in Development</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/ems/nanabis">SAS - NanaBis (CBD:THC)</a></li>
                         <li role="separator" class="divider"></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/praceducationalresource">Practitioner Educational Resource</a></li>
-                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/nrgbiotic">NRGBiotic Showcase</a></li>
+                        <!--<li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/praceducationalresource">Practitioner Educational Resource</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/nrgbiotic">NRGBiotic Showcase</a></li>-->
                     </ul>
                 </li>
                 <li class="dropdown">

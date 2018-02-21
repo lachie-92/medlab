@@ -162,7 +162,7 @@
             </div>
             <!--
             --  Product Manual
-            -->
+
             <div class="col-md-12 col-sm-6 col-xs-6">
                 <div class="panel panel-primary medlab_panel medlab_product_list_side_bar_panel">
                     <div class="panel-body medlab_panel_content medlab_product_list_side_bar_panel_content">
@@ -175,7 +175,7 @@
                     </div>
                 </div>
             </div>
-
+            -->
             <!--
             -- No Login No Price Reminder
             -->
