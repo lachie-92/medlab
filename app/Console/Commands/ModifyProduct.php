@@ -8848,7 +8848,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Bifidobacterium longum</em> (Med15)</p>
+                                <p><em>Bifidobacterium longum</em> (Med 15)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>10 billion CFU*</p>
@@ -8859,7 +8859,7 @@ class ModifyProduct extends Command
                         </tr>
                         <tr>
                             <td width="273" valign="top">
-                                <p><em>Bifidobacterium bifidum</em></p>
+                                <p><em>Bifidobacterium bifidum</em> (Med 11)</p>
                             </td>
                             <td width="136" valign="top">
                                 <p>10 billion CFU*</p>
