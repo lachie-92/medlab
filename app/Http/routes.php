@@ -664,3 +664,7 @@ Route::post('/contact', 'ContactController@postSendEnquiryEmail');
 Route::get('/contact/map', function () {
     return view('pages.contact.map.index');
 });
+
+Route::group(['middleware' => 'authAdmin'], function () {
+    Route::get('/admin/nutraceuticals', 'Admin\NutraceuticalsController@index');
+});
