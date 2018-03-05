@@ -104,6 +104,43 @@ class UpdateDeal extends Command
                 'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
+            [
+                'product' => "NeuroActiv",
+                'name' => "Introductory Offer 4 + 1",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "StemGuard",
+                'name' => "Introductory Offer 4 + 1",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "Testo Restore",
+                'name' => "Introductory Offer 4 + 1",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 4 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '4',
+                'bonus_qty' => '1'
+            ],
+
 
 
         ];
