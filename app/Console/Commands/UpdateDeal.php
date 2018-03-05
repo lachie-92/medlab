@@ -57,27 +57,51 @@ class UpdateDeal extends Command
 
             //Till End of Feb 2018
             [
-                'product' => "Enbiotic 60's",
-                'name' => "January/February 2018 Deals",
+                'product' => "NanoCelle Activated B12",
+                'name' => "March 2018 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
+                'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/01/2018 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '28/02/2018 23:59:59'),
-                'minimum_qty' => '4',
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
             [
-                'product' => "GastroDaily",
-                'name' => "January/February 2018 Deals",
+                'product' => "NanoCelle B12",
+                'name' => "March 2018 Deals",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
+                'description' => 'Buy 3 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/01/2018 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '28/02/2018 23:59:59'),
-                'minimum_qty' => '4',
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "NanoCelle D3",
+                'name' => "March 2018 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "NanoCelle D3 + K2",
+                'name' => "March 2018 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '3',
                 'bonus_qty' => '1'
             ],
 
