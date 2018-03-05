@@ -213,6 +213,7 @@
 
 
 
+                        <!--
 
                         <a name="ClinicalConsultantNSW"></a>
                         <ul>
@@ -252,6 +253,7 @@
                         <p>Apply by emailing your cover letter and resume to <a href="mailto:recruit@medlab.co?Subject=Job Application - Clinical Consulatant NSW">recruit@medlab.co</a></p>
                         <hr>
 
+-->
 
 
 
