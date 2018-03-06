@@ -214,6 +214,10 @@ Route::get('/education/giveaways', function () {
     return view('pages.education.giveaways.index');
 });
 
+Route::get('/patientrewards', function () {
+    return view('pages.education.patient-rewards.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Help
