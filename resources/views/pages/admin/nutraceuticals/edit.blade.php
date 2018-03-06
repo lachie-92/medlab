@@ -139,6 +139,7 @@
                     'item'  => $product,
                 ])
                 <button type="submit" class="btn btn-primary">Save</button>
+                <a href="{{ route('admin.nutraceuticals') }}" class="btn btn-default">Cancel</a>
             </form>
         </div>
     </div>
