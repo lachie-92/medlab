@@ -14,6 +14,7 @@
                         <th>Name</th>
                         <th>Price</th>
                         <th>Wholesale Price</th>
+                        <th>Delete</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -22,6 +23,13 @@
                         <td><a href="{{ route('admin.nutraceuticals.edit', $product->slug )}}">{{ $product->product_name }}</a></td>
                         <td>${{ number_format($product->price_retail, 2) }}</td>
                         <td>${{ number_format($product->price_wholesale, 2) }}</td>
+                        <td>
+                            <form action="{{ route('admin.nutraceuticals.destroy', $product->slug) }}" method="POST" onSubmit="return confirm('Are you sure? This cannot be undone.')">
+                                {{ csrf_field() }}
+                                {{ method_field('DELETE') }}
+                                <button type="submit" class="btn btn-danger">Delete</button>
+                            </form>
+                        </td>
                     </tr>
                 @endforeach
                 </tbody>
