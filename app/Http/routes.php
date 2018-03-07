@@ -379,7 +379,7 @@ Route::get('/research/medlab-delivery-platform', function () {
 });
 
 Route::get('/research/patents', function () {
-    return view('pages.research.patents.index');
+    return view('pages.research.patents.index', [ 'patents' => App\Patent::all() ]);
 });
 
 Route::get('/research/clinical-trials', function () {
@@ -672,4 +672,12 @@ Route::group(['middleware' => 'authAdmin'], function () {
     Route::get('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@edit')->name('admin.nutraceuticals.edit');
     Route::put('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@update')->name('admin.nutraceuticals.update');
     Route::delete('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@destroy')->name('admin.nutraceuticals.destroy');
+
+
+    Route::get('/admin/patents', 'Admin\PatentsController@index')->name('admin.patents');
+    Route::get('/admin/patents/new', 'Admin\PatentsController@create')->name('admin.patents.create');
+    Route::post('/admin/patents/new', 'Admin\PatentsController@store')->name('admin.patents.store');
+    Route::get('/admin/patents/{patentId}', 'Admin\PatentsController@edit')->name('admin.patents.edit');
+    Route::put('/admin/patents/{patentId}', 'Admin\PatentsController@update')->name('admin.patents.update');
+    Route::delete('/admin/patents/{patentId}', 'Admin\PatentsController@destroy')->name('admin.patents.destroy');
 });
