@@ -18,7 +18,7 @@ class NutraceuticalsController extends Controller
      */
     public function index()
     {
-        $products = Product::all();
+        $products = Product::orderBy('product_name')->paginate();
 
         return view('pages.admin.nutraceuticals.index', compact('products'));
     }

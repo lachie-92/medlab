@@ -37,6 +37,7 @@
                 @endforeach
                 </tbody>
             </table>
+            {!! $products->render() !!}
             <br /><br />
             <div class="pull-right">
                 <a href="{{ route('admin.nutraceuticals.create') }}" class="btn btn-primary">New Nutraceutical</a>
