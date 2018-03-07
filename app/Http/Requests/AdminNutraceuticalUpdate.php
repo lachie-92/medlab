@@ -47,8 +47,8 @@ class AdminNutraceuticalUpdate extends Request
             'in_stock'              => 'boolean',
             'price_retail'          => 'required|numeric',
             'price_wholesale'       => 'required|numeric',
-            'image_path'            => 'image',
-            'thumb_image_path'      => 'image',
+            'image_path'            => 'mimes:jpeg,bmp,png',
+            'thumb_image_path'      => 'mimes:jpeg,bmp,png',
 
         ];
     }

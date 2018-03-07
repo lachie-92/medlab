@@ -37,6 +37,11 @@
                 @endforeach
                 </tbody>
             </table>
+            <br /><br />
+            <div class="pull-right">
+                <a href="{{ route('admin.nutraceuticals.create') }}" class="btn btn-primary">New Nutraceutical</a>
+            </div>
+            <br /><br />
         </div>
     </div>
 </div>

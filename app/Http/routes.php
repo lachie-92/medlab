@@ -667,6 +667,8 @@ Route::get('/contact/map', function () {
 
 Route::group(['middleware' => 'authAdmin'], function () {
     Route::get('/admin/nutraceuticals', 'Admin\NutraceuticalsController@index')->name('admin.nutraceuticals');
+    Route::get('/admin/nutraceuticals/new', 'Admin\NutraceuticalsController@create')->name('admin.nutraceuticals.create');
+    Route::post('/admin/nutraceuticals/new', 'Admin\NutraceuticalsController@store')->name('admin.nutraceuticals.store');
     Route::get('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@edit')->name('admin.nutraceuticals.edit');
     Route::put('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@update')->name('admin.nutraceuticals.update');
     Route::delete('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@destroy')->name('admin.nutraceuticals.destroy');

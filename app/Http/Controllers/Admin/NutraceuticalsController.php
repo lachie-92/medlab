@@ -30,7 +30,7 @@ class NutraceuticalsController extends Controller
      */
     public function create()
     {
-        //
+        return view('pages.admin.nutraceuticals.create');
     }
 
     /**
@@ -39,9 +39,10 @@ class NutraceuticalsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(AdminNutraceuticalUpdateRequest $request)
     {
-        //
+        $product = new Product;
+        return $this->update($request, $product);
     }
 
     /**
@@ -85,10 +86,11 @@ class NutraceuticalsController extends Controller
             'productfaq',
             'conditions_associated',
             'additional_resources',
-            'in_stock',
             'price_retail',
             'price_wholesale',
         ]));
+
+        $product->in_stock = $request->has('in_stock');
 
         if ($request->hasFile('image_path')) {
             $destinationPath = sprintf('img/products/%s', $product->slug);
