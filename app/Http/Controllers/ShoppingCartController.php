@@ -276,13 +276,7 @@ class ShoppingCartController extends Controller
 
             return view('pages.shoppingcart.order.index', compact('order'));
         } else {
-            $errors = [];
-
-            foreach ($result->errors->deepAll() as $error) {
-                $errors[] = $error->message;
-            }
-
-            return redirect('/shoppingcart/summary')->with('errors', collect($errors));
+            return redirect('/shoppingcart/summary')->with('errors', $billing->errors);
         }
     }
 }

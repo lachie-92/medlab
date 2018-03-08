@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Config;
 class StripeBilling implements BillingInterface
 {
     public $clientToken;
+    public $errors;
 
     public function __construct()
     {
@@ -20,15 +21,20 @@ class StripeBilling implements BillingInterface
         $order = Order::find($request['order']);
         \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
 
-        $charge = \Stripe\Charge::create([
-            "amount"      => $order->grand_total * 100,
-            "currency"    => "aud",
-            "description" => "Example charge",
-            "source"      => $request['stripeToken'],
-            "metadata"    => [
-                "order_id" => $order->id,
-            ],
-        ]);
+        try {
+            $charge = \Stripe\Charge::create([
+                "amount"      => $order->grand_total * 100,
+                "currency"    => "aud",
+                "description" => "Example charge",
+                "source"      => $request['stripeToken'],
+                "metadata"    => [
+                    "order_id" => $order->id,
+                ],
+            ]);
+        } catch (\Stripe\Error\Base $e) {
+            $this->errors = collect($e->getMessage());
+            return false;
+        }
 
         if ($charge->captured) {
             $order->order_status       = 'Order Received';
