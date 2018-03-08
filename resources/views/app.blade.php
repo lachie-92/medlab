@@ -22,7 +22,7 @@
 
     <!-- App CSS -->
     <link rel="stylesheet" href="/css/app.css">
-    
+
 
 
 
@@ -31,6 +31,7 @@
     <script src="/js/map-config.js" type="text/javascript"></script>
     <script src="/js/pin-config.js" type="text/javascript"></script>
     <script src="/js/map-interact.js" type="text/javascript"></script>
+    <script src="https://js.stripe.com/v3/"></script>
 
 </head>
 

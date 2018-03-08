@@ -82,8 +82,7 @@ class ShoppingCartController extends Controller
 
         if ($updateIsSuccessful) {
             return redirect('/shoppingcart/cart');
-        }
-        else {
+        } else {
             return redirect('/shoppingcart/cart')->with('errors', collect(['Product is out of stock']));
         }
     }
@@ -156,19 +155,15 @@ class ShoppingCartController extends Controller
     public function getSummary(BillingInterface $billing)
     {
         // Return to previous step if no order is found in session
-        if (!session()->has('new_order')) return redirect('/shoppingcart/cart');
+        if (!session()->has('new_order')) {
+            return redirect('/shoppingcart/cart');
+        }
 
         // Retrieve order from session
         $order = session()->get('new_order');
 
-        // Select the view for the implemented billing class
-        if (get_class($billing) == 'App\Medlab\Billing\CommWebBilling') {
-            return view('pages.shoppingcart.commweb.index', compact('order'));
-        }
-        else {
-            $clientToken = $billing->getClientToken();
-            return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
-        }
+        $clientToken = $billing->getClientToken();
+        return view('pages.shoppingcart.summary.index', compact('order', 'clientToken'));
     }
 
     public function postCommWebDigitalOrder(ShoppingCartDigitalOrderRequest $request, BillingInterface $billing)
@@ -184,7 +179,6 @@ class ShoppingCartController extends Controller
 
         // Disallow order that has been previously processed and has a transaction reference
         if ($billing->orderAlreadyHasMerchTxnRef($request)) {
-
             // Create a new order from shopping cart to replace the already processed one
             $this->shoppingCart->retrieveBasket();
             $this->shoppingCart->getShippingAddress();
@@ -197,7 +191,7 @@ class ShoppingCartController extends Controller
         // Create CommWeb billing transaction for the Order
         $billingRequest = $billing->createBillingRequest($request);
         $vpc_url = $billing->generateBillingUrl($billingRequest);
-
+        dd($vpc_url);
         return Response::make('', 200, ['Location' => $vpc_url]);
     }
 
@@ -211,15 +205,12 @@ class ShoppingCartController extends Controller
 
         // Process the order if no errors are found
         if (count($errorMessages) == 0) {
-
             $order = $billing->processOrder($request);
             $mail->sendOrderReceivedNoticeToAdmin($order);
             $mail->sendOrderReceivedNoticeToClient($order);
 
             return redirect('/shoppingcart/digitalcheckout')->with('order', $order);
-        }
-        else {
-
+        } else {
             // Mail the error to the admin
             $error = array_merge($errorMessages, $request->all());
             $mail->sendCommWebReceiptErrorToAdmin($error);
@@ -232,7 +223,7 @@ class ShoppingCartController extends Controller
     {
         session()->forget('basket');
         session()->forget('new_order');
-        $order = Session::get( 'order' );
+        $order = Session::get('order');
 
         return view('pages.shoppingcart.order.index', compact('order'));
     }
@@ -243,8 +234,7 @@ class ShoppingCartController extends Controller
 
         if (count($errorMessages) == 0) {
             $log->pushHandler(new StreamHandler(storage_path("/logs/CommWebReceipt.log")));
-        }
-        else {
+        } else {
             $log->pushHandler(new StreamHandler(storage_path("/logs/CommWebReceiptError.log")));
         }
 
@@ -280,7 +270,6 @@ class ShoppingCartController extends Controller
         $result = $billing->processOrder($request);
 
         if ($result->success) {
-
             session()->forget('basket');
             session()->forget('new_order');
 
@@ -289,9 +278,7 @@ class ShoppingCartController extends Controller
             $mail->sendOrderReceivedNoticeToClient($order);
 
             return view('pages.shoppingcart.order.index', compact('order'));
-        }
-        else {
-
+        } else {
             $errors = [];
 
             foreach ($result->errors->deepAll() as $error) {

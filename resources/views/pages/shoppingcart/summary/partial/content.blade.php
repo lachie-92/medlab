@@ -1,11 +1,4 @@
-<!-----------------------------------------------------------------------------------
---
--- Shopping Cart - Summary
---
-------------------------------------------------------------------------------------->
-<!--
--- Error Box
--->
+<!-- Shopping Cart - Summary -->
 @if (count($errors) > 0)
     <div class="container" style="margin-top: 30px;">
         <div class="alert alert-danger" style="margin-bottom: 0;">
@@ -18,18 +11,14 @@
     </div>
 @endif
 
-<!--
--- Process Order Box
--->
+<!-- Process Order Box -->
 <form id="payment-form" class="form-horizontal" role="form" method="POST" action="/shoppingcart/checkout">
     <input type="hidden" name="_token" value="{{ csrf_token() }}">
     <input type="hidden" name="order" value="{{ $order->id }}">
 
     <div class="container" style="margin-top: 30px;">
         <div class="row">
-            <!--
-            -- Summary Box
-            -->
+            <!-- Summary Box -->
             <div class="col-md-6 col-sm-12">
                 <h3>Please Review Your Order :</h3>
                 <div class="row">
@@ -69,6 +58,7 @@
                                 Payment Option
                             </li>
                             <li class="list-group-item">
+                                @if (App::environment() != 'production')
                                 <div class="alert alert-info">
                                     This is a Test System. Please don't use real credit card or Paypal account.
                                     Use these test values instead:
@@ -76,13 +66,25 @@
                                     <br>
                                     <ul style="list-style-type: none;">
                                         <li>American Express: 378282246310005</li>
-                                        <li>Visa: 4111111111111111</li>
+                                        <li>Visa: 4242424242424242</li>
                                         <li>Mastercard: 5555555555554444</li>
-                                        <li>Paypal: Any valid email address and password</li>
                                     </ul>
                                     <br>
                                 </div>
-                                <div id="braintree-container"></div>
+                                @endif
+                                <div id="stripe-container">
+                                    <form action="/charge" method="post" id="payment-form">
+                                        <div class="form-row">
+                                            <label for="card-element">
+                                                Credit or debit card
+                                            </label>
+                                            <div id="card-element"></div>
+                                            <div id="card-errors" role="alert"></div>
+                                        </div>
+
+                                        <button class="btn btn-primary">Submit Payment</button>
+                                    </form>
+                                </div>
                             </li>
                         </ul>
 
@@ -90,9 +92,7 @@
                 </div>
             </div>
 
-            <!--
-            -- Order Summary Box
-            -->
+            <!-- Order Summary Box -->
             <div class="col-md-6 col-sm-12">
 
                 <h3>&nbsp;</h3>
@@ -185,9 +185,7 @@
 
         </div>
 
-        <!--
-        -- Bottom Navigation Box
-        -->
+        <!-- Bottom Navigation Box -->
         <div class="row">
             <div class="pull-left">
                 <a href="/shoppingcart/address">
