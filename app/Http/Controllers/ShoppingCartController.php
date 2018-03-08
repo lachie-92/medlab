@@ -260,16 +260,13 @@ class ShoppingCartController extends Controller
         $client_ip = $request->ip();
 
         $request = $request->only([
-            'payment_token',
-            'payment_type',
+            'stripeToken',
             'order'
         ]);
 
         $request['ip'] = $client_ip;
 
-        $result = $billing->processOrder($request);
-
-        if ($result->success) {
+        if ($billing->processOrder($request)) {
             session()->forget('basket');
             session()->forget('new_order');
 

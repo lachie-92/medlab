@@ -81,8 +81,6 @@
                                             <div id="card-element"></div>
                                             <div id="card-errors" role="alert"></div>
                                         </div>
-
-                                        <button class="btn btn-primary">Submit Payment</button>
                                     </form>
                                 </div>
                             </li>
