@@ -4,6 +4,7 @@ namespace App\Medlab\Billing;
 
 use App\Order;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Config;
 
 class StripeBilling implements BillingInterface
@@ -25,10 +26,13 @@ class StripeBilling implements BillingInterface
             $charge = \Stripe\Charge::create([
                 "amount"      => $order->grand_total * 100,
                 "currency"    => "aud",
-                "description" => "Example charge",
+                "description" => "Online Order",
                 "source"      => $request['stripeToken'],
                 "metadata"    => [
                     "order_id" => $order->id,
+                    "user"     => Auth::user()->id,
+                    "customer" => Auth::user()->customer_id,
+                    "email"    => Auth::user()->email,
                 ],
             ]);
         } catch (\Stripe\Error\Base $e) {
