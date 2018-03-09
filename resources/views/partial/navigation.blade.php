@@ -114,6 +114,7 @@
                     </a>
                     @endif
                 </li>
+                @if (auth()->user() && auth()->user()->group == 'Admin')
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
                         Admin
