@@ -115,6 +115,7 @@
                     @endif
                 </li>
                 @if (auth()->user() && auth()->user()->group == 'Admin')
+                <li class="vr"></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle medlab_navbar_dropdown" data-toggle="dropdown">
                         Admin
@@ -122,6 +123,7 @@
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/admin/nutraceuticals">Nutraceuticals</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/admin/patents">Patents</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/account/logout">Logout</a></li>
                     </ul>
                 </li>
                 @endif
@@ -129,6 +131,3 @@
         </div>
     </div>
 </nav>
-
-
-
