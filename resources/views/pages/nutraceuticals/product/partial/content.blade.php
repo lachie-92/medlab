@@ -108,62 +108,6 @@ $('.nav-tabs a').click(function (e) {
                 </div>
             </div>
             @endif
-
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        @if ( $product->product_name_index == "NOS" )
-                            FEATURES
-                        @else
-                            AS PER ARTG PUBLIC SUMMARY:
-                        @endif
-                    </div>
-                    <div class="panel-body medlab_panel_content" style="text-align: justify">
-
-                        {!! $product->practitioner_summary !!}
-
-                    </div>
-                </div>
-
-            @endif
-
-            <!--
-                References (Disabled)
-            -->
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && false)
-                <div class="panel panel-primary medlab_panel">
-                    <div class="panel-heading medlab_panel_title">
-                        REFERENCES
-                    </div>
-                    <div class="panel-body medlab_panel_content">
-
-                        {!! $product->references !!}
-
-                    </div>
-                </div>
-            @endif
-
-            <!--
-                Technical Button
-            -->
-            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && ($product->product_name_index !== 'NeuroActiv') && ($product->product_name_index !== 'Lactoferrin Enhanced')&& ($product->product_name_index !== 'StemGuard') && ($product->product_name_index !== 'Quatrefolic') && ($product->product_name_index !== 'BifidoBiotic') && ($product->product_name_index !== 'Testo Restore')  )
-                    <div class="panel panel-primary medlab_panel">
-                        <div class="panel-heading medlab_panel_title">
-                            PRACTITIONER INFORMATION
-                        </div>
-                        <div class="col-md-offset-2 col-sm-offset-2">
-                            <div class="panel-body medlab_panel_content" style="text-align: justify">
-
-                                <button type="button" class="btn btn-primary practitioner_info_btn" link="/education/practitioner-education/{{ $product->slug }}">IMPORTANT PRACTITIONER EDUCATIONAL INFORMATION HERE</button>
-
-                            </div>
-                        </div>
-                    </div>
-                @endif
-
-
-
         </div>
 
         <!--

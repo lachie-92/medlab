@@ -753,6 +753,8 @@ footer:first-of-type {
 
 .medlab_product_ingredients_table {
   font-size: 12px; }
+  .medlab_product_ingredients_table tr {
+    background-color: transparent !important; }
 
 .pagination li a,
 .pagination li a:hover,
