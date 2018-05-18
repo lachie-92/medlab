@@ -5,3 +5,5 @@
 /.idea
 
 tests/_output/*
+_ide_helper.php
+composer.lock

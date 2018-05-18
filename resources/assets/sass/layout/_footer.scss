@@ -4,10 +4,15 @@
 //
 /////////////////////////////////////////////////////////////////////////////////
 
+footer:first-of-type {
+  background-color: #FFF;
+  padding-top: 8px;
+  border-top: 15px solid $footer-top-border-colour;
+}
+
 .medlab_footer_top_wrapper {
   background-color: $footer-top-background;
-  border-top: 3px solid $footer-top-border-colour;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 .medlab_footer_top_container {
@@ -23,9 +28,10 @@
 }
 
 .medlab_footer_top_site_map_box_header_link {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: bold;
   color: $medlab_footer_top_site_map_box_text;
-  font-family: "PT Sans Bold",sans-serif;
+  font-family: "Museo Sans Bold",sans-serif;
   &:hover, &:active, &:focus {
     color: $medlab_footer_top_site_map_box_text-hover;
   }
@@ -40,7 +46,7 @@
 .medlab_footer_top_site_map_box_link {
   font-size: 14px;
   color: $medlab_footer_top_site_map_box_text;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
   &:hover, &:active, &:focus {
     color: $medlab_footer_top_site_map_box_text-hover;
   }
@@ -55,6 +61,10 @@
 
 .medlab_footer_bottom_wrapper {
   background-color: $footer-bottom-background;
+
+  .fa {
+    font-size: 1.0em !important;
+  }
 }
 
 .medlab_footer_bottom_container {
@@ -65,13 +75,13 @@
   padding-bottom: 20px;
   color: $footer-bottom-contact-info-box-text;
   font-size: 12px;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
 }
 
 .medlab_footer_bottom_contact_info_box_header {
   color: $footer-bottom-contact-info-box-header-text;
   font-size: 16px;
-  font-family: "PT Sans Bold",sans-serif;
+  font-family: "Museo Sans Bold",sans-serif;
 }
 
 .medlab_footer_bottom_contact_info_box_link {
@@ -83,19 +93,18 @@
 }
 
 .medlab_footer_bottom_contact_info_box_icon {
-  background-color: $footer-bottom-contact-info-box-text;
-  color: $footer-bottom-background;
+  color: inherit;
   width: 30px;
   height: 30px;
   text-align: center;
   display: inline-block;
-  font-size: 18px;
-  margin-right: 3px;
+  font-size: 36px;
+  margin-right: 13px;
   line-height: 30px;
 }
 
 .medlab_footer_bottom_copyright_box {
-  border-top: 1px solid $footer-bottom-copyright-box-border-colour;
+  border-top: 2px solid $footer-bottom-copyright-box-border-colour;
   padding-top: 20px;
   color: $footer-bottom-copyright-box-text;
   font-size: 12px;

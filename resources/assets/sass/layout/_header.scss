@@ -1,0 +1,56 @@
+header {
+	background-color: $header-background;
+
+	.row {
+		max-width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	div.contact {
+		padding-top: 40px;
+		padding-right: 35px;
+		color: $medlab-blue;
+
+		a {
+			color: inherit;
+		}
+
+		span {
+			border-right: 1px solid $medlab-blue;
+			padding-left: 15px;
+			padding-right: 15px;
+
+			&:last-of-type {
+				border-right: none;
+				padding-right: 0;
+			}
+		}
+
+		.social {
+			font-size: 1.5em;
+
+			a {
+				padding-left: 10px;
+			}
+		}
+
+		@media (max-width: 990px) {
+			display: block;
+			float: none;
+			text-align: center;
+		}
+	}
+
+	div.logo {
+		@media (max-width: 990px) {
+			display: block;
+			text-align: center;
+
+			img {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+}

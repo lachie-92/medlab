@@ -35,6 +35,9 @@ class PractitionerOnlyController extends Controller
             case "multibiotic-60s":
                 return view('pages.education.practitioner-education.human-microbial-interface.index');
                 break;
+            case "12mg-optima-relax-10pk-sachets-lemon-lime":
+                return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
+                break;
             case "12mg-optima-relax":
                 return view('pages.education.practitioner-education.magnesium-bisglycinate.index');
                 break;
@@ -96,6 +99,9 @@ class PractitionerOnlyController extends Controller
                 return view('pages.education.practitioner-education.is-vitamin-d3-essential.index');
                 break;
             case "orsbiotic":
+                return view('pages.education.practitioner-education.new-concept-of-oral-rehydration.index');
+                break;
+            case "orsbiotic-10pk-sachets":
                 return view('pages.education.practitioner-education.new-concept-of-oral-rehydration.index');
                 break;
             case "SB-5B":

@@ -39,7 +39,7 @@
                         cycle and stimulates muscle protein synthesis through the insulin-signaling cascade during
                         catabolic periods such as fasting or energy restriction.<sup>14,15</sup> Further, leucine supplementation
                         stimulates recovery of muscle protein synthesis after exercise. The mechanisms of leucine
-                        appear to contribute to a metabolic advantage during weight loss.<sup>15</sup> Acetyl-L-Carnitine is
+                        appear to contribute to a metabolic advantage during weight loss.<sup>15</sup> L-Carnitine is
                         crucial for beta-oxidation, facilitating the transport of long-chain fatty acids across the
                         mitochondrial membrane for oxidation. When combined with weight loss motivation, the beneficial
                         effects of L-Carnitine are amplified including significant body weight loss and a decrement of

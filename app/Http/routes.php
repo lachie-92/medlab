@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('pages.home.index');
+    return view('pages.home.landing');
 });
 Route::get('/index.html', function () {
-    return view('pages.home.index');
+    return view('pages.home.landing');
 });
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -30,7 +30,7 @@ Route::post('/account/login', 'LoginController@postLogin');
 
 Route::get('/account/logout', 'LoginController@getLogout');
 
-Route::get('/account/register', function() {
+Route::get('/account/register', function () {
     return redirect('/account/login');
 });
 
@@ -46,7 +46,7 @@ Route::get('/account/recovery', 'Auth\PasswordController@getEmail');
 
 Route::post('/account/recovery', 'Auth\PasswordController@postEmail');
 
-Route::get('/account/reset', function() {
+Route::get('/account/reset', function () {
     return redirect('/account/recovery');
 });
 
@@ -108,11 +108,14 @@ Route::get('/nutraceuticals/ingredients', 'NutraceuticalsController@ingredients'
 Route::group(['middleware' => 'authPractitioner'], function () {
 
     Route::get('/nutraceuticals/praceducationalresource', 'NutraceuticalsController@faq');
-
 });
 
 Route::get('/nutraceuticals/nrgbiotic', function () {
     return view('pages.nutraceuticals.nrgbiotic.index');
+});
+
+Route::get('/nutraceuticals/developement', function () {
+    return view('pages.nutraceuticals.developement.index');
 });
 
 ///////////////////////////////////////////////////////////////////////////////////
@@ -188,9 +191,31 @@ Route::group(['middleware' => 'authPractitioner'], function () {
         return view('pages.education.webinars.probiotics.index');
     });
 
+    
+});
+Route::get('/education/webinars/stress-and-fatigue', function () {
+    return view('pages.education.webinars.stress.index');
 });
 
+Route::get('/education/webinars/register', function () {
+    return view('pages.education.webinars.register.index');
+});
 
+Route::get('/education/webinars/recordings', function () {
+    return view('pages.education.webinars.recordings.index');
+});
+
+Route::get('/education/webinars/recordings/2017-year-in-review', function () {
+    return view('pages.education.webinars.2017-year-in-review.index');
+});
+
+Route::get('/education/giveaways', function () {
+    return view('pages.education.giveaways.index');
+});
+
+Route::get('/patientrewards', function () {
+    return view('pages.education.patient-rewards.index');
+});
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
@@ -204,6 +229,14 @@ Route::get('/help', function () {
 
 Route::get('/help/website-registration', function () {
     return view('pages.help.website-registration.index');
+});
+
+Route::get('/medical-cannabis/expression-of-interest', function () {
+    return view('pages.medical-cannabis.index');
+});
+
+Route::get('medical-cannabis/application-form', function () {
+    return view('pages.medical-cannabis.application-form.index');
 });
 
 
@@ -236,28 +269,62 @@ Route::get('/order/shipping-and-delivery', function () {
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
-// Investor
+// Corporate
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/corporate', function () {
+    return view('pages.corporate.corporate.index');
+});
+
+Route::get('/corporate/corporate-governance', function () {
+    return view('pages.corporate.corporate-governance.index');
+});
+
+Route::get('/corporate/prospectus', function () {
+    return view('pages.corporate.prospectus.index');
+});
+
+Route::get('/corporate/asx-announcements', function () {
+    return view('pages.corporate.asx-announcements.index');
+});
+
+Route::get('/corporate/share-price', function () {
+    return view('pages.corporate.share-price.index');
+});
+
+Route::get('/corporate/executive-team', function () {
+    return view('pages.corporate.executive-team.index');
+});
+
+Route::get('/corporate/consulting-team', function () {
+    return view('pages.corporate.consulting-team.index');
+});
+
+///////////////////////////////////////////////////////////////////////////////////
+//
+// Investor Redirects
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
 Route::get('/investor', function () {
-    return view('pages.investor.investor.index');
+    return Redirect::to('/corporate/investor');
 });
 
 Route::get('/investor/corporate-governance', function () {
-    return view('pages.investor.corporate-governance.index');
+    return Redirect::to('/corporate/corporate-governance');
 });
 
 Route::get('/investor/prospectus', function () {
-    return view('pages.investor.prospectus.index');
+    return Redirect::to('/corporate/prospectus');
 });
 
 Route::get('/investor/asx-announcements', function () {
-    return view('pages.investor.asx-announcements.index');
+    return Redirect::to('/corporate/asx-announcements');
 });
 
 Route::get('/investor/share-price', function () {
-    return view('pages.investor.share-price.index');
+    return Redirect::to('/corporate/share-price');
 });
 
 
@@ -312,11 +379,15 @@ Route::get('/research/medlab-delivery-platform', function () {
 });
 
 Route::get('/research/patents', function () {
-    return view('pages.research.patents.index');
+    return view('pages.research.patents.index', [ 'patents' => App\Patent::all() ]);
 });
 
-Route::get('/research/clinical-trails', function () {
+Route::get('/research/clinical-trials', function () {
     return view('pages.research.clinical-trails.index');
+});
+
+Route::get('/research/scientific-team', function () {
+    return view('pages.research.scientific-team.index');
 });
 
 Route::get('/research/medlab-cell-line', function () {
@@ -327,8 +398,107 @@ Route::get('/research/splash', function () {
     return view('pages.research.splash.index');
 });
 
+Route::get('/research/clinical-trials/contract-1', function () {
+    return view('pages.research.clinical-trails.contract-1.index');
+});
+
+Route::get('/research/clinical-trials/nanocelled3', function () {
+    return view('pages.research.clinical-trails.nanocelled3.index');
+});
+
+Route::get('/research/clinical-trials/contract-2', function () {
+    return view('pages.research.clinical-trails.contract-2.index');
+});
+
+Route::get('/research/clinical-trials/contract-3', function () {
+    return view('pages.research.clinical-trails.contract-3.index');
+});
+
+Route::get('/research/clinical-trials/magnesium-orotate', function () {
+    return view('pages.research.clinical-trails.magnesium-orotate.index');
+});
+
+Route::get('/research/clinical-trials/nanabidial', function () {
+    return view('pages.research.clinical-trails.nanabidial.index');
+});
+
+Route::get('/research/clinical-trials/nanabidial-2', function () {
+    return view('pages.research.clinical-trails.nanabidial-2.index');
+});
+
+Route::get('/research/clinical-trials/nanabis', function () {
+    return view('pages.research.clinical-trails.nanabis.index');
+});
+
+Route::get('/research/clinical-trials/nanocelle-b12', function () {
+    return view('pages.research.clinical-trails.nanocelle-b12.index');
+});
+
+Route::get('/research/clinical-trials/nanocelle-cbd', function () {
+    return view('pages.research.clinical-trails.nanocelle-cbd.index');
+});
+
+Route::get('/research/clinical-trials/nanocelle-coq10', function () {
+    return view('pages.research.clinical-trails.nanocelle-coq10.index');
+});
+
+Route::get('/research/clinical-trials/nanocelle-insulin', function () {
+    return view('pages.research.clinical-trails.nanocelle-insulin.index');
+});
+
+Route::get('/research/clinical-trials/nanostat', function () {
+    return view('pages.research.clinical-trails.nanostat.index');
+});
+
+Route::get('/research/clinical-trials/nrgbiotic', function () {
+    return view('pages.research.clinical-trails.nrgbiotic.index');
+});
+
+Route::get('/research/clinical-trials/nrgbiotic-pilot', function () {
+    return view('pages.research.clinical-trails.nrgbiotic-pilot.index');
+});
+
+Route::get('/research/clinical-trials/t2-biotic', function () {
+    return view('pages.research.clinical-trails.t2-biotic.index');
+});
+
+Route::get('/research/clinical-trials/aborvitae', function () {
+    return view('pages.research.clinical-trails.aborvitae.index');
+});
+
+Route::get('/EMS/NanaBis', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/EMS/Nanabis', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/ems/nanabis', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/EMS/NanaBidial', function () {
+    return view('pages.research.sas.Nanabidial.index');
+});
+
+Route::get('/EMS/Nanabidial', function () {
+    return view('pages.research.sas.Nanabidial.index');
+});
+
+Route::get('/ems/nanabidial', function () {
+    return view('pages.research.sas.Nanabidial.index');
+});
 
 
+Route::get('/ems/nanabis/nanabis', function () {
+    return view('pages.research.sas.index');
+});
+
+
+Route::get('/nanabis/seminar', function () {
+    return view('pages.research.sas.nanabis.seminar.index');
+});
 
 
 
@@ -340,6 +510,10 @@ Route::get('/research/splash', function () {
 
 Route::get('/about', function () {
     return view('pages.about.about-us.index');
+});
+
+Route::get('/about/news', function () {
+    return view('pages.about.news.index');
 });
 
 Route::get('/about/about-medlab', function () {
@@ -359,15 +533,15 @@ Route::get('/about/a-new-era', function () {
 });
 
 Route::get('/about/executive-team', function () {
-    return view('pages.about.executive-team.index');
+    return Redirect::to('/corporate/executive-team');
 });
 
 Route::get('/about/consulting-team', function () {
-    return view('pages.about.consulting-team.index');
+    return Redirect::to('/corporate/consulting-team');
 });
 
 Route::get('/about/scientific-team', function () {
-    return view('pages.about.scientific-team.index');
+    return Redirect::to('/research/scientific-team');
 });
 
 Route::get('/about/board-of-directors', function () {
@@ -381,6 +555,7 @@ Route::get('/about/letter-from-ceo', function () {
 Route::get('/about/careers', function () {
     return view('pages.about.careers.index');
 });
+
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
@@ -402,8 +577,20 @@ Route::group(['middleware' => 'authPractitioner'], function () {
         return view('pages.efficacy.magazine_mm17.index');
     });
 
+    Route::get('/efficacy/magazine_ja17', function () {
+        return view('pages.efficacy.magazine_ja17.index');
+    });
+
     Route::get('/efficacy/podcast', function () {
         return view('pages.efficacy.podcast.index');
+    });
+
+    Route::get('/efficacy/magazine_sn17', function () {
+        return view('pages.efficacy.magazine_sn17.index');
+    });
+
+    Route::get('/efficacy/magazine_jm18', function () {
+        return view('pages.efficacy.magazine_jm18.index');
     });
 
 
@@ -473,3 +660,24 @@ Route::get('/nutraceuticals/products/{productSlug}/info/{language}', 'Practition
 Route::get('/contact', 'ContactController@getShowContactInformation');
 
 Route::post('/contact', 'ContactController@postSendEnquiryEmail');
+
+Route::get('/contact/map', function () {
+    return view('pages.contact.map.index');
+});
+
+Route::group(['middleware' => 'authAdmin'], function () {
+    Route::get('/admin/nutraceuticals', 'Admin\NutraceuticalsController@index')->name('admin.nutraceuticals');
+    Route::get('/admin/nutraceuticals/new', 'Admin\NutraceuticalsController@create')->name('admin.nutraceuticals.create');
+    Route::post('/admin/nutraceuticals/new', 'Admin\NutraceuticalsController@store')->name('admin.nutraceuticals.store');
+    Route::get('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@edit')->name('admin.nutraceuticals.edit');
+    Route::put('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@update')->name('admin.nutraceuticals.update');
+    Route::delete('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@destroy')->name('admin.nutraceuticals.destroy');
+
+
+    Route::get('/admin/patents', 'Admin\PatentsController@index')->name('admin.patents');
+    Route::get('/admin/patents/new', 'Admin\PatentsController@create')->name('admin.patents.create');
+    Route::post('/admin/patents/new', 'Admin\PatentsController@store')->name('admin.patents.store');
+    Route::get('/admin/patents/{patentId}', 'Admin\PatentsController@edit')->name('admin.patents.edit');
+    Route::put('/admin/patents/{patentId}', 'Admin\PatentsController@update')->name('admin.patents.update');
+    Route::delete('/admin/patents/{patentId}', 'Admin\PatentsController@destroy')->name('admin.patents.destroy');
+});

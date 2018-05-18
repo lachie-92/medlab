@@ -55,8 +55,8 @@ class MedlabMailer
     {
         $this->mail = $mail;
         $this->mandrill = $mandrill;
-        $this->adminEmailAddress = env('MAIL_ADMIN_ADDRESS', 'henry_wu@medlab.co');
-        $this->orderEmailAddress = env('MAIL_ORDER_ADDRESS', 'sales@medlab.co');
+        $this->adminEmailAddress = env('MAIL_ADMIN_ADDRESS', 'lachlan_young@medlab.co');
+        $this->orderEmailAddress = env('MAIL_ORDER_ADDRESS', 'salesorder@medlab.co');
         $this->replyEmailAddress = env('MAIL_REPLY_ADDRESS', 'hello@medlab.co');
     }
 
@@ -193,9 +193,9 @@ class MedlabMailer
 
         $this->mail->queue('emails.enquiry', $data, function($message) use ($enquiry, $to) {
 
-            $message->from($enquiry['email'])
+            $message->from("no-reply@medlab.co")
                 ->to($to)
-                ->subject('Medlab - Enquiry from ' . $enquiry['name']);
+                ->subject('Contact Us - Enquiry from ' . $enquiry['name'] );
         });
     }
 
@@ -301,6 +301,10 @@ class MedlabMailer
                         'content' => $order->shipping_address_last_name
                     ),
                     array(
+                        'name' => 'SHIP_BNAME',
+                        'content' => $order->shipping_address_business_name
+                    ),
+                    array(
                         'name' => 'SHIP_STREET',
                         'content' => $order->shipping_address_street
                     ),
@@ -339,6 +343,10 @@ class MedlabMailer
                     array(
                         'name' => 'BILL_LNAME',
                         'content' => $order->billing_address_last_name
+                    ),
+                    array(
+                        'name' => 'BILL_BNAME',
+                        'content' => $order->billing_address_business_name
                     ),
                     array(
                         'name' => 'BILL_STREET',

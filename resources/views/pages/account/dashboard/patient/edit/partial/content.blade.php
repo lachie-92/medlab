@@ -230,7 +230,7 @@
                                 <div class="well" style="background-color: transparent; background-image: none">
                                     <form class="form-horizontal" role="form" method="POST" action="/account/edit/address">
                                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
-                                        <h4 class="medlab_registration_form_section_title">Address</h4>
+                                        <h4 class="medlab_registration_form_section_title">Default Shipping Address</h4>
                                         <div class="row">
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">

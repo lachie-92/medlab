@@ -14,7 +14,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-
     }
 
     /**
@@ -26,7 +25,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $this->app->bind(
             'App\Medlab\Billing\BillingInterface',
-            'App\Medlab\Billing\CommWebBilling'
+            'App\Medlab\Billing\StripeBilling'
         );
 
         $this->app->bind(

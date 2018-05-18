@@ -15,12 +15,72 @@
                 </div>
                 <div class="panel-body medlab_panel_content">
 
+
+                    <p>
+                        <span style="text-decoration: underline; font-size: medium;">
+                            <strong>Currently Under Review (2017-2018)</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Michael Thomsen, Stephen Clarke, Luis Vitetta.</strong>
+                            Cancer Treatments with Adjuvant Probiotics: Inflammation and the Intestinal Microbiome–Epithelia–Mucosa Immune Axis Beneficial Microbes. 2017
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Michael Thomsen, Luis Vitetta.</strong>
+                            A review of functional foods for the prevention of chemotherapy and radiotherapy induced mucositis. <em>Advances in Integrative Medicine. 2017</em>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Robert J Ellis, David M Small, Keng Lim Ng, David A Vesey, Luis Vitetta, Ross S Francis, Glenda C Gobe, Christudas Morais.</strong>
+                            Indoxyl sulfate induces apoptosis and hypertrophy in human kidney proximal tubular cells. <em>Nephrology 2017.</em>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Simone A. Osborne, Qianyun Sharon Du, Paul P. Masci, Robyn A. Daniel, Kirthi Desilva, Luis Vitetta, Kong-Nan Zhao, Robert B. Seymour.</strong>
+                            Oral administration of dermatan sulfate from bovine collagen waste liquor reduces venous thrombus formation in vivo. <em>Journal of Thrombosis and Hemostasis 2017-2018</em>
+                        </span>
+                    </p>
+
+                    <hr>
+
                     <p>
                         <span style="text-decoration: underline; font-size: medium;">
                             <strong>Publications</strong>
                         </span>
                     </p>
 
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
+                            <strong>2018:</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Emma Tali Saltzman, Talia Palacios, Michael Thomsen, Luis Vitetta.</strong>
+                            Intestinal microbiome shifts, dysbiosis, inflammation and non-alcoholic fatty liver disease. <em>Frontiers in Microbiology – section Microbial Immunology. 2017</em>
+                        </span>
+                    </p>
+
+                    <p>
+                        <a href="http://www.mdpi.com/2079-4983/9/1/12/html" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Luis Vitetta, Joyce Zhou, Rachel Manuel, Serena Dal Forno, Sean Hall and David Rutolo</strong>
+                                Route and Type of Formulation Administered Influences the Absorption and Disposition of Vitamin B12 Levels in Serum<em>Vaccines 2018</em>
+                            </span>
+                        </a>
+                    </p>
+
+                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
@@ -28,6 +88,52 @@
                         </span>
                     </p>
 
+                    <p>
+                        <a href="http://www.mdpi.com/2076-393X/5/4/50" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Luis Vitetta, Emma Saltzman, Michael Thomsen, Tessa Nikov, Sean Hall.</strong>
+                                Adjuvant Probiotics and the Intestinal Microbiome: Can Vaccines and Immunotherapy be Enhanced? <em>Journal of Functional Biomaterials 2018, 9(1), 12; doi: 10.3390/jfb9010012</em>
+                            </span>
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/29048765" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Deterring M, Steels E, Koyyalamudi SR, Allifranchini E, Bocchieto E, Vitetta L. </strong>Ageratum conyzoides L. inhibits 5-alpha-reductase gene expression in human prostate cells and reduces symptoms of benign prostatic hypertrophy in otherwise healthy men in a double blind randomized placebo controlled clinical study. <em>BioFactors 2017 Oct 19. doi: 10.1002/biof.1389.</em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="http://www.sciencedirect.com/science/article/pii/S2095754816301764" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Liu, Xin  Hollingworth, Samantha & Williams, Gail & Martin, Jennifer & Kostner, Karam & Crompton, David & Xue, Charlie & Vitetta, Luis.</strong> Use of complementary and alternative medicines in people with depression and central obesity: findings from a Tai Chi and Qigong study. <em>Journal of Traditional Chinese Medical Sciences 2017;10.1016/j.jtcms.2017.09.006. </em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28805667" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Marx W, McCarthy AL, Ried K, McKavanagh D, Vitetta L, Sali A, Lohning A, Isenring E.</strong> The Effect of a Standardized Ginger Extract on Chemotherapy-Induced Nausea-Related Quality of Life in Patients Undergoing Moderately or Highly Emetogenic Chemotherapy: A Double Blind, Randomized, Placebo Controlled Trial.<em>Nutrients. 2017 Aug 12;9(8).</em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28665349" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Saltzman ET, Thomsen M, Hall S, Vitetta L.</strong> Perna canaliculus and the Intestinal Microbiome. <em>Mar Drugs 2017 Jun 30;15(7).</em>
+                            </span>
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/28573069" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Heritage M, Jaskowski L, Bridle K, Campbell C, Briskey D, Britton L, Fletcher L, Vitetta L, Subramaniam VN, Crawford D. </strong>
+                                Combination curcumin and vitamin E treatment attenuates diet-induced steatosis in Hfe-/- mice.
+                                <em>  World J Gastrointest Pathophysiol 2017;8(2):67-76.</em>
+                            </span>
+                        </a>
+                    </p>
                     <p>
                         <a href="http://www.mdpi.com/journal/marinedrugs/special_issues/Nutraceuticals" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
@@ -85,6 +191,15 @@
                     </p>
                     -->
 
+                    <p>
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/26239363" target="_blank">
+                            <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
+                                <strong>Ellis RJ, Small DM, Vesey DA, Johnson DW, Francis R, Vitetta L, Gobe GC, Morais C. </strong>
+                                Indoxyl sulphate and kidney disease: Causes, consequences and interventions.
+                                <em>Nephrology (Carlton). 2016 Mar;21(3):170-7.</em>
+                            </span>
+                        </a>
+                    </p>
                     <p>
                         <a href="https://www.ncbi.nlm.nih.gov/pubmed/27854317" target="_blank">
                             <span style="font-family: arial, helvetica, sans-serif; font-size: small; color: #000000;">
@@ -153,7 +268,6 @@
                         </a>
                     </p>
 
-                    <br>
                     <br>
 
                     <p>
@@ -244,7 +358,6 @@
                         </a>
                     </p>
 
-                    <br>
                     <br>
 
                     <p>
@@ -359,7 +472,6 @@
                     </p>
 
                     <br>
-                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: small;">
@@ -449,16 +561,97 @@
                         </a>
                     </p>
 
-                    <br>
-                    <br>
+                    <hr>
 
                     <p>
                         <strong>
                             <span style="font-size: medium;">
-                                Conference Presentations and Proceedings
+                                <u>
+                                    Conference Presentations and Proceedings
+                                </u>
                             </span>
                         </strong>
                     </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>2017:</strong>
+                        </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong> Intestinal Microbiome & Cancer Treatments/ Gut health Panel. NIIM Integrative Medicine: The art & science, 4th Annual Symposium 2017. Friday 24th November. Richmond, Melbourne
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L, Clarke S, Thomsen M.</strong> The intestinal microbiome, chemotherapy and adjuvant treatments with probiotics. Asia-Pacific Journal of Clinical Oncology [Clinical Oncological Society of Australia] 2017; November 13-15; 13(4):98, ABS#105. Sydney, Australia.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong> Mitigating Chronic Diseases. General Practice Conference & Exhibition Melbourne. 10th-12th November 2017. Melbourne Exhibition Centre.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Palacios T, Vitetta L, Madigan C, Caterson I.</strong> Prediabetes and Early Diagnosed T2DM: safety tolerability and pilot exploratory study preliminary results. 5th MICROBIOME R and D and BUSINESS COLLABORATION FORUM: USA COLLABORATIONS IN MICROBIOME RESEARCH, LIVE BACTERIAL THERAPEUTICS, HUMAN HEALTH & DISEASE |  2nd PROBIOTICS CONGRESS: San Diego, USA. USA. 2-3 November 2017.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong> Cancer Treatments, the Intestinal Microbiome and Probiotics. IPA World Congress | Asia Probiota. Singapore. 11-13 October 2017.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Palacios T, Vitetta L, Madigan C, Caterson I.</strong>  The development of a evidence-based probiotic formulation and its efficacy in obesity and type 2 diabetes.  4th Beneficial Microbes Conference, Amsterdam, The Netherlands. 9-11 October 2017.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Hall S.</strong> Mitigating the symptoms of chronic diseases through the administration of probiotics. Functional Food Center 22nd International Conference for Chronic Diseases. Harvard Medical School, Boston USA .23rd September 2017.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong> Mood disorders cognition and the intestinal mucosa. Australian Society of Lifestyle Medicine Sydney, Australia. 15-17 September 2017.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Kalma B, Ellis RJ, Vitetta L, Wood ST, Gobe GC.</strong> Pilot Study: Urinary Indoxyl Sulphate As A Predictor Of Postoperative Kidney Function Following Radical Tumour Nephrectomy.   54th Australian and New Zealand Society of Nephrology. Annual Scientific Meeting Sydney, Australia. 8-12 September 2017.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Talia Palacios, Ian Caterson, Claire Madigan, Luis Vitetta.</strong> The Efficacy Of A Novel Probiotic On Glucose Metabolism: A Randomised Controlled Trial. The 4th Latin America Congress on Controversies to Consensus in Diabetes, Obesity and Hypertension. Buenos Aires, Argentina. 2017 Mar 16-18.
+                    </span>
+                    </p>
+
+                    <p>
+                        <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
+                            <strong>Vitetta L.</strong> The intestinal microbiome, metabolic diseases and probiotics. BIT 15th International Conference: IDDST. Osaka, Japan.  Jul 26-28 2017
+                                </span>
+                    </p>
+
+
+
+
+
+
+
+                    </p><br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
@@ -613,7 +806,6 @@
                     </p>
 
                     <br>
-                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
@@ -684,7 +876,6 @@
                     </p>
 
                     <br>
-                    <br>
 
                     <p>
                         <span style="font-family: arial, helvetica, sans-serif; font-size: small;">
@@ -745,8 +936,7 @@
                         </span>
                     </p>
 
-                    <br>
-                    <br>
+                    <hr>
 
                     <p>
                         <strong>

@@ -1,10 +1,24 @@
 //////////////////////////////////////////////////////////////////////////
 //
+// Brand colours
+//
+//////////////////////////////////////////////////////////////////////////
+$medlab-blue: #174a8a;
+$medlab-blue-dark: #0e2850;
+$theme-products: #b6d13d;
+$theme-research: #ef5b5c;
+$theme-corporate: #6cc7d0;
+$theme-default: $theme-corporate;
+$product-gradient: linear-gradient(to right, #FFF, #f6fcfd, #b3e1e8);
+
+//////////////////////////////////////////////////////////////////////////
+//
 // Colours for body elements
 //
 //////////////////////////////////////////////////////////////////////////
 
 $body-background: #F2F3F9;
+$header-background: #FFFFFF;
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -16,11 +30,11 @@ $body-background: #F2F3F9;
 $navi-background: #FFF;
 $navi-login-background: #F2F3F9;
 $navi-active-colour: #F8F8F8;
-$navi-text-colour: #1E5494;
+$navi-text-colour: #FFFFFF;
 $navi-text-colour-focus: #000000;
 $navi-submenu-background-colour: #F8F8F8;
 $navi-submenu-text-colour: #555;
-$navi-submenu-background-colour-focus: #7AA43F;
+$navi-submenu-background-colour-focus: $theme-default;
 $navi-submenu-text-colour-focus: #FFF;
 $navi-login-text-colour: #777;
 $navi-border-colour: #7AA43F;
@@ -75,7 +89,7 @@ $breadcrumb-link: #1E5494;
 //////////////////////////////////////////////////////////////////////////
 
 $panel-border-colour: #DDD;
-$panel-title-background: #1E5494;
+$panel-title-background: $medlab-blue-dark;
 $panel-title-text: #FFF;
 $panel-content-background: #FFF;
 $panel-content-text: #333;
@@ -88,18 +102,18 @@ $panel-content-link: #7AA43F;
 //
 //////////////////////////////////////////////////////////////////////////
 
-$footer-top-background: #1E5494;
+$footer-top-background: #174b8a;
 $footer-top-border-colour: #7AA43F;
 $medlab_footer_top_site_map_box_text: #EAEAEA;
 $medlab_footer_top_site_map_box_text-hover: #FFFFFF;
 
-$footer-bottom-background: #232323;
+$footer-bottom-background: #000014;
 $footer-bottom-contact-info-box-text: #C0C0C0;
 $footer-bottom-contact-info-box-text-hover: #FFFFFF;
 $footer-bottom-contact-info-box-header-text: #FFF;
 
-$footer-bottom-copyright-box-border-colour: #555;
-$footer-bottom-copyright-box-text: #777;
+$footer-bottom-copyright-box-border-colour: #9d9fa2;
+$footer-bottom-copyright-box-text: #FFFFFF;
 $footer-bottom-copyright-box-text-hover: #FFFFFF;
 
 
@@ -115,9 +129,9 @@ $product-info-title-text: #FFF;
 $product-info-in-stock: #3C763D;
 $product-info-out-of-stock: #FF0000;
 $product-info-label: #555;
-$product-info-price: #F15C22;
-$product-info-shop-button-background: #F15C22;
-$product-info-shop-button-background-focus: #EB4C0F;
+$product-info-price: $medlab-blue-dark;
+$product-info-shop-button-background: $medlab-blue-dark;
+$product-info-shop-button-background-focus: $medlab-blue-dark;
 $product-info-shop-button-text: #FFF;
 
 

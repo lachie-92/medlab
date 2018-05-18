@@ -57,9 +57,10 @@
                     </p>
 
                     <p>
-                        <strong>1 (b) (iii)</strong> No Promotional offers, or discounted pricing may be displayed on Medlab products in the online environment.
-                        This includes the public and private sections of your website. It also includes but is not limited to, social media, such as Facebook,
-                        Twitter and Instagram as well as online blogs, forums, or any other visible public interface online.
+                        <strong>1 (b) (iii)</strong> No Promotional offers, or discounted pricing may be displayed on Medlab products in the public
+                        online environment. This includes sections of your website that are open access to general public, as well as, social media,
+                        such as Facebook, Twitter, Instagram and online blogs, forums, or any other visible public interface online. All pricing must
+                        only be made available after secure login to the aforementioned website.
                     </p>
 
                     <p>

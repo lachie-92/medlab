@@ -55,9 +55,7 @@ class AddressValidator
     {
         $deliveryOptionList = [
             'Signature Required',
-            'Leave just out of the weather',
-            'Leave near the front door',
-            'Follow the Delivery Instruction'
+            'Authority to leave unattended',
         ];
 
         $isValid = false;
@@ -71,6 +69,6 @@ class AddressValidator
 
     public function validDeliveryOptionError($message, $attribute, $rule, $parameters)
     {
-        return 'Invalid Delivery Option';
+        return 'Invalid Delivery Instruction';
     }
 }

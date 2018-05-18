@@ -281,11 +281,6 @@ class ShoppingCart {
         if (empty($this->shippingAddress)) {
             $this->shippingAddress = $this->repository->createUserShippingAddress($this->user);
         }
-        else {
-            // Clean up Delivery Option if present
-            $this->shippingAddress['delivery_instruction'] =
-                ltrim(strstr($this->shippingAddress['delivery_instruction'], ' - '), ' - ');
-        }
     }
 
     /**
@@ -298,20 +293,14 @@ class ShoppingCart {
         $shippingAddress['title'] = $update['shipping_title'];
         $shippingAddress['first_name'] = $update['shipping_first_name'];
         $shippingAddress['last_name'] = $update['shipping_last_name'];
+        $shippingAddress['business_name'] = $update['shipping_business_name'];
         $shippingAddress['street'] = $update['shipping_street_address_one'];
         $shippingAddress['suburb'] = $update['shipping_street_address_two'];
         $shippingAddress['state'] = $update['shipping_state'];
         $shippingAddress['country'] = $update['shipping_country'];
         $shippingAddress['postcode'] = $update['shipping_postcode'];
         $shippingAddress['phone'] = $update['shipping_phone'];
-        $shippingAddress['delivery_option'] = $update['delivery_option'];
-
-        if(empty($update['delivery_instruction']) == true) {
-            $shippingAddress['delivery_instruction'] = $update['delivery_option'];
-        }
-        else {
-            $shippingAddress['delivery_instruction'] = $update['delivery_option'] . ' - ' . $update['delivery_instruction'];
-        }
+        $shippingAddress['delivery_instruction'] = $update['delivery_instruction'];
 
         $this->shippingAddress = $shippingAddress;
         session()->put('shippingAddress', $this->shippingAddress);
@@ -340,6 +329,7 @@ class ShoppingCart {
         $billingAddress['title'] = $update['billing_title'];
         $billingAddress['first_name'] = $update['billing_first_name'];
         $billingAddress['last_name'] = $update['billing_last_name'];
+        $billingAddress['business_name'] = $update['billing_business_name'];
         $billingAddress['street'] = $update['billing_street_address_one'];
         $billingAddress['suburb'] = $update['billing_street_address_two'];
         $billingAddress['state'] = $update['billing_state'];

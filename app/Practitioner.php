@@ -85,6 +85,32 @@ class Practitioner extends Model {
             });
     }
 
+    //for new Non-Practitioner Group
+    public function scopePractitionerOnly($query) {
+        $query
+            ->whereHas('user', function($q) {
+                $q
+                    ->where('group', 'Practitioner');
+            });
+    }
+
+    //valid practitioner model only
+    public function scopeValidOnly($query) {
+        $query
+            ->whereHas('user', function($q) {
+                $q
+                    ->whereHas('customer', function($q) {
+                        $q
+                            ->where('id', '!=', 0);
+
+                    });
+            })
+            ->whereHas('company', function($q) {
+                $q
+                    ->where('id', '!=', 0);
+            });
+    }
+
     //
     // Model Relationships
     //

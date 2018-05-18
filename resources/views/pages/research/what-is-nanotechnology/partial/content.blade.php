@@ -11,6 +11,14 @@
                     Medlab Delivery Platform
                 </div>
                 <div class="panel-body medlab_panel_content">
+
+                    <h3><strong>NanoCelle™ Medicine Delivery Platform</strong></h3>
+
+
+                        <iframe src="https://player.vimeo.com/video/221381546" width="640" height="360" align="middle" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+                    <hr>
+
                     <p>
                         <h3><strong>WHAT IS NANOTECHNOLOGY</strong></h3>
                     </p>
@@ -142,7 +150,7 @@
                     <h3><strong>NANOCELLE</strong></h3>
                     </p>
                     <p style="text-align: justify;">
-                        <h3>Please see below an example of Medlab's nanotechnology.<br><br></></h3>
+                        <h3>Please see below an example of Medlab's nanotechnology.<br><br></h3>
                         <img class="img-responsive" width="700" src="/img/research/nanocelle7.png" title="Nanoparticles"/><br>
                         <h3><strong>Administration and route of absorption</strong></h3>
                     </p>
@@ -154,7 +162,7 @@
                         <li>More permeable to water-soluble drugs than keratinized epithelia i.e. hard palate</li>
                         <li>Blood flow faster / richer compared to sublingual, gingival and palatal regions</li>
                         <li>Passive diffusion of Nanocelle<sup>TM</sup> drug molecules facilitated and enhanced</li>
-                                        </p></div>
+                        </p></div>
                     <br>
                     <p style="text-align: justify;">
                     <h3><strong>GIT Barrier to Drug Absorption / Bioavailability</strong></h3>
@@ -172,10 +180,10 @@
                         HREC Number: 003/032014
                     </p>
                     <p style="text-align: justify;">
-                        N=40
+                        N=50
                     </p>
                     <br>
-                    <img class="img-responsive" src="/img/research/nanocelle5.png" style="width:600px" title="B12 Comparative blood work"/>
+                    <img class="img-responsive" src="/img/research/nanocelle5.jpg" style="width:600px" title="B12 Comparative blood work"/>
                     <img class="img-responsive" src="/img/research/nanocelle6.png" style="width:600px" title="B12 Comparative blood work"/>
                     <br>
                     <p>
@@ -213,111 +221,217 @@
                                 <th>Particle</th>
                                 <th>Particle Size (nm)</th>
                                 <th>Concentration</th>
+                                <th>Dosage</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr><td></td><td></td><td></td></tr>
                             <tr>
-                                <td style=" background-color: #fff">Ampicillin Sodium Salt (2162016AMP)-antibiotics</td>
+                                <td style=" background-color: #fff">Ampicillin Sodium Salt (2162016AMP)- antibiotics</td>
                                 <td style=" background-color: #fff;">12.85</td>
                                 <td style=" background-color: #fff;">2 mg/mL</td>
+                                <td style=" background-color: #fff;">0.6 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Atorvasatatin (1022015ATO)</td>
+                                <td style=" background-color: #fff">Atorvastatin (1022015ATO)</td>
                                 <td style=" background-color: #fff;">11.41</td>
                                 <td style=" background-color: #fff;">10 mg/mL</td>
+                                <td style=" background-color: #fff;">3 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Atorvastatin (1232015ATO)</td>
+                                <td style=" background-color: #fff">Atorvastatin (1232015ATO)</td>
                                 <td style=" background-color: #fff;">89.31</td>
                                 <td style=" background-color: #fff;">0.1 mg/mL</td>
+                                <td style=" background-color: #fff;">0.03 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Atorvastatin-25 (12142015ATO25)</td>
+                                <td style=" background-color: #fff">Atorvastatin (03212017ATO)</td>
+                                <td style=" background-color: #fff;">14.4</td>
+                                <td style=" background-color: #fff;">8.3 mg/mL</td>
+                                <td style=" background-color: #fff;">2.49 mg/0.3mL</td>
+                            </tr>
+
+                            <tr>
+                                <td style=" background-color: #fff">Atorvastatin (3152017ATO)</td>
+                                <td style=" background-color: #fff;">19.37</td>
+                                <td style=" background-color: #fff;">13.3 mg/mL</td>
+                                <td style=" background-color: #fff;">3.99 mg/0.3mL</td>
+                            </tr>
+
+                            <tr>
+                                <td style=" background-color: #fff">Atorvastatin-25 (12142015ATO25)</td>
                                 <td style=" background-color: #fff;">14.62</td>
                                 <td style=" background-color: #fff;">1.67 mg/mL</td>
+                                <td style=" background-color: #fff;">0.5 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Atorvastatin-30 (12142015ATO30)</td>
+                                <td style=" background-color: #fff">Atorvastatin-30 (12142015ATO30)</td>
                                 <td style=" background-color: #fff;">14.37</td>
                                 <td style=" background-color: #fff;">1.67 mg/mL</td>
+                                <td style=" background-color: #fff;">0.5 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Atorvastation (2162016ATO)</td>
+                                <td style=" background-color: #fff">Atorvastatin (2162016ATO)</td>
                                 <td style=" background-color: #fff;">12.71</td>
                                 <td style=" background-color: #fff;">10 mg/mL</td>
+                                <td style=" background-color: #fff;">3 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Beta-Estradiol (2162016EST)-hormones</td>
+                                <td style=" background-color: #fff">Beta-Estradiol (2162016EST)-hormones</td>
                                 <td style=" background-color: #fff;">16.43</td>
                                 <td style=" background-color: #fff;">1 mg/mL</td>
+                                <td style=" background-color: #fff;">0.3 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Insulin  (1022015INS)</td>
+                                <td style=" background-color: #fff">Fexofenadine (TelfastTM)</td>
+                                <td style=" background-color: #fff;">10.6</td>
+                                <td style=" background-color: #fff;">4 mg/mL</td>
+                                <td style=" background-color: #fff;">1.2 mg/0.3mL</td>
+                            </tr>
+
+                            <tr>
+                                <td style=" background-color: #fff">Dexamethasone (2162016DEX)-hormones</td>
+                                <td style=" background-color: #fff;">13.17</td>
+                                <td style=" background-color: #fff;">2.6 mg/mL</td>
+                                <td style=" background-color: #fff;">0.78 mg/0.3mL</td>
+                            </tr>
+
+                            <tr>
+                                <td style=" background-color: #fff">Insulin (1022015INS)</td>
                                 <td style=" background-color: #fff;">3.843</td>
                                 <td style=" background-color: #fff;">15 IU/mL</td>
+                                <td style=" background-color: #fff;">4.5 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Perindopril Erbumine (2162016PER)-ACEi</td>
+                                <td style=" background-color: #fff">Perindopril Erbumine (2162016PER)-ACEi</td>
                                 <td style=" background-color: #fff;">12.7</td>
                                 <td style=" background-color: #fff;">7 mg/mL</td>
+                                <td style=" background-color: #fff;">2.1 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Progestogen (2162016PRO)-hormones</td>
+                                <td style=" background-color: #fff">Progestogen (2162016PEO)-hormones</td>
                                 <td style=" background-color: #fff;">15.48</td>
                                 <td style=" background-color: #fff;">2 mg/mL</td>
+                                <td style=" background-color: #fff;">0.6 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Rosuvastatin (1022015ROS)-statin</td>
+                                <td style=" background-color: #fff">Rosuvastatin (1022015ROS)-statin</td>
                                 <td style=" background-color: #fff;">12.19</td>
                                 <td style=" background-color: #fff;">2 mg/mL</td>
+                                <td style=" background-color: #fff;">0.6 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Sertraline Hydrochloride (2162016SER)-SSRI</td>
+                                <td style=" background-color: #fff">Rosuvastatin (1022015ROS)-statin</td>
+                                <td style=" background-color: #fff;">12.19</td>
+                                <td style=" background-color: #fff;">2 mg/mL</td>
+                                <td style=" background-color: #fff;">0.6 mg/0.3mL</td>
+                            </tr>
+
+                            <tr>
+                                <td style=" background-color: #fff">Sertraline Hydrochloride (2162016SER)-SSRI</td>
                                 <td style=" background-color: #fff;">15.21</td>
                                 <td style=" background-color: #fff;">0.5 mg/mL</td>
+                                <td style=" background-color: #fff;">0.15 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style=" background-color: #fff;">Testosterone Propionate (1232015TES)-hormones</td>
+                                <td style=" background-color: #fff">Testosterone Propionate (123015TES)-hormones</td>
                                 <td style=" background-color: #fff;">14.31</td>
                                 <td style=" background-color: #fff;">15 mg/mL</td>
+                                <td style=" background-color: #fff;">4.5 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td></td><td></td><td></td>
+                                <td style=" background-color: #fff">CoQ10 (2182916CoQ10)</td>
+                                <td style=" background-color: #fff;">32.3</td>
+                                <td style=" background-color: #fff;">100 mg/mL</td>
+                                <td style=" background-color: #fff;">30 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td></td><td></td><td></td>
+                                <td style=" background-color: #fff">CoQ10 (2182916CoQ10)</td>
+                                <td style=" background-color: #fff;">32.3</td>
+                                <td style=" background-color: #fff;">100 mg/mL</td>
+                                <td style=" background-color: #fff;">30 mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style="background-color: #fff;">CoQ10 (2182016CoQ10)</td>
-                                <td style="background-color: #fff;">32.3</td>
-                                <td style="background-color: #fff;">30mg/0.3mL</td>
+                                <td style=" background-color: #fff">D3</td>
+                                <td style=" background-color: #fff;">194</td>
+                                <td style=" background-color: #fff;">3333 IU/ mL</td>
+                                <td style=" background-color: #fff;">1000 IU/0.3 mL</td>
                             </tr>
+
                             <tr>
-                                <td style="background-color: #fff;">D3</td>
-                                <td style="background-color: #fff;">31.01</td>
-                                <td style="background-color: #fff;">1000 IU/0.3 mL</td>
+                                <td style=" background-color: #fff">D3 & K2 (2182016D3K2)</td>
+                                <td style=" background-color: #fff;">28</td>
+                                <td style=" background-color: #fff;">3333 IU+150mcg/0.3 mL</td>
+                                <td style=" background-color: #fff;">1000 IU+45 mcg/0.3 mL</td>
                             </tr>
+
                             <tr>
-                                <td style="background-color: #fff;">D3 & K2 (2182016D3K2)</td>
-                                <td style="background-color: #fff;">28</td>
-                                <td style="background-color: #fff;">1000 IU+ 45 mg/0.3 mL</td>
+                                <td style=" background-color: #fff">Melatonin (2182016MEL)</td>
+                                <td style=" background-color: #fff;">23</td>
+                                <td style=" background-color: #fff;">8.3 mg/mL</td>
+                                <td style=" background-color: #fff;">2.5mg/0.3mL</td>
                             </tr>
+
                             <tr>
-                                <td style="background-color: #fff;">Melatonin (2182016MEL)</td>
-                                <td style="background-color: #fff;">23</td>
-                                <td style="background-color: #fff;">2.5 mg/0.3 mL</td>
+                                <td style=" background-color: #fff">Cyanocobalamin B12 </td>
+                                <td style=" background-color: #fff;">24.8</td>
+                                <td style=" background-color: #fff;">3333 IU/ mL</td>
+                                <td style=" background-color: #fff;">1000 IU/0.3 mL</td>
                             </tr>
+
                             <tr>
-                                <td style="background-color: #fff;">Cyanocobalamin B12</td>
-                                <td style="background-color: #fff;">24.8</td>
-                                <td style="background-color: #fff;">1000mg/0.3 mL</td>
+                                <td style=" background-color: #fff">Methylcobalamin B12 (2182016B12)</td>
+                                <td style=" background-color: #fff;">18.9</td>
+                                <td style=" background-color: #fff;">3333 IU/ mL</td>
+                                <td style=" background-color: #fff;">1000 IU/0.3 mL</td>
                             </tr>
+
                             <tr>
-                                <td style="background-color: #fff;">Methlycobalamin B12  (2182016B12)</td>
-                                <td style="background-color: #fff;">18.9</td>
-                                <td style="background-color: #fff;">1000mg/0.3 mL</td>
+                                <td style=" background-color: #fff">Vitamin A Tropical with Zinc</td>
+                                <td style=" background-color: #fff;">To be tested</td>
+                                <td style=" background-color: #fff;">20000 IU Vitamin A with 1333 mcg Zn/mL</td>
+                                <td style=" background-color: #fff;">6000 IU Vitamin A with 400 mcg Zn/0.3mL</td>
                             </tr>
+
+                            <tr>
+                                <td style=" background-color: #fff">Hemp Seed Oil Tropical</td>
+                                <td style=" background-color: #fff;">To be tested</td>
+                                <td style=" background-color: #fff;">33.3 mg/mL</td>
+                                <td style=" background-color: #fff;">10mg/0.3mL</td>
+                            </tr>
+
+                            <tr>
+                                <td style=" background-color: #fff">NanaBidialTM (CBD)</td>
+                                <td style=" background-color: #fff;">To be tested</td>
+                                <td style=" background-color: #fff;">8.3 mg/mL</td>
+                                <td style=" background-color: #fff;">2.5mg/0.3mL</td>
+                            </tr>
+
+                            <tr>
+                                <td style=" background-color: #fff">NanaBisTM (CBD+THC)</td>
+                                <td style=" background-color: #fff;">To be tested</td>
+                                <td style=" background-color: #fff;">8.3 mg/mL</td>
+                                <td style=" background-color: #fff;">2.5mg/0.3mL</td>
+                            </tr>
+
+
+
+
 
                         </tbody>
                     </table>

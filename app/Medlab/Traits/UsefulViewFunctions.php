@@ -67,9 +67,9 @@ trait UsefulViewFunctions {
     {
         return [
             '' => '',
-            'company' => 'Company',
-            'partnership' => 'Partnership',
-            'sole_enterprise_or_trade' => 'Sole Enterprise/Trade',
+            'Company' => 'Company',
+            'Partnership' => 'Partnership',
+            'Sole Enterprise/Trade' => 'Sole Enterprise/Trade',
         ];
     }
 
@@ -99,16 +99,8 @@ trait UsefulViewFunctions {
     private function createDeliveryOptionList()
     {
         return [
-            'Upon Delivery' => [
-                'Signature Required' => 'Signature Required'
-            ],
-            'If unavailable to sign for order' => [
-                'Leave just out of the weather' => 'Leave just out of the weather',
-                'Leave near the front door' => 'Leave near the front door',
-            ],
-            'Others' => [
-                'Follow the Delivery Instruction' => 'Follow the Delivery Instruction'
-            ]
+            'Signature Required' => 'Signature Required',
+            'Authority to leave unattended' => 'Authority to leave unattended'
         ];
     }
 }

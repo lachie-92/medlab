@@ -1,7 +1,27 @@
-body {
+body:not(.landing) {
   background-color: $body-background;
+  font-family: "Museo Sans";
+  letter-spacing: 0.1em;
+  font-weight: 300;
 }
 
 .wrap {
   min-height: 600px;
+
+  &.research,
+  &.products,
+  &.corporate {
+    margin-top: 8px;
+    border-top: 8px solid;
+
+    &.research {
+        border-color: $theme-research;
+    }
+    &.products {
+        border-color: $theme-products;
+    }
+    &.corporate {
+        border-color: $theme-corporate;
+    }
+  }
 }

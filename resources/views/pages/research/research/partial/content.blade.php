@@ -56,11 +56,11 @@
                     <br>
 
                     <p>
-                        <a href="/img/research/researchprogression.jpg">
-                            <img class="img-responsive center-block" src="/img/research/researchprogression.jpg" title="Research Progression"/>
+                        <a href="/img/research/progression.png">
+                            <img class="img-responsive center-block" src="/img/research/progression.png" title="Research Progression"/>
                         </a>
                         <br>
-                        As at 9th March 2017
+                        As at 11th May 2017
                     </p>
 
                     <br>

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name=dropbox-domain-verification content=fs0qd6txxt64 />
 
     <link rel="icon" type="image/ico" href="/img/favicon.ico">
 
@@ -22,15 +23,37 @@
     <!-- App CSS -->
     <link rel="stylesheet" href="/css/app.css">
 
+
+
+
+    <link rel="stylesheet" type="text/css" href="/css/map-style.css" />
+    <script src="/js/jquery.min.js" type="text/javascript"></script>
+    <script src="/js/map-config.js" type="text/javascript"></script>
+    <script src="/js/pin-config.js" type="text/javascript"></script>
+    <script src="/js/map-interact.js" type="text/javascript"></script>
+    <script src="https://js.stripe.com/v3/"></script>
+
 </head>
 
-<body>
+@if (Request::is('research*'))
+<body class="research">
+@elseif  (Request::is('corporate*'))
+<body class="corporate">
+@else
+<body class="products">
+@endif
 
 
-
+@include('partial.header')
 @include('partial.navigation')
 
-<div class="wrap">
+@if (Request::is('research*'))
+<div class="wrap research">
+@elseif  (Request::is('corporate*'))
+<div class="wrap corporate">
+@else
+<div class="wrap products">
+@endif
 
 @yield('content')
 
@@ -44,7 +67,7 @@
 <!-- Bootstrap Javascript -->
 <script src="/js/bootstrap.min.js"></script>
 
-<!-- Good Analytics -->
+<!-- Google Analytics -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -55,6 +78,19 @@
     ga('send', 'pageview');
 
 </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109816292-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109816292-1');
+</script>
+
+
+
 
 <!-- App script -->
 <script src="/js/all.js"></script>

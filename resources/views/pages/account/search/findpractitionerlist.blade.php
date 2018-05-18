@@ -11,14 +11,17 @@
         </thead>
         <tbody>
             @foreach($filtered_practitioners as $practitioner)
+                <?php
+                    $company_address = $practitioner->company->company_addresses->where('type', 'Physical')->first();
+                ?>
                 <tr>
                     <td>
                         <input type="radio" name="practitioner_id" value="{{ $practitioner->id }}" style="margin-left: 20px"></input>
                     </td>
                     <td>{{ $practitioner->user->customer->name }}</td>
                     <td>{{ $practitioner->company->name }}</td>
-                    <td>{{ $practitioner->company->company_addresses->where('type', 'Physical')->first()->address }}</td>
-                    <td>{{ $practitioner->company->company_addresses->where('type', 'Physical')->first()->suburb }}</td>
+                    <td>@if(count($company_address) > 0){{ $practitioner->company->company_addresses->where('type', 'Physical')->first()->address }}@endif</td>
+                    <td>@if(count($company_address) > 0){{ $practitioner->company->company_addresses->where('type', 'Physical')->first()->suburb }}@endif</td>
                 </tr>
             @endforeach
         </tbody>

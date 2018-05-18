@@ -14,7 +14,7 @@ return [
     */
 
     'password' => 'Passwords must be at least six characters and match the confirmation.',
-    'user' => "Please enter the email address which you received this link from.",
+    'user' => "The Email Address you have entered is not in our system.",
     'token' => 'This password reset link has expired, please request a new password reset email from our website.',
     'sent' => 'We have e-mailed your password reset link!',
     'reset' => 'Your password has been reset!',

@@ -4,6 +4,8 @@ namespace App\Medlab\Repositories;
 use App\Patient_Registration;
 use App\Practitioner;
 use App\Practitioner_Registration;
+use Illuminate\Contracts\Filesystem\Cloud;
+use Illuminate\Support\Facades\App;
 
 class RegistrationRepository implements RegistrationRepositoryInterface
 {
@@ -98,7 +100,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'password' => bcrypt($request->password),
             'clinic_name' => $request->clinic_name,
             'business_type' => $request->business_type,
-            'business_number' => $request->business_number,
+            'business_number' => substr($request->business_number, 0,2) . " " . substr($request->business_number, 2,3) . " " . substr($request->business_number, 5,3) . " " . substr($request->business_number, 8,3),
             'primary_profession' => $request->primary_profession,
             'association_number' => $request->association_number,
             'association_type' => $request->association_type,
@@ -109,6 +111,7 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'postcode' => $request->postcode,
             'telephone' => $request->telephone,
             'mobile_phone' => $request->mobile_phone,
+            'fax' => $request->fax,
             'approval' => null,
             'credit_application' => intval($request->credit_application),
             'been_bankrupt' => $been_bankrupt,
@@ -116,6 +119,51 @@ class RegistrationRepository implements RegistrationRepositoryInterface
             'patient_billing' => intval($request->patient_billing),
             'is_owner' => $is_owner
         ]);
+
+        //qualification file
+        if ($request->hasFile('qualification_file'))
+        {
+            //Check if the file uploaded is valid
+            if ($request->file('qualification_file')->isValid()) {
+
+                $cloud = App::make('Illuminate\Contracts\Filesystem\Cloud');
+
+                //Remove existing folder
+                $cloud->deleteDirectory("website_registration/practitioner/" . $registration->first_name . "_" . $registration->last_name . "_" . $registration->id . "/qualification");
+
+                $uploadedFile = $request->file('qualification_file');
+
+                //Get file information
+                $path           =   $uploadedFile->getRealPath();
+                $size           =   $uploadedFile->getSize();
+                $mime           =   $uploadedFile->getMimeType();
+                $originalName   =   $uploadedFile->getClientOriginalName();
+                $extension      =   $uploadedFile->getClientOriginalExtension();
+
+                //Insert into
+                $registration->qualification_file_path = "website_registration/practitioner/" . $registration->first_name . "_" . $registration->last_name . "_" . $registration->id . "/qualification/" . $originalName;
+                $registration->qualification_file_name = $originalName;
+                $registration->qualification_file_mime = $mime;
+
+                //Upload to S3
+                $isSuccessful = $cloud->put($registration->qualification_file_path, file_get_contents($uploadedFile));
+
+                //Save the model to the database if the upload is successful
+                if ($isSuccessful)
+                {
+                    $registration->save();
+                }
+                else
+                {
+                    //Handle error here
+                    echo 'Upload failed for file to support diagnosis: S3 api failure';
+                }
+            }
+            else {
+                //Handle error here
+                echo 'Upload failed for file to support diagnosis: Invalid file format';
+            }
+        }
 
         return $registration;
     }
