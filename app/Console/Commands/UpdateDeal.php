@@ -55,117 +55,190 @@ class UpdateDeal extends Command
 
         $buy_one_get_one_free_deals = [
 
-            //Till End of March
+            //Till End of Feb 2018
             [
-                'product' => "BioticNatal",
-                'name' => "March 2017 Deals",
+                'product' => "NanoCelle Activated B12",
+                'name' => "March 2018 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "NanoCelle B12",
+                'name' => "March 2018 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "NanoCelle D3",
+                'name' => "March 2018 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "NanoCelle D3 + K2",
+                'name' => "March 2018 Deals",
+                'type' => "buy_one_get_one_free",
+                'apply_to_group' => 'Practitioner',
+                'description' => 'Buy 3 get 1 free',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
+                'minimum_qty' => '3',
+                'bonus_qty' => '1'
+            ],
+            [
+                'product' => "NeuroActiv",
+                'name' => "Introductory Offer 4 + 1",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
             ],
             [
-                'product' => "Immune-5 Vanilla",
-                'name' => "March 2017 Deals",
+                'product' => "StemGuard",
+                'name' => "Introductory Offer 4 + 1",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
             ],
             [
-                'product' => "Immune-5 Raspberry",
-                'name' => "March 2017 Deals",
+                'product' => "Testo Restore",
+                'name' => "Introductory Offer 4 + 1",
                 'type' => "buy_one_get_one_free",
                 'apply_to_group' => 'Practitioner',
                 'description' => 'Buy 4 get 1 free',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2018 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/03/2018 23:59:59'),
                 'minimum_qty' => '4',
                 'bonus_qty' => '1'
             ],
-            [
-                'product' => "Manuka-C 210g",
-                'name' => "March 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
-            [
-                'product' => "Manuka-C 105g",
-                'name' => "March 2017 Deals",
-                'type' => "buy_one_get_one_free",
-                'apply_to_group' => 'Practitioner',
-                'description' => 'Buy 4 get 1 free',
-                'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/03/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/03/2017 23:59:59'),
-                'minimum_qty' => '4',
-                'bonus_qty' => '1'
-            ],
+
+
 
         ];
 
         $discount_deals = [
 
-            //Discounted Price Example
+            //Till End of DEC
+            /*
             [
-                'product' => "NanoCelle B12",
-                'name' => "April 2017 Deals",
+                'product' => "Mg Optima Relax 150g Lemon Lime",
+                'name' => "December 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '30% off',
+                'description' => '30% Off',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2017 23:59:59'),
                 'discount_percentage' => '30'
             ],
             [
-                'product' => "NanoCelle Activated B12",
-                'name' => "April 2017 Deals",
+                'product' => "Mg Optima Relax 300g Lemon Lime",
+                'name' => "December 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '30% off',
+                'description' => '30% Off',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2017 23:59:59'),
                 'discount_percentage' => '30'
             ],
             [
-                'product' => "NanoCelle D3 + K2",
-                'name' => "April 2017 Deals",
+                'product' => "Mg Optima Relax 150g Citrus Tea",
+                'name' => "December 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '30% off',
+                'description' => '30% Off',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2017 23:59:59'),
                 'discount_percentage' => '30'
             ],
             [
-                'product' => "NanoCelle D3",
-                'name' => "April 2017 Deals",
+                'product' => "Mg Optima Relax 10pk Sachets Lemon Lime",
+                'name' => "December 2017 Deals",
                 'type' => "price_discount",
                 'apply_to_group' => 'Practitioner',
-                'description' => '30% off',
+                'description' => '30% Off',
                 'isActive' => true,
-                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/04/2017 00:00:00'),
-                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '30/04/2017 23:59:59'),
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2017 23:59:59'),
                 'discount_percentage' => '30'
             ],
+            [
+                'product' => "MultiBiotic 60's",
+                'name' => "December 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% Off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2017 23:59:59'),
+                'discount_percentage' => '30'
+            ],
+            [
+                'product' => "MultiBiotic 30's",
+                'name' => "December 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% Off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2017 23:59:59'),
+                'discount_percentage' => '30'
+            ],
+            [
+                'product' => "W8Biotic Lemon & Lime",
+                'name' => "December 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% Off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2017 23:59:59'),
+                'discount_percentage' => '30'
+            ],
+            [
+                'product' => "W8Biotic Strawberries & Cream",
+                'name' => "December 2017 Deals",
+                'type' => "price_discount",
+                'apply_to_group' => 'Practitioner',
+                'description' => '30% Off',
+                'isActive' => true,
+                'starting_date' => Carbon::createFromFormat('d/m/Y H:i:s', '01/12/2017 00:00:00'),
+                'end_date' => Carbon::createFromFormat('d/m/Y H:i:s', '31/12/2017 23:59:59'),
+                'discount_percentage' => '30'
+            ],
+            */
+
 
         ];
 

@@ -64,22 +64,23 @@
 
 
                         <p>
-                            <a href="/efficacy/magazine_mm17" target="_blank">
+                            <a href="/efficacy/magazine_jm18" target="_blank">
 
                                 <img alt="Medlab Efficacy Magazine Edition 3"
-                                     src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 MAY17 v1[1].jpg"
-                                     title="Medlab Efficacy Magazine Edition 3"
+                                     src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 JAN18 v1.jpg"
+                                     title="Medlab Efficacy Magazine Edition 6"
                                      width="350px"
                                      class="img-responsive">
 
                             </a>
                         </p>
 
-                        <p>Medlab Efficacy Edition 3: March 2017 - May 2017</p>
-                        <p>Medlab's exclusive online magazine - <a href="/efficacy/magazine_mm17">view here</a></p>
+                        <p>Medlab Efficacy Edition 6: January 2018 - March 2018</p>
+                        <p>Medlab's exclusive online magazine - <a href="/efficacy/magazine_sn17">view here</a></p>
 
 
                     </div>
+                    <!--
                     <div class="col-md-6 col-sm-6 col-xm-12">
 
 
@@ -101,10 +102,60 @@
 
 
                     </div>
+                    -->
 
 
             </div>
                 </div>
+
+            <!--
+            -- Practitioner only Deals
+            -->
+            <?php
+                $May = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-05-01 00:00:00');
+                $June = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-06-01 00:00:00');
+                $July = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-07-01 00:00:00');
+                $Aug = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-08-01 00:00:00');
+                $Sept = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-09-01 00:00:00');
+                $Oct = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-10-01 00:00:00');
+                $Nov = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-11-01 00:00:00');
+                $Dec = \Carbon\Carbon::createFromFormat('Y-m-d H:i:s', '2017-12-01 00:00:00');
+            ?>
+            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Nov->copy()->startOfMonth(), $Nov->copy()->endOfMonth())) )
+                <div class="panel panel-primary medlab_panel">
+                    <div class="panel-heading medlab_panel_title">
+                        November 2017 Deals
+                    </div>
+                    <div class="panel-body">
+                        <a href="/nutraceuticals/products">
+
+                            <img alt="November 2017 Deals"
+                                 src="/img/deals/Nov2017.jpg"
+                                 title="November 2017 Deals"
+                                 width="700px"
+                                 class="img-responsive center-block">
+
+                        </a>
+                    </div>
+                </div>
+            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (\Carbon\Carbon::now()->between($Dec->copy()->startOfMonth(), $Dec->copy()->endOfMonth())) )
+                <div class="panel panel-primary medlab_panel">
+                    <div class="panel-heading medlab_panel_title">
+                        December 2017 Deals
+                    </div>
+                    <div class="panel-body">
+                        <a href="/nutraceuticals/products">
+
+                            <img alt="December 2017 Deals"
+                                 src="/img/deals/Dec2017.jpg"
+                                 title="December 2017 Deals"
+                                 width="700px"
+                                 class="img-responsive center-block">
+
+                        </a>
+                    </div>
+                </div>
+            @endif
 
             <!--
             -- Order Summary

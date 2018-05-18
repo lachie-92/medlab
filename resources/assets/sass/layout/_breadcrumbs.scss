@@ -6,12 +6,13 @@
 
 .medlab_breadcrumbs_wrapper {
   background-color: $breadcrumbs-background;
+  display: none;
 }
 
 .medlab_breadcrumbs {
   margin-bottom: 0px;
   background-color: $breadcrumbs-background;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
   font-size: 13px;
 }
 

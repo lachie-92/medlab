@@ -1,0 +1,46 @@
+.nav-tabs {
+	background: $medlab-blue;
+	padding: 10px;
+	border-radius: 4px;
+
+	> li, > li.active {
+
+		border-right: 1px solid #FFF;
+
+		&:last-of-type {
+			border-right: none;
+		}
+
+		> a {
+			color: #FFF;
+			background: none;
+			border: none !important;
+			border-bottom: 0 !important;
+			padding-top: 0;
+			padding-bottom: 0;
+
+			&:hover {
+				border: none;
+				background: none;
+				color: #FFF;
+			}
+		}
+	}
+}
+
+.tab-content {
+	padding-bottom: 10px;
+
+	>.active {
+		border-radius: 4px;
+		background: $navi-border-colour;
+		margin-top: 10px;
+		padding: 10px;
+		color: #FFF;
+
+		.medlab_product_content_title {
+			color: #FFF;
+			font-weight: bold;
+		}
+	}
+}

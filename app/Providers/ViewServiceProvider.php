@@ -218,7 +218,7 @@ class ViewServiceProvider extends ServiceProvider
 
             $orderStatusList = [
                 'Order Received' => 'Order Received',
-                'Order Canceled' => 'Order Canceled',
+                'Order Cancelled' => 'Order Cancelled',
                 'Order Dispatched' => 'Order Dispatched',
                 'Order On-hold' => 'Order On-hold',
             ];

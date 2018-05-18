@@ -1,33 +1,36 @@
-<!-----------------------------------------------------------------------------------
---
--- Ingredient sort by name
---
-------------------------------------------------------------------------------------->
+<div class="container medlab_panel_container">
+    <div class="row">
+        <div class="col-md-9 col-sm-12 col-xs-12 medlab_product_main_column">
+            <h1>Ingredients List</h1>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 sorting_bar">
+            <div class="container-fluid medlab_product_list_sorting_bar_container">
+                <ul class="pagination medlab_product_list_sorting_bar">
+                    @foreach($ingredientList as $item => $class)
+                        <li class="{{ $class }}">
+                            <a href="?q={{ $item }}"> {{ $item }} </a>
+                        </li>
+                    @endforeach
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="container medlab_panel_container">
     <div class="row">
 
         <!--
-        --  Main Column
+            Main Column
         -->
         <div class="col-md-9 col-sm-12 col-xs-12 medlab_product_main_column">
 
             <!--
-            --  Alphabetical sorting bar
-            -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="container-fluid medlab_product_list_sorting_bar_container">
-                    <ul class="pagination medlab_product_list_sorting_bar">
-                        @foreach($ingredientList as $item => $class)
-                            <li class="{{ $class }}">
-                                <a href="?q={{ $item }}"> {{ $item }} </a>
-                            </li>
-                        @endforeach
-                    </ul>
-                </div>
-            </div>
-
-            <!--
-            --  Ingredient Listing
+                Ingredient Listing
             -->
             <div class="col-md-12 col-sm-12 col-xs-12">
                 @foreach($ingredients as $ingredient)
@@ -65,7 +68,9 @@
                                                             <span class="medlab_product_info_price_box_label">
                                                                 Price:
                                                             </span>
-                                                            <?php $active_discount_promotions = $product->promotions->where('isActive', 1)->filter(function($item){ return \Carbon\Carbon::now()->gte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->starting_date)) && \Carbon\Carbon::now()->lte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->end_date)); })->where('type', 'price_discount') ?>
+                                                            <?php $active_discount_promotions = $product->promotions->where('isActive', 1)->filter(function ($item) {
+    return \Carbon\Carbon::now()->gte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->starting_date)) && \Carbon\Carbon::now()->lte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->end_date));
+                                                            })->where('type', 'price_discount'); ?>
                                                             @if(count($active_discount_promotions) == 1)
                                                                 <span style="text-decoration: line-through;">
                                                                     ${!! number_format($product->price_wholesale, 2) !!}
@@ -129,12 +134,12 @@
         </div>
 
         <!--
-        --  Side Column
+            Side Column
         -->
         <div class="col-md-3 col-sm-12 col-xs-12 medlab_product_side_column">
 
             <!--
-            --  Payment method
+                Payment method
             -->
             <div class="col-md-12 col-sm-6 col-xs-6">
                 <div class="panel panel-primary medlab_panel medlab_product_list_side_bar_panel">
@@ -148,7 +153,7 @@
             </div>
 
             <!--
-            --  Shipping method
+                Shipping method
             -->
             <div class="col-md-12 col-sm-6 col-xs-6">
                 <div class="panel panel-primary medlab_panel medlab_product_list_side_bar_panel">
@@ -161,7 +166,7 @@
                 </div>
             </div>
             <!--
-            --  Product Manual
+                Product Manual
             -->
             <div class="col-md-12 col-sm-6 col-xs-6">
                 <div class="panel panel-primary medlab_panel medlab_product_list_side_bar_panel">
@@ -175,9 +180,9 @@
                     </div>
                 </div>
             </div>
-
+            -->
             <!--
-            -- No Login No Price Reminder
+               No Login No Price Reminder
             -->
             @if(Auth::guest())
                 <div class="col-md-12 col-sm-6 col-xs-6">

@@ -4,18 +4,43 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-
 class Product extends Model
 {
     protected $table = 'products';
     protected $primaryKey = 'id';
+
+    protected $fillable = [
+        'product_name_index',
+        'product_name',
+        'slug',
+        'short_description',
+        'patent',
+        'general_summary',
+        'practitioner_summary',
+        'references',
+        'side_effects',
+        'interactions',
+        'dosage_information',
+        'ingredients',
+        'cmi',
+        'free_from',
+        'features',
+        'clinical_trials',
+        'education',
+        'productfaq',
+        'conditions_associated',
+        'additional_resources',
+        'in_stock',
+        'price_retail',
+        'price_wholesale',
+    ];
 
     //
     // Query Scope
     //
     public function scopeAlphabeticalOrder($query, $letter)
     {
-        return $query->where('product_name', 'like', $letter.'%')
+        return $query->where('product_name_index', 'like', $letter.'%')
             ->orderBy('product_name_index', 'ASC');
     }
 

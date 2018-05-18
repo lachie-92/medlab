@@ -23,9 +23,9 @@ class Order extends Model
         $query->where('order_status', '!=', 'New Order');
     }
 
-    public function scopeSearchCanceledOrders($query)
+    public function scopeSearchCancelledOrders($query)
     {
-        $query->where('order_status', '=', 'Order Canceled');
+        $query->where('order_status', '=', 'Order Cancelled');
     }
 
     public function scopeSearchDispatchedOrders($query)

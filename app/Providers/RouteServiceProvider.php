@@ -7,6 +7,7 @@ use App\Practitioner_Registration;
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 
+use App\Patent;
 use App\Product;
 use App\Ingredient;
 use App\Category;
@@ -30,24 +31,29 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot(Router $router)
     {
-        $router->bind('productSlug', function($slug){
+        $router->bind('productSlug', function ($slug) {
 
             return Product::where('slug', '=', $slug)->firstOrFail();
         });
 
-        $router->bind('categorySlug', function($slug){
+        $router->bind('categorySlug', function ($slug) {
 
             return Category::where('slug', '=', $slug)->firstOrFail();
         });
 
-        $router->bind('patientRegistrationId', function($id){
+        $router->bind('patientRegistrationId', function ($id) {
 
             return Patient_Registration::withTrashed()->where('id', '=', $id)->firstOrFail();
         });
 
-        $router->bind('practitionerRegistrationId', function($id){
+        $router->bind('practitionerRegistrationId', function ($id) {
 
             return Practitioner_Registration::withTrashed()->where('id', '=', $id)->firstOrFail();
+        });
+
+        $router->bind('patentId', function ($id) {
+
+            return Patent::findOrFail($id);
         });
 
         parent::boot($router);

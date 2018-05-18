@@ -44,10 +44,71 @@
   border-bottom: 10px solid $navi-border-colour;
   margin-bottom: 0px;
   box-sizing: border-box;
+  border: none;
 }
 
 .medlab_navbar_container {
-  padding: 5px 15px 0px 15px;
+  padding: 0;
+  margin: 0;
+  background-color: $medlab-blue;
+  padding: 12px;
+
+  .navbar-header button {
+    border: 1px solid #FFF;
+
+    .icon-bar {
+      background-color: #FFF;
+    }
+  }
+
+  .navbar-collapse.collapse:not(.in) {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+    ul.nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+      li {
+
+        a {
+          line-height: 1.0em;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+
+        &.vr,
+        &.separator {
+          height: 20px;
+          width: 1px;
+          border-left: 1px solid #FFF;
+        }
+      }
+    }
+  }
+}
+
+header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.separator {
+
+  position: relative;
+  width: 120px;
+  height: auto;
+  border-left: none;
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url('/img/navigation-separator.png') center center no-repeat $medlab-blue;
+    background-size: 90px;
+    height: 120px;
+    width: 120px;
+    top: -50px;
+    border-radius: 60px;
+    z-index: 1;
+  }
 }
 
 .medlab_navbar_brand {
@@ -57,14 +118,15 @@
 .medlab_navbar_logo {
   width: 340px;
   display: block;
+  padding: 24px 35px 20px 35px;
 }
 
 .medlab_navbar_dropdown {
-  line-height: 60px !important;
+  font-family: $navi-font;
+  font-size: 11px;
+  font-weight: 100;
   margin-top: -5px;
   text-align: center;
-  font-size: 22px;
-  font-family: "PT Sans Narrow", sans-serif;
   color: $navi-text-colour !important;
   &:hover, &:active, &:focus {
     background: $navi-active-colour !important;
@@ -75,9 +137,19 @@
 .medlab_navbar_dropdown_menu {
   padding: 0px;
   background-color: $navi-submenu-background-colour;
-  font-size: 20px;
+  font-size: 14px;
   color: $navi-submenu-text-colour;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Museo Sans Narrow", sans-serif;
+
+  p {
+    font-size: 18px;
+    text-align: left !important;
+    padding-left: 20px;
+    padding-top: 8px;
+    padding-bottom : 0;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
 }
 
 .medlab_navbar_dropdown_menu_item {
@@ -85,5 +157,15 @@
   &:hover, &:active, &:focus {
     background: $navi-submenu-background-colour-focus !important;
     color: $navi-submenu-text-colour-focus !important;
+
+    body.products & {
+      background: $theme-products !important;
+    }
+
+    body.research & {
+      background: $theme-research !important;
+    }
   }
 }
+
+

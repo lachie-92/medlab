@@ -1,41 +1,29 @@
+$navi-font: "Museo Sans Narrow";
+
 @font-face {
-  font-family: "PT Sans Narrow";
+  font-family: "Museo Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/PTSans-Narrow.woff2")
+  src: url("/fonts/MuseoSans_300-webfont.woff")
 }
 
 @font-face {
-  font-family: "PT Sans Bold";
+  font-family: "Museo Sans Narrow";
+  font-style: normal;
+  font-weight: 100;
+  src: url("/fonts/MuseoSans_100-webfont.woff")
+}
+
+@font-face {
+  font-family: "Museo Sans Bold";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/PTSans-Bold.woff2")
+  src: url("/fonts/MuseoSans_700-webfont.woff")
 }
 
 @font-face {
-  font-family: "PT Sans";
+  font-family: "Museo Sans Condensed";
   font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/PTSans-Regular.woff2")
-}
-
-@font-face {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/OpenSans.woff2")
-}
-
-@font-face {
-  font-family: "Open Sans Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/OpenSans-Bold.woff2")
-}
-
-@font-face {
-  font-family: "Open Sans Condensed";
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/OpenSans-CondensedBold.woff2")
+  font-weight: 100;
+  src: url("/fonts/MuseoSans_100-webfont.woff")
 }

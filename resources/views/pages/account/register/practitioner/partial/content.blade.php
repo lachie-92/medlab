@@ -26,7 +26,7 @@
                         </div>
                     @endif
 
-                    <form class="form-horizontal" role="form" method="POST" action="/account/register/practitioner">
+                    <form class="form-horizontal" role="form" method="POST" enctype="multipart/form-data" action="/account/register/practitioner">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <div class="row">
@@ -131,7 +131,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Business Number (ABN/NZBN)<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="business_number" placeholder="Business Num." value="{{ old('business_number') }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="11" name="business_number" placeholder="Business Num." value="{{ old('business_number') }}"></td></tr>
                                                 </table>
                                             </div>
                                             <div class="col-md-6 col-sm-6">
@@ -152,6 +152,30 @@
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Association Name<span style="color: red;">*</span></th></tr>
                                                     <tr><td><input type="text" class="form-control" name="association_type" placeholder="Association Name" value="{{ old('association_type') }}"></td></tr>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 col-sm-12">
+                                                <table style="width:100%;">
+                                                    <tr>
+                                                        <th class="medlab_registration_form_section_subtitle">Qualification</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <p>
+                                                                Please assist us in the approval process by uploading a scanned copy of Certification/Association relavent to your modality:
+                                                            </p>
+                                                            <div class="row">
+                                                                <div class="col-md-4 col-sm-7">
+                                                                    <b>Only accept .pdf .jpg .png .jpeg file (20 MB Max):</b>
+                                                                </div>
+                                                                <div class="col-md-8 col-sm-5">
+                                                                    {!! Form::file('qualification_file') !!}
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -214,7 +238,7 @@
                                             <div class="col-md-6 col-sm-6">
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Post Code<span style="color: red;">*</span></th></tr>
-                                                    <tr><td><input type="text" class="form-control" name="postcode" placeholder="Post Code" value="{{ old('postcode') }}"></td></tr>
+                                                    <tr><td><input type="text" class="form-control" name="postcode" onkeypress='return event.charCode >= 48 && event.charCode <= 57' maxlength="4" placeholder="Post Code" value="{{ old('postcode') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>
@@ -229,6 +253,12 @@
                                                 <table style="width:100%;">
                                                     <tr><th class="medlab_registration_form_section_subtitle">Mobile Phone<span style="color: red;">*</span></th></tr>
                                                     <tr><td><input type="text" class="form-control" name="mobile_phone" placeholder="Mobile Num." value="{{ old('mobile_phone') }}"></td></tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-6 col-sm-6">
+                                                <table style="width:100%;">
+                                                    <tr><th class="medlab_registration_form_section_subtitle">Fax</th></tr>
+                                                    <tr><td><input type="text" class="form-control" name="fax" placeholder="Fax Num." value="{{ old('fax') }}"></td></tr>
                                                 </table>
                                             </div>
                                         </div>

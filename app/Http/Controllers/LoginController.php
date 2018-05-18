@@ -79,25 +79,26 @@ class LoginController extends Controller
         //
         $hasValidUserGroup = count(
             User::where('email', '=', $credentials['email'])->
-                where(function($query) {
+                where(function ($query) {
                     $query->where('group', '=', 'Practitioner') ->
-                        orWhere('group', '=', 'Patient');
-                })->get());
+                        orWhere('group', '=', 'Patient')->
+                        orWhere('group', '=', 'Admin');
+                })->get()
+        );
 
         //
         // Login when user group is valid
         //
         if ($hasValidUserGroup) {
-
             //
             // Check Account Active
             //
             $accountNotActive = count(
                 User::where('email', '=', $credentials['email'])->
-                where('status', '!=', 'Active')->get());
+                where('status', '!=', 'Active')->get()
+            );
 
             if ($accountNotActive) {
-
                 return redirect($this->loginPath())
                     ->withInput($request->only($this->loginUsername(), 'remember'))
                     ->withErrors([

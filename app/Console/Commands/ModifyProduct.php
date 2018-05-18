@@ -51,14 +51,16 @@ class ModifyProduct extends Command
         $modify_array = [
 
             [
-                'product_name_index' => '12Mg Optima Relax 150g Citrus Tea',
-                'austl_number' => '280236',
-                'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea',
+                'product_name_index' => 'Mg Optima Relax 10pk Sachets Lemon Lime',
+                'austl_number' => '262421',
+                'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime',
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea</h4>
+                    <a href="/nutraceuticals/products/12mg-optima-relax-10pk-sachets-lemon-lime">
+                        <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 10pk Sachets Lemon Lime</h4>
+                    </a>
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
                         relaxation during times of stress.
                     </p>
@@ -72,7 +74,344 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients that may support the natural
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients that may support the natural
+                        metabolic pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to
+                        promote relaxation during times of stress. Albion ® Magnesium bisglycinate is scientifically
+                        designed to provide a highly bioavailable form of magnesium. Magnesium may act as a GABA
+                        receptor agonist and also has a binding site on the glutamate receptors helping to regulate
+                        the activity of this main excitatory neurotransmitter.<sup>1</sup> Glycine functions as an
+                        inhibitory neurotransmitter in the nervous system while glutamine is a precursor to
+                        GABA production.<sup>2</sup> Theanine is an amino acid from Green Tea that may promote
+                        relaxation via binding to glutamate receptors.<sup>3</sup> Pyridoxal (vitamin B6) is a cofactor
+                        for the enzyme Glutamate decarboxylase that synthesises GABA from glutamate.<sup>4</sup> Zinc also
+                        has a binding site on the glutamate receptor and may act as a modulator for both excitatory and
+                        inhibitory neurotransmission.<sup>5</sup>
+                    </p>
+                    ',
+                'practitioner_summary' =>
+                    '
+                    <strong>STANDARD INDICATIONS</strong>
+
+                    <p>
+                        <ul>
+                            <li>Help reduce effects of mild anxiety and nervous tension.</li>
+                            <li>Non-vitamin active ingredients in this product help relieve nervous tension, stress and mild anxiety. For the symptomatic relief of stress disorders. </li>
+                            <li>May assist in the management of stress disorders. </li>
+                            <li>Beneficial during times of stress. </li>
+                            <li>Non-vitamin active ingredients in this product may be beneficial during times of stress. </li>
+                            <li>Non-vitamin active ingredients may improve stress adaptation.</li>
+                            <li>Herbal blend which helps relieve stress of study or work.</li>
+                            <li>May help reduce the frequency of migraines.</li>
+                            <li>Helps relieve nervous tension, stress and mild anxiety. </li>
+                            <li>For the symptomatic relief of anxiety. </li>
+                            <li>May assist in the management of anxiety. </li>
+                            <li>Relief of muscular aches and pains. </li>
+                        </ul>
+                    </p>
+
+                    <strong>SPECIFIC INDICATIONS</strong>
+
+                    <p>
+                        <ul>
+                            <li>Magnesium is primarily found within the cell where it acts as a counter ion for the energy-rich ATP and nuclear acids.</li>
+                            <li>Magnesium is a cofactor in more than 300 enzymatic reactions. It critically stabilises enzymes, including many ATP-generating reactions. ATP is required universally for glucose utilisation, synthesis of fat, proteins, nucleic acid and coenzymes, muscles contraction, methyl group transfer and many other processes.</li>
+                            <li>ATP metabolism, muscle contraction and relaxation, normal neurological function and release of neurotransmitters are all magnesium dependent.</li>
+                            <li>Magnesium contributes to the regulation of vascular tone, heart rhythm, proper blood coagulation and bone formation.</li>
+                            <li>Magnesium may modulate blood sugar regulation and cell proliferation in healthy individuals and is important for cell adhesion and transmembrane transport including transport of potassium and calcium ions.</li>
+                            <li>Magnesium maintains the conformation of nucleic acids and is essential for the structural function of proteins and mitochondria.</li>
+                            <li>Early signs of magnesium deficiency may include loss of appetite, nausea, vomiting, fatigue and weakness and as magnesium deficiency worsens it may be associated with numbness, tingling, muscle contractions and cramps.</li>
+                            <li>Hypomagnesaemia is common in hospitalised patients.</li>
+                            <li>Glycine is the major inhibitory neurotransmitter in caudal regions of the adult mammalian central nervous system with high densities of glycinergic synapses being found in spinal cord and brain stem.</li>
+                            <li>Glycine has important neurotransmitter functions at inhibitory and excitatory synapses in the central nervous system.</li>
+                            <li>L-theanine is one of the primary amino acids found in green tea and can pass over the blood-brain brain barrier increasing levels of concentration in the brain.</li>
+                            <li>L-theanine can affect the secretion and function of neurotransmitter in the central nervous system.</li>
+                            <li>L-theanine has an affinity to bind to the glutamate receptor subtypes. L-theanine blocks the binding of L-glutameric acid to the glutamate receptors in the brain, resulting in an anti-stress effect through inhibition of cortical neutron excitation.</li>
+                            <li>L-theanine through competitive action against excitation of glutamate receptor subtypes, neurochemical studies suggest that L-theanine affects emotions by interacting with serotonin, dopamine and GABA neurotransmitter levels.</li>
+                            <li>Dose-dependant administration of L-theanine may affect metabolism and/or the release of specific neurotransmitters in the brain.</li>
+                            <li>L-theanine induces alpha wave brain activity, which relates to a perceived state of relaxation.</li>
+                            <li>L-theanine may help to reduce anxiety levels and attenuate increased blood pressure in high-stress response adults.</li>
+                            <li>L-theanine has a positive effect on mood and cognitive performance, resulting in increased energy, clarity of thought, efficiency, increased alertness and increased perceived work performance.</li>
+                            <li>L-theanine may result in a reduction of heart rate and salivary immunoglobulin A responses during times of acute stress.</li>
+                            <li>Zinc may function as an inhibitory neuromodulator of glutamate release in the brain.</li>
+                            <li>Approximately 10% of total zinc in the brain exists in synaptic vesicles of glutamatergic neutrons.</li>
+                            <li>Zinc is likely to modulate neurotransmission mediated via excitatory and inhibitory amino acid receptors at specific synapses.</li>
+                            <li>Pyridoxal (B6) is involved in the regeneration of tetrahydrofolate into the active methyl- bearing form and in glutathione biosynthesis from homocysteine.</li>
+                            <li>L-Glutamine is an amino acid precursor to the neurotransmitter GABA, the major inhibitory neurotransmitter in the central nervous system.</li>
+                        </ul>
+                    </p>
+
+                    <p>
+                        <strong>SPECIFIC CONDITIONS</strong>
+                    </p>
+
+                    <p>
+                        No specific conditions included on record.
+                    </p>
+
+                    <p>
+                        <strong>WARNINGS</strong>
+                    </p>
+
+                    <p>
+                        <ul>
+                            <li>Vitamin supplements should not replace a balanced diet.</li>
+                            <li>If symptoms persist consult your healthcare practitioner.</li>
+                        </ul>
+                    </p>
+                ',
+                'references' =>
+                    '
+                    <ol class="medlab_product_reference_list">
+                        <li>Held K, Antonijevic IA, Künzel H, et al. Oral Mg(2+) supplementation reverses age-related neuroendocrine and sleep EEG changes in humans. <em>Pharmacopsychiatry</em> 2002;35(4):135-143</li>
+                        <li>Legendre P. The glycinergic inhibitory synapse. Cell. Mol. Life Sci 2001;58:760–793</li>
+                        <li>Kimura K1, Ozeki M, Juneja LR, et al. L-Theanine reduces psychological and physiological stress responses. <em>Biol Psychol</em> 2007;74(1):39-45</li>
+                        <li>Qu K, Martin DL, Lawrence C. Motifs and structural fold of the cofactor binding site of human glutamate decarboxylase. <em>Protein Sci</em> 1998;7:1092-1105.</li>
+                        <li>Takeda A, Minami A, Seki Y, et al. Differential effects of zinc on glutamatergic and GABAergic neurotransmitter systems in the hippocampus. <em>J Neurosci Res</em> 2004; 15;75(2):225-9.</li>
+                        <li>Jahnen-Dechent W, Ketteler M. Magnesium basics. <em>Clin Kidney J</em> 2012;5 (1);i3–i14.</li>
+                        <li>Nygaard IH, Valbo A, Oethick SV, et al. Does oral magnesium substitution relieve pregnancy-inducede leg cramps? <em>Eur J Obstet Gynecol Reprod Biol</em> 2008;141:23-6.</li>
+                        <li>Garrison SR, Birmingham CL, Koehler BE, et al. The effect of magnesium infusion on rest cramps: a randomized controlled trial. <em>J Gerontol A Biol Sci Med Sci</em> 2011;66:661-6.</li>
+                        <li>Setaro L, Santos-Silva PR, Nakano EY, et al. Magnesium status and the physical performance of volleyball players: effects of magnesium supplementation. <em>J Sports Sci</em> 2014;32:438-45.</li>
+                        <li>Veronese N, Berton L, Carraro S, et al. Effect of oral magnesium supplementation on physical performance in healthy elderly women involved in a weekly exercise program: a randomized controlled trial. <em>Am J Nutr</em> 2014;100:974-81.</li>
+                        <li>Monaghan DT, Jane DE. Pharmacology of NMDA receptors. In: Van Dongen AM, editor. Biology of the NMDA receptor. Boca Raton (FL): CRC Press/Taylor &amp; Francis; 2009. Chapter 12.</li>
+                        <li>Gecz, J. Glutamate receptors and learning and memory. Nat. Genet 2010;42:925</li>
+                        <li>Berger AJ, Dieudonne S, Ascher P. Glycine uptake governs glycine site occupancy at NMDA receptors of excitatory synapses. <em>J. Neurophysiol</em> 1998;80: 3336–3340.</li>
+                        <li>Hubner CA, Stein V, Hermans-Borgmeyer I, et al. Disruption of KCC2 reveals an essential role of K-Cl cotransport already in early synaptic inhibition. <em>Neuron</em> 2001;30:515–524.</li>
+                        <li>Chen SW, Kong WX, Zhang YJ, et al. Possible anxiolytic effects of taurine in the mouse elevated plus-maze. <em>Life Sci</em> 2004;75(12):1503-1511.</li>
+                        <li>Hertz L, Kvamme E, McGeer, EG, et al. Glutamine, Glutamate, and Gaba in the Central Nervous System. Alan R Liss Inc. New York; 1983.</li>
+                        <li>Bowtell JL, Gelly K, Jackman ML, et al. Effect of oral glutamine on whole body carbohydrate storage during recovery from exhaustive exercise. <em>J.Appl Physiol</em> 1999:1770-1777.</li>
+                        <li>Welbourne TC. Increased plasma bicarbonate and growth hormone after an oral glutamine load. <em>Am J Clin Nutr</em> 1995;61(5):1058-1061.</li>
+                        <li>Hasler G, Van der Veen JW, Tumonis, T, et al. Reduced Prefrontal Glutamate/Glutamine and Aminobutyric Acid Levels in Major Depression Determined Using Proton Magnetic Resonance Spectroscopy. <em>Arch Gen Psych</em> 2007;64 (2):193-200.</li>
+                        <li>Owens DF, Krieg Stein AR. Is there more to GABA than synaptic inhibition? Nat. Rev. Neurosci 2002;3:715</li>
+                        <li>Kakuda T, Nozawa A, Sugimoto A, et al. Inhibition by Theanine of binding of [3H]AMPA, [3H]Kainate and [3H]MDL 105,519 to glutamate receptors. <em>Biosci Biotechnol Biochem</em> 2002;66:2683-86.</li>
+                        <li>Kimura R, Murata T. Influence of alkylamides of glutamic acid and related compounds on the central nervous system I. Central depressant effect of theanine. <em>Chem Pharm Bull</em> 1971;19:1257–1261.</li>
+                        <li>Nathan PJ, Lu K, Gray M, et al.; The neuropharmacology of L-theanine (N-ethyl-L-glutamine): a possible neuroprotective and cognitive enhancing agent. <em>J Herb Pharmacother</em> 2006;6(2):21-30.</li>
+                        <li>Heese T, Jenkinson J, Love C, et al.& Anxiolytic effects of L-theanine - a component of green tea - when combined with midazolam, in the male Sprague-Dawley rat. <em>AANA J</em> 2009;77(6):445-449.</li>
+                        <li>Ito K, Nagato Y, Aoi N, et al. Effects of L-theanine on the release of alpha brain waves in human volunteers. <em>Nippon Nogeikagaku Kaishi</em> 1998;72:153-157.</li>
+                        <li>Lu K., Gray MA, Oliver C, et al. The acute effects of L-theanine in comparison with alprazolam on anticipatory anxiety in humans. <em>Hum Psychopharmacol</em> 2004;19(7):457-465.</li>
+                        <li>Lardner AL. Neurobiological effects of the green tea constituent Theanine and its potential role in the treatment of psychiatric and neurodegenerative disorders. <em>Nutr Neurosci</em> 2014;17:145-55.</li>
+                        <li>Smart TG, Hosie AM, Miller PS. Zn2+ ions: modulators of excitatory and inhibitory synaptic activity. <em>Neuroscientist</em> 2004;10(5):432-42.</li>
+                        <li>Gröber U. Magnesium. In: Gröber U., editor. Micronutrients: Metabolic Tuning-Prevention-Therapy. 1st ed. MedPharm Scientific Publishers; Stuttgart, Germany: 2009:159–166.</li>
+                        <li>Foca FJ. Motor and sensory neuropathy secondary to excessive pyridoxine ingestion. <em>Arch Phys Med Rehabil</em> 1985;66(9):634-6.</li>
+                        <li>Dalton K, Dalton MJ. Characteristics of pyridoxine overdose neuropathy syndrome. <em>Acta Neurol Scand</em> 1987;76(1):8-11.</li>
+                    </ol>
+                    ',
+                'side_effects' =>
+                    '
+                    <p>
+                        Magnesium supplementation is likely well tolerated for most people but may cause stomach upset,
+                        diarrhoea, nausea and vomiting in some individuals.
+                    </p>
+                    <p>
+                        Caution should be used in patients with kidney problems as poorly functioning kidneys do not
+                        excrete magnesium from the body well leading to dangerous levels of serum magnesium levels.<sup>29</sup>
+                    </p>
+                    <p>
+                        Vitamin B6 is toxic when ingested in mega doses i.e. greater than 200 mg per day for a prolonged
+                        period of time and may cause peripheral neuropathy<sup>30,31</sup>
+                    </p>
+                    <p>
+                         You can also refer to the CMI for this product for symptoms and side effects.
+                    </p>
+                    ',
+                'interactions' =>
+                    '
+                    <p>
+                        Concomitant use of magnesium and urinary excretion-reducing drugs, such as glucagons, calcitonin,
+                        and potassium-sparing diuretics, may increase serum magnesium levels, as may doxercalciferol.
+                        Concomitant oral intake of magnesium may influence the absorption of antibiotics (aminoglycosides,
+                        quinolone, tetracycline), bisphosphonates, calcium channel blockers and muscle relaxants.<sup>27</sup>
+                    </p>
+                    ',
+                'dosage_information' =>
+                    '
+                    <h4 class="medlab_product_content_title">
+                        Serving Information
+                    </h4>
+
+                    <p>
+                        Add 5g (1 sachet) to 100-200mL of cold water or juice, one (1) to two (2) times per day, or as directed by your
+                        healthcare practitioner.
+                    </p>
+                    ',
+                'ingredients' =>
+                    '
+                    <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>
+                                        <strong>ACTIVE INGREDIENTS</strong>
+                                    </p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>
+                                        <strong>EACH 5g DOSE CONTAINS</strong>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Magnesium as amino acid chelate TRAACS®</p>
+                                    <p><em>(bisglycinate chelate)</em></p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>150mg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>L-glutamine</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>500mg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Green Tea Dry Leaf Extract.</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>500mg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. green tea dry leaf.</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>40g</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. <em>L-theanine</em></p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>NLT 100mg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Pyridoxal 5-Phosphate (Vitamin B6)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>15.6mg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding-left: 30px;" width="273" valign="top">
+                                    <p>Equiv. pyridoxine</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>10mg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="273" valign="top">
+                                    <p>Zinc (as citrate)</p>
+                                </td>
+                                <td width="136" valign="top">
+                                    <p>5mg</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p>
+                                        <strong>Excipient Ingredients</strong>
+                                    </p>
+                                    <p>Maltodextrin</p>
+                                    <p>Malic acid</p>
+                                    <p>Lemon lime flavour</p>
+                                    <p>Citric acid</p>
+                                    <p>Stevia</p>
+                                    <p>Silica</p>
+                                    <strong>Note: Botanical extracts present in this product may result in variations in colour and taste from batch to batch.</strong>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    ',
+                'cmi' =>
+                    '
+                        <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/arabic" target="_blank">الترجمة العربية </a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/spanish" target="_blank">Traducción en español</a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/russian" target="_blank">Перевод на русском языке</a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/japanese" target="_blank">日本語翻訳</a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/french" target="_blank">Traduction en français</a>
+                        </p>
+                        <p>
+                            <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                            <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/chinese" target="_blank">中文翻译</a>
+                        </p>
+                        <p>
+                        <img width="24" height="24" alt="France" src="/img/products/cmi/Italy.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime/cmi/italian" target="_blank">Traduzione italiana</a>
+                        </p>
+                    ',
+                'free_from' =>
+                    '
+                    <p class="medlab_product_content_sub_title">
+                        Gluten Free
+                    </p>
+                    <p class="medlab_product_content_sub_title">
+                        Suitable for Vegetarians
+                    </p>
+                    <p class="medlab_product_content_sub_title">
+                        No artificial colours, flavours or sweeteners
+                    </p>
+                    ',
+                'price_retail' => 17.33,
+                'price_wholesale' => 11.55,
+                'image_path' => '/img/products/12mg_optima/mg_optima_relax_10pk_sachets_lemon_lime.jpg',
+                'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_10pk_sachets_lemon_lime.jpg',
+                'slug' => '12mg-optima-relax-10pk-sachets-lemon-lime',
+                'in_stock' => true,
+            ],
+            [
+                'product_name_index' => 'Mg Optima Relax 150g Citrus Tea',
+                'austl_number' => '280236',
+                'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea',
+                'short_description' =>
+                    '
+                    <a href="/nutraceuticals/products/12mg-optima-relax-150g-citrus-tea">
+                        <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Citrus Tea</h4>
+                    </a>
+                    <p>
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
+                        pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
+                        relaxation during times of stress.
+                    </p>
+                    ',
+                'patent' =>
+                    '
+                    <p>
+                        Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                    </p>
+                    ',
+                'general_summary' =>
+                    '
+                    <p>
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients that may support the natural
                         metabolic pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to
                         promote relaxation during times of stress. Albion ® Magnesium bisglycinate is scientifically
                         designed to provide a highly bioavailable form of magnesium. Magnesium may act as a GABA
@@ -222,10 +561,6 @@ class ModifyProduct extends Command
                     ',
                 'dosage_information' =>
                     '
-                    <h4 class="medlab_product_content_title">
-                        Serving Information
-                    </h4>
-
                     <p>
                         Add 5g (1 scoop) to 100-200mL of cold water or juice, one (1) to two (2) times per day, or as directed by your
                         healthcare practitioner.
@@ -298,7 +633,7 @@ class ModifyProduct extends Command
                             </tr>
                             <tr>
                                 <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>equiv. pyridoxine</p>
+                                    <p>Equiv. pyridoxine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>10mg</p>
@@ -341,7 +676,7 @@ class ModifyProduct extends Command
                 'free_from' =>
                     '
                     <p class="medlab_product_content_sub_title">
-                        Dairy and Gluten Free
+                        Gluten Free
                     </p>
                     <p class="medlab_product_content_sub_title">
                         Suitable for Vegetarians
@@ -358,14 +693,16 @@ class ModifyProduct extends Command
                 'in_stock' => true,
             ],
             [
-                'product_name_index' => '12Mg Optima Relax 150g',
+                'product_name_index' => 'Mg Optima Relax 150g',
                 'austl_number' => '262421',
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 150g Lemon Lime',
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Lemon Lime</h4>
+                    <a href="/nutraceuticals/products/12mg-optima-relax-150g-lemon-lime">
+                        <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 150g Lemon Lime</h4>
+                    </a>
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
                         relaxation during times of stress.
                     </p>
@@ -379,7 +716,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients that may support the natural
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients that may support the natural
                         metabolic pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to
                         promote relaxation during times of stress. Albion ® Magnesium bisglycinate is scientifically
                         designed to provide a highly bioavailable form of magnesium. Magnesium may act as a GABA
@@ -529,10 +866,6 @@ class ModifyProduct extends Command
                     ',
                 'dosage_information' =>
                     '
-                    <h4 class="medlab_product_content_title">
-                        Serving Information
-                    </h4>
-
                     <p>
                         Add 5g (1 scoop) to 100-200mL of cold water or juice, one (1) to two (2) times per day, or as directed by your
                         healthcare practitioner.
@@ -605,7 +938,7 @@ class ModifyProduct extends Command
                             </tr>
                             <tr>
                                 <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>equiv. pyridoxine</p>
+                                    <p>Equiv. pyridoxine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>10mg</p>
@@ -676,7 +1009,7 @@ class ModifyProduct extends Command
                 'free_from' =>
                     '
                     <p class="medlab_product_content_sub_title">
-                        Dairy and Gluten Free
+                        Gluten Free
                     </p>
                     <p class="medlab_product_content_sub_title">
                         Suitable for Vegetarians
@@ -688,18 +1021,20 @@ class ModifyProduct extends Command
                 'price_retail' => 44.01,
                 'price_wholesale' => 29.32,
                 'image_path' => '/img/products/12mg_optima/mg_optima_relax_150g.jpeg',
-                'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_150g.png',
+                'thumb_image_path' => '/img/products/12mg_optima/thumb_mg_optima_relax_150g.jpg',
                 'slug' => '12mg-optima-relax-150g-lemon-lime'
             ],
             [
-                'product_name_index' => '12Mg Optima Relax 300g Lemon Lime',
+                'product_name_index' => 'Mg Optima Relax 300g Lemon Lime',
                 'austl_number' => '262421',
                 'product_name' => '<sup>12</sup>Mg Optima&trade; Relax 300g Lemon Lime',
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 300g Lemon Lime</h4>
+                    <a href="/nutraceuticals/products/12mg-optima-relax-300g-lemon-lime">
+                        <h4 class="medlab_product_content_title"><sup>12</sup>Mg Optima&trade; Relax 300g Lemon Lime</h4>
+                    </a>
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients to support the natural metabolic
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients to support the natural metabolic
                         pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to promote
                         relaxation during times of stress.
                     </p>
@@ -713,7 +1048,7 @@ class ModifyProduct extends Command
                 'general_summary' =>
                     '
                     <p>
-                        Mg Optima<sup>TM</sup> Relax contains evidenced-based ingredients that may support the natural
+                        Mg Optima<sup>TM</sup> Relax contains evidence based ingredients that may support the natural
                         metabolic pathways for gamma-aminobutyric acid (GABA) production and activity, indicated to
                         promote relaxation during times of stress. Albion ® Magnesium bisglycinate is scientifically
                         designed to provide a highly bioavailable form of magnesium. Magnesium may act as a GABA
@@ -862,10 +1197,6 @@ class ModifyProduct extends Command
                     ',
                 'dosage_information' =>
                     '
-                    <h4 class="medlab_product_content_title">
-                        Serving Information
-                    </h4>
-
                     <p>
                         Add 5g (1 scoop) to 100-200mL of cold water or juice, one (1) to two (2) times per day, or as directed by your
                         healthcare practitioner.
@@ -938,7 +1269,7 @@ class ModifyProduct extends Command
                             </tr>
                             <tr>
                                 <td style="padding-left: 30px;" width="273" valign="top">
-                                    <p>equiv. pyridoxine</p>
+                                    <p>Equiv. pyridoxine</p>
                                 </td>
                                 <td width="136" valign="top">
                                     <p>10mg</p>
@@ -1009,7 +1340,7 @@ class ModifyProduct extends Command
                 'free_from' =>
                     '
                     <p class="medlab_product_content_sub_title">
-                        Dairy and Gluten Free
+                        Gluten Free
                     </p>
                     <p class="medlab_product_content_sub_title">
                         Suitable for Vegetarians
@@ -1030,7 +1361,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioClean EPA:DHA + CoQ10 120s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioClean EPA:DHA + CoQ10 120s</h4>
+                <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-120s">
+                    <h4 class="medlab_product_content_title">BioClean EPA:DHA + CoQ10 120s</h4>
+                </a>
                 <p>
                     BioClean EPA:DHA + CoQ10 is a scientifically formulated combination of
                     Omega-3 Fatty Acids and Coenzyme Q10 targeted to support healthy
@@ -1175,21 +1508,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take one (1) to two (2) capsules, twice per day, or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/bioclean_epa_dha_coq10_120s/2partcap.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -1311,7 +1632,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioClean EPA:DHA + CoQ10 60s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioClean EPA:DHA + CoQ10 60s</h4>
+                <a href="/nutraceuticals/products/bioclean-epa-dha-coq10-60s">
+                    <h4 class="medlab_product_content_title">BioClean EPA:DHA + CoQ10 60s</h4>
+                </a>
                 <p>
                     BioClean EPA:DHA + CoQ10 is a scientifically formulated combination of
                     Omega-3 Fatty Acids and Coenzyme Q10 targeted to support healthy
@@ -1456,21 +1779,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/bioclean_epa_dha_coq10_60s/2partcap.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -1592,7 +1903,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioClean EPA:DHA + Plant Sterols 120s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioClean EPA:DHA + Plant Sterols 120s</h4>
+                <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-120s">
+                    <h4 class="medlab_product_content_title">BioClean EPA:DHA + Plant Sterols 120s</h4>
+                </a>
                 <p>
                     BioClean EPA:DHA + Plant Sterols is a scientifically formulated combination of Omega-3 Fatty Acids
                     and Plant Sterols targeted to support healthy cholesterol levels and cardiovascular health.
@@ -1713,21 +2026,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take two (2) capsules, twice per day, or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/bioclean_epa_dha_plant_sterols_120s/2partcap.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -1851,7 +2152,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioClean EPA:DHA + Plant Sterols 60s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioClean EPA:DHA + Plant Sterols 60s</h4>
+                <a href="/nutraceuticals/products/bioclean-epa-dha-plant-sterols-60s">
+                    <h4 class="medlab_product_content_title">BioClean EPA:DHA + Plant Sterols 60s</h4>
+                </a>
                 <p>
                     BioClean EPA:DHA + Plant Sterols is a scientifically formulated combination of Omega-3 Fatty Acids
                     and Plant Sterols targeted to support healthy cholesterol levels and cardiovascular health.
@@ -1972,21 +2275,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take two (2) capsules, twice per day, or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/bioclean_epa_dha_plant_sterols_60s/2partcap.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -2110,7 +2401,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Biotic Jnr.&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Biotic Jnr.&trade;</h4>
+                <a href="/nutraceuticals/products/biotic-jnr">
+                    <h4 class="medlab_product_content_title">Biotic Jnr.&trade;</h4>
+                </a>
                 <p>
                     Biotic Jnr.&trade; is a multi-species probiotic preparation to promote gastrointestinal and immune
                     maturation.
@@ -2239,10 +2532,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Add 500 mg of powder (1 scoop) to liquid or solid foods, one (1) to two (2) times per day or as directed
                     by your healthcare practitioner.
@@ -2439,7 +2728,9 @@ class ModifyProduct extends Command
                 'product_name' => 'BioticNatal&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">BioticNatal&trade;</h4>
+                <a href="/nutraceuticals/products/bioticnatal">
+                    <h4 class="medlab_product_content_title">BioticNatal&trade;</h4>
+                </a>
                 <p>
                     BioticNatal&trade; is intended for both the pregnant and breast feeding mother aiding to support and maintain
                     the integrity and function of her own GIT and her immune system. BioticNatal&trade; may also
@@ -2555,21 +2846,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/bioticnatal/2partcap.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -2722,9 +3001,11 @@ class ModifyProduct extends Command
                 'product_name' => 'Enbiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Enbiotic&trade; 60&#39;s</h4>
+                <a href="/nutraceuticals/products/enbiotic-60s">
+                    <h4 class="medlab_product_content_title">Enbiotic&trade; 60&#39;s</h4>
+                </a>
                 <p>
-                    <strong>PATENT PROTECTED</strong>
+                    <strong>Australian Innovation Patent No. 2015100952</strong>
                 </p>
                 <p>
                     EnBiotic&trade; is a high quality, high strength digestive enzyme and probiotic combination developed to
@@ -2734,7 +3015,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PROTECTED</strong>
+                    <strong>Australian Innovation Patent No. 2015100952</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -2835,22 +3116,10 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
-                    Take two (2) capsules with water with each meal, up to three (3) times per day, or as directed by
-                    your healthcare practitioner.
+                    Take two (2) capsules with water, 20-30 minutes before each meal, up to three (3) times per day,
+                    or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/enbiotic_60s/2partcap_4_3_1.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -3014,9 +3283,11 @@ class ModifyProduct extends Command
                 'product_name' => 'GastroDaily&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">GastroDaily&trade;</h4>
+                <a href="/nutraceuticals/products/gastrodaily">
+                    <h4 class="medlab_product_content_title">GastroDaily&trade;</h4>
+                </a>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100499</strong>
                 </p>
                 <p>
                     GastroDaily&trade; is scientifically formulated to assist in supporting healthy gastrointestinal
@@ -3027,7 +3298,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100499</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -3139,10 +3410,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Mix one 6 g dose (1 scoop) into 250 mL of cold water, stir well and consume immediately. Take one
                     (1) to two (2) times per day before meals or as directed by your healthcare practitioner.
@@ -3169,7 +3436,7 @@ class ModifyProduct extends Command
                                 <p><em>Saccharomyces cerevisiae ssp. boulardii</em> (Med 41)</p>
                             </td>
                             <td width="136" valign="top">
-                                <p>5 million CFU*</p>
+                                <p>5 billion CFU*</p>
                             </td>
                         </tr>
                         <tr>
@@ -3280,10 +3547,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Manuka-C&trade; 105g',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Manuka-C&trade; 105g</small></h4>
-                <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
+                <a href="/nutraceuticals/products/manuka-c-105g">
+                    <h4 class="medlab_product_content_title">Manuka-C&trade; 105g</small></h4>
+                </a>
                 <p>
                     Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
                     ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
@@ -3291,9 +3557,6 @@ class ModifyProduct extends Command
                 ',
                 'patent' =>
                     '
-                <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>
@@ -3420,9 +3683,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Direction of Use:
-                </h4>
                 <p>
                     Mix one 5 g dose (1 level teaspoon) into 200 mL of water and drink immediately, one (1) to two (2) times per day or as directed by your healthcare practitioner.
                 </p>
@@ -3615,8 +3875,8 @@ class ModifyProduct extends Command
                 ',
                 'price_retail' => 28.9,
                 'price_wholesale' => 19.25,
-                'image_path' => '/img/products/manuka-c-105g/manuka-c.png',
-                'thumb_image_path' => '/img/products/manuka-c-105g/mauka-c_thumb.png',
+                'image_path' => '/img/products/manuka-c-105g/manuka-c-105g.png',
+                'thumb_image_path' => '/img/products/manuka-c-105g/manuka-c-105g_thumb.png',
                 'slug' => 'manuka-c-105g'
             ],
             [
@@ -3625,10 +3885,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Manuka-C&trade; 210g',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Manuka-C&trade; 210g</small></h4>
-                <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
+                <a href="/nutraceuticals/products/manuka-c-210g">
+                    <h4 class="medlab_product_content_title">Manuka-C&trade; 210g</small></h4>
+                </a>
                 <p>
                     Manuka-C&trade; is scientifically formulated to support optimal immune system function. It includes evidence-based
                     ingredients containing a blend of three ascorbates combined with glutathione and Manuka honey powder.
@@ -3636,9 +3895,6 @@ class ModifyProduct extends Command
                 ',
                 'patent' =>
                     '
-                <p>
-                    <strong>PATENT PENDING</strong>
-                </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
                 </p>
@@ -3763,9 +4019,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Direction of Use:
-                </h4>
                 <p>
                     Mix one 5 g dose (1 level teaspoon) into 200 mL of water and drink immediately, one (1) to two (2) times per day or as directed by your healthcare practitioner.
                 </p>
@@ -3958,8 +4211,8 @@ class ModifyProduct extends Command
                 ',
                 'price_retail' => 45.36,
                 'price_wholesale' => 29.95,
-                'image_path' => '/img/products/manuka-c-210g/manuka-c.png',
-                'thumb_image_path' => '/img/products/manuka-c-210g/manuka-c_thumb.png',
+                'image_path' => '/img/products/manuka-c-210g/manuka-c-210g.png',
+                'thumb_image_path' => '/img/products/manuka-c-210g/manuka-c-210g_thumb.png',
                 'slug' => 'manuka-c-210g'
             ],
             [
@@ -3968,7 +4221,9 @@ class ModifyProduct extends Command
                 'product_name' => 'MultiBiotic&trade; 30&#39;s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">MultiBiotic&trade; 30&#39;s</h4>
+                <a href="/nutraceuticals/products/multibiotic-30s">
+                    <h4 class="medlab_product_content_title">MultiBiotic&trade; 30&#39;s</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
@@ -4095,21 +4350,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take 1-2 capsule(s) morning and night with water before meals or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/ngrbiotic_120s/2partcap_4_3_1_3.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -4275,7 +4518,9 @@ class ModifyProduct extends Command
                 'product_name' => 'MultiBiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">MultiBiotic&trade; 60&#39;s</h4>
+                <a href="/nutraceuticals/products/multibiotic-60s">
+                    <h4 class="medlab_product_content_title">MultiBiotic&trade; 60&#39;s</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
@@ -4403,21 +4648,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take 1-2 capsule(s) morning and night with water before meals or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/ngrbiotic_120s/2partcap_4_3_1_3.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -4583,7 +4816,9 @@ class ModifyProduct extends Command
                 'product_name' => 'NanoCelle&trade; Activated B12',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NanoCelle&trade; Activated B12</h4>
+                <a href="/nutraceuticals/products/nanocelle-activated-b12">
+                    <h4 class="medlab_product_content_title">NanoCelle&trade; Activated B12</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
@@ -4696,10 +4931,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Deliver two (2) sprays into the mouth once per day before meals, or as directed by your
                     healthcare practitioner.
@@ -4793,7 +5024,7 @@ class ModifyProduct extends Command
                 'price_retail' => 23.88,
                 'price_wholesale' => 15.90,
                 'image_path' => '/img/products/nanocelle_activated_b12/activated_b12.png',
-                'thumb_image_path' => '/img/products/nanocelle_activated_b12/activated_b12_thumb.png',
+                'thumb_image_path' => '/img/products/nanocelle_activated_b12/activated_b12_thumb.jpg',
                 'slug' => 'nanocelle-activated-b12'
             ],
             [
@@ -4802,13 +5033,16 @@ class ModifyProduct extends Command
                 'product_name' => 'NanoCelle&trade; B12',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NanoCelle&trade; B12</h4>
+                <a href="/nutraceuticals/products/nanocelle-b12">
+                    <h4 class="medlab_product_content_title">NanoCelle&trade; B12</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
                 <p>
                     NanoCelle&trade; B12 is developed from patent-protected nano-technology creating Vitamin B12
-                    nanoparticles that are easily absorbed across the oral mucosal epithelium.
+                    nanoparticles that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                    the oral buccal mucosa, bypassing the gastrointestinal tract.
                 </p>
                 ',
                 'patent' =>
@@ -4824,7 +5058,8 @@ class ModifyProduct extends Command
                     '
                 <p>
                     NanoCelle&trade; B12 is developed from patent-protected nano-technology creating Vitamin B12
-                    nanoparticles that are easily absorbed across the oral mucosal epithelium. NanoCelle&trade; B12 is
+                    nanoparticles that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                    the oral buccal mucosa, bypassing the gastrointestinal tract. NanoCelle&trade; B12 is
                     indicated to assist in the management of dietary vitamin B12 deficiency that is particularly seen
                     in vegetarians, vegans, the elderly and people with altered intestinal digestive and absorptive
                     capabilities. It is the metabolic derivatives of Vitamin B12 that act as important cofactors of
@@ -4907,10 +5142,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Deliver two (2) sprays into the mouth once per day before meals, or as directed by your
                     healthcare practitioner.
@@ -5020,13 +5251,16 @@ class ModifyProduct extends Command
                 'product_name' => 'NanoCelle&trade; D3',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NanoCelle&trade; D3</h4>
+                <a href="/nutraceuticals/products/nanocelle-d3">
+                    <h4 class="medlab_product_content_title">NanoCelle&trade; D3</h4>
+                </a>
                 <p>
                     <strong>PATENT PENDING</strong>
                 </p>
                 <p>
                     NanoCelle&trade; D3 is developed from patent-protected nano-technology creating Vitamin D3
-                    nanoparticles that are easily absorbed across the oral mucosal epithelium.
+                    nanoparticles that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                    the oral buccal mucosa, bypassing the gastrointestinal tract.
                 </p>
                 ',
                 'patent' =>
@@ -5042,7 +5276,8 @@ class ModifyProduct extends Command
                     '
                 <p>
                     NanoCelle&trade; D3 is developed from patent-protected nano-technology creating Vitamin D3 nanoparticles
-                    that are easily absorbed across the oral mucosal linning.  NanoCelle&trade; D3 is indicated to assist in
+                    that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                    the oral buccal mucosa, bypassing the gastrointestinal tract. NanoCelle&trade; D3 is indicated to assist in
                     the management of medically diagnosed vitamin D deficiency. Vitamin D3 aids in dietary calcium and
                     phosphorus absorption, important for maintaining healthy bone mineral density. Vitamin D3 binds to
                     the vitamin D receptor (VDR), which is located on all body cells. Activation of the VDR has been
@@ -5148,10 +5383,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Deliver two (2) sprays into the mouth once per day before meals, or as directed by your
                     healthcare practitioner.
@@ -5255,281 +5486,16 @@ class ModifyProduct extends Command
                 'thumb_image_path' => '/img/products/nanocelle_d3/thumb_d3_1.jpg',
             ],
             [
-                'product_name_index' => "NOS",
-                'product_name' => 'NOS <small>Nitric Oxide Support</small>',
-                'short_description' =>
-                    '
-                <h4 class="medlab_product_content_title">NOS <small>Nitric Oxide Support</small></h4>
-                <p>
-                    A targeted pre-exercise sports food containing a selection of evidence-based ingredients combined to support and optimise exercise performance.
-                </p>
-                ',
-                'patent' =>
-                    '
-                <p>
-                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
-                </p>
-                ',
-                'general_summary' =>
-                    '
-                <p>
-                    A targeted pre-exercise sports food containing a selection of evidence-based ingredients combined to support and optimise exercise performance.
-                    Creatine, L-arginine and the B vitamins support energy production during strenuous exercise while beta-alanine helps to increase muscle carnosine levels.
-                    The amino acid L-arginine is also the precursor for nitric oxide production, a signaling molecule involved in blood vessel relaxation and vasodilation.
-                    Coconut powder contains important electrolytes required during exercise and Guarana seed powder naturally contains caffeine.
-                </p>
-                ',
-                'practitioner_summary' =>
-                    '
-                <p>
-                    <ul>
-                        <li>L-arginine is the precursor to nitric oxide (NO) synthesis, an important cellular signaling molecule involved in many physiological processes and is most well known as a powerful vasodilator of blood vessels that regulates blood flow.</li>
-                        <li>The ergogenic affects of creatine are evident for high-intensity exercise of short duration and have been shown to increase muscle mass when combined with an exercise program.</li>
-                        <li>Supplementation of beta-alanine is required to achieve the active daily dose required to significantly elevate intramuscular carnosine and it increases dose-dependently. Increasing muscle carnosine concentration may improve athletic performance in exercise tasks that accrue a high level of muscle acidosis, improving high-intensity intermittent exercise performance and time to fatigue.</li>
-                        <li>Tyrosine is the amino acid precursor to the synthesis of neurotransmitters involved in cognitive performance and stress resistance; namely dopamine, noradrenaline and adrenaline.</li>
-                        <li>Caffeine is widely used as an enhancement for athletic performance via its broad range of metabolic, hormonal and physiologic effects. Guarana is a natural source of caffeine. Caffeine has been shown to enhance exercise performance and reduce time to exhaustion.</li>
-                    </ul>
-                </p>
-                <p>
-                    <strong>WARNINGS</strong>
-                </p>
-
-                <p>
-                    <ul>
-                       <li>Not to be used as a sole source of nutrition, should be used in conjunction with a balanced diet and appropriate exercise program.</li>
-                       <li>Not suitable for children under 15 years of age or pregnant women.</li>
-                       <li>Should only be used under medical or dietetic supervision.</li>
-                       <li>Contains not less than 30mg of caffeine per serve.</li>
-                    </ul>
-                </p>
-                ',
-                'references' =>
-                    '
-                <ol class="medlab_product_reference_list">
-                    <li>Hristina K, Langerholc T, Trapecar M. Novel metabolic roles of L-arginine in body energy metabolism and possible clinical applications. <em>J Nutr, Health & Aging</em> 2014;18:213-18.</li>
-                    <li>Zhao Y, Vanhoutte PM, Leung, SWS. Vascular nitric oxide: beyond eNOS. <em>J Pharmacol Sci </em> 2015;129:83-94.</li>
-                    <li>Lorin J, Zeller M, Guilland JC, et al. Arginine and nitric oxide synthase: regulatory mechanisms and cardiovascular aspects. <em>Mol Nutr Food Res</em> 2014;58:101-116.</li>
-                    <li>Goubareva I, Gkalaiagkousi E, Shah A, et al. Age decreases nitric oxide synthesis and responsiveness in human platelets and increases formation of monocyte-platelet aggregates. <em>Cardiovascular Res</em> 2007;75:793-802.</li>
-                    <li>Taddei S, Virdis A, Ghiadoni L, et al. Age-related reduction of NO availability and oxidative stress in humans. <em>Hypertension</em> 2001;38:274-279.</li>
-                    <li>Luiking YC, Poeze M, Dejong CH, et al. Sepsis:an arginine deficiency state? <em>Crit Care Med</em> 2004;32:2135-45.</li>
-                    <li>Cooper R, Naclerio F, Allgrove J, et al. Creatine supplementation with specific view to exercise/sports performance: an update. <em>J Int Soc Sports Nutr</em> 2012;9:33.</li>
-                    <li>Terjung RL, Clarkson P, Eichner ER, et al. American college of sports medicine roundtable. The physiological and health effects of oral creatine supplementation. <em>Med Sci Sports Exerc</em> 2000;32:706-717.</li>
-                    <li>Brosnan JT, Brosnan ME. Creatine: endogenous metabolite, dietary and therapeutic supplementation. <em>Annu Rev Nutr</em> 2007;27:241-61.</li>
-                    <li>Muscle fiber contraction and relaxation. <em>Openstax CNX.</em> http://cnx.org/contents/EtWWcJM-@3/Muscle-Fiber-Contraction-and-R (accessed 14th April 2016).</li>
-                    <li>Bellinger PM. &beta;-alanine supplementation for athletic performance: an update. <em>J Strength Cond Res</em> 2013;28:1751-1770.</li>
-                    <li>Culbertson JY, Kreider RB, Greenwood M, et al. Effects of beta-alanine on muscle carnosine and exercise performance: a review of the current literature. <em>Nutrients</em> 2010;2:75-98.</li>
-                    <li>Luckose F, Pandey MC, Radhakrishna. Effects of amino acid derivatives on physical, mental and physiological activities. <em>Crit Rev Food Sci Nutr</em> 2015;55:1793-1807.</li>
-                    <li>Huskisson E, Maggini S, Ruf M. The role of vitramins and minerals in energy metabolism and well-being. <em>J Int Med Res</em> 2007;35:277-289.</li>
-                    <li>Sokmen B, Armstrong LE, Kraemer WJ, et al. Caffeine use in sports: considerations for the athlete. <em>J Strength Cond Res</em> 2008;22:978-986.</li>
-                    <li>Lorist MM, Tops M. Caffeine, fatigue and cognition. <em>Brain Cog</em> 2003;53:82-94.</li>
-                </ol>
-                ',
-                'side_effects' =>
-                    '
-                
-                ',
-                'interactions' =>
-                    '
-                ',
-                'dosage_information' =>
-                    '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-                <p>
-                    Mix one scoop (5 g) into 200 mL of cold water and drink 20 minutes prior to exercising. To be taken once per day.
-                </p>
-                ',
-                'ingredients' =>
-                    '
-                <a class="product_modal_link" href="#">
-                    <img class="product_image" alt="NOS Ingredient Label" src="/img/products/nos/ingredient_label.png" width="100%"/>
-                </a>
-                <br><br>
-                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <p>
-                                    <strong>ACTIVE INGREDIENTS</strong>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    <strong>Per serve (5g)</strong>
-                                </p>
-                            </td>
-                            <td>
-                                <p>
-                                    <strong>Per 100g</strong>
-                                </p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Creatine monohydrate</p>
-                            </td>
-                            <td>
-                                <p>1 g</p>
-                            </td>
-                            <td>
-                                <p>20 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>L-arginine</p>
-                            </td>
-                            <td>
-                                <p>1 g</p>
-                            </td>
-                            <td>
-                                <p>20 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Beta-alanine</p>
-                            </td>
-                            <td>
-                                <p>1.2 g</p>
-                            </td>
-                            <td>
-                                <p>24 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Ascorbic acid (Vitamin C)</p>
-                            </td>
-                            <td>
-                                <p>80mg</p>
-                            </td>
-                            <td>
-                                <p>1.6 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>L-Tyrosine</p>
-                            </td>
-                            <td>
-                                <p>200 mg</p>
-                            </td>
-                            <td>
-                                <p>4 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Guarana (Paullinia cupana kunth) dried seeds powder</p>
-                            </td>
-                            <td>
-                                <p>1 g</p>
-                            </td>
-                            <td>
-                                <p>20 g</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Nicotinic acid (Vitamin B3)</p>
-                            </td>
-                            <td>
-                                <p>20 mg</p>
-                            </td>
-                            <td>
-                                <p>400 mg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Pyridoxine 5-phosphate (Vitamin B6)</p>
-                            </td>
-                            <td>
-                                <p>3.2 mg</p>
-                            </td>
-                            <td>
-                                <p>64 mg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Cyanocobalamin (Vitamin B12)</p>
-                            </td>
-                            <td>
-                                <p>4 mcg</p>
-                            </td>
-                            <td>
-                                <p>80 mcg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Folic acid (Vitamin B9)</p>
-                            </td>
-                            <td>
-                                <p>250 mcg</p>
-                            </td>
-                            <td>
-                                <p>5 mg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>Tender green coconut water powder</p>
-                            </td>
-                            <td>
-                                <p>25 mg</p>
-                            </td>
-                            <td>
-                                <p>500 mg</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">
-                                <p>
-                                    <strong>Excipient Ingredients</strong>
-                                </p>
-                                <p>Citric acid</p>
-                                <p>Malic acid</p>
-                                <p>Stevia</p>
-                                <p>Silica</p>
-                                <p>Flavour</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                ',
-                'cmi' =>
-                    'none',
-                'free_from' =>
-                    '
-                <p class="medlab_product_content_sub_title">
-                    Contains No Artificial Colours or Sweeteners
-                </p>
-                <p class="medlab_product_content_sub_title">
-                    Gluten & Dairy Free
-                </p>
-                <p class="medlab_product_content_sub_title">
-                    Suitable for Vegetarians
-                </p>
-                ',
-                'price_retail' => 36.63,
-                'price_wholesale' => 24.40,
-                'image_path' => '/img/products/nos/nos.png',
-                'thumb_image_path' => '/img/products/nos/nos_thumb.png',
-                'slug' => 'NOS'
-            ],
-            [
                 'product_name_index' => "NRGBiotic 60's",
                 'austl_number' => '227515',
                 'product_name' => 'NRGBiotic&trade; 60&#39;s',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">NRGBiotic&trade; 60&#39;s</h4>
+                <a href="/nutraceuticals/products/nrgbiotic-60s">
+                    <h4 class="medlab_product_content_title">NRGBiotic&trade; 60&#39;s</h4>
+                </a>
                 <p>
-                    <strong>PATENT PROTECTED</strong>
+                    <strong>Australian Innovation Patent No. 2015100928</strong>
                 </p>
                 <p>
                     NRGBiotic™ is a probiotic formula combined with Coenzyme Q10 and Magnesium Orotate.
@@ -5541,7 +5507,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PROTECTED</strong>
+                    <strong>Australian Innovation Patent No. 2015100928</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -5656,21 +5622,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take two(2) capsules morning and night with water before meals or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/ngrbiotic_120s/2partcap_4_3_1_3.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -5799,8 +5753,8 @@ class ModifyProduct extends Command
                 ',
                 'price_retail' => 46.47,
                 'price_wholesale' => 30.98,
-                'image_path' => '/img/products/ngrbiotic_60s/nrgbiotic-60s-3d-bottle-master-sept14-v1_10_2_1.jpg',
-                'thumb_image_path' => '/img/products/ngrbiotic_60s/thumb_nrgbiotic-60s-3d-bottle-master-sept14-v1_10_2_1.jpg',
+                'image_path' => '/img/products/ngrbiotic_60s/nrgbiotic_60s_glass.png',
+                'thumb_image_path' => '/img/products/ngrbiotic_60s/nrgbiotic_60s_glass_thumb.png',
             ],
             [
                 'product_name_index' => 'ORSBiotic',
@@ -5808,9 +5762,11 @@ class ModifyProduct extends Command
                 'product_name' => 'ORSBiotic&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">ORSBiotic&trade;</h4>
+                <a href="/nutraceuticals/products/orsbiotic">
+                    <h4 class="medlab_product_content_title">ORSBiotic&trade;</h4>
+                </a>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100500</strong>
                 </p>
                 <p>
                     ORSBiotic&trade; is an Oral Rehydration Solution to replace fluids lost due to vomiting,
@@ -5822,7 +5778,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100500</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -5925,10 +5881,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Add 5 g of powder (1 scoop) to 200 mL of cold water, stir well and consume immediately or as
                     directed by your healthcare practitioner.
@@ -6193,12 +6145,400 @@ class ModifyProduct extends Command
                 'thumb_image_path' => '/img/products/orsbiotic/thumb_orsbiotic.png',
             ],
             [
+                'product_name_index' => 'ORSBiotic Sachets',
+                'austl_number' => '239102',
+                'product_name' => 'ORSBiotic&trade; 10pk Sachets',
+                'short_description' =>
+                    '
+                <a href="/nutraceuticals/products/orsbiotic-10pk-sachets">
+                    <h4 class="medlab_product_content_title">ORSBiotic&trade; 10pk Sachets</h4>
+                </a>
+                <p>
+                    <strong>Australian Innovation Patent No. 2016100500</strong>
+                </p>
+                <p>
+                    ORSBiotic&trade; is an Oral Rehydration Solution to replace fluids lost due to vomiting,
+                    diarrhoea and strenuous physical activity, providing essential electrolytes together with
+                    selected probiotic species to provide therapeutic support for various triggers of diarrhoea
+                    and associated symptoms.
+                </p>
+                ',
+                'patent' =>
+                    '
+                <p>
+                    <strong>Australian Innovation Patent No. 2016100500</strong>
+                </p>
+                <p>
+                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                </p>
+                ',
+                'general_summary' =>
+                    '
+                <p>
+                    ORSBiotic&trade; is an Oral Rehydration Solution to replace fluids lost due to vomiting,
+                    diarrhoea and strenuous physical activity, providing essential electrolytes together with
+                    selected probiotic species to provide therapeutic support for various triggers of diarrhoea
+                    and associated symptoms.
+                </p>
+                <p>
+                    ORSBiotic&trade; contains probiotic species that assist to maintain healthy gastrointestinal
+                    homeostasis and permeability. The selected probiotic species from the genera Saccharomyces,
+                    Lactobacillus and Bifidobacterium have clinical evidence for providing therapeutic support
+                    for various triggers of diarrhoea and may help reduce the frequency and duration of diarrhoea.
+                    Zinc supplementation has been found to reduce the duration and severity of diarrhoea in children.
+                </p>
+                ',
+                'practitioner_summary' =>
+                    '
+
+
+                <strong>STANDARD INDICATIONS</strong>
+
+                <p>
+                    <ul>
+                        <li>Aids, assists or helps in the maintenance or improvement of general well-being.</li>
+                        <li>Relief or treatment of diarrhoea.</li>
+                    </ul>
+                </p>
+
+                <strong>SPECIFIC INDICATIONS</strong>
+
+                <p>
+                    <ul>
+                        <li>Helps replace water and electrolytes lost due to vomiting, diarrhoea, heavy sweating, fever, vigorous exercise and other dehydrating conditions.</li>
+                        <li>Probiotic species from the genera Saccharomyces, Lactobacillus and Bifidobacterium have clinical evidence for providing therapeutic support for various triggers of diarrhoea including infectious agents, antibiotic-associated, Clostridium difficile-associated, irritable bowel syndrome, inflammatory bowel syndrome and malabsorption causes and may therefore help to reduce the frequency and duration of diarrhoea.</li>
+                        <li>Saccharomyces, Lactobacillus and Bifidobacterium help maintain healthy gastrointestinal homeostasis and permeability.</li>
+                        <li>Supplementary zinc benefits children with diarrhoea because it is a vital micronutrient essential for protein synthesis, cell growth and differentiation, immune function and intestinal transport of water and electrolytes. Clinical research demonstrates zinc reduces severity and duration of diarrhoea in children.</li>
+                        <li>Zinc deficiency is associated with an increased risk of gastrointestinal infections, adverse effects on the structure and function of the gastrointestinal tract and impaired immune function.</li>
+                        <li>Supports a healthy immune system.</li>
+                    </ul>
+                </p>
+
+
+
+                <p>
+                    <strong>SPECIFIC CONDITIONS</strong>
+                </p>
+
+                <p>
+                    No specific conditions included on record.
+                </p>
+
+
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>Contains sugar (glucose).</li>
+                        <li>Contains zinc which may be dangerous if taken in large amounts or for a long period.</li>
+                        <li>If diarrhoea persists for more than 6 hours in infants under 6 months, 12 hours in children under 3 years, 24 hours in children aged 3-6 years or 48 hours in adults and children over 6 years, seek medical advice.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
+                </p>
+                ',
+                'references' =>
+                    '
+                <ol class="medlab_product_reference_list">
+                    <li>Duggan C, et al. Composition of oral rehydration solution. <em>JAMA</em> 2004;291:2628.</li>
+                    <li>Farthing MJG. Oral Rehydration: An evolving solution. <em>J Pediat Gastroenterol Nutr</em> 2002;34:S64.</li>
+                    <li>Baker LB, Jeukendrup AE. Optimal composition of fluid-replacement beverages. <em>Compr Physiol</em> 2014;4:575.</li>
+                    <li>Islam MR, et al. Oral rehydration therapy: efficacy of sodium citrate equals to sodium bicarbonate for correction of acidosis in diarrhoea. <em>Gut</em> 1984;25:900.</li>
+                    <li>Galvao TF, et al. Zinc supplementation for treating diarrhea in children: a systematic review and meta-analysis. <em>Rev Panam Salud Publica</em> 2013;33:370.</li>
+                    <li>Lamberti LM, et al. Oral zinc supplementation for the treatment of acute diarrhea in children: a systematic review and meta-analysis. <em>Nutrients</em> 2013;5:4715.</li>
+                    <li>Allen SJ, et al. Probiotics for treating acute infectious diarrhoea. <em>Cochrane Reviews</em> 2010;11.</li>
+                    <li>Goldenberg JZ, et al. Probiotics for the prevention of Clostridium difficile-associated diarrhoea in adults and children. <em>Cochrane Reviews</em> 2013;5.</li>
+                    <li>Buts JP, De Keyser N. Effects of Saccharomyces boulardii on Intestinal Mucosa. <em>Dig Dis Sci</em> 2006;51:1485.</li>
+                    <li>Selle K, Klaenhammer TR. Genomic and phenotypic evidence for probiotic influences of Lactobacillus gasseri on human health. <em>FEMS Microbiol Rev</em> 2013;37:915.</li>
+                    <li>Bodaszewska-Lubas M, et al. Antibacterial activity of selected standard strains of lactic acid bacteria producing bacteriocins – pilot study. <em>Postepy Hig Med Dosw</em> 2012;66:787.</li>
+                    <li>Lonnermark E, et al. Intake of Lactobacillus plantarum reduces certain gastrointestinal symptoms during treatment with antibiotics. <em>J Clin Gastroenterol</em> 2010;44:106.</li>
+                    <li>Fanning S, et al. Bifidobacterium breve UCC2003 surface exopolysaccharide production is a beneficial trait mediating commensal-host interaction through immune modulation and pathogen protection. <em>Gut Microbes</em> 2012;3:410.</li>
+                    <li>Munoz-Quezada S, et al. Competitive inhibition of three novel bacteria isolated from faeces of breast milk-fed infants against selected pathogens. <em>Br J Nutr</em> 2013;109:S63.</li>
+                    <li>Shing CM, et al. Effects of probiotics supplementation on gastrointestinal permeability, inflammation and exercise performance in the heat. <em>Eur J Appl Physiol</em> 2014;114:93.</li>
+                </ol>
+                ',
+                'side_effects' =>
+                    '
+                <p>
+                    Probiotics may cause minor gastrointestinal symptoms such as bloating and discomfort but are usually temporary and can be relieved by reducing the dose.
+                </p>
+                ',
+                'interactions' =>
+                    '
+                ',
+                'dosage_information' =>
+                    '
+                <p>
+                    Add 5 g of powder (1 sachet) to 200 mL of cold water, immediately before use and stir well or as directed by your healthcare professional.
+                </p>
+                <p>
+                    Recommended dose for under 3 years is 100 mL every 90 minutes; 3-6 years 100 mL every 60 minutes; 6-12 years 100 mL every 30 minutes and over 12 years 200 mL every 30 minutes.
+                </p>
+                ',
+                'ingredients' =>
+                    '
+                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>
+                                    <strong>ACTIVE INGREDIENTS</strong>
+                                </p>
+                            </td>
+                            <td valign="top" colspan="2">
+                                <p>
+                                    <strong>EACH SCOOP CONTAINS</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Saccharomyces cerevisiae ssp. boulardii </em>(Med 41)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>2 billion</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Lactobacillus gasseri </em>(Med 23)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>2 billion</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                            </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Lactobacillus plantarum </em>(Med 25)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>2 billion</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Bifidobacterium breve </em>(Med12)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>2 billion</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Sodium Chloride</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>533.2 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="padding-left: 30px;">Equiv. Sodium</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>209.7 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>46 mmol/L</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="padding-left: 30px;">Equiv. Chloride</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>323.5 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>46 mmol/L</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Potassium Citrate</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>449.1 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="padding-left: 30px;">Equiv. Potassium</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>162.6 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>22 mmol/L</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="padding-left: 30px;">Equiv. Citrate</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>261.8 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>30 mmol/L</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Glucose Anhydrous</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>2.5 g</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>71 mmol/L</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Citric Acid Anhydrous</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>890.5 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Zinc Gluconate</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>44.8 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1 mmol/L</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="padding-left: 30px;">Equiv. Zinc</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>6.4 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>0.5 mmol/L</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><strong>Total</strong></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p><strong>8 Billion CFU*</strong></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p><strong>216.5 mmol/L</strong></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Flavours</p>
+                                <p>Silica</p>
+                                <p>Stevia</p>
+                                <p>Carrot powder</p>
+                                <p>Thaumatin</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                ',
+                'cmi' =>
+                    '
+                <p>
+                    <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                    <a class="medlab_panel_content_link"href="/nutraceuticals/products/orsbiotic/cmi/english" target="_blank">
+                        Click Here For English CMI
+                    </a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Saudi Arabia" src="/img/products/cmi/Saudi-Arabia.png">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/arabic" target="_blank">الترجمة العربية </a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Russia" src="/img/products/cmi/Russia.png">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/russian" target="_blank">Перевод на русском языке</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Spain" src="/img/products/cmi/Spain.png">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/spanish" target="_blank">Traducción en español</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="Japan" src="/img/products/cmi/Japan.png">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/japanese" target="_blank">日本語翻訳</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="France" src="/img/products/cmi/France.png">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/french" target="_blank">Traduction en français</a>
+                </p>
+                <p>
+                    <img width="24" height="24" alt="China" src="/img/products/cmi/China.png">
+                    <a class="medlab_panel_content_link" href="/nutraceuticals/products/orsbiotic/cmi/chinese" target="_blank">中文翻译</a>
+                </p>
+                ',
+                'free_from' =>
+                    '
+                <p class="medlab_product_content_sub_title">
+                    Gluten and Lactose Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Suitable for vegetarians
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    No artificial colours, flavours or sweeteners
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Refrigerate to maintain stability
+                </p>
+                ',
+                'price_retail' => 19.46,
+                'price_wholesale' => 12.99,
+                'image_path' => '/img/products/orsbiotic/orsbiotic_sachets.jpg',
+                'thumb_image_path' => '/img/products/orsbiotic/orsbiotic_sachets_thumb.jpg',
+            ],
+            [
                 'product_name_index' => "SB 5B",
                 'austl_number' => '269432',
                 'product_name' => 'SB 5B&trade;',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">SB 5B&trade;</h4>
+                <a href="/nutraceuticals/products/SB-5B">
+                    <h4 class="medlab_product_content_title">SB 5B&trade;</h4>
+                </a>
                 <p>
                     <em>Saccharomyces cerevisiae ssp. boulardii</em> (SB) is a beneficial probiotic yeast that helps to
                     maintain gastrointestinal function and integrity by supporting a healthy gut microbial profile. SB 5B&trade;
@@ -6317,21 +6657,9 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Take one (1) capsule, one (1) to two (2) times daily, or as directed by your healthcare practitioner.
                 </p>
-
-                <h4 class="medlab_product_content_title">
-                    Dosage Size
-                </h4>
-
-                <div style="text-align: center">
-                    <img src="/img/products/sb_5b/2partcap.png">
-                </div>
                 ',
                 'ingredients' =>
                     '
@@ -6437,9 +6765,11 @@ class ModifyProduct extends Command
                 'product_name' => 'W8Biotic&trade; Strawberries & Cream',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">W8Biotic&trade; Strawberries & Cream</h4>
+                <a href="/nutraceuticals/products/w8biotic-strawberries-and-cream">
+                    <h4 class="medlab_product_content_title">W8Biotic&trade; Strawberries & Cream</h4>
+                </a>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
                 <p>
                     W8Biotic&trade; is scientifically formulated to support lean body mass, weight management and
@@ -6450,7 +6780,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -6572,10 +6902,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Add 25 g of powder (1 scoop) to 250 mL of cold water and consume immediately, One (1) to two (2)
                     times a day, before meals or directed by your healthcare practitioner.
@@ -6715,9 +7041,11 @@ class ModifyProduct extends Command
                 'product_name' => 'W8Biotic&trade; Lemon & Lime',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">W8Biotic&trade; Lemon & Lime</h4>
+                <a href="/nutraceuticals/products/w8biotic-lemon-and-lime">
+                    <h4 class="medlab_product_content_title">W8Biotic&trade; Lemon & Lime</h4>
+                </a>
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100501</strong>
                 </p>
                 <p>
                     W8Biotic&trade; is scientifically formulated to support lean body mass, weight management and
@@ -6728,7 +7056,7 @@ class ModifyProduct extends Command
                 'patent' =>
                     '
                 <p>
-                    <strong>PATENT PENDING</strong>
+                    <strong>Australian Innovation Patent No. 2016100501 </strong>
                 </p>
                 <p>
                     Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
@@ -6850,10 +7178,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Serving Information
-                </h4>
-
                 <p>
                     Add 25 g of powder (1 scoop) to 250 mL of cold water and consume immediately, One (1) to two (2)
                     times a day, before meals or directed by your healthcare practitioner.
@@ -6997,7 +7321,9 @@ class ModifyProduct extends Command
                 'product_name' => "NanoCelle&trade; D3 + K2",
                 'short_description' =>
                     '
-                    <h4 class="medlab_product_content_title">NanoCelle&trade; D3 + K2</h4>
+                    <a href="/nutraceuticals/products/nanocelle-d3-k2">
+                        <h4 class="medlab_product_content_title">NanoCelle&trade; D3 + K2</h4>
+                    </a>
                     <p>
                         <strong>PATENT PENDING</strong>
                     </p>
@@ -7020,8 +7346,8 @@ class ModifyProduct extends Command
                     '
                     <p>
                         NanoCelle&trade; D3 + K2 is developed from patent-protected nanocellization
-                        technology that produces Vitamin D3 and Vitamin K2 submicron nanoparticles that are easily absorbed
-                        across the oral mucosal epithelia. NanoCelle&trade; D3 + K2 is
+                        technology that produces Vitamin D3 and Vitamin K2 submicron nanoparticles that delivers nanoparticle-sized molecules of the vitamin for absorption across
+                        the oral buccal mucosa, bypassing the gastrointestinal tract. NanoCelle&trade; D3 + K2 is
                         indicated to sustain mineral homeostasis facilitating optimal immune function, cardiovascular health
                         and bone metabolism, and to assist in the management of medically diagnosed vitamin D deficiency.
                         Vitamin D3 is essential for cellular and immunological function and is also essential for skeletal
@@ -7181,9 +7507,6 @@ class ModifyProduct extends Command
 
                 'dosage_information' =>
                     '
-                    <h4 class="medlab_product_content_title">
-                        Serving Information
-                    </h4>
                     <p>
                         Spray 300 µl dose (2 sprays) on the inside cheek of the mouth once per day before a meal,
                         or as directed by your healthcare practitioner.
@@ -7307,7 +7630,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Immune-5&trade; Vanilla',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Immune-5&trade; Vanilla</small></h4>
+                <a href="/nutraceuticals/products/immune-5-vanilla">
+                    <h4 class="medlab_product_content_title">Immune-5&trade; Vanilla</small></h4>
+                </a>
                 <p>
                     Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with
                     two specific probiotic species shown to assist with immune function and assist with upper respiratory tract infections.
@@ -7426,9 +7751,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Direction of Use:
-                </h4>
                 <p>
                     Mix one (1) level teaspoon (5g) into 100-200 mL of water and drink immediately, two (2) times per day or as directed by your healthcare practitioner.
                 </p>
@@ -7571,7 +7893,9 @@ class ModifyProduct extends Command
                 'product_name' => 'Immune-5&trade; Raspberry',
                 'short_description' =>
                     '
-                <h4 class="medlab_product_content_title">Immune-5&trade; Raspberry</small></h4>
+                <a href="/nutraceuticals/products/immune-5-raspberry">
+                    <h4 class="medlab_product_content_title">Immune-5&trade; Raspberry</small></h4>
+                </a>
                 <p>
                     Immune-5&trade; is a scientifically-based combination of select first line immune modulating nutrients, together with
                     two specific probiotic species shown to assist with immune function and assist with upper respiratory tract infections.
@@ -7690,9 +8014,6 @@ class ModifyProduct extends Command
                 ',
                 'dosage_information' =>
                     '
-                <h4 class="medlab_product_content_title">
-                    Direction of Use:
-                </h4>
                 <p>
                     Mix one (1) level teaspoon (5g) into 100-200 mL of water and drink immediately, two (2) times per day or as directed by your healthcare practitioner.
                 </p>
@@ -7827,9 +8148,1837 @@ class ModifyProduct extends Command
                 'image_path' => '/img/products/immune-5/Immune-5-raspberry.png',
                 'thumb_image_path' => '/img/products/immune-5/Immune-5-raspberry_thumb.png',
                 'slug' => 'immune-5-raspberry'
+            ],
+            [
+                'product_name_index' => 'Lactoferrin Enhanced',
+                'austl_number' => '290203',
+                'product_name' => 'Lactoferrin Enhanced',
+                'short_description' =>
+                    '
+                <a href="/nutraceuticals/products/lactoferrin-enhanced-60s">
+                    <h4 class="medlab_product_content_title">Lactoferrin Enhanced</h4>
+                </a>
+                <p>
+                    Lactoferrin Enhanced is a unique combination of lactoferrin, olive leaf extract, probiotics and
+                    zinc to support a healthy immune response and regulate gastrointestinal health.
+                </p>
+                ',
+                'patent' =>
+                    '
+                <p>
+                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                </p>
+                ',
+                'general_summary' =>
+                    '
+                <p>
+                    Lactoferrin Enhanced is a unique combination of lactoferrin, olive leaf extract, probiotics
+                    and zinc to support a healthy immune response and regulate gastrointestinal health.
+                    Lactoferrin is a naturally occurring glycoprotein found in mucosal secretions, human milk and
+                    colostrum. It is a component of the innate immune response and protects against a variety of
+                    pathogens. Lactoferrin provides anti-inflammatory and antimicrobial activity, and may help to
+                    reduce inflammatory lesions associated with mild-moderate acne vulgaris.
+                </p>
+                <p>
+                    Bonolive® is a clinically trialled extract of olive leaf. Intake of Bonolive® has been shown to
+                    lead to excellent bioavailabilty of bioactive metabolites in pharmacokinetic research. Bonolive®
+                    has been shown to promote bone health by stimulating osteoblast growth in a clinical study.
+                    Olive leaf extract has been found to exhibit broad spectrum antimicrobial properties against
+                    viruses and bacteria in vitro.
+                </p>
+                ',
+                'practitioner_summary' =>
+                    "
+
+                <strong>SPECIFIC INDICATIONS</strong>
+
+                <p>
+                    <ul>
+                        <li>
+                            Contains Bifidobacteria species which may support the health and function of the digestive
+                            tract.
+                        </li>
+                        <li>
+                            Bifidobacteria may modulate the immune system at a local and systemic level, thereby
+                            regulating immune defence mechanisms.
+                        </li>
+                        <li>
+                            Lactoferrin is naturally found in colostrum and human milk and is a component of the
+                            innate immune response.
+                        </li>
+                        <li>
+                            Lactoferrin may provide broad-spectrum anti-microbial and anti-viral activity.
+                        </li>
+                        <li>
+                            Lactoferrin significantly reduces acne lesions in mild to moderate acne vulgaris.
+                        </li>
+                        <li>
+                            Olive Leaf extract contains oleuropeins and phenolic compounds that may support
+                            the healthy function of the immune system.
+                        </li>
+                        <li>
+                            Olive leaf extract, contains oleuropein and phenolic compounds, that may support
+                            the immune system through broad-spectrum antimicrobial and anti-inflammatory activity.
+                        </li>
+                        <li>
+                            The physiological requirements for zinc peak during periods of growth including
+                            infancy, childhood, and adolescence.
+                        </li>
+                        <li>
+                            Zinc has a catalytic and structural role in numerous biological activities including
+                            cell growth, development, and differentiation.
+                        </li>
+                        <li>
+                            Over 300 different enzymes depend on zinc for their ability to catalyze vital chemical
+                            reactions. Zinc-dependent enzymes can be found in all known classes of enzymes.
+                        </li>
+                        <li>
+                            Contains olive leaf extract rich in oleuropeins which may stimulate osteoblast activity
+                            as seen in a clinical study with osteopenic women.
+                        </li>
+                        <li>
+                            Lactoferrin may support bone health by promoting the regulation of bone tissue via
+                            increased osteoblast growth and reduced osteoclastogenesis, as reported in in-vitro
+                            and in-vivo studies.
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>Derived from cow's milk.</li>
+                        <li>If symptoms persist consult your healthcare practitioner.</li>
+                    </ul>
+                </p>
+                ",
+                'references' =>
+                    '
+                    ',
+                'side_effects' =>
+                    '
+                <p>
+                    Refer to CMI
+                </p>
+                ',
+                'interactions' =>
+                    '
+                    <p>
+                        <ul>
+                            <li>
+                                Use with caution in combination with anti-diabetic drugs or antihypertensive drugs.
+                                Theoretically, olive leaf may enhance their effects.
+                            </li>
+                            <li>
+                                If taking antibiotics, take 2 hours away from probiotics.
+                            </li>
+                            <li>
+                                Advise patients to take penicillamine, quinolone antibiotics or tetracycline
+                                antibiotics at least 2 hours before or 4-6 hours after zinc supplementation.
+                                Zinc may interfere with the absorption and activity of these drugs.
+                            </li>
+                            <li>
+                                Use with caution in combination with amiodarone. Amiloride can reduce urinary
+                                zinc excretion, especially at doses of 10 mg/day or more.
+                            </li>
+                            <li>
+                                Use with caution in combination with Cisplatin. Preliminary data suggests that
+                                zinc may interfere with cisplatin in the body. Cisplatin might also increase
+                                zinc excretion.
+                            </li>
+                        </ul>
+                    </p>
+                ',
+                'dosage_information' =>
+                    '
+                <p>
+                    Adults: two (2) capsules daily. Capsules not to be given to children under 4 years of age,
+                    to be administered as directed by your healthcare professional.
+                </p>
+                ',
+                'ingredients' =>
+                    '
+                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>
+                                    <strong>ACTIVE INGREDIENTS</strong>
+                                </p>
+                            </td>
+                            <td valign="top" colspan="2">
+                                <p>
+                                    <strong>EACH CAPSULES CONTAINS</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Lactoferrin (bovine)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>150 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Bonolive® ^ <em>Olea europaea</em> extract</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>500 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Bifidobacterium animalis ssp. lactis</em> (Med 13)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>100 million CFU*</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Bifidobacterium longum</em> (Med 15)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>100 million CFU*</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Zinc (from zinc glycinate)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>5 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Silica (colloidal anhydrous)</p>
+                                <p>Citric acid</p>
+                                <p>Magnesium stearate</p>
+                                <p>Microcrystalline cellulose</p>
+                                <p>Thaumatin</p>
+                                <p><strong>^Bonolive® is a registered trademark of BioActor B.V.</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                ',
+                'cmi' =>
+                '
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/lactoferrin-enhanced-60s/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                ',
+                'free_from' =>
+                    '
+                <p class="medlab_product_content_sub_title">
+                    Gluten Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Vegetarian friendly
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Refrigerate to maintain stability
+                </p>
+                ',
+                'price_retail' => 41.25,
+                'price_wholesale' => 27.50,
+                'image_path' => '/img/products/lactoferrin_enhanced_60s/lactoferrin_enhanced_60s_plastic.png',
+                'thumb_image_path' => '/img/products/lactoferrin_enhanced_60s/lacoferrin_enhanced_60s_plastic_thumb.png',
+                'in_stock' => true,
+                'slug' => 'lactoferrin-enhanced-60s',
+            ],
+            [
+                'product_name_index' => 'BifidoBiotic',
+                'austl_number' => '286501',
+                'product_name' => 'BifidoBiotic&trade;',
+                'short_description' =>
+                    '
+                <a href="/nutraceuticals/products/bifidobiotic-60s">
+                    <h4 class="medlab_product_content_title">BifidoBiotic&trade;</h4>
+                </a>
+                <p>
+                    BifidoBiotic&trade; is a multi-species probiotic formulation to restore and maintain a healthy
+                    intestinal microbiome, across the lifespan. BifidoBiotic&trade; may help to re-regulate pro-inflammatory
+                    cytokine levels and support a healthy immune system.
+                </p>
+                ',
+                'patent' =>
+                    '
+                <p>
+                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                </p>
+                ',
+                'general_summary' =>
+                    '
+                <p>
+                    BifidoBiotic&trade; is a scientifically formulated combination of bifidobacteria species to support
+                    the health and function of the intestinal microbiome across the lifespan. Bifidobacteria species
+                    may help to re-regulate pro-inflammatory cytokine levels and support a healthy immune response.
+                    Bifidobacterium species have been documented to decrease in number, with the increasing age of the
+                    host, contributing to a decline in immune system efficacy associated with ageing. <em>Bifidobacterium
+                    longum</em>, and <em>Bifidobacterium bifidum</em> influence beneficial host-gene expression of immune
+                    cells in the intestinal mucosa. <em>Bifidobacterium infantis</em> has been demonstrated in clinical
+                    trials to normalise intestinal permeability, improve gastrointestinal health conditions and improve
+                    the symptoms of diarrhoea-associated irritable bowel syndrome.
+                </p>
+                ',
+                'practitioner_summary' =>
+                    "
+                <strong>STANDARD INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            For the symptomatic relief of medically diagnosed irritable bowel syndrome.
+                        </li>
+                        <li>
+                            Aids, assists or helps in the maintenance of general well-being.
+                        </li>
+                    </ul>
+                </p>
+                <strong>SPECIFIC INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            Supplementation of bifidobacteria has been shown to provide protection against infection,
+                            and stimulate the production of beneficial metabolites including Short Chain Fatty Acids
+                            (SCFA), Conjugated Linoleic Acid (CLA) and bacteriocins.
+                        </li>
+                        <li>
+                            Bifidobacteria have been shown to inhibit the adherence of enterotoxigenic <em>E. coli</em>,
+                            enteropathogenic <em>E. coli</em>, and <em>C. difficile</em> to intestinal epithelial cells.
+                        </li>
+                        <li>
+                            Bifidobacteria species may reduce gastrointestinal side effects of antibiotics.
+                        </li>
+                        <li>
+                            Disturbances in the gut microbiota have been linked to the pathophysiology of IBS.
+                            Bifidobacterium species have been shown to be decreased in the microbiota of people
+                            with IBS compared with healthy controls.
+                        </li>
+                        <li>
+                            Alterations in the composition and number of bifidobacteria have been associated
+                            with several gastrointestinal conditions including IBS and IBD.
+                        </li>
+                        <li>
+                            Bifidobacteria species have been shown to alleviate symptoms of IBS and are associated
+                            with the regulation of pro and anti-inflammatory cytokines.
+                        </li>
+                        <li>
+                            Major physiological and lifestyle changes occur in the elderly, which impact on the
+                            composition of the functionality of the intestinal microbiota. The reduced number
+                            and diversity of bifidobacteria in the elderly suggests that probiotic supplementation
+                            may be beneficial in this population.
+                        </li>
+                        <li>
+                            Due to age related changes in the microbiome, bifidobacteria supplementation may support
+                            immunological and metabolic function in the elderly.
+                        </li>
+                        <li>
+                            Provides the species <em>B. bifidum</em>, <em>B. longum</em>, and <em>B. longum ssp infantis</em> which are the
+                            predominant species in full-term, healthy breast-fed infants.
+                        </li>
+                        <li>
+                            Supplementation with bifidobacteria may support formula fed infants. The use of infant
+                            formula feed may delay the development of immunological tolerance to environmental and
+                            bacterial antigens in the neonatal innate immune system.
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>If symptoms persist consult your healthcare professional.</li>
+                    </ul>
+                </p>
+                ",
+                'references' =>
+                    '
+                    ',
+                'side_effects' =>
+                    '
+                <p>
+                    BifidoBiotic&trade; has low risk of side effects when taken as directed.
+                    Refer to CMI for more information.
+                </p>
+                ',
+                'interactions' =>
+                    '
+                    <p>
+                        As BifidoBiotic&trade; contains probiotic strains, taking antibiotics along with probiotics
+                        can reduce the effectiveness. To avoid this interaction, take BifidoBiotic&trade; at least 2
+                        hours before or after antibiotics.
+                    </p>
+                ',
+                'dosage_information' =>
+                    '
+                <p>
+                    Adults: two (2) capsules daily. Capsules not to be given to children under 4 years of age,
+                    to be administered as directed by your healthcare professional.
+                    Take Bifidobiotic&trade; at least 2 hours apart from prescription drugs.
+                </p>
+                ',
+                'ingredients' =>
+                    '
+                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>
+                                    <strong>ACTIVE INGREDIENTS</strong>
+                                </p>
+                            </td>
+                            <td valign="top" colspan="2">
+                                <p>
+                                    <strong>PER TWO CAPSULES CONTAINS</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Bifidobacterium longum</em> subsp. <em>Infantis</em> (Med 14)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>30 billion CFU*</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Bifidobacterium longum</em> (Med 15)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>10 billion CFU*</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Bifidobacterium bifidum</em> (Med 11)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>10 billion CFU*</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align: right">
+                                *CFU: Colony Forming Units
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Cellulose</p>
+                                <p>Silica</p>
+                                <p>Magnesium stearate</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                ',
+                'cmi' =>
+                    '
+                <p>
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/bifidobiotic-60s/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                </p>
+                ',
+                'free_from' =>
+                    '
+                <p class="medlab_product_content_sub_title">
+                    Gluten Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Vegetarian friendly
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Refrigerate to maintain stability
+                </p>
+                ',
+                'price_retail' => 74.93,
+                'price_wholesale' => 49.95,
+                'image_path' => '/img/products/bifidobiotic-60s/bifidobiotic_60s.png',
+                'thumb_image_path' => '/img/products/bifidobiotic-60s/bifidobiotic_60s_thumb.png',
+                'in_stock' => true,
+                'slug' => 'bifidobiotic-60s',
+            ],
+            [
+                'product_name_index' => 'Quatrefolic',
+                'austl_number' => '286501',
+                'product_name' => 'Quatrefolic&reg;',
+                'short_description' =>
+                    '
+                <a href="/nutraceuticals/products/quatrefolic-60s">
+                    <h4 class="medlab_product_content_title">Quatrefolic&reg;</h4>
+                </a>
+                <p>
+                    Medlab Quatrefolic&reg; contains levomefolate glucosamine which is a form of biologically active
+                    folate, 5-methyltetrahydrofolate (5-MTHF). Folate is essential for DNA synthesis, cell division,
+                    red blood cell production and homocysteine metabolism. Demands for folate increase during pregnancy
+                    due to increased requirements for foetal growth and development.
+                </p>
+                ',
+                'patent' =>
+                    '
+                <p>
+                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                </p>
+                ',
+                'general_summary' =>
+                    '
+                <p>
+                    Quatrefolic&reg; is a new generation folate with increased solubility and bioavailability. Medlab
+                    Quatrefolic&reg; contains levomefolate glucosamine which is a form of biologically active folate,
+                    5-methyltetrahydrofolate (5-MTHF). Dietary folate and synthetic folic acid are not biologically
+                    active and need to be converted into 5-MTHF in a multistep process, requiring the enzyme
+                    methylenetetrahydrofolate reductase (MTHFR). Individuals with polymorphic forms of this enzyme
+                    cannot convert adequate amounts of biologically active folate. 5-MTHF can bypass the MTHFR enzyme
+                    to meet nutritional demands. Folate is essential for DNA synthesis, cell division, red blood cell
+                    production and homocysteine metabolism. Demands for folate increase during pregnancy due to
+                    increased requirements for foetal growth and development.
+                </p>
+                ',
+                'practitioner_summary' =>
+                    "
+                <strong>STANDARD INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            Helps maintain normal blood/blood tonic (Note: These claims are appropriate for folic acid,
+                            vitamin B12 and iron, but must not imply anaemic conditions).
+                        </li>
+                        <li>
+                            Aids, assists or helps in the maintenance of general well-being.
+                        </li>
+                        <li>
+                            Maintain/support healthy energy levels.
+                        </li>
+                        <li>
+                            May assist in the management of dietary folate deficiency.
+                        </li>
+                    </ul>
+                </p>
+                <strong>SPECIFIC INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            Contains Levomefolate glucosamine which provides Levomefolic acid, which is a form of
+                            L-5-methyltetrahydrofolate (L-5-MTHF). L-5-methyltetrahydrofolate is the predominant
+                            naturally occurring folate in foods.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate,
+                            which helps the body to metabolise proteins.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate,
+                            which is involved in the formation of DNA and cellular division.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate,
+                            which supports a healthy pregnancy.
+                        </li>
+                        <li>
+                            Supports a healthy brain and nervous system function.
+                        </li>
+                        <li>
+                            Helps to form red blood cells and proper function of red blood cells.
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>If symptoms persist consult your healthcare professional.</li>
+                        <li>Do not take while on warfarin therapy.</li>
+                        <li>Do not exceed the stated dose.</li>
+                        <li>If you have had a baby with a neural tube defect/spina bifida, seek specific medical advice.</li>
+                        <li>Vitamin supplements should not replace a balanced diet.</li>
+                    </ul>
+                </p>
+                ",
+                'references' =>
+                    '
+                    ',
+                'side_effects' =>
+                    '
+                <p>
+                    Quatrefolic&reg; has a low risk of side effects when taken as directed.
+                    Refer to CMI for more information.
+                </p>
+                ',
+                'interactions' =>
+                    '
+                    <p>
+                        Folic acid may interact with 5-fluorouracil, capecitabine (Xeloda), Fosphenytoin (Cerebyx),
+                        Methotrexate (MTX), phenobarbital (luminal), Phenytoin (Dilantin) and primidone (Mysoline)
+                        and Pyrimethamine (Daraprim). Interactions may possibly occur with other forms of folate.
+                    </p>
+                    <p>
+                    <ul>
+                        <li>
+                            <b>Capecitabine</b> - High doses of folic acid may contribute to capecitabine toxicity.
+                        </li>
+                        <li>
+                            <b>5-flourouracil</b> - High doses of folic acid may increase toxicity and and
+                            gastrointestinal side effects of 5-flourouracil.
+                        </li>
+                        <li>
+                            <b>Methotrexate</b> - Folic acid may reduce the efficacy of methotrexate in the treatment
+                            of acute lymphoblastic leukaemia and possibly other cancers. It is advised to consult an
+                            oncologist before using folic acid, as it may reduce the efficacy of methotrexate.
+                        </li>
+                        <li>
+                            Folic acid can have direct convulsant activity in some people, reversing the effects of
+                            phenobarbital and primidone, and worsening seizure control. Phenobarbital and Phenytoin
+                            can reduce serum folate levels. If phenytoin and folic acid are introduced at the same
+                            time and continued together, adverse effects may be avoided.
+                        </li>
+                        <li>
+                            <b>Fosphenytoin</b> - Folic acid in doses over 1mg per day or more, can reduce serum levels
+                            of fosphenytoin in some people.
+                        </li>
+                        <li>
+                            <b>Pyrimethamine</b> - Folic acid may antagonise the antiparasitic effects of pyrimethamine,
+                            except in the case of malria. Pyrimethamine  can reduce serum levels of folate.
+                        </li>
+                    </ul>
+                ',
+                'dosage_information' =>
+                    '
+                <p>
+                    Adults: Take 1 capsule, once a day, or as directed by your healthcare professional.
+                </p>
+                ',
+                'ingredients' =>
+                    '
+                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>
+                                    <strong>ACTIVE INGREDIENTS</strong>
+                                </p>
+                            </td>
+                            <td valign="top" colspan="2">
+                                <p>
+                                    <strong>EACH CAPSULES CONTAINS</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Levomefolate glucosamine</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>926 mcg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Equiv. Levomefolic acid (5-MTHF)</em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>500 mcg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Cellulose</p>
+                                <p>Silica</p>
+                                <p>Magnesium stearate</p>
+                                <br>
+                                <p>
+                                    <b>
+                                        Quatrefolic&reg; is covered by U.S. Patent No. 7,947,662 and is a
+                                        registered trademark of Gnosis S.p.A.
+                                    </b>
+                                    <img width="100%" alt="Quatrefolic Logo" src="/img/products/quatrefolic-60s/quatrefolic_logo.png">
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                ',
+                'cmi' =>
+                    '
+                <p>
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/quatrefolic-60s/cmi/english" target="_blank">
+                            Click Here For English CMI
+                        </a>
+                    </p>
+                </p>
+                ',
+                'free_from' =>
+                    '
+                <p class="medlab_product_content_sub_title">
+                    Gluten & Dairy Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Vegetarian friendly
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Refrigerate to maintain stability
+                </p>
+                ',
+                'price_retail' => 19.65,
+                'price_wholesale' => 13.10,
+                'image_path' => '/img/products/quatrefolic-60s/quatrefolic_60s.png',
+                'thumb_image_path' => '/img/products/quatrefolic-60s/quatrefolic_60s_thumb.png',
+                'in_stock' => true,
+                'slug' => 'quatrefolic-60s',
+            ],
+            [
+                'product_name_index' => 'NeuroActiv',
+                'austl_number' => '287564',
+                'product_name' => 'NeuroActiv&trade;',
+                'short_description' =>
+                    '
+                <h4 class="medlab_product_content_title">NeuroActiv&trade;</h4>
+                <p>
+                    NeuroActiv&trade; is a synergistic combination of biologically active nutrients designed to support 
+                    a healthy nervous system, promote a healthy mood, and maintain normal cognitive function. 
+                </p>
+                ',
+                'patent' =>
+                    '
+                <p>
+                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                </p>
+                ',
+                'general_summary' =>
+                    '
+                <p>
+                    NeuroActiv&trade; provides key nutrients to support essential metabolic pathways in the Central 
+                    Nervous System (CNS) for healthy brain function, healthy mood and healthy cognitive function. 
+                    Vitamins B6, B12 and folate support the methylation of proteins, membrane phospholipids, and 
+                    metabolism of neurotransmitters in the CNS. Vitamin B6 is an essential co-factor in the synthesis 
+                    of neurotransmitters such as dopamine, serotonin, γ-aminobutyric acid (GABA), noradrenaline and 
+                    melatonin. Low plasma levels of vitamins B6, B12 and folate have been associated with elevated 
+                    homocysteine levels, impaired neurotransmitter synthesis, mild cognitive decline, and a range of 
+                    neurological symptoms. NeuroActiv&trade; provides a therapeutic dose of Ubiquinol-10, the reduced 
+                    form of coenzyme Q10, with a superior absorption profile and higher bioavailability compared to 
+                    ubiquinone. Coenzyme Q10 is essential for mitochondrial energy production. Coenzyme Q10 provides 
+                    support for the high energy requirements in the brain, and may offer neuroprotective support for 
+                    conditions associated with impaired mitochondrial function.
+                </p>
+                ',
+                'practitioner_summary' =>
+                    "
+                <strong>STANDARD INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            May assist in the management of dietary folate deficiency.
+                        </li>
+                        <li>
+                            May assist in the management of dietary vitamin B12 deficiency.
+                        </li>
+                        <li>
+                            Helps maintain normal blood/blood tonic.
+                        </li>
+                        <li>                        
+                            Aids, assists or helps in the maintenance of general well-being.
+                        </li>
+                    </ul>
+                </p>
+                <strong>SPECIFIC INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            May assist in managing of Folic acid deficiency when dietary intake is inadequate.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
+                            helps the body to metabolise proteins.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
+                            is involved in the formation of DNA and cellular division.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, which 
+                            supports normal/healthy cardiovascular function and helps to metabolise homocysteine when 
+                            taken with Vitamin B6 and Vitamin B12.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine which provides Levomefolic acid, which is a form of 
+                            L-5-methyltetrahydrofolate (L-5- MTHF). L-5-methyltetrahydrofolate is the predominant 
+                            naturally occurring folate in foods.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, 
+                            which supports a healthy pregnancy.
+                        </li>
+                        <li>
+                            Contains Levomefolate glucosamine, which provides Levomefolic acid, a form of folate, 
+                            which may reduce homocysteine levels to improve vascular endothelium function though its 
+                            influence on nitric oxide and exerts direct antioxidative effects.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which helps the body metabolise proteins, carbohydrates and fats - 
+                            vitamin B12 is involved in the production of energy in the body.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which is required for red blood cell formation and is involved in 
+                            DNA synthesis.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which supports normal/healthy nervous system function, maybe mediated 
+                            by the methylation cycle.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which may supports normal/healthy cardiovascular function.
+                        </li>
+                        <li>
+                            Vitamin B12 may support the cellular immunity.
+                        </li>
+                        <li>
+                            Contains Mecobalamin, one of the active forms of vitamin B12.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which is required for synthesis of nerve-signalling molecules 
+                            (amines) and for facilitation of the body's normal nerve repair mechanisms.
+                        </li>
+                        <li>
+                            Vitamin B12 and folate may help maintain normal cognitive function.
+                        </li>
+                            May assist in managing Pyridoxine (Vitamin B6) deficiency when dietary intake is inadequate.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which may contribute to to normal energy metabolism.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is involved in the synthesis of several 
+                            neurotransmitters, such as serotonin, GABA and dopamine and may support the normal 
+                            healthy nervous system function.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which supports normal/healthy immune system function.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which supports normal/healthy cardiovascular function.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is involved in the formation of haemoglobin and 
+                            the growth of red blood cells.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is involved in the regulation of normal 
+                            hormonal activity.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is involved in DNA synthesis.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which is required for synthesis of nerve-signalling 
+                            molecules (amines) and for facilitation of the body's normal nerve repair mechanisms.
+                        </li>
+                        <li>
+                            Contains Pyridoxine (Vitamin B6), which may inhibit formation of advanced glycation 
+                            end products and has a protective effect under homocysteine-induced oxidative stress.
+                        </li>
+                        <li>
+                            Pyridoxine (Vitamin B6)-dependent enzymes are involved in many biochemical reactions, 
+                            including the transsulfuration of homocysteine and decarboxylation of amino acids that 
+                            yield biogenic amines (neurotransmitters).
+                        </li>
+                        <li>
+                            Contains pyridoxal 5-phosphate, which is an active form of Vitamin B6 in the body.
+                        </li>
+                        <li>
+                            Clinical trials suggest the combination of Levomefolic acid, Vitamin B6, and Vitamin B12 
+                            can reduce symptoms of neuropathy.
+                        </li>
+                        <li>
+                            The combination of supplemental folate and vitamin B12 has been shown to reduce 
+                            homocysteine more than folic acid alone.
+                        </li>
+                        <li>
+                            Contains Vitamin B12, which may act as an efficient intracellular superoxide scavenger 
+                            and improves glutathione redox status.
+                        </li>
+                        <li>
+                            Pyridoxal 5-phosphate and vitamin B12 may help maintain normal healthy stress levels.
+                        </li>
+                        <li>
+                            Folate and vitamin B6 are required as co-factors for neurotransmitter metabolism and 
+                            therefore may help to support normal health mood.
+                        </li>
+                        <li>
+                            Contains Coenzyme Q10, which plays an essential role in the production of ATP and assists 
+                            energy production in the mitochondria.
+                        </li>
+                        <li>
+                            Contains Coenzyme Q10, which helps to support/maintain cardiovascular health.
+                        </li>
+                        <li>
+                            Contains coenzyme Q10, which is an antioxidant and can therefore assist in protecting 
+                            the body from the damaging effects of free radical damage.
+                        </li>
+                        <li>
+                            Contains Coenzyme Q10, which plays a role in normal/healthy immune function.
+                        </li>
+                        <li>
+                            Contains ubiquinol, the reduced form of Coenzyme Q10.
+                        </li>
+                        <li>
+                            Both animal and human studies have demonstrated an inverse correlation between homocysteine 
+                            levels and endothelial function, perhaps through impairment of vasodilation mediated by 
+                            endothelium-derived nitric oxide.
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>
+                            Vitamin Supplements should not replace a balanced diet.
+                        </li>
+                        <li>
+                            If symptoms persist consult your healthcare professional.
+                        </li>
+                        <li>
+                            Do not take while on warfarin therapy without medical advice.
+                        </li>
+                        <li>
+                            Stop taking this medication if you experience tingling, burning or numbness and see your 
+                            healthcare practitioner as soon as possible.
+                        </li>
+                        <li>
+                            Do not exceed the stated dose except on medical advice.
+                        </li>
+                        <li>
+                            If you have had a baby with a neural tube defect/spina bifida, seek specific medical advice.
+                        </li>
+                    </ul>
+                </p>
+                ",
+                'references' =>
+                    '
+                    ',
+                'side_effects' =>
+                    '
+                <p>
+                    Refer to CMI
+                </p>
+                ',
+                'interactions' =>
+                    '
+                    <p>
+                        <ul>
+                            <li>
+                                <b>Folic acid</b> may interact with 5-fluorouracil, capecitabine (Xeloda), Fosphenytoin (Cerebyx), 
+                                Methotrexate (MTX), phenobarbital (luminal), Phenytoin (Dilantin) and primidone (Mysoline) 
+                                and Pyrimethamine (Daraprim). Interactions may possibly occur with other forms of folate.
+                            </li>
+                            <li>
+                                High doses of <b>Folic acid</b> may contribute to capecitabine toxicity.
+                            </li>
+                            <li>
+                                High doses of <b>Folic acid</b> may increase toxicity and and gastrointestinal side effects of 
+                                5-flourouracil.
+                            </li>
+                            <li>
+                                <b>Folic acid</b> may reduce the efficacy of methotrexate in the treatment of acute lymphoblastic 
+                                leukaemia and possibly other cancers. It is advised to consult an oncologist before using 
+                                folic acid, as it may reduce the efficacy of methotrexate.
+                            </li>
+                            <li>
+                                <b>Folic acid</b> can have direct convulsant activity in some people, reversing the effects of 
+                                phenobarbital and primidone, and worsening seizure control. Phenobarbital and Phenytoin 
+                                can reduce serum folate levels. If phenytoin and folic acid are introduced at the same 
+                                time and continued together, adverse effects may be avoided.
+                            </li>
+                            <li>
+                                <b>Folic acid</b> in doses over 1mg/ day or more, can reduce serum levels of fosphenytoin in 
+                                some people.
+                            </li>
+                            <li>
+                                <b>Folic acid</b> may antagonise the anti-parasitic effects of pyrimethamine, except in the 
+                                case of malaria. Pyrimethamine can reduce serum levels of folate.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <strong>CAUTION</strong>
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                <b>Vitamin B6</b> Use with caution in combination with amiodarone. Preliminary research suggests 
+                                that vitamin B6 can exacerbate amiodarone-induced photosensitivity. Other research suggests a 
+                                protective effect.
+                            </li>
+                            <li>
+                                <b>Vitamin B6 and coenzyme Q-10</b> Use with caution in combination with antihypertensive drugs 
+                                as <b>Vitamin B6 and Coenzyme Q-10</b> can decrease blood pressure in hypertensive patients and 
+                                may increase the risk of hypotension when used in combination with drugs that lower blood 
+                                pressure.
+                            </li>
+                            <li>
+                                <b>Vitamin B6 200 mg daily</b> may interact with phenobarbital. Preliminary research suggests that 
+                                Vitamin B6 200 mg daily can reduce plasma levels of phenobarbital, possibly by increasing
+                                metabolism. It is not known whether lower doses have any effect.
+                            </li>
+                            <li>
+                                <b>Vitamin B6 200 mg daily</b> may interact with Phenytoin. Preliminary data suggests that Vitamin 
+                                B6 200 mg daily can reduce plasma levels of phenytoin, possibly by increasing metabolism. 
+                                It is not known whether lower doses have any effect.
+                            </li>
+                            <li>
+                                <b>Vitamin B6</b> use with caution in combination with Levodopa (minor risk). <b>Vitamin B6</b> enhances 
+                                the metabolism of levodopa, reducing its anti-parkinsonism effects. However, this 
+                                interaction does not occur when carbidopa is used concurrently with levodopa (Sinemet). 
+                                Therefore, it is not likely to be a problem in most people.
+                            </li>
+                            <li>
+                                <b>Vitamin B12</b> Avoid in combination with chloramphenicol. Limited case reports suggest that 
+                                chloramphenicol can delay or interrupt the reticulocyte response to supplemental Vitamin 
+                                B12 in some patients. Monitor blood counts closely if this combination cannot be avoided.
+                            <li>
+                                <b>Coenzyme Q10</b> use with caution in combination with chemotherapy and radiotherapy. There is 
+                                concern that Coenzyme Q10 might protect tumor cells from chemotherapeutic agents that work 
+                                by inducing oxidative stress, such as the alkylating agents (e.g. cyclophosphamide, 
+                                Cytoxan), doxorubicin and radiation therapy.
+                            </li>
+                            <li>
+                                Use with caution in combination with warfarin. Concomitant use of <b>Coenzyme Q10</b> might 
+                                reduce the anticoagulation effects of warfarin.
+                            </li>
+                        </ul>
+                    </p>
+                ',
+                'dosage_information' =>
+                    '
+                <p>
+                    Adults: Take one (1) capsule, twice daily, or as directed by your healthcare professional.
+                </p>
+                ',
+                'ingredients' =>
+                    '
+                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>
+                                    <strong>ACTIVE INGREDIENTS</strong>
+                                </p>
+                            </td>
+                            <td valign="top" colspan="2">
+                                <p>
+                                    <strong>EACH CAPSULES CONTAINS</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Levomefolate glucosamine</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>463 µg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 30px;" width="273" valign="top">
+                                <p>Equiv. Levomefolic acid (5-MTHF)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>250 µg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Mecobalamin <br>(Vitamin B12)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>200 µg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Pyridoxal 5-phosphate monohydrate</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>47.02 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 30px;" width="273" valign="top">
+                                <p>Equiv. <em>pyridoxine</em> <br>(vitamin B6)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>30 µg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Ubiquinol-10 (CoQ10)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>100 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Calcium hydrogen phosphate dihydrate</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>23.6 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 30px;" width="273" valign="top">
+                                <p>Equiv. calcium</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>5.5 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Cellulose</p>
+                                <p>Hypermellose</p>
+                                <p>Silica (colloidal anhydrous)</p>
+                                <p>Magnesium stearate</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                ',
+                'cmi' =>
+                    '
+                <p>
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/neuroactiv/cmi/english" target="_blank">
+                            Click Here For English CMI
+                    </p>
+                </p>
+                ',
+                'free_from' =>
+                    '
+                <p class="medlab_product_content_sub_title">
+                    Gluten & Dairy Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Vegetarian friendly
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    No artificial colours, flavours or sweeteners
+                </p>
+                ',
+                'price_retail' => 42.14,
+                'price_wholesale' => 24.74,
+                'image_path' => '/img/products/neuroactiv/neuroactiv.png',
+                'thumb_image_path' => '/img/products/neuroactiv/neuroactiv_thumb.png',
+                'in_stock' => true,
+                'slug' => 'neuroactiv',
+            ],
+
+            [
+                'product_name_index' => 'StemGuard',
+                'austl_number' => '296557',
+                'product_name' => 'StemGuard',
+                'short_description' =>
+                    '
+                <h4 class="medlab_product_content_title">StemGuard</h4>
+                <p>
+                    A scientifically formulated combination of nutraceuticals, botanical extracts, and concentrated 
+                    wholefood powders to support and maintain healthy cell function. The unique combination of 
+                    ingredients in StemGuard provides support for cellular energy production, cardiovascular health, 
+                    liver detoxification pathways, healthy hormone metabolism, and a well-functioning immune system. 
+                </p>
+                ',
+                'patent' =>
+                    '
+                <p>
+                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                </p>
+                ',
+                'general_summary' =>
+                    '
+                <p>
+                    Green tea extract, Vitamin D3, Wild Blueberry extract, and Broccoli Sprout concentrate have been 
+                    shown to beneficially influence the regulation of cellular pathways promoting healthy cell cycles. 
+                    Broccoli sprout concentrate provides support for liver detoxification pathways, oestrogen metabolism, 
+                    and the inhibition of inflammatory mediators. The combination of green tea extract and broccoli 
+                    sprout concentrate may provide support for hepatic detoxification enzymes and activation of 
+                    cytoprotective pathways. Organic Spirulina powder supports healthy cellular function and immunity. 
+                    It is a natural source of the photosynthetic pigments chlorophyll A and phycocyanin. The combination 
+                    of a high dose of biologically active ubiquinol and L-carnitine maintain cellular energy metabolism 
+                    to support the reduction of tiredness and fatigue. Key ingredients support the maintenance of normal 
+                    cognitive function and protect against neuro-degernative processes which occur as a result of ageing. 
+                    Additional support for the cardiovascular system is provided through the promotion of healthy blood 
+                    vessel function and blood lipid profiles in healthy people.
+                </p>
+                ',
+                'practitioner_summary' =>
+                    "
+                <strong>STANDARD INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            Aids, assists or helps in the maintenance or improvement of general well-being. 
+                        </li>
+                    </ul>
+                </p>
+                <strong>SPECIFIC INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            COQ10 plays a central role in cellular energy production. CoQ10 is critical for ATP synthesis. L-carnitine modulates energy expenditure in healthy individuals.
+                            </li>
+                            <li>
+                            L-carnitine plays a key role in mitochondrial energy production and function.
+                            </li>
+                            <li>
+                            Blueberries may support cell functions that decline as a result of normal aging.
+                            </li>
+                            <li>
+                            Blueberries may protect against neuro-degenerative processes associated with aging. 
+                            </li>
+                            <li>
+                            Spirulina may reduce inflammation and immune decline associated with aging. 
+                            </li>
+                            <li>
+                            Vitamin D is immune-modulating hormone associated with healthy aging.
+                            </li>
+                            <li>
+                            COQ10 supports normal/healthy cardiovascular function. 
+                            </li>
+                            <li>
+                            Cocao flavanols may have favourable effects on cardiovascular health.
+                            </li>
+                            <li>
+                            Spirulina is naturally rich in the pigments phycocyanin and chlorophyll.
+                            </li>
+                            <li>
+                            Spirulina contains an array of phyto-nutritents including beta-carotene, iron, and Essential Fatty Acids (gamma-linolenic acid [GLA]). 
+                            </li>
+                            <li>
+                            Assists in the function of detoxification pathways via the liver.
+                            </li>
+                            <li>
+                            Contains broccoli sprout which may assist with healthy liver detoxification processes.
+                            </li>
+                            <li>
+                            Contains broccoli sprout which may assist with phase II liver detoxification processes.
+                            </li>
+                            <li>                        
+                            Vitamin D3 is required for proper cellular and immunological function.
+                            </li>
+                            <li>
+                            Vitamin D3 binds to and activates the vitamin D receptor (VDR) that is responsible for the transcription and trans-repression of genes. 
+                            </li>
+                            <li>
+                            Blueberry, green tea, spirulina and vitamin D were found to increase cell proliferation of human bone marrow cells in a dose-depended manner in vitro. 
+                            </li>
+                            <li>
+                            Blueberry, green tea, spirulina and vitamin D may support healthy cell division
+                        </li>
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>
+                            Contains lactose. 
+                        </li>
+                        <li>
+                            Vitamin Supplements should not replace a balanced diet.
+                        </li>
+                        <li>
+                            Do not take while on warfarin therapy without medical advice.
+                        </li>
+                    </ul>
+                </p>
+                ",
+                'references' =>
+                    '
+                    ',
+                'side_effects' =>
+                    '
+                <p>
+                    Refer to CMI
+                </p>
+                ',
+                'interactions' =>
+                    '
+                    <ul>
+                        <li>Coenzyme Q10 > warfarin  Coenzyme Q10 may decrease the anticoagulant effects of warfarin</li>
+                        <li>Coenzyme Q10 > Antihypertensives  Coenzyme Q10 may decrease blood pressure and may have additive effects with antihypertensives.</li>
+                        <p>Caution with patients taking blood pressure medication such as:</p>
+                        <ul>
+                        <li>Beta blockers</li>
+                        <li>Calcium channel blockers</li>
+                        <li>ACE inhibitors</li>
+                        <li>Angiotensin II receptor blockers</li>
+                        </ul>
+                        <li>Coenzyme Q10> HMG CoA Reductase Inhibitors (statins) HMG CoA Reductase inhibitors can reduce serum coenzyme Q10 levels</li>
+                        <li>Coenzyme Q10 > chemotherapeutic agents Coenzyme Q10 might protect tumor cells from chemotherapeutic agents that work by inducing oxidative stress, such as the alkylating agents (e.g. cyclophosphamide, Cytoxan), and doxorubicin. Use with caution.</li>
+                        <li>Green tea > Anticoagulant medications Catechins in green tea and caffeine are reported to have antiplatelet activity. Theoretically, green tea might increase the risk of bleeding when used with antiplatelet or anticoagulant drugs.</li>
+                        <li>Green tea> Proteosome inhibitors  Preliminary research shows that green tea polyphenols, interact with bortezomib and other boronic acid-based proteasome inhibitors by blocking proteasome inhibitory action. </li>
+                        <li>Green Tea> Nadolol Preliminary clinical research suggests that green tea significantly reduces plasma concentrations of nadolol. Green tea reduces the peak levels and total drug exposure (AUC) of nadolol.</li>
+                        <li>Green tea> clozapine Preliminary animal research suggests that,although green tea extract does not affect the elimination of clozapine, it delays the time to reach peak concentration and reduces the peak plasma levels. consumption of green tea may reduce rate and quantity of clozapine absorption and decrease systemic exposure.</li> 
+                         
+ 
+ 
+                    </ul>
+                ',
+                'dosage_information' =>
+                    '
+                <p>
+                    Adults: Take 7 g (1 scoop), once daily, or as directed by your healthcare professional.
+                </p>
+                ',
+                'ingredients' =>
+                    '
+                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>
+                                    <strong>ACTIVE INGREDIENTS</strong>
+                                </p>
+                            </td>
+                            <td valign="top" colspan="2">
+                                <p>
+                                    <strong>Each 7g dose (1 scoop) Contains</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Broccoli Sprout Concentrate *</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>200 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right">Equiv. <em>Brassica oleracea var. italica sprout </em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>4 g </p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Spirulina <em>(Arthrospira platensis)</em> Powder ** </p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>2 g</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Levocarnitine tartrate</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1466 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right">Equiv. Levocarnitine </p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1 g</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Colecalciferol (Vitamin D3)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1000 IU</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Ubiquinol-10 (Co Enzyme Q10)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>300 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right">Green Tea <em> (Camellia sinensis)</em> Dry Leaf Extract *</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>6.26 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Equiv. green tea <em>(Camellia sinensis) </em><leaf</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>500 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right">Equiv. Theanine</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1.38 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p><em>Vaccinium myrtillus extract*</em> </p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>10 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right">Equiv. <em>Vaccinium myrtillus</em>  fresh fruit</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>1 g</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Cocoa beans powder *</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>384.62 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right">Equiv. Cocoa beans <em>(Theobroma cacao L)</em> dry powder</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>2 g</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>*GMO free</p>
+                                <p>** Certified Organic</p>
+                                <p>
+                                    <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Xylitol</p>
+                                <p>Peppermint flavor</p>
+                                <p>Dark Chocolate flavour</p>
+                                <p>Silica</p>
+                                <p>Stevia</p>
+                                <p>Thaumatin</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                ',
+                'cmi' =>
+                    '
+                <p>
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/stemguard/cmi/english" target="_blank">
+                            Click Here For English CMI
+                    </p>
+                </p>
+                ',
+                'free_from' =>
+                    '
+                <p class="medlab_product_content_sub_title">
+                    Gluten Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Vegetarian friendly
+                </p>
+               
+                ',
+                'price_retail' => 64.13,
+                'price_wholesale' => 42.75,
+                'image_path' => '/img/products/stemguard/stemguard.jpg',
+                'thumb_image_path' => '/img/products/stemguard/stemguard_thumb.jpg',
+                'in_stock' => true,
+                'slug' => 'stemguard',
+
+
+
+
+
+        ],
+
+
+        [
+            'product_name_index' => 'Testo Restore',
+            'austl_number' => '295972',
+            'product_name' => 'Testo Restore',
+            'short_description' =>
+                '
+                <h4 class="medlab_product_content_title">Testo Restore</h4>
+                <p>
+                    Testo Restore is an evidence-based formulation designed to increase the level of free testosterone, 
+                    and support muscle strength and recovery. Zinc plays a central role in the regulation of cellular 
+                    growth and tissue repair, as well as the maintenance of a healthy immune system. Magnesium is 
+                    essential for the maintenance of electrolyte balance, energy production and normal neuromuscular function. 
+                </p>
+                ',
+            'patent' =>
+                '
+                <p>
+                    Always read the label, use only as directed, if symptoms persist see your healthcare practitioner.
+                </p>
+                ',
+            'general_summary' =>
+                '
+                <p>
+                    An evidence-based formulation designed to increase free testosterone levels and support muscle strength 
+                    and recovery. The active ingredient in Testo Restore has been shown to increase free testosterone and 
+                    Insulin Like Growth Factor-1 (IGF-1), in a Placebo-controlled clinical trial, in healthy men. IGF-1 
+                    and testosterone support muscle function and physical performance. 
+                    Exercise and excess perspiration increases the demand for zinc and magnesium, which are involved in muscle repair and 
+                    recovery. Through providing these nutrients, Testo Restore may support muscle strength and enhanced 
+                    recovery from exercise. Zinc plays a role in androgen metabolism and interaction with steroid receptors. 
+                    It is essential for the regulation of cellular growth and tissue repair. Magnesium supports energy 
+                    production, normal neuromuscular function and may assist with sleep quality. 
+
+                </p>
+                ',
+            'practitioner_summary' =>
+                "
+                <strong>STANDARD INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>
+                            Aids, assists or helps in the maintenance or improvement of general well-being. 
+                        </li>
+                    </ul>
+                </p>
+                <strong>SPECIFIC INDICATIONS</strong>
+                <p>
+                    <ul>
+                        <li>The combination of Zinc, Magnesium and Pyridoxine has been shown in a clinical trial to increase free testosterone and IGF-I in participants supplemented with this combination of nutrients compared to placebo </li>
+                        <li>The combination of Zinc, Magnesium and Pyridoxine has been shown in a clinical trial to increase muscle strength </li>
+                        <li>Zinc is required for healthy blood glucose metabolism</li>
+                        <li>Zinc is an essential component of a number of metalloenzymes, including lactate dehydrogenase, in skeletal muscle Zinc levels may be depleted during prolonged periods of exercise </li>
+                        <li>Changes in both intra- and extra-cellular zinc affect muscle function</li>
+                        <li>Exercise-induced fluctuations in serum zinc levels may be linked to muscle repair processes during exercise recovery</li>
+                        <li>Zinc and magnesium are involved in hormone receptor binding</li>
+                        <li>Zinc supports the health and function of male and female reproductive systems</li>
+                        <li>Zinc supports healthy testosterone levels in men</li>
+                        <li>Magnesium is involved in the production of ATP, or cellular energy</li>
+                        <li>Magnesium is a cofactor in more than 300 enzymatic reactions needed for the structural function of proteins, nucleic acids and mitochondria Contains nutrients that are essential for carbohydrate and fat metabolism</li>
+                        <li>Magnesium and zinc are involved in protein synthesis in the body.</li>
+                        <li>Contains nutrients that support healthy metabolism of proteins (magnesium and zinc) </li>
+
+                    </ul>
+                </p>
+
+                <p>
+                    <strong>WARNINGS</strong>
+                </p>
+
+                <p>
+                    <ul>
+                        <li>
+                            Vitamin supplements should not replace a balanced diet. Contains zinc - may be dangerous if taken in large amounts or for a long period.
+                        </li>
+                    </ul>
+                </p>
+                ",
+            'references' =>
+                '
+                    ',
+            'side_effects' =>
+                '
+                <p>
+                    Refer to CMI
+                </p>
+                ',
+            'interactions' =>
+                '
+                    <ul>
+                        <li>
+                            <b>Magnesium > Biphosphonates </b> (Alendronate, clodronate, etidronate, ibandronic acid, Risedronate, Tiludronate) Magnesium may interfere with absorption of biphosphonates. Magnesium supplements should be taken at least 4 hours before or 2 hours after taking these medications to minimize potential interference with absorption.
+                        </li>
+                        <li><b>Magnesium > Antibiotics </b>(Tetracyclines, Quinolones) Magnesium may form insoluble complexes with quinolones and tetracyclines and interfere with their absorption. Magnesium supplements should be taken at least 4 hours before or 2 hours after taking these medications to minimize potential interference with absorption.</li>
+                       
+                        <li><b>Magnesium > Gabapentin (Neurotin)</b> (Neurotin) Magnesium may interfere with gabapentin absorption. Magnesium supplements should be taken at least 4 hours before or 2 hours after taking this medication to minimize potential interference with absorption</li>
+                        
+                        <li><b>Magnesium > Calcium channel blockers</b> Theoretically, magnesium may have additive effects with calcium channel blockers. Caution is recommended when combining with high dose magnesium supplementation.</li>
+                        
+                        <li><b>Zinc >Antibiotics</b> (Tetracyclines and Quinolones) Zinc can form complexes with Tetracyclines and Quinolones in the gastrointestinal tract, which can reduce absorption of both the tetracycline and zinc when taken at the same time.  Zinc supplements should be taken 4 hours before, or 2 hours after these medications to minimize potential interference with absorption.</li>
+                        
+                        <li><b>Zinc > Antibiotics Cephalexin</b> (Keflex) High doses of zinc (250mg) may decrease cephalexin levels by interfering with intestinal absorption.  Zinc supplements should be taken 4 hours before, or 2 hours after these medications to minimize potential interference with absorption.</li>
+                        
+                        <li><b>Zinc > Penicillamine</b> (D-penamine) Zinc forms an insoluble complex with penicillamine, and may interfere with absorption. Zinc may reduce efficacy of low dose penicillamine. Zinc supplements should be taken 4 hours before, or 2 hours after these medications to minimize potential interference with absorption.</li>
+                        
+                        <li><b>Zinc > hypoglyceamic medications</b> Theoretically, zinc can have additive effects in patients treated with hypoglyceamic medications; use with caution, dose adjustments may be warranted, under professional recommendation.</li>
+                        
+                        <li><b>Zinc > Amiloride</b> Amiloride has a zinc sparing effect, reducing urinary zinc excretion. Use caution with high dose zinc supplementation.</li>
+                        
+                        <li><b>Vitamin B6 > Phenobarbitione</b> Preliminary research suggests that vitamin B6 (pyridoxine) 200 mg daily can reduce plasma levels of phenobarbital, possibly by increasing metabolism. It is not known whether lower doses have any effect. Avoid high doses of vitamin B6 (pyridoxine)</li>
+                        
+                        <li><b>Vitamin B6 > Phenytoin</b> Preliminary data suggests that vitamin B6 (pyridoxine) 200 mg daily can reduce plasma levels of phenytoin, possibly by increasing metabolism. It is not known whether lower doses have any effect. Advise people taking phenytoin to avoid high doses of vitamin B6 (pyridoxine).</li>
+
+                    </ul>
+                ',
+            'dosage_information' =>
+                '
+                <p>
+                    Adult Men: Four (4) capsules a day; or as directed by your healthcare professional.
+                    </p>
+                    <p>
+                    Adult Women: Three (3) capsules a day; or as directed by your healthcare professional.
+                </p>
+                ',
+            'ingredients' =>
+                '
+                <table class="table table-striped medlab_product_ingredients_table" cellspacing="0" cellpadding="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>
+                                    <strong>ACTIVE INGREDIENTS</strong>
+                                </p>
+                            </td>
+                            <td valign="top" colspan="2">
+                                <p>
+                                    <strong>Each Capsule Contains</strong>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Zinc (from Zinc Diaspartate, Zinc Methionine Sulfate and Zinc Oxide)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>8.89 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p style="text-align: right">Magnesium (from Magnesium Aspartate and Magnesium Oxide)</p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>124.185 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="273" valign="top">
+                                <p>Vitamin B6 (from Pyridoxine Hydrochloride)<em></em></p>
+                            </td>
+                            <td width="136" valign="top">
+                                <p>3.12 mg</p>
+                            </td>
+                            <td width="136" valign="top">
+                                &nbsp;
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td colspan="3">
+                                <strong>Excipient Ingredients</strong>
+                                </p>
+                                <p>Hypromellose</p>
+                                <p>Cellulose</p>
+                                <p>Magnesium stearate</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                <p>ZMA® 1718324 is a registered trademark of SNAC system, Inc., San Carlos, CA 94070</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                ',
+            'cmi' =>
+                '
+                <p>
+                    <p>
+                        <img width="24" height="24" alt="English" src="/img/products/cmi/English.png">
+                        <a class="medlab_panel_content_link" href="/nutraceuticals/products/testorestore/cmi/english" target="_blank">
+                            Click Here For English CMI
+                    </p>
+                </p>
+                ',
+            'free_from' =>
+                '
+                <p class="medlab_product_content_sub_title">
+                    Gluten Free
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Vegetarian friendly
+                </p>
+                <p class="medlab_product_content_sub_title">
+                    Dairy Free
+                </p>
+               
+                ',
+            'price_retail' => 36.75,
+            'price_wholesale' => 24.50,
+            'image_path' => '/img/products/testorestore/testorestore.jpg',
+            'thumb_image_path' => '/img/products/testorestore/testorestore_thumb.jpg',
+            'in_stock' => true,
+            'slug' => 'testorestore',
+
+
             ]
 
         ];
+
+
+
 
         $this->modify_products($modify_array);
 

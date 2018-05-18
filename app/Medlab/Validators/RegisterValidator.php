@@ -23,7 +23,7 @@ class RegisterValidator
 
     public function validBusinessType($attribute, $value, $parameters)
     {
-        $type = ['company', 'partnership', 'sole_enterprise_or_trade'];
+        $type = ['Company', 'Partnership', 'Sole Enterprise/Trade'];
 
         return in_array($value, $type);
     }

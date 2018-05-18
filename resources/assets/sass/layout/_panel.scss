@@ -6,26 +6,145 @@
 
 .medlab_panel_container {
   padding-top: 20px;
+
+  &.product {
+    h1 {
+      text-transform: uppercase;
+    }
+
+    hr {
+      border-color: $medlab-blue;
+    }
+
+    strong em {
+      text-transform: uppercase;
+      font-style: normal;
+    }
+
+    .row + hr {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    p {
+      padding-bottom: 2.0em;
+    }
+
+    table p {
+      padding-bottom: 0.5em;
+    }
+  }
 }
 
 .medlab_panel {
-  border: 1px solid $panel-border-colour;
+  background-color: transparent;
+  border: none;
+}
+
+.row.equal-height {
+  display: flex;
+  justify-content: space-between;
+}
+
+.medlab_ingredients_panel {
+  background-color: darken($theme-products, 10%);
+  color: #FFF;
+
+  .medlab_panel_content {
+    color: inherit;
+  }
+
+  table {
+    >tbody>tr>td,
+    >tbody>tr>th,
+    >tfoot>tr>td,
+    >tfoot>tr>th,
+    >thead>tr>td,
+    >thead>tr>th {
+      border-top: none;
+      padding: 0;
+
+      p {
+        margin-bottom: 0;
+      }
+
+      &:last-child {
+        text-align: right;
+      }
+
+      &:first-child {
+        text-align: left !important;
+      }
+    }
+
+    &.table-striped>tbody>tr:nth-of-type(odd) {
+      background-color: transparent;
+    }
+  }
+}
+
+.medlab_dosage_panel {
+  background-color: $medlab-blue;
+  color: #FFF;
+
+  .medlab_panel_content {
+    color: inherit;
+
+    .medlab_product_content_title {
+      color: inherit;
+    }
+  }
+}
+
+.medlab_freefrom_panel {
+  p {
+    display: inline-block;
+    width: 30%;
+    height: 0;
+    padding-bottom: 28% !important;
+    background-color: $medlab-blue;
+    color: #FFF;
+    border-radius: 100%;
+    border: 3px double #FFF;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 0.5em;
+    overflow-y: hidden;
+
+    &:before {
+      content: '';
+      margin-top: 35%;
+      display: block;
+    }
+  }
 }
 
 .medlab_panel_title {
   padding: 5px 20px 5px 20px;
   background-color: $panel-title-background !important;
+  background-image: none !important;
   color: $panel-title-text !important;
   opacity: 0.8;
   font-size: 20px;
-  font-family: "PT Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
+  border-radius: 4px;
+  font-weight: normal;
+  text-align: center;
 }
 
 .medlab_panel_content {
-  background-color: $panel-content-background;
+  background-color: transparent;
   color: $panel-content-text;
   font-size: 15px;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
+
+  .row {
+    border: 1px solid $medlab-blue;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: $product-gradient;
+  }
 }
 
 .medlab_panel_content_link {
@@ -42,7 +161,7 @@
   opacity: 0.8;
   text-align: center;
   font-size: 16px;
-  font-family: "PT Sans",sans-serif;
+  font-family: "Museo Sans",sans-serif;
 }
 
 .medlab_panel_image {

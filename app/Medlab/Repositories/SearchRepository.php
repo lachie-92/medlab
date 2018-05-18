@@ -61,7 +61,7 @@ class SearchRepository implements SearchRepositoryInterface
      */
     public function searchPractitioner($request)
     {
-        $all_practitioners = Practitioner::orderBy('id');
+        $all_practitioners = Practitioner::validOnly()->practitionerOnly()->orderBy('id');
 
         if(!empty($request['practitioner_country'])) {
             $all_practitioners = $all_practitioners->filterCountry($request['practitioner_country']);
