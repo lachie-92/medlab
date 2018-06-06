@@ -217,6 +217,10 @@ Route::get('/patientrewards', function () {
     return view('pages.education.patient-rewards.index');
 });
 
+Route::get('/education/media-center', function () {
+    return view('pages.education.media-center.index');
+});
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Help
