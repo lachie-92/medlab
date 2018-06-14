@@ -1,14 +1,13 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.1.46 (LTS) on 2018-01-12.
+ * Generated for Laravel 5.1.46 (LTS) on 2018-06-14 14:17:11.
+ *
+ * This file should not be included in your code, only analyzed by your IDE!
  *
  * @author Barry vd. Heuvel <barryvdh@gmail.com>
  * @see https://github.com/barryvdh/laravel-ide-helper
  */
-namespace  {
-    exit("This file should not be included, only analyzed by your IDE");
-}
 
 namespace Illuminate\Support\Facades { 
 
@@ -4952,7 +4951,7 @@ namespace Illuminate\Support\Facades {
          * @param array $cookies The COOKIE parameters
          * @param array $files The FILES parameters
          * @param array $server The SERVER parameters
-         * @param string|resource $content The raw body data
+         * @param string|resource|null $content The raw body data
          * @static 
          */ 
         public static function initialize($query = array(), $request = array(), $attributes = array(), $cookies = array(), $files = array(), $server = array(), $content = null)
@@ -4985,7 +4984,7 @@ namespace Illuminate\Support\Facades {
          * @param array $cookies The request cookies ($_COOKIE)
          * @param array $files The request files ($_FILES)
          * @param array $server The server parameters ($_SERVER)
-         * @param string $content The raw body data
+         * @param string|resource|null $content The raw body data
          * @return static 
          * @static 
          */ 
@@ -5621,7 +5620,7 @@ namespace Illuminate\Support\Facades {
          * Gets the mime type associated with the format.
          *
          * @param string $format The format
-         * @return string The associated mime type (null if not found)
+         * @return string|null The associated mime type (null if not found)
          * @static 
          */ 
         public static function getMimeType($format)
@@ -7942,7 +7941,7 @@ namespace Illuminate\Support\Facades {
          * @param array $cookies The COOKIE parameters
          * @param array $files The FILES parameters
          * @param array $server The SERVER parameters
-         * @param string|resource $content The raw body data
+         * @param string|resource|null $content The raw body data
          * @static 
          */ 
         public static function initialize($query = array(), $request = array(), $attributes = array(), $cookies = array(), $files = array(), $server = array(), $content = null)
@@ -7975,7 +7974,7 @@ namespace Illuminate\Support\Facades {
          * @param array $cookies The request cookies ($_COOKIE)
          * @param array $files The request files ($_FILES)
          * @param array $server The server parameters ($_SERVER)
-         * @param string $content The raw body data
+         * @param string|resource|null $content The raw body data
          * @return static 
          * @static 
          */ 
@@ -8611,7 +8610,7 @@ namespace Illuminate\Support\Facades {
          * Gets the mime type associated with the format.
          *
          * @param string $format The format
-         * @return string The associated mime type (null if not found)
+         * @return string|null The associated mime type (null if not found)
          * @static 
          */ 
         public static function getMimeType($format)
