@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+@include('partial.footer.top')
+@include('partial.footer.bottom')
+=======
 <footer class="footer">
     <div class="medlab_footer_top_wrapper">
         <div class="container medlab_footer_top_container">
@@ -258,3 +262,4 @@
         </div>
     </div>
 </footer>
+>>>>>>> master

@@ -190,11 +190,14 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     Route::get('/education/webinars/probiotics', function () {
         return view('pages.education.webinars.probiotics.index');
     });
+<<<<<<< HEAD
+=======
 
     
 });
 Route::get('/education/webinars/stress-and-fatigue', function () {
     return view('pages.education.webinars.stress.index');
+>>>>>>> master
 });
 
 Route::get('/education/webinars/register', function () {
@@ -588,6 +591,8 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     Route::get('/efficacy/podcast', function () {
         return view('pages.efficacy.podcast.index');
     });
+<<<<<<< HEAD
+=======
 
     Route::get('/efficacy/magazine_sn17', function () {
         return view('pages.efficacy.magazine_sn17.index');
@@ -600,6 +605,7 @@ Route::group(['middleware' => 'authPractitioner'], function () {
 
 
 
+>>>>>>> master
 });
 
 Route::get('/efficacy/novel-adjunct-for-depression', function () {
@@ -668,6 +674,8 @@ Route::post('/contact', 'ContactController@postSendEnquiryEmail');
 Route::get('/contact/map', function () {
     return view('pages.contact.map.index');
 });
+<<<<<<< HEAD
+=======
 
 Route::group(['middleware' => 'authAdmin'], function () {
     Route::get('/admin/nutraceuticals', 'Admin\NutraceuticalsController@index')->name('admin.nutraceuticals');
@@ -685,3 +693,4 @@ Route::group(['middleware' => 'authAdmin'], function () {
     Route::put('/admin/patents/{patentId}', 'Admin\PatentsController@update')->name('admin.patents.update');
     Route::delete('/admin/patents/{patentId}', 'Admin\PatentsController@destroy')->name('admin.patents.destroy');
 });
+>>>>>>> master

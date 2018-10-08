@@ -15,6 +15,7 @@
 
         <div class="collapse navbar-collapse" id="medlab-main-navbar">
             <ul class="nav navbar-nav">
+<<<<<<< HEAD
                 <li class="dropdown">
                     <a href="/" class="dropdown-toggle medlab_navbar_dropdown">
                         Home
@@ -22,11 +23,22 @@
                 </li>
                 <li class="vr"></li>
                 <li class="dropdown">
+=======
+                <li class="dropdown">
+                    <a href="/" class="dropdown-toggle medlab_navbar_dropdown">
+                        Home
+                    </a>
+                </li>
+                <li class="vr"></li>
+                <li class="dropdown">
+>>>>>>> master
                     <a href="/about" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
                         About Us
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/about-medlab">About Medlab</a></li>
+<<<<<<< HEAD
+=======
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/news">News</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/who-we-are">Who we are</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/our-past">Our Past</a></li>
@@ -37,6 +49,7 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/board-of-directors">Board of Director</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/letter-from-ceo">Letter From CEO</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/about/careers">Careers</a></li>
+>>>>>>> master
                     </ul>
                 </li>
                 <li class="vr"></li>
@@ -60,6 +73,10 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/developement">Products in Development</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/ems/nanabis">SAS - NanaBis (CBD:THC)</a></li>
                         <li role="separator" class="divider"></li>
+<<<<<<< HEAD
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/nutraceuticals/praceducationalresource">Practitioner Educational Resource</a></li>
+=======
+>>>>>>> master
                     </ul>
                 </li>
                 <li class="separator visible-md visible-lg">
@@ -70,7 +87,10 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/education/publications">Publications</a></li>
+<<<<<<< HEAD
+=======
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/education/media-center">Media Center</a></li>
+>>>>>>> master
                     </ul>
                 </li>
                 <li class="vr"></li>
@@ -87,6 +107,36 @@
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/patents">Patents</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/clinical-trials">Clinical Trials</a></li>
                         <li><a class="medlab_navbar_dropdown_menu_item" href="/research/scientific-team">Scientific Team</a></li>
+<<<<<<< HEAD
+                    </ul>
+                </li>
+                <li class="vr"></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
+                        Corporate
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-left medlab_navbar_dropdown_menu">
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate">Corporate Center</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/asx-announcements">ASX announcements</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/corporate-governance">Corporate Governance</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/share-price">Share Price</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/executive-team">Executive Team</a></li>
+                        <li><a class="medlab_navbar_dropdown_menu_item" href="/corporate/consulting-team">Consulting Team</a></li>
+                    </ul>
+                </li>
+                <li class="vr"></li>
+                <li class="dropdown">
+                    @if (Auth::user())
+                    <a href="/account" class="dropdown-toggle medlab_navbar_dropdown">
+                        My Account
+                    </a>
+                    @else
+                    <a href="/account/login" class="dropdown-toggle medlab_navbar_dropdown" @if (empty($disableDropdown)) data-toggle="dropdown" @endif>
+                        Login or Register
+                    </a>
+                    @endif
+                </li>
+=======
                     </ul>
                 </li>
                 <li class="vr"></li>
@@ -128,6 +178,7 @@
                     </ul>
                 </li>
                 @endif
+>>>>>>> master
             </ul>
         </div>
     </div>

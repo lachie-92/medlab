@@ -1,53 +1,66 @@
 @media (min-width: 0px) and (max-width: 1000px) {
   .medlab_navbar_logo {
     width: 280px !important; }
+
   .medlab_navbar_dropdown {
     font-size: 16px !important; }
+
   .medlab_carousel_bottom_panel_table {
     font-size: 16px !important; } }
-
 @media (min-width: 768px) and (max-width: 1200px) {
   .medlab_panel_image_title {
     font-size: 12px !important; } }
-
 @media (min-width: 0px) and (max-width: 571px) {
   .medlab_panel_image_title {
     font-size: 8px !important; } }
-
 @media (min-width: 1000px) and (max-width: 1920px) {
   .medlab_news_item {
     padding-right: 5px !important; }
+
   .medlab_news_sidebar_item {
     padding-left: 5px !important; }
+
   .medlab_product_main_column {
     padding-right: 0px !important; }
+
   .medlab_product_side_column {
     padding-left: 0px !important; } }
-
 @font-face {
   font-family: "Museo Sans";
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/MuseoSans_300-webfont.woff"); }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 @font-face {
   font-family: "Museo Sans Narrow";
   font-style: normal;
   font-weight: 100;
   src: url("/fonts/MuseoSans_100-webfont.woff"); }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 @font-face {
   font-family: "Museo Sans Bold";
   font-style: normal;
   font-weight: 700;
   src: url("/fonts/MuseoSans_700-webfont.woff"); }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 @font-face {
   font-family: "Museo Sans Condensed";
   font-style: normal;
   font-weight: 100;
   src: url("/fonts/MuseoSans_100-webfont.woff"); }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 .btn {
   border: 2px solid #FFF;
   color: #FFF; }
@@ -158,9 +171,13 @@ header {
     margin-right: auto; }
     .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav {
       width: 100%;
+<<<<<<< HEAD
+      display: flex;
+=======
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: distribute;
+>>>>>>> master
       justify-content: space-around; }
       .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li a {
         line-height: 1.0em;
@@ -385,9 +402,13 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   border: none; }
 
 .row.equal-height {
+<<<<<<< HEAD
+  display: flex;
+=======
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
+>>>>>>> master
   justify-content: space-between; }
 
 .medlab_ingredients_panel {
@@ -780,6 +801,29 @@ footer:first-of-type {
 .sorting_bar {
   background-color: #b6d13d; }
 
+.pagination li a,
+.pagination li a:hover,
+.pagination li a:focus,
+.pagination li.active a,
+.pagination li.active a:hover,
+.pagination li.active a:focus,
+.pagination li.disabled a,
+.pagination li.disabled a:hover,
+.pagination li.disabled a:focus {
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid #174a8a;
+  color: inherit;
+  width: 40px; }
+.pagination li:last-child a,
+.pagination li.active:last-child a,
+.pagination li.disabled:last-child a {
+  border-right: none;
+  width: auto; }
+
+.sorting_bar {
+  background-color: #b6d13d; }
+
 .medlab_product_list_sorting_bar_container {
   padding: 0px 0px 0px 0px;
   margin: 10px auto 10px auto;
@@ -896,6 +940,8 @@ footer:first-of-type {
   background-color: #337AB7;
   color: #FFFFFF; }
 
+<<<<<<< HEAD
+=======
 .spacer {
   margin-bottom: 24px; }
 
@@ -919,4 +965,5 @@ footer:first-of-type {
 #card-errors {
   color: #fa755a; }
 
+>>>>>>> master
 /*# sourceMappingURL=app.css.map */
