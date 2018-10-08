@@ -25,7 +25,7 @@
                                 <p>
                                     <a
                                             @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
-                                            href="/efficacy/magazine_ja17"
+                                            href="/efficacy/magazine_jm18"
                                             @elseif( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
                                             href="#"
                                             @else
@@ -33,17 +33,17 @@
                                             @endif
                                             target="_blank">
 
-                                        <img alt="Medlab Efficacy Magazine Edition 4"
-                                             src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 JUN17 v1.jpg"
-                                             title="Medlab Efficacy Magazine Edition 4"
+                                        <img alt="Medlab Efficacy Magazine Edition 6"
+                                             src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 JAN18 v1.jpg"
+                                             title="Medlab Efficacy Magazine Edition 6"
                                              width="450px"
                                              class="img-responsive center-block">
                                     </a>
                                 </p>
                                 <h1 style="text-align:center;">Medlab's New Efficacy<sup>TM</sup> Magazine</h1>
                                 <h4 style="color:grey; text-align:center;">A true integrative approach to medicine and health</h4>
-                                <p style="text-align:center;">Issue 3: June 2017 – August 2017</p>
-                                <p style="text-align:center;">Neuro-Cognitive Impairments</p>
+                                <p style="text-align:center;">Issue 6: January 2018 – March 2018</p>
+                                <p style="text-align:center;">Cancer, Chemotherapy, and Cannabis: Adjunct medicines and therapy</p>
                                 </br>
                                 <p style="text-align:center;">Efficacy™ is designed to educate and update Practitioners with Medlab research developments, company progression and the latest industry advancements with a variety of contributing authors.</p>
                                 <p style="text-align:center;">Available exclusively online, Efficacy™ can now host a variety of interactive content in an environmentally-friendly format. Efficacy™ Magazine is compatible with Microsoft, android and apple computers, tablets and phones.</p>
@@ -68,6 +68,38 @@
                                 <div class="medlab_news_sidebar_item_body">
                                     <ul class="medlab_news_sidebar_list media-list">
                                         <li class="medlab_news_sidebar_list_item">
+                                            <a href="/efficacy/magazine_sn17">
+                                                <div class="media-left media-middle">
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 SEPT17 v1.jpg" target="_blank" >
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="medlab_news_sidebar_list_item_title">
+                                                        Inflammatory Bowel Disease (IBD) and Adjunctive Treatments
+                                                    </div>
+                                                    <div class="medlab_news_sidebar_list_item_body">
+                                                        Issue 5: September 2017 – Novembver 2017
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="medlab_news_sidebar_list_item">
+                                            <a href="/efficacy/magazine_ja17">
+                                                <div class="media-left media-middle">
+                                                    <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 JUN17 v1.jpg" target="_blank" >
+                                                </div>
+                                                <div class="media-body">
+                                                    <div class="medlab_news_sidebar_list_item_title">
+                                                        Neuro-Cognitive Impairments
+                                                    </div>
+                                                    <div class="medlab_news_sidebar_list_item_body">
+                                                        Issue 4: June 2017 – August 2017
+
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="medlab_news_sidebar_list_item">
                                             <a href="/efficacy/magazine_mm17">
                                                 <div class="media-left media-middle">
                                                     <img class="medlab_news_sidebar_list_item_image" alt="Understanding the Clinical Application of NanoCelle" src="/img/efficacy/efficacy/EFFICACY Mag Web Banner 600x600 MAY17 v1[1].jpg" target="_blank" >
@@ -77,7 +109,7 @@
                                                         Neonatal Health and Immunity
                                                     </div>
                                                     <div class="medlab_news_sidebar_list_item_body">
-                                                        Issue 3: June - August 2016
+                                                        Issue 3: March 2017 - May 2017
 
                                                     </div>
                                                 </div>

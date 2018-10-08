@@ -2,14 +2,12 @@
 
 namespace App\Http\Controllers;
 
-
 use App\Http\Requests\CustomerAddressUpdateRequest;
 use App\Http\Requests\OrderViewDetailsRequest;
 use App\Medlab\Mailer\MedlabMailer;
 use App\Medlab\Repositories\AccountRepositoryInterface;
 use Illuminate\Http\Request;
 use App\Http\Requests;
-
 
 class AccountController extends Controller
 {
@@ -45,15 +43,17 @@ class AccountController extends Controller
         $orders = $this->repository->getLatestOrdersForUser($user);
 
         switch ($user->group) {
-
             case 'Patient':
-
                 return view('pages.account.dashboard.patient.main.index', compact('user', 'orders'));
                 break;
 
             case 'Practitioner':
-
                 return view('pages.account.dashboard.practitioner.main.index', compact('user', 'orders'));
+                break;
+
+            case 'Admin':
+                return view('pages.account.dashboard.admin.main.index', compact('user'));
+
                 break;
         }
     }
@@ -68,16 +68,13 @@ class AccountController extends Controller
         $user = $this->user;
 
         switch ($user->group) {
-
             case 'Patient':
-
                 return view('pages.account.dashboard.patient.edit.index', compact(
                     'user'
                 ));
                 break;
 
             case 'Practitioner':
-
                 return view('pages.account.dashboard.practitioner.edit.index', compact(
                     'user'
                 ));

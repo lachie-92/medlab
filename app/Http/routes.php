@@ -190,9 +190,39 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     Route::get('/education/webinars/probiotics', function () {
         return view('pages.education.webinars.probiotics.index');
     });
+<<<<<<< HEAD
+=======
+
+    
+});
+Route::get('/education/webinars/stress-and-fatigue', function () {
+    return view('pages.education.webinars.stress.index');
+>>>>>>> master
 });
 
+Route::get('/education/webinars/register', function () {
+    return view('pages.education.webinars.register.index');
+});
 
+Route::get('/education/webinars/recordings', function () {
+    return view('pages.education.webinars.recordings.index');
+});
+
+Route::get('/education/webinars/recordings/2017-year-in-review', function () {
+    return view('pages.education.webinars.2017-year-in-review.index');
+});
+
+Route::get('/education/giveaways', function () {
+    return view('pages.education.giveaways.index');
+});
+
+Route::get('/patientrewards', function () {
+    return view('pages.education.patient-rewards.index');
+});
+
+Route::get('/education/media-center', function () {
+    return view('pages.education.media-center.index');
+});
 
 ///////////////////////////////////////////////////////////////////////////////////
 //
@@ -206,6 +236,14 @@ Route::get('/help', function () {
 
 Route::get('/help/website-registration', function () {
     return view('pages.help.website-registration.index');
+});
+
+Route::get('/medical-cannabis/expression-of-interest', function () {
+    return view('pages.medical-cannabis.index');
+});
+
+Route::get('medical-cannabis/application-form', function () {
+    return view('pages.medical-cannabis.application-form.index');
 });
 
 
@@ -348,7 +386,7 @@ Route::get('/research/medlab-delivery-platform', function () {
 });
 
 Route::get('/research/patents', function () {
-    return view('pages.research.patents.index');
+    return view('pages.research.patents.index', [ 'patents' => App\Patent::all() ]);
 });
 
 Route::get('/research/clinical-trials', function () {
@@ -431,6 +469,43 @@ Route::get('/research/clinical-trials/t2-biotic', function () {
     return view('pages.research.clinical-trails.t2-biotic.index');
 });
 
+Route::get('/research/clinical-trials/aborvitae', function () {
+    return view('pages.research.clinical-trails.aborvitae.index');
+});
+
+Route::get('/EMS/NanaBis', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/EMS/Nanabis', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/ems/nanabis', function () {
+    return view('pages.research.sas.nanabis.index');
+});
+
+Route::get('/EMS/NanaBidial', function () {
+    return view('pages.research.sas.Nanabidial.index');
+});
+
+Route::get('/EMS/Nanabidial', function () {
+    return view('pages.research.sas.Nanabidial.index');
+});
+
+Route::get('/ems/nanabidial', function () {
+    return view('pages.research.sas.Nanabidial.index');
+});
+
+
+Route::get('/ems/nanabis/nanabis', function () {
+    return view('pages.research.sas.index');
+});
+
+
+Route::get('/nanabis/seminar', function () {
+    return view('pages.research.sas.nanabis.seminar.index');
+});
 
 
 
@@ -442,6 +517,10 @@ Route::get('/research/clinical-trials/t2-biotic', function () {
 
 Route::get('/about', function () {
     return view('pages.about.about-us.index');
+});
+
+Route::get('/about/news', function () {
+    return view('pages.about.news.index');
 });
 
 Route::get('/about/about-medlab', function () {
@@ -484,6 +563,7 @@ Route::get('/about/careers', function () {
     return view('pages.about.careers.index');
 });
 
+
 ///////////////////////////////////////////////////////////////////////////////////
 //
 // Efficacy pages
@@ -511,6 +591,21 @@ Route::group(['middleware' => 'authPractitioner'], function () {
     Route::get('/efficacy/podcast', function () {
         return view('pages.efficacy.podcast.index');
     });
+<<<<<<< HEAD
+=======
+
+    Route::get('/efficacy/magazine_sn17', function () {
+        return view('pages.efficacy.magazine_sn17.index');
+    });
+
+    Route::get('/efficacy/magazine_jm18', function () {
+        return view('pages.efficacy.magazine_jm18.index');
+    });
+
+
+
+
+>>>>>>> master
 });
 
 Route::get('/efficacy/novel-adjunct-for-depression', function () {
@@ -579,3 +674,23 @@ Route::post('/contact', 'ContactController@postSendEnquiryEmail');
 Route::get('/contact/map', function () {
     return view('pages.contact.map.index');
 });
+<<<<<<< HEAD
+=======
+
+Route::group(['middleware' => 'authAdmin'], function () {
+    Route::get('/admin/nutraceuticals', 'Admin\NutraceuticalsController@index')->name('admin.nutraceuticals');
+    Route::get('/admin/nutraceuticals/new', 'Admin\NutraceuticalsController@create')->name('admin.nutraceuticals.create');
+    Route::post('/admin/nutraceuticals/new', 'Admin\NutraceuticalsController@store')->name('admin.nutraceuticals.store');
+    Route::get('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@edit')->name('admin.nutraceuticals.edit');
+    Route::put('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@update')->name('admin.nutraceuticals.update');
+    Route::delete('/admin/nutraceuticals/{productSlug}', 'Admin\NutraceuticalsController@destroy')->name('admin.nutraceuticals.destroy');
+
+
+    Route::get('/admin/patents', 'Admin\PatentsController@index')->name('admin.patents');
+    Route::get('/admin/patents/new', 'Admin\PatentsController@create')->name('admin.patents.create');
+    Route::post('/admin/patents/new', 'Admin\PatentsController@store')->name('admin.patents.store');
+    Route::get('/admin/patents/{patentId}', 'Admin\PatentsController@edit')->name('admin.patents.edit');
+    Route::put('/admin/patents/{patentId}', 'Admin\PatentsController@update')->name('admin.patents.update');
+    Route::delete('/admin/patents/{patentId}', 'Admin\PatentsController@destroy')->name('admin.patents.destroy');
+});
+>>>>>>> master

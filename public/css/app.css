@@ -30,21 +30,37 @@
   font-style: normal;
   font-weight: 400;
   src: url("/fonts/MuseoSans_300-webfont.woff"); }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 @font-face {
   font-family: "Museo Sans Narrow";
   font-style: normal;
   font-weight: 100;
   src: url("/fonts/MuseoSans_100-webfont.woff"); }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 @font-face {
   font-family: "Museo Sans Bold";
   font-style: normal;
   font-weight: 700;
   src: url("/fonts/MuseoSans_700-webfont.woff"); }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 @font-face {
   font-family: "Museo Sans Condensed";
   font-style: normal;
   font-weight: 100;
   src: url("/fonts/MuseoSans_100-webfont.woff"); }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 .btn {
   border: 2px solid #FFF;
   color: #FFF; }
@@ -155,7 +171,13 @@ header {
     margin-right: auto; }
     .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav {
       width: 100%;
+<<<<<<< HEAD
       display: flex;
+=======
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-pack: distribute;
+>>>>>>> master
       justify-content: space-around; }
       .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li a {
         line-height: 1.0em;
@@ -380,7 +402,13 @@ header + .medlab_navbar_container .navbar-collapse.collapse:not(.in) ul.nav li.s
   border: none; }
 
 .row.equal-height {
+<<<<<<< HEAD
   display: flex;
+=======
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+>>>>>>> master
   justify-content: space-between; }
 
 .medlab_ingredients_panel {
@@ -746,6 +774,32 @@ footer:first-of-type {
 
 .medlab_product_ingredients_table {
   font-size: 12px; }
+  .medlab_product_ingredients_table tr {
+    background-color: transparent !important; }
+
+.pagination li a,
+.pagination li a:hover,
+.pagination li a:focus,
+.pagination li.active a,
+.pagination li.active a:hover,
+.pagination li.active a:focus,
+.pagination li.disabled a,
+.pagination li.disabled a:hover,
+.pagination li.disabled a:focus {
+  background-color: transparent;
+  border: none;
+  border-right: 1px solid #174a8a;
+  color: inherit;
+  width: 40px; }
+
+.pagination li:last-child a,
+.pagination li.active:last-child a,
+.pagination li.disabled:last-child a {
+  border-right: none;
+  width: auto; }
+
+.sorting_bar {
+  background-color: #b6d13d; }
 
 .pagination li a,
 .pagination li a:hover,
@@ -886,4 +940,30 @@ footer:first-of-type {
   background-color: #337AB7;
   color: #FFFFFF; }
 
+<<<<<<< HEAD
+=======
+.spacer {
+  margin-bottom: 24px; }
+
+.StripeElement {
+  background-color: white;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccd0d2;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: box-shadow 150ms ease; }
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df; }
+
+.StripeElement--invalid {
+  border-color: #fa755a; }
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important; }
+
+#card-errors {
+  color: #fa755a; }
+
+>>>>>>> master
 /*# sourceMappingURL=app.css.map */

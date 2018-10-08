@@ -14,7 +14,7 @@
                     Medlab Efficacy Magazine Edition 1
                 </div>
                 <div class="panel-body medlab_panel_content">
-                    <iframe src="https://cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ftpfgj99v&bgcolor=EEEEEE&t=1473635435" width="100%" height="900pz" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                    <iframe src="https://cdn.flipsnack.com/widget/flipsnackwidget.html?hash=ftpfgj99v&bgcolor=EEEEEE&t=1473635435" width="100%" height="900px" seamless="seamless" scrolling="no" frameBorder="0" allowTransparency="true" allowFullScreen="true"></iframe>
                     <br>
                     <button type="button" class="btn btn-default"><a href="https://s3-ap-southeast-2.amazonaws.com/medlabpdfs/EFFICACY+Magazine+SEPT16+edition+FINAL.pdf" download>DOWNLOAD EFFICACY MAGAZINE HERE</a></button><br><br>
                     <br>

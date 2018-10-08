@@ -32,9 +32,9 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'password' => 'required|confirmed|min:6|max:255',
             'clinic_name' => 'required:max:50',
             'business_type' => 'required|validBusinessType',
-            'business_number' => 'required|numeric',
+            'business_number' => 'required|digits:11',
             'primary_profession' => 'required|max:50',
-            'association_number' => array('required','regex:/^[0-9]+$/', 'max:20'),
+            'association_number' => 'required',
             'association_type' => 'required|max:50',
             'street_address_one' => 'required|max:50',
             'street_address_two' => 'required|max:50',
@@ -49,7 +49,7 @@ class GuestCreatePractitionerRegistrationRequest extends Request
             'been_refused_credit' => 'boolean|required_if:credit_application,1',
             'patient_billing' => 'boolean|required',
             'is_owner' => 'boolean|required_if:credit_application,1',
-            'qualification_file' => 'mimes:jpeg,png,pdf',
+            'qualification_file' => 'mimes:jpeg,png,pdf|max:20000',
         ];
     }
 

@@ -54,6 +54,7 @@ $('.nav-tabs a').click(function (e) {
 
             <!--
                 Patent Box
+<<<<<<< HEAD
             -->
             {!! $product->patent !!}
 
@@ -61,6 +62,15 @@ $('.nav-tabs a').click(function (e) {
             <!--
                 Clinical Summary
             -->
+=======
+            -->
+            {!! $product->patent !!}
+
+
+            <!--
+                Clinical Summary
+            -->
+>>>>>>> master
             <p>
                 <strong><em>General Use:</em></strong>
             </p>
@@ -85,6 +95,7 @@ $('.nav-tabs a').click(function (e) {
                     <div role="tabpanel" class="tab-pane" id="warnings">{!! $product->side_effects !!}</div>
                     @endif
                     <div role="tabpanel" class="tab-pane" id="clinicaltrials">{!! $product->clinical_trials !!}</div>
+<<<<<<< HEAD
                 </div>
             </div>
             @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner'))
@@ -126,8 +137,34 @@ $('.nav-tabs a').click(function (e) {
                     </div>
                 </div>
 
+=======
+                </div>
+            </div>
+            @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner'))
+            <br /><br />
+            <div>
+                <ul class="nav nav-tabs nav-justified" role="tablist">
+                    <li role="presentation" class="active"><a href="#practitionerinformation" aria-controls="practitionerinformation" role="tab" data-toggle="tab">Practitioner Information</a></li>
+                    @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (ctype_space($product->interactions) == false))
+                    <li role="presentation"><a href="#interactions" aria-controls="interactions" role="tab" data-toggle="tab">Interactions</a></li>
+                    @endif
+                    <li role="presentation"><a href="#education" aria-controls="education" role="tab" data-toggle="tab">Education</a></li>
+                    <li role="presentation"><a href="#productfaq" aria-controls="productfaq" role="tab" data-toggle="tab">Product FAQ</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="practitionerinformation">{!! $product->practitioner_summary !!}</div>
+                    @if ((Auth::guest() == false) && (Auth::user()->group == 'Practitioner') && (ctype_space($product->interactions) == false))
+                    <div role="tabpanel" class="tab-pane" id="interactions">{!! $product->interactions !!}</div>
+                    @endif
+                    <div role="tabpanel" class="tab-pane" id="education">{!! $product->education !!}</div>
+                    <div role="tabpanel" class="tab-pane" id="productfaq">{!! $product->productfaq !!}</div>
+                </div>
+            </div>
+>>>>>>> master
             @endif
+        </div>
 
+<<<<<<< HEAD
             <!--
                 References (Disabled)
             -->
@@ -159,9 +196,92 @@ $('.nav-tabs a').click(function (e) {
 
                             </div>
                         </div>
-                    </div>
-                @endif
+=======
+        <!--
+            Side Column
+        -->
+        <div class="col-md-4 col-sm-12 col-xs-12 medlab_product_side_column">
 
+            <!--
+                Free from
+            -->
+
+
+            <!--
+                Image Box
+            -->
+            <div class="panel-body medlab_panel_content">
+                <a class="product_modal_link" href="#">
+                    <img class="product_image" alt="{!! $product->product_name !!}" src="{!! $product->image_path !!}" width="100%"/>
+                </a>
+            </div>
+
+            <!--
+                Product Info Box
+            -->
+            <div class="panel panel-primary medlab_panel">
+                <div class="panel-body medlab_panel_content">
+                    @foreach ($product->promotions as $promotion)
+                        @if (Auth::guest() == false)
+                            @if ($promotion->isEligibleForPromotion(Auth::user()->group))
+                                <div class="alert alert-success" role="alert" style="margin-bottom:3px;">
+                                    <b>{{ $promotion->description }}</b>
+                                </div>
+                            @endif
+                        @endif
+                    @endforeach
+
+                    <p>
+                        Availability:
+                        @if ($product->in_stock)
+                            <span class="medlab_product_info_in_stock">
+                                In stock
+                            </span>
+                        @else
+                            <span class="medlab_product_info_out_of_stock">
+                                Out of stock
+                            </span>
+                        @endif
+                    </p>
+
+                    <div class="medlab_product_info_price_box">
+                        <span class="medlab_product_info_price_box_price">
+                            @if ( (Auth::guest() == false) && (Auth::user()->group == 'Practitioner') )
+                                <span class="medlab_product_info_price_box_label">
+                                    Price:
+                                </span>
+                                <?php $active_discount_promotions = $product->promotions->where('isActive', 1)->filter(function ($item) {    return \Carbon\Carbon::now()->gte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->starting_date)) && \Carbon\Carbon::now()->lte(\Carbon\Carbon::createFromFormat('Y-m-d H:i:s', $item->end_date)); })->where('type', 'price_discount'); ?>
+                                @if(count($active_discount_promotions) == 1)
+                                    <span style="text-decoration: line-through;">
+                                        ${!! number_format($product->price_wholesale, 2) !!}
+                                    </span>
+                                    <span style="font-size: 12px; color: #555;">
+                                        WS
+                                    </span>
+                                    <br>
+                                    ${!! number_format($product->price_wholesale - $product->price_wholesale*$active_discount_promotions->first()->price_discount->discount_percentage/100, 2) !!}
+                                    <span style="font-size: 12px; color: #555;">
+                                        WS
+                                    </span>
+                                @else
+                                    ${!! number_format($product->price_wholesale, 2) !!}
+                                    <span style="font-size: 12px; color: #555;">
+                                        WS
+                                    </span>
+                                @endif
+                            @elseif ( (Auth::guest() == false) && (Auth::user()->group == 'Patient') )
+                                <span class="medlab_product_info_price_box_label">
+                                    Price:
+                                </span>
+                                ${!! round($product->price_retail*11/10, 2) !!}
+                            @else
+                                <div style="font-size: 15px; color: black;">Please <a href="/account/login">Login</a> to see product price and more product information.</div>
+                            @endif
+                        </span>
+>>>>>>> master
+                    </div>
+
+<<<<<<< HEAD
 
 
         </div>
@@ -177,10 +297,31 @@ $('.nav-tabs a').click(function (e) {
             <div class="panel panel-primary medlab_panel medlab_freefrom_panel">
                 <div class="panel-body medlab_panel_content">
                     {!! $product->free_from !!}
+=======
+                    <div class="medlab_product_info_shop_box">
+                        <form action="/shoppingcart/update" method="post">
+                            <input type="hidden" name="_token" value="{{ csrf_token() }}">
+                            <input type="hidden" value="{{ $product->id }}" name="product_id">
+                            <div class="input-group">
+                                @if ($product->in_stock)
+                                    <span class="input-group-addon">
+                                    Qty:
+                                    </span>
+                                    <input id="product_quantity" name="product_quantity" class="form-control" type="text" placeholder="Quantity" title="Quantity" value="1"/>
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default medlab_product_info_shop_box_button" type="submit" title="Add to Cart" >Add to Cart</button>
+                                    </span>
+                                @endif
+                            </div>
+                        </form>
+                    </div>
+
+>>>>>>> master
                 </div>
             </div>
 
             <!--
+<<<<<<< HEAD
                 Image Box
             -->
             <div class="panel-body medlab_panel_content">
@@ -282,6 +423,15 @@ $('.nav-tabs a').click(function (e) {
                 <div class="panel-body medlab_panel_content">{!! $product->conditions_associated !!}</div>
             </div>
 
+=======
+                CMI
+            -->
+            <div class="panel panel-primary medlab_panel">
+                <div class="panel-heading medlab_panel_title">Conditions Associated</div>
+                <div class="panel-body medlab_panel_content">{!! $product->conditions_associated !!}</div>
+            </div>
+
+>>>>>>> master
             <div class="panel panel-primary medlab_panel">
                 <div class="panel-heading medlab_panel_title">Additional Resources</div>
                 <div class="panel-body medlab_panel_content">{!! $product->additional_resources !!}</div>

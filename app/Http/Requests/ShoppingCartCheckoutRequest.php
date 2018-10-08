@@ -18,7 +18,6 @@ class ShoppingCartCheckoutRequest extends Request
         $order = Order::find(Request::get('order'));
 
         if ($order != null && $order->user_id == Auth::user()->id) {
-
             if ($order->order_status == 'New Order') {
                 return true;
             }
@@ -43,8 +42,7 @@ class ShoppingCartCheckoutRequest extends Request
     public function rules()
     {
         return [
-            'payment_token' => 'required',
-            'payment_type' => 'required|validPaymentOption',
+            'stripeToken' => 'required',
             'order' => 'required|exists:orders,id'
         ];
     }
@@ -52,7 +50,7 @@ class ShoppingCartCheckoutRequest extends Request
     public function messages()
     {
         return [
-            'payment_token.required' => 'You must select a Payment Option'
+            'stripeToken.required' => 'There was a problem communicating with our payment processer. Please contact support',
         ];
     }
 }

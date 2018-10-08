@@ -550,8 +550,8 @@ class AdminRepository implements AdminRepositoryInterface
         $orderReceived = Order::orderBy('created_at', 'desc')->searchReceivedOrders()->paginate($itemsPerPage, ['*'], 'received');
         $orderReceived->setPath('/account/admin-orders/received');
 
-        $orderCanceled = Order::orderBy('created_at', 'desc')->searchCanceledOrders()->paginate($itemsPerPage, ['*'], 'canceled');
-        $orderCanceled->setPath('/account/admin-orders/canceled');
+        $orderCancelled = Order::orderBy('created_at', 'desc')->searchCanceledOrders()->paginate($itemsPerPage, ['*'], 'canceled');
+        $orderCancelled->setPath('/account/admin-orders/canceled');
 
         $orderDispatched = Order::orderBy('created_at', 'desc')->searchDispatchedOrders()->paginate($itemsPerPage, ['*'], 'dispatched');
         $orderDispatched->setPath('/account/admin-orders/dispatched');
@@ -560,7 +560,7 @@ class AdminRepository implements AdminRepositoryInterface
         $orderOnHold->setPath('/account/admin-orders/on-hold');
 
         $orderCollection['received'] = $orderReceived;
-        $orderCollection['canceled'] = $orderCanceled;
+        $orderCollection['cancelled'] = $orderCancelled;
         $orderCollection['dispatched'] = $orderDispatched;
         $orderCollection['on-hold'] = $orderOnHold;
 
@@ -603,8 +603,8 @@ class AdminRepository implements AdminRepositoryInterface
                 $result['redirect'] = '/account/admin-orders/received';
                 break;
 
-            case 'Order Canceled':
-                $result['redirect'] = '/account/admin-orders/canceled';
+            case 'Order Cancelled':
+                $result['redirect'] = '/account/admin-orders/cancelled';
                 break;
 
             case 'Order Dispatched':

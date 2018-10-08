@@ -101,6 +101,9 @@ class PractitionerOnlyController extends Controller
             case "orsbiotic":
                 return view('pages.education.practitioner-education.new-concept-of-oral-rehydration.index');
                 break;
+            case "orsbiotic-10pk-sachets":
+                return view('pages.education.practitioner-education.new-concept-of-oral-rehydration.index');
+                break;
             case "SB-5B":
                 return view('pages.education.practitioner-education.efficacy-of-saccharomyces-boulardii.index');
                 break;
